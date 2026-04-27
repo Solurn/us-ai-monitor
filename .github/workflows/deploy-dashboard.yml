@@ -6,8 +6,8 @@ on:
       - main
   workflow_dispatch:
   schedule:
-    # Runs after the regular US market close, around 07:30 Taiwan time during US daylight saving time.
-    - cron: "30 23 * * 1-5"
+    # Runs after the regular US market close, around 06:30 Taiwan time during US daylight saving time.
+    - cron: "30 22 * * 1-5"
 
 permissions:
   contents: read
