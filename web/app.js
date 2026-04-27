@@ -493,7 +493,18 @@ const macroEvents = [
   },
 ];
 
-const allEvents = [...upcomingEvents, ...macroEvents].sort((a, b) => `${a.date} ${a.time}`.localeCompare(`${b.date} ${b.time}`));
+const dailyBriefing = window.dailyBriefing ?? {
+  generatedAt: "",
+  asOfDate: "尚未更新",
+  sourceMode: "Fallback static",
+  summary: [],
+  events: [],
+  stockUpdates: {},
+  stats: {},
+  errors: [],
+};
+
+const allEvents = [...(dailyBriefing.events ?? []), ...upcomingEvents, ...macroEvents].sort((a, b) => `${a.date} ${a.time}`.localeCompare(`${b.date} ${b.time}`));
 
 const stockIntel = {
   AAPL: {
@@ -940,6 +951,14 @@ const stockResearchNotes = {
   },
 };
 
+Object.entries(dailyBriefing.stockUpdates ?? {}).forEach(([ticker, update]) => {
+  if (!stockIntel[ticker]) stockIntel[ticker] = { recent: [], market: [], sources: [] };
+  const autoItems = (update.items ?? []).map((item) => `自動更新：${item}`);
+  const autoSources = update.sources ?? [];
+  stockIntel[ticker].recent = [...autoItems, ...(stockIntel[ticker].recent ?? [])].slice(0, 7);
+  stockIntel[ticker].sources = [...autoSources, ...(stockIntel[ticker].sources ?? [])].slice(0, 8);
+});
+
 const learningTopics = [
   {
     id: "ai-factory",
@@ -1143,6 +1162,13 @@ const eventList = document.querySelector("#eventList");
 const learningCount = document.querySelector("#learningCount");
 const learningFilters = document.querySelector("#learningFilters");
 const learningList = document.querySelector("#learningList");
+const briefingAsOf = document.querySelector("#briefingAsOf");
+const briefingMetric = document.querySelector("#briefingMetric");
+const briefingMode = document.querySelector("#briefingMode");
+const briefingUpdated = document.querySelector("#briefingUpdated");
+const briefingStats = document.querySelector("#briefingStats");
+const briefingList = document.querySelector("#briefingList");
+const dataStatusText = document.querySelector("#dataStatusText");
 
 function themeCount(theme) {
   if (theme === "All") return watchlist.length;
@@ -1624,6 +1650,41 @@ function renderLearningFilters() {
   });
 }
 
+function formatBriefingTime(value) {
+  if (!value) return "待部署";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return value;
+  return date.toLocaleString("zh-TW", {
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  });
+}
+
+function renderDailyBriefing() {
+  const summary = dailyBriefing.summary ?? [];
+  const stats = dailyBriefing.stats ?? {};
+  const asOf = dailyBriefing.asOfDate || "尚未更新";
+  const updated = formatBriefingTime(dailyBriefing.generatedAt);
+  const mode = dailyBriefing.sourceMode ?? "Fallback static";
+
+  if (briefingAsOf) briefingAsOf.textContent = `資料整理日：${asOf}`;
+  if (briefingMetric) briefingMetric.textContent = stats.updatedStocks ? `${stats.updatedStocks} 檔` : "每日";
+  if (briefingMode) briefingMode.textContent = mode.includes("public") ? "自動抓取" : "自動更新";
+  if (briefingUpdated) briefingUpdated.textContent = updated;
+  if (briefingStats) briefingStats.textContent = `新聞 ${stats.newsItems ?? 0} 則 / SEC ${stats.secEvents ?? 0} 筆 / 個股 ${stats.updatedStocks ?? 0} 檔`;
+  if (dataStatusText) {
+    dataStatusText.textContent = `目前由 GitHub Actions 產生每日資料檔；來源模式：${mode}。公開 SEC filing 與美股漲跌幅會自動更新，研究筆記與學習區會保留人工整理脈絡。`;
+  }
+
+  if (!briefingList) return;
+  briefingList.innerHTML = summary.length
+    ? summary.map((item) => `<article class="briefing-card"><p>${item}</p></article>`).join("")
+    : `<div class="empty-state">每日 briefing 尚未產生，請先執行 GitHub Actions。</div>`;
+}
+
 function renderEvents() {
   const events = filteredEvents();
   eventCount.textContent = events.length;
@@ -1652,6 +1713,7 @@ function renderStocks() {
 }
 
 function render() {
+  renderDailyBriefing();
   renderFilters();
   renderEventFilters();
   renderLearningFilters();

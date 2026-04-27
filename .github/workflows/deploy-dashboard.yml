@@ -27,8 +27,8 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Update performance snapshot
-        run: npm run update:performance
+      - name: Update dashboard data
+        run: npm run update:daily
 
       - name: Upload web artifact
         uses: actions/upload-pages-artifact@v3

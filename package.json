@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "update:performance": "node scripts/update-performance.mjs",
-    "check": "node --check web/app.js && node --check scripts/update-performance.mjs"
+    "update:briefing": "node scripts/update-daily-briefing.mjs",
+    "update:daily": "npm run update:performance && npm run update:briefing",
+    "check": "node --check web/app.js && node --check scripts/update-performance.mjs && node --check scripts/update-daily-briefing.mjs"
   }
 }

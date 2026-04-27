@@ -8,7 +8,10 @@ $Root = Split-Path -Parent $ScriptDir
 $LogDir = Join-Path $Root "outputs\logs"
 $LockPath = Join-Path $LogDir "performance-update.lock"
 $LogPath = Join-Path $LogDir ("performance-update-{0}.log" -f (Get-Date -Format "yyyyMMdd-HHmmss"))
-$NodeScript = Join-Path $ScriptDir "update-performance.mjs"
+$NodeScripts = @(
+  (Join-Path $ScriptDir "update-performance.mjs"),
+  (Join-Path $ScriptDir "update-daily-briefing.mjs")
+)
 $BundledNode = "C:\Users\User\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe"
 
 New-Item -ItemType Directory -Force -Path $LogDir | Out-Null
@@ -40,10 +43,17 @@ try {
   "Started: {0}" -f (Get-Date -Format "yyyy-MM-dd HH:mm:ss") | Out-File -FilePath $LogPath -Encoding utf8
   "Root: $Root" | Out-File -FilePath $LogPath -Encoding utf8 -Append
   "Node: $NodeExe" | Out-File -FilePath $LogPath -Encoding utf8 -Append
-  "Command: $NodeExe $NodeScript" | Out-File -FilePath $LogPath -Encoding utf8 -Append
+  "Command: $NodeExe update-performance.mjs; $NodeExe update-daily-briefing.mjs" | Out-File -FilePath $LogPath -Encoding utf8 -Append
 
-  & $NodeExe $NodeScript *>&1 | Out-File -FilePath $LogPath -Encoding utf8 -Append
-  $exitCode = $LASTEXITCODE
+  $exitCode = 0
+  foreach ($NodeScript in $NodeScripts) {
+    "Running: $NodeScript" | Out-File -FilePath $LogPath -Encoding utf8 -Append
+    & $NodeExe $NodeScript *>&1 | Out-File -FilePath $LogPath -Encoding utf8 -Append
+    if ($LASTEXITCODE -ne 0) {
+      $exitCode = $LASTEXITCODE
+      break
+    }
+  }
 
   "Finished: {0}" -f (Get-Date -Format "yyyy-MM-dd HH:mm:ss") | Out-File -FilePath $LogPath -Encoding utf8 -Append
   "ExitCode: $exitCode" | Out-File -FilePath $LogPath -Encoding utf8 -Append
