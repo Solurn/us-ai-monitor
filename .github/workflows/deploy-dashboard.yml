@@ -1,6 +1,9 @@
 name: Update and deploy dashboard
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
   schedule:
     # Runs after the regular US market close, around 07:30 Taiwan time during US daylight saving time.
