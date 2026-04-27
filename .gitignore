@@ -1,0 +1,13 @@
+node_modules/
+outputs/logs/
+*.log
+
+# Local runtime/cache files
+.DS_Store
+Thumbs.db
+
+# Keep generated dashboard snapshot, but ignore transient locks.
+*.lock
+
+# Optional local-only spreadsheet previews can be regenerated.
+outputs/*preview*.png

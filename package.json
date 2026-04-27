@@ -1,0 +1,10 @@
+{
+  "name": "us-equity-ai-monitor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update:performance": "node scripts/update-performance.mjs",
+    "check": "node --check web/app.js && node --check scripts/update-performance.mjs"
+  }
+}
