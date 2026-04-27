@@ -497,6 +497,7 @@ const dailyBriefing = window.dailyBriefing ?? {
   generatedAt: "",
   asOfDate: "尚未更新",
   sourceMode: "Fallback static",
+  highlights: [],
   summary: [],
   events: [],
   stockUpdates: {},
@@ -1663,7 +1664,22 @@ function formatBriefingTime(value) {
   });
 }
 
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
+}
+
+function safeHttpUrl(value) {
+  const text = String(value ?? "");
+  return /^https?:\/\//i.test(text) ? text : "";
+}
+
 function renderDailyBriefing() {
+  const highlights = dailyBriefing.highlights ?? [];
   const summary = dailyBriefing.summary ?? [];
   const stats = dailyBriefing.stats ?? {};
   const asOf = dailyBriefing.asOfDate || "尚未更新";
@@ -1680,9 +1696,39 @@ function renderDailyBriefing() {
   }
 
   if (!briefingList) return;
-  briefingList.innerHTML = summary.length
-    ? summary.map((item) => `<article class="briefing-card"><p>${item}</p></article>`).join("")
+  const highlightMarkup = highlights.length
+    ? `
+      <div class="briefing-priority-list">
+        ${highlights.map((item, index) => `
+          <article class="briefing-highlight priority-${item.priority === "高" ? "high" : "normal"}">
+            <div class="briefing-highlight-top">
+              <span class="briefing-rank">${index + 1}</span>
+              <span class="briefing-type">${escapeHtml(item.type)}</span>
+              <span class="briefing-priority">${escapeHtml(item.priority || "中")}</span>
+            </div>
+            <h4>${escapeHtml(item.title)}</h4>
+            ${item.tickers?.length ? `<div class="briefing-tickers">${item.tickers.map((ticker) => `<span>${escapeHtml(ticker)}</span>`).join("")}</div>` : ""}
+            <p>${escapeHtml(item.why)}</p>
+            ${safeHttpUrl(item.sourceUrl) ? `<a href="${escapeHtml(safeHttpUrl(item.sourceUrl))}" target="_blank" rel="noreferrer">${escapeHtml(item.source || "來源")}</a>` : `<span class="briefing-source">${escapeHtml(item.source || "")}</span>`}
+          </article>
+        `).join("")}
+      </div>
+    `
+    : `<div class="empty-state">今天還沒有抓到可排序的重點新聞；請查看下方資料狀態與個股卡片。</div>`;
+
+  const summaryMarkup = summary.length
+    ? `
+      <div class="briefing-status-list">
+        ${summary.map((item) => `<article class="briefing-card"><p>${escapeHtml(item)}</p></article>`).join("")}
+      </div>
+    `
     : `<div class="empty-state">每日 briefing 尚未產生，請先執行 GitHub Actions。</div>`;
+
+  briefingList.innerHTML = `
+    ${highlightMarkup}
+    <div class="briefing-subheading">資料狀態與市場概況</div>
+    ${summaryMarkup}
+  `;
 }
 
 function renderEvents() {

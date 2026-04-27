@@ -187,10 +187,147 @@ function parseYahooRss(xml) {
     .filter((item) => item.title && item.link);
 }
 
+const newsKeywordWeights = [
+  [/earnings|results|revenue|profit|margin|guidance|forecast|outlook/i, 9],
+  [/upgrade|downgrade|price target|buy rating|sell rating|strong buy|analyst/i, 8],
+  [/OpenAI|Anthropic|Gemini|AI|artificial intelligence|data center|datacenter|cloud|capex|GPU|chip/i, 7],
+  [/acquisition|deal|partnership|exclusive|blocks|blocked|regulator|antitrust|China/i, 6],
+  [/Fed|CPI|PPI|jobs|payroll|inflation|rates|yield|oil shock/i, 5],
+  [/rally|surge|jumps|slides|falls|drops|soars|plunges|washout/i, 4],
+];
+
+function companyTokens(company) {
+  return company
+    .replace(/\b(Inc|Corp|Corporation|Company|Holdings|Technology|Technologies|Systems|Services|Platforms)\b\.?/gi, "")
+    .split(/\s+/)
+    .map((item) => item.trim().toLowerCase())
+    .filter((item) => item.length >= 4);
+}
+
+const companyTokenMap = Object.fromEntries(watchlist.map(([ticker, company]) => [ticker, companyTokens(company)]));
+
+const tickerAliases = {
+  AAPL: ["apple", "iphone"],
+  MSFT: ["microsoft", "openai", "azure"],
+  NVDA: ["nvidia"],
+  AMZN: ["amazon", "aws"],
+  GOOGL: ["alphabet", "google", "gemini"],
+  META: ["meta", "facebook", "instagram"],
+  TSLA: ["tesla"],
+  AVGO: ["broadcom", "vmware"],
+  AMD: ["amd", "advanced micro"],
+  ORCL: ["oracle"],
+  TSM: ["tsmc", "taiwan semiconductor"],
+  INTC: ["intel"],
+  AMAT: ["applied materials"],
+  LRCX: ["lam research"],
+  KLAC: ["kla"],
+  ANET: ["arista"],
+  CSCO: ["cisco"],
+  MRVL: ["marvell"],
+  COHR: ["coherent"],
+  LITE: ["lumentum"],
+  VRT: ["vertiv"],
+  ETN: ["eaton"],
+  PWR: ["quanta services"],
+  CRM: ["salesforce"],
+  NOW: ["servicenow", "service now"],
+};
+
+function explicitlyMentionsTicker(title, ticker) {
+  const upper = title.toUpperCase();
+  const lower = title.toLowerCase();
+  if (new RegExp(`(^|[^A-Z0-9])${ticker}([^A-Z0-9]|$)`).test(upper)) return true;
+  if ((companyTokenMap[ticker] ?? []).some((token) => lower.includes(token))) return true;
+  return (tickerAliases[ticker] ?? []).some((alias) => lower.includes(alias));
+}
+
+function mentionedTickers(title) {
+  return watchlist
+    .map(([ticker]) => ticker)
+    .filter((ticker) => explicitlyMentionsTicker(title, ticker));
+}
+
+function scoreNewsTitle(title, ticker) {
+  const upper = title.toUpperCase();
+  const lower = title.toLowerCase();
+  let score = new RegExp(`(^|[^A-Z0-9])${ticker}([^A-Z0-9]|$)`).test(upper) ? 10 : 0;
+  if ((companyTokenMap[ticker] ?? []).some((token) => lower.includes(token))) score += 8;
+  newsKeywordWeights.forEach(([pattern, weight]) => {
+    if (pattern.test(title)) score += weight;
+  });
+  return score;
+}
+
+function newsType(title) {
+  if (/upgrade|downgrade|price target|buy rating|sell rating|strong buy|analyst/i.test(title)) return "評等 / 目標價";
+  if (/earnings|results|revenue|profit|margin|guidance|forecast|outlook/i.test(title)) return "財報 / 展望";
+  if (/OpenAI|Anthropic|Gemini|AI|artificial intelligence|data center|datacenter|cloud|capex|GPU|chip/i.test(title)) return "AI / 產業";
+  if (/acquisition|deal|partnership|exclusive|blocks|blocked|regulator|antitrust|China/i.test(title)) return "交易 / 監管";
+  if (/Fed|CPI|PPI|jobs|payroll|inflation|rates|yield|oil shock/i.test(title)) return "總經 / 利率";
+  return "新聞線索";
+}
+
+function highlightWhy(type, tickers) {
+  const tickerText = tickers.length ? tickers.join("、") : "相關標的";
+  if (type === "評等 / 目標價") return `和 ${tickerText} 的市場預期或機構態度有關，適合優先確認是否出現多家同步調整。`;
+  if (type === "財報 / 展望") return `可能影響 ${tickerText} 的營收、毛利、guidance 或估值假設，建議優先閱讀原文重點。`;
+  if (type === "AI / 產業") return `會牽動 AI infrastructure、cloud capex 或供應鏈敘事，可對照個股卡片與延伸學習主題。`;
+  if (type === "交易 / 監管") return `可能改變競爭格局、合作關係或地緣風險，需留意是否影響後續展望。`;
+  if (type === "總經 / 利率") return `會影響成長股估值、capex 風險偏好與短線資金流向。`;
+  return `這是今天新增的公開新聞線索，可作為 ${tickerText} 的追蹤入口。`;
+}
+
+function normalizeTitle(title) {
+  return title.toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff]+/g, " ").trim();
+}
+
+function buildNewsHighlights(newsItems) {
+  const grouped = new Map();
+  newsItems.forEach((item) => {
+    if (!explicitlyMentionsTicker(item.title, item.ticker)) return;
+    const score = scoreNewsTitle(item.title, item.ticker);
+    if (score < 8) return;
+    const key = normalizeTitle(item.title);
+    if (!grouped.has(key)) {
+      grouped.set(key, {
+        type: newsType(item.title),
+        title: item.title,
+        tickers: new Set(),
+        score: 0,
+        date: item.dateIso,
+        sourceUrl: item.link,
+      });
+    }
+    const existing = grouped.get(key);
+    mentionedTickers(item.title).forEach((ticker) => existing.tickers.add(ticker));
+    existing.score += score;
+    if (item.dateIso > existing.date) existing.date = item.dateIso;
+  });
+
+  return [...grouped.values()]
+    .map((item) => {
+      const tickers = [...item.tickers].slice(0, 6);
+      return {
+        priority: item.score >= 25 ? "高" : "中",
+        type: item.type,
+        title: item.title,
+        tickers,
+        why: highlightWhy(item.type, tickers),
+        source: "Yahoo Finance RSS",
+        sourceUrl: item.sourceUrl,
+        date: item.date,
+      };
+    })
+    .sort((a, b) => (b.priority === "高") - (a.priority === "高") || b.tickers.length - a.tickers.length)
+    .slice(0, 7);
+}
+
 async function collectYahooNews() {
   const sinceIso = daysAgoIso(7);
   const stockUpdates = {};
   const errors = [];
+  const newsItems = [];
   let itemCount = 0;
 
   for (const [ticker] of watchlist) {
@@ -205,6 +342,7 @@ async function collectYahooNews() {
       if (!items.length) continue;
 
       itemCount += items.length;
+      items.forEach((item) => newsItems.push({ ...item, ticker }));
       stockUpdates[ticker] = {
         items: items.map((item) => `${item.dateIso || "近期"} Yahoo Finance：${item.title}`),
         sources: items.map((item) => ({
@@ -217,7 +355,7 @@ async function collectYahooNews() {
     }
   }
 
-  return { stockUpdates, errors, itemCount };
+  return { stockUpdates, errors, itemCount, newsItems };
 }
 
 function extractRecentFilings(submissions, sinceIso) {
@@ -303,6 +441,28 @@ function performanceHeadlines(snapshot) {
   ];
 }
 
+function performanceHighlights(snapshot) {
+  const items = snapshot?.items ?? {};
+  const rows = Object.entries(items)
+    .filter(([key, value]) => key.startsWith("US:") && typeof value?.pct === "number")
+    .map(([key, value]) => ({ ticker: key.replace("US:", ""), ...value }))
+    .sort((a, b) => Math.abs(b.pct) - Math.abs(a.pct));
+
+  return rows
+    .filter((item) => Math.abs(item.pct) >= 8)
+    .slice(0, 3)
+    .map((item) => ({
+      priority: Math.abs(item.pct) >= 20 ? "高" : "中",
+      type: "股價異動",
+      title: `${item.ticker} 近 21 個交易日 ${item.pct > 0 ? "上漲" : "下跌"} ${item.pct > 0 ? "+" : ""}${item.pct.toFixed(1)}%`,
+      tickers: [item.ticker],
+      why: `這是相對明顯的月線級別異動，建議回頭檢查是否和財報、AI 題材、評等調整或產業鏈消息有關。資料截至 ${item.asOf || "最近交易日"}。`,
+      source: item.provider ?? "market performance snapshot",
+      sourceUrl: "",
+      date: item.asOf ?? "",
+    }));
+}
+
 function buildFallbackHeadline(secCount, errorCount) {
   if (secCount > 0) return `今日自動抓取到 ${secCount} 筆近 14 天 SEC 重要 filing，已併入事件日曆與個股卡片。`;
   if (errorCount > 0) return "今日 SEC 端點未完整連線成功；網頁會保留既有研究筆記，並使用新聞 RSS 與漲跌幅 snapshot 補上每日追蹤線索。";
@@ -325,7 +485,7 @@ async function main() {
   const generatedAt = new Date().toISOString();
   const performance = await loadPerformanceSnapshot();
   let secResult = { events: [], stockUpdates: {}, errors: [] };
-  let yahooResult = { stockUpdates: {}, errors: [], itemCount: 0 };
+  let yahooResult = { stockUpdates: {}, errors: [], itemCount: 0, newsItems: [] };
 
   try {
     secResult = await collectSecUpdates();
@@ -341,10 +501,25 @@ async function main() {
 
   const stockUpdates = mergeStockUpdates(secResult.stockUpdates, yahooResult.stockUpdates);
   const performanceLines = performanceHeadlines(performance);
+  const highlights = [
+    ...buildNewsHighlights(yahooResult.newsItems ?? []),
+    ...performanceHighlights(performance),
+    ...secResult.events.slice(0, 3).map((event) => ({
+      priority: "高",
+      type: "SEC 公告",
+      title: event.title,
+      tickers: event.tickers,
+      why: event.announcementSummary,
+      source: event.source,
+      sourceUrl: event.sourceUrl,
+      date: event.date,
+    })),
+  ].slice(0, 10);
   const payload = {
     generatedAt,
     asOfDate: todayIso(),
     sourceMode: "GitHub Actions / public sources",
+    highlights,
     summary: [
       buildFallbackHeadline(secResult.events.length, secResult.errors.length),
       yahooResult.itemCount > 0
