@@ -190,9 +190,9 @@ function parseYahooRss(xml) {
 const newsKeywordWeights = [
   [/earnings|results|revenue|profit|margin|guidance|forecast|outlook/i, 9],
   [/upgrade|downgrade|price target|buy rating|sell rating|strong buy|analyst/i, 8],
-  [/OpenAI|Anthropic|Gemini|AI|artificial intelligence|data center|datacenter|cloud|capex|GPU|chip/i, 7],
+  [/OpenAI|Anthropic|Gemini|\bAI\b|artificial intelligence|data center|datacenter|cloud|capex|GPU|chip/i, 7],
   [/acquisition|deal|partnership|exclusive|blocks|blocked|regulator|antitrust|China/i, 6],
-  [/Fed|CPI|PPI|jobs|payroll|inflation|rates|yield|oil shock/i, 5],
+  [/\bFed\b|\bCPI\b|\bPPI\b|jobs report|\bpayroll\b|\bemployment report\b|\bjobless\b|\binflation\b|\brates?\b|\byields?\b|oil shock/i, 5],
   [/rally|surge|jumps|slides|falls|drops|soars|plunges|washout/i, 4],
 ];
 
@@ -262,9 +262,9 @@ function scoreNewsTitle(title, ticker) {
 function newsType(title) {
   if (/upgrade|downgrade|price target|buy rating|sell rating|strong buy|analyst/i.test(title)) return "評等 / 目標價";
   if (/earnings|results|revenue|profit|margin|guidance|forecast|outlook/i.test(title)) return "財報 / 展望";
-  if (/OpenAI|Anthropic|Gemini|AI|artificial intelligence|data center|datacenter|cloud|capex|GPU|chip/i.test(title)) return "AI / 產業";
+  if (/OpenAI|Anthropic|Gemini|\bAI\b|artificial intelligence|data center|datacenter|cloud|capex|GPU|chip/i.test(title)) return "AI / 產業";
   if (/acquisition|deal|partnership|exclusive|blocks|blocked|regulator|antitrust|China/i.test(title)) return "交易 / 監管";
-  if (/Fed|CPI|PPI|jobs|payroll|inflation|rates|yield|oil shock/i.test(title)) return "總經 / 利率";
+  if (/\bFed\b|\bCPI\b|\bPPI\b|jobs report|\bpayroll\b|\bemployment report\b|\bjobless\b|\binflation\b|\brates?\b|\byields?\b|oil shock/i.test(title)) return "總經 / 利率";
   return "新聞線索";
 }
 
@@ -276,6 +276,38 @@ function highlightWhy(type, tickers) {
   if (type === "交易 / 監管") return `可能改變競爭格局、合作關係或地緣風險，需留意是否影響後續展望。`;
   if (type === "總經 / 利率") return `會影響成長股估值、capex 風險偏好與短線資金流向。`;
   return `這是今天新增的公開新聞線索，可作為 ${tickerText} 的追蹤入口。`;
+}
+
+function chineseTakeaway(title, tickers) {
+  const type = newsType(title);
+  const tickerText = tickers.length ? tickers.join("、") : "相關標的";
+  const lower = title.toLowerCase();
+  const notes = [];
+
+  if (/rebound|rebounds|rally|surge|jumps|soars|record high|big winners/i.test(title)) notes.push("股價或市場情緒偏強");
+  if (/slides|falls|drops|plunges|worst performer|washout|loser/i.test(title)) notes.push("市場情緒或股價表現偏弱");
+  if (/earnings|results|revenue|profit|margin|guidance|forecast|outlook/i.test(title)) notes.push("重點看財報、營收、毛利與展望");
+  if (/upgrade|downgrade|price target|buy rating|sell rating|strong buy|analyst/i.test(title)) notes.push("留意分析師評等或目標價是否改變");
+  if (/options/i.test(title)) notes.push("選擇權市場可能在定價較大的財報波動");
+  if (/OpenAI|Anthropic|Gemini|\bAI\b|artificial intelligence|data center|datacenter|cloud|capex|GPU|chip/i.test(title)) notes.push("和 AI、雲端、資料中心或晶片投資有關");
+  if (/partnership|deal|acquisition|losing|lost|exclusive|blocks|blocked|regulator|antitrust/i.test(title)) notes.push("可能影響合作關係、訂單分配或競爭格局");
+  if (/\bFed\b|\bCPI\b|\bPPI\b|jobs report|\bpayroll\b|\bemployment report\b|\bjobless\b|\binflation\b|\brates?\b|\byields?\b|oil shock/i.test(title)) notes.push("可能影響利率預期與成長股估值");
+  if (/valuation/i.test(title)) notes.push("市場正在重新討論估值是否合理");
+
+  if (!notes.length) {
+    if (type === "評等 / 目標價") notes.push("重點看機構態度是否轉強或轉弱");
+    else if (type === "財報 / 展望") notes.push("重點看財報與後續展望是否改變");
+    else if (type === "AI / 產業") notes.push("重點看 AI 需求、capex 或供應鏈敘事是否有變");
+    else if (type === "交易 / 監管") notes.push("重點看競爭格局或監管風險是否有變");
+    else notes.push("這是一則新的公開新聞線索");
+  }
+
+  const prefix = type === "新聞線索" ? `${tickerText} 有新的市場新聞。` : `${tickerText} 出現 ${type} 相關新聞。`;
+  const ending = lower.includes("nvidia") && tickers.includes("LITE")
+    ? "特別可連到光通訊、資料中心 optics 與 NVIDIA 供應鏈題材。"
+    : "建議點原文確認細節，再回到個股卡片更新研究假設。";
+
+  return `${prefix}${notes.join("；")}。${ending}`;
 }
 
 function normalizeTitle(title) {
@@ -312,6 +344,7 @@ function buildNewsHighlights(newsItems) {
         priority: item.score >= 25 ? "高" : "中",
         type: item.type,
         title: item.title,
+        titleZh: chineseTakeaway(item.title, tickers),
         tickers,
         why: highlightWhy(item.type, tickers),
         source: "Yahoo Finance RSS",
@@ -344,7 +377,11 @@ async function collectYahooNews() {
       itemCount += items.length;
       items.forEach((item) => newsItems.push({ ...item, ticker }));
       stockUpdates[ticker] = {
-        items: items.map((item) => `${item.dateIso || "近期"} Yahoo Finance：${item.title}`),
+        items: items.map((item) => {
+          const tickers = mentionedTickers(item.title);
+          const scopedTickers = tickers.length ? tickers : [ticker];
+          return `${item.dateIso || "近期"} 中文導讀：${chineseTakeaway(item.title, scopedTickers)}（原標題：${item.title}）`;
+        }),
         sources: items.map((item) => ({
           label: `Yahoo ${item.dateIso || "news"}`,
           url: item.link,

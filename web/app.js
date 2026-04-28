@@ -1706,7 +1706,8 @@ function renderDailyBriefing() {
               <span class="briefing-type">${escapeHtml(item.type)}</span>
               <span class="briefing-priority">${escapeHtml(item.priority || "中")}</span>
             </div>
-            <h4>${escapeHtml(item.title)}</h4>
+            <h4>${escapeHtml(item.titleZh || item.title)}</h4>
+            ${item.titleZh ? `<p class="briefing-original">原標題：${escapeHtml(item.title)}</p>` : ""}
             ${item.tickers?.length ? `<div class="briefing-tickers">${item.tickers.map((ticker) => `<span>${escapeHtml(ticker)}</span>`).join("")}</div>` : ""}
             <p>${escapeHtml(item.why)}</p>
             ${safeHttpUrl(item.sourceUrl) ? `<a href="${escapeHtml(safeHttpUrl(item.sourceUrl))}" target="_blank" rel="noreferrer">${escapeHtml(item.source || "來源")}</a>` : `<span class="briefing-source">${escapeHtml(item.source || "")}</span>`}

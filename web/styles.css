@@ -565,6 +565,11 @@ input {
   line-height: 1.6;
 }
 
+.briefing-highlight .briefing-original {
+  color: #627083;
+  font-size: 12px;
+}
+
 .briefing-highlight a,
 .briefing-source {
   color: var(--teal);
