@@ -1141,6 +1141,102 @@ const learningTopics = [
   },
 ];
 
+const taiwanExtensionRationales = {
+  "ai-factory": {
+    standard: "選的是 AI factory 從 GPU 走向整櫃資料中心時，會被拉動的台灣硬體節點；重點不是權值大小，而是它是否能觀察到機櫃、滑軌、線束、機構件等實體基礎建設需求。",
+    story: "AI 工廠不是只買 GPU，而是把一整套 rack、電力、散熱、網路與機構件組成可交付的 AI 產能。這些台股被放進來，是因為它們比較接近伺服器整櫃與資料中心硬體落地。",
+    companies: [
+      "8210 勤誠：伺服器機殼/機櫃相關，觀察 AI server 與 rack-scale 出貨節奏。",
+      "2059 川湖：伺服器滑軌，出貨常被拿來觀察伺服器平台導入與整機量產。",
+      "3665 貿聯-KY：線束、連接與電力/訊號傳輸相關，對高密度 rack 的布線複雜度有 read-through。",
+      "6805 富世達：精密機構件延伸觀察，偏機構升級與整機設計變化，不是最直接的 GPU 受益股。",
+    ],
+  },
+  "rack-scale": {
+    standard: "選的是整櫃 AI server 量產會碰到的機構、滑軌、散熱與液冷節點；這些公司不是在做 Rubin GPU，而是在觀察 Rubin/NVL72 類平台落地時，周邊硬體是否同步升級。",
+    story: "Rack-scale 平台把一整櫃伺服器當成一台超級電腦，瓶頸會從晶片延伸到機櫃承重、滑軌、液冷、散熱模組與整櫃交付能力。",
+    companies: [
+      "8210 勤誠：AI server 機殼/機櫃，是整櫃出貨與新平台導入的觀察點。",
+      "2059 川湖：伺服器滑軌，和高階伺服器平台放量、機櫃結構變重有關。",
+      "6805 富世達：精密機構件，放在這裡是觀察 rack 機構設計升級。",
+      "3017 奇鋐、3324 雙鴻：散熱/液冷相關，對高功耗 rack 的熱管理需求敏感。",
+    ],
+  },
+  "vera-rubin": {
+    standard: "選的是 ASIC 設計服務與矽智財公司，因為 Vera/Rubin 代表 AI 平台從單一 GPU 擴展到 CPU、GPU、I/O 與 custom silicon 協同；台股對應的是晶片設計服務與 IP 供應鏈。",
+    story: "當雲端大廠與平台廠開始做更多客製晶片，ASIC 設計服務、IP 授權與先進製程導入能力會變重要。這些公司是用來觀察 custom silicon 設計需求是否升溫。",
+    companies: [
+      "3661 世芯-KY：ASIC 設計服務，常被視為大型雲端/AI 客製晶片需求的觀察標的。",
+      "3443 創意：ASIC 設計服務與先進製程導入，和客製晶片案量有關。",
+      "3035 智原：ASIC/設計服務與 IP，偏中長期客製晶片需求觀察。",
+      "6643 M31：高速介面與矽智財 IP，和晶片設計裡的 I/O、記憶體介面需求相關。",
+    ],
+  },
+  nvlink: {
+    standard: "選的是高速材料、PCB/背板與線束節點；NVLink/scale-up interconnect 的核心在美股晶片與交換器，但台股可觀察高速板材、PCB 與機內傳輸材料需求。",
+    story: "GPU 間資料交換越快，板材損耗、PCB 層數、背板設計與線材品質就越重要。這些台股不是做 NVLink 晶片，而是站在高速訊號傳輸的材料與載板旁邊。",
+    companies: [
+      "2383 台光電、6274 台燿：高階 CCL/高速板材，受高速訊號、低損耗材料需求影響。",
+      "2368 金像電：PCB/伺服器板，和高速交換、背板與資料中心硬體升級有關。",
+      "3665 貿聯-KY：線束與連接解決方案，觀察 rack 內高速/高功率布線複雜度。",
+    ],
+  },
+  "dpu-supernic": {
+    standard: "選的是網路硬體背後的高速材料、PCB 與線束；DPU/SuperNIC 本身多由美股晶片與系統廠主導，台股延伸重點在網卡、交換器、伺服器板與高速傳輸材料。",
+    story: "DPU/SuperNIC 會讓資料中心網路更靠近 GPU 平台，背後仍需要高速 PCB、低損耗材料、線束與連接。台股延伸是用來追蹤這些硬體瓶頸，而不是說它們直接做 DPU。",
+    companies: [
+      "2383 台光電、6274 台燿：高速 CCL/板材，對 NIC、交換器與伺服器高速板需求敏感。",
+      "2368 金像電：伺服器/網通 PCB，觀察資料中心網路硬體升級。",
+      "3665 貿聯-KY：線束與連接，對高密度 rack 內布線與電力傳輸有關聯。",
+    ],
+  },
+  "silicon-photonics": {
+    standard: "選的是光通訊鏈：雷射/磊晶、光收發模組、光纖元件與被動元件。這組和矽光子、CPO、AI Ethernet 的關聯比一般權值股更直接。",
+    story: "AI cluster 變大後，電訊號傳輸耗電與距離限制會變嚴重，光通訊被拿來解決頻寬與功耗問題。這些台股是用來觀察光元件、光模組與光纖連接是否因 AI data center 需求而升級。",
+    companies: [
+      "3081 聯亞：光通訊上游磊晶/雷射相關，靠近光源與光元件供應鏈。",
+      "3163 波若威、3363 上詮：光纖通訊元件/被動元件與連接相關。",
+      "4979 華星光、4908 前鼎：光收發模組/光通訊設備鏈，觀察資料中心光模組需求。",
+    ],
+  },
+  "cowos-hbm": {
+    standard: "選的是先進封裝後段、測試、探針卡與測試介面；CoWoS/HBM 的瓶頸不只在 TSM，也在封裝產能、測試能力與良率驗證。",
+    story: "AI 晶片需要 GPU + HBM + 先進封裝一起交付，所以測試、探針卡與封裝後段會變成產能與良率的觀察點。",
+    companies: [
+      "3711 日月光投控：封測龍頭，觀察先進封裝與後段封測需求。",
+      "2449 京元電子：測試服務，和 AI/HPC 晶片量產測試需求有關。",
+      "6515 穎崴、6223 旺矽、6510 精測：測試介面/探針卡相關，對高階晶片測試複雜度敏感。",
+    ],
+  },
+  "spectrum-ethernet": {
+    standard: "選的是 AI Ethernet 交換器與網通硬體會拉動的高速 PCB、CCL、基板與材料；台股不是做 Spectrum-X 核心晶片，而是觀察交換器/網通設備量產的材料與板端需求。",
+    story: "AI Ethernet 若放量，交換器、網卡、背板、PCB 與低損耗材料需求會上升。這些台股代表不同層級的板材、PCB、基板與網通材料節點。",
+    companies: [
+      "2383 台光電、6274 台燿、6213 聯茂：高速 CCL/材料，和交換器、伺服器板高速化相關。",
+      "2368 金像電：伺服器/網通 PCB，觀察 AI Ethernet 硬體放量。",
+      "3037 欣興：PCB/載板延伸觀察，和高階網通與伺服器硬體升級有關。",
+    ],
+  },
+  "power-cooling": {
+    standard: "選的是散熱、液冷、電力設備與機電節點；AI data center 的瓶頸從晶片延伸到電與熱，這組台股比一般電子權值更貼近供電/散熱故事。",
+    story: "高功耗 GPU rack 會把風冷推向液冷，也會讓變壓器、配電、馬達與機電工程需求升級。這些公司是用來觀察 AI 資料中心是否真的進入高密度部署。",
+    companies: [
+      "3017 奇鋐、3324 雙鴻：散熱/液冷模組，對高功耗伺服器與 AI rack 熱管理敏感。",
+      "3653 健策、8996 高力：熱管理、散熱與熱交換相關延伸。",
+      "1513 中興電、1504 東元：電力設備、機電與供電鏈，觀察資料中心用電升級。",
+    ],
+  },
+  "custom-asic": {
+    standard: "選的是 ASIC 設計服務、IP 與伺服器管理晶片節點；custom AI ASIC 的核心是雲端大客戶把需求轉成專用晶片，台股延伸看設計服務、IP 與伺服器平台管理。",
+    story: "如果 hyperscaler 自研晶片增加，設計服務、矽智財與特定伺服器控制晶片會有研究價值。這些台股不是全部都直接做 AI accelerator，而是站在客製晶片與伺服器平台周邊。",
+    companies: [
+      "3661 世芯-KY、3443 創意、3035 智原：ASIC 設計服務，觀察雲端/AI 客製晶片案量。",
+      "6643 M31：高速介面與矽智財 IP，和晶片設計底層元件相關。",
+      "5274 信驊：BMC/伺服器管理晶片，偏伺服器平台出貨與資料中心管理需求觀察。",
+    ],
+  },
+};
+
 const learningCategories = ["全部", ...Array.from(new Set(learningTopics.map((topic) => topic.category)))];
 
 const state = {
@@ -1240,7 +1336,9 @@ function filteredLearningTopics() {
   const query = state.query.trim().toLowerCase();
   return learningTopics.filter((topic) => {
     const matchesCategory = state.learningCategory === "全部" || topic.category === state.learningCategory;
-    const haystack = `${topic.title} ${topic.category} ${topic.relatedTickers.join(" ")} ${(topic.extendedTickers ?? []).join(" ")} ${(topic.taiwanTickers ?? []).join(" ")} ${topic.plain} ${topic.why} ${topic.bottlenecks.join(" ")} ${topic.watch}`.toLowerCase();
+    const rationale = taiwanExtensionRationales[topic.id];
+    const rationaleText = rationale ? `${rationale.standard} ${rationale.story} ${rationale.companies.join(" ")}` : "";
+    const haystack = `${topic.title} ${topic.category} ${topic.relatedTickers.join(" ")} ${(topic.extendedTickers ?? []).join(" ")} ${(topic.taiwanTickers ?? []).join(" ")} ${topic.plain} ${topic.why} ${topic.bottlenecks.join(" ")} ${topic.watch} ${rationaleText}`.toLowerCase();
     const matchesQuery = !query || haystack.includes(query);
     return matchesCategory && matchesQuery;
   });
@@ -1582,6 +1680,7 @@ function eventItem(event) {
 
 function learningItem(topic) {
   const externalCount = (topic.extendedTickers?.length ?? 0) + (topic.taiwanTickers?.length ?? 0);
+  const taiwanRationale = taiwanExtensionRationales[topic.id];
   return `
     <article class="learning-card" id="learn-${topic.id}" data-category="${topic.category}">
       <details>
@@ -1614,6 +1713,18 @@ function learningItem(topic) {
             <strong>可以怎麼追</strong>
             <p>${topic.watch}</p>
           </div>
+          ${
+            taiwanRationale
+              ? `
+                <div class="learning-block taiwan-rationale">
+                  <strong>台股延伸為什麼選這些</strong>
+                  <p><b>選入標準：</b>${taiwanRationale.standard}</p>
+                  <p><b>背後故事：</b>${taiwanRationale.story}</p>
+                  <ul>${taiwanRationale.companies.map((item) => `<li>${item}</li>`).join("")}</ul>
+                </div>
+              `
+              : ""
+          }
           <div class="stock-links">
             ${topic.sources.map((source) => `<a href="${source.url}" target="_blank" rel="noreferrer">${source.label}</a>`).join("")}
           </div>

@@ -1081,6 +1081,18 @@ input {
   padding-left: 10px;
 }
 
+.taiwan-rationale {
+  border: 1px solid rgba(165, 101, 18, 0.22);
+  border-left: 3px solid var(--gold);
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: #fffaf1;
+}
+
+.taiwan-rationale b {
+  color: #5b3b10;
+}
+
 .event-item {
   display: grid;
   grid-template-columns: 82px 1fr;
