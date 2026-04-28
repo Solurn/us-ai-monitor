@@ -31,6 +31,7 @@ jobs:
           node-version: "20"
 
       - name: Update dashboard data
+        if: github.event_name != 'push'
         run: npm run update:daily
 
       - name: Upload web artifact
