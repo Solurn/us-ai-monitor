@@ -505,6 +505,16 @@ const dailyBriefing = window.dailyBriefing ?? {
   errors: [],
 };
 
+const selfReportLatest = window.selfReportLatest ?? {
+  generatedAt: "",
+  queryDate: "",
+  displayDate: "尚未更新",
+  count: 0,
+  skipped: {},
+  image: "",
+  source: "公開資訊觀測站",
+};
+
 const allEvents = [...(dailyBriefing.events ?? []), ...upcomingEvents, ...macroEvents].sort((a, b) => `${a.date} ${a.time}`.localeCompare(`${b.date} ${b.time}`));
 
 const stockIntel = {
@@ -1170,6 +1180,8 @@ const briefingUpdated = document.querySelector("#briefingUpdated");
 const briefingStats = document.querySelector("#briefingStats");
 const briefingList = document.querySelector("#briefingList");
 const dataStatusText = document.querySelector("#dataStatusText");
+const selfReportStats = document.querySelector("#selfReportStats");
+const selfReportPanel = document.querySelector("#selfReportPanel");
 
 function themeCount(theme) {
   if (theme === "All") return watchlist.length;
@@ -1678,6 +1690,124 @@ function safeHttpUrl(value) {
   return /^https?:\/\//i.test(text) ? text : "";
 }
 
+function formatSelfReportPct(value) {
+  if (value == null || Number.isNaN(Number(value))) return "--";
+  return `${Number(value).toFixed(2)}%`;
+}
+
+function formatSelfReportNumber(value) {
+  if (value == null || Number.isNaN(Number(value))) return "--";
+  return Number(value).toFixed(2);
+}
+
+function formatSelfReportDelta(value) {
+  if (value == null || Number.isNaN(Number(value))) return "";
+  const number = Number(value);
+  return `${number >= 0 ? "+" : ""}${number.toFixed(2)}`;
+}
+
+function selfReportTone(value) {
+  if (value == null || Number.isNaN(Number(value))) return "flat";
+  return Number(value) >= 0 ? "positive" : "negative";
+}
+
+function selfReportRatioCell(row, currentKey, referenceKey, deltaKey) {
+  const delta = formatSelfReportDelta(row[deltaKey]);
+  const quarter = row.reference_quarter || "上季";
+  return `
+    <span class="self-report-main-value">${formatSelfReportPct(row[currentKey])}</span>
+    <span class="self-report-reference">
+      ${escapeHtml(quarter)} ${formatSelfReportPct(row[referenceKey])}
+      ${delta ? `<b class="${selfReportTone(row[deltaKey])}">${delta}</b>` : ""}
+    </span>
+  `;
+}
+
+function selfReportRow(row) {
+  return `
+    <tr>
+      <td class="self-report-code">${escapeHtml(row.code)}</td>
+      <td>${escapeHtml(row.name)}</td>
+      <td>${escapeHtml(row.market)}</td>
+      <td>${selfReportRatioCell(row, "tax_margin_pct", "reference_tax_margin_pct", "tax_margin_delta_pct")}</td>
+      <td>${selfReportRatioCell(row, "operating_margin_pct", "reference_operating_margin_pct", "operating_margin_delta_pct")}</td>
+      <td>
+        <span class="self-report-main-value ${Number(row.monthly_eps) >= Number(row.previous_quarter_monthly_eps) ? "eps-up" : "eps-down"}">${formatSelfReportNumber(row.monthly_eps)}</span>
+        <span class="self-report-reference">${escapeHtml(row.month_label || "單月")}</span>
+      </td>
+      <td>${formatSelfReportNumber(row.previous_quarter_monthly_eps)}</td>
+    </tr>
+  `;
+}
+
+function renderSelfReport() {
+  if (!selfReportPanel) return;
+  const image = String(selfReportLatest.image ?? "");
+  const rows = selfReportLatest.rows ?? [];
+  const count = Number(selfReportLatest.count ?? rows.length ?? 0);
+  const updated = formatBriefingTime(selfReportLatest.generatedAt);
+  const skipped = selfReportLatest.skipped ?? {};
+  if (selfReportStats) {
+    selfReportStats.textContent = `${selfReportLatest.displayDate || "尚未更新"} / ${count} 筆`;
+  }
+
+  if (!rows.length && !image) {
+    selfReportPanel.innerHTML = `
+      <div class="self-report-empty">
+        <strong>尚未產生自結速報資料</strong>
+        <p>在自結數據資料夾執行「更新自結速報.cmd」後，這裡會顯示最新資料。</p>
+      </div>
+    `;
+    return;
+  }
+
+  selfReportPanel.innerHTML = `
+    <article class="self-report-card">
+      <div class="self-report-meta">
+        <span>${escapeHtml(selfReportLatest.displayDate || selfReportLatest.queryDate || "")}</span>
+        <span>${count} 筆符合資料</span>
+        <span>更新 ${escapeHtml(updated)}</span>
+        <span>略過可轉債 ${Number(skipped.bond_subject ?? 0)} 筆</span>
+      </div>
+      ${
+        rows.length
+          ? `
+            <div class="self-report-table-wrap">
+              <table class="self-report-table">
+                <thead>
+                  <tr>
+                    <th>代號</th>
+                    <th>名稱</th>
+                    <th>市場</th>
+                    <th>稅前淨利率</th>
+                    <th>營益率</th>
+                    <th>月 EPS</th>
+                    <th>上季/3</th>
+                  </tr>
+                </thead>
+                <tbody>${rows.map(selfReportRow).join("")}</tbody>
+              </table>
+            </div>
+          `
+          : ""
+      }
+      ${
+        image
+          ? `
+            <details class="self-report-shot">
+              <summary>查看原始截圖</summary>
+              <a class="self-report-image-link" href="${escapeHtml(image)}" target="_blank" rel="noreferrer">
+                <img src="${escapeHtml(image)}" alt="自結速報截圖" loading="lazy" />
+              </a>
+            </details>
+          `
+          : ""
+      }
+      <p class="self-report-source">資料來源：${escapeHtml(selfReportLatest.source || "公開資訊觀測站")} / Goodinfo 財務比率表</p>
+    </article>
+  `;
+}
+
 function renderDailyBriefing() {
   const highlights = dailyBriefing.highlights ?? [];
   const summary = dailyBriefing.summary ?? [];
@@ -1760,6 +1890,7 @@ function renderStocks() {
 }
 
 function render() {
+  renderSelfReport();
   renderDailyBriefing();
   renderFilters();
   renderEventFilters();

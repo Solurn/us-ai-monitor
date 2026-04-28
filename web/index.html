@@ -99,6 +99,7 @@
         </section>
 
         <div class="quick-tabs" aria-label="快速跳轉">
+          <a href="#selfReport">自結速報</a>
           <a href="#events">事件日曆</a>
           <a href="#learning">技術學習</a>
           <a href="#watchlist">個股卡片</a>
@@ -107,6 +108,17 @@
         <section class="data-note" aria-label="資料狀態說明">
           <strong>資料狀態</strong>
           <p id="dataStatusText">GitHub Actions 會每日更新公開資料 snapshot；個股研究筆記仍保留人工整理脈絡，並逐步接入更多自動來源。</p>
+        </section>
+
+        <section class="self-report-section" id="selfReport" aria-label="台股自結速報">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Taiwan Self Report</p>
+              <h3>自結速報</h3>
+            </div>
+            <span class="last-checked" id="selfReportStats">尚未更新</span>
+          </div>
+          <div id="selfReportPanel"></div>
         </section>
 
         <section class="daily-briefing-section" id="dailyBriefing" aria-label="每日自動摘要">
@@ -166,6 +178,7 @@
 
     <script src="./data/performance-snapshot.js"></script>
     <script src="./data/daily-briefing.js"></script>
+    <script src="./data/self-report-latest.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>

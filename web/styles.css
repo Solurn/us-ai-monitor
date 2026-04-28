@@ -391,6 +391,7 @@ input {
 }
 
 #events,
+#selfReport,
 #learning,
 #watchlist {
   scroll-margin-top: 76px;
@@ -417,6 +418,7 @@ input {
   line-height: 1.6;
 }
 
+.self-report-section,
 .daily-briefing-section,
 .upcoming-section,
 .learning-section {
@@ -434,6 +436,157 @@ input {
 
 .daily-briefing-section {
   background: #ffffff;
+}
+
+.self-report-section {
+  background: #ffffff;
+}
+
+.self-report-card {
+  display: grid;
+  gap: 12px;
+}
+
+.self-report-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.self-report-meta span {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 6px 9px;
+  color: #405066;
+  background: #f9fafc;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.self-report-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.self-report-table {
+  width: 100%;
+  min-width: 820px;
+  border-collapse: collapse;
+  background: #ffffff;
+}
+
+.self-report-table th,
+.self-report-table td {
+  border-bottom: 1px solid var(--line);
+  padding: 10px 11px;
+  color: #243247;
+  font-size: 13px;
+  text-align: right;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.self-report-table th {
+  color: var(--navy);
+  background: #f7fbff;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.self-report-table th:nth-child(1),
+.self-report-table th:nth-child(2),
+.self-report-table th:nth-child(3),
+.self-report-table td:nth-child(1),
+.self-report-table td:nth-child(2),
+.self-report-table td:nth-child(3) {
+  text-align: left;
+}
+
+.self-report-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.self-report-code,
+.self-report-main-value {
+  color: var(--ink);
+  font-weight: 900;
+}
+
+.self-report-reference {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.self-report-reference b {
+  margin-left: 4px;
+  font-weight: 900;
+}
+
+.self-report-reference b.positive,
+.self-report-main-value.eps-up {
+  color: #b8323c;
+}
+
+.self-report-reference b.negative,
+.self-report-main-value.eps-down {
+  color: #1b7f3b;
+}
+
+.self-report-shot {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px;
+  background: #fbfcfe;
+}
+
+.self-report-shot summary {
+  color: var(--navy);
+  font-size: 13px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.self-report-image-link {
+  display: block;
+  margin-top: 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+  background: #05070b;
+}
+
+.self-report-image-link img {
+  display: block;
+  width: 100%;
+  max-height: 260px;
+  height: auto;
+  object-fit: contain;
+}
+
+.self-report-source {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.self-report-empty {
+  border: 1px dashed var(--line);
+  border-radius: 8px;
+  padding: 28px;
+  background: #fbfcfe;
+}
+
+.self-report-empty strong {
+  color: var(--ink);
+}
+
+.self-report-empty p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  line-height: 1.6;
 }
 
 .section-heading {
