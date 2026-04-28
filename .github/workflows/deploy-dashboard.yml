@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   schedule:
     # Runs after the regular US market close, around 06:00 Taiwan time during US daylight saving time.
-    - cron: "0 22 * * 1-5"
+    - cron: "20 22 * * 1-5"
 
 permissions:
   contents: read
@@ -30,9 +30,12 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Update dashboard data
+      - name: Update performance data
+        run: npm run update:performance
+
+      - name: Update briefing data
         if: github.event_name != 'push'
-        run: npm run update:daily
+        run: npm run update:briefing
 
       - name: Upload web artifact
         uses: actions/upload-pages-artifact@v3
