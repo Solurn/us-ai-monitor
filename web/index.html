@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>美股 AI 監控台</title>
-    <link rel="stylesheet" href="./styles.css?v=2026042902" />
+    <link rel="stylesheet" href="./styles.css?v=2026042903" />
   </head>
   <body>
     <main class="app-shell">
@@ -23,8 +23,8 @@
           <a href="#events" data-market-section="US">未來事件</a>
           <a href="#learning" data-market-section="US">延伸學習</a>
           <a href="#watchlist" data-market-section="US">個股資訊</a>
-          <a href="#twRevenue" data-market-section="TW" hidden>營收資訊</a>
           <a href="#selfReport" data-market-section="TW" hidden>自結資訊</a>
+          <a href="#twRevenue" data-market-section="TW" hidden>營收資訊</a>
         </nav>
 
         <section class="metric-grid" aria-label="監控摘要">
@@ -117,17 +117,6 @@
           <p id="dataStatusText">GitHub Actions 會每日更新公開資料 snapshot；個股研究筆記仍保留人工整理脈絡，並逐步接入更多自動來源。</p>
         </section>
 
-        <section class="tw-revenue-section" id="twRevenue" aria-label="台股月營收精華" data-market-section="TW" hidden>
-          <div class="section-heading">
-            <div>
-              <p class="eyebrow">Taiwan Monthly Revenue</p>
-              <h3>月營收精華</h3>
-            </div>
-            <span class="last-checked" id="twRevenueStats">尚未更新</span>
-          </div>
-          <div id="twRevenuePanel"></div>
-        </section>
-
         <section class="self-report-section" id="selfReport" aria-label="台股自結速報" data-market-section="TW" hidden>
           <div class="section-heading">
             <div>
@@ -137,6 +126,17 @@
             <span class="last-checked" id="selfReportStats">尚未更新</span>
           </div>
           <div id="selfReportPanel"></div>
+        </section>
+
+        <section class="tw-revenue-section" id="twRevenue" aria-label="台股月營收精華" data-market-section="TW" hidden>
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Taiwan Monthly Revenue</p>
+              <h3>月營收精華</h3>
+            </div>
+            <span class="last-checked" id="twRevenueStats">尚未更新</span>
+          </div>
+          <div id="twRevenuePanel"></div>
         </section>
 
         <section class="daily-briefing-section" id="dailyBriefing" aria-label="每日自動摘要" data-market-section="US">
@@ -194,10 +194,10 @@
       </section>
     </main>
 
-    <script src="./data/performance-snapshot.js?v=2026042902"></script>
-    <script src="./data/daily-briefing.js?v=2026042902"></script>
-    <script src="./data/self-report-latest.js?v=2026042902"></script>
-    <script src="./data/tw-revenue-latest.js?v=2026042902"></script>
-    <script src="./app.js?v=2026042902"></script>
+    <script src="./data/performance-snapshot.js?v=2026042903"></script>
+    <script src="./data/daily-briefing.js?v=2026042903"></script>
+    <script src="./data/self-report-latest.js?v=2026042903"></script>
+    <script src="./data/tw-revenue-latest.js?v=2026042903"></script>
+    <script src="./app.js?v=2026042903"></script>
   </body>
 </html>

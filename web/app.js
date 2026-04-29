@@ -1817,6 +1817,13 @@ function formatBriefingTime(value) {
   });
 }
 
+function formatSelfReportUpdateTime() {
+  const queryDate = selfReportLatest.queryDate ? new Date(`${selfReportLatest.queryDate}T20:00:00+08:00`) : null;
+  const base = queryDate && !Number.isNaN(queryDate.getTime()) ? queryDate : null;
+  if (!base) return "每日 20:00";
+  return `${base.toLocaleDateString("zh-TW", { month: "2-digit", day: "2-digit" })} 20:00`;
+}
+
 function escapeHtml(value) {
   return String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -2024,7 +2031,7 @@ function renderMarketShell() {
     if (briefingMetric) briefingMetric.textContent = Number(stats.storyHighs ?? 0).toLocaleString("zh-TW");
     if (briefingMetricLabel) briefingMetricLabel.textContent = "創高且有故事";
     if (briefingMode) briefingMode.textContent = "月營收 / 自結";
-    if (briefingUpdated) briefingUpdated.textContent = formatBriefingTime(twRevenueLatest.generatedAt);
+    if (briefingUpdated) briefingUpdated.textContent = `自結 ${formatSelfReportUpdateTime()}`;
     if (dataStatusText) {
       dataStatusText.textContent = "台股模式目前整合 MOPS 月營收精華與自結速報；月營收條件包含 MoM 或 YoY 達 30%、MoM/YoY 皆非負、累計 YoY 為正，並排除生技、營建、金融與公開發行日期過早公司。";
     }
@@ -2098,10 +2105,10 @@ function renderSelfReport() {
   const image = String(selfReportLatest.image ?? "");
   const rows = selfReportLatest.rows ?? [];
   const count = Number(selfReportLatest.count ?? rows.length ?? 0);
-  const updated = formatBriefingTime(selfReportLatest.generatedAt);
+  const updated = formatSelfReportUpdateTime();
   const skipped = selfReportLatest.skipped ?? {};
   if (selfReportStats) {
-    selfReportStats.textContent = `${selfReportLatest.displayDate || "尚未更新"} / ${count} 筆`;
+    selfReportStats.textContent = `${selfReportLatest.displayDate || "尚未更新"} / ${count} 筆 / 20:00`;
   }
 
   if (!rows.length && !image) {
@@ -2119,7 +2126,7 @@ function renderSelfReport() {
       <div class="self-report-meta">
         <span>${escapeHtml(selfReportLatest.displayDate || selfReportLatest.queryDate || "")}</span>
         <span>${count} 筆符合資料</span>
-        <span>更新 ${escapeHtml(updated)}</span>
+        <span>自結更新 ${escapeHtml(updated)}</span>
         <span>略過可轉債 ${Number(skipped.bond_subject ?? 0)} 筆</span>
       </div>
       ${
