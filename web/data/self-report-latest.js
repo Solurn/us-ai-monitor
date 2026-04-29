@@ -1,5 +1,5 @@
 window.selfReportLatest = {
-  "generatedAt": "2026-04-29T20:08:57+08:00",
+  "generatedAt": "2026-04-29T20:11:13+08:00",
   "queryDate": "2026-04-29",
   "displayDate": "115年4月29日",
   "count": 4,
