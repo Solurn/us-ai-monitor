@@ -519,6 +519,17 @@ const selfReportHistory = window.selfReportHistory ?? {
   items: selfReportLatest.queryDate ? [selfReportLatest] : [],
 };
 
+const financialReportLatest = window.financialReportLatest ?? {
+  generatedAt: "",
+  queryDate: "",
+  rocYear: "",
+  month: "",
+  day: "",
+  count: 0,
+  skipped: {},
+  rows: [],
+};
+
 const twRevenueLatest = window.twRevenueLatest ?? {
   generatedAt: "",
   period: "",
@@ -526,6 +537,15 @@ const twRevenueLatest = window.twRevenueLatest ?? {
   stats: {},
   selected: [],
   stories: [],
+};
+
+const twInsiderHoldingLatest = window.twInsiderHoldingLatest ?? {
+  generatedAt: "",
+  periods: [],
+  filters: {},
+  stats: {},
+  highlights: [],
+  stocks: [],
 };
 
 const allEvents = [...(dailyBriefing.events ?? []), ...upcomingEvents, ...macroEvents].sort((a, b) => `${a.date} ${a.time}`.localeCompare(`${b.date} ${b.time}`));
@@ -1309,10 +1329,14 @@ const dataStatusText = document.querySelector("#dataStatusText");
 const selfReportStats = document.querySelector("#selfReportStats");
 const selfReportSelect = document.querySelector("#selfReportSelect");
 const selfReportPanel = document.querySelector("#selfReportPanel");
+const financialReportStats = document.querySelector("#financialReportStats");
+const financialReportPanel = document.querySelector("#financialReportPanel");
 const rangeLabel = document.querySelector("#rangeLabel");
 const rangeValue = document.querySelector("#rangeValue");
 const twRevenueStats = document.querySelector("#twRevenueStats");
 const twRevenuePanel = document.querySelector("#twRevenuePanel");
+const twInsiderStats = document.querySelector("#twInsiderStats");
+const twInsiderPanel = document.querySelector("#twInsiderPanel");
 
 function themeCount(theme) {
   if (theme === "All") return watchlist.length;
@@ -1848,6 +1872,15 @@ function formatTwPct(value) {
   return `${Number(value).toFixed(2)}%`;
 }
 
+function formatTwMoney(value) {
+  if (value == null || Number.isNaN(Number(value))) return "--";
+  const number = Number(value);
+  const abs = Math.abs(number);
+  if (abs >= 100000000) return `${(number / 100000000).toFixed(2)} 億`;
+  if (abs >= 10000) return `${(number / 10000).toFixed(1)} 萬`;
+  return number.toLocaleString("zh-TW");
+}
+
 function twSearchRows(rows) {
   const query = state.query.trim().toLowerCase();
   if (!query) return rows;
@@ -1951,6 +1984,137 @@ function attachSortableTables(root = document) {
   });
 }
 
+function twInsiderRows() {
+  const rows = twInsiderHoldingLatest.stocks ?? [];
+  const query = state.query.trim().toLowerCase();
+  if (!query) return rows;
+  return rows.filter((stock) => {
+    const peopleText = (stock.people ?? []).map((person) => [
+      person.person,
+      person.relation,
+      (person.roles ?? []).join(" "),
+      person.shareType,
+    ].join(" ")).join(" ");
+    const haystack = [
+      stock.code,
+      stock.name,
+      stock.market,
+      stock.industry,
+      peopleText,
+    ].join(" ").toLowerCase();
+    return haystack.includes(query);
+  });
+}
+
+function twInsiderTone(value) {
+  const number = Number(value ?? 0);
+  if (number > 0) return "positive";
+  if (number < 0) return "negative";
+  return "flat";
+}
+
+function twInsiderMonthlyCells(person) {
+  return (person.monthly ?? []).map((month) => `
+    <span>
+      <b>${escapeHtml(month.period)}</b>
+      +${formatTwNumber(month.increaseShares)} / -${formatTwNumber(month.decreaseShares)}
+    </span>
+  `).join("");
+}
+
+function twInsiderPersonRow(person) {
+  const netShares = Number(person.netShares ?? 0);
+  return `
+    <tr>
+      <td>
+        <strong>${escapeHtml(person.person || "未揭露")}</strong>
+        <span>${escapeHtml((person.roles ?? []).join(" / "))}</span>
+      </td>
+      <td>${escapeHtml(person.relation || "")}</td>
+      <td class="num">${formatTwNumber(person.totalIncreaseShares)}</td>
+      <td class="num">${formatTwNumber(person.totalDecreaseShares)}</td>
+      <td class="num ${twInsiderTone(netShares)}">${netShares >= 0 ? "+" : ""}${formatTwNumber(netShares)}</td>
+      <td class="num">${formatTwMoney(Math.max(person.totalIncreaseValue ?? 0, person.totalDecreaseValue ?? 0))}</td>
+      <td class="tw-insider-months">${twInsiderMonthlyCells(person)}</td>
+    </tr>
+  `;
+}
+
+function twInsiderStockCard(stock) {
+  const netShares = Number(stock.netShares ?? 0);
+  return `
+    <article class="tw-insider-card">
+      <div class="tw-insider-card-head">
+        <div>
+          <span class="tw-insider-code">${escapeHtml(stock.code)}</span>
+          <h4>${escapeHtml(stock.name)}</h4>
+          <p>${escapeHtml(stock.market || "")}${stock.industry ? ` / ${escapeHtml(stock.industry)}` : ""}</p>
+        </div>
+        <div class="tw-insider-net ${twInsiderTone(netShares)}">
+          <span>三月淨變動</span>
+          <strong>${netShares >= 0 ? "+" : ""}${formatTwNumber(netShares)}</strong>
+          <em>${formatTwMoney(stock.netValue)}</em>
+        </div>
+      </div>
+      <div class="tw-insider-meta">
+        <span>增加 ${formatTwNumber(stock.totalIncreaseShares)} 股</span>
+        <span>減少 ${formatTwNumber(stock.totalDecreaseShares)} 股</span>
+        <span>收盤 ${stock.closePrice == null ? "缺價" : formatTwNumber(stock.closePrice)}</span>
+        <span>${escapeHtml(stock.priceAsOf || stock.quoteProvider || "價格待更新")}</span>
+        <span>月成交值 ${stock.monthlyTradedValue == null ? "缺量" : formatTwMoney(stock.monthlyTradedValue)}${stock.liquidityPeriod ? ` / ${escapeHtml(stock.liquidityPeriod)}` : ""}</span>
+      </div>
+      <div class="tw-insider-table-wrap">
+        <table class="tw-insider-table">
+          <thead>
+            <tr>
+              <th>主管</th>
+              <th>關係</th>
+              <th>三月增加</th>
+              <th>三月減少</th>
+              <th>淨變動</th>
+              <th>約當金額</th>
+              <th>月別</th>
+            </tr>
+          </thead>
+          <tbody>${(stock.people ?? []).map(twInsiderPersonRow).join("")}</tbody>
+        </table>
+      </div>
+    </article>
+  `;
+}
+
+function renderTwInsiderHolding() {
+  if (!twInsiderPanel) return;
+  const rows = twInsiderRows();
+  const stats = twInsiderHoldingLatest.stats ?? {};
+  const periods = twInsiderHoldingLatest.periods ?? [];
+  const updated = formatBriefingTime(twInsiderHoldingLatest.generatedAt);
+  const liquidityThreshold = twInsiderHoldingLatest.filters?.liquidityThreshold;
+  const liquidityFilterText = liquidityThreshold == null ? "" : `<span>月成交值 ${formatTwMoney(liquidityThreshold)} 以上</span>`;
+  if (twInsiderStats) {
+    twInsiderStats.textContent = `${periods.join(" / ") || "尚未更新"} / ${rows.length} 檔`;
+  }
+  if (!rows.length) {
+    twInsiderPanel.innerHTML = `
+      <div class="self-report-empty">
+        <strong>尚未找到符合門檻的內部人持股訊號</strong>
+        <p>執行「更新內部人持股.cmd」後，這裡會顯示總經理、副總經理、協理與財務會計主管近三個月的增加與減少。</p>
+      </div>
+    `;
+    return;
+  }
+  twInsiderPanel.innerHTML = `
+    <div class="tw-insider-summary">
+      <span>訊號股票 ${Number(stats.selectedStocks ?? rows.length)} 檔</span>
+      <span>主管/家屬 ${Number(stats.selectedPeople ?? 0)} 人</span>
+      <span>門檻 ${formatTwNumber(twInsiderHoldingLatest.filters?.shareThreshold ?? 100000)} 股 / ${formatTwMoney(twInsiderHoldingLatest.filters?.valueThreshold ?? 5000000)}</span>
+      ${liquidityFilterText}
+      <span>更新 ${escapeHtml(updated)}</span>
+    </div>
+    <div class="tw-insider-list">${rows.map(twInsiderStockCard).join("")}</div>
+  `;
+}
+
 function renderTwRevenue() {
   if (!twRevenuePanel) return;
   const selected = twSearchRows(twRevenueLatest.selected ?? []);
@@ -2022,23 +2186,24 @@ function renderMarketShell() {
   }
   if (searchInput) searchInput.placeholder = isTw ? "台股代號 / 公司 / 產業 / 備註" : "Ticker / 公司 / 技術";
   if (rangeLabel) rangeLabel.textContent = isTw ? "資料月份" : "事件範圍";
-  if (rangeValue) rangeValue.textContent = isTw ? (twRevenueLatest.period || "待更新") : "30 天";
+  if (rangeValue) rangeValue.textContent = isTw ? ((twInsiderHoldingLatest.periods ?? []).join(" / ") || twRevenueLatest.period || "待更新") : "30 天";
 
   if (isTw) {
-    const stats = twRevenueLatest.stats ?? {};
-    if (briefingAsOf) briefingAsOf.textContent = `資料月份：${twRevenueLatest.period || "尚未更新"}`;
-    if (totalCount) totalCount.textContent = Number(stats.selected ?? 0).toLocaleString("zh-TW");
-    if (totalCountLabel) totalCountLabel.textContent = "入選公司";
-    if (secondaryCount) secondaryCount.textContent = Number(stats.stories ?? 0).toLocaleString("zh-TW");
-    if (secondaryCountLabel) secondaryCountLabel.textContent = "有備註故事";
-    if (eventCount) eventCount.textContent = Number(stats.highs ?? 0).toLocaleString("zh-TW");
-    if (eventCountLabel) eventCountLabel.textContent = "創歷史新高";
-    if (briefingMetric) briefingMetric.textContent = Number(stats.storyHighs ?? 0).toLocaleString("zh-TW");
-    if (briefingMetricLabel) briefingMetricLabel.textContent = "創高且有故事";
-    if (briefingMode) briefingMode.textContent = "月營收 / 自結";
-    if (briefingUpdated) briefingUpdated.textContent = `自結 ${formatSelfReportUpdateTime()}`;
+    const revenueStats = twRevenueLatest.stats ?? {};
+    const insiderStats = twInsiderHoldingLatest.stats ?? {};
+    if (briefingAsOf) briefingAsOf.textContent = `內部人月份：${(twInsiderHoldingLatest.periods ?? []).join(" / ") || "尚未更新"}`;
+    if (totalCount) totalCount.textContent = Number(insiderStats.selectedStocks ?? 0).toLocaleString("zh-TW");
+    if (totalCountLabel) totalCountLabel.textContent = "內部人訊號";
+    if (secondaryCount) secondaryCount.textContent = Number(insiderStats.selectedPeople ?? 0).toLocaleString("zh-TW");
+    if (secondaryCountLabel) secondaryCountLabel.textContent = "主管/家屬";
+    if (eventCount) eventCount.textContent = Number(revenueStats.selected ?? 0).toLocaleString("zh-TW");
+    if (eventCountLabel) eventCountLabel.textContent = "營收入選";
+    if (briefingMetric) briefingMetric.textContent = Number(selfReportLatest.count ?? 0).toLocaleString("zh-TW");
+    if (briefingMetricLabel) briefingMetricLabel.textContent = "自結筆數";
+    if (briefingMode) briefingMode.textContent = "內部人 / 月營收 / 自結 / 財報";
+    if (briefingUpdated) briefingUpdated.textContent = `內部人 ${formatBriefingTime(twInsiderHoldingLatest.generatedAt)}`;
     if (dataStatusText) {
-      dataStatusText.textContent = "台股模式目前整合 MOPS 月營收精華與自結速報；月營收條件包含 MoM 或 YoY 達 30%、MoM/YoY 皆非負、累計 YoY 為正，並排除生技、營建、金融與公開發行日期過早公司。";
+      dataStatusText.textContent = "台股模式整合 MOPS 內部人持股、月營收精華、自結速報與財報公告；內部人訊號聚焦總經理、副總經理、協理、財務與會計主管，並以三個月累計股數或約當金額篩選。";
     }
     return;
   }
@@ -2063,6 +2228,133 @@ function formatSelfReportPct(value) {
 function formatSelfReportNumber(value) {
   if (value == null || Number.isNaN(Number(value))) return "--";
   return Number(value).toFixed(2);
+}
+
+function formatFinancialReportDate() {
+  if (financialReportLatest.rocYear && financialReportLatest.month && financialReportLatest.day) {
+    return `${financialReportLatest.rocYear}年${financialReportLatest.month}月${financialReportLatest.day}日`;
+  }
+  return financialReportLatest.queryDate || "尚未更新";
+}
+
+function formatSignedPct(value) {
+  if (value == null || Number.isNaN(Number(value))) return "--";
+  const number = Number(value);
+  return `${number >= 0 ? "+" : ""}${number.toFixed(2)}%`;
+}
+
+function shortFinancialQuarter(value) {
+  const match = String(value ?? "").match(/(\d{4})Q([1-4])/);
+  if (match) return `${String(Number(match[1]) % 100).padStart(2, "0")}Q${match[2]}`;
+  return String(value ?? "");
+}
+
+function shortFinancialPeriod(value) {
+  const match = String(value ?? "").match(/(\d{3,4})年第([1-4])季/);
+  if (!match) return String(value ?? "");
+  const year = Number(match[1]) < 1000 ? Number(match[1]) + 1911 : Number(match[1]);
+  return `${String(year % 100).padStart(2, "0")}Q${match[2]}`;
+}
+
+function financialRevenueReference(row) {
+  const qoq = row.revenueQoqPct;
+  const trend = qoq == null ? "QoQ" : Number(qoq) >= 0 ? "季成長" : "季衰退";
+  const previous = shortFinancialQuarter(row.previousQuarter);
+  return `${previous || "上季"} ${trend} ${formatSignedPct(qoq)} / YOY ${formatSignedPct(row.revenueYoyPct)}`;
+}
+
+function financialDelta(value, previous, formatter) {
+  if (value == null || previous == null || Number.isNaN(Number(value)) || Number.isNaN(Number(previous))) return "";
+  const delta = Number(value) - Number(previous);
+  const sign = delta >= 0 ? "+" : "";
+  return `${sign}${formatter(delta)}`;
+}
+
+function financialReference(row, valueKey, previousKey, formatter) {
+  const previous = row[previousKey];
+  if (previous == null) return "上季 --";
+  const delta = financialDelta(row[valueKey], previous, formatter);
+  return `${shortFinancialQuarter(row.previousQuarter) || "上季"} ${formatter(previous)}${delta ? ` Δ ${delta}` : ""}`;
+}
+
+function financialReportRow(row) {
+  return `
+    <tr>
+      <td class="self-report-code">${escapeHtml(row.code)}</td>
+      <td>${escapeHtml(row.name)}</td>
+      <td>${escapeHtml(shortFinancialPeriod(row.periodLabel))}</td>
+      <td>
+        <span class="self-report-main-value">${formatTwNumber(row.revenue)}</span>
+        <span class="self-report-reference">${escapeHtml(financialRevenueReference(row))}</span>
+      </td>
+      <td>
+        <span class="self-report-main-value">${formatSelfReportPct(row.grossMarginPct)}</span>
+        <span class="self-report-reference">${escapeHtml(financialReference(row, "grossMarginPct", "previousGrossMarginPct", formatSelfReportPct))}</span>
+      </td>
+      <td>
+        <span class="self-report-main-value">${formatSelfReportPct(row.operatingMarginPct)}</span>
+        <span class="self-report-reference">${escapeHtml(financialReference(row, "operatingMarginPct", "previousOperatingMarginPct", formatSelfReportPct))}</span>
+      </td>
+      <td>
+        <span class="self-report-main-value">${formatSelfReportPct(row.preTaxMarginPct)}</span>
+        <span class="self-report-reference">${escapeHtml(financialReference(row, "preTaxMarginPct", "previousPreTaxMarginPct", formatSelfReportPct))}</span>
+      </td>
+      <td>
+        <span class="self-report-main-value">${formatSelfReportNumber(row.eps)}</span>
+        <span class="self-report-reference">${escapeHtml(financialReference(row, "eps", "previousEps", formatSelfReportNumber))}</span>
+      </td>
+    </tr>
+  `;
+}
+
+function renderFinancialReport() {
+  if (!financialReportPanel) return;
+  const rows = financialReportLatest.rows ?? [];
+  const count = Number(financialReportLatest.count ?? rows.length ?? 0);
+  const skipped = financialReportLatest.skipped ?? {};
+  if (financialReportStats) {
+    financialReportStats.textContent = `${formatFinancialReportDate()} / ${count} 筆`;
+  }
+
+  if (!rows.length) {
+    financialReportPanel.innerHTML = `
+      <div class="self-report-empty">
+        <strong>尚未產生財報公告資料</strong>
+        <p>在自結數據資料夾執行「更新財報公告.cmd」後，這裡會顯示最新資料。</p>
+      </div>
+    `;
+    return;
+  }
+
+  financialReportPanel.innerHTML = `
+    <article class="self-report-card financial-report-card">
+      <div class="self-report-meta">
+        <span>${escapeHtml(formatFinancialReportDate())}</span>
+        <span>${count} 筆符合資料</span>
+        <span>排除日期公告 ${Number(skipped.subject_date ?? 0)} 筆</span>
+        <span>缺上一季 ${Number(skipped.missing_previous_quarter ?? 0)} 筆</span>
+      </div>
+      <div class="self-report-table-wrap financial-report-table-wrap">
+        <table class="self-report-table financial-report-table sortable-table">
+          <thead>
+            <tr>
+              <th>代號</th>
+              <th>名稱</th>
+              <th>期間</th>
+              <th>營收</th>
+              <th>毛利率</th>
+              <th>營益率</th>
+              <th>稅前淨利率</th>
+              <th>EPS</th>
+            </tr>
+          </thead>
+          <tbody>${rows.map(financialReportRow).join("")}</tbody>
+        </table>
+      </div>
+      <p class="self-report-source">資料來源：公開資訊觀測站 / Goodinfo 單季損益表；營收小字為 QoQ 與 YOY。</p>
+    </article>
+  `;
+  attachSortableTables(financialReportPanel);
 }
 
 function formatSelfReportDelta(value) {
@@ -2287,8 +2579,10 @@ function renderStocks() {
 function render() {
   renderMarketShell();
   if (state.market === "TW") {
+    renderTwInsiderHolding();
     renderTwRevenue();
     renderSelfReport();
+    renderFinancialReport();
     return;
   }
   renderDailyBriefing();
@@ -2303,7 +2597,9 @@ function render() {
 searchInput.addEventListener("input", (event) => {
   state.query = event.target.value;
   if (state.market === "TW") {
+    renderTwInsiderHolding();
     renderTwRevenue();
+    renderFinancialReport();
     return;
   }
   renderEvents();

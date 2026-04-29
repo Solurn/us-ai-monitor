@@ -450,7 +450,9 @@ input {
   line-height: 1.6;
 }
 
+.tw-insider-section,
 .tw-revenue-section,
+.financial-report-section,
 .self-report-section,
 .daily-briefing-section,
 .upcoming-section,
@@ -475,9 +477,166 @@ input {
   background: #ffffff;
 }
 
-.tw-revenue-section {
+.tw-revenue-section,
+.tw-insider-section,
+.financial-report-section {
   background: #ffffff;
 }
+
+.tw-insider-summary,
+.tw-insider-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tw-insider-summary {
+  margin-bottom: 14px;
+}
+
+.tw-insider-summary span,
+.tw-insider-meta span {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 6px 9px;
+  color: #405066;
+  background: #f9fafc;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.tw-insider-list {
+  display: grid;
+  gap: 14px;
+}
+
+.tw-insider-card {
+  display: grid;
+  gap: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 14px;
+  background: #ffffff;
+}
+
+.tw-insider-card-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.tw-insider-code {
+  color: var(--teal);
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.tw-insider-card h4 {
+  margin: 2px 0 4px;
+  color: var(--ink);
+  font-size: 18px;
+  letter-spacing: 0;
+}
+
+.tw-insider-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.tw-insider-net {
+  min-width: 128px;
+  text-align: right;
+}
+
+.tw-insider-net span,
+.tw-insider-net em {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.tw-insider-net strong {
+  display: block;
+  color: var(--ink);
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.tw-insider-net.positive strong,
+.tw-insider-table .positive {
+  color: #b8323c;
+}
+
+.tw-insider-net.negative strong,
+.tw-insider-table .negative {
+  color: #1b7f3b;
+}
+
+.tw-insider-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.tw-insider-table {
+  width: 100%;
+  min-width: 980px;
+  border-collapse: collapse;
+}
+
+.tw-insider-table th,
+.tw-insider-table td {
+  border-bottom: 1px solid var(--line);
+  padding: 10px 11px;
+  color: #243247;
+  font-size: 13px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.tw-insider-table th {
+  color: var(--navy);
+  background: #f7fbff;
+  font-size: 12px;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.tw-insider-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.tw-insider-table td strong {
+  display: block;
+  color: var(--ink);
+  font-weight: 900;
+}
+
+.tw-insider-table td span {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+.tw-insider-table .num {
+  text-align: right;
+  white-space: nowrap;
+  font-weight: 900;
+}
+
+.tw-insider-months span {
+  display: inline-block;
+  margin: 0 6px 4px 0;
+  white-space: nowrap;
+}
+
 
 .tw-revenue-summary {
   display: flex;
@@ -681,6 +840,10 @@ th.sortable.sorted-desc::after {
   background: #ffffff;
 }
 
+.financial-report-table {
+  min-width: 980px;
+}
+
 .self-report-table th,
 .self-report-table td {
   border-bottom: 1px solid var(--line);
@@ -723,6 +886,8 @@ th.sortable.sorted-desc::after {
   margin-top: 2px;
   color: var(--muted);
   font-size: 11px;
+  line-height: 1.25;
+  white-space: normal;
 }
 
 .self-report-reference b {

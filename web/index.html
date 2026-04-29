@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>美股 AI 監控台</title>
-    <link rel="stylesheet" href="./styles.css?v=2026042904" />
+    <link rel="stylesheet" href="./styles.css?v=2026042905" />
   </head>
   <body>
     <main class="app-shell">
@@ -23,7 +23,9 @@
           <a href="#events" data-market-section="US">未來事件</a>
           <a href="#learning" data-market-section="US">延伸學習</a>
           <a href="#watchlist" data-market-section="US">個股資訊</a>
+          <a href="#twInsider" data-market-section="TW" hidden>內部人持股</a>
           <a href="#selfReport" data-market-section="TW" hidden>自結資訊</a>
+          <a href="#financialReport" data-market-section="TW" hidden>財報公告</a>
           <a href="#twRevenue" data-market-section="TW" hidden>營收資訊</a>
         </nav>
 
@@ -105,7 +107,9 @@
         </section>
 
         <div class="quick-tabs" aria-label="快速跳轉">
+          <a href="#twInsider" data-market-section="TW" hidden>內部人持股</a>
           <a href="#selfReport" data-market-section="TW" hidden>自結速報</a>
+          <a href="#financialReport" data-market-section="TW" hidden>財報公告</a>
           <a href="#twRevenue" data-market-section="TW" hidden>營收資訊</a>
           <a href="#events" data-market-section="US">事件日曆</a>
           <a href="#learning" data-market-section="US">技術學習</a>
@@ -115,6 +119,17 @@
         <section class="data-note" aria-label="資料狀態說明">
           <strong>資料狀態</strong>
           <p id="dataStatusText">GitHub Actions 會每日更新公開資料 snapshot；個股研究筆記仍保留人工整理脈絡，並逐步接入更多自動來源。</p>
+        </section>
+
+        <section class="tw-insider-section" id="twInsider" aria-label="台股內部人持股" data-market-section="TW" hidden>
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Taiwan Insider Holding</p>
+              <h3>內部人持股</h3>
+            </div>
+            <span class="last-checked" id="twInsiderStats">尚未更新</span>
+          </div>
+          <div id="twInsiderPanel"></div>
         </section>
 
         <section class="self-report-section" id="selfReport" aria-label="台股自結速報" data-market-section="TW" hidden>
@@ -129,6 +144,17 @@
             </div>
           </div>
           <div id="selfReportPanel"></div>
+        </section>
+
+        <section class="financial-report-section" id="financialReport" aria-label="台股財報公告" data-market-section="TW" hidden>
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Taiwan Financial Report</p>
+              <h3>財報公告</h3>
+            </div>
+            <span class="last-checked" id="financialReportStats">尚未更新</span>
+          </div>
+          <div id="financialReportPanel"></div>
         </section>
 
         <section class="tw-revenue-section" id="twRevenue" aria-label="台股月營收精華" data-market-section="TW" hidden>
@@ -201,7 +227,9 @@
     <script src="./data/daily-briefing.js?v=2026042904"></script>
     <script src="./data/self-report-latest.js?v=2026042904"></script>
     <script src="./data/self-report-history.js?v=2026042904"></script>
+    <script src="./data/financial-report-latest.js?v=2026042905"></script>
     <script src="./data/tw-revenue-latest.js?v=2026042904"></script>
-    <script src="./app.js?v=2026042904"></script>
+    <script src="./data/insider-holding-latest.js?v=2026042904"></script>
+    <script src="./app.js?v=2026042905"></script>
   </body>
 </html>
