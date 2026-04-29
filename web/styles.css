@@ -634,6 +634,24 @@ th.sortable.sorted-desc::after {
   gap: 12px;
 }
 
+.self-report-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.self-report-select {
+  min-width: 180px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 6px 32px 6px 10px;
+  color: var(--navy);
+  background: #ffffff;
+  font-size: 12px;
+  font-weight: 800;
+}
+
 .self-report-meta {
   display: flex;
   flex-wrap: wrap;

@@ -505,7 +505,7 @@ const dailyBriefing = window.dailyBriefing ?? {
   errors: [],
 };
 
-const selfReportLatest = window.selfReportLatest ?? {
+let selfReportLatest = window.selfReportLatest ?? {
   generatedAt: "",
   queryDate: "",
   displayDate: "尚未更新",
@@ -513,6 +513,10 @@ const selfReportLatest = window.selfReportLatest ?? {
   skipped: {},
   image: "",
   source: "公開資訊觀測站",
+};
+
+const selfReportHistory = window.selfReportHistory ?? {
+  items: selfReportLatest.queryDate ? [selfReportLatest] : [],
 };
 
 const twRevenueLatest = window.twRevenueLatest ?? {
@@ -1303,6 +1307,7 @@ const briefingStats = document.querySelector("#briefingStats");
 const briefingList = document.querySelector("#briefingList");
 const dataStatusText = document.querySelector("#dataStatusText");
 const selfReportStats = document.querySelector("#selfReportStats");
+const selfReportSelect = document.querySelector("#selfReportSelect");
 const selfReportPanel = document.querySelector("#selfReportPanel");
 const rangeLabel = document.querySelector("#rangeLabel");
 const rangeValue = document.querySelector("#rangeValue");
@@ -2100,8 +2105,38 @@ function selfReportRow(row) {
   `;
 }
 
+function selfReportArchiveItems() {
+  const byDate = new Map();
+  for (const item of selfReportHistory.items ?? []) {
+    if (item?.queryDate) byDate.set(item.queryDate, item);
+  }
+  if (selfReportLatest.queryDate) byDate.set(selfReportLatest.queryDate, selfReportLatest);
+  return Array.from(byDate.values()).sort((a, b) => String(b.queryDate || "").localeCompare(String(a.queryDate || "")));
+}
+
+function renderSelfReportSelect() {
+  if (!selfReportSelect) return;
+  const items = selfReportArchiveItems();
+  selfReportSelect.hidden = items.length <= 1;
+  selfReportSelect.innerHTML = items.map((item) => {
+    const count = Number(item.count ?? item.rows?.length ?? 0);
+    const suffix = item.queryDate === items[0]?.queryDate ? "（最新）" : "";
+    return `<option value="${escapeHtml(item.queryDate)}">${escapeHtml(item.displayDate || item.queryDate)} / ${count} 筆${suffix}</option>`;
+  }).join("");
+  selfReportSelect.value = selfReportLatest.queryDate || items[0]?.queryDate || "";
+}
+
+function setSelfReportDate(queryDate) {
+  const selected = selfReportArchiveItems().find((item) => item.queryDate === queryDate);
+  if (!selected) return;
+  selfReportLatest = selected;
+  renderMarketShell();
+  renderSelfReport();
+}
+
 function renderSelfReport() {
   if (!selfReportPanel) return;
+  renderSelfReportSelect();
   const image = String(selfReportLatest.image ?? "");
   const rows = selfReportLatest.rows ?? [];
   const count = Number(selfReportLatest.count ?? rows.length ?? 0);
@@ -2287,6 +2322,12 @@ toggleButtons.forEach((button) => {
 marketButtons.forEach((button) => {
   button.addEventListener("click", () => setMarket(button.dataset.market));
 });
+
+if (selfReportSelect) {
+  selfReportSelect.addEventListener("change", (event) => {
+    setSelfReportDate(event.target.value);
+  });
+}
 
 if (marketSwitch) {
   let swipeStartX = null;
