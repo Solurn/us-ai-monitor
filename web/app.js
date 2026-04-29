@@ -2240,6 +2240,7 @@ function formatFinancialReportDate() {
 function formatSignedPct(value) {
   if (value == null || Number.isNaN(Number(value))) return "--";
   const number = Number(value);
+  if (Math.abs(number) < 0.0000001) return "0.00%";
   return `${number >= 0 ? "+" : ""}${number.toFixed(2)}%`;
 }
 
@@ -2260,21 +2261,34 @@ function financialRevenueReference(row) {
   const qoq = row.revenueQoqPct;
   const trend = qoq == null ? "QoQ" : Number(qoq) >= 0 ? "季成長" : "季衰退";
   const previous = shortFinancialQuarter(row.previousQuarter);
-  return `${previous || "上季"} ${trend} ${formatSignedPct(qoq)} / YOY ${formatSignedPct(row.revenueYoyPct)}`;
+  return `
+    ${escapeHtml(previous || "上季")} ${escapeHtml(trend)}
+    <b class="${financialTone(qoq)}">${escapeHtml(formatSignedPct(qoq))}</b>
+    / YOY <b class="${financialTone(row.revenueYoyPct)}">${escapeHtml(formatSignedPct(row.revenueYoyPct))}</b>
+  `;
 }
 
-function financialDelta(value, previous, formatter) {
-  if (value == null || previous == null || Number.isNaN(Number(value)) || Number.isNaN(Number(previous))) return "";
+function financialDelta(value, previous) {
+  if (value == null || previous == null || Number.isNaN(Number(value)) || Number.isNaN(Number(previous))) return null;
   const delta = Number(value) - Number(previous);
-  const sign = delta >= 0 ? "+" : "";
-  return `${sign}${formatter(delta)}`;
+  return Math.abs(delta) < 0.0000001 ? 0 : delta;
+}
+
+function financialTone(value) {
+  if (value == null || Number.isNaN(Number(value))) return "";
+  const number = Number(value);
+  if (number > 0) return "positive";
+  if (number < 0) return "negative";
+  return "";
 }
 
 function financialReference(row, valueKey, previousKey, formatter) {
   const previous = row[previousKey];
   if (previous == null) return "上季 --";
-  const delta = financialDelta(row[valueKey], previous, formatter);
-  return `${shortFinancialQuarter(row.previousQuarter) || "上季"} ${formatter(previous)}${delta ? ` Δ ${delta}` : ""}`;
+  const delta = financialDelta(row[valueKey], previous);
+  const deltaText = delta == null ? "" : `${delta > 0 ? "+" : ""}${formatter(delta)}`;
+  const deltaMarkup = deltaText ? ` <b class="${financialTone(delta)}">Δ ${escapeHtml(deltaText)}</b>` : "";
+  return `${escapeHtml(shortFinancialQuarter(row.previousQuarter) || "上季")} ${escapeHtml(formatter(previous))}${deltaMarkup}`;
 }
 
 function financialReportRow(row) {
@@ -2285,23 +2299,23 @@ function financialReportRow(row) {
       <td>${escapeHtml(shortFinancialPeriod(row.periodLabel))}</td>
       <td>
         <span class="self-report-main-value">${formatTwNumber(row.revenue)}</span>
-        <span class="self-report-reference">${escapeHtml(financialRevenueReference(row))}</span>
+        <span class="self-report-reference">${financialRevenueReference(row)}</span>
       </td>
       <td>
         <span class="self-report-main-value">${formatSelfReportPct(row.grossMarginPct)}</span>
-        <span class="self-report-reference">${escapeHtml(financialReference(row, "grossMarginPct", "previousGrossMarginPct", formatSelfReportPct))}</span>
+        <span class="self-report-reference">${financialReference(row, "grossMarginPct", "previousGrossMarginPct", formatSelfReportPct)}</span>
       </td>
       <td>
         <span class="self-report-main-value">${formatSelfReportPct(row.operatingMarginPct)}</span>
-        <span class="self-report-reference">${escapeHtml(financialReference(row, "operatingMarginPct", "previousOperatingMarginPct", formatSelfReportPct))}</span>
+        <span class="self-report-reference">${financialReference(row, "operatingMarginPct", "previousOperatingMarginPct", formatSelfReportPct)}</span>
       </td>
       <td>
         <span class="self-report-main-value">${formatSelfReportPct(row.preTaxMarginPct)}</span>
-        <span class="self-report-reference">${escapeHtml(financialReference(row, "preTaxMarginPct", "previousPreTaxMarginPct", formatSelfReportPct))}</span>
+        <span class="self-report-reference">${financialReference(row, "preTaxMarginPct", "previousPreTaxMarginPct", formatSelfReportPct)}</span>
       </td>
       <td>
         <span class="self-report-main-value">${formatSelfReportNumber(row.eps)}</span>
-        <span class="self-report-reference">${escapeHtml(financialReference(row, "eps", "previousEps", formatSelfReportNumber))}</span>
+        <span class="self-report-reference">${financialReference(row, "eps", "previousEps", formatSelfReportNumber)}</span>
       </td>
     </tr>
   `;
