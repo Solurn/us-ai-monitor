@@ -4,39 +4,45 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>美股 AI 監控台</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css?v=2026042902" />
   </head>
   <body>
     <main class="app-shell">
       <aside class="sidebar" aria-label="監控台側邊欄">
         <div class="brand-block">
-          <p class="eyebrow">US Equity Monitor</p>
-          <h1>美股 AI 監控台</h1>
+          <p class="eyebrow" id="marketEyebrow">US Equity Monitor</p>
+          <h1 id="marketTitle">美股 AI 監控台</h1>
           <p class="as-of" id="briefingAsOf">資料整理日：等待自動更新</p>
+          <div class="market-switch" id="marketSwitch" aria-label="市場切換，可左右滑動切換">
+            <button class="market-button active" type="button" data-market="US">美股</button>
+            <button class="market-button" type="button" data-market="TW">台股</button>
+          </div>
         </div>
 
         <nav class="side-nav" aria-label="頁面導覽">
-          <a href="#events">未來事件</a>
-          <a href="#learning">延伸學習</a>
-          <a href="#watchlist">個股資訊</a>
+          <a href="#events" data-market-section="US">未來事件</a>
+          <a href="#learning" data-market-section="US">延伸學習</a>
+          <a href="#watchlist" data-market-section="US">個股資訊</a>
+          <a href="#twRevenue" data-market-section="TW" hidden>營收資訊</a>
+          <a href="#selfReport" data-market-section="TW" hidden>自結資訊</a>
         </nav>
 
         <section class="metric-grid" aria-label="監控摘要">
           <div class="metric">
             <span class="metric-value" id="totalCount">25</span>
-            <span class="metric-label">監控標的</span>
+            <span class="metric-label" id="totalCountLabel">監控標的</span>
           </div>
           <div class="metric">
-            <span class="metric-value">5</span>
-            <span class="metric-label">主題群組</span>
+            <span class="metric-value" id="secondaryCount">5</span>
+            <span class="metric-label" id="secondaryCountLabel">主題群組</span>
           </div>
           <div class="metric">
             <span class="metric-value" id="eventCount">0</span>
-            <span class="metric-label">重大事件</span>
+            <span class="metric-label" id="eventCountLabel">重大事件</span>
           </div>
           <div class="metric">
             <span class="metric-value" id="briefingMetric">每日</span>
-            <span class="metric-label">自動更新</span>
+            <span class="metric-label" id="briefingMetricLabel">自動更新</span>
           </div>
         </section>
 
@@ -45,12 +51,12 @@
           <input id="searchInput" type="search" placeholder="Ticker / 公司 / 技術 / 台股代號" autocomplete="off" />
         </label>
 
-        <section class="filter-panel" aria-label="主題篩選">
+        <section class="filter-panel" aria-label="主題篩選" data-market-section="US">
           <h2>主題分類</h2>
           <div class="chip-group" id="themeFilters"></div>
         </section>
 
-        <section class="filter-panel" aria-label="資料來源優先順序">
+        <section class="filter-panel" aria-label="資料來源優先順序" data-market-section="US">
           <h2>來源優先</h2>
           <div class="source-stack">
             <span>SEC</span>
@@ -66,11 +72,11 @@
       <section class="content">
         <header class="content-header">
           <div>
-            <p class="eyebrow">Research Workspace</p>
-            <h2>AI 供應鏈研究工作台</h2>
-            <p>整合個股事件、總經日曆、法說筆記、機構觀點與技術學習地圖。</p>
+            <p class="eyebrow" id="workspaceEyebrow">Research Workspace</p>
+            <h2 id="workspaceTitle">AI 供應鏈研究工作台</h2>
+            <p id="workspaceLead">整合個股事件、總經日曆、法說筆記、機構觀點與技術學習地圖。</p>
           </div>
-          <div class="view-toggle" aria-label="個股檢視模式">
+          <div class="view-toggle" aria-label="個股檢視模式" data-market-section="US">
             <button class="toggle-button active" type="button" data-view="cards">卡片</button>
             <button class="toggle-button" type="button" data-view="compact">清單</button>
           </div>
@@ -78,9 +84,9 @@
 
         <section class="dashboard-hero" aria-label="監控台狀態">
           <div class="hero-panel">
-            <p class="eyebrow">Today Focus</p>
-            <h3>把資訊流整理成可追蹤的研究線索</h3>
-            <p>先看未來 30 天事件，再用個股卡片掌握近期展望；遇到技術詞時，直接跳到延伸學習區拆解瓶頸與相關標的。</p>
+            <p class="eyebrow" id="heroEyebrow">Today Focus</p>
+            <h3 id="heroTitle">把資訊流整理成可追蹤的研究線索</h3>
+            <p id="heroLead">先看未來 30 天事件，再用個股卡片掌握近期展望；遇到技術詞時，直接跳到延伸學習區拆解瓶頸與相關標的。</p>
           </div>
           <div class="status-grid" aria-label="資料狀態">
             <div class="status-card">
@@ -88,8 +94,8 @@
               <strong id="briefingMode">自動更新</strong>
             </div>
             <div class="status-card">
-              <span>事件範圍</span>
-              <strong>30 天</strong>
+              <span id="rangeLabel">事件範圍</span>
+              <strong id="rangeValue">30 天</strong>
             </div>
             <div class="status-card">
               <span>最近更新</span>
@@ -99,10 +105,11 @@
         </section>
 
         <div class="quick-tabs" aria-label="快速跳轉">
-          <a href="#selfReport">自結速報</a>
-          <a href="#events">事件日曆</a>
-          <a href="#learning">技術學習</a>
-          <a href="#watchlist">個股卡片</a>
+          <a href="#selfReport" data-market-section="TW" hidden>自結速報</a>
+          <a href="#twRevenue" data-market-section="TW" hidden>營收資訊</a>
+          <a href="#events" data-market-section="US">事件日曆</a>
+          <a href="#learning" data-market-section="US">技術學習</a>
+          <a href="#watchlist" data-market-section="US">個股卡片</a>
         </div>
 
         <section class="data-note" aria-label="資料狀態說明">
@@ -110,7 +117,18 @@
           <p id="dataStatusText">GitHub Actions 會每日更新公開資料 snapshot；個股研究筆記仍保留人工整理脈絡，並逐步接入更多自動來源。</p>
         </section>
 
-        <section class="self-report-section" id="selfReport" aria-label="台股自結速報">
+        <section class="tw-revenue-section" id="twRevenue" aria-label="台股月營收精華" data-market-section="TW" hidden>
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Taiwan Monthly Revenue</p>
+              <h3>月營收精華</h3>
+            </div>
+            <span class="last-checked" id="twRevenueStats">尚未更新</span>
+          </div>
+          <div id="twRevenuePanel"></div>
+        </section>
+
+        <section class="self-report-section" id="selfReport" aria-label="台股自結速報" data-market-section="TW" hidden>
           <div class="section-heading">
             <div>
               <p class="eyebrow">Taiwan Self Report</p>
@@ -121,7 +139,7 @@
           <div id="selfReportPanel"></div>
         </section>
 
-        <section class="daily-briefing-section" id="dailyBriefing" aria-label="每日自動摘要">
+        <section class="daily-briefing-section" id="dailyBriefing" aria-label="每日自動摘要" data-market-section="US">
           <div class="section-heading">
             <div>
               <p class="eyebrow">Daily Briefing</p>
@@ -132,7 +150,7 @@
           <div class="briefing-list" id="briefingList"></div>
         </section>
 
-        <section class="upcoming-section" id="events" aria-label="未來 30 天重大事件">
+        <section class="upcoming-section" id="events" aria-label="未來 30 天重大事件" data-market-section="US">
           <div class="section-heading">
             <div>
               <p class="eyebrow">Next 30 Days</p>
@@ -144,7 +162,7 @@
           <div class="event-list" id="eventList"></div>
         </section>
 
-        <section class="learning-section" id="learning" aria-label="延伸學習">
+        <section class="learning-section" id="learning" aria-label="延伸學習" data-market-section="US">
           <div class="section-heading">
             <div>
               <p class="eyebrow">Research Lab</p>
@@ -162,7 +180,7 @@
           <div class="learning-list" id="learningList"></div>
         </section>
 
-        <section class="priority-strip" aria-label="重大事件追蹤範圍">
+        <section class="priority-strip" aria-label="重大事件追蹤範圍" data-market-section="US">
           <div>
             <p class="eyebrow">Priority</p>
             <h3>個股資訊</h3>
@@ -170,15 +188,16 @@
           <p>每張卡片整合法說/論壇筆記、市場與機構觀點、研究問題、近期事件與可跳轉的學習主題。</p>
         </section>
 
-        <section id="watchlist" aria-label="個股資訊">
+        <section id="watchlist" aria-label="個股資訊" data-market-section="US">
           <div class="stock-grid" id="stockGrid" aria-live="polite"></div>
         </section>
       </section>
     </main>
 
-    <script src="./data/performance-snapshot.js"></script>
-    <script src="./data/daily-briefing.js"></script>
-    <script src="./data/self-report-latest.js"></script>
-    <script src="./app.js"></script>
+    <script src="./data/performance-snapshot.js?v=2026042902"></script>
+    <script src="./data/daily-briefing.js?v=2026042902"></script>
+    <script src="./data/self-report-latest.js?v=2026042902"></script>
+    <script src="./data/tw-revenue-latest.js?v=2026042902"></script>
+    <script src="./app.js?v=2026042902"></script>
   </body>
 </html>

@@ -515,6 +515,15 @@ const selfReportLatest = window.selfReportLatest ?? {
   source: "公開資訊觀測站",
 };
 
+const twRevenueLatest = window.twRevenueLatest ?? {
+  generatedAt: "",
+  period: "",
+  source: "",
+  stats: {},
+  selected: [],
+  stories: [],
+};
+
 const allEvents = [...(dailyBriefing.events ?? []), ...upcomingEvents, ...macroEvents].sort((a, b) => `${a.date} ${a.time}`.localeCompare(`${b.date} ${b.time}`));
 
 const stockIntel = {
@@ -1240,6 +1249,7 @@ const taiwanExtensionRationales = {
 const learningCategories = ["全部", ...Array.from(new Set(learningTopics.map((topic) => topic.category)))];
 
 const state = {
+  market: "US",
   theme: "All",
   query: "",
   view: "cards",
@@ -1262,8 +1272,23 @@ const grid = document.querySelector("#stockGrid");
 const filters = document.querySelector("#themeFilters");
 const searchInput = document.querySelector("#searchInput");
 const toggleButtons = document.querySelectorAll(".toggle-button");
+const marketSwitch = document.querySelector("#marketSwitch");
+const marketButtons = document.querySelectorAll(".market-button");
+const marketSections = document.querySelectorAll("[data-market-section]");
+const marketEyebrow = document.querySelector("#marketEyebrow");
+const marketTitle = document.querySelector("#marketTitle");
+const workspaceEyebrow = document.querySelector("#workspaceEyebrow");
+const workspaceTitle = document.querySelector("#workspaceTitle");
+const workspaceLead = document.querySelector("#workspaceLead");
+const heroEyebrow = document.querySelector("#heroEyebrow");
+const heroTitle = document.querySelector("#heroTitle");
+const heroLead = document.querySelector("#heroLead");
 const totalCount = document.querySelector("#totalCount");
+const totalCountLabel = document.querySelector("#totalCountLabel");
+const secondaryCount = document.querySelector("#secondaryCount");
+const secondaryCountLabel = document.querySelector("#secondaryCountLabel");
 const eventCount = document.querySelector("#eventCount");
+const eventCountLabel = document.querySelector("#eventCountLabel");
 const eventFilters = document.querySelector("#eventFilters");
 const eventList = document.querySelector("#eventList");
 const learningCount = document.querySelector("#learningCount");
@@ -1271,6 +1296,7 @@ const learningFilters = document.querySelector("#learningFilters");
 const learningList = document.querySelector("#learningList");
 const briefingAsOf = document.querySelector("#briefingAsOf");
 const briefingMetric = document.querySelector("#briefingMetric");
+const briefingMetricLabel = document.querySelector("#briefingMetricLabel");
 const briefingMode = document.querySelector("#briefingMode");
 const briefingUpdated = document.querySelector("#briefingUpdated");
 const briefingStats = document.querySelector("#briefingStats");
@@ -1278,6 +1304,10 @@ const briefingList = document.querySelector("#briefingList");
 const dataStatusText = document.querySelector("#dataStatusText");
 const selfReportStats = document.querySelector("#selfReportStats");
 const selfReportPanel = document.querySelector("#selfReportPanel");
+const rangeLabel = document.querySelector("#rangeLabel");
+const rangeValue = document.querySelector("#rangeValue");
+const twRevenueStats = document.querySelector("#twRevenueStats");
+const twRevenuePanel = document.querySelector("#twRevenuePanel");
 
 function themeCount(theme) {
   if (theme === "All") return watchlist.length;
@@ -1796,6 +1826,218 @@ function escapeHtml(value) {
     .replaceAll("'", "&#39;");
 }
 
+function formatTwNumber(value) {
+  if (value == null || Number.isNaN(Number(value))) return "--";
+  return Number(value).toLocaleString("zh-TW");
+}
+
+function formatTwPct(value) {
+  if (value == null || Number.isNaN(Number(value))) return "--";
+  return `${Number(value).toFixed(2)}%`;
+}
+
+function twSearchRows(rows) {
+  const query = state.query.trim().toLowerCase();
+  if (!query) return rows;
+  return rows.filter((row) => {
+    const haystack = [
+      row.market,
+      row.code,
+      row.name,
+      row.industry,
+      row.remark,
+      row.businessDescription,
+      row.allTimeHighNote,
+      row.publicIssueDate,
+    ].join(" ").toLowerCase();
+    return haystack.includes(query);
+  });
+}
+
+function twIndustryCell(row) {
+  const business = String(row.businessDescription || "").trim();
+  const label = escapeHtml(row.industry || "--");
+  if (!business) return label;
+  return `<span class="industry-help" tabindex="0" data-business="${escapeHtml(business)}">${label}</span>`;
+}
+
+function twRevenueRow(row) {
+  return `
+    <tr>
+      <td>${escapeHtml(row.market || "")}</td>
+      <td class="code-cell">${escapeHtml(row.code || "")}</td>
+      <td>${escapeHtml(row.name || "")}</td>
+      <td>${twIndustryCell(row)}</td>
+      <td class="num" data-sort-value="${Number(row.currentRevenue ?? 0)}">${formatTwNumber(row.currentRevenue)}</td>
+      <td class="num" data-sort-value="${Number(row.momPct ?? 0)}">${formatTwPct(row.momPct)}</td>
+      <td class="num" data-sort-value="${Number(row.yoyPct ?? 0)}">${formatTwPct(row.yoyPct)}</td>
+      <td class="num" data-sort-value="${Number(row.ytdYoyPct ?? 0)}">${formatTwPct(row.ytdYoyPct)}</td>
+      <td>${escapeHtml(row.allTimeHighNote || "")}</td>
+      <td class="remark-cell">${escapeHtml(row.remark || "")}</td>
+    </tr>
+  `;
+}
+
+function twRevenueTable(rows, emptyText) {
+  if (!rows.length) return `<div class="empty-state">${escapeHtml(emptyText)}</div>`;
+  return `
+    <div class="tw-table-wrap">
+      <table class="tw-revenue-table sortable-table">
+        <thead>
+          <tr>
+            <th class="sortable" data-type="text">市場</th>
+            <th class="sortable" data-type="number">代號</th>
+            <th class="sortable" data-type="text">公司</th>
+            <th class="sortable" data-type="text">產業</th>
+            <th class="sortable" data-type="number">當月營收</th>
+            <th class="sortable" data-type="number">MoM</th>
+            <th class="sortable" data-type="number">YoY</th>
+            <th class="sortable" data-type="number">累計YoY</th>
+            <th class="sortable" data-type="text">創高備註</th>
+            <th class="sortable" data-type="text">故事備註</th>
+          </tr>
+        </thead>
+        <tbody>${rows.map(twRevenueRow).join("")}</tbody>
+      </table>
+    </div>
+  `;
+}
+
+function parseSortableCell(cell, type) {
+  const raw = cell?.dataset?.sortValue ?? cell?.textContent ?? "";
+  if (type === "number") {
+    const numeric = Number(String(raw).replaceAll(",", "").replace("%", "").trim());
+    return Number.isNaN(numeric) ? Number.NEGATIVE_INFINITY : numeric;
+  }
+  return String(raw).trim();
+}
+
+function attachSortableTables(root = document) {
+  root.querySelectorAll("table.sortable-table").forEach((table) => {
+    const headers = Array.from(table.querySelectorAll("th.sortable"));
+    headers.forEach((header, index) => {
+      if (header.dataset.sortReady === "1") return;
+      header.dataset.sortReady = "1";
+      header.addEventListener("click", () => {
+        const current = header.classList.contains("sorted-asc") ? "asc" : header.classList.contains("sorted-desc") ? "desc" : "";
+        const direction = current === "asc" ? "desc" : "asc";
+        headers.forEach((item) => item.classList.remove("sorted-asc", "sorted-desc"));
+        header.classList.add(direction === "asc" ? "sorted-asc" : "sorted-desc");
+
+        const rows = Array.from(table.tBodies[0]?.rows ?? []);
+        rows.sort((a, b) => {
+          const left = parseSortableCell(a.cells[index], header.dataset.type || "text");
+          const right = parseSortableCell(b.cells[index], header.dataset.type || "text");
+          const result = typeof left === "number" && typeof right === "number"
+            ? left - right
+            : String(left).localeCompare(String(right), "zh-Hant", { numeric: true });
+          return direction === "asc" ? result : -result;
+        });
+        rows.forEach((row) => table.tBodies[0].appendChild(row));
+      });
+    });
+  });
+}
+
+function renderTwRevenue() {
+  if (!twRevenuePanel) return;
+  const selected = twSearchRows(twRevenueLatest.selected ?? []);
+  const stories = twSearchRows(twRevenueLatest.stories ?? []);
+  const stats = twRevenueLatest.stats ?? {};
+  const period = twRevenueLatest.period || "尚未更新";
+  const updated = formatBriefingTime(twRevenueLatest.generatedAt);
+
+  if (twRevenueStats) {
+    twRevenueStats.textContent = `${period} / 入選 ${Number(stats.selected ?? selected.length)} 筆`;
+  }
+
+  twRevenuePanel.innerHTML = `
+    <div class="tw-revenue-summary">
+      <span>有備註故事 ${Number(stats.stories ?? 0)} 筆</span>
+      <span>創歷史新高 ${Number(stats.highs ?? 0)} 筆</span>
+      <span>創高且有故事 ${Number(stats.storyHighs ?? 0)} 筆</span>
+      <span>更新 ${escapeHtml(updated)}</span>
+    </div>
+    <div class="tw-revenue-block">
+      <div class="tw-revenue-heading">
+        <h4>有備註故事的高成長公司</h4>
+        <span>${stories.length} / ${Number(stats.stories ?? stories.length)} 筆</span>
+      </div>
+      ${twRevenueTable(stories, "沒有符合搜尋條件的備註故事。")}
+    </div>
+    <div class="tw-revenue-block">
+      <div class="tw-revenue-heading">
+        <h4>完整入選清單</h4>
+        <span>${selected.length} / ${Number(stats.selected ?? selected.length)} 筆</span>
+      </div>
+      ${twRevenueTable(selected, "沒有符合搜尋條件的入選公司。")}
+    </div>
+  `;
+  attachSortableTables(twRevenuePanel);
+}
+
+function setMarket(market) {
+  state.market = market === "TW" ? "TW" : "US";
+  state.query = "";
+  if (searchInput) searchInput.value = "";
+  render();
+}
+
+function renderMarketShell() {
+  const isTw = state.market === "TW";
+  marketSections.forEach((section) => {
+    section.hidden = section.dataset.marketSection !== state.market;
+  });
+  marketButtons.forEach((button) => {
+    button.classList.toggle("active", button.dataset.market === state.market);
+  });
+
+  if (marketEyebrow) marketEyebrow.textContent = isTw ? "Taiwan Equity Monitor" : "US Equity Monitor";
+  if (marketTitle) marketTitle.textContent = isTw ? "台股 AI 監控台" : "美股 AI 監控台";
+  if (workspaceEyebrow) workspaceEyebrow.textContent = isTw ? "Taiwan Workspace" : "Research Workspace";
+  if (workspaceTitle) workspaceTitle.textContent = isTw ? "台股資料整合工作台" : "AI 供應鏈研究工作台";
+  if (workspaceLead) {
+    workspaceLead.textContent = isTw
+      ? "整合月營收篩選、自結速報與公司基本資料，依市場別保留獨立資訊脈絡。"
+      : "整合個股事件、總經日曆、法說筆記、機構觀點與技術學習地圖。";
+  }
+  if (heroEyebrow) heroEyebrow.textContent = isTw ? "Taiwan Focus" : "Today Focus";
+  if (heroTitle) heroTitle.textContent = isTw ? "把台股公告整理成可排序的精華清單" : "把資訊流整理成可追蹤的研究線索";
+  if (heroLead) {
+    heroLead.textContent = isTw
+      ? "先看月營收高成長與創高標記，再接自結速報；產業欄位可滑過查看主要經營業務，避免清單變得過度擁擠。"
+      : "先看未來 30 天事件，再用個股卡片掌握近期展望；遇到技術詞時，直接跳到延伸學習區拆解瓶頸與相關標的。";
+  }
+  if (searchInput) searchInput.placeholder = isTw ? "台股代號 / 公司 / 產業 / 備註" : "Ticker / 公司 / 技術";
+  if (rangeLabel) rangeLabel.textContent = isTw ? "資料月份" : "事件範圍";
+  if (rangeValue) rangeValue.textContent = isTw ? (twRevenueLatest.period || "待更新") : "30 天";
+
+  if (isTw) {
+    const stats = twRevenueLatest.stats ?? {};
+    if (briefingAsOf) briefingAsOf.textContent = `資料月份：${twRevenueLatest.period || "尚未更新"}`;
+    if (totalCount) totalCount.textContent = Number(stats.selected ?? 0).toLocaleString("zh-TW");
+    if (totalCountLabel) totalCountLabel.textContent = "入選公司";
+    if (secondaryCount) secondaryCount.textContent = Number(stats.stories ?? 0).toLocaleString("zh-TW");
+    if (secondaryCountLabel) secondaryCountLabel.textContent = "有備註故事";
+    if (eventCount) eventCount.textContent = Number(stats.highs ?? 0).toLocaleString("zh-TW");
+    if (eventCountLabel) eventCountLabel.textContent = "創歷史新高";
+    if (briefingMetric) briefingMetric.textContent = Number(stats.storyHighs ?? 0).toLocaleString("zh-TW");
+    if (briefingMetricLabel) briefingMetricLabel.textContent = "創高且有故事";
+    if (briefingMode) briefingMode.textContent = "月營收 / 自結";
+    if (briefingUpdated) briefingUpdated.textContent = formatBriefingTime(twRevenueLatest.generatedAt);
+    if (dataStatusText) {
+      dataStatusText.textContent = "台股模式目前整合 MOPS 月營收精華與自結速報；月營收條件包含 MoM 或 YoY 達 30%、MoM/YoY 皆非負、累計 YoY 為正，並排除生技、營建、金融與公開發行日期過早公司。";
+    }
+    return;
+  }
+
+  if (totalCountLabel) totalCountLabel.textContent = "監控標的";
+  if (secondaryCount) secondaryCount.textContent = String(themeOrder.length - 1);
+  if (secondaryCountLabel) secondaryCountLabel.textContent = "主題群組";
+  if (eventCountLabel) eventCountLabel.textContent = "重大事件";
+  if (briefingMetricLabel) briefingMetricLabel.textContent = "自動更新";
+}
+
 function safeHttpUrl(value) {
   const text = String(value ?? "");
   return /^https?:\/\//i.test(text) ? text : "";
@@ -2001,7 +2243,12 @@ function renderStocks() {
 }
 
 function render() {
-  renderSelfReport();
+  renderMarketShell();
+  if (state.market === "TW") {
+    renderTwRevenue();
+    renderSelfReport();
+    return;
+  }
   renderDailyBriefing();
   renderFilters();
   renderEventFilters();
@@ -2013,6 +2260,10 @@ function render() {
 
 searchInput.addEventListener("input", (event) => {
   state.query = event.target.value;
+  if (state.market === "TW") {
+    renderTwRevenue();
+    return;
+  }
   renderEvents();
   renderLearning();
   renderStocks();
@@ -2025,5 +2276,23 @@ toggleButtons.forEach((button) => {
     renderStocks();
   });
 });
+
+marketButtons.forEach((button) => {
+  button.addEventListener("click", () => setMarket(button.dataset.market));
+});
+
+if (marketSwitch) {
+  let swipeStartX = null;
+  marketSwitch.addEventListener("pointerdown", (event) => {
+    swipeStartX = event.clientX;
+  });
+  marketSwitch.addEventListener("pointerup", (event) => {
+    if (swipeStartX == null) return;
+    const delta = event.clientX - swipeStartX;
+    swipeStartX = null;
+    if (Math.abs(delta) < 32) return;
+    setMarket(delta < 0 ? "TW" : "US");
+  });
+}
 
 render();

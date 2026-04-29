@@ -27,6 +27,10 @@
   box-sizing: border-box;
 }
 
+[hidden] {
+  display: none !important;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -87,6 +91,33 @@ input {
   margin: 12px 0 0;
   color: #cfe2f2;
   font-size: 14px;
+}
+
+.market-switch {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  margin-top: 18px;
+  padding: 4px;
+  background: rgba(255, 255, 255, 0.08);
+  touch-action: pan-y;
+}
+
+.market-button {
+  border: 0;
+  border-radius: 6px;
+  padding: 8px 10px;
+  color: #dcebf6;
+  background: transparent;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.market-button.active {
+  color: var(--navy);
+  background: #ffffff;
 }
 
 .side-nav {
@@ -391,6 +422,7 @@ input {
 }
 
 #events,
+#twRevenue,
 #selfReport,
 #learning,
 #watchlist {
@@ -418,6 +450,7 @@ input {
   line-height: 1.6;
 }
 
+.tw-revenue-section,
 .self-report-section,
 .daily-briefing-section,
 .upcoming-section,
@@ -440,6 +473,160 @@ input {
 
 .self-report-section {
   background: #ffffff;
+}
+
+.tw-revenue-section {
+  background: #ffffff;
+}
+
+.tw-revenue-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.tw-revenue-summary span,
+.tw-revenue-heading span {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 6px 9px;
+  color: #405066;
+  background: #f9fafc;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.tw-revenue-block {
+  display: grid;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.tw-revenue-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.tw-revenue-heading h4 {
+  margin: 0;
+  color: var(--ink);
+  font-size: 17px;
+  letter-spacing: 0;
+}
+
+.tw-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.tw-revenue-table {
+  width: 100%;
+  min-width: 1120px;
+  border-collapse: collapse;
+  background: #ffffff;
+}
+
+.tw-revenue-table th,
+.tw-revenue-table td {
+  border-bottom: 1px solid var(--line);
+  padding: 10px 11px;
+  color: #243247;
+  font-size: 13px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.tw-revenue-table th {
+  color: var(--navy);
+  background: #f1f6fb;
+  font-size: 12px;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.tw-revenue-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.tw-revenue-table .num {
+  text-align: right;
+  white-space: nowrap;
+}
+
+.tw-revenue-table .code-cell {
+  color: var(--ink);
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.tw-revenue-table .remark-cell {
+  min-width: 260px;
+  line-height: 1.55;
+}
+
+.industry-help {
+  position: relative;
+  display: inline-flex;
+  border-bottom: 1px dotted var(--muted);
+  color: var(--navy);
+  cursor: help;
+}
+
+.industry-help:focus {
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.industry-help::after {
+  content: attr(data-business);
+  position: absolute;
+  left: 0;
+  top: calc(100% + 8px);
+  z-index: 30;
+  display: none;
+  width: min(420px, 72vw);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  padding: 12px 14px;
+  color: #f9fafb;
+  background: #111827;
+  box-shadow: 0 16px 34px rgba(15, 23, 42, 0.25);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.55;
+  text-align: left;
+  white-space: pre-line;
+}
+
+.industry-help:hover::after,
+.industry-help:focus::after {
+  display: block;
+}
+
+th.sortable {
+  cursor: pointer;
+  user-select: none;
+}
+
+th.sortable::after {
+  content: " ↕";
+  color: var(--muted);
+  font-weight: 400;
+}
+
+th.sortable.sorted-asc::after {
+  content: " ↑";
+  color: var(--teal);
+}
+
+th.sortable.sorted-desc::after {
+  content: " ↓";
+  color: var(--teal);
 }
 
 .self-report-card {
