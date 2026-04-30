@@ -531,9 +531,10 @@ let financialReportLatest = window.financialReportLatest ?? {
   rows: [],
 };
 
-const financialReportHistory = window.financialReportHistory ?? {
+let financialReportHistory = window.financialReportHistory ?? {
   items: financialReportLatest.queryDate ? [financialReportLatest] : [],
 };
+let financialReportHistoryRequest = null;
 
 const twRevenueLatest = window.twRevenueLatest ?? {
   generatedAt: "",
@@ -2416,16 +2417,60 @@ function financialReportArchiveItems() {
   return Array.from(byDate.values()).sort((a, b) => String(b.queryDate || "").localeCompare(String(a.queryDate || "")));
 }
 
-function renderFinancialReportSelect() {
-  if (!financialReportSelect) return;
-  const items = financialReportArchiveItems();
-  financialReportSelect.hidden = items.length <= 1;
-  financialReportSelect.innerHTML = items.map((item) => {
+function ensureFinancialReportHistory() {
+  if ((financialReportHistory.items ?? []).length > 1 || financialReportHistoryRequest) return;
+  if (typeof fetch !== "function") return;
+  financialReportHistoryRequest = fetch(`./data/financial-report-history.js?v=${Date.now()}`, { cache: "no-store" })
+    .then((response) => (response.ok ? response.text() : ""))
+    .then((text) => {
+      const match = text.match(/window\.financialReportHistory\s*=\s*(\{[\s\S]*?\});?\s*$/);
+      if (!match) return;
+      financialReportHistory = JSON.parse(match[1]);
+      renderFinancialReport();
+    })
+    .catch(() => {})
+    .finally(() => {
+      financialReportHistoryRequest = null;
+    });
+}
+
+function financialReportSelectOptions(items) {
+  return items.map((item) => {
     const count = Number(item.count ?? item.rows?.length ?? 0);
     const suffix = item.queryDate === items[0]?.queryDate ? "（最新）" : "";
     return `<option value="${escapeHtml(item.queryDate)}">${escapeHtml(item.displayDate || item.queryDate)} / ${count} 筆${suffix}</option>`;
   }).join("");
+}
+
+function renderFinancialReportSelect() {
+  if (!financialReportSelect) return;
+  const items = financialReportArchiveItems();
+  if (items.length <= 1) ensureFinancialReportHistory();
+  financialReportSelect.hidden = items.length <= 1;
+  financialReportSelect.innerHTML = financialReportSelectOptions(items);
   financialReportSelect.value = financialReportLatest.queryDate || items[0]?.queryDate || "";
+}
+
+function financialReportDatePicker() {
+  const items = financialReportArchiveItems();
+  if (items.length <= 1) return "";
+  return `
+    <div class="financial-report-date-row">
+      <span>查看日期</span>
+      <select class="self-report-select financial-report-date-select" aria-label="選擇財報公告日期">
+        ${financialReportSelectOptions(items)}
+      </select>
+    </div>
+  `;
+}
+
+function attachFinancialReportDateSelects() {
+  financialReportPanel?.querySelectorAll(".financial-report-date-select").forEach((select) => {
+    select.value = financialReportLatest.queryDate || "";
+    select.addEventListener("change", (event) => {
+      setFinancialReportDate(event.target.value);
+    });
+  });
 }
 
 function setFinancialReportDate(queryDate) {
@@ -2464,6 +2509,7 @@ function renderFinancialReport() {
         <span>排除日期公告 ${Number(skipped.subject_date ?? 0)} 筆</span>
         <span>缺上一季 ${Number(skipped.missing_previous_quarter ?? 0)} 筆</span>
       </div>
+      ${financialReportDatePicker()}
       <div class="self-report-table-wrap financial-report-table-wrap">
         <table class="self-report-table financial-report-table sortable-table">
           <thead>
@@ -2484,6 +2530,7 @@ function renderFinancialReport() {
       <p class="self-report-source">資料來源：公開資訊觀測站 / Goodinfo 單季損益表；營收小字為 QoQ 與 YOY。</p>
     </article>
   `;
+  attachFinancialReportDateSelects();
   attachSortableTables(financialReportPanel);
 }
 
