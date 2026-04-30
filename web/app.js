@@ -1718,9 +1718,27 @@ function eventOutcomeFor(event) {
   });
 }
 
+function formatReactionPrice(value) {
+  return typeof value === "number" ? value.toFixed(2) : "--";
+}
+
+function formatReactionPct(value) {
+  if (typeof value !== "number") return "--";
+  const sign = value > 0 ? "+" : "";
+  return `${sign}${value.toFixed(2)}%`;
+}
+
+function formatReactionTime(value) {
+  if (!value) return "Yahoo Finance chart";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "Yahoo Finance chart";
+  return `更新 ${date.toLocaleString("zh-TW", { timeZone: "Asia/Taipei", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit" })}`;
+}
+
 function eventOutcomeMarkup(outcome) {
   if (!outcome) return "";
   const sourceUrl = safeHttpUrl(outcome.sourceUrl);
+  const marketReaction = outcome.marketReaction ?? [];
   return `
     <div class="event-section event-outcome">
       <div class="event-outcome-head">
@@ -1731,6 +1749,25 @@ function eventOutcomeMarkup(outcome) {
       ${
         outcome.metrics?.length
           ? `<ul>${outcome.metrics.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>`
+          : ""
+      }
+      ${
+        marketReaction.length
+          ? `
+            <div class="market-reaction">
+              <strong>市場第一反應</strong>
+              <div class="market-reaction-grid">
+                ${marketReaction.map((item) => `
+                  <div class="reaction-card">
+                    <span>${escapeHtml(item.ticker)}</span>
+                    <p>收盤：${formatReactionPrice(item.close)}（${formatReactionPct(item.closeChangePct)}）</p>
+                    <p>盤後：${formatReactionPrice(item.afterHoursPrice)}（${formatReactionPct(item.afterHoursChangePct)}）</p>
+                    <em>${item.error ? escapeHtml(item.error) : escapeHtml(formatReactionTime(item.asOf))}</em>
+                  </div>
+                `).join("")}
+              </div>
+            </div>
+          `
           : ""
       }
       ${outcome.researchRead ? `<p class="outcome-research">${escapeHtml(outcome.researchRead)}</p>` : ""}

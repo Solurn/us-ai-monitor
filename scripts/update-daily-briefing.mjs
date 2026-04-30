@@ -257,6 +257,77 @@ async function fetchJson(url, headers = {}) {
   return response.json();
 }
 
+function pctChange(current, base) {
+  if (typeof current !== "number" || typeof base !== "number" || base === 0) return null;
+  return ((current - base) / base) * 100;
+}
+
+function formatMarketTimestamp(timestamp) {
+  if (!timestamp) return "";
+  return new Date(timestamp * 1000).toISOString();
+}
+
+function parseYahooChartReaction(data) {
+  const result = data?.chart?.result?.[0];
+  const meta = result?.meta ?? {};
+  const timestamps = result?.timestamp ?? [];
+  const closes = result?.indicators?.quote?.[0]?.close ?? [];
+  const regularEnd = meta.currentTradingPeriod?.regular?.end;
+  const regularClose = typeof meta.regularMarketPrice === "number" ? meta.regularMarketPrice : null;
+  const previousClose = typeof meta.chartPreviousClose === "number"
+    ? meta.chartPreviousClose
+    : typeof meta.previousClose === "number"
+      ? meta.previousClose
+      : null;
+  const postRows = timestamps
+    .map((timestamp, index) => ({ timestamp, close: closes[index] }))
+    .filter((row) => typeof row.timestamp === "number" && typeof row.close === "number" && (!regularEnd || row.timestamp > regularEnd));
+  const latestPost = postRows.at(-1);
+  const afterHoursPrice = latestPost?.close ?? null;
+  return {
+    ticker: meta.symbol ?? "",
+    close: regularClose,
+    closeChangePct: pctChange(regularClose, previousClose),
+    previousClose,
+    afterHoursPrice,
+    afterHoursChangePct: pctChange(afterHoursPrice, regularClose),
+    asOf: formatMarketTimestamp(latestPost?.timestamp ?? meta.regularMarketTime),
+    provider: "Yahoo Finance chart",
+  };
+}
+
+async function fetchMarketReaction(ticker) {
+  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(ticker)}?range=1d&interval=1m&includePrePost=true`;
+  const data = await fetchJson(url, { "User-Agent": "Mozilla/5.0 us-ai-monitor" });
+  return parseYahooChartReaction(data);
+}
+
+async function enrichEventOutcomesWithMarketReaction(outcomes) {
+  return Promise.all(outcomes.map(async (outcome) => {
+    const stockTickers = (outcome.tickers ?? []).filter((ticker) => ticker !== "MACRO");
+    if (!stockTickers.length) return outcome;
+    const marketReaction = [];
+    for (const ticker of stockTickers) {
+      try {
+        marketReaction.push(await fetchMarketReaction(ticker));
+      } catch (error) {
+        marketReaction.push({
+          ticker,
+          close: null,
+          closeChangePct: null,
+          previousClose: null,
+          afterHoursPrice: null,
+          afterHoursChangePct: null,
+          asOf: "",
+          provider: "Yahoo Finance chart",
+          error: error.message,
+        });
+      }
+    }
+    return { ...outcome, marketReaction };
+  }));
+}
+
 function secDocumentUrl(cik, accessionNumber, primaryDocument) {
   const cikNumber = String(Number(cik));
   const accession = String(accessionNumber).replaceAll("-", "");
@@ -679,7 +750,7 @@ function mergeStockUpdates(...groups) {
 async function main() {
   const generatedAt = new Date().toISOString();
   const asOfDate = taipeiTodayIso();
-  const eventOutcomes = activeAnnouncedEvents(asOfDate);
+  const eventOutcomes = await enrichEventOutcomesWithMarketReaction(activeAnnouncedEvents(asOfDate));
   const performance = await loadPerformanceSnapshot();
   let secResult = { events: [], stockUpdates: {}, errors: [] };
   let yahooResult = { stockUpdates: {}, errors: [], itemCount: 0, newsItems: [] };
