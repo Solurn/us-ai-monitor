@@ -1,4 +1,5 @@
-window.financialReportLatest = {
+window.financialReportArchiveItems = window.financialReportArchiveItems || {};
+window.financialReportArchiveItems["2026-04-30"] = {
   "generatedAt": "2026-04-30T21:28:48+08:00",
   "queryDate": "2026-04-30",
   "rocYear": 115,

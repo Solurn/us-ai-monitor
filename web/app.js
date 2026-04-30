@@ -520,7 +520,7 @@ const selfReportHistory = window.selfReportHistory ?? {
   items: selfReportLatest.queryDate ? [selfReportLatest] : [],
 };
 
-const financialReportLatest = window.financialReportLatest ?? {
+let financialReportLatest = window.financialReportLatest ?? {
   generatedAt: "",
   queryDate: "",
   rocYear: "",
@@ -529,6 +529,10 @@ const financialReportLatest = window.financialReportLatest ?? {
   count: 0,
   skipped: {},
   rows: [],
+};
+
+const financialReportHistory = window.financialReportHistory ?? {
+  items: financialReportLatest.queryDate ? [financialReportLatest] : [],
 };
 
 const twRevenueLatest = window.twRevenueLatest ?? {
@@ -1331,6 +1335,7 @@ const selfReportStats = document.querySelector("#selfReportStats");
 const selfReportSelect = document.querySelector("#selfReportSelect");
 const selfReportPanel = document.querySelector("#selfReportPanel");
 const financialReportStats = document.querySelector("#financialReportStats");
+const financialReportSelect = document.querySelector("#financialReportSelect");
 const financialReportPanel = document.querySelector("#financialReportPanel");
 const rangeLabel = document.querySelector("#rangeLabel");
 const rangeValue = document.querySelector("#rangeValue");
@@ -2402,8 +2407,38 @@ function financialReportRow(row) {
   `;
 }
 
+function financialReportArchiveItems() {
+  const byDate = new Map();
+  for (const item of financialReportHistory.items ?? []) {
+    if (item?.queryDate) byDate.set(item.queryDate, item);
+  }
+  if (financialReportLatest.queryDate) byDate.set(financialReportLatest.queryDate, financialReportLatest);
+  return Array.from(byDate.values()).sort((a, b) => String(b.queryDate || "").localeCompare(String(a.queryDate || "")));
+}
+
+function renderFinancialReportSelect() {
+  if (!financialReportSelect) return;
+  const items = financialReportArchiveItems();
+  financialReportSelect.hidden = items.length <= 1;
+  financialReportSelect.innerHTML = items.map((item) => {
+    const count = Number(item.count ?? item.rows?.length ?? 0);
+    const suffix = item.queryDate === items[0]?.queryDate ? "（最新）" : "";
+    return `<option value="${escapeHtml(item.queryDate)}">${escapeHtml(item.displayDate || item.queryDate)} / ${count} 筆${suffix}</option>`;
+  }).join("");
+  financialReportSelect.value = financialReportLatest.queryDate || items[0]?.queryDate || "";
+}
+
+function setFinancialReportDate(queryDate) {
+  const selected = financialReportArchiveItems().find((item) => item.queryDate === queryDate);
+  if (!selected) return;
+  financialReportLatest = selected;
+  renderMarketShell();
+  renderFinancialReport();
+}
+
 function renderFinancialReport() {
   if (!financialReportPanel) return;
+  renderFinancialReportSelect();
   const rows = financialReportLatest.rows ?? [];
   const count = Number(financialReportLatest.count ?? rows.length ?? 0);
   const skipped = financialReportLatest.skipped ?? {};
@@ -2717,6 +2752,12 @@ marketButtons.forEach((button) => {
 if (selfReportSelect) {
   selfReportSelect.addEventListener("change", (event) => {
     setSelfReportDate(event.target.value);
+  });
+}
+
+if (financialReportSelect) {
+  financialReportSelect.addEventListener("change", (event) => {
+    setFinancialReportDate(event.target.value);
   });
 }
 
