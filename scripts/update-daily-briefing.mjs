@@ -87,6 +87,164 @@ function todayIso() {
   return new Date().toISOString().slice(0, 10);
 }
 
+function taipeiTodayIso(date = new Date()) {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Taipei",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(date);
+}
+
+function addBusinessDays(dateIso, businessDays) {
+  const date = new Date(`${dateIso}T00:00:00Z`);
+  let added = 0;
+  while (added < businessDays) {
+    date.setUTCDate(date.getUTCDate() + 1);
+    const day = date.getUTCDay();
+    if (day !== 0 && day !== 6) added += 1;
+  }
+  return date.toISOString().slice(0, 10);
+}
+
+const announcedEventCatalog = [
+  {
+    date: "2026-04-30",
+    time: "02:00",
+    tickers: ["MACRO"],
+    matchTitle: "FOMC",
+    title: "FOMC 利率決議與政策聲明已公布",
+    type: "已公告結果",
+    priority: "高",
+    summary:
+      "Fed 維持聯邦基金利率目標區間在 3.50%-3.75%，但聲明承認通膨仍偏高且中東局勢使前景不確定性升高。投票結果不算乾淨：Miran 主張降息 1 碼，Hammack、Kashkari、Logan 支持不降息但反對聲明中的寬鬆傾向。",
+    metrics: [
+      "利率：3.50%-3.75%，本次不變。",
+      "經濟語氣：活動穩健擴張、就業增幅偏低、失業率近月變化不大。",
+      "通膨語氣：仍偏高，部分反映全球能源價格上升。",
+      "投票：8 票支持；4 票反對或不同意聲明語氣。",
+    ],
+    researchRead:
+      "對高估值成長股來說，重點不是這次有沒有降息，而是 Fed 是否願意給市場明確降息路徑；這份聲明偏保守，AI/雲端 capex 題材仍要留意長端利率與能源價格。",
+    source: "Federal Reserve FOMC statement",
+    sourceUrl: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+  },
+  {
+    date: "2026-04-30",
+    time: "04:30",
+    tickers: ["GOOGL"],
+    matchTitle: "Alphabet",
+    title: "Alphabet Q1 2026 結果已公布",
+    type: "已公告結果",
+    priority: "高",
+    summary:
+      "Alphabet Q1 明顯優於市場預期，營收 109.9B 美元、年增 22%，EPS 5.11 美元；最大亮點是 Google Cloud 營收 20.03B、年增 63%，backlog 接近翻倍到 460B 美元以上。",
+    metrics: [
+      "營收：109.9B 美元，年增 22%。",
+      "EPS：5.11 美元；淨利 62.58B 美元，含股權投資評價利益影響。",
+      "Google Cloud：20.03B 美元，年增 63%。",
+      "Search：AI experiences 帶動 queries 創高，Search revenue 年增 19%。",
+    ],
+    researchRead:
+      "這份結果把 Alphabet 從單純 Search 防守戰，拉回 AI cloud / TPU / Gemini 生態系成長故事；後續要追的是 Cloud backlog 轉收入速度、capex 是否繼續上修，以及 AI Search 對廣告毛利的影響。",
+    source: "Alphabet 8-K summary / 9to5Google",
+    sourceUrl: "https://www.stocktitan.net/sec-filings/GOOG/8-k-alphabet-inc-reports-material-event-99e4ee982355.html",
+  },
+  {
+    date: "2026-04-30",
+    time: "05:00",
+    tickers: ["KLAC"],
+    matchTitle: "KLA",
+    title: "KLA FY2026 Q3 結果已公布",
+    type: "已公告結果",
+    priority: "高",
+    summary:
+      "KLA FY2026 Q3 營收與 EPS 均高於 guidance midpoint，並加碼股東回饋。管理層強調 AI infrastructure buildout 對 foundry/logic、memory、advanced packaging 與 services 都有結構性支撐。",
+    metrics: [
+      "營收：3.415B 美元，高於 3.35B +/- 150M guidance midpoint。",
+      "GAAP EPS：9.12 美元；non-GAAP EPS：9.40 美元。",
+      "營運現金流：707.5M 美元；自由現金流：622.3M 美元。",
+      "資本回饋：季度股利提高至 2.30 美元，新增 7B 美元庫藏股授權。",
+    ],
+    researchRead:
+      "KLA 的重點是 AI/HBM/先進封裝會提高良率與 process control 的重要性；若 KLA 對 2026 WFE 與 advanced packaging 持續樂觀，AMAT/LRCX/KLAC 這組設備股評價支撐會更強。",
+    source: "KLA fiscal 2026 Q3 results",
+    sourceUrl: "https://ir.kla.com/news-events/press-releases/detail/514/kla-corporation-reports-fiscal-2026-third-quarter-results",
+  },
+  {
+    date: "2026-04-30",
+    time: "05:30",
+    tickers: ["MSFT"],
+    matchTitle: "Microsoft",
+    title: "Microsoft FY26 Q3 結果已公布",
+    type: "已公告結果",
+    priority: "高",
+    summary:
+      "Microsoft FY26 Q3 營收、營業利益、淨利與 EPS 都年增雙位數；Microsoft Cloud 營收 54.5B、年增 29%，Azure 與其他雲服務年增 40%，AI business 年化收入 run rate 超過 37B 美元。",
+    metrics: [
+      "營收：82.9B 美元，年增 18%。",
+      "營業利益：38.4B 美元，年增 20%；淨利 31.8B 美元，年增 23%。",
+      "EPS：4.27 美元，年增 23%。",
+      "Azure and other cloud services：年增 40%；commercial RPO 增至 627B 美元，年增 99%。",
+    ],
+    researchRead:
+      "Microsoft 的結果支持 AI cloud demand 仍強，但投資人會繼續問 capex、OpenAI exposure 與 Copilot 變現速度；若 Azure 仍受供給限制，短期 capex 壓力比較容易被市場接受。",
+    source: "Microsoft FY26 Q3 earnings release",
+    sourceUrl: "https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q3/press-release-webcast",
+  },
+  {
+    date: "2026-04-30",
+    time: "05:30",
+    tickers: ["AMZN"],
+    matchTitle: "Amazon",
+    title: "Amazon Q1 2026 結果已公布",
+    type: "已公告結果",
+    priority: "高",
+    summary:
+      "Amazon Q1 營收 181.5B 美元、年增 17%，營業利益 23.9B 美元；AWS 營收 37.6B、年增 28%，AWS 營業利益 14.2B。淨利與 EPS 受 Anthropic 投資未實現利益推升。",
+    metrics: [
+      "淨銷售：181.5B 美元，年增 17%；排除匯率影響年增 15%。",
+      "AWS：37.6B 美元，年增 28%；AWS operating income 14.2B 美元。",
+      "營業利益：23.9B 美元；淨利 30.3B 美元，EPS 2.78 美元。",
+      "自由現金流：TTM 降至 1.2B 美元，主要因 AI 相關 property and equipment 投資增加。",
+    ],
+    researchRead:
+      "Amazon 的亮點是 AWS 加速與獲利能力強，但 AI capex 對 FCF 壓力也同步放大；後續要追 AWS growth 是否能持續高於 capex 增速。",
+    source: "Amazon Q1 2026 results",
+    sourceUrl: "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-First-Quarter-Results/default.aspx",
+  },
+  {
+    date: "2026-04-30",
+    time: "05:30",
+    tickers: ["META"],
+    matchTitle: "Meta",
+    title: "Meta Q1 2026 結果已公布",
+    type: "已公告結果",
+    priority: "高",
+    summary:
+      "Meta Q1 營收 56.31B 美元、年增 33%，EPS 10.44 美元；廣告 impression 與 ad price 同步成長。不過公司將 2026 capex outlook 上調到 125B-145B 美元，市場焦點會轉向 AI 投資回收期。",
+    metrics: [
+      "營收：56.31B 美元，年增 33%；operating margin 41%。",
+      "EPS：10.44 美元；若排除 8.03B 稅務利益，EPS 低 3.13 美元。",
+      "Family DAP：3.56B，年增 4%；ad impressions 年增 19%，average price per ad 年增 12%。",
+      "2026 capex guidance：125B-145B 美元，高於先前 115B-135B 美元。",
+    ],
+    researchRead:
+      "Meta 的廣告本業非常強，但股價反應可能取決於市場是否接受更高 AI capex；要看管理層能否把 AI spending 連回 ad targeting、ranking、business messaging 與個人 AI agents 的收入路徑。",
+    source: "Meta Q1 2026 results",
+    sourceUrl: "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-First-Quarter-2026-Results/default.aspx",
+  },
+];
+
+function activeAnnouncedEvents(asOfDate) {
+  return announcedEventCatalog
+    .map((event) => ({
+      ...event,
+      retainUntil: addBusinessDays(event.date, 4),
+    }))
+    .filter((event) => asOfDate <= event.retainUntil);
+}
+
 function daysAgoIso(days) {
   const date = new Date();
   date.setUTCDate(date.getUTCDate() - days);
@@ -520,6 +678,8 @@ function mergeStockUpdates(...groups) {
 
 async function main() {
   const generatedAt = new Date().toISOString();
+  const asOfDate = taipeiTodayIso();
+  const eventOutcomes = activeAnnouncedEvents(asOfDate);
   const performance = await loadPerformanceSnapshot();
   let secResult = { events: [], stockUpdates: {}, errors: [] };
   let yahooResult = { stockUpdates: {}, errors: [], itemCount: 0, newsItems: [] };
@@ -539,6 +699,16 @@ async function main() {
   const stockUpdates = mergeStockUpdates(secResult.stockUpdates, yahooResult.stockUpdates);
   const performanceLines = performanceHeadlines(performance);
   const highlights = [
+    ...eventOutcomes.map((event) => ({
+      priority: event.priority,
+      type: event.type,
+      title: event.title,
+      tickers: event.tickers,
+      why: event.summary,
+      source: event.source,
+      sourceUrl: event.sourceUrl,
+      date: event.date,
+    })),
     ...buildNewsHighlights(yahooResult.newsItems ?? []),
     ...performanceHighlights(performance),
     ...secResult.events.slice(0, 3).map((event) => ({
@@ -554,10 +724,13 @@ async function main() {
   ].slice(0, 10);
   const payload = {
     generatedAt,
-    asOfDate: todayIso(),
+    asOfDate,
     sourceMode: "GitHub Actions / public sources",
     highlights,
     summary: [
+      eventOutcomes.length > 0
+        ? `已公告結果 ${eventOutcomes.length} 筆已接入事件卡片，會依 3 個工作天保留規則自動移除；例如 2026-04-30 公告會保留到 2026-05-06。`
+        : "今日沒有仍在 3 個工作天保留期內的已公告事件結果。",
       buildFallbackHeadline(secResult.events.length, secResult.errors.length),
       yahooResult.itemCount > 0
         ? `今日自動抓取到 ${yahooResult.itemCount} 則 Yahoo Finance 近期新聞標題，已併入相關個股卡片作為研究線索。`
@@ -566,9 +739,11 @@ async function main() {
       "目前版本會自動整理公開 filing 嘗試結果、Yahoo Finance 新聞標題與美股 21 交易日漲跌幅；法說逐字稿、券商評等與 AI 改寫可在下一階段接入。",
     ],
     events: secResult.events.sort((a, b) => `${b.date} ${b.time}`.localeCompare(`${a.date} ${a.time}`)),
+    eventOutcomes,
     stockUpdates,
     stats: {
       secEvents: secResult.events.length,
+      eventOutcomes: eventOutcomes.length,
       newsItems: yahooResult.itemCount,
       updatedStocks: Object.keys(stockUpdates).length,
       errors: secResult.errors.length + yahooResult.errors.length,
@@ -581,7 +756,7 @@ async function main() {
   await fs.writeFile(outputPath, `${banner}window.dailyBriefing = ${JSON.stringify(payload, null, 2)};\n`, "utf8");
 
   console.log(`Updated ${path.relative(root, outputPath)}`);
-  console.log(`SEC events: ${payload.stats.secEvents}, news items: ${payload.stats.newsItems}, stocks updated: ${payload.stats.updatedStocks}, errors: ${payload.stats.errors}`);
+  console.log(`SEC events: ${payload.stats.secEvents}, event outcomes: ${payload.stats.eventOutcomes}, news items: ${payload.stats.newsItems}, stocks updated: ${payload.stats.updatedStocks}, errors: ${payload.stats.errors}`);
 }
 
 main().catch((error) => {

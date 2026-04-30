@@ -500,6 +500,7 @@ const dailyBriefing = window.dailyBriefing ?? {
   highlights: [],
   summary: [],
   events: [],
+  eventOutcomes: [],
   stockUpdates: {},
   stats: {},
   errors: [],
@@ -1707,31 +1708,74 @@ function stockCard(stock) {
   `;
 }
 
-function eventItem(event) {
+function eventOutcomeFor(event) {
+  const outcomes = dailyBriefing.eventOutcomes ?? [];
+  return outcomes.find((outcome) => {
+    const sameDate = outcome.date === event.date;
+    const titleMatch = outcome.matchTitle ? event.title.includes(outcome.matchTitle) : true;
+    const tickerMatch = (outcome.tickers ?? []).some((ticker) => (event.tickers ?? []).includes(ticker));
+    return sameDate && titleMatch && tickerMatch;
+  });
+}
+
+function eventOutcomeMarkup(outcome) {
+  if (!outcome) return "";
+  const sourceUrl = safeHttpUrl(outcome.sourceUrl);
   return `
-    <article class="event-item" data-category="${event.category}">
+    <div class="event-section event-outcome">
+      <div class="event-outcome-head">
+        <strong>公告結果摘要</strong>
+        <span>保留至 ${escapeHtml(outcome.retainUntil)}</span>
+      </div>
+      <p>${escapeHtml(outcome.summary)}</p>
+      ${
+        outcome.metrics?.length
+          ? `<ul>${outcome.metrics.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>`
+          : ""
+      }
+      ${outcome.researchRead ? `<p class="outcome-research">${escapeHtml(outcome.researchRead)}</p>` : ""}
+      ${
+        sourceUrl
+          ? `<a href="${escapeHtml(sourceUrl)}" target="_blank" rel="noreferrer">${escapeHtml(outcome.source || "公告來源")}</a>`
+          : `<span class="briefing-source">${escapeHtml(outcome.source || "")}</span>`
+      }
+    </div>
+  `;
+}
+
+function eventItem(event) {
+  const outcome = eventOutcomeFor(event);
+  const eventSourceUrl = safeHttpUrl(event.sourceUrl);
+  return `
+    <article class="event-item" data-category="${escapeHtml(event.category)}">
       <div class="event-date">
-        <span>${event.date.slice(5)}</span>
-        <strong>${event.time}</strong>
+        <span>${escapeHtml(event.date.slice(5))}</span>
+        <strong>${escapeHtml(event.time)}</strong>
       </div>
       <div class="event-body">
         <div class="event-meta">
-          ${event.tickers.map((ticker) => `<span class="ticker-pill">${ticker}</span>`).join("")}
-          <span class="category-pill">${event.category}</span>
-          <span class="confidence-pill">${event.confidence}</span>
+          ${event.tickers.map((ticker) => `<span class="ticker-pill">${escapeHtml(ticker)}</span>`).join("")}
+          <span class="category-pill">${escapeHtml(event.category)}</span>
+          <span class="confidence-pill">${escapeHtml(event.confidence)}</span>
+          ${outcome ? `<span class="outcome-pill">已公告結果</span>` : ""}
         </div>
-        <h4>${event.title}</h4>
+        <h4>${escapeHtml(event.title)}</h4>
         <div class="event-section">
           <strong>公告內容摘要</strong>
-          <p>${event.announcementSummary}</p>
+          <p>${escapeHtml(event.announcementSummary)}</p>
         </div>
+        ${eventOutcomeMarkup(outcome)}
         <div class="event-section">
           <strong>${event.category === "論壇" || event.category === "產品/產業" ? "閱讀重點（保留脈絡）" : "研究閱讀重點"}</strong>
           <ul>
-            ${event.readingPoints.map((point) => `<li>${point}</li>`).join("")}
+            ${event.readingPoints.map((point) => `<li>${escapeHtml(point)}</li>`).join("")}
           </ul>
         </div>
-        <a href="${event.sourceUrl}" target="_blank" rel="noreferrer">${event.source}</a>
+        ${
+          eventSourceUrl
+            ? `<a href="${escapeHtml(eventSourceUrl)}" target="_blank" rel="noreferrer">${escapeHtml(event.source)}</a>`
+            : `<span class="briefing-source">${escapeHtml(event.source || "")}</span>`
+        }
       </div>
     </article>
   `;
@@ -2521,7 +2565,7 @@ function renderDailyBriefing() {
   if (briefingMetric) briefingMetric.textContent = stats.updatedStocks ? `${stats.updatedStocks} 檔` : "每日";
   if (briefingMode) briefingMode.textContent = mode.includes("public") ? "自動抓取" : "自動更新";
   if (briefingUpdated) briefingUpdated.textContent = updated;
-  if (briefingStats) briefingStats.textContent = `新聞 ${stats.newsItems ?? 0} 則 / SEC ${stats.secEvents ?? 0} 筆 / 個股 ${stats.updatedStocks ?? 0} 檔`;
+  if (briefingStats) briefingStats.textContent = `新聞 ${stats.newsItems ?? 0} 則 / SEC ${stats.secEvents ?? 0} 筆 / 已公告結果 ${stats.eventOutcomes ?? 0} 筆 / 個股 ${stats.updatedStocks ?? 0} 檔`;
   if (dataStatusText) {
     dataStatusText.textContent = `目前由 GitHub Actions 產生每日資料檔；來源模式：${mode}。公開 SEC filing 與美股漲跌幅會自動更新，研究筆記與學習區會保留人工整理脈絡。`;
   }

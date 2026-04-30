@@ -1527,6 +1527,15 @@ th.sortable.sorted-desc::after {
   background: #fff0d0;
 }
 
+.outcome-pill {
+  border-radius: 999px;
+  padding: 4px 8px;
+  color: #ffffff;
+  background: var(--teal);
+  font-size: 12px;
+  font-weight: 800;
+}
+
 .event-body h4 {
   margin: 0 0 7px;
   font-size: 16px;
@@ -1562,6 +1571,36 @@ th.sortable.sorted-desc::after {
   padding-left: 18px;
   color: var(--muted);
   line-height: 1.55;
+}
+
+.event-outcome {
+  border: 1px solid #baded7;
+  border-radius: 8px;
+  padding: 12px;
+  background: #f1fbf8;
+}
+
+.event-outcome-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.event-outcome-head span {
+  border-radius: 999px;
+  padding: 4px 8px;
+  color: #173f3b;
+  background: #dff5f1;
+  font-size: 12px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.outcome-research {
+  border-left: 3px solid var(--teal);
+  padding-left: 10px;
+  color: var(--ink) !important;
 }
 
 .event-body a {
