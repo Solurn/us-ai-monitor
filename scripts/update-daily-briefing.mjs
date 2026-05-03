@@ -107,6 +107,12 @@ function addBusinessDays(dateIso, businessDays) {
   return date.toISOString().slice(0, 10);
 }
 
+function shiftDateIso(dateIso, days) {
+  const date = new Date(`${dateIso}T00:00:00Z`);
+  date.setUTCDate(date.getUTCDate() + days);
+  return date.toISOString().slice(0, 10);
+}
+
 const announcedEventCatalog = [
   {
     date: "2026-04-30",
@@ -149,6 +155,7 @@ const announcedEventCatalog = [
       "這份結果把 Alphabet 從單純 Search 防守戰，拉回 AI cloud / TPU / Gemini 生態系成長故事；後續要追的是 Cloud backlog 轉收入速度、capex 是否繼續上修，以及 AI Search 對廣告毛利的影響。",
     source: "Alphabet 8-K summary / 9to5Google",
     sourceUrl: "https://www.stocktitan.net/sec-filings/GOOG/8-k-alphabet-inc-reports-material-event-99e4ee982355.html",
+    reactionDate: "2026-04-29",
   },
   {
     date: "2026-04-30",
@@ -170,6 +177,7 @@ const announcedEventCatalog = [
       "KLA 的重點是 AI/HBM/先進封裝會提高良率與 process control 的重要性；若 KLA 對 2026 WFE 與 advanced packaging 持續樂觀，AMAT/LRCX/KLAC 這組設備股評價支撐會更強。",
     source: "KLA fiscal 2026 Q3 results",
     sourceUrl: "https://ir.kla.com/news-events/press-releases/detail/514/kla-corporation-reports-fiscal-2026-third-quarter-results",
+    reactionDate: "2026-04-29",
   },
   {
     date: "2026-04-30",
@@ -191,6 +199,7 @@ const announcedEventCatalog = [
       "Microsoft 的結果支持 AI cloud demand 仍強，但投資人會繼續問 capex、OpenAI exposure 與 Copilot 變現速度；若 Azure 仍受供給限制，短期 capex 壓力比較容易被市場接受。",
     source: "Microsoft FY26 Q3 earnings release",
     sourceUrl: "https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q3/press-release-webcast",
+    reactionDate: "2026-04-29",
   },
   {
     date: "2026-04-30",
@@ -212,6 +221,7 @@ const announcedEventCatalog = [
       "Amazon 的亮點是 AWS 加速與獲利能力強，但 AI capex 對 FCF 壓力也同步放大；後續要追 AWS growth 是否能持續高於 capex 增速。",
     source: "Amazon Q1 2026 results",
     sourceUrl: "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-First-Quarter-Results/default.aspx",
+    reactionDate: "2026-04-29",
   },
   {
     date: "2026-04-30",
@@ -233,6 +243,114 @@ const announcedEventCatalog = [
       "Meta 的廣告本業非常強，但股價反應可能取決於市場是否接受更高 AI capex；要看管理層能否把 AI spending 連回 ad targeting、ranking、business messaging 與個人 AI agents 的收入路徑。",
     source: "Meta Q1 2026 results",
     sourceUrl: "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-First-Quarter-2026-Results/default.aspx",
+    reactionDate: "2026-04-29",
+  },
+  {
+    date: "2026-04-30",
+    time: "20:30",
+    tickers: ["MACRO"],
+    matchTitle: "GDP",
+    title: "美國 Q1 GDP advance estimate 已公布",
+    type: "已公告結果",
+    priority: "高",
+    summary:
+      "BEA 公布 2026 Q1 real GDP advance estimate 年化成長 2.0%，較 2025 Q4 的 0.5% 明顯加速。成長主要來自投資、出口、消費與政府支出，但進口也增加並抵銷部分 GDP。",
+    metrics: [
+      "Real GDP：Q1 2026 年化 +2.0%，Q4 2025 為 +0.5%。",
+      "Real final sales to private domestic purchasers：+2.5%，高於前季 +1.8%。",
+      "加速來源：政府支出與出口轉正、投資加速。",
+      "抵銷項：消費支出減速，進口轉增。",
+    ],
+    researchRead:
+      "這份 GDP 不是衰退訊號，反而顯示 AI/企業投資與政府支出支撐需求；但若同時搭配 ECI、ISM prices 偏熱，市場會擔心 Fed 降息空間變小。",
+    source: "BEA GDP advance estimate",
+    sourceUrl: "https://www.bea.gov/news/2026/gdp-advance-estimate-1st-quarter-2026",
+  },
+  {
+    date: "2026-04-30",
+    time: "20:30",
+    tickers: ["MACRO"],
+    matchTitle: "Employment Cost",
+    title: "Employment Cost Index Q1 2026 已公布",
+    type: "已公告結果",
+    priority: "高",
+    summary:
+      "BLS 公布 2026 Q1 Employment Cost Index：civilian workers compensation costs 季增 0.9%，其中 wages and salaries +0.8%、benefits +1.2%；年增 3.4%。",
+    metrics: [
+      "Compensation costs：季增 +0.9%。",
+      "Wages and salaries：季增 +0.8%。",
+      "Benefit costs：季增 +1.2%。",
+      "12 個月變化：compensation +3.4%、wages +3.4%、benefits +3.6%。",
+    ],
+    researchRead:
+      "ECI 對 Fed 很重要，因為它比一般平均時薪更能反映雇主成本。這次不是失控，但 wage/benefit 成本仍偏黏，對長端利率與高估值成長股不算完全友善。",
+    source: "BLS Employment Cost Index",
+    sourceUrl: "https://www.bls.gov/news.release/eci.nr0.htm",
+  },
+  {
+    date: "2026-04-30",
+    time: "21:00",
+    tickers: ["PWR"],
+    matchTitle: "Quanta",
+    title: "Quanta Services Q1 2026 結果已公布",
+    type: "已公告結果",
+    priority: "高",
+    summary:
+      "Quanta Services Q1 創多項季度紀錄，營收 7.87B 美元、adjusted EPS 2.68 美元，RPO 26.2B、total backlog 48.5B 美元，並大幅上修 2026 年財測。",
+    metrics: [
+      "營收：7.87B 美元，年增約 26%。",
+      "GAAP diluted EPS：1.45 美元；adjusted diluted EPS：2.68 美元。",
+      "Adjusted EBITDA：686.4M 美元。",
+      "RPO：26.2B 美元；total backlog：48.5B 美元。",
+    ],
+    researchRead:
+      "PWR 的結果直接支持 data center power、utility grid、electric infrastructure 這條主線。若 backlog 與上修財測延續，VRT/ETN/PWR 這組 AI 電力基建股的敘事會更穩。",
+    source: "Quanta Services Q1 2026 results",
+    sourceUrl: "https://investors.quantaservices.com/news-events/press-releases/detail/396/quanta-services-reports-first-quarter-2026-results",
+    reactionDate: "2026-04-30",
+  },
+  {
+    date: "2026-05-01",
+    time: "05:00",
+    tickers: ["AAPL"],
+    matchTitle: "Apple",
+    title: "Apple Q2 FY2026 結果已公布",
+    type: "已公告結果",
+    priority: "高",
+    summary:
+      "Apple FY2026 Q2 創 March quarter 紀錄，營收 111.2B 美元、年增 17%，EPS 2.01 美元、年增 22%；iPhone、總營收與 EPS 都創三月季度紀錄，Services 也再創新高。",
+    metrics: [
+      "營收：111.2B 美元，年增 17%。",
+      "淨利：29.6B 美元；diluted EPS：2.01 美元，年增 22%。",
+      "Gross margin：49.3%。",
+      "股東回饋：新增 100B 美元回購授權，季度股利提高至 0.27 美元。",
+    ],
+    researchRead:
+      "AAPL 這次不是單純防守型財報，iPhone 17 demand 與 Services record 是多頭重點；但 AI roadmap、記憶體成本與 advanced node supply 仍是下一階段估值能否擴張的關鍵。",
+    source: "Apple 8-K exhibit / Apple newsroom",
+    sourceUrl: "https://www.sec.gov/Archives/edgar/data/320193/000032019326000011/a8-kex991q2202603282026.htm",
+    reactionDate: "2026-04-30",
+  },
+  {
+    date: "2026-05-01",
+    time: "22:00",
+    tickers: ["MACRO"],
+    matchTitle: "ISM Manufacturing",
+    title: "ISM Manufacturing PMI 已公布",
+    type: "已公告結果",
+    priority: "高",
+    summary:
+      "ISM April Manufacturing PMI 維持 52.7，連續第 4 個月擴張；新訂單升至 54.1，但 employment 降至 46.4，prices 升至 84.6，顯示製造業需求穩、價格壓力更熱。",
+    metrics: [
+      "Manufacturing PMI：52.7，與 3 月持平。",
+      "New Orders：54.1，較 3 月 53.5 上升。",
+      "Production：53.4，仍擴張但較 3 月 55.1 放慢。",
+      "Employment：46.4，連續收縮；Prices：84.6，創 2022 年 4 月以來最高。",
+    ],
+    researchRead:
+      "這份 ISM 對 AI/工業供應鏈偏正面，因電腦電子、機械等類別仍擴張；但 prices 太熱，會強化通膨黏性與利率壓力。",
+    source: "ISM April 2026 Manufacturing PMI",
+    sourceUrl: "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/april/",
   },
 ];
 
@@ -267,21 +385,39 @@ function formatMarketTimestamp(timestamp) {
   return new Date(timestamp * 1000).toISOString();
 }
 
-function parseYahooChartReaction(data) {
+function easternEpoch(dateIso, time) {
+  return Math.floor(Date.parse(`${dateIso}T${time}-04:00`) / 1000);
+}
+
+function yahooChartUrl(ticker, marketDate) {
+  if (!marketDate) {
+    return `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(ticker)}?range=1d&interval=1m&includePrePost=true`;
+  }
+  const period1 = easternEpoch(marketDate, "04:00:00");
+  const period2 = easternEpoch(marketDate, "20:30:00");
+  return `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(ticker)}?period1=${period1}&period2=${period2}&interval=1m&includePrePost=true`;
+}
+
+function parseYahooChartReaction(data, marketDate = "", dailyContext = {}) {
   const result = data?.chart?.result?.[0];
   const meta = result?.meta ?? {};
   const timestamps = result?.timestamp ?? [];
   const closes = result?.indicators?.quote?.[0]?.close ?? [];
-  const regularEnd = meta.currentTradingPeriod?.regular?.end;
-  const regularClose = typeof meta.regularMarketPrice === "number" ? meta.regularMarketPrice : null;
-  const previousClose = typeof meta.chartPreviousClose === "number"
+  const regularStart = marketDate ? easternEpoch(marketDate, "09:30:00") : meta.currentTradingPeriod?.regular?.start;
+  const regularEnd = marketDate ? easternEpoch(marketDate, "16:00:00") : meta.currentTradingPeriod?.regular?.end;
+  const rows = timestamps
+    .map((timestamp, index) => ({ timestamp, close: closes[index] }))
+    .filter((row) => typeof row.timestamp === "number" && typeof row.close === "number");
+  const regularRows = rows.filter((row) => (!regularStart || row.timestamp >= regularStart) && (!regularEnd || row.timestamp <= regularEnd));
+  const regularClose = regularRows.at(-1)?.close ?? (typeof meta.regularMarketPrice === "number" ? meta.regularMarketPrice : null);
+  const previousClose = typeof dailyContext.previousClose === "number"
+    ? dailyContext.previousClose
+    : typeof meta.chartPreviousClose === "number"
     ? meta.chartPreviousClose
     : typeof meta.previousClose === "number"
       ? meta.previousClose
       : null;
-  const postRows = timestamps
-    .map((timestamp, index) => ({ timestamp, close: closes[index] }))
-    .filter((row) => typeof row.timestamp === "number" && typeof row.close === "number" && (!regularEnd || row.timestamp > regularEnd));
+  const postRows = rows.filter((row) => !regularEnd || row.timestamp > regularEnd);
   const latestPost = postRows.at(-1);
   const afterHoursPrice = latestPost?.close ?? null;
   return {
@@ -291,15 +427,42 @@ function parseYahooChartReaction(data) {
     previousClose,
     afterHoursPrice,
     afterHoursChangePct: pctChange(afterHoursPrice, regularClose),
-    asOf: formatMarketTimestamp(latestPost?.timestamp ?? meta.regularMarketTime),
+    reactionDate: marketDate,
+    asOf: formatMarketTimestamp(latestPost?.timestamp ?? regularRows.at(-1)?.timestamp ?? meta.regularMarketTime),
     provider: "Yahoo Finance chart",
   };
 }
 
-async function fetchMarketReaction(ticker) {
-  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(ticker)}?range=1d&interval=1m&includePrePost=true`;
+async function fetchDailyCloseContext(ticker, marketDate) {
+  if (!marketDate) return {};
+  const start = Math.floor(Date.parse(`${shiftDateIso(marketDate, -10)}T00:00:00Z`) / 1000);
+  const end = Math.floor(Date.parse(`${shiftDateIso(marketDate, 2)}T00:00:00Z`) / 1000);
+  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(ticker)}?period1=${start}&period2=${end}&interval=1d`;
   const data = await fetchJson(url, { "User-Agent": "Mozilla/5.0 us-ai-monitor" });
-  return parseYahooChartReaction(data);
+  const result = data?.chart?.result?.[0];
+  const timestamps = result?.timestamp ?? [];
+  const closes = result?.indicators?.quote?.[0]?.close ?? [];
+  const rows = timestamps
+    .map((timestamp, index) => ({
+      date: new Date(timestamp * 1000).toISOString().slice(0, 10),
+      close: closes[index],
+    }))
+    .filter((row) => typeof row.close === "number");
+  const marketIndex = rows.findIndex((row) => row.date === marketDate);
+  if (marketIndex <= 0) return {};
+  return {
+    previousClose: rows[marketIndex - 1].close,
+    dailyClose: rows[marketIndex].close,
+  };
+}
+
+async function fetchMarketReaction(ticker, marketDate = "") {
+  const url = yahooChartUrl(ticker, marketDate);
+  const [data, dailyContext] = await Promise.all([
+    fetchJson(url, { "User-Agent": "Mozilla/5.0 us-ai-monitor" }),
+    fetchDailyCloseContext(ticker, marketDate),
+  ]);
+  return parseYahooChartReaction(data, marketDate, dailyContext);
 }
 
 async function enrichEventOutcomesWithMarketReaction(outcomes) {
@@ -309,7 +472,7 @@ async function enrichEventOutcomesWithMarketReaction(outcomes) {
     const marketReaction = [];
     for (const ticker of stockTickers) {
       try {
-        marketReaction.push(await fetchMarketReaction(ticker));
+        marketReaction.push(await fetchMarketReaction(ticker, outcome.reactionDate));
       } catch (error) {
         marketReaction.push({
           ticker,
@@ -318,6 +481,7 @@ async function enrichEventOutcomesWithMarketReaction(outcomes) {
           previousClose: null,
           afterHoursPrice: null,
           afterHoursChangePct: null,
+          reactionDate: outcome.reactionDate ?? "",
           asOf: "",
           provider: "Yahoo Finance chart",
           error: error.message,
