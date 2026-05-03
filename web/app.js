@@ -1968,6 +1968,13 @@ function formatTwMoney(value) {
   return number.toLocaleString("zh-TW");
 }
 
+function formatTwLots(value) {
+  if (value == null || Number.isNaN(Number(value))) return "--";
+  const lots = Number(value) / 1000;
+  const maximumFractionDigits = Number.isInteger(lots) ? 0 : 1;
+  return lots.toLocaleString("zh-TW", { maximumFractionDigits });
+}
+
 function twSearchRows(rows) {
   const query = state.query.trim().toLowerCase();
   if (!query) return rows;
@@ -2104,7 +2111,7 @@ function twInsiderMonthlyCells(person) {
   return (person.monthly ?? []).map((month) => `
     <span>
       <b>${escapeHtml(month.period)}</b>
-      +${formatTwNumber(month.increaseShares)} / -${formatTwNumber(month.decreaseShares)}
+      +${formatTwLots(month.increaseShares)} / -${formatTwLots(month.decreaseShares)} 張
     </span>
   `).join("");
 }
@@ -2118,9 +2125,9 @@ function twInsiderPersonRow(person) {
         <span>${escapeHtml((person.roles ?? []).join(" / "))}</span>
       </td>
       <td>${escapeHtml(person.relation || "")}</td>
-      <td class="num">${formatTwNumber(person.totalIncreaseShares)}</td>
-      <td class="num">${formatTwNumber(person.totalDecreaseShares)}</td>
-      <td class="num ${twInsiderTone(netShares)}">${netShares >= 0 ? "+" : ""}${formatTwNumber(netShares)}</td>
+      <td class="num">${formatTwLots(person.totalIncreaseShares)}</td>
+      <td class="num">${formatTwLots(person.totalDecreaseShares)}</td>
+      <td class="num ${twInsiderTone(netShares)}">${netShares >= 0 ? "+" : ""}${formatTwLots(netShares)}</td>
       <td class="num">${formatTwMoney(Math.max(person.totalIncreaseValue ?? 0, person.totalDecreaseValue ?? 0))}</td>
       <td class="tw-insider-months">${twInsiderMonthlyCells(person)}</td>
     </tr>
@@ -2139,13 +2146,13 @@ function twInsiderStockCard(stock) {
         </div>
         <div class="tw-insider-net ${twInsiderTone(netShares)}">
           <span>三月淨變動</span>
-          <strong>${netShares >= 0 ? "+" : ""}${formatTwNumber(netShares)}</strong>
+          <strong>${netShares >= 0 ? "+" : ""}${formatTwLots(netShares)}</strong>
           <em>${formatTwMoney(stock.netValue)}</em>
         </div>
       </div>
       <div class="tw-insider-meta">
-        <span>增加 ${formatTwNumber(stock.totalIncreaseShares)} 股</span>
-        <span>減少 ${formatTwNumber(stock.totalDecreaseShares)} 股</span>
+        <span>增加 ${formatTwLots(stock.totalIncreaseShares)} 張</span>
+        <span>減少 ${formatTwLots(stock.totalDecreaseShares)} 張</span>
         <span>收盤 ${stock.closePrice == null ? "缺價" : formatTwNumber(stock.closePrice)}</span>
         <span>${escapeHtml(stock.priceAsOf || stock.quoteProvider || "價格待更新")}</span>
         <span>月成交值 ${stock.monthlyTradedValue == null ? "缺量" : formatTwMoney(stock.monthlyTradedValue)}${stock.liquidityPeriod ? ` / ${escapeHtml(stock.liquidityPeriod)}` : ""}</span>
@@ -2156,9 +2163,9 @@ function twInsiderStockCard(stock) {
             <tr>
               <th>主管</th>
               <th>關係</th>
-              <th>三月增加</th>
-              <th>三月減少</th>
-              <th>淨變動</th>
+              <th>三月增加(張)</th>
+              <th>三月減少(張)</th>
+              <th>淨變動(張)</th>
               <th>約當金額</th>
               <th>月別</th>
             </tr>
@@ -2194,7 +2201,7 @@ function renderTwInsiderHolding() {
     <div class="tw-insider-summary">
       <span>訊號股票 ${Number(stats.selectedStocks ?? rows.length)} 檔</span>
       <span>主管/家屬 ${Number(stats.selectedPeople ?? 0)} 人</span>
-      <span>門檻 ${formatTwNumber(twInsiderHoldingLatest.filters?.shareThreshold ?? 100000)} 股 / ${formatTwMoney(twInsiderHoldingLatest.filters?.valueThreshold ?? 5000000)}</span>
+      <span>金額門檻 ${formatTwMoney(twInsiderHoldingLatest.filters?.valueThreshold ?? 5000000)} 以上</span>
       ${liquidityFilterText}
       <span>更新 ${escapeHtml(updated)}</span>
     </div>
@@ -2290,7 +2297,7 @@ function renderMarketShell() {
     if (briefingMode) briefingMode.textContent = "內部人 / 月營收 / 自結 / 財報";
     if (briefingUpdated) briefingUpdated.textContent = `內部人 ${formatBriefingTime(twInsiderHoldingLatest.generatedAt)}`;
     if (dataStatusText) {
-      dataStatusText.textContent = "台股模式整合 MOPS 內部人持股、月營收精華、自結速報與財報公告；內部人訊號聚焦總經理、副總經理、協理、財務與會計主管，並以三個月累計股數或約當金額篩選。";
+      dataStatusText.textContent = "台股模式整合 MOPS 內部人持股、月營收精華、自結速報與財報公告；內部人訊號聚焦總經理、副總經理、協理、財務與會計主管，並以三個月買進或賣出約當金額篩選。";
     }
     return;
   }
