@@ -2758,10 +2758,17 @@ function renderIrSummaryDateSelect() {
   irSummaryDateSelect.value = irSummaryCurrentItem()?.queryDate || "";
 }
 
+function irSummaryMediaLabel(row) {
+  if (String(row.transcriptStatus || "").startsWith("\u6210\u529f")) return "\u6709\u5f71\u97f3";
+  if (row.mediaStatus === "\u6709\u5f71\u97f3") return "\u5f71\u97f3\u672a\u8f49\u9304";
+  if (row.mediaStatus === "\u7f3a\u5f71\u97f3") return "\u7f3a\u5f71\u97f3";
+  return row.mediaStatus || "\u672a\u63ed\u9732";
+}
+
 function renderIrSummaryCodeSelect(rows) {
   if (!irSummaryCodeSelect) return;
   irSummaryCodeSelect.innerHTML = rows.map((row) => (
-    `<option value="${escapeHtml(row.code)}">${escapeHtml(row.code)} ${escapeHtml(row.name || "")}</option>`
+    `<option value="${escapeHtml(row.code)}">${escapeHtml(row.code)} ${escapeHtml(row.name || "")} (${escapeHtml(irSummaryMediaLabel(row))})</option>`
   )).join("");
   irSummaryCodeSelect.value = irSummarySelectedCode || "";
   irSummaryCodeSelect.hidden = rows.length === 0;
