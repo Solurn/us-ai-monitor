@@ -453,6 +453,7 @@ input {
 .tw-insider-section,
 .tw-revenue-section,
 .financial-report-section,
+.ir-summary-section,
 .self-report-section,
 .daily-briefing-section,
 .upcoming-section,
@@ -479,8 +480,117 @@ input {
 
 .tw-revenue-section,
 .tw-insider-section,
+.ir-summary-section,
 .financial-report-section {
   background: #ffffff;
+}
+
+.ir-summary-card {
+  display: grid;
+  gap: 14px;
+}
+
+.ir-summary-meta,
+.ir-code-strip,
+.ir-summary-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.ir-summary-meta span {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 6px 9px;
+  color: #405066;
+  background: #f9fafc;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.ir-code-pill {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 7px 11px;
+  color: var(--navy);
+  background: #ffffff;
+  font-size: 13px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.ir-code-pill.active {
+  border-color: var(--teal);
+  color: #ffffff;
+  background: var(--teal);
+}
+
+.ir-summary-grid {
+  display: grid;
+  grid-template-columns: minmax(240px, 0.82fr) minmax(280px, 1.18fr);
+  gap: 14px;
+}
+
+.ir-summary-grid > div,
+.ir-summary-block {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 14px;
+  background: #fbfcfe;
+}
+
+.ir-summary-card h4 {
+  margin: 0 0 10px;
+  color: var(--ink);
+  font-size: 16px;
+  letter-spacing: 0;
+}
+
+.ir-summary-details {
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  gap: 8px 10px;
+  margin: 0 0 12px;
+  color: #243247;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.ir-summary-details dt {
+  color: var(--muted);
+  font-weight: 900;
+}
+
+.ir-summary-details dd {
+  margin: 0;
+}
+
+.ir-summary-links a {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 6px 9px;
+  color: var(--navy);
+  background: #ffffff;
+  font-size: 12px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.ir-summary-card ul {
+  margin: 0;
+  padding-left: 19px;
+  color: #243247;
+  line-height: 1.65;
+}
+
+.ir-summary-card li + li {
+  margin-top: 6px;
+}
+
+.ir-summary-muted {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
 }
 
 .tw-insider-summary,

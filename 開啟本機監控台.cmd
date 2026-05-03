@@ -4,6 +4,7 @@ cd /d "%~dp0"
 
 echo Updating dashboard data...
 powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0scripts\run-performance-update.ps1" -Quiet
+powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0scripts\run-ir-summary-update.ps1" -Quiet -Days 0
 
 echo Opening dashboard...
 powershell -NoProfile -ExecutionPolicy Bypass -Command ^

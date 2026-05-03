@@ -536,6 +536,23 @@ let financialReportHistory = window.financialReportHistory ?? {
 };
 let financialReportHistoryRequest = null;
 
+let irSummaryLatest = window.irSummaryLatest ?? {
+  generatedAt: "",
+  queryDate: "",
+  displayDate: "",
+  count: 0,
+  rows: [],
+};
+
+let irSummaryHistory = window.irSummaryHistory ?? {
+  generatedAt: "",
+  retentionDays: 30,
+  items: irSummaryLatest.queryDate ? [irSummaryLatest] : [],
+};
+
+let irSummarySelectedDate = irSummaryLatest.queryDate || "";
+let irSummarySelectedCode = "";
+
 const twRevenueLatest = window.twRevenueLatest ?? {
   generatedAt: "",
   period: "",
@@ -1338,6 +1355,10 @@ const selfReportPanel = document.querySelector("#selfReportPanel");
 const financialReportStats = document.querySelector("#financialReportStats");
 const financialReportSelect = document.querySelector("#financialReportSelect");
 const financialReportPanel = document.querySelector("#financialReportPanel");
+const irSummaryStats = document.querySelector("#irSummaryStats");
+const irSummaryDateSelect = document.querySelector("#irSummaryDateSelect");
+const irSummaryCodeSelect = document.querySelector("#irSummaryCodeSelect");
+const irSummaryPanel = document.querySelector("#irSummaryPanel");
 const rangeLabel = document.querySelector("#rangeLabel");
 const rangeValue = document.querySelector("#rangeValue");
 const twRevenueStats = document.querySelector("#twRevenueStats");
@@ -2128,7 +2149,7 @@ function twInsiderPersonRow(person) {
       <td class="num">${formatTwLots(person.totalIncreaseShares)}</td>
       <td class="num">${formatTwLots(person.totalDecreaseShares)}</td>
       <td class="num ${twInsiderTone(netShares)}">${netShares >= 0 ? "+" : ""}${formatTwLots(netShares)}</td>
-      <td class="num">${formatTwMoney(Math.max(person.totalIncreaseValue ?? 0, person.totalDecreaseValue ?? 0))}</td>
+      <td class="num">${formatTwMoney(person.netValue)}</td>
       <td class="tw-insider-months">${twInsiderMonthlyCells(person)}</td>
     </tr>
   `;
@@ -2166,7 +2187,7 @@ function twInsiderStockCard(stock) {
               <th>三月增加(張)</th>
               <th>三月減少(張)</th>
               <th>淨變動(張)</th>
-              <th>約當金額</th>
+              <th>淨變動金額</th>
               <th>月別</th>
             </tr>
           </thead>
@@ -2292,9 +2313,9 @@ function renderMarketShell() {
     if (secondaryCountLabel) secondaryCountLabel.textContent = "主管/家屬";
     if (eventCount) eventCount.textContent = Number(revenueStats.selected ?? 0).toLocaleString("zh-TW");
     if (eventCountLabel) eventCountLabel.textContent = "營收入選";
-    if (briefingMetric) briefingMetric.textContent = Number(selfReportLatest.count ?? 0).toLocaleString("zh-TW");
-    if (briefingMetricLabel) briefingMetricLabel.textContent = "自結筆數";
-    if (briefingMode) briefingMode.textContent = "內部人 / 月營收 / 自結 / 財報";
+    if (briefingMetric) briefingMetric.textContent = Number(irSummaryCurrentItem()?.count ?? selfReportLatest.count ?? 0).toLocaleString("zh-TW");
+    if (briefingMetricLabel) briefingMetricLabel.textContent = "法說檔數";
+    if (briefingMode) briefingMode.textContent = "內部人 / 月營收 / 自結 / 財報 / 法說";
     if (briefingUpdated) briefingUpdated.textContent = `內部人 ${formatBriefingTime(twInsiderHoldingLatest.generatedAt)}`;
     if (dataStatusText) {
       dataStatusText.textContent = "台股模式整合 MOPS 內部人持股、月營收精華、自結速報與財報公告；內部人訊號聚焦總經理、副總經理、協理、財務與會計主管，並以三個月買進或賣出約當金額篩選。";
@@ -2679,6 +2700,156 @@ function renderSelfReport() {
   `;
 }
 
+function irSummaryArchiveItems() {
+  const byDate = new Map();
+  for (const item of irSummaryHistory.items ?? []) {
+    if (item?.queryDate) byDate.set(item.queryDate, item);
+  }
+  if (irSummaryLatest.queryDate) byDate.set(irSummaryLatest.queryDate, irSummaryLatest);
+  return Array.from(byDate.values()).sort((a, b) => String(b.queryDate || "").localeCompare(String(a.queryDate || "")));
+}
+
+function irSummaryCurrentItem() {
+  const items = irSummaryArchiveItems();
+  if (!irSummarySelectedDate && items[0]?.queryDate) irSummarySelectedDate = items[0].queryDate;
+  return items.find((item) => item.queryDate === irSummarySelectedDate) ?? items[0] ?? null;
+}
+
+function irSummaryRowsForCurrentDate() {
+  const item = irSummaryCurrentItem();
+  const rows = [...(item?.rows ?? [])].sort((a, b) => Number(a.code) - Number(b.code));
+  const query = state.query.trim().toLowerCase();
+  if (!query) return rows;
+  return rows.filter((row) => {
+    const haystack = [
+      row.code,
+      row.name,
+      row.eventType,
+      row.topic,
+      row.location,
+      row.transcriptStatus,
+      ...(row.outlookBullets ?? []),
+      ...(row.summaryBullets ?? []),
+    ].join(" ").toLowerCase();
+    return haystack.includes(query);
+  });
+}
+
+function ensureIrSummarySelection(rows) {
+  if (!rows.length) {
+    irSummarySelectedCode = "";
+    return;
+  }
+  if (!irSummarySelectedCode || !rows.some((row) => row.code === irSummarySelectedCode)) {
+    irSummarySelectedCode = rows[0].code;
+  }
+}
+
+function renderIrSummaryDateSelect() {
+  if (!irSummaryDateSelect) return;
+  const items = irSummaryArchiveItems();
+  irSummaryDateSelect.innerHTML = items.map((item) => {
+    const count = Number(item.count ?? item.rows?.length ?? 0);
+    return `<option value="${escapeHtml(item.queryDate)}">${escapeHtml(item.displayDate || item.queryDate)} / ${count} 檔</option>`;
+  }).join("");
+  irSummaryDateSelect.value = irSummaryCurrentItem()?.queryDate || "";
+}
+
+function renderIrSummaryCodeSelect(rows) {
+  if (!irSummaryCodeSelect) return;
+  irSummaryCodeSelect.innerHTML = rows.map((row) => (
+    `<option value="${escapeHtml(row.code)}">${escapeHtml(row.code)} ${escapeHtml(row.name || "")}</option>`
+  )).join("");
+  irSummaryCodeSelect.value = irSummarySelectedCode || "";
+  irSummaryCodeSelect.hidden = rows.length === 0;
+}
+
+function irSummaryLink(url, label) {
+  const safe = safeHttpUrl(url);
+  return safe ? `<a href="${escapeHtml(safe)}" target="_blank" rel="noreferrer">${escapeHtml(label)}</a>` : "";
+}
+
+function irSummaryBulletList(items, emptyText) {
+  const rows = (items ?? []).filter(Boolean).slice(0, 8);
+  if (!rows.length) return `<p class="ir-summary-muted">${escapeHtml(emptyText)}</p>`;
+  return `<ul>${rows.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>`;
+}
+
+function renderIrSummary() {
+  if (!irSummaryPanel) return;
+  const item = irSummaryCurrentItem();
+  renderIrSummaryDateSelect();
+  const rows = irSummaryRowsForCurrentDate();
+  ensureIrSummarySelection(rows);
+  renderIrSummaryCodeSelect(rows);
+  const selected = rows.find((row) => row.code === irSummarySelectedCode) ?? rows[0] ?? null;
+  const updated = formatBriefingTime(irSummaryHistory.generatedAt || item?.generatedAt);
+
+  if (irSummaryStats) {
+    const allCount = Number(item?.count ?? item?.rows?.length ?? 0);
+    irSummaryStats.textContent = item ? `${item.queryDate} / ${allCount} 檔 / ${updated}` : "尚未匯入";
+  }
+
+  if (!item || !rows.length || !selected) {
+    irSummaryPanel.innerHTML = `
+      <div class="self-report-empty">
+        <strong>尚未匯入法說摘要資料</strong>
+        <p>請先在「法說整理」跑完摘要，再執行 npm run update:ir 匯入到監控台。</p>
+      </div>
+    `;
+    return;
+  }
+
+  const codeStrip = rows.map((row) => `
+    <button class="ir-code-pill ${row.code === selected.code ? "active" : ""}" type="button" data-ir-code="${escapeHtml(row.code)}">
+      ${escapeHtml(row.code)}
+    </button>
+  `).join("");
+
+  irSummaryPanel.innerHTML = `
+    <article class="ir-summary-card">
+      <div class="ir-summary-meta">
+        <span>${escapeHtml(selected.date)}</span>
+        <span>${escapeHtml(selected.code)} ${escapeHtml(selected.name)}</span>
+        <span>${escapeHtml(selected.eventType || "法人說明會")}</span>
+        <span>${escapeHtml(selected.transcriptStatus || selected.mediaStatus || "未揭露")}</span>
+      </div>
+      <div class="ir-code-strip" aria-label="當日法說股票代號">${codeStrip}</div>
+      <div class="ir-summary-grid">
+        <div>
+          <h4>會議資訊</h4>
+          <dl class="ir-summary-details">
+            <dt>時間</dt><dd>${escapeHtml(selected.time || "--")}</dd>
+            <dt>地點</dt><dd>${escapeHtml(selected.location || "--")}</dd>
+            <dt>MOPS 擇要</dt><dd>${escapeHtml(selected.topic || "--")}</dd>
+          </dl>
+          <div class="ir-summary-links">
+            ${irSummaryLink(selected.companyWebsite, "公司網站")}
+            ${irSummaryLink(selected.chinesePdf, "中文簡報")}
+            ${irSummaryLink(selected.englishPdf, "英文簡報")}
+            ${irSummaryLink(selected.mediaUrl, "影音")}
+          </div>
+        </div>
+        <div>
+          <h4>展望重點</h4>
+          ${irSummaryBulletList(selected.outlookBullets, "未擷取到明確展望段落。")}
+        </div>
+      </div>
+      <div class="ir-summary-block">
+        <h4>會議摘要</h4>
+        ${irSummaryBulletList(selected.summaryBullets, "未擷取到會議摘要。")}
+      </div>
+    </article>
+  `;
+
+  irSummaryPanel.querySelectorAll("[data-ir-code]").forEach((button) => {
+    button.addEventListener("click", () => {
+      irSummarySelectedCode = button.dataset.irCode;
+      renderIrSummary();
+    });
+  });
+}
+
 function renderDailyBriefing() {
   const highlights = dailyBriefing.highlights ?? [];
   const summary = dailyBriefing.summary ?? [];
@@ -2767,6 +2938,7 @@ function render() {
     renderTwRevenue();
     renderSelfReport();
     renderFinancialReport();
+    renderIrSummary();
     return;
   }
   renderDailyBriefing();
@@ -2784,6 +2956,7 @@ searchInput.addEventListener("input", (event) => {
     renderTwInsiderHolding();
     renderTwRevenue();
     renderFinancialReport();
+    renderIrSummary();
     return;
   }
   renderEvents();
@@ -2812,6 +2985,22 @@ if (selfReportSelect) {
 if (financialReportSelect) {
   financialReportSelect.addEventListener("change", (event) => {
     setFinancialReportDate(event.target.value);
+  });
+}
+
+if (irSummaryDateSelect) {
+  irSummaryDateSelect.addEventListener("change", (event) => {
+    irSummarySelectedDate = event.target.value;
+    irSummarySelectedCode = "";
+    renderMarketShell();
+    renderIrSummary();
+  });
+}
+
+if (irSummaryCodeSelect) {
+  irSummaryCodeSelect.addEventListener("change", (event) => {
+    irSummarySelectedCode = event.target.value;
+    renderIrSummary();
   });
 }
 
