@@ -143,10 +143,19 @@ async function main() {
     throw new Error(`IR report directory not found: ${reportDir}`);
   }
 
-const reportFiles = files
-  .filter((file) => /^ir_summary_\d{4}-\d{2}-\d{2}\.md$/.test(file))
-  .map((file) => path.join(reportDir, file))
-  .sort();
+const reportFiles = (
+  await Promise.all(
+    files
+      .filter((file) => /^ir_summary_\d{4}-\d{2}-\d{2}\.md$/.test(file))
+      .map(async (file) => {
+        const fullPath = path.join(reportDir, file);
+        const stat = await fs.stat(fullPath);
+        return { fullPath, mtimeMs: stat.mtimeMs };
+      }),
+  )
+)
+  .sort((a, b) => a.mtimeMs - b.mtimeMs || a.fullPath.localeCompare(b.fullPath))
+  .map((item) => item.fullPath);
 
   const rows = [];
   for (const file of reportFiles) {
