@@ -1,5 +1,5 @@
 window.twInsiderHoldingLatest = {
-  "generatedAt": "2026-05-05T00:23:39+08:00",
+  "generatedAt": "2026-05-05T00:29:50+08:00",
   "periods": [
     "115/03",
     "115/02",
@@ -29,11 +29,11 @@ window.twInsiderHoldingLatest = {
   },
   "stats": {
     "companies": 891,
-    "rawRows": 2022,
-    "peopleWithMovement": 1542,
-    "selectedPeople": 444,
-    "selectedStocks": 188,
-    "quotes": 478,
+    "rawRows": 2030,
+    "peopleWithMovement": 1547,
+    "selectedPeople": 446,
+    "selectedStocks": 189,
+    "quotes": 480,
     "liquidityAvailable": 1958,
     "liquidityEligible": 891
   },
@@ -6265,6 +6265,116 @@ window.twInsiderHoldingLatest = {
       "netValue": -188037000
     },
     {
+      "code": "7734",
+      "name": "印能科技",
+      "market": "上櫃",
+      "industry": "半導體業",
+      "closePrice": 3405.0,
+      "priceAsOf": "2026-04-30",
+      "quoteProvider": "Yahoo 7734.TWO",
+      "monthlyTradedValue": 29679301000,
+      "liquidityPeriod": "115/04",
+      "liquiditySource": "TPEX monthlyStock",
+      "people": [
+        {
+          "code": "7734",
+          "name": "印能科技",
+          "market": "上櫃",
+          "industry": "半導體業",
+          "monthlyTradedValue": 29679301000,
+          "liquidityPeriod": "115/04",
+          "liquiditySource": "TPEX monthlyStock",
+          "person": "王炳坤",
+          "relation": "本人",
+          "shareType": "普通股",
+          "roles": [
+            "協理本人"
+          ],
+          "monthly": [
+            {
+              "period": "115/03",
+              "increaseShares": 0,
+              "decreaseShares": 27000,
+              "notes": []
+            },
+            {
+              "period": "115/02",
+              "increaseShares": 0,
+              "decreaseShares": 0,
+              "notes": []
+            },
+            {
+              "period": "115/01",
+              "increaseShares": 0,
+              "decreaseShares": 15000,
+              "notes": []
+            }
+          ],
+          "totalIncreaseShares": 0,
+          "totalDecreaseShares": 42000,
+          "closePrice": 3405.0,
+          "priceAsOf": "2026-04-30",
+          "quoteProvider": "Yahoo 7734.TWO",
+          "totalIncreaseValue": 0,
+          "totalDecreaseValue": 143010000,
+          "netShares": -42000,
+          "netValue": -143010000,
+          "passesThreshold": true
+        },
+        {
+          "code": "7734",
+          "name": "印能科技",
+          "market": "上櫃",
+          "industry": "半導體業",
+          "monthlyTradedValue": 29679301000,
+          "liquidityPeriod": "115/04",
+          "liquiditySource": "TPEX monthlyStock",
+          "person": "未揭露",
+          "relation": "配偶及未成年子女",
+          "shareType": "普通股",
+          "roles": [
+            "副總經理本人"
+          ],
+          "monthly": [
+            {
+              "period": "115/03",
+              "increaseShares": 0,
+              "decreaseShares": 0,
+              "notes": []
+            },
+            {
+              "period": "115/02",
+              "increaseShares": 0,
+              "decreaseShares": 0,
+              "notes": []
+            },
+            {
+              "period": "115/01",
+              "increaseShares": 0,
+              "decreaseShares": 11565,
+              "notes": []
+            }
+          ],
+          "totalIncreaseShares": 0,
+          "totalDecreaseShares": 11565,
+          "closePrice": 3405.0,
+          "priceAsOf": "2026-04-30",
+          "quoteProvider": "Yahoo 7734.TWO",
+          "totalIncreaseValue": 0,
+          "totalDecreaseValue": 39378825,
+          "netShares": -11565,
+          "netValue": -39378825,
+          "passesThreshold": true
+        }
+      ],
+      "totalIncreaseShares": 0,
+      "totalDecreaseShares": 53565,
+      "totalIncreaseValue": 0,
+      "totalDecreaseValue": 182388825,
+      "netShares": -53565,
+      "netValue": -182388825
+    },
+    {
       "code": "5289",
       "name": "宜鼎",
       "market": "上櫃",
@@ -7973,161 +8083,6 @@ window.twInsiderHoldingLatest = {
       "totalDecreaseValue": 120700000,
       "netShares": -142000,
       "netValue": -120700000
-    },
-    {
-      "code": "3081",
-      "name": "聯亞",
-      "market": "上櫃",
-      "industry": "通信網路業",
-      "closePrice": 2640.0,
-      "priceAsOf": "2026-04-30",
-      "quoteProvider": "Yahoo 3081.TWO",
-      "monthlyTradedValue": 177313786000,
-      "liquidityPeriod": "115/04",
-      "liquiditySource": "TPEX monthlyStock",
-      "people": [
-        {
-          "code": "3081",
-          "name": "聯亞",
-          "market": "上櫃",
-          "industry": "通信網路業",
-          "monthlyTradedValue": 177313786000,
-          "liquidityPeriod": "115/04",
-          "liquiditySource": "TPEX monthlyStock",
-          "person": "羅淇生",
-          "relation": "本人",
-          "shareType": "普通股",
-          "roles": [
-            "總經理本人"
-          ],
-          "monthly": [
-            {
-              "period": "115/03",
-              "increaseShares": 0,
-              "decreaseShares": 33000,
-              "notes": []
-            },
-            {
-              "period": "115/02",
-              "increaseShares": 0,
-              "decreaseShares": 15000,
-              "notes": []
-            },
-            {
-              "period": "115/01",
-              "increaseShares": 0,
-              "decreaseShares": 0,
-              "notes": []
-            }
-          ],
-          "totalIncreaseShares": 0,
-          "totalDecreaseShares": 48000,
-          "closePrice": 2640.0,
-          "priceAsOf": "2026-04-30",
-          "quoteProvider": "Yahoo 3081.TWO",
-          "totalIncreaseValue": 0,
-          "totalDecreaseValue": 126720000,
-          "netShares": -48000,
-          "netValue": -126720000,
-          "passesThreshold": true
-        },
-        {
-          "code": "3081",
-          "name": "聯亞",
-          "market": "上櫃",
-          "industry": "通信網路業",
-          "monthlyTradedValue": 177313786000,
-          "liquidityPeriod": "115/04",
-          "liquiditySource": "TPEX monthlyStock",
-          "person": "未揭露",
-          "relation": "配偶及未成年子女",
-          "shareType": "普通股",
-          "roles": [
-            "總經理本人"
-          ],
-          "monthly": [
-            {
-              "period": "115/03",
-              "increaseShares": 30000,
-              "decreaseShares": 0,
-              "notes": []
-            },
-            {
-              "period": "115/02",
-              "increaseShares": 0,
-              "decreaseShares": 0,
-              "notes": []
-            },
-            {
-              "period": "115/01",
-              "increaseShares": 0,
-              "decreaseShares": 0,
-              "notes": []
-            }
-          ],
-          "totalIncreaseShares": 30000,
-          "totalDecreaseShares": 0,
-          "closePrice": 2640.0,
-          "priceAsOf": "2026-04-30",
-          "quoteProvider": "Yahoo 3081.TWO",
-          "totalIncreaseValue": 79200000,
-          "totalDecreaseValue": 0,
-          "netShares": 30000,
-          "netValue": 79200000,
-          "passesThreshold": true
-        },
-        {
-          "code": "3081",
-          "name": "聯亞",
-          "market": "上櫃",
-          "industry": "通信網路業",
-          "monthlyTradedValue": 177313786000,
-          "liquidityPeriod": "115/04",
-          "liquiditySource": "TPEX monthlyStock",
-          "person": "蕭寒稊",
-          "relation": "本人",
-          "shareType": "普通股",
-          "roles": [
-            "副總經理本人"
-          ],
-          "monthly": [
-            {
-              "period": "115/03",
-              "increaseShares": 0,
-              "decreaseShares": 0,
-              "notes": []
-            },
-            {
-              "period": "115/02",
-              "increaseShares": 0,
-              "decreaseShares": 13000,
-              "notes": []
-            },
-            {
-              "period": "115/01",
-              "increaseShares": 0,
-              "decreaseShares": 9000,
-              "notes": []
-            }
-          ],
-          "totalIncreaseShares": 0,
-          "totalDecreaseShares": 22000,
-          "closePrice": 2640.0,
-          "priceAsOf": "2026-04-30",
-          "quoteProvider": "Yahoo 3081.TWO",
-          "totalIncreaseValue": 0,
-          "totalDecreaseValue": 58080000,
-          "netShares": -22000,
-          "netValue": -58080000,
-          "passesThreshold": true
-        }
-      ],
-      "totalIncreaseShares": 30000,
-      "totalDecreaseShares": 70000,
-      "totalIncreaseValue": 79200000,
-      "totalDecreaseValue": 184800000,
-      "netShares": -40000,
-      "netValue": -105600000
     }
   ],
   "stocks": [
@@ -14358,6 +14313,116 @@ window.twInsiderHoldingLatest = {
       "netValue": -188037000
     },
     {
+      "code": "7734",
+      "name": "印能科技",
+      "market": "上櫃",
+      "industry": "半導體業",
+      "closePrice": 3405.0,
+      "priceAsOf": "2026-04-30",
+      "quoteProvider": "Yahoo 7734.TWO",
+      "monthlyTradedValue": 29679301000,
+      "liquidityPeriod": "115/04",
+      "liquiditySource": "TPEX monthlyStock",
+      "people": [
+        {
+          "code": "7734",
+          "name": "印能科技",
+          "market": "上櫃",
+          "industry": "半導體業",
+          "monthlyTradedValue": 29679301000,
+          "liquidityPeriod": "115/04",
+          "liquiditySource": "TPEX monthlyStock",
+          "person": "王炳坤",
+          "relation": "本人",
+          "shareType": "普通股",
+          "roles": [
+            "協理本人"
+          ],
+          "monthly": [
+            {
+              "period": "115/03",
+              "increaseShares": 0,
+              "decreaseShares": 27000,
+              "notes": []
+            },
+            {
+              "period": "115/02",
+              "increaseShares": 0,
+              "decreaseShares": 0,
+              "notes": []
+            },
+            {
+              "period": "115/01",
+              "increaseShares": 0,
+              "decreaseShares": 15000,
+              "notes": []
+            }
+          ],
+          "totalIncreaseShares": 0,
+          "totalDecreaseShares": 42000,
+          "closePrice": 3405.0,
+          "priceAsOf": "2026-04-30",
+          "quoteProvider": "Yahoo 7734.TWO",
+          "totalIncreaseValue": 0,
+          "totalDecreaseValue": 143010000,
+          "netShares": -42000,
+          "netValue": -143010000,
+          "passesThreshold": true
+        },
+        {
+          "code": "7734",
+          "name": "印能科技",
+          "market": "上櫃",
+          "industry": "半導體業",
+          "monthlyTradedValue": 29679301000,
+          "liquidityPeriod": "115/04",
+          "liquiditySource": "TPEX monthlyStock",
+          "person": "未揭露",
+          "relation": "配偶及未成年子女",
+          "shareType": "普通股",
+          "roles": [
+            "副總經理本人"
+          ],
+          "monthly": [
+            {
+              "period": "115/03",
+              "increaseShares": 0,
+              "decreaseShares": 0,
+              "notes": []
+            },
+            {
+              "period": "115/02",
+              "increaseShares": 0,
+              "decreaseShares": 0,
+              "notes": []
+            },
+            {
+              "period": "115/01",
+              "increaseShares": 0,
+              "decreaseShares": 11565,
+              "notes": []
+            }
+          ],
+          "totalIncreaseShares": 0,
+          "totalDecreaseShares": 11565,
+          "closePrice": 3405.0,
+          "priceAsOf": "2026-04-30",
+          "quoteProvider": "Yahoo 7734.TWO",
+          "totalIncreaseValue": 0,
+          "totalDecreaseValue": 39378825,
+          "netShares": -11565,
+          "netValue": -39378825,
+          "passesThreshold": true
+        }
+      ],
+      "totalIncreaseShares": 0,
+      "totalDecreaseShares": 53565,
+      "totalIncreaseValue": 0,
+      "totalDecreaseValue": 182388825,
+      "netShares": -53565,
+      "netValue": -182388825
+    },
+    {
       "code": "5289",
       "name": "宜鼎",
       "market": "上櫃",
@@ -16068,6 +16133,167 @@ window.twInsiderHoldingLatest = {
       "netValue": -120700000
     },
     {
+      "code": "1736",
+      "name": "喬山",
+      "market": "上市",
+      "industry": "運動休閒",
+      "closePrice": 122.0,
+      "priceAsOf": "2026-04-30",
+      "quoteProvider": "Yahoo 1736.TW",
+      "monthlyTradedValue": 2175736613,
+      "liquidityPeriod": "115/04",
+      "liquiditySource": "TWSE FMSRFK",
+      "people": [
+        {
+          "code": "1736",
+          "name": "喬山",
+          "market": "上市",
+          "industry": "運動休閒",
+          "monthlyTradedValue": 2175736613,
+          "liquidityPeriod": "115/04",
+          "liquiditySource": "TWSE FMSRFK",
+          "person": "羅光廷",
+          "relation": "本人",
+          "shareType": "普通股",
+          "roles": [
+            "總經理本人"
+          ],
+          "monthly": [
+            {
+              "period": "115/03",
+              "increaseShares": 102000,
+              "decreaseShares": 0,
+              "notes": [
+                "兼大股東、董事"
+              ]
+            },
+            {
+              "period": "115/02",
+              "increaseShares": 232000,
+              "decreaseShares": 0,
+              "notes": [
+                "兼大股東、董事"
+              ]
+            },
+            {
+              "period": "115/01",
+              "increaseShares": 113000,
+              "decreaseShares": 0,
+              "notes": [
+                "兼大股東、董事"
+              ]
+            }
+          ],
+          "totalIncreaseShares": 447000,
+          "totalDecreaseShares": 0,
+          "closePrice": 122.0,
+          "priceAsOf": "2026-04-30",
+          "quoteProvider": "Yahoo 1736.TW",
+          "totalIncreaseValue": 54534000,
+          "totalDecreaseValue": 0,
+          "netShares": 447000,
+          "netValue": 54534000,
+          "passesThreshold": true
+        },
+        {
+          "code": "1736",
+          "name": "喬山",
+          "market": "上市",
+          "industry": "運動休閒",
+          "monthlyTradedValue": 2175736613,
+          "liquidityPeriod": "115/04",
+          "liquiditySource": "TWSE FMSRFK",
+          "person": "未揭露",
+          "relation": "配偶及未成年子女",
+          "shareType": "普通股",
+          "roles": [
+            "協理本人"
+          ],
+          "monthly": [
+            {
+              "period": "115/03",
+              "increaseShares": 0,
+              "decreaseShares": 0,
+              "notes": []
+            },
+            {
+              "period": "115/02",
+              "increaseShares": 232000,
+              "decreaseShares": 0,
+              "notes": []
+            },
+            {
+              "period": "115/01",
+              "increaseShares": 113000,
+              "decreaseShares": 0,
+              "notes": []
+            }
+          ],
+          "totalIncreaseShares": 345000,
+          "totalDecreaseShares": 0,
+          "closePrice": 122.0,
+          "priceAsOf": "2026-04-30",
+          "quoteProvider": "Yahoo 1736.TW",
+          "totalIncreaseValue": 42090000,
+          "totalDecreaseValue": 0,
+          "netShares": 345000,
+          "netValue": 42090000,
+          "passesThreshold": true
+        },
+        {
+          "code": "1736",
+          "name": "喬山",
+          "market": "上市",
+          "industry": "運動休閒",
+          "monthlyTradedValue": 2175736613,
+          "liquidityPeriod": "115/04",
+          "liquiditySource": "TWSE FMSRFK",
+          "person": "未揭露",
+          "relation": "配偶及未成年子女",
+          "shareType": "普通股",
+          "roles": [
+            "副總經理本人"
+          ],
+          "monthly": [
+            {
+              "period": "115/03",
+              "increaseShares": 102000,
+              "decreaseShares": 0,
+              "notes": []
+            },
+            {
+              "period": "115/02",
+              "increaseShares": 0,
+              "decreaseShares": 0,
+              "notes": []
+            },
+            {
+              "period": "115/01",
+              "increaseShares": 0,
+              "decreaseShares": 0,
+              "notes": []
+            }
+          ],
+          "totalIncreaseShares": 102000,
+          "totalDecreaseShares": 0,
+          "closePrice": 122.0,
+          "priceAsOf": "2026-04-30",
+          "quoteProvider": "Yahoo 1736.TW",
+          "totalIncreaseValue": 12444000,
+          "totalDecreaseValue": 0,
+          "netShares": 102000,
+          "netValue": 12444000,
+          "passesThreshold": true
+        }
+      ],
+      "totalIncreaseShares": 894000,
+      "totalDecreaseShares": 0,
+      "totalIncreaseValue": 109068000,
+      "totalDecreaseValue": 0,
+      "netShares": 894000,
+      "netValue": 109068000
+    },
+    {
       "code": "3081",
       "name": "聯亞",
       "market": "上櫃",
@@ -17415,116 +17641,6 @@ window.twInsiderHoldingLatest = {
       "netValue": -91250000
     },
     {
-      "code": "7734",
-      "name": "印能科技",
-      "market": "上櫃",
-      "industry": "半導體業",
-      "closePrice": 3405.0,
-      "priceAsOf": "2026-04-30",
-      "quoteProvider": "Yahoo 7734.TWO",
-      "monthlyTradedValue": 29679301000,
-      "liquidityPeriod": "115/04",
-      "liquiditySource": "TPEX monthlyStock",
-      "people": [
-        {
-          "code": "7734",
-          "name": "印能科技",
-          "market": "上櫃",
-          "industry": "半導體業",
-          "monthlyTradedValue": 29679301000,
-          "liquidityPeriod": "115/04",
-          "liquiditySource": "TPEX monthlyStock",
-          "person": "王炳坤",
-          "relation": "本人",
-          "shareType": "普通股",
-          "roles": [
-            "協理本人"
-          ],
-          "monthly": [
-            {
-              "period": "115/03",
-              "increaseShares": 0,
-              "decreaseShares": 0,
-              "notes": []
-            },
-            {
-              "period": "115/02",
-              "increaseShares": 0,
-              "decreaseShares": 0,
-              "notes": []
-            },
-            {
-              "period": "115/01",
-              "increaseShares": 0,
-              "decreaseShares": 15000,
-              "notes": []
-            }
-          ],
-          "totalIncreaseShares": 0,
-          "totalDecreaseShares": 15000,
-          "closePrice": 3405.0,
-          "priceAsOf": "2026-04-30",
-          "quoteProvider": "Yahoo 7734.TWO",
-          "totalIncreaseValue": 0,
-          "totalDecreaseValue": 51075000,
-          "netShares": -15000,
-          "netValue": -51075000,
-          "passesThreshold": true
-        },
-        {
-          "code": "7734",
-          "name": "印能科技",
-          "market": "上櫃",
-          "industry": "半導體業",
-          "monthlyTradedValue": 29679301000,
-          "liquidityPeriod": "115/04",
-          "liquiditySource": "TPEX monthlyStock",
-          "person": "未揭露",
-          "relation": "配偶及未成年子女",
-          "shareType": "普通股",
-          "roles": [
-            "副總經理本人"
-          ],
-          "monthly": [
-            {
-              "period": "115/03",
-              "increaseShares": 0,
-              "decreaseShares": 0,
-              "notes": []
-            },
-            {
-              "period": "115/02",
-              "increaseShares": 0,
-              "decreaseShares": 0,
-              "notes": []
-            },
-            {
-              "period": "115/01",
-              "increaseShares": 0,
-              "decreaseShares": 11565,
-              "notes": []
-            }
-          ],
-          "totalIncreaseShares": 0,
-          "totalDecreaseShares": 11565,
-          "closePrice": 3405.0,
-          "priceAsOf": "2026-04-30",
-          "quoteProvider": "Yahoo 7734.TWO",
-          "totalIncreaseValue": 0,
-          "totalDecreaseValue": 39378825,
-          "netShares": -11565,
-          "netValue": -39378825,
-          "passesThreshold": true
-        }
-      ],
-      "totalIncreaseShares": 0,
-      "totalDecreaseShares": 26565,
-      "totalIncreaseValue": 0,
-      "totalDecreaseValue": 90453825,
-      "netShares": -26565,
-      "netValue": -90453825
-    },
-    {
       "code": "2360",
       "name": "致茂",
       "market": "上市",
@@ -17641,120 +17757,6 @@ window.twInsiderHoldingLatest = {
       "totalDecreaseValue": 84800000,
       "netShares": -40000,
       "netValue": -84800000
-    },
-    {
-      "code": "1736",
-      "name": "喬山",
-      "market": "上市",
-      "industry": "運動休閒",
-      "closePrice": 122.0,
-      "priceAsOf": "2026-04-30",
-      "quoteProvider": "Yahoo 1736.TW",
-      "monthlyTradedValue": 2175736613,
-      "liquidityPeriod": "115/04",
-      "liquiditySource": "TWSE FMSRFK",
-      "people": [
-        {
-          "code": "1736",
-          "name": "喬山",
-          "market": "上市",
-          "industry": "運動休閒",
-          "monthlyTradedValue": 2175736613,
-          "liquidityPeriod": "115/04",
-          "liquiditySource": "TWSE FMSRFK",
-          "person": "羅光廷",
-          "relation": "本人",
-          "shareType": "普通股",
-          "roles": [
-            "總經理本人"
-          ],
-          "monthly": [
-            {
-              "period": "115/03",
-              "increaseShares": 0,
-              "decreaseShares": 0,
-              "notes": []
-            },
-            {
-              "period": "115/02",
-              "increaseShares": 232000,
-              "decreaseShares": 0,
-              "notes": [
-                "兼大股東、董事"
-              ]
-            },
-            {
-              "period": "115/01",
-              "increaseShares": 113000,
-              "decreaseShares": 0,
-              "notes": [
-                "兼大股東、董事"
-              ]
-            }
-          ],
-          "totalIncreaseShares": 345000,
-          "totalDecreaseShares": 0,
-          "closePrice": 122.0,
-          "priceAsOf": "2026-04-30",
-          "quoteProvider": "Yahoo 1736.TW",
-          "totalIncreaseValue": 42090000,
-          "totalDecreaseValue": 0,
-          "netShares": 345000,
-          "netValue": 42090000,
-          "passesThreshold": true
-        },
-        {
-          "code": "1736",
-          "name": "喬山",
-          "market": "上市",
-          "industry": "運動休閒",
-          "monthlyTradedValue": 2175736613,
-          "liquidityPeriod": "115/04",
-          "liquiditySource": "TWSE FMSRFK",
-          "person": "未揭露",
-          "relation": "配偶及未成年子女",
-          "shareType": "普通股",
-          "roles": [
-            "協理本人"
-          ],
-          "monthly": [
-            {
-              "period": "115/03",
-              "increaseShares": 0,
-              "decreaseShares": 0,
-              "notes": []
-            },
-            {
-              "period": "115/02",
-              "increaseShares": 232000,
-              "decreaseShares": 0,
-              "notes": []
-            },
-            {
-              "period": "115/01",
-              "increaseShares": 113000,
-              "decreaseShares": 0,
-              "notes": []
-            }
-          ],
-          "totalIncreaseShares": 345000,
-          "totalDecreaseShares": 0,
-          "closePrice": 122.0,
-          "priceAsOf": "2026-04-30",
-          "quoteProvider": "Yahoo 1736.TW",
-          "totalIncreaseValue": 42090000,
-          "totalDecreaseValue": 0,
-          "netShares": 345000,
-          "netValue": 42090000,
-          "passesThreshold": true
-        }
-      ],
-      "totalIncreaseShares": 690000,
-      "totalDecreaseShares": 0,
-      "totalIncreaseValue": 84180000,
-      "totalDecreaseValue": 0,
-      "netShares": 690000,
-      "netValue": 84180000
     },
     {
       "code": "6739",
@@ -28574,6 +28576,71 @@ window.twInsiderHoldingLatest = {
       "totalDecreaseValue": 0,
       "netShares": 135000,
       "netValue": 9895500
+    },
+    {
+      "code": "4123",
+      "name": "晟德",
+      "market": "上櫃",
+      "industry": "生技醫療業",
+      "closePrice": 39.0,
+      "priceAsOf": "2026-04-30",
+      "quoteProvider": "Yahoo 4123.TWO",
+      "monthlyTradedValue": 2136788000,
+      "liquidityPeriod": "115/04",
+      "liquiditySource": "TPEX monthlyStock",
+      "people": [
+        {
+          "code": "4123",
+          "name": "晟德",
+          "market": "上櫃",
+          "industry": "生技醫療業",
+          "monthlyTradedValue": 2136788000,
+          "liquidityPeriod": "115/04",
+          "liquiditySource": "TPEX monthlyStock",
+          "person": "林秀月",
+          "relation": "本人",
+          "shareType": "普通股",
+          "roles": [
+            "協理本人"
+          ],
+          "monthly": [
+            {
+              "period": "115/03",
+              "increaseShares": 0,
+              "decreaseShares": 0,
+              "notes": []
+            },
+            {
+              "period": "115/02",
+              "increaseShares": 0,
+              "decreaseShares": 0,
+              "notes": []
+            },
+            {
+              "period": "115/01",
+              "increaseShares": 1077000,
+              "decreaseShares": 830000,
+              "notes": []
+            }
+          ],
+          "totalIncreaseShares": 1077000,
+          "totalDecreaseShares": 830000,
+          "closePrice": 39.0,
+          "priceAsOf": "2026-04-30",
+          "quoteProvider": "Yahoo 4123.TWO",
+          "totalIncreaseValue": 42003000,
+          "totalDecreaseValue": 32370000,
+          "netShares": 247000,
+          "netValue": 9633000,
+          "passesThreshold": true
+        }
+      ],
+      "totalIncreaseShares": 1077000,
+      "totalDecreaseShares": 830000,
+      "totalIncreaseValue": 42003000,
+      "totalDecreaseValue": 32370000,
+      "netShares": 247000,
+      "netValue": 9633000
     },
     {
       "code": "2812",
