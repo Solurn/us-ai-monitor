@@ -1,12 +1,12 @@
 window.irSummaryHistory = {
-  "generatedAt": "2026-05-04T14:34:51.841Z",
+  "generatedAt": "2026-05-04T15:45:08.362Z",
   "sourceRoot": "C:\\Users\\User\\Desktop\\Codex專案\\法說整理",
   "retentionDays": 30,
   "maxMeetingDate": "2026-04-30",
   "latestDate": "2026-04-30",
   "items": [
     {
-      "generatedAt": "2026-05-04T14:34:51.841Z",
+      "generatedAt": "2026-05-04T15:45:08.362Z",
       "queryDate": "2026-04-30",
       "displayDate": "2026-04-30",
       "count": 12,
@@ -83,24 +83,25 @@ window.irSummaryHistory = {
           "companyWebsite": "http://www.chromaate.com",
           "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/236020260430M001.pdf",
           "englishPdf": "https://mopsov.twse.com.tw/nas/STR/236020260430E001.pdf",
-          "mediaUrl": "",
-          "mediaStatus": "缺影音",
-          "transcriptStatus": "缺影音",
+          "mediaUrl": "https://www.youtube.com/watch?v=h7jVtQBD3zc",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "成功（20,757 字元）",
           "outlookBullets": [
-            "簡報未揭露明確的 2026 年後續營收、毛利率或資本支出目標。",
-            "營運結構上，主要營收仍來自 **量測儀器 / 測試設備事業**。",
-            "產品組合中，**量測及自動化檢測設備**占比最高，2026Q1 為 **58%**。",
-            "**半導體 / Photonics 測試解決方案**占比 **37%**，為第二大產品線。",
-            "未揭露管理層對下季或全年需求、訂單能見度的具體描述。"
+            "管理層表示 **ATS／量測儀器** 今年仍可維持強勁表現，並提到 **AI server power** 需求持續。",
+            "**Battery cell / ESS** 相關貢獻預期自 **2026Q2** 開始逐步反映。",
+            "**半導體／Photonics** 業務今年除 transceiver 外，**CPO** 也可望成為增量來源。",
+            "管理層提到部分客戶已完成 **scale-out / scale-up** 規劃，並收到相關 **PO**，其中某些插入點（insertion）已進入試產或導入階段。",
+            "面對 SLT 需求與 cycle time 拉長，管理層表示「**正在考慮上修全年預測**」，但未揭露具體數字。",
+            "產能方面提到既有二期規劃原本包含兩棟廠房，因中長期能見度提升，傾向保留完整容量配置。"
           ],
           "summaryBullets": [
-            "本次為 **2026 年第一季線上法人說明會**，由財務長應正說明營運與財務狀況。",
-            "會議主軸包含：**財務數據、營運概況、Q&A**。",
-            "第一季合併營收與獲利皆較前一季與去年同期明顯成長。",
-            "簡報中提到前瞻性聲明與風險提示，內容以當日資訊為準。",
-            "**語音轉錄內容未提供**，以下以簡報文字為主整理。"
+            "2026Q1 合併營收 **118.59 億元**，創歷年同期新高；較 2025Q4 成長 **38%**，較 2025Q1 成長 **73%**。",
+            "營收成長主因為 **量測儀器／ATS** 與 **半導體／Photonics 測試解決方案**，管理層多次提到 AI server power、system level tester 與光通訊需求帶動。",
+            "毛利率 **63%**，為單季次高；營業利益率 **40%**，稅後淨利 **39.48 億元**。",
+            "法說中多次提及 **CPO、SLT、AI server power、ESS、battery** 等新應用，顯示產品組合持續往高階應用延伸。",
+            "管理層表示今年仍有強勁出貨與訂單能見度，但對季度季節性不便給出明確指引。"
           ],
-          "sourceReport": "../法說整理/reports/ir_summary_2026-05-03.md"
+          "sourceReport": "../法說整理/reports/ir_summary_2026-05-02.md"
         },
         {
           "date": "2026-04-30",
@@ -373,7 +374,7 @@ window.irSummaryHistory = {
       ]
     },
     {
-      "generatedAt": "2026-05-04T14:34:51.841Z",
+      "generatedAt": "2026-05-04T15:45:08.362Z",
       "queryDate": "2026-04-29",
       "displayDate": "2026-04-29",
       "count": 13,
@@ -768,7 +769,7 @@ window.irSummaryHistory = {
       ]
     },
     {
-      "generatedAt": "2026-05-04T14:34:51.841Z",
+      "generatedAt": "2026-05-04T15:45:08.362Z",
       "queryDate": "2026-04-28",
       "displayDate": "2026-04-28",
       "count": 13,
@@ -1170,7 +1171,7 @@ window.irSummaryHistory = {
   ]
 };
 window.irSummaryLatest = {
-  "generatedAt": "2026-05-04T14:34:51.841Z",
+  "generatedAt": "2026-05-04T15:45:08.362Z",
   "queryDate": "2026-04-30",
   "displayDate": "2026-04-30",
   "count": 12,
@@ -1247,24 +1248,25 @@ window.irSummaryLatest = {
       "companyWebsite": "http://www.chromaate.com",
       "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/236020260430M001.pdf",
       "englishPdf": "https://mopsov.twse.com.tw/nas/STR/236020260430E001.pdf",
-      "mediaUrl": "",
-      "mediaStatus": "缺影音",
-      "transcriptStatus": "缺影音",
+      "mediaUrl": "https://www.youtube.com/watch?v=h7jVtQBD3zc",
+      "mediaStatus": "有影音",
+      "transcriptStatus": "成功（20,757 字元）",
       "outlookBullets": [
-        "簡報未揭露明確的 2026 年後續營收、毛利率或資本支出目標。",
-        "營運結構上，主要營收仍來自 **量測儀器 / 測試設備事業**。",
-        "產品組合中，**量測及自動化檢測設備**占比最高，2026Q1 為 **58%**。",
-        "**半導體 / Photonics 測試解決方案**占比 **37%**，為第二大產品線。",
-        "未揭露管理層對下季或全年需求、訂單能見度的具體描述。"
+        "管理層表示 **ATS／量測儀器** 今年仍可維持強勁表現，並提到 **AI server power** 需求持續。",
+        "**Battery cell / ESS** 相關貢獻預期自 **2026Q2** 開始逐步反映。",
+        "**半導體／Photonics** 業務今年除 transceiver 外，**CPO** 也可望成為增量來源。",
+        "管理層提到部分客戶已完成 **scale-out / scale-up** 規劃，並收到相關 **PO**，其中某些插入點（insertion）已進入試產或導入階段。",
+        "面對 SLT 需求與 cycle time 拉長，管理層表示「**正在考慮上修全年預測**」，但未揭露具體數字。",
+        "產能方面提到既有二期規劃原本包含兩棟廠房，因中長期能見度提升，傾向保留完整容量配置。"
       ],
       "summaryBullets": [
-        "本次為 **2026 年第一季線上法人說明會**，由財務長應正說明營運與財務狀況。",
-        "會議主軸包含：**財務數據、營運概況、Q&A**。",
-        "第一季合併營收與獲利皆較前一季與去年同期明顯成長。",
-        "簡報中提到前瞻性聲明與風險提示，內容以當日資訊為準。",
-        "**語音轉錄內容未提供**，以下以簡報文字為主整理。"
+        "2026Q1 合併營收 **118.59 億元**，創歷年同期新高；較 2025Q4 成長 **38%**，較 2025Q1 成長 **73%**。",
+        "營收成長主因為 **量測儀器／ATS** 與 **半導體／Photonics 測試解決方案**，管理層多次提到 AI server power、system level tester 與光通訊需求帶動。",
+        "毛利率 **63%**，為單季次高；營業利益率 **40%**，稅後淨利 **39.48 億元**。",
+        "法說中多次提及 **CPO、SLT、AI server power、ESS、battery** 等新應用，顯示產品組合持續往高階應用延伸。",
+        "管理層表示今年仍有強勁出貨與訂單能見度，但對季度季節性不便給出明確指引。"
       ],
-      "sourceReport": "../法說整理/reports/ir_summary_2026-05-03.md"
+      "sourceReport": "../法說整理/reports/ir_summary_2026-05-02.md"
     },
     {
       "date": "2026-04-30",
