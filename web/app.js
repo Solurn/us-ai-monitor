@@ -2765,6 +2765,13 @@ function irSummaryMediaLabel(row) {
   return row.mediaStatus || "\u672a\u63ed\u9732";
 }
 
+function irSummaryOutlookToneLabel(row) {
+  const tone = row?.outlookTone;
+  if (!tone?.label) return "";
+  const score = Number(tone.score);
+  return Number.isFinite(score) ? `${tone.label} ${score}` : tone.label;
+}
+
 function renderIrSummaryCodeSelect(rows) {
   if (!irSummaryCodeSelect) return;
   irSummaryCodeSelect.innerHTML = rows.map((row) => (
@@ -2815,6 +2822,7 @@ function renderIrSummary() {
       ${escapeHtml(row.code)}
     </button>
   `).join("");
+  const toneLabel = irSummaryOutlookToneLabel(selected);
 
   irSummaryPanel.innerHTML = `
     <article class="ir-summary-card">
@@ -2823,6 +2831,7 @@ function renderIrSummary() {
         <span>${escapeHtml(selected.code)} ${escapeHtml(selected.name)}</span>
         <span>${escapeHtml(selected.eventType || "法人說明會")}</span>
         <span>${escapeHtml(selected.transcriptStatus || selected.mediaStatus || "未揭露")}</span>
+        ${toneLabel ? `<span>${escapeHtml(toneLabel)}</span>` : ""}
       </div>
       <div class="ir-code-strip" aria-label="當日法說股票代號">${codeStrip}</div>
       <div class="ir-summary-grid">

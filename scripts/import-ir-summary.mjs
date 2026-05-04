@@ -60,6 +60,31 @@ function sectionAfter(block, heading) {
   return next >= 0 ? rest.slice(0, next) : rest;
 }
 
+function evaluateOutlookTone(outlookBullets, summaryBullets) {
+  const text = [...(outlookBullets ?? []), ...(summaryBullets ?? [])].join(" ").toLowerCase();
+  if (!text.trim()) return { label: "\u4e2d\u6027\u89c0\u671b", score: 50, basis: "\u7f3a\u5c11\u53ef\u8a55\u4f30\u7684\u5c55\u671b\u5167\u5bb9" };
+  const positiveTerms = [
+    "\u6210\u9577", "\u589e\u52a0", "\u63d0\u5347", "\u5f37\u52c1", "\u65fa\u76db", "\u53d7\u60e0", "\u52d5\u80fd", "\u56de\u5347", "\u6539\u5584", "\u64f4\u5f35",
+    "\u9700\u6c42\u6301\u7e8c", "\u8a02\u55ae", "po", "guidance", "growth", "increase", "strong", "improve",
+    "mid-teens", "double digit", "\u9ad8\u9ede", "\u5275\u9ad8", "\u91cf\u7522", "\u5c0e\u5165", "\u8ca2\u737b", "\u770b\u597d",
+  ];
+  const negativeTerms = [
+    "\u4e0b\u6ed1", "\u8870\u9000", "\u6e1b\u5c11", "\u4fdd\u5b88", "\u653e\u7de9", "\u58d3\u529b", "\u4e0d\u78ba\u5b9a", "\u98a8\u96aa", "\u8667\u640d",
+    "\u672a\u63ed\u9732", "\u672a\u63d0\u4f9b", "\u7121\u660e\u78ba", "\u6c92\u6709\u660e\u78ba", "\u4ecd\u5f85", "\u6311\u6230", "decline", "decrease",
+    "weak", "risk", "uncertain", "pressure", "loss",
+  ];
+  const countMatches = (terms) => terms.reduce((count, term) => count + (text.includes(term.toLowerCase()) ? 1 : 0), 0);
+  const positive = countMatches(positiveTerms);
+  const negative = countMatches(negativeTerms);
+  const score = Math.max(0, Math.min(100, 50 + positive * 7 - negative * 6));
+  let label = "\u4e2d\u6027\u89c0\u671b";
+  if (score >= 70) label = "\u6b63\u9762\u770b\u597d";
+  else if (score >= 57) label = "\u4e2d\u6027\u504f\u6b63\u9762";
+  else if (score <= 30) label = "\u8ca0\u9762";
+  else if (score <= 43) label = "\u4fdd\u5b88\u504f\u8ca0\u9762";
+  return { label, score, basis: `\u6b63\u5411\u8a0a\u865f ${positive}\u3001\u4fdd\u5b88\u8a0a\u865f ${negative}` };
+}
+
 function parseReport(markdown, reportFile) {
   const text = stripBom(markdown);
   const blocks = text.split(/\n(?=## \d{4}-\d{2}-\d{2} )/g);
@@ -87,6 +112,7 @@ function parseReport(markdown, reportFile) {
       mediaStatus: mediaValue.includes("缺") ? "缺影音" : mediaValue ? "有影音" : "未揭露",
       transcriptStatus: transcriptLine || (mediaValue && !mediaValue.includes("缺") ? "未產生" : "缺影音"),
       outlookBullets: outlookBullets.length ? outlookBullets : parseBullets(sectionAfter(block, "展望")),
+      outlookTone: evaluateOutlookTone(outlookBullets, summaryBullets),
       summaryBullets,
       sourceReport: path.relative(root, reportFile).replaceAll("\\", "/"),
     });
