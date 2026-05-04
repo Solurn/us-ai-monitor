@@ -145,11 +145,6 @@ async function main() {
 
 const reportFiles = files
   .filter((file) => /^ir_summary_\d{4}-\d{2}-\d{2}\.md$/.test(file))
-  .filter((file) => {
-    if (!maxMeetingDate) return true;
-    const reportDate = file.match(/^ir_summary_(\d{4}-\d{2}-\d{2})\.md$/)?.[1] ?? "";
-    return reportDate <= maxMeetingDate;
-  })
   .map((file) => path.join(reportDir, file))
   .sort();
 
