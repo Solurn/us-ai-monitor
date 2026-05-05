@@ -2792,6 +2792,86 @@ function irSummaryBulletList(items, emptyText) {
   return `<ul>${rows.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>`;
 }
 
+function irSummaryMarkdownToHtml(markdown) {
+  const lines = String(markdown || "").split(/\r?\n/);
+  const html = [];
+  let inList = false;
+  const closeList = () => {
+    if (inList) {
+      html.push("</ul>");
+      inList = false;
+    }
+  };
+  for (const rawLine of lines) {
+    const line = rawLine.trim();
+    if (!line) {
+      closeList();
+      continue;
+    }
+    if (line.startsWith("### ")) {
+      closeList();
+      html.push(`<h3>${escapeHtml(line.slice(4))}</h3>`);
+    } else if (line.startsWith("## ")) {
+      closeList();
+      html.push(`<h2>${escapeHtml(line.slice(3))}</h2>`);
+    } else if (line.startsWith("- ")) {
+      if (!inList) {
+        html.push("<ul>");
+        inList = true;
+      }
+      html.push(`<li>${escapeHtml(line.slice(2))}</li>`);
+    } else {
+      closeList();
+      html.push(`<p>${escapeHtml(line)}</p>`);
+    }
+  }
+  closeList();
+  return html.join("");
+}
+
+function irSummaryFallbackDetail(row) {
+  const toneLabel = irSummaryOutlookToneLabel(row) || "\u4e2d\u6027\u89c0\u671b";
+  const summary = (row.summaryBullets ?? []).filter(Boolean).slice(0, 6);
+  const outlook = (row.outlookBullets ?? []).filter(Boolean).slice(0, 8);
+  return [
+    `## ${row.code} ${row.name} \u8a73\u7d30\u6458\u8981`,
+    "",
+    "### \u5224\u8b80\u7d50\u8ad6",
+    `- \u5c55\u671b\u8a55\u50f9\uff1a${toneLabel}\u3002`,
+    `- \u8a55\u5206\u4f9d\u64da\uff1a${row.outlookTone?.basis || "\u5c1a\u672a\u6709\u660e\u78ba\u8a55\u5206\u8a0a\u865f"}\u3002`,
+    "",
+    "### \u6703\u8b70\u6458\u8981",
+    ...(summary.length ? summary.map((item) => `- ${item}`) : ["- \u5c1a\u672a\u64f7\u53d6\u5230\u8db3\u5920\u7684\u6703\u8b70\u6458\u8981\u3002"]),
+    "",
+    "### \u5c55\u671b\u8207\u5229\u57fa",
+    ...(outlook.length ? outlook.map((item) => `- ${item}`) : ["- \u5c1a\u672a\u64f7\u53d6\u5230\u660e\u78ba\u5c55\u671b\u6bb5\u843d\u3002"]),
+  ].join("\n");
+}
+
+function openIrSummaryDetail(row) {
+  closeIrSummaryDetail();
+  const detail = row.detailMarkdown || irSummaryFallbackDetail(row);
+  const overlay = document.createElement("div");
+  overlay.className = "ir-detail-modal";
+  overlay.innerHTML = `
+    <div class="ir-detail-dialog" role="dialog" aria-modal="true" aria-label="\u6cd5\u8aaa\u8a73\u7d30\u6458\u8981">
+      <button class="ir-detail-close" type="button" aria-label="\u95dc\u9589">×</button>
+      <div class="ir-detail-content">${irSummaryMarkdownToHtml(detail)}</div>
+    </div>
+  `;
+  overlay.addEventListener("click", (event) => {
+    if (event.target === overlay) closeIrSummaryDetail();
+  });
+  overlay.querySelector(".ir-detail-close")?.addEventListener("click", closeIrSummaryDetail);
+  document.body.appendChild(overlay);
+  document.body.classList.add("modal-open");
+}
+
+function closeIrSummaryDetail() {
+  document.querySelector(".ir-detail-modal")?.remove();
+  document.body.classList.remove("modal-open");
+}
+
 function renderIrSummary() {
   if (!irSummaryPanel) return;
   const item = irSummaryCurrentItem();
@@ -2847,6 +2927,7 @@ function renderIrSummary() {
             ${irSummaryLink(selected.chinesePdf, "中文簡報")}
             ${irSummaryLink(selected.englishPdf, "英文簡報")}
             ${irSummaryLink(selected.mediaUrl, "影音")}
+            <button class="ir-summary-detail-button" type="button" data-ir-detail>\u8a73\u7d30\u6458\u8981</button>
           </div>
         </div>
         <div>
@@ -2866,6 +2947,9 @@ function renderIrSummary() {
       irSummarySelectedCode = button.dataset.irCode;
       renderIrSummary();
     });
+  });
+  irSummaryPanel.querySelector("[data-ir-detail]")?.addEventListener("click", () => {
+    openIrSummaryDetail(selected);
   });
 }
 

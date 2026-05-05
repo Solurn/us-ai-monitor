@@ -85,6 +85,42 @@ function evaluateOutlookTone(outlookBullets, summaryBullets) {
   return { label, score, basis: `\u6b63\u5411\u8a0a\u865f ${positive}\u3001\u4fdd\u5b88\u8a0a\u865f ${negative}` };
 }
 
+function buildDetailedMarkdown(row) {
+  const tone = row.outlookTone ?? {};
+  const summary = (row.summaryBullets ?? []).filter(Boolean);
+  const outlook = (row.outlookBullets ?? []).filter(Boolean);
+  const transcriptStatus = row.transcriptStatus || row.mediaStatus || "\u672a\u63ed\u9732";
+  const hasTranscript = String(transcriptStatus).startsWith("\u6210\u529f");
+  const sourceNote = hasTranscript
+    ? "\u672c\u6b21\u8a55\u4f30\u512a\u5148\u4f9d\u8a9e\u97f3\u8f49\u9304\u5167\u5bb9\uff0c\u518d\u8207\u7c21\u5831\u91cd\u9ede\u4ea4\u53c9\u6bd4\u5c0d\u3002"
+    : "\u672c\u6b21\u5c1a\u672a\u53d6\u5f97\u53ef\u7528\u8a9e\u97f3\u8f49\u9304\uff0c\u8a55\u4f30\u4e3b\u8981\u4f9d\u7c21\u5831\u8207 MOPS \u64c7\u8981\u8a0a\u606f\u3002";
+  const positivePattern = /成長|增加|提升|強勁|需求|訂單|高點|量產|導入|貢獻|看好|AI|data center|hyperscaler|growth|strong|improve/i;
+  const cautionPattern = /未揭露|未提供|不確定|風險|保守|下滑|壓力|放緩|仍待|可能|挑戰|risk|pressure|uncertain/i;
+  const positives = outlook.filter((item) => positivePattern.test(item)).slice(0, 5);
+  const caveats = [...outlook, ...summary].filter((item) => cautionPattern.test(item)).slice(0, 5);
+  const lines = [
+    `## ${row.code} ${row.name} \u8a73\u7d30\u6458\u8981`,
+    "",
+    "### \u5224\u8b80\u7d50\u8ad6",
+    `- \u5c55\u671b\u8a55\u50f9\uff1a${tone.label || "\u4e2d\u6027\u89c0\u671b"}${Number.isFinite(Number(tone.score)) ? `\uff08${tone.score} \u5206\uff09` : ""}\u3002`,
+    `- \u8cc7\u6599\u57fa\u790e\uff1a${sourceNote}`,
+    `- \u8a55\u5206\u4f9d\u64da\uff1a${tone.basis || "\u5c1a\u672a\u6709\u660e\u78ba\u8a55\u5206\u8a0a\u865f"}\u3002`,
+    "",
+    "### \u6703\u8b70\u8108\u7d61",
+    ...(summary.slice(0, 6).length ? summary.slice(0, 6).map((item) => `- ${item}`) : ["- \u5c1a\u672a\u64f7\u53d6\u5230\u8db3\u5920\u7684\u6703\u8b70\u6458\u8981\u3002"]),
+    "",
+    "### \u5c55\u671b\u8207\u5229\u57fa",
+    ...(outlook.slice(0, 8).length ? outlook.slice(0, 8).map((item) => `- ${item}`) : ["- \u5c1a\u672a\u64f7\u53d6\u5230\u660e\u78ba\u5c55\u671b\u6bb5\u843d\u3002"]),
+    "",
+    "### \u5206\u6578\u5229\u57fa\u9ede",
+    ...(positives.length ? positives.map((item) => `- ${item}`) : ["- \u76ee\u524d\u672a\u770b\u5230\u8db3\u5920\u660e\u78ba\u7684\u6b63\u5411\u5c55\u671b\u8a0a\u865f\uff0c\u56e0\u6b64\u5206\u6578\u8f03\u504f\u4e2d\u6027\u3002"]),
+    "",
+    "### \u9700\u8981\u4fdd\u7559\u7684\u7591\u616e",
+    ...(caveats.length ? caveats.map((item) => `- ${item}`) : ["- \u76ee\u524d\u6458\u8981\u4e2d\u672a\u51fa\u73fe\u660e\u986f\u8ca0\u5411\u6216\u4fdd\u5b88\u8a0a\u865f\uff0c\u4f46\u4ecd\u9700\u7559\u610f\u516c\u53f8\u672a\u91cf\u5316\u63ed\u9732\u7684\u90e8\u5206\u3002"]),
+  ];
+  return lines.join("\n");
+}
+
 function parseReport(markdown, reportFile) {
   const text = stripBom(markdown);
   const blocks = text.split(/\n(?=## \d{4}-\d{2}-\d{2} )/g);
@@ -97,7 +133,7 @@ function parseReport(markdown, reportFile) {
     const mediaValue = parseInlineValue(block, "影音");
     const outlookBullets = parseBullets(sectionAfter(block, "展望重點"));
     const summaryBullets = parseBullets(sectionAfter(block, "會議重點摘要"));
-    rows.push({
+    const row = {
       date: meetingDate,
       code,
       name,
@@ -115,7 +151,9 @@ function parseReport(markdown, reportFile) {
       outlookTone: evaluateOutlookTone(outlookBullets, summaryBullets),
       summaryBullets,
       sourceReport: path.relative(root, reportFile).replaceAll("\\", "/"),
-    });
+    };
+    row.detailMarkdown = buildDetailedMarkdown(row);
+    rows.push(row);
   }
   return rows;
 }
@@ -155,6 +193,13 @@ function mergeByDate(existingItems, rows, generatedAt) {
   }
   const cutoff = shiftDateIso(taipeiTodayIso(), -retentionDays + 1);
   return Array.from(byDate.values())
+    .map((item) => ({
+      ...item,
+      rows: (item.rows ?? []).map((row) => ({
+        ...row,
+        detailMarkdown: row.detailMarkdown || buildDetailedMarkdown(row),
+      })),
+    }))
     .filter((item) => String(item.queryDate) >= cutoff)
     .filter((item) => !maxMeetingDate || String(item.queryDate) <= maxMeetingDate)
     .sort((a, b) => String(b.queryDate).localeCompare(String(a.queryDate)));
