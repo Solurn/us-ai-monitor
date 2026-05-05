@@ -31,6 +31,7 @@ jobs:
           node-version: "20"
 
       - name: Update performance data
+        if: github.event_name != 'push'
         run: npm run update:performance
 
       - name: Update briefing data
