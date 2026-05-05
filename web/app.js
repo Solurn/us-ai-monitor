@@ -2205,9 +2205,7 @@ function renderTwInsiderHolding() {
   const periods = twInsiderHoldingLatest.periods ?? [];
   const updated = formatBriefingTime(twInsiderHoldingLatest.generatedAt);
   const liquidityThreshold = twInsiderHoldingLatest.filters?.liquidityThreshold;
-  const netShareThreshold = twInsiderHoldingLatest.filters?.netShareThreshold;
   const liquidityFilterText = liquidityThreshold == null ? "" : `<span>月成交值 ${formatTwMoney(liquidityThreshold)} 以上</span>`;
-  const netShareFilterText = netShareThreshold == null ? "" : `<span>淨變動 ${formatTwLots(netShareThreshold)} 張以上</span>`;
   if (twInsiderStats) {
     twInsiderStats.textContent = `${periods.join(" / ") || "尚未更新"} / ${rows.length} 檔`;
   }
@@ -2225,7 +2223,6 @@ function renderTwInsiderHolding() {
       <span>訊號股票 ${Number(stats.selectedStocks ?? rows.length)} 檔</span>
       <span>主管/家屬 ${Number(stats.selectedPeople ?? 0)} 人</span>
       <span>金額門檻 ${formatTwMoney(twInsiderHoldingLatest.filters?.valueThreshold ?? 5000000)} 以上</span>
-      ${netShareFilterText}
       ${liquidityFilterText}
       <span>更新 ${escapeHtml(updated)}</span>
     </div>
@@ -2321,7 +2318,7 @@ function renderMarketShell() {
     if (briefingMode) briefingMode.textContent = "內部人 / 月營收 / 自結 / 財報 / 法說";
     if (briefingUpdated) briefingUpdated.textContent = `內部人 ${formatBriefingTime(twInsiderHoldingLatest.generatedAt)}`;
     if (dataStatusText) {
-      dataStatusText.textContent = "台股模式整合 MOPS 內部人持股、月營收精華、自結速報與財報公告；內部人訊號聚焦總經理、副總經理、協理、財務與會計主管，並以三個月淨變動金額與淨張數篩選。";
+      dataStatusText.textContent = "台股模式整合 MOPS 內部人持股、月營收精華、自結速報與財報公告；內部人訊號聚焦總經理、副總經理、協理、財務與會計主管，並以三個月買進或賣出約當金額篩選。";
     }
     return;
   }
