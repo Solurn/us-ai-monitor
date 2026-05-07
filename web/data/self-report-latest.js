@@ -56,5 +56,15 @@ window.selfReportLatest = {
     }
   ],
   "image": "./assets/self-report/self-report-2026-05-06.png",
-  "source": "公開資訊觀測站"
+  "source": "公開資訊觀測站",
+  "checkedAt": "2026-05-07T22:33:16+08:00",
+  "checkedQueryDate": "2026-05-07",
+  "checkedDisplayDate": "115年5月7日",
+  "checkedCount": 0,
+  "checkedSkipped": {
+    "bond_subject": 1,
+    "missing_financials": 1,
+    "duplicate": 1,
+    "detail_error": 0
+  }
 };

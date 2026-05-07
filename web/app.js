@@ -1955,7 +1955,8 @@ function formatBriefingTime(value) {
 }
 
 function formatSelfReportUpdateTime() {
-  const queryDate = selfReportLatest.queryDate ? new Date(`${selfReportLatest.queryDate}T20:00:00+08:00`) : null;
+  const dateText = selfReportLatest.checkedQueryDate || selfReportLatest.queryDate;
+  const queryDate = dateText ? new Date(`${dateText}T20:00:00+08:00`) : null;
   const base = queryDate && !Number.isNaN(queryDate.getTime()) ? queryDate : null;
   if (!base) return "每日 20:00";
   return `${base.toLocaleDateString("zh-TW", { month: "2-digit", day: "2-digit" })} 20:00`;
@@ -2639,8 +2640,18 @@ function renderSelfReport() {
   const count = Number(selfReportLatest.count ?? rows.length ?? 0);
   const updated = formatSelfReportUpdateTime();
   const skipped = selfReportLatest.skipped ?? {};
+  const checkedDate = selfReportLatest.checkedDisplayDate || selfReportLatest.checkedQueryDate || "";
+  const checkedCount = Number(selfReportLatest.checkedCount ?? count);
+  const checkedSkipped = selfReportLatest.checkedSkipped ?? skipped;
+  const hasNewerEmptyCheck = Boolean(
+    selfReportLatest.checkedQueryDate &&
+      selfReportLatest.queryDate &&
+      selfReportLatest.checkedQueryDate !== selfReportLatest.queryDate,
+  );
   if (selfReportStats) {
-    selfReportStats.textContent = `${selfReportLatest.displayDate || "尚未更新"} / ${count} 筆 / 20:00`;
+    selfReportStats.textContent = hasNewerEmptyCheck
+      ? `最新 ${selfReportLatest.displayDate || "尚未更新"} / ${count} 筆；已檢查 ${checkedDate} / ${checkedCount} 筆`
+      : `${selfReportLatest.displayDate || "尚未更新"} / ${count} 筆 / 20:00`;
   }
 
   if (!rows.length && !image) {
@@ -2658,8 +2669,9 @@ function renderSelfReport() {
       <div class="self-report-meta">
         <span>${escapeHtml(selfReportLatest.displayDate || selfReportLatest.queryDate || "")}</span>
         <span>${count} 筆符合資料</span>
-        <span>自結更新 ${escapeHtml(updated)}</span>
-        <span>略過可轉債 ${Number(skipped.bond_subject ?? 0)} 筆</span>
+        <span>${hasNewerEmptyCheck ? "最近檢查" : "自結更新"} ${escapeHtml(updated)}</span>
+        ${hasNewerEmptyCheck ? `<span>已檢查 ${escapeHtml(checkedDate)}：${checkedCount} 筆符合資料</span>` : ""}
+        <span>略過可轉債 ${Number((hasNewerEmptyCheck ? checkedSkipped : skipped).bond_subject ?? 0)} 筆</span>
       </div>
       ${
         rows.length
