@@ -552,6 +552,7 @@ let irSummaryHistory = window.irSummaryHistory ?? {
 
 let irSummarySelectedDate = irSummaryLatest.queryDate || "";
 let irSummarySelectedCode = "";
+let twInsiderSortMode = "totalValue";
 
 const twRevenueLatest = window.twRevenueLatest ?? {
   generatedAt: "",
@@ -1364,6 +1365,7 @@ const rangeValue = document.querySelector("#rangeValue");
 const twRevenueStats = document.querySelector("#twRevenueStats");
 const twRevenuePanel = document.querySelector("#twRevenuePanel");
 const twInsiderStats = document.querySelector("#twInsiderStats");
+const twInsiderSortSelect = document.querySelector("#twInsiderSortSelect");
 const twInsiderPanel = document.querySelector("#twInsiderPanel");
 
 function themeCount(theme) {
@@ -2100,25 +2102,52 @@ function attachSortableTables(root = document) {
   });
 }
 
+function twInsiderLatestMonthShares(stock) {
+  const latestPeriod = twInsiderHoldingLatest.periods?.[0];
+  return (stock.people ?? []).reduce((sum, person) => {
+    const month = (person.monthly ?? []).find((item) => item.period === latestPeriod) ?? person.monthly?.[0];
+    return sum + Number(month?.increaseShares ?? 0) - Number(month?.decreaseShares ?? 0);
+  }, 0);
+}
+
+function twInsiderLatestMonthValue(stock) {
+  const close = Number(stock.closePrice);
+  if (!Number.isFinite(close)) return 0;
+  return twInsiderLatestMonthShares(stock) * close;
+}
+
+function twInsiderSortValue(stock) {
+  if (twInsiderSortMode === "latestMonthValue") {
+    return Math.abs(twInsiderLatestMonthValue(stock));
+  }
+  return Math.abs(Number(stock.netValue ?? 0));
+}
+
 function twInsiderRows() {
-  const rows = twInsiderHoldingLatest.stocks ?? [];
+  let rows = [...(twInsiderHoldingLatest.stocks ?? [])];
   const query = state.query.trim().toLowerCase();
-  if (!query) return rows;
-  return rows.filter((stock) => {
-    const peopleText = (stock.people ?? []).map((person) => [
-      person.person,
-      person.relation,
-      (person.roles ?? []).join(" "),
-      person.shareType,
-    ].join(" ")).join(" ");
-    const haystack = [
-      stock.code,
-      stock.name,
-      stock.market,
-      stock.industry,
-      peopleText,
-    ].join(" ").toLowerCase();
-    return haystack.includes(query);
+  if (query) {
+    rows = rows.filter((stock) => {
+      const peopleText = (stock.people ?? []).map((person) => [
+        person.person,
+        person.relation,
+        (person.roles ?? []).join(" "),
+        person.shareType,
+      ].join(" ")).join(" ");
+      const haystack = [
+        stock.code,
+        stock.name,
+        stock.market,
+        stock.industry,
+        peopleText,
+      ].join(" ").toLowerCase();
+      return haystack.includes(query);
+    });
+  }
+  return rows.sort((left, right) => {
+    const primary = twInsiderSortValue(right) - twInsiderSortValue(left);
+    if (primary !== 0) return primary;
+    return Math.abs(Number(right.netValue ?? 0)) - Math.abs(Number(left.netValue ?? 0));
   });
 }
 
@@ -2207,6 +2236,7 @@ function renderTwInsiderHolding() {
   const updated = formatBriefingTime(twInsiderHoldingLatest.generatedAt);
   const liquidityThreshold = twInsiderHoldingLatest.filters?.liquidityThreshold;
   const liquidityFilterText = liquidityThreshold == null ? "" : `<span>月成交值 ${formatTwMoney(liquidityThreshold)} 以上</span>`;
+  const sortText = twInsiderSortMode === "latestMonthValue" ? "最新月淨變動金額" : "三月淨變動金額";
   if (twInsiderStats) {
     twInsiderStats.textContent = `${periods.join(" / ") || "尚未更新"} / ${rows.length} 檔`;
   }
@@ -2225,6 +2255,7 @@ function renderTwInsiderHolding() {
       <span>主管/家屬 ${Number(stats.selectedPeople ?? 0)} 人</span>
       <span>金額門檻 ${formatTwMoney(twInsiderHoldingLatest.filters?.valueThreshold ?? 5000000)} 以上</span>
       ${liquidityFilterText}
+      <span>排序 ${sortText}</span>
       <span>更新 ${escapeHtml(updated)}</span>
     </div>
     <div class="tw-insider-list">${rows.map(twInsiderStockCard).join("")}</div>
@@ -3091,6 +3122,14 @@ marketButtons.forEach((button) => {
 if (selfReportSelect) {
   selfReportSelect.addEventListener("change", (event) => {
     setSelfReportDate(event.target.value);
+  });
+}
+
+if (twInsiderSortSelect) {
+  twInsiderSortSelect.value = twInsiderSortMode;
+  twInsiderSortSelect.addEventListener("change", (event) => {
+    twInsiderSortMode = event.target.value;
+    renderTwInsiderHolding();
   });
 }
 
