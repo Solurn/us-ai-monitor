@@ -352,6 +352,28 @@ const announcedEventCatalog = [
     source: "ISM April 2026 Manufacturing PMI",
     sourceUrl: "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/april/",
   },
+  {
+    date: "2026-05-08",
+    time: "20:30",
+    tickers: ["MACRO"],
+    matchTitle: "NFP",
+    title: "非農就業 NFP / Employment Situation 已公布",
+    type: "已公告結果",
+    priority: "高",
+    summary:
+      "BLS 公布 April 2026 非農就業增加 115,000 人，失業率維持 4.3%。就業增幅高於市場預期，但薪資年增仍在 3.6%，加上工時小幅上升，市場會解讀為勞動市場仍有韌性，Fed 不急著降息。",
+    metrics: [
+      "非農新增：+115,000 人。",
+      "失業率：4.3%，與前月持平；失業人數約 7.4M。",
+      "平均時薪：月增 +0.2%，年增 +3.6%，至 37.41 美元。",
+      "平均每週工時：34.3 小時，較前月 +0.1 小時。",
+      "修正：2 月下修至 -156,000；3 月上修至 +185,000，合計較前值少 16,000。",
+    ],
+    researchRead:
+      "這份非農不是衰退訊號，對風險資產短線偏正面；但薪資與工時沒有明顯降溫，若搭配 5/12 CPI 偏熱，降息預期可能再被壓低。AI/雲端 capex 股仍要看利率路徑與企業財報需求能見度。",
+    source: "BLS Employment Situation April 2026",
+    sourceUrl: "https://www.bls.gov/news.release/empsit.nr0.htm",
+  },
 ];
 
 function activeAnnouncedEvents(asOfDate) {
