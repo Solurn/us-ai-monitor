@@ -1,10 +1,10 @@
 window.selfReportHistory = {
   "items": [
     {
-      "generatedAt": "2026-05-11T21:18:31+08:00",
+      "generatedAt": "2026-05-11T22:37:34+08:00",
       "queryDate": "2026-05-11",
       "displayDate": "115年5月11日",
-      "checkedAt": "2026-05-11T21:18:31+08:00",
+      "checkedAt": "2026-05-11T22:37:34+08:00",
       "checkedQueryDate": "2026-05-11",
       "checkedDisplayDate": "115年5月11日",
       "checkedCount": 1,
@@ -37,16 +37,16 @@ window.selfReportHistory = {
           "tax_margin_pct": 91.44385026737967,
           "operating_margin_pct": 62.834224598930476,
           "previous_quarter_monthly_eps": 0.7233333333333333,
-          "reference_quarter": "",
-          "reference_tax_margin_pct": null,
-          "reference_operating_margin_pct": null,
-          "tax_margin_delta_pct": null,
-          "operating_margin_delta_pct": null,
+          "reference_quarter": "2026Q1",
+          "reference_tax_margin_pct": 35.25,
+          "reference_operating_margin_pct": 7.36,
+          "tax_margin_delta_pct": 56.19385026737967,
+          "operating_margin_delta_pct": 55.474224598930476,
           "detail_key": "otc:8042:20260511:171046:5"
         }
       ],
       "image": "./assets/self-report/self-report-2026-05-11.png",
-      "source": "公開資訊觀測站"
+      "source": "公開資訊觀測站 / CMoney 財務比率"
     },
     {
       "generatedAt": "2026-05-08T23:11:33+08:00",

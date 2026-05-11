@@ -2738,7 +2738,7 @@ function renderSelfReport() {
           `
           : ""
       }
-      <p class="self-report-source">資料來源：${escapeHtml(selfReportLatest.source || "公開資訊觀測站")} / Goodinfo 財務比率表</p>
+      <p class="self-report-source">資料來源：${escapeHtml(selfReportLatest.source || "公開資訊觀測站")}</p>
     </article>
   `;
 }
