@@ -552,7 +552,6 @@ let irSummaryHistory = window.irSummaryHistory ?? {
 
 let irSummarySelectedDate = irSummaryLatest.queryDate || "";
 let irSummarySelectedCode = "";
-let twInsiderSortMode = "totalValue";
 
 const twRevenueLatest = window.twRevenueLatest ?? {
   generatedAt: "",
@@ -1315,6 +1314,7 @@ const themeOrder = [
 ];
 
 const eventCategories = ["全部", ...Array.from(new Set(allEvents.map((event) => event.category)))];
+const allowedFeatures = window.dashboardPermissions ?? {};
 
 const grid = document.querySelector("#stockGrid");
 const filters = document.querySelector("#themeFilters");
@@ -1365,8 +1365,15 @@ const rangeValue = document.querySelector("#rangeValue");
 const twRevenueStats = document.querySelector("#twRevenueStats");
 const twRevenuePanel = document.querySelector("#twRevenuePanel");
 const twInsiderStats = document.querySelector("#twInsiderStats");
-const twInsiderSortSelect = document.querySelector("#twInsiderSortSelect");
 const twInsiderPanel = document.querySelector("#twInsiderPanel");
+
+function canUseFeature(feature) {
+  return !feature || Boolean(allowedFeatures[feature]);
+}
+
+function canUseMarket(market) {
+  return Array.from(marketSections).some((section) => section.dataset.marketSection === market && canUseFeature(section.dataset.feature));
+}
 
 function themeCount(theme) {
   if (theme === "All") return watchlist.length;
@@ -2102,52 +2109,25 @@ function attachSortableTables(root = document) {
   });
 }
 
-function twInsiderLatestMonthShares(stock) {
-  const latestPeriod = twInsiderHoldingLatest.periods?.[0];
-  return (stock.people ?? []).reduce((sum, person) => {
-    const month = (person.monthly ?? []).find((item) => item.period === latestPeriod) ?? person.monthly?.[0];
-    return sum + Number(month?.increaseShares ?? 0) - Number(month?.decreaseShares ?? 0);
-  }, 0);
-}
-
-function twInsiderLatestMonthValue(stock) {
-  const close = Number(stock.closePrice);
-  if (!Number.isFinite(close)) return 0;
-  return twInsiderLatestMonthShares(stock) * close;
-}
-
-function twInsiderSortValue(stock) {
-  if (twInsiderSortMode === "latestMonthValue") {
-    return Math.abs(twInsiderLatestMonthValue(stock));
-  }
-  return Math.abs(Number(stock.netValue ?? 0));
-}
-
 function twInsiderRows() {
-  let rows = [...(twInsiderHoldingLatest.stocks ?? [])];
+  const rows = twInsiderHoldingLatest.stocks ?? [];
   const query = state.query.trim().toLowerCase();
-  if (query) {
-    rows = rows.filter((stock) => {
-      const peopleText = (stock.people ?? []).map((person) => [
-        person.person,
-        person.relation,
-        (person.roles ?? []).join(" "),
-        person.shareType,
-      ].join(" ")).join(" ");
-      const haystack = [
-        stock.code,
-        stock.name,
-        stock.market,
-        stock.industry,
-        peopleText,
-      ].join(" ").toLowerCase();
-      return haystack.includes(query);
-    });
-  }
-  return rows.sort((left, right) => {
-    const primary = twInsiderSortValue(right) - twInsiderSortValue(left);
-    if (primary !== 0) return primary;
-    return Math.abs(Number(right.netValue ?? 0)) - Math.abs(Number(left.netValue ?? 0));
+  if (!query) return rows;
+  return rows.filter((stock) => {
+    const peopleText = (stock.people ?? []).map((person) => [
+      person.person,
+      person.relation,
+      (person.roles ?? []).join(" "),
+      person.shareType,
+    ].join(" ")).join(" ");
+    const haystack = [
+      stock.code,
+      stock.name,
+      stock.market,
+      stock.industry,
+      peopleText,
+    ].join(" ").toLowerCase();
+    return haystack.includes(query);
   });
 }
 
@@ -2236,7 +2216,6 @@ function renderTwInsiderHolding() {
   const updated = formatBriefingTime(twInsiderHoldingLatest.generatedAt);
   const liquidityThreshold = twInsiderHoldingLatest.filters?.liquidityThreshold;
   const liquidityFilterText = liquidityThreshold == null ? "" : `<span>月成交值 ${formatTwMoney(liquidityThreshold)} 以上</span>`;
-  const sortText = twInsiderSortMode === "latestMonthValue" ? "最新月淨變動金額" : "三月淨變動金額";
   if (twInsiderStats) {
     twInsiderStats.textContent = `${periods.join(" / ") || "尚未更新"} / ${rows.length} 檔`;
   }
@@ -2255,7 +2234,6 @@ function renderTwInsiderHolding() {
       <span>主管/家屬 ${Number(stats.selectedPeople ?? 0)} 人</span>
       <span>金額門檻 ${formatTwMoney(twInsiderHoldingLatest.filters?.valueThreshold ?? 5000000)} 以上</span>
       ${liquidityFilterText}
-      <span>排序 ${sortText}</span>
       <span>更新 ${escapeHtml(updated)}</span>
     </div>
     <div class="tw-insider-list">${rows.map(twInsiderStockCard).join("")}</div>
@@ -2300,18 +2278,23 @@ function renderTwRevenue() {
 }
 
 function setMarket(market) {
-  state.market = market === "TW" ? "TW" : "US";
+  const nextMarket = market === "TW" ? "TW" : "US";
+  state.market = canUseMarket(nextMarket) ? nextMarket : canUseMarket("US") ? "US" : "TW";
   state.query = "";
   if (searchInput) searchInput.value = "";
   render();
 }
 
 function renderMarketShell() {
+  if (!canUseMarket(state.market)) {
+    state.market = canUseMarket("US") ? "US" : "TW";
+  }
   const isTw = state.market === "TW";
   marketSections.forEach((section) => {
-    section.hidden = section.dataset.marketSection !== state.market;
+    section.hidden = section.dataset.marketSection !== state.market || !canUseFeature(section.dataset.feature);
   });
   marketButtons.forEach((button) => {
+    button.disabled = !canUseMarket(button.dataset.market);
     button.classList.toggle("active", button.dataset.market === state.market);
   });
 
@@ -2478,20 +2461,7 @@ function financialReportArchiveItems() {
 }
 
 function ensureFinancialReportHistory() {
-  if ((financialReportHistory.items ?? []).length > 1 || financialReportHistoryRequest) return;
-  if (typeof fetch !== "function") return;
-  financialReportHistoryRequest = fetch(`./data/financial-report-history.js?v=${Date.now()}`, { cache: "no-store" })
-    .then((response) => (response.ok ? response.text() : ""))
-    .then((text) => {
-      const match = text.match(/window\.financialReportHistory\s*=\s*(\{[\s\S]*?\});?\s*$/);
-      if (!match) return;
-      financialReportHistory = JSON.parse(match[1]);
-      renderFinancialReport();
-    })
-    .catch(() => {})
-    .finally(() => {
-      financialReportHistoryRequest = null;
-    });
+  financialReportHistoryRequest = null;
 }
 
 function financialReportSelectOptions(items) {
@@ -3122,14 +3092,6 @@ marketButtons.forEach((button) => {
 if (selfReportSelect) {
   selfReportSelect.addEventListener("change", (event) => {
     setSelfReportDate(event.target.value);
-  });
-}
-
-if (twInsiderSortSelect) {
-  twInsiderSortSelect.value = twInsiderSortMode;
-  twInsiderSortSelect.addEventListener("change", (event) => {
-    twInsiderSortMode = event.target.value;
-    renderTwInsiderHolding();
   });
 }
 

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>會員權限管理</title>
+    <link rel="stylesheet" href="./styles.css?v=2026051201" />
+  </head>
+  <body>
+    <main class="admin-shell">
+      <header class="admin-header">
+        <div>
+          <p class="eyebrow">Admin</p>
+          <h1>會員權限管理</h1>
+        </div>
+        <a href="/">回到監測網站</a>
+      </header>
+
+      <section id="adminStatus" class="admin-status">正在檢查管理者權限。</section>
+
+      <section id="memberEditor" class="admin-panel" hidden>
+        <h2>新增或更新會員</h2>
+        <form id="memberForm" class="member-form">
+          <label>
+            <span>Email</span>
+            <input name="email" type="email" required placeholder="member@example.com" />
+          </label>
+          <label>
+            <span>顯示名稱</span>
+            <input name="display_name" type="text" placeholder="選填" />
+          </label>
+          <label>
+            <span>角色</span>
+            <select name="role">
+              <option value="member">member</option>
+              <option value="admin">admin</option>
+            </select>
+          </label>
+          <label>
+            <span>狀態</span>
+            <select name="status">
+              <option value="active">active</option>
+              <option value="inactive">inactive</option>
+            </select>
+          </label>
+          <button type="submit">儲存會員</button>
+        </form>
+      </section>
+
+      <section id="membersPanel" class="admin-panel" hidden>
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Whitelist</p>
+            <h2>白名單成員</h2>
+          </div>
+        </div>
+        <div id="membersTable"></div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="./admin.js?v=2026051201"></script>
+  </body>
+</html>

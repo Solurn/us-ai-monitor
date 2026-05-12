@@ -1,0 +1,12 @@
+{
+  "routes": [
+    { "src": "/private-data/(.*)", "status": 404 },
+    { "src": "/api/_data/(.*)", "status": 404 },
+    { "src": "/api/_assets/(.*)", "status": 404 },
+    { "src": "/api/_private/(.*)", "status": 404 },
+    { "src": "/api/(.*)", "dest": "/api/$1" },
+    { "src": "/admin", "dest": "/web/admin.html" },
+    { "src": "/(.*\\.(?:html|js|css|png|jpg|jpeg|webp|ico))", "dest": "/web/$1" },
+    { "src": "/(.*)", "dest": "/web/index.html" }
+  ]
+}

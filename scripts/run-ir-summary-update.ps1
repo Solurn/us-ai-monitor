@@ -85,7 +85,7 @@ try {
     $calendarCheckScript = Join-Path $Root "scripts\check-ir-calendar.py"
     "Checking HiStock calendar: $calendarUrl" | Out-File -FilePath $LogPath -Encoding utf8 -Append
     try {
-      $historyPath = Join-Path $Root "web\data\ir-summary-history.js"
+      $historyPath = Join-Path $Root "api\_data\ir-summary-history.js"
       $calendarCheckOutput = & $PythonExe $calendarCheckScript $IrRoot $checkDate $historyPath $Days 2>&1
       $calendarCheckExit = $LASTEXITCODE
       if ($calendarCheckExit -eq 0) {
@@ -159,7 +159,7 @@ try {
       throw "Git was not found, cannot push."
     }
     "Committing and pushing dashboard data..." | Out-File -FilePath $LogPath -Encoding utf8 -Append
-    & git add "web/data/ir-summary-history.js" "web/index.html" "web/app.js" "web/styles.css" "scripts/import-ir-summary.mjs" "scripts/run-ir-summary-update.ps1" "scripts/install-ir-summary-update-task.ps1" "package.json" *>&1 | Out-File -FilePath $LogPath -Encoding utf8 -Append
+    & git add "api/_data/ir-summary-history.js" "api/_private/app.js" "web/index.html" "web/styles.css" "scripts/import-ir-summary.mjs" "scripts/run-ir-summary-update.ps1" "scripts/install-ir-summary-update-task.ps1" "package.json" *>&1 | Out-File -FilePath $LogPath -Encoding utf8 -Append
     & git diff --cached --quiet
     if ($LASTEXITCODE -eq 0) {
       "No git changes to commit." | Out-File -FilePath $LogPath -Encoding utf8 -Append

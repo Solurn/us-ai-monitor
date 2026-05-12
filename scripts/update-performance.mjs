@@ -4,8 +4,8 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
-const appPath = path.join(root, "web", "app.js");
-const outputPath = path.join(root, "web", "data", "performance-snapshot.js");
+const appPath = path.join(root, "api", "_private", "app.js");
+const outputPath = path.join(root, "api", "_data", "performance-snapshot.js");
 
 const taiwanExchangeMap = {
   1504: "TWSE",

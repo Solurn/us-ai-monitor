@@ -1,6 +1,10 @@
 node_modules/
 outputs/logs/
 *.log
+.env
+.env.*
+!.env.example
+supabase/Supabase.txt
 
 # Local runtime/cache files
 .DS_Store

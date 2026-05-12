@@ -8,6 +8,6 @@
     "update:briefing": "node scripts/update-daily-briefing.mjs",
     "update:ir": "node scripts/import-ir-summary.mjs",
     "update:daily": "npm run update:performance && npm run update:briefing",
-    "check": "node --check web/app.js && node --check scripts/update-performance.mjs && node --check scripts/update-daily-briefing.mjs && node --check scripts/import-ir-summary.mjs"
+    "check": "node --check api/_private/app.js && node --check web/auth.js && node --check web/admin.js && node --check api/config.js && node --check api/session.js && node --check api/dashboard-data.js && node --check api/app-bundle.js && node --check api/private-asset.js && node --check api/admin-members.js && node --check scripts/update-performance.mjs && node --check scripts/update-daily-briefing.mjs && node --check scripts/import-ir-summary.mjs"
   }
 }

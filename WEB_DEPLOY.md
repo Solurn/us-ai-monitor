@@ -1,60 +1,46 @@
 # Web Deployment
 
-This project can be published as a web dashboard with GitHub Pages.
+This dashboard is now designed for Vercel + Supabase, not public GitHub Pages.
 
-## What Users Will See
+## Required Services
 
-After deployment, other people can open the dashboard from a normal web URL. They do not need Node.js, Codex, PowerShell, or the local project folder.
+- Vercel hosts `web/` and the serverless `api/` functions.
+- Supabase provides Google Auth and the whitelist database.
 
-## What Updates Automatically
+## Supabase Setup
 
-The GitHub Actions workflow:
+1. Create a Supabase project.
+2. Open SQL Editor and run `supabase/schema.sql`.
+3. Enable Google as an Auth provider in Supabase.
+4. Add your deployed Vercel URL to Supabase Auth redirect URLs.
+5. Insert your first admin into `members` with `role = 'admin'` and `status = 'active'`.
 
-1. Runs `npm run update:performance`.
-2. Writes `web/data/performance-snapshot.js`.
-3. Publishes the `web/` folder to GitHub Pages.
+## Vercel Environment Variables
 
-Current automated data scope:
-
-- US ticker 21-trading-day performance snapshot.
-- Taiwan tickers remain TradingView links and are not included in performance averages.
-- Company notes, event notes, and learning content are still curated static content unless separate news/IR updaters are added later.
-
-## Setup Steps
-
-1. Create a GitHub repository.
-2. Upload this project to the repository.
-3. In GitHub, open `Settings` -> `Pages`.
-4. Set `Build and deployment` source to `GitHub Actions`.
-5. Open the `Actions` tab.
-6. Run `Update and deploy dashboard` manually once.
-7. GitHub will give you a Pages URL after the first successful deploy.
-
-## Schedule
-
-The workflow currently runs on weekdays at:
+Add these in Vercel Project Settings:
 
 ```text
-23:30 UTC
+VITE_SUPABASE_URL=https://your-project.supabase.co
+VITE_SUPABASE_ANON_KEY=your-supabase-anon-key
+SUPABASE_SERVICE_ROLE_KEY=your-supabase-service-role-key
+ADMIN_EMAILS=you@example.com
 ```
 
-This is around Taiwan morning after the regular US market close during US daylight saving time.
+`VITE_SUPABASE_ANON_KEY` is safe to expose to the browser. `SUPABASE_SERVICE_ROLE_KEY` must stay server-only in Vercel.
 
-You can also run it manually from the GitHub Actions page.
+## Data Protection
 
-## Local vs Web
+- `api/_data` contains dashboard data and is not loaded as public static scripts.
+- `api/_private/app.js` contains the private dashboard bundle and is served only after whitelist validation.
+- `api/_assets` contains protected generated images served through `/api/private-asset`.
+- The frontend only receives data for features enabled for the signed-in member.
 
-Local mode:
+## Admin Page
 
-- Good for private editing and testing.
-- Can use Windows logon scheduled updates.
+After signing in as an admin, open:
 
-Web mode:
+```text
+/admin
+```
 
-- Good for sharing.
-- GitHub Actions updates and publishes the website.
-- Visitors only need the URL.
-
-## Important
-
-This is a research dashboard, not investment advice. Free quote sources can fail or change behavior, so the dashboard should show missing data rather than inventing values.
+From there you can add members, deactivate members, assign `member` or `admin`, and select visible feature blocks.

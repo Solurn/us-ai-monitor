@@ -5,8 +5,8 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
-const outputPath = path.join(root, "web", "data", "daily-briefing.js");
-const performancePath = path.join(root, "web", "data", "performance-snapshot.js");
+const outputPath = path.join(root, "api", "_data", "daily-briefing.js");
+const performancePath = path.join(root, "api", "_data", "performance-snapshot.js");
 
 const watchlist = [
   ["AAPL", "Apple"],

@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="./styles.css?v=2026050501" />
   </head>
   <body>
-    <main class="app-shell">
+    <div id="authRoot" class="auth-screen" aria-live="polite"></div>
+    <main class="app-shell" id="appShell" hidden>
       <aside class="sidebar" aria-label="監控台側邊欄">
         <div class="brand-block">
           <p class="eyebrow" id="marketEyebrow">US Equity Monitor</p>
@@ -20,14 +21,14 @@
         </div>
 
         <nav class="side-nav" aria-label="頁面導覽">
-          <a href="#events" data-market-section="US">未來事件</a>
-          <a href="#learning" data-market-section="US">延伸學習</a>
-          <a href="#watchlist" data-market-section="US">個股資訊</a>
-          <a href="#twInsider" data-market-section="TW" hidden>內部人持股</a>
-          <a href="#selfReport" data-market-section="TW" hidden>自結資訊</a>
-          <a href="#financialReport" data-market-section="TW" hidden>財報公告</a>
-          <a href="#irSummary" data-market-section="TW" hidden>法說摘要</a>
-          <a href="#twRevenue" data-market-section="TW" hidden>營收資訊</a>
+          <a href="#events" data-market-section="US" data-feature="us_events">未來事件</a>
+          <a href="#learning" data-market-section="US" data-feature="us_learning">延伸學習</a>
+          <a href="#watchlist" data-market-section="US" data-feature="us_watchlist">個股資訊</a>
+          <a href="#twInsider" data-market-section="TW" data-feature="tw_insider" hidden>內部人持股</a>
+          <a href="#selfReport" data-market-section="TW" data-feature="tw_self_report" hidden>自結資訊</a>
+          <a href="#financialReport" data-market-section="TW" data-feature="tw_financial_report" hidden>財報公告</a>
+          <a href="#irSummary" data-market-section="TW" data-feature="tw_ir_summary" hidden>法說摘要</a>
+          <a href="#twRevenue" data-market-section="TW" data-feature="tw_revenue" hidden>營收資訊</a>
         </nav>
 
         <section class="metric-grid" aria-label="監控摘要">
@@ -54,12 +55,12 @@
           <input id="searchInput" type="search" placeholder="Ticker / 公司 / 技術 / 台股代號" autocomplete="off" />
         </label>
 
-        <section class="filter-panel" aria-label="主題篩選" data-market-section="US">
+        <section class="filter-panel" aria-label="主題篩選" data-market-section="US" data-feature="us_watchlist">
           <h2>主題分類</h2>
           <div class="chip-group" id="themeFilters"></div>
         </section>
 
-        <section class="filter-panel" aria-label="資料來源優先順序" data-market-section="US">
+        <section class="filter-panel" aria-label="資料來源優先順序" data-market-section="US" data-feature="us_watchlist">
           <h2>來源優先</h2>
           <div class="source-stack">
             <span>SEC</span>
@@ -79,7 +80,7 @@
             <h2 id="workspaceTitle">AI 供應鏈研究工作台</h2>
             <p id="workspaceLead">整合個股事件、總經日曆、法說筆記、機構觀點與技術學習地圖。</p>
           </div>
-          <div class="view-toggle" aria-label="個股檢視模式" data-market-section="US">
+          <div class="view-toggle" aria-label="個股檢視模式" data-market-section="US" data-feature="us_watchlist">
             <button class="toggle-button active" type="button" data-view="cards">卡片</button>
             <button class="toggle-button" type="button" data-view="compact">清單</button>
           </div>
@@ -108,14 +109,14 @@
         </section>
 
         <div class="quick-tabs" aria-label="快速跳轉">
-          <a href="#twInsider" data-market-section="TW" hidden>內部人持股</a>
-          <a href="#selfReport" data-market-section="TW" hidden>自結速報</a>
-          <a href="#financialReport" data-market-section="TW" hidden>財報公告</a>
-          <a href="#irSummary" data-market-section="TW" hidden>法說摘要</a>
-          <a href="#twRevenue" data-market-section="TW" hidden>營收資訊</a>
-          <a href="#events" data-market-section="US">事件日曆</a>
-          <a href="#learning" data-market-section="US">技術學習</a>
-          <a href="#watchlist" data-market-section="US">個股卡片</a>
+          <a href="#twInsider" data-market-section="TW" data-feature="tw_insider" hidden>內部人持股</a>
+          <a href="#selfReport" data-market-section="TW" data-feature="tw_self_report" hidden>自結速報</a>
+          <a href="#financialReport" data-market-section="TW" data-feature="tw_financial_report" hidden>財報公告</a>
+          <a href="#irSummary" data-market-section="TW" data-feature="tw_ir_summary" hidden>法說摘要</a>
+          <a href="#twRevenue" data-market-section="TW" data-feature="tw_revenue" hidden>營收資訊</a>
+          <a href="#events" data-market-section="US" data-feature="us_events">事件日曆</a>
+          <a href="#learning" data-market-section="US" data-feature="us_learning">技術學習</a>
+          <a href="#watchlist" data-market-section="US" data-feature="us_watchlist">個股卡片</a>
         </div>
 
         <section class="data-note" aria-label="資料狀態說明">
@@ -123,7 +124,7 @@
           <p id="dataStatusText">GitHub Actions 會每日更新公開資料 snapshot；個股研究筆記仍保留人工整理脈絡，並逐步接入更多自動來源。</p>
         </section>
 
-        <section class="tw-insider-section" id="twInsider" aria-label="台股內部人持股" data-market-section="TW" hidden>
+        <section class="tw-insider-section" id="twInsider" aria-label="台股內部人持股" data-market-section="TW" data-feature="tw_insider" hidden>
           <div class="section-heading">
             <div>
               <p class="eyebrow">Taiwan Insider Holding</p>
@@ -134,7 +135,7 @@
           <div id="twInsiderPanel"></div>
         </section>
 
-        <section class="self-report-section" id="selfReport" aria-label="台股自結速報" data-market-section="TW" hidden>
+        <section class="self-report-section" id="selfReport" aria-label="台股自結速報" data-market-section="TW" data-feature="tw_self_report" hidden>
           <div class="section-heading">
             <div>
               <p class="eyebrow">Taiwan Self Report</p>
@@ -148,7 +149,7 @@
           <div id="selfReportPanel"></div>
         </section>
 
-        <section class="financial-report-section" id="financialReport" aria-label="台股財報公告" data-market-section="TW" hidden>
+        <section class="financial-report-section" id="financialReport" aria-label="台股財報公告" data-market-section="TW" data-feature="tw_financial_report" hidden>
           <div class="section-heading">
             <div>
               <p class="eyebrow">Taiwan Financial Report</p>
@@ -162,7 +163,7 @@
           <div id="financialReportPanel"></div>
         </section>
 
-        <section class="ir-summary-section" id="irSummary" aria-label="台股法說摘要" data-market-section="TW" hidden>
+        <section class="ir-summary-section" id="irSummary" aria-label="台股法說摘要" data-market-section="TW" data-feature="tw_ir_summary" hidden>
           <div class="section-heading">
             <div>
               <p class="eyebrow">Taiwan Investor Conference</p>
@@ -177,7 +178,7 @@
           <div id="irSummaryPanel"></div>
         </section>
 
-        <section class="tw-revenue-section" id="twRevenue" aria-label="台股月營收精華" data-market-section="TW" hidden>
+        <section class="tw-revenue-section" id="twRevenue" aria-label="台股月營收精華" data-market-section="TW" data-feature="tw_revenue" hidden>
           <div class="section-heading">
             <div>
               <p class="eyebrow">Taiwan Monthly Revenue</p>
@@ -188,7 +189,7 @@
           <div id="twRevenuePanel"></div>
         </section>
 
-        <section class="daily-briefing-section" id="dailyBriefing" aria-label="每日自動摘要" data-market-section="US">
+        <section class="daily-briefing-section" id="dailyBriefing" aria-label="每日自動摘要" data-market-section="US" data-feature="daily_briefing">
           <div class="section-heading">
             <div>
               <p class="eyebrow">Daily Briefing</p>
@@ -199,7 +200,7 @@
           <div class="briefing-list" id="briefingList"></div>
         </section>
 
-        <section class="upcoming-section" id="events" aria-label="未來 30 天重大事件" data-market-section="US">
+        <section class="upcoming-section" id="events" aria-label="未來 30 天重大事件" data-market-section="US" data-feature="us_events">
           <div class="section-heading">
             <div>
               <p class="eyebrow">Next 30 Days</p>
@@ -211,7 +212,7 @@
           <div class="event-list" id="eventList"></div>
         </section>
 
-        <section class="learning-section" id="learning" aria-label="延伸學習" data-market-section="US">
+        <section class="learning-section" id="learning" aria-label="延伸學習" data-market-section="US" data-feature="us_learning">
           <div class="section-heading">
             <div>
               <p class="eyebrow">Research Lab</p>
@@ -229,7 +230,7 @@
           <div class="learning-list" id="learningList"></div>
         </section>
 
-        <section class="priority-strip" aria-label="重大事件追蹤範圍" data-market-section="US">
+        <section class="priority-strip" aria-label="重大事件追蹤範圍" data-market-section="US" data-feature="us_watchlist">
           <div>
             <p class="eyebrow">Priority</p>
             <h3>個股資訊</h3>
@@ -237,21 +238,13 @@
           <p>每張卡片整合法說/論壇筆記、市場與機構觀點、研究問題、近期事件與可跳轉的學習主題。</p>
         </section>
 
-        <section id="watchlist" aria-label="個股資訊" data-market-section="US">
+        <section id="watchlist" aria-label="個股資訊" data-market-section="US" data-feature="us_watchlist">
           <div class="stock-grid" id="stockGrid" aria-live="polite"></div>
         </section>
       </section>
     </main>
 
-    <script src="./data/performance-snapshot.js?v=2026042904"></script>
-    <script src="./data/daily-briefing.js?v=2026042904"></script>
-    <script src="./data/self-report-latest.js?v=20260512210536"></script>
-    <script src="./data/self-report-history.js?v=20260512210536"></script>
-    <script src="./data/financial-report-latest.js?v=2026043001"></script>
-    <script src="./data/financial-report-history.js?v=2026043002"></script>
-    <script src="./data/ir-summary-history.js?v=202605122330"></script>
-    <script src="./data/tw-revenue-latest.js?v=2026042904"></script>
-    <script src="./data/insider-holding-latest.js?v=2026042904"></script>
-    <script src="./app.js?v=20260508231200"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="./auth.js?v=2026051201"></script>
   </body>
 </html>
