@@ -374,6 +374,28 @@ const announcedEventCatalog = [
     source: "BLS Employment Situation April 2026",
     sourceUrl: "https://www.bls.gov/news.release/empsit.nr0.htm",
   },
+  {
+    date: "2026-05-12",
+    time: "20:30",
+    tickers: ["MACRO"],
+    matchTitle: "CPI",
+    title: "CPI 消費者物價指數已公布",
+    type: "已公告結果",
+    priority: "高",
+    summary:
+      "BLS 公布 April 2026 CPI：CPI-U 月增 0.6%，年增 3.8%；核心 CPI 月增 0.4%，年增 2.8%。能源與 shelter 是主要推升來源，通膨壓力仍偏黏，市場會把它解讀為 Fed 降息空間變窄。",
+    metrics: [
+      "Headline CPI：月增 +0.6%，年增 +3.8%。",
+      "Core CPI（不含食品與能源）：月增 +0.4%，年增 +2.8%。",
+      "Energy：月增 +3.8%，貢獻超過四成的單月 CPI 增幅；年增 +17.9%。",
+      "Shelter：月增 +0.6%。",
+      "Food：月增 +0.5%，其中 food at home +0.7%、food away from home +0.2%。",
+    ],
+    researchRead:
+      "這份 CPI 對高估值成長股偏不友善，因為核心通膨與 shelter 仍未明顯降溫；若長端利率上行，NVDA、MSFT、AMZN、GOOGL、META 這類 AI/雲端 capex 題材的估值折現壓力會變大。後續要連著看 5/13 PPI 與能源價格是否繼續推升通膨預期。",
+    source: "BLS CPI April 2026",
+    sourceUrl: "https://www.bls.gov/news.release/cpi.nr0.htm",
+  },
 ];
 
 function activeAnnouncedEvents(asOfDate) {
