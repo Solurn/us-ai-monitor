@@ -85,42 +85,103 @@ function evaluateOutlookTone(outlookBullets, summaryBullets) {
   return { label, score, basis: `\u6b63\u5411\u8a0a\u865f ${positive}\u3001\u4fdd\u5b88\u8a0a\u865f ${negative}` };
 }
 
-function buildDetailedMarkdown(row) {
-  const tone = row.outlookTone ?? {};
-  const summary = (row.summaryBullets ?? []).filter(Boolean);
-  const outlook = (row.outlookBullets ?? []).filter(Boolean);
-  const transcriptStatus = row.transcriptStatus || row.mediaStatus || "\u672a\u63ed\u9732";
-  const hasTranscript = String(transcriptStatus).startsWith("\u6210\u529f");
-  const sourceNote = hasTranscript
-    ? "\u672c\u6b21\u8a55\u4f30\u512a\u5148\u4f9d\u8a9e\u97f3\u8f49\u9304\u5167\u5bb9\uff0c\u518d\u8207\u7c21\u5831\u91cd\u9ede\u4ea4\u53c9\u6bd4\u5c0d\u3002"
-    : "\u672c\u6b21\u5c1a\u672a\u53d6\u5f97\u53ef\u7528\u8a9e\u97f3\u8f49\u9304\uff0c\u8a55\u4f30\u4e3b\u8981\u4f9d\u7c21\u5831\u8207 MOPS \u64c7\u8981\u8a0a\u606f\u3002";
-  const positivePattern = /成長|增加|提升|強勁|需求|訂單|高點|量產|導入|貢獻|看好|AI|data center|hyperscaler|growth|strong|improve/i;
-  const cautionPattern = /未揭露|未提供|不確定|風險|保守|下滑|壓力|放緩|仍待|可能|挑戰|risk|pressure|uncertain/i;
-  const positives = outlook.filter((item) => positivePattern.test(item)).slice(0, 5);
-  const caveats = [...outlook, ...summary].filter((item) => cautionPattern.test(item)).slice(0, 5);
-  const lines = [
-    `## ${row.code} ${row.name} \u8a73\u7d30\u6458\u8981`,
-    "",
-    "### \u5224\u8b80\u7d50\u8ad6",
-    `- \u5c55\u671b\u8a55\u50f9\uff1a${tone.label || "\u4e2d\u6027\u89c0\u671b"}${Number.isFinite(Number(tone.score)) ? `\uff08${tone.score} \u5206\uff09` : ""}\u3002`,
-    `- \u8cc7\u6599\u57fa\u790e\uff1a${sourceNote}`,
-    `- \u8a55\u5206\u4f9d\u64da\uff1a${tone.basis || "\u5c1a\u672a\u6709\u660e\u78ba\u8a55\u5206\u8a0a\u865f"}\u3002`,
-    "",
-    "### \u6703\u8b70\u8108\u7d61",
-    ...(summary.slice(0, 6).length ? summary.slice(0, 6).map((item) => `- ${item}`) : ["- \u5c1a\u672a\u64f7\u53d6\u5230\u8db3\u5920\u7684\u6703\u8b70\u6458\u8981\u3002"]),
-    "",
-    "### \u5c55\u671b\u8207\u5229\u57fa",
-    ...(outlook.slice(0, 8).length ? outlook.slice(0, 8).map((item) => `- ${item}`) : ["- \u5c1a\u672a\u64f7\u53d6\u5230\u660e\u78ba\u5c55\u671b\u6bb5\u843d\u3002"]),
-    "",
-    "### \u5206\u6578\u5229\u57fa\u9ede",
-    ...(positives.length ? positives.map((item) => `- ${item}`) : ["- \u76ee\u524d\u672a\u770b\u5230\u8db3\u5920\u660e\u78ba\u7684\u6b63\u5411\u5c55\u671b\u8a0a\u865f\uff0c\u56e0\u6b64\u5206\u6578\u8f03\u504f\u4e2d\u6027\u3002"]),
-    "",
-    "### \u9700\u8981\u4fdd\u7559\u7684\u7591\u616e",
-    ...(caveats.length ? caveats.map((item) => `- ${item}`) : ["- \u76ee\u524d\u6458\u8981\u4e2d\u672a\u51fa\u73fe\u660e\u986f\u8ca0\u5411\u6216\u4fdd\u5b88\u8a0a\u865f\uff0c\u4f46\u4ecd\u9700\u7559\u610f\u516c\u53f8\u672a\u91cf\u5316\u63ed\u9732\u7684\u90e8\u5206\u3002"]),
-  ];
-  return lines.join("\n");
+function takeBullets(items, limit = 6) {
+  return (items ?? [])
+    .map((item) => String(item ?? "").trim())
+    .filter(Boolean)
+    .filter((item, index, all) => all.findIndex((other) => other.slice(0, 60) === item.slice(0, 60)) === index)
+    .slice(0, limit);
 }
 
+function matchBullets(items, terms, limit = 5) {
+  const normalizedTerms = terms.map((term) => term.toLowerCase());
+  return takeBullets(items, 30)
+    .filter((item) => {
+      const lowered = item.toLowerCase();
+      return normalizedTerms.some((term) => lowered.includes(term));
+    })
+    .slice(0, limit);
+}
+
+function sectionLines(title, bullets, emptyText) {
+  return [
+    `### ${title}`,
+    ...(bullets.length ? bullets.map((item) => `- ${item}`) : [`- ${emptyText}`]),
+    "",
+  ];
+}
+
+function buildDetailedMarkdown(row) {
+  const tone = row.outlookTone ?? {};
+  const summary = takeBullets(row.summaryBullets, 10);
+  const outlook = takeBullets(row.outlookBullets, 10);
+  const financialFromReport = takeBullets(row.financialBullets, 8);
+  const risksFromReport = takeBullets(row.riskBullets, 8);
+  const qnaFromReport = takeBullets(row.qnaBullets, 8);
+  const crossChecks = takeBullets(row.crossCheckBullets, 8);
+  const allBullets = [...summary, ...financialFromReport, ...outlook, ...risksFromReport, ...qnaFromReport, ...crossChecks];
+  const transcriptStatus = row.transcriptStatus || row.mediaStatus || "未揭露";
+  const hasTranscript = String(transcriptStatus).startsWith("成功");
+  const score = Number(tone.score);
+  const scoreText = Number.isFinite(score) ? `（${score} 分）` : "";
+  const sourceNote = hasTranscript
+    ? "本次評估優先依語音轉錄內容，再與簡報重點交叉比對；若轉錄與簡報數字不一致，以簡報揭露口徑為主。"
+    : "本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。";
+
+  const financial = financialFromReport.length ? financialFromReport : matchBullets(allBullets, ["營收", "獲利", "eps", "毛利", "淨利", "ebitda", "現金", "存貨", "負債", "成長", "年增"], 6);
+  const business = matchBullets(allBullets, ["產品", "客戶", "市場", "區域", "美國", "歐洲", "中國", "亞太", "ai", "edge", "機器", "醫療", "半導體", "能源", "data center"], 6);
+  const qna = qnaFromReport.length ? qnaFromReport : matchBullets(allBullets, ["q&a", "問答", "提問", "毛利率", "成本", "拉貨", "關稅", "供應鏈", "費用", "產能", "訂單"], 6);
+  const positiveEvidence = matchBullets(allBullets, ["成長", "提升", "強", "改善", "動能", "案源", "貢獻", "擴充", "受惠", "需求", "正向", "高", "放量", "量產", "growth", "strong", "improve"], 6);
+  const cautions = risksFromReport.length || crossChecks.length
+    ? takeBullets([...risksFromReport, ...crossChecks], 8)
+    : matchBullets(allBullets, ["未揭露", "未提供", "不確定", "保守", "壓力", "成本", "風險", "調整", "下滑", "需人工確認", "缺", "但", "仍需", "uncertain", "risk", "pressure"], 6);
+
+  const conclusion = [];
+  conclusion.push(`展望評價：${tone.label || "中性觀望"}${scoreText}。`);
+  conclusion.push(`資料基礎：${sourceNote}`);
+  conclusion.push(`評分依據：${tone.basis || "尚未有明確評分訊號"}。`);
+  if (score >= 70) {
+    conclusion.push("判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 ");
+  } else if (score >= 57) {
+    conclusion.push("判讀：方向偏正面，但管理層仍保留部分彈性，較適合追蹤接單、毛利率與下一季財測是否延續。 ");
+  } else if (score <= 43) {
+    conclusion.push("判讀：保守訊號較多，短期需要先確認需求、成本或產業變數是否落底。 ");
+  } else {
+    conclusion.push("判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 ");
+  }
+
+  const thesis = [];
+  if (positiveEvidence.length) {
+    thesis.push(`加分主因：${positiveEvidence.slice(0, 3).join("；")}。`);
+  }
+  if (cautions.length) {
+    thesis.push(`扣分或保留：${cautions.slice(0, 3).join("；")}。`);
+  }
+  thesis.push(hasTranscript
+    ? "可信度：已取得語音轉錄，能看到管理層在簡報外的補充與 Q&A；但專有名詞與口述數字仍需以簡報或公告交叉確認。"
+    : "可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。"
+  );
+
+  const watchItems = [];
+  if (outlook.length) watchItems.push("下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 ");
+  if (financial.length) watchItems.push("追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 ");
+  if (cautions.length) watchItems.push("留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 ");
+  watchItems.push("此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。 ");
+
+  const lines = [
+    `## ${row.code} ${row.name} 深度法說分析`,
+    "",
+    ...sectionLines("一頁結論", conclusion, "尚未形成足夠結論。"),
+    ...sectionLines("營運與財務重點", financial.length ? financial : summary.slice(0, 6), "尚未擷取到明確財務重點。"),
+    ...sectionLines("展望與成長利基", outlook.length ? outlook : business, "尚未擷取到明確展望段落。"),
+    ...sectionLines("產品、客戶與市場位置", business, "尚未擷取到足夠的產品或市場資訊。"),
+    ...sectionLines("風險與不確定性", cautions, "本次摘要未擷取到明確風險或保守訊號。"),
+    ...sectionLines("Q&A 與管理層口氣", qna, "本次摘要未擷取到明確 Q&A 或管理層口氣補充。"),
+    ...sectionLines("評分利基點", thesis, "目前分數主要來自一般展望訊號，尚缺更具體的量化佐證。"),
+    ...sectionLines("後續追蹤清單", watchItems, "尚無特定追蹤事項。"),
+  ];
+  return lines.join("\n").trim();
+}
 function parseReport(markdown, reportFile) {
   const text = stripBom(markdown);
   const blocks = text.split(/\n(?=## \d{4}-\d{2}-\d{2} )/g);
@@ -133,6 +194,10 @@ function parseReport(markdown, reportFile) {
     const mediaValue = parseInlineValue(block, "影音");
     const outlookBullets = parseBullets(sectionAfter(block, "展望重點"));
     const summaryBullets = parseBullets(sectionAfter(block, "會議重點摘要"));
+    const financialBullets = parseBullets(sectionAfter(block, "營運與財務"));
+    const riskBullets = parseBullets(sectionAfter(block, "風險與不確定性"));
+    const qnaBullets = parseBullets(sectionAfter(block, "Q&A / 其他"));
+    const crossCheckBullets = parseBullets(sectionAfter(block, "交叉核對註記"));
     const row = {
       date: meetingDate,
       code,
@@ -150,6 +215,10 @@ function parseReport(markdown, reportFile) {
       outlookBullets: outlookBullets.length ? outlookBullets : parseBullets(sectionAfter(block, "展望")),
       outlookTone: evaluateOutlookTone(outlookBullets, summaryBullets),
       summaryBullets,
+      financialBullets,
+      riskBullets,
+      qnaBullets,
+      crossCheckBullets,
       sourceReport: path.relative(root, reportFile).replaceAll("\\", "/"),
     };
     row.detailMarkdown = buildDetailedMarkdown(row);
@@ -266,3 +335,4 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
+

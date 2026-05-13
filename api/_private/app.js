@@ -2864,7 +2864,7 @@ function openIrSummaryDetail(row) {
   const overlay = document.createElement("div");
   overlay.className = "ir-detail-modal";
   overlay.innerHTML = `
-    <div class="ir-detail-dialog" role="dialog" aria-modal="true" aria-label="\u6cd5\u8aaa\u8a73\u7d30\u6458\u8981">
+    <div class="ir-detail-dialog" role="dialog" aria-modal="true" aria-label="法說深度分析">
       <button class="ir-detail-close" type="button" aria-label="\u95dc\u9589">×</button>
       <div class="ir-detail-content">${irSummaryMarkdownToHtml(detail)}</div>
     </div>
@@ -2937,7 +2937,7 @@ function renderIrSummary() {
             ${irSummaryLink(selected.chinesePdf, "中文簡報")}
             ${irSummaryLink(selected.englishPdf, "英文簡報")}
             ${irSummaryLink(selected.mediaUrl, "影音")}
-            <button class="ir-summary-detail-button" type="button" data-ir-detail>\u8a73\u7d30\u6458\u8981</button>
+            <button class="ir-summary-detail-button" type="button" data-ir-detail>深度分析</button>
           </div>
         </div>
         <div>
@@ -3132,3 +3132,4 @@ if (marketSwitch) {
 }
 
 render();
+
