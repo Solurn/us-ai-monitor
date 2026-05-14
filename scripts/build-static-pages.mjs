@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
 const outputDir = path.join(root, "outputs", "pages");
+const buildVersion = encodeURIComponent((process.env.GITHUB_SHA || `${Date.now()}`).slice(0, 12));
 
 const dataScripts = [
   "performance-snapshot.js",
@@ -38,7 +39,7 @@ async function buildIndex() {
   html = html.replace(
     /<script src="https:\/\/cdn\.jsdelivr\.net\/npm\/@supabase\/supabase-js@2"><\/script>\s*<script src="\.\/auth\.js\?v=[^"]+"><\/script>/,
     [
-      ...dataScripts.map((file) => `<script src="./data/${file}"></script>`),
+      ...dataScripts.map((file) => `<script src="./data/${file}?v=${buildVersion}"></script>`),
       `<script>
 window.dashboardPermissions = {
   daily_briefing: true,
@@ -55,7 +56,7 @@ window.dashboardMember = { email: "static-pages@local" };
 document.querySelector("#authRoot").hidden = true;
 document.querySelector("#appShell").hidden = false;
 </script>`,
-      `<script src="./app.js"></script>`,
+      `<script src="./app.js?v=${buildVersion}"></script>`,
     ].join("\n"),
   );
   html = html.replace(/<main class="app-shell" id="appShell" hidden>/, `<main class="app-shell" id="appShell">`);
