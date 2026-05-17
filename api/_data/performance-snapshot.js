@@ -1,5 +1,5 @@
 window.marketPerformanceSnapshot = {
-  "generatedAt": "2026-05-16T06:38:48.615Z",
+  "generatedAt": "2026-05-17T23:31:29.673Z",
   "lookbackLabel": "Recent 21 trading days",
   "scope": "US tickers only",
   "items": {
@@ -8,34 +8,19 @@ window.marketPerformanceSnapshot = {
       "pct": 21.001774566435866,
       "provider": "Yahoo daily snapshot"
     },
-    "US:ADBE": {
-      "asOf": "2026-05-15",
-      "pct": -0.22565987682537014,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:ALAB": {
-      "asOf": "2026-05-15",
-      "pct": 36.22153035624507,
-      "provider": "Yahoo daily snapshot"
-    },
     "US:AEHR": {
       "asOf": "2026-05-15",
       "pct": 23.06741110434096,
       "provider": "Yahoo daily snapshot"
     },
-    "US:APH": {
+    "US:AMKR": {
       "asOf": "2026-05-15",
-      "pct": -16.08485877682004,
+      "pct": 11.844191999227599,
       "provider": "Yahoo daily snapshot"
     },
-    "US:ANET": {
+    "US:AMZN": {
       "asOf": "2026-05-15",
-      "pct": -11.825348696179502,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:ARM": {
-      "asOf": "2026-05-15",
-      "pct": 28.848642458461327,
+      "pct": 5.782946686694769,
       "provider": "Yahoo daily snapshot"
     },
     "US:AMD": {
@@ -43,14 +28,34 @@ window.marketPerformanceSnapshot = {
       "pct": 52.41141063019794,
       "provider": "Yahoo daily snapshot"
     },
+    "US:ALAB": {
+      "asOf": "2026-05-15",
+      "pct": 36.22153035624507,
+      "provider": "Yahoo daily snapshot"
+    },
+    "US:ADBE": {
+      "asOf": "2026-05-15",
+      "pct": -0.22565987682537014,
+      "provider": "Yahoo daily snapshot"
+    },
     "US:AMAT": {
       "asOf": "2026-05-15",
       "pct": 11.982560131331253,
       "provider": "Yahoo daily snapshot"
     },
-    "US:ASML": {
+    "US:ARM": {
       "asOf": "2026-05-15",
-      "pct": 6.44869370320741,
+      "pct": 28.848642458461327,
+      "provider": "Yahoo daily snapshot"
+    },
+    "US:APH": {
+      "asOf": "2026-05-15",
+      "pct": -16.08485877682004,
+      "provider": "Yahoo daily snapshot"
+    },
+    "US:CEG": {
+      "asOf": "2026-05-15",
+      "pct": -10.677275147874665,
       "provider": "Yahoo daily snapshot"
     },
     "US:CARR": {
@@ -63,14 +68,9 @@ window.marketPerformanceSnapshot = {
       "pct": 6.705649393642446,
       "provider": "Yahoo daily snapshot"
     },
-    "US:AMZN": {
+    "US:ASML": {
       "asOf": "2026-05-15",
-      "pct": 5.782946686694769,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:AMKR": {
-      "asOf": "2026-05-15",
-      "pct": 11.844191999227599,
+      "pct": 6.44869370320741,
       "provider": "Yahoo daily snapshot"
     },
     "US:CDNS": {
@@ -78,14 +78,19 @@ window.marketPerformanceSnapshot = {
       "pct": 13.122230877176587,
       "provider": "Yahoo daily snapshot"
     },
+    "US:ANET": {
+      "asOf": "2026-05-15",
+      "pct": -11.825348696179502,
+      "provider": "Yahoo daily snapshot"
+    },
     "US:CIEN": {
       "asOf": "2026-05-15",
       "pct": 11.973667010749779,
       "provider": "Yahoo daily snapshot"
     },
-    "US:CEG": {
+    "US:CRDO": {
       "asOf": "2026-05-15",
-      "pct": -10.677275147874665,
+      "pct": 8.33071547431189,
       "provider": "Yahoo daily snapshot"
     },
     "US:COHR": {
@@ -98,14 +103,14 @@ window.marketPerformanceSnapshot = {
       "pct": -4.254500972261539,
       "provider": "Yahoo daily snapshot"
     },
+    "US:DELL": {
+      "asOf": "2026-05-15",
+      "pct": 25.32498321130148,
+      "provider": "Yahoo daily snapshot"
+    },
     "US:DDOG": {
       "asOf": "2026-05-15",
       "pct": 68.44577117625033,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:CRDO": {
-      "asOf": "2026-05-15",
-      "pct": 8.33071547431189,
       "provider": "Yahoo daily snapshot"
     },
     "US:CSCO": {
@@ -113,24 +118,9 @@ window.marketPerformanceSnapshot = {
       "pct": 39.893490040796046,
       "provider": "Yahoo daily snapshot"
     },
-    "US:DELL": {
-      "asOf": "2026-05-15",
-      "pct": 25.32498321130148,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:FLEX": {
-      "asOf": "2026-05-15",
-      "pct": 72.49750221330726,
-      "provider": "Yahoo daily snapshot"
-    },
     "US:ETN": {
       "asOf": "2026-05-15",
       "pct": 1.708550726293162,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:FIX": {
-      "asOf": "2026-05-15",
-      "pct": 24.083265975509775,
       "provider": "Yahoo daily snapshot"
     },
     "US:FN": {
@@ -138,9 +128,14 @@ window.marketPerformanceSnapshot = {
       "pct": 7.3441903994851785,
       "provider": "Yahoo daily snapshot"
     },
-    "US:GEV": {
+    "US:FLEX": {
       "asOf": "2026-05-15",
-      "pct": 7.248136868679149,
+      "pct": 72.49750221330726,
+      "provider": "Yahoo daily snapshot"
+    },
+    "US:FIX": {
+      "asOf": "2026-05-15",
+      "pct": 24.083265975509775,
       "provider": "Yahoo daily snapshot"
     },
     "US:GNRC": {
@@ -148,14 +143,14 @@ window.marketPerformanceSnapshot = {
       "pct": 27.12983367250745,
       "provider": "Yahoo daily snapshot"
     },
+    "US:GEV": {
+      "asOf": "2026-05-15",
+      "pct": 7.248136868679149,
+      "provider": "Yahoo daily snapshot"
+    },
     "US:GOOGL": {
       "asOf": "2026-05-15",
       "pct": 18.082260505982227,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:HPE": {
-      "asOf": "2026-05-15",
-      "pct": 27.848587309567186,
       "provider": "Yahoo daily snapshot"
     },
     "US:GLW": {
@@ -163,14 +158,9 @@ window.marketPerformanceSnapshot = {
       "pct": 15.492530975350643,
       "provider": "Yahoo daily snapshot"
     },
-    "US:INTC": {
+    "US:HPE": {
       "asOf": "2026-05-15",
-      "pct": 58.78831626725023,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:INTU": {
-      "asOf": "2026-05-15",
-      "pct": 1.5215351893050117,
+      "pct": 27.848587309567186,
       "provider": "Yahoo daily snapshot"
     },
     "US:JBL": {
@@ -182,6 +172,16 @@ window.marketPerformanceSnapshot = {
       "pct": null,
       "asOf": "",
       "provider": "Quote source unavailable"
+    },
+    "US:INTU": {
+      "asOf": "2026-05-15",
+      "pct": 1.5215351893050117,
+      "provider": "Yahoo daily snapshot"
+    },
+    "US:INTC": {
+      "asOf": "2026-05-15",
+      "pct": 58.78831626725023,
+      "provider": "Yahoo daily snapshot"
     },
     "US:KLAC": {
       "asOf": "2026-05-15",
@@ -228,6 +228,11 @@ window.marketPerformanceSnapshot = {
       "pct": 32.63103086584164,
       "provider": "Yahoo daily snapshot"
     },
+    "US:MSFT": {
+      "asOf": "2026-05-15",
+      "pct": 0.3949944376185456,
+      "provider": "Yahoo daily snapshot"
+    },
     "US:NOW": {
       "asOf": "2026-05-15",
       "pct": -1.420575188614703,
@@ -236,16 +241,6 @@ window.marketPerformanceSnapshot = {
     "US:MU": {
       "asOf": "2026-05-15",
       "pct": 58.489153321609,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:NXT": {
-      "asOf": "2026-05-15",
-      "pct": 35.065048032404675,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:MSFT": {
-      "asOf": "2026-05-15",
-      "pct": 0.3949944376185456,
       "provider": "Yahoo daily snapshot"
     },
     "US:NVDA": {
@@ -258,14 +253,19 @@ window.marketPerformanceSnapshot = {
       "pct": 1.7293637367544399,
       "provider": "Yahoo daily snapshot"
     },
-    "US:ORCL": {
+    "US:NXT": {
       "asOf": "2026-05-15",
-      "pct": 8.192217623841836,
+      "pct": 35.065048032404675,
       "provider": "Yahoo daily snapshot"
     },
     "US:PLTR": {
       "asOf": "2026-05-15",
       "pct": -6.143169901321292,
+      "provider": "Yahoo daily snapshot"
+    },
+    "US:ORCL": {
+      "asOf": "2026-05-15",
+      "pct": 8.192217623841836,
       "provider": "Yahoo daily snapshot"
     },
     "US:PWR": {
@@ -278,9 +278,9 @@ window.marketPerformanceSnapshot = {
       "pct": 9.295779339639628,
       "provider": "Yahoo daily snapshot"
     },
-    "US:SNPS": {
+    "US:QCOM": {
       "asOf": "2026-05-15",
-      "pct": 13.888704608171654,
+      "pct": 49.84011576118174,
       "provider": "Yahoo daily snapshot"
     },
     "US:SNOW": {
@@ -288,9 +288,9 @@ window.marketPerformanceSnapshot = {
       "pct": 9.696968215268079,
       "provider": "Yahoo daily snapshot"
     },
-    "US:QCOM": {
+    "US:SNPS": {
       "asOf": "2026-05-15",
-      "pct": 49.84011576118174,
+      "pct": 13.888704608171654,
       "provider": "Yahoo daily snapshot"
     },
     "US:TEL": {

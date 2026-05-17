@@ -3,11 +3,13 @@ name: Update daily market data
 on:
   workflow_dispatch:
   schedule:
-    # 22:00 UTC = 06:00 Asia/Taipei, Tue-Sat after US trading days.
-    - cron: "0 22 * * 1-5"
+    # 22:00 UTC = 06:00 Asia/Taipei.
+    - cron: "0 22 * * *"
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: update-daily-market-data
@@ -45,3 +47,15 @@ jobs:
             git commit -m "Update daily market data"
             git push
           fi
+
+      - name: Build static dashboard
+        run: node scripts/build-static-pages.mjs
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: outputs/pages
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
