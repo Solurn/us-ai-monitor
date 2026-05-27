@@ -1,8 +1,8 @@
 window.selfReportLatest = {
-  "generatedAt": "2026-05-27T20:27:32+08:00",
+  "generatedAt": "2026-05-28T00:12:38+08:00",
   "queryDate": "2026-05-27",
   "displayDate": "115年5月27日",
-  "checkedAt": "2026-05-27T20:27:32+08:00",
+  "checkedAt": "2026-05-28T00:12:38+08:00",
   "checkedQueryDate": "2026-05-27",
   "checkedDisplayDate": "115年5月27日",
   "checkedCount": 12,
