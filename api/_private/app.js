@@ -552,7 +552,6 @@ let irSummaryHistory = window.irSummaryHistory ?? {
 
 let irSummarySelectedDate = irSummaryLatest.queryDate || "";
 let irSummarySelectedCode = "";
-let twInsiderSortMode = "totalValue";
 
 const twRevenueLatest = window.twRevenueLatest ?? {
   generatedAt: "",
@@ -572,7 +571,106 @@ const twInsiderHoldingLatest = window.twInsiderHoldingLatest ?? {
   stocks: [],
 };
 
-const allEvents = [...(dailyBriefing.events ?? []), ...upcomingEvents, ...macroEvents].sort((a, b) => `${a.date} ${a.time}`.localeCompare(`${b.date} ${b.time}`));
+const currentMacroEvents = [
+  {
+    date: "2026-05-28",
+    time: "20:30",
+    tickers: ["MACRO"],
+    title: "PCE / Personal Income and Outlays",
+    category: "經濟數據",
+    confidence: "官方日程",
+    announcementSummary: "BEA release schedule 顯示 April 2026 Personal Income and Outlays 將於美東 5/28 08:30 公布，台北時間為 5/28 20:30；這份資料包含 personal income、personal spending、PCE price index 與 core PCE。",
+    readingPoints: [
+      "Core PCE 是 Fed 更重視的通膨指標，會直接影響降息預期。",
+      "同時看 personal income 與 spending，判斷消費動能是否仍支撐 AMZN、AAPL、廣告與雲端需求。",
+      "若 core PCE 偏熱，長端利率可能壓抑 NVDA、MSFT、GOOGL、META 等高估值 AI/雲端股。"
+    ],
+    source: "BEA release schedule",
+    sourceUrl: "https://www.bea.gov/news/schedule",
+  },
+  {
+    date: "2026-05-28",
+    time: "20:30",
+    tickers: ["MACRO"],
+    title: "美國 Q1 GDP second estimate / corporate profits",
+    category: "經濟數據",
+    confidence: "官方日程",
+    announcementSummary: "BEA release schedule 顯示 Q1 2026 GDP second estimate 與 corporate profits 將於美東 5/28 08:30 公布，台北時間為 5/28 20:30。",
+    readingPoints: [
+      "GDP second estimate 可修正前次成長率，影響市場對景氣韌性的判讀。",
+      "Corporate profits 可觀察企業獲利壓力是否擴散，對科技股 margin 敘事有參考價值。",
+      "若 GDP 強、PCE 也熱，市場可能重新定價 Fed 維持高利率更久。"
+    ],
+    source: "BEA release schedule",
+    sourceUrl: "https://www.bea.gov/news/schedule",
+  },
+  {
+    date: "2026-05-28",
+    time: "20:30",
+    tickers: ["MACRO"],
+    title: "Initial Jobless Claims 初領失業救濟金",
+    category: "經濟數據",
+    confidence: "官方日程",
+    announcementSummary: "美國勞工部每週四公布初領失業救濟金；本週公布時間為美東週四 08:30，台北時間 5/28 20:30。",
+    readingPoints: [
+      "初領失業救濟金是勞動市場降溫速度的高頻資料。",
+      "若初領明顯上升，市場可能轉向交易降息預期；若仍偏低，則代表薪資與消費支撐仍在。",
+      "和 PCE 同天公布時，要一起看：通膨熱但就業弱，市場反應會更分歧。"
+    ],
+    source: "U.S. Department of Labor weekly claims",
+    sourceUrl: "https://www.dol.gov/ui/data.pdf",
+  },
+  {
+    date: "2026-06-01",
+    time: "22:00",
+    tickers: ["MACRO"],
+    title: "ISM Manufacturing PMI",
+    category: "經濟數據",
+    confidence: "官方日程",
+    announcementSummary: "ISM 製造業 PMI 通常於每月第一個工作日上午 10:00 ET 公布，台北時間為 22:00。",
+    readingPoints: [
+      "看 new orders、production、employment 與 prices paid，判斷製造業需求與通膨壓力。",
+      "半導體設備、電力設備與資料中心供應鏈可用 PMI 分項判斷訂單和成本壓力。",
+      "若 prices paid 維持高檔，會削弱市場對快速降息的期待。"
+    ],
+    source: "ISM report calendar",
+    sourceUrl: "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+  },
+  {
+    date: "2026-06-05",
+    time: "20:30",
+    tickers: ["MACRO"],
+    title: "非農就業 NFP / Employment Situation",
+    category: "經濟數據",
+    confidence: "官方日程",
+    announcementSummary: "BLS Employment Situation schedule 顯示 May 2026 非農就業報告將於美東 6/5 08:30 公布，台北時間為 6/5 20:30。",
+    readingPoints: [
+      "重點看新增非農、失業率、平均時薪與勞參率。",
+      "若薪資仍強，市場會降低降息預期；若就業轉弱但不崩，對成長股通常較友善。",
+      "AI capex 相關股短線仍會受利率路徑影響，但中期要回到各公司財報與需求能見度。"
+    ],
+    source: "BLS Employment Situation schedule",
+    sourceUrl: "https://www.bls.gov/schedule/news_release/empsit.htm",
+  },
+  {
+    date: "2026-06-10",
+    time: "20:30",
+    tickers: ["MACRO"],
+    title: "CPI 消費者物價指數",
+    category: "經濟數據",
+    confidence: "官方日程",
+    announcementSummary: "BLS CPI schedule 顯示 May 2026 CPI 將於美東 6/10 08:30 公布，台北時間為 6/10 20:30。",
+    readingPoints: [
+      "重點看 headline CPI、core CPI、shelter、服務與能源分項。",
+      "CPI 若再偏熱，會壓抑大型成長股估值；若降溫，可能支撐 AI/雲端股風險偏好。",
+      "要和 PPI、PCE 一起看，避免單一數據造成誤判。"
+    ],
+    source: "BLS CPI schedule",
+    sourceUrl: "https://www.bls.gov/schedule/news_release/cpi.htm",
+  },
+];
+
+const allEvents = [...(dailyBriefing.events ?? []), ...upcomingEvents, ...macroEvents, ...currentMacroEvents].sort((a, b) => `${a.date} ${a.time}`.localeCompare(`${b.date} ${b.time}`));
 
 const stockIntel = {
   AAPL: {
@@ -1366,7 +1464,6 @@ const rangeValue = document.querySelector("#rangeValue");
 const twRevenueStats = document.querySelector("#twRevenueStats");
 const twRevenuePanel = document.querySelector("#twRevenuePanel");
 const twInsiderStats = document.querySelector("#twInsiderStats");
-const twInsiderSortSelect = document.querySelector("#twInsiderSortSelect");
 const twInsiderPanel = document.querySelector("#twInsiderPanel");
 
 function canUseFeature(feature) {
@@ -1375,6 +1472,28 @@ function canUseFeature(feature) {
 
 function canUseMarket(market) {
   return Array.from(marketSections).some((section) => section.dataset.marketSection === market && canUseFeature(section.dataset.feature));
+}
+
+function taipeiTodayIso() {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Taipei",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(new Date());
+}
+
+function currentEventDate() {
+  const today = taipeiTodayIso();
+  const briefingDate = /^\d{4}-\d{2}-\d{2}$/.test(dailyBriefing.asOfDate || "") ? dailyBriefing.asOfDate : today;
+  return today > briefingDate ? today : briefingDate;
+}
+
+function eventIsCurrent(event) {
+  const today = currentEventDate();
+  const outcome = eventOutcomeFor(event);
+  if (outcome?.retainUntil && outcome.retainUntil >= today) return true;
+  return event.date >= today;
 }
 
 function themeCount(theme) {
@@ -1426,7 +1545,7 @@ function filteredEvents() {
     const matchesCategory = state.eventCategory === "全部" || event.category === state.eventCategory;
     const haystack = `${event.tickers.join(" ")} ${event.title} ${event.announcementSummary} ${event.readingPoints.join(" ")} ${event.category}`.toLowerCase();
     const matchesQuery = !query || haystack.includes(query);
-    return matchesCategory && matchesQuery;
+    return eventIsCurrent(event) && matchesCategory && matchesQuery;
   });
 }
 
@@ -2111,52 +2230,25 @@ function attachSortableTables(root = document) {
   });
 }
 
-function twInsiderLatestMonthShares(stock) {
-  const latestPeriod = twInsiderHoldingLatest.periods?.[0];
-  return (stock.people ?? []).reduce((sum, person) => {
-    const month = (person.monthly ?? []).find((item) => item.period === latestPeriod) ?? person.monthly?.[0];
-    return sum + Number(month?.increaseShares ?? 0) - Number(month?.decreaseShares ?? 0);
-  }, 0);
-}
-
-function twInsiderLatestMonthValue(stock) {
-  const close = Number(stock.closePrice);
-  if (!Number.isFinite(close)) return 0;
-  return twInsiderLatestMonthShares(stock) * close;
-}
-
-function twInsiderSortValue(stock) {
-  if (twInsiderSortMode === "latestMonthValue") {
-    return Math.abs(twInsiderLatestMonthValue(stock));
-  }
-  return Math.abs(Number(stock.netValue ?? 0));
-}
-
 function twInsiderRows() {
-  let rows = [...(twInsiderHoldingLatest.stocks ?? [])];
+  const rows = twInsiderHoldingLatest.stocks ?? [];
   const query = state.query.trim().toLowerCase();
-  if (query) {
-    rows = rows.filter((stock) => {
-      const peopleText = (stock.people ?? []).map((person) => [
-        person.person,
-        person.relation,
-        (person.roles ?? []).join(" "),
-        person.shareType,
-      ].join(" ")).join(" ");
-      const haystack = [
-        stock.code,
-        stock.name,
-        stock.market,
-        stock.industry,
-        peopleText,
-      ].join(" ").toLowerCase();
-      return haystack.includes(query);
-    });
-  }
-  return rows.sort((left, right) => {
-    const primary = twInsiderSortValue(right) - twInsiderSortValue(left);
-    if (primary !== 0) return primary;
-    return Math.abs(Number(right.netValue ?? 0)) - Math.abs(Number(left.netValue ?? 0));
+  if (!query) return rows;
+  return rows.filter((stock) => {
+    const peopleText = (stock.people ?? []).map((person) => [
+      person.person,
+      person.relation,
+      (person.roles ?? []).join(" "),
+      person.shareType,
+    ].join(" ")).join(" ");
+    const haystack = [
+      stock.code,
+      stock.name,
+      stock.market,
+      stock.industry,
+      peopleText,
+    ].join(" ").toLowerCase();
+    return haystack.includes(query);
   });
 }
 
@@ -2245,7 +2337,6 @@ function renderTwInsiderHolding() {
   const updated = formatBriefingTime(twInsiderHoldingLatest.generatedAt);
   const liquidityThreshold = twInsiderHoldingLatest.filters?.liquidityThreshold;
   const liquidityFilterText = liquidityThreshold == null ? "" : `<span>月成交值 ${formatTwMoney(liquidityThreshold)} 以上</span>`;
-  const sortText = twInsiderSortMode === "latestMonthValue" ? "最新月淨變動金額" : "三月淨變動金額";
   if (twInsiderStats) {
     twInsiderStats.textContent = `${periods.join(" / ") || "尚未更新"} / ${rows.length} 檔`;
   }
@@ -2264,7 +2355,6 @@ function renderTwInsiderHolding() {
       <span>主管/家屬 ${Number(stats.selectedPeople ?? 0)} 人</span>
       <span>金額門檻 ${formatTwMoney(twInsiderHoldingLatest.filters?.valueThreshold ?? 5000000)} 以上</span>
       ${liquidityFilterText}
-      <span>排序 ${sortText}</span>
       <span>更新 ${escapeHtml(updated)}</span>
     </div>
     <div class="tw-insider-list">${rows.map(twInsiderStockCard).join("")}</div>
@@ -3123,14 +3213,6 @@ marketButtons.forEach((button) => {
 if (selfReportSelect) {
   selfReportSelect.addEventListener("change", (event) => {
     setSelfReportDate(event.target.value);
-  });
-}
-
-if (twInsiderSortSelect) {
-  twInsiderSortSelect.value = twInsiderSortMode;
-  twInsiderSortSelect.addEventListener("change", (event) => {
-    twInsiderSortMode = event.target.value;
-    renderTwInsiderHolding();
   });
 }
 
