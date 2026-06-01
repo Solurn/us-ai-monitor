@@ -1,5 +1,5 @@
 window.twRevenueLatest = {
-  "generatedAt": "2026-06-01T20:03:31+08:00",
+  "generatedAt": "2026-06-01T20:09:29+08:00",
   "period": "115/5",
   "source": "MOPS 月營收彙總表",
   "filters": {
