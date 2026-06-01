@@ -14,6 +14,7 @@ const GLOBAL_FILES = {
   financialReportHistory: "financial-report-history.js",
   irSummaryHistory: "ir-summary-history.js",
   twRevenueLatest: "tw-revenue-latest.js",
+  twRevenueHistory: "tw-revenue-history.js",
   twInsiderHoldingLatest: "insider-holding-latest.js",
 };
 
@@ -69,6 +70,7 @@ export async function readDashboardData(permissions) {
   }
   if (permissions.tw_revenue) {
     data.twRevenueLatest = await readWindowAssignment("twRevenueLatest");
+    data.twRevenueHistory = await readWindowAssignment("twRevenueHistory");
   }
   if (permissions.tw_insider) {
     data.twInsiderHoldingLatest = await readWindowAssignment("twInsiderHoldingLatest");

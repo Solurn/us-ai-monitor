@@ -16,6 +16,7 @@ const dataScripts = [
   "financial-report-history.js",
   "ir-summary-history.js",
   "tw-revenue-latest.js",
+  "tw-revenue-history.js",
   "insider-holding-latest.js",
 ];
 

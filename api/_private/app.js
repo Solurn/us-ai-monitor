@@ -562,6 +562,15 @@ const twRevenueLatest = window.twRevenueLatest ?? {
   stories: [],
 };
 
+const twRevenueHistory = window.twRevenueHistory ?? {
+  generatedAt: twRevenueLatest.generatedAt || "",
+  latestPeriod: twRevenueLatest.period || "",
+  source: twRevenueLatest.source || "",
+  periods: twRevenueLatest.period ? [twRevenueLatest] : [],
+};
+
+let twRevenueSelectedPeriod = twRevenueHistory.latestPeriod || twRevenueLatest.period || "";
+
 const twInsiderHoldingLatest = window.twInsiderHoldingLatest ?? {
   generatedAt: "",
   periods: [],
@@ -1462,6 +1471,7 @@ const irSummaryPanel = document.querySelector("#irSummaryPanel");
 const rangeLabel = document.querySelector("#rangeLabel");
 const rangeValue = document.querySelector("#rangeValue");
 const twRevenueStats = document.querySelector("#twRevenueStats");
+const twRevenuePeriodSelect = document.querySelector("#twRevenuePeriodSelect");
 const twRevenuePanel = document.querySelector("#twRevenuePanel");
 const twInsiderStats = document.querySelector("#twInsiderStats");
 const twInsiderPanel = document.querySelector("#twInsiderPanel");
@@ -2194,6 +2204,34 @@ function twRevenueTable(rows, emptyText) {
   `;
 }
 
+function twRevenueArchiveItems() {
+  const byPeriod = new Map();
+  for (const item of twRevenueHistory.periods ?? []) {
+    if (item?.period) byPeriod.set(item.period, item);
+  }
+  if (twRevenueLatest.period) byPeriod.set(twRevenueLatest.period, twRevenueLatest);
+  return Array.from(byPeriod.values()).sort((a, b) => String(b.period || "").localeCompare(String(a.period || ""), "zh-Hant", { numeric: true }));
+}
+
+function currentTwRevenueItem() {
+  const items = twRevenueArchiveItems();
+  if (!twRevenueSelectedPeriod && items[0]?.period) twRevenueSelectedPeriod = items[0].period;
+  return items.find((item) => item.period === twRevenueSelectedPeriod) ?? items[0] ?? twRevenueLatest;
+}
+
+function renderTwRevenuePeriodSelect() {
+  if (!twRevenuePeriodSelect) return;
+  const items = twRevenueArchiveItems();
+  twRevenuePeriodSelect.hidden = items.length <= 1;
+  twRevenuePeriodSelect.innerHTML = items.map((item) => {
+    const stats = item.stats ?? {};
+    const count = Number(stats.selected ?? item.selected?.length ?? 0);
+    const suffix = item.period === (twRevenueHistory.latestPeriod || items[0]?.period) ? " / 最新" : "";
+    return `<option value="${escapeHtml(item.period)}">${escapeHtml(item.period)} / ${count} 筆${suffix}</option>`;
+  }).join("");
+  twRevenuePeriodSelect.value = currentTwRevenueItem().period || "";
+}
+
 function parseSortableCell(cell, type) {
   const raw = cell?.dataset?.sortValue ?? cell?.textContent ?? "";
   if (type === "number") {
@@ -2363,11 +2401,13 @@ function renderTwInsiderHolding() {
 
 function renderTwRevenue() {
   if (!twRevenuePanel) return;
-  const selected = twSearchRows(twRevenueLatest.selected ?? []);
-  const stories = twSearchRows(twRevenueLatest.stories ?? []);
-  const stats = twRevenueLatest.stats ?? {};
-  const period = twRevenueLatest.period || "尚未更新";
-  const updated = formatBriefingTime(twRevenueLatest.generatedAt);
+  const item = currentTwRevenueItem();
+  renderTwRevenuePeriodSelect();
+  const selected = twSearchRows(item.selected ?? []);
+  const stories = twSearchRows(item.stories ?? []);
+  const stats = item.stats ?? {};
+  const period = item.period || "尚未更新";
+  const updated = formatBriefingTime(item.generatedAt);
 
   if (twRevenueStats) {
     twRevenueStats.textContent = `${period} / 入選 ${Number(stats.selected ?? selected.length)} 筆`;
@@ -2377,19 +2417,19 @@ function renderTwRevenue() {
     <div class="tw-revenue-summary">
       <span>有備註故事 ${Number(stats.stories ?? 0)} 筆</span>
       <span>創歷史新高 ${Number(stats.highs ?? 0)} 筆</span>
-      <span>創高且有故事 ${Number(stats.storyHighs ?? 0)} 筆</span>
+      <span>創高且有備註 ${Number(stats.storyHighs ?? 0)} 筆</span>
       <span>更新 ${escapeHtml(updated)}</span>
     </div>
     <div class="tw-revenue-block">
       <div class="tw-revenue-heading">
-        <h4>有備註故事的高成長公司</h4>
+        <h4>有備註的高成長公司</h4>
         <span>${stories.length} / ${Number(stats.stories ?? stories.length)} 筆</span>
       </div>
       ${twRevenueTable(stories, "沒有符合搜尋條件的備註故事。")}
     </div>
     <div class="tw-revenue-block">
       <div class="tw-revenue-heading">
-        <h4>完整入選清單</h4>
+        <h4>MoM 或 YoY 30% 以上，MoM/YoY 皆非負，且累計 YoY 為正</h4>
         <span>${selected.length} / ${Number(stats.selected ?? selected.length)} 筆</span>
       </div>
       ${twRevenueTable(selected, "沒有符合搜尋條件的入選公司。")}
@@ -2437,10 +2477,11 @@ function renderMarketShell() {
   }
   if (searchInput) searchInput.placeholder = isTw ? "台股代號 / 公司 / 產業 / 備註" : "Ticker / 公司 / 技術";
   if (rangeLabel) rangeLabel.textContent = isTw ? "資料月份" : "事件範圍";
-  if (rangeValue) rangeValue.textContent = isTw ? ((twInsiderHoldingLatest.periods ?? []).join(" / ") || twRevenueLatest.period || "待更新") : "30 天";
+  const currentRevenue = currentTwRevenueItem();
+  if (rangeValue) rangeValue.textContent = isTw ? ((twInsiderHoldingLatest.periods ?? []).join(" / ") || currentRevenue.period || "待更新") : "30 天";
 
   if (isTw) {
-    const revenueStats = twRevenueLatest.stats ?? {};
+    const revenueStats = currentRevenue.stats ?? {};
     const insiderStats = twInsiderHoldingLatest.stats ?? {};
     if (briefingAsOf) briefingAsOf.textContent = `內部人月份：${(twInsiderHoldingLatest.periods ?? []).join(" / ") || "尚未更新"}`;
     if (totalCount) totalCount.textContent = Number(insiderStats.selectedStocks ?? 0).toLocaleString("zh-TW");
@@ -3213,6 +3254,14 @@ marketButtons.forEach((button) => {
 if (selfReportSelect) {
   selfReportSelect.addEventListener("change", (event) => {
     setSelfReportDate(event.target.value);
+  });
+}
+
+if (twRevenuePeriodSelect) {
+  twRevenuePeriodSelect.addEventListener("change", (event) => {
+    twRevenueSelectedPeriod = event.target.value;
+    renderMarketShell();
+    renderTwRevenue();
   });
 }
 
