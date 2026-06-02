@@ -1126,6 +1126,209 @@ const stockResearchNotes = {
   },
 };
 
+const companyDeepDives = {
+  AAPL: {
+    role: "消費硬體平台與高毛利服務生態系",
+    mainItems: ["iPhone / Mac / iPad", "Services", "Apple Intelligence", "自研晶片", "回購與股利"],
+    industryPlace: "屬於 AI 端側裝置與大型消費平台，不是 AI 基礎建設供應商；市場看的是 AI 功能能否延長換機週期與保住服務收入品質。",
+    moat: "硬體安裝基礎、App Store/Services 生態、品牌黏著度、供應鏈管理與資本回饋。",
+    bottlenecks: ["iPhone 換機週期是否疲弱", "Apple Intelligence 商業化慢", "中國需求與監管", "Services margin 是否維持"],
+    monitor: "先看 iPhone revenue、Services gross margin、管理層對 AI device 的具體說法，以及回購是否支撐 EPS。",
+  },
+  MSFT: {
+    role: "企業 AI 軟體與雲端基礎建設入口",
+    mainItems: ["Azure", "Microsoft 365 / Copilot", "OpenAI ecosystem", "Windows / GitHub", "enterprise security"],
+    industryPlace: "同時站在 AI cloud demand 與 AI software monetization 兩端，是判斷企業是否願意為 AI 付費的核心樣本。",
+    moat: "企業客戶關係、Azure + Office 綁定、開發者工具、資料與 identity 生態、OpenAI 早期策略位置。",
+    bottlenecks: ["Azure AI capacity 是否仍受限", "Copilot ARPU 能否證明", "AI capex 對毛利與 FCF 壓力", "OpenAI 依賴與競爭"],
+    monitor: "追 Azure growth、AI services contribution、capex/finance lease、Copilot seat expansion 與商用客戶續約。",
+  },
+  NVDA: {
+    role: "AI factory 平台核心供應商",
+    mainItems: ["GPU", "Vera CPU / Rubin GPU", "NVLink", "Spectrum-X", "BlueField / ConnectX", "CUDA"],
+    industryPlace: "不只是 GPU 公司，而是把 compute、networking、DPU、software stack 與 rack-scale reference design 串成完整 AI 產能平台。",
+    moat: "CUDA 生態、產品節奏、供應鏈議價、平台整合能力、hyperscaler 採用深度與 developer mindshare。",
+    bottlenecks: ["Blackwell/Rubin ramp", "gross margin normalization", "China export controls", "HBM/CoWoS 供給", "AI ROI 質疑"],
+    monitor: "GTC/財報要追 Rubin、NVL72、Spectrum-X/CPO、gross margin、backlog visibility 與 hyperscaler capex 訊號。",
+  },
+  AMZN: {
+    role: "雲端 AI 需求與消費/廣告營運槓桿樣本",
+    mainItems: ["AWS", "Trainium / Inferentia", "retail marketplace", "advertising", "logistics"],
+    industryPlace: "AWS 是 AI infrastructure demand 的重要讀數；零售與廣告則決定整體 margin 是否能抵銷 AI capex 壓力。",
+    moat: "AWS 客戶基礎、雲端服務深度、物流與 marketplace 規模、廣告資料與高頻消費流量。",
+    bottlenecks: ["AWS growth 是否再加速", "AI capex 對 FCF 壓力", "零售 margin 波動", "自研晶片能否降低成本"],
+    monitor: "看 AWS revenue growth、operating margin、capex guide、advertising growth 與 Trainium/Inferentia 採用。",
+  },
+  GOOGL: {
+    role: "AI search、TPU 與 Google Cloud 平台",
+    mainItems: ["Search / YouTube ads", "Gemini", "Google Cloud", "TPU", "Waymo"],
+    industryPlace: "一邊要守住 Search 廣告，一邊用 TPU/cloud 證明 AI infrastructure 能變成收入；也是自研 ASIC 的代表。",
+    moat: "搜尋入口、資料規模、廣告技術、TPU 長期研發、AI model 與雲端客戶。",
+    bottlenecks: ["AI Overviews 影響點擊與廣告", "Cloud margin", "TPU 外部化程度", "反壟斷與監管"],
+    monitor: "追 Search monetization、Google Cloud growth、TPU/AI capex、Gemini adoption 與監管進展。",
+  },
+  META: {
+    role: "社群廣告平台與大型 AI capex 消費者",
+    mainItems: ["Facebook / Instagram", "Reels ads", "AI recommendation", "Llama", "Reality Labs"],
+    industryPlace: "是 AI infrastructure demand 的大買家，也用 AI 直接改善廣告 targeting、ranking、content generation 與 engagement。",
+    moat: "社群網路規模、廣告資料、推薦系統能力、開源 Llama 生態與高現金流。",
+    bottlenecks: ["AI capex 是否過度", "Reality Labs 虧損", "廣告景氣", "regulatory / privacy risk"],
+    monitor: "看 ad impression、price per ad、capex outlook、Llama/AI agent strategy 與 FCF 承受度。",
+  },
+  TSLA: {
+    role: "電動車、能源儲存與實體 AI 選擇權",
+    mainItems: ["EV", "FSD / Robotaxi", "Optimus", "Energy storage", "Dojo"],
+    industryPlace: "短期仍是汽車毛利與需求，長期故事是 autonomous driving、robotics 與能源平台能否兌現。",
+    moat: "品牌、軟體/車隊資料、垂直整合、充電網路、能源儲存規模。",
+    bottlenecks: ["車價與毛利", "Robotaxi 法規與可靠性", "FSD 商業化時間", "中國與全球需求"],
+    monitor: "追 delivery、auto gross margin、FSD take rate、energy storage margin 與 Robotaxi 時程可驗證性。",
+  },
+  AVGO: {
+    role: "custom AI ASIC、networking 與企業軟體整合商",
+    mainItems: ["custom AI ASIC", "switching / networking silicon", "optical / DSP exposure", "VMware", "semiconductor IP"],
+    industryPlace: "在 hyperscaler 自研 AI 晶片與 AI networking 中扮演關鍵供應商；同時 VMware 改變公司現金流結構。",
+    moat: "客製 ASIC 執行能力、雲端大客戶關係、網通晶片規模、VMware recurring revenue。",
+    bottlenecks: ["ASIC program concentration", "VMware 整合與續約", "AI revenue visibility", "gross margin mix"],
+    monitor: "看 AI semiconductor revenue、customer pipeline、VMware bookings、networking demand 與管理層對 2027 visibility。",
+  },
+  AMD: {
+    role: "GPU 追趕者與 data center CPU 供應商",
+    mainItems: ["MI GPU", "EPYC", "Ryzen", "Pensando DPU", "adaptive / embedded"],
+    industryPlace: "是 NVDA 之外最重要的 AI accelerator 替代方案，同時用 EPYC 在 data center CPU 保持競爭。",
+    moat: "EPYC 性價比、CPU/GPU portfolio、chiplet 設計、雲端客戶導入與開放軟體策略。",
+    bottlenecks: ["MI GPU supply 與 software ecosystem", "gross margin", "NVDA 競爭壓力", "client/embedded cycle"],
+    monitor: "追 MI revenue guide、EPYC share gain、ROCm progress、hyperscaler adoption 與 inventory。",
+  },
+  ORCL: {
+    role: "資料庫巨頭與 AI cloud capacity 提供者",
+    mainItems: ["Oracle Database", "OCI", "AI cloud infrastructure", "SaaS applications", "RPO / backlog"],
+    industryPlace: "不是最大雲，但因 GPU cluster、low-cost cloud 與資料庫客戶基礎，成為 AI cloud demand 的高成長樣本。",
+    moat: "資料庫鎖定效應、enterprise workload、OCI cost profile、AI capacity partnership 與 RPO visibility。",
+    bottlenecks: ["capex 與供給是否跟上", "OCI margin", "AI backlog 轉收入速度", "與 hyperscaler 合作/競爭界線"],
+    monitor: "看 OCI growth、remaining performance obligations、AI infrastructure backlog、capex 與 cloud margin。",
+  },
+  TSM: {
+    role: "AI 半導體製造與先進封裝樞紐",
+    mainItems: ["N3/N2 advanced nodes", "CoWoS", "SoIC", "HPC wafers", "foundry services"],
+    industryPlace: "AI 晶片供應鏈的製造核心；NVDA、AMD、AVGO、Apple 等平台公司的產品節奏高度依賴 TSMC。",
+    moat: "先進製程良率、客戶信任、先進封裝產能、資本配置與全球製造網路。",
+    bottlenecks: ["CoWoS capacity", "capex intensity", "地緣政治", "先進節點成本", "毛利率與匯率"],
+    monitor: "追 HPC revenue mix、CoWoS 擴產、capex、gross margin、N2 adoption 與主要客戶產品週期。",
+  },
+  INTC: {
+    role: "x86 CPU、foundry turnaround 與 AI PC 樣本",
+    mainItems: ["Xeon", "Core / AI PC", "Intel Foundry", "Gaudi / accelerator", "process roadmap"],
+    industryPlace: "同時是 data center CPU 競爭者與 foundry 轉型公司；投資重點是製程承諾能否落地。",
+    moat: "x86 installed base、政府/國防支持、製造資產、enterprise CPU 生態。",
+    bottlenecks: ["foundry 客戶取得", "製程節點執行", "data center share loss", "資本支出與現金流"],
+    monitor: "看 foundry losses、external customer wins、Xeon demand、AI PC traction 與節點 roadmap。",
+  },
+  AMAT: {
+    role: "半導體設備與材料工程供應商",
+    mainItems: ["deposition", "etch support", "process equipment", "advanced packaging tools", "services"],
+    industryPlace: "受惠先進製程、HBM/advanced packaging、memory recovery 與中國成熟製程需求。",
+    moat: "廣泛 equipment portfolio、installed base services、材料工程 know-how、客戶深度。",
+    bottlenecks: ["WFE cycle", "China export controls", "memory capex 波動", "先進封裝工具占比"],
+    monitor: "追 WFE outlook、China revenue、services growth、advanced packaging demand 與 backlog。",
+  },
+  LRCX: {
+    role: "etch/deposition 與 memory capex 敏感設備商",
+    mainItems: ["etch", "deposition", "clean", "memory equipment", "customer support business"],
+    industryPlace: "對 NAND/DRAM 與 HBM 相關資本支出敏感；也是判斷 memory equipment cycle 的重要樣本。",
+    moat: "etch 技術、memory 客戶關係、installed base、process recipe know-how。",
+    bottlenecks: ["memory capex cycle", "China demand", "NAND recovery", "advanced packaging exposure"],
+    monitor: "看 memory spending、China 出貨限制、customer support revenue、HBM/advanced packaging 評論。",
+  },
+  KLAC: {
+    role: "process control / inspection 的良率守門員",
+    mainItems: ["wafer inspection", "reticle inspection", "metrology", "process control software", "services"],
+    industryPlace: "先進製程越複雜，越需要檢測與量測；AI 晶片良率、先進封裝與 leading-edge foundry 都會牽動需求。",
+    moat: "高市占 inspection、資料/演算法、客戶製程嵌入程度、service recurrence。",
+    bottlenecks: ["WFE 波動", "China exposure", "先進節點投資節奏", "估值對成長預期敏感"],
+    monitor: "追 foundry/logic demand、service revenue、advanced packaging inspection 與 2026 WFE outlook。",
+  },
+  ANET: {
+    role: "cloud titan 與 AI Ethernet 網路設備商",
+    mainItems: ["data center switches", "AI Ethernet", "EOS software", "campus networking", "CloudVision"],
+    industryPlace: "若 AI cluster 從專有互連走向 Ethernet scale-out，ANET 是最直接的網路設備受益者之一。",
+    moat: "cloud titan 客戶、EOS 軟體、high-speed switching execution、低延遲網路經驗。",
+    bottlenecks: ["customer concentration", "AI Ethernet adoption timing", "gross margin", "NVDA Spectrum-X competition"],
+    monitor: "看 AI networking revenue、cloud titan capex、Microsoft/Meta exposure、800G/1.6T transition。",
+  },
+  CSCO: {
+    role: "企業網路、安全與大型客戶 AI order 觀察樣本",
+    mainItems: ["enterprise networking", "security", "Splunk", "AI infrastructure orders", "services"],
+    industryPlace: "不像 ANET 那麼純 cloud titan，但在企業網路、安全與資料可觀測性上有完整堆疊。",
+    moat: "enterprise installed base、channel、security portfolio、Splunk data platform、服務收入。",
+    bottlenecks: ["enterprise networking recovery", "Splunk integration", "AI orders 能否轉收入", "growth profile 偏低"],
+    monitor: "追 AI infrastructure order disclosure、security/Splunk growth、campus refresh 與 guidance。",
+  },
+  MRVL: {
+    role: "custom silicon、optical DSP 與 data center connectivity",
+    mainItems: ["custom ASIC", "PAM/DSP", "switching / storage connectivity", "electro-optics", "data center silicon"],
+    industryPlace: "站在 AI ASIC 與高速連接的交界；受惠雲端自研晶片與 optical connectivity 升級。",
+    moat: "客製 silicon 設計能力、DSP/SerDes、雲端客戶 program、connectivity portfolio。",
+    bottlenecks: ["program ramp timing", "customer concentration", "non-data-center segments", "gross margin mix"],
+    monitor: "看 custom AI silicon ramp、data center revenue、optical DSP demand、設計案轉量產時間。",
+  },
+  COHR: {
+    role: "AI data center 光通訊與 photonics 供應商",
+    mainItems: ["datacom transceivers", "lasers", "photonic components", "industrial lasers", "materials"],
+    industryPlace: "AI cluster 需要更高 bandwidth 與更低功耗，COHR 是光通訊模組/元件與 photonics 受益鏈之一。",
+    moat: "光學元件、雷射技術、垂直整合、datacom 客戶、材料能力。",
+    bottlenecks: ["800G/1.6T ramp", "margin recovery", "競爭與 pricing", "telecom/industrial cycle"],
+    monitor: "追 datacom growth、AI customer demand、gross margin、CPO/silicon photonics commentary。",
+  },
+  LITE: {
+    role: "cloud optics、OCS 與 CPO 題材核心標的",
+    mainItems: ["optical transceivers", "OCS", "CPO exposure", "datacenter lasers", "telecom optics"],
+    industryPlace: "如果 AI data center 採用 optical circuit switching、CPO 或更高速 optical links，LITE 的題材敏感度高。",
+    moat: "光學技術、cloud customer relationship、OCS positioning、產品轉換彈性。",
+    bottlenecks: ["cloud order timing", "telecom weakness", "產品轉換良率", "競爭與毛利"],
+    monitor: "追 OCS/CPO 訂單、cloud optics demand、800G/1.6T ramp、margin recovery 與管理層 visibility。",
+  },
+  VRT: {
+    role: "AI data center 電力、冷卻與機房基礎設施",
+    mainItems: ["UPS / power", "thermal management", "liquid cooling", "racks / services", "data center infrastructure"],
+    industryPlace: "AI rack 功耗提升使 power/cooling 成為瓶頸，VRT 是最直接的液冷與機房基建標的之一。",
+    moat: "產品組合完整、全球服務、hyperscaler 關係、液冷與高功率基建能力。",
+    bottlenecks: ["capacity expansion", "backlog 轉收入", "margin execution", "估值與預期過熱"],
+    monitor: "看 organic growth、orders/backlog、liquid cooling demand、guidance raise 與 Americas margin。",
+  },
+  ETN: {
+    role: "電氣化、資料中心電力與工業電源平台",
+    mainItems: ["electrical equipment", "power management", "data center power", "aerospace", "grid products"],
+    industryPlace: "AI data center 需要更多配電、UPS、switchgear 與電力管理，ETN 是較穩健的 electrification 受益者。",
+    moat: "電氣產品組合、工業客戶、pricing power、航空與資料中心雙引擎。",
+    bottlenecks: ["orders growth", "supply chain", "margin 是否維持", "資料中心占比不如 VRT 純"],
+    monitor: "追 electrical Americas orders、data center commentary、aerospace demand、margin 與 backlog。",
+  },
+  PWR: {
+    role: "電網、輸配電與資料中心電力工程服務",
+    mainItems: ["utility infrastructure", "grid modernization", "renewables connection", "data center power projects", "specialty contracting"],
+    industryPlace: "AI data center 最後要接上電網，PWR 的價值在工程、併網與大型專案執行。",
+    moat: "大型工程能力、utility 客戶、backlog、現場施工與專案管理 know-how。",
+    bottlenecks: ["專案時程", "margin variability", "labor / permitting", "收入確認節奏"],
+    monitor: "看 backlog、large project timing、data center power demand、utility spending 與 cash conversion。",
+  },
+  CRM: {
+    role: "企業 CRM 平台與 AI agent 商業化樣本",
+    mainItems: ["Sales Cloud", "Service Cloud", "Data Cloud", "Agentforce", "Slack / Tableau"],
+    industryPlace: "代表 enterprise software 能否把 AI 從 demo 變成付費 agent、提升 cRPO 與續約。",
+    moat: "CRM workflow 資料、企業客戶、應用生態、Data Cloud 與 go-to-market。",
+    bottlenecks: ["AI agent 付費採用", "seat growth 放緩", "margin vs investment", "競爭與客戶預算"],
+    monitor: "追 Agentforce adoption、Data Cloud growth、cRPO、net retention、margin 與大型客戶案例。",
+  },
+  NOW: {
+    role: "企業 workflow automation 與 AI service management 平台",
+    mainItems: ["ITSM", "Now Assist", "workflow automation", "security/operations workflows", "RPO"],
+    industryPlace: "是企業流程自動化與 AI assistant 落地的重要樣本；重點是 AI 是否提升 workflow ROI。",
+    moat: "workflow system of record、enterprise integration、high renewal、platform expansion。",
+    bottlenecks: ["AI pricing proof", "Armis integration", "margin guidance", "企業 IT budget"],
+    monitor: "看 subscription growth、RPO、Now Assist adoption、large deal pipeline、AI workflow commentary。",
+  },
+};
+
 Object.entries(dailyBriefing.stockUpdates ?? {}).forEach(([ticker, update]) => {
   if (!stockIntel[ticker]) stockIntel[ticker] = { recent: [], market: [], sources: [] };
   const autoItems = (update.items ?? []).map((item) => `自動更新：${item}`);
@@ -1540,10 +1743,14 @@ function filteredStocks() {
   return watchlist.filter((stock) => {
     const matchesTheme = state.theme === "All" || stock.theme === state.theme;
     const research = stockResearchNotes[stock.ticker];
+    const deepDive = companyDeepDives[stock.ticker];
     const researchText = research
       ? `${research.ratingPulse?.label ?? ""} ${research.ratingPulse?.detail ?? ""} ${(research.eventNotes ?? []).join(" ")} ${(research.marketExpansion ?? []).join(" ")}`
       : "";
-    const haystack = `${stock.ticker} ${stock.company} ${stock.theme} ${stock.watchReason} ${stock.focusItems.join(" ")} ${researchText}`.toLowerCase();
+    const deepDiveText = deepDive
+      ? `${deepDive.role} ${deepDive.mainItems.join(" ")} ${deepDive.industryPlace} ${deepDive.moat} ${deepDive.bottlenecks.join(" ")} ${deepDive.monitor}`
+      : "";
+    const haystack = `${stock.ticker} ${stock.company} ${stock.theme} ${stock.watchReason} ${stock.focusItems.join(" ")} ${researchText} ${deepDiveText}`.toLowerCase();
     const matchesQuery = !query || haystack.includes(query);
     return matchesTheme && matchesQuery;
   });
@@ -1573,6 +1780,37 @@ function filteredLearningTopics() {
 
 function topicsForStock(ticker) {
   return learningTopics.filter((topic) => topic.relatedTickers.includes(ticker)).slice(0, 5);
+}
+
+function companyDeepDiveMarkup(deepDive) {
+  if (!deepDive) return "";
+  return `
+    <div class="company-deep-dive">
+      <div class="deep-dive-head">
+        <span>產業定位</span>
+        <strong>${deepDive.role}</strong>
+      </div>
+      <div class="deep-dive-grid">
+        <div>
+          <strong>主要項目</strong>
+          <ul class="deep-dive-tags">${deepDive.mainItems.map((item) => `<li>${item}</li>`).join("")}</ul>
+        </div>
+        <div>
+          <strong>它在 AI 供應鏈的位置</strong>
+          <p>${deepDive.industryPlace}</p>
+        </div>
+        <div>
+          <strong>護城河 / 優勢</strong>
+          <p>${deepDive.moat}</p>
+        </div>
+        <div>
+          <strong>目前瓶頸</strong>
+          <ul>${deepDive.bottlenecks.map((item) => `<li>${item}</li>`).join("")}</ul>
+        </div>
+      </div>
+      <p class="deep-dive-monitor"><strong>可以怎麼追：</strong>${deepDive.monitor}</p>
+    </div>
+  `;
 }
 
 const performanceCache = new Map();
@@ -1807,6 +2045,7 @@ function stockCard(stock) {
   const nextEvent = events[0];
   const intel = stockIntel[stock.ticker];
   const research = stockResearchNotes[stock.ticker];
+  const deepDive = companyDeepDives[stock.ticker];
   const sourceLinks = [...(intel?.sources ?? []), ...(research?.sources ?? [])];
   const learningRefs = topicsForStock(stock.ticker);
   return `
@@ -1820,6 +2059,7 @@ function stockCard(stock) {
       </div>
       <span class="theme-label">${stock.theme}</span>
       <p class="stock-reason">${stock.watchReason}</p>
+      ${companyDeepDiveMarkup(deepDive)}
       <ul class="focus-list">
         ${stock.focusItems.map((item) => `<li>${item}</li>`).join("")}
       </ul>
