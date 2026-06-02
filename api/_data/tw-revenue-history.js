@@ -1,10 +1,10 @@
 window.twRevenueHistory = {
-  "generatedAt": "2026-06-01T21:14:43+08:00",
+  "generatedAt": "2026-06-02T21:56:18+08:00",
   "latestPeriod": "115/5",
   "source": "MOPS 月營收彙總表",
   "periods": [
     {
-      "generatedAt": "2026-06-01T21:14:43+08:00",
+      "generatedAt": "2026-06-02T21:56:18+08:00",
       "period": "115/5",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -25,16 +25,33 @@ window.twRevenueHistory = {
         "publicIssueDateCutoff": "89/01/01"
       },
       "stats": {
-        "selected": 0,
+        "selected": 1,
         "stories": 0,
         "highs": 0,
         "storyHighs": 0
       },
-      "selected": [],
+      "selected": [
+        {
+          "market": "上櫃",
+          "code": "3625",
+          "name": "西勝",
+          "industry": "電腦及週邊設備業",
+          "currentRevenue": 32071,
+          "momPct": 40.256275693168895,
+          "yoyPct": 5.625267595428647,
+          "ytdYoyPct": 0.0017074073020118949,
+          "remark": "-",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 301503,
+          "publicIssueDate": "97/04/02",
+          "businessDescription": "鋰電池模組之研發、製造及銷售\n電池零件買賣\n電子材料買賣"
+        }
+      ],
       "stories": []
     },
     {
-      "generatedAt": "2026-06-01T21:14:46+08:00",
+      "generatedAt": "2026-06-02T21:56:26+08:00",
       "period": "115/4",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -249,7 +266,7 @@ window.twRevenueHistory = {
           "remark": "本期營收較前期成長係因產品市場需求復甦",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：4,634,223 千元",
-          "previousHighRevenue": 3025805,
+          "previousHighRevenue": 4466516,
           "publicIssueDate": "89/04/21",
           "businessDescription": "動、靜態隨機存取記憶體(DRAM/SRAM)、快閃記憶體(FLASH)\n類比積體電路、類比與數位混合積體電路\n與本公司業務相關之產品設計及研發之技術服務"
         },
@@ -2827,7 +2844,7 @@ window.twRevenueHistory = {
           "remark": "本期營收較前期成長係因產品市場需求復甦",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：4,634,223 千元",
-          "previousHighRevenue": 3025805,
+          "previousHighRevenue": 4466516,
           "publicIssueDate": "89/04/21",
           "businessDescription": "動、靜態隨機存取記憶體(DRAM/SRAM)、快閃記憶體(FLASH)\n類比積體電路、類比與數位混合積體電路\n與本公司業務相關之產品設計及研發之技術服務"
         },
@@ -4194,7 +4211,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-06-01T21:14:49+08:00",
+      "generatedAt": "2026-06-02T21:56:35+08:00",
       "period": "115/3",
       "source": "MOPS 月營收彙總表",
       "filters": {

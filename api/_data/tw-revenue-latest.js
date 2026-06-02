@@ -1,5 +1,5 @@
 window.twRevenueLatest = {
-  "generatedAt": "2026-06-01T21:14:43+08:00",
+  "generatedAt": "2026-06-02T21:56:18+08:00",
   "period": "115/5",
   "source": "MOPS 月營收彙總表",
   "filters": {
@@ -20,11 +20,28 @@ window.twRevenueLatest = {
     "publicIssueDateCutoff": "89/01/01"
   },
   "stats": {
-    "selected": 0,
+    "selected": 1,
     "stories": 0,
     "highs": 0,
     "storyHighs": 0
   },
-  "selected": [],
+  "selected": [
+    {
+      "market": "上櫃",
+      "code": "3625",
+      "name": "西勝",
+      "industry": "電腦及週邊設備業",
+      "currentRevenue": 32071,
+      "momPct": 40.256275693168895,
+      "yoyPct": 5.625267595428647,
+      "ytdYoyPct": 0.0017074073020118949,
+      "remark": "-",
+      "allTimeHigh": false,
+      "allTimeHighNote": "",
+      "previousHighRevenue": 301503,
+      "publicIssueDate": "97/04/02",
+      "businessDescription": "鋰電池模組之研發、製造及銷售\n電池零件買賣\n電子材料買賣"
+    }
+  ],
   "stories": []
 };
