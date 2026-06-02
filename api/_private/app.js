@@ -1329,6 +1329,135 @@ const companyDeepDives = {
   },
 };
 
+const industryGuide = {
+  thesis: {
+    title: "AI 供應鏈不是單一 GPU 題材，而是一條把算力變成可銷售 token 的產業鏈",
+    lead: "這個產業可以用一句話理解：雲端與企業想把 AI 變成收入，必須先買算力；算力不只需要 GPU，還需要先進製程、HBM、封裝、網路、光通訊、電力、散熱與軟體變現。股價真正反映的是每一層瓶頸是否擴大，以及這些瓶頸最後能否轉成收入與毛利。",
+    coreJudgement: [
+      "需求端看 MSFT、AMZN、GOOGL、META、ORCL 的 AI capex 與 AI revenue，判斷 AI 投資是否仍在擴張。",
+      "平台端看 NVDA Rubin/Blackwell、AMD MI、AVGO/MRVL custom ASIC，判斷算力架構是否改變。",
+      "供給端看 TSM CoWoS/HBM、AMAT/LRCX/KLAC 設備，判斷產能瓶頸在哪裡。",
+      "基建端看 ANET/MRVL/COHR/LITE 與 VRT/ETN/PWR，判斷網路、光通訊、電力與散熱是否成為下一段主線。",
+      "軟體端看 CRM/NOW 與雲端平台，判斷 AI 是否真的轉成 ARR、cRPO、ARPU 或 workflow ROI。",
+    ],
+  },
+  narrativeFlow: [
+    {
+      step: "1",
+      title: "先問：誰願意花錢？",
+      body: "AI 供應鏈的源頭不是晶片，而是 cloud titan 與企業是否願意持續增加 AI capex。只要 MSFT、AMZN、GOOGL、META、ORCL 的支出展望上修，NVDA、TSM、ANET、VRT 等供應鏈才有基本盤。",
+      tickers: ["MSFT", "AMZN", "GOOGL", "META", "ORCL"],
+    },
+    {
+      step: "2",
+      title: "再問：算力平台由誰定義？",
+      body: "目前 NVDA 最強的地方是把 GPU、CPU、NVLink、networking、DPU 與 software stack 包成平台。若 custom ASIC 或 TPU 比重提高，AVGO、MRVL、GOOGL、AMZN 的重要性會上升。",
+      tickers: ["NVDA", "AMD", "AVGO", "MRVL", "GOOGL", "AMZN"],
+    },
+    {
+      step: "3",
+      title: "接著找：哪裡最卡？",
+      body: "股價最容易重估的地方通常是瓶頸。過去是 GPU，後來是 CoWoS/HBM，下一段可能是 networking、光通訊、電力、液冷或電網工程。",
+      tickers: ["TSM", "AMAT", "LRCX", "KLAC", "ANET", "COHR", "LITE", "VRT"],
+    },
+    {
+      step: "4",
+      title: "最後驗證：AI 能否變成收入？",
+      body: "若 token 成本下降但企業付費沒有起來，雲端與軟體股會被質疑 ROI；若 Copilot、Agentforce、Now Assist 等產品能拉動 ARPU 或續約，軟體股的敘事才會轉強。",
+      tickers: ["MSFT", "CRM", "NOW", "ORCL", "AMZN", "GOOGL"],
+    },
+  ],
+  layers: [
+    {
+      title: "需求端 / AI capex 決策者",
+      job: "決定要不要蓋更多 AI data center、買更多 GPU 或自研 ASIC。",
+      companies: ["MSFT", "AMZN", "GOOGL", "META", "ORCL"],
+      stockLogic: "capex 上修通常利多上游供應鏈，但若 revenue 沒跟上，雲端與平台股會被市場質疑 FCF。",
+      watch: ["AI capex guidance", "cloud revenue growth", "AI revenue disclosure", "FCF / operating margin"],
+    },
+    {
+      title: "核心運算平台",
+      job: "把模型訓練與推論所需的 compute 變成可部署的 rack-scale 系統。",
+      companies: ["NVDA", "AMD", "AVGO", "MRVL", "GOOGL", "AMZN"],
+      stockLogic: "平台越完整，估值越接近生態系；若只賣單顆晶片，市場會更在意 ASP、毛利與替代風險。",
+      watch: ["Blackwell/Rubin ramp", "MI GPU revenue", "custom ASIC program", "gross margin", "software ecosystem"],
+    },
+    {
+      title: "製造 / 先進封裝 / HBM",
+      job: "把 AI 晶片真正做出來，並把 GPU、HBM 與先進封裝整合成可量產產品。",
+      companies: ["TSM", "AMAT", "LRCX", "KLAC"],
+      stockLogic: "當 CoWoS/HBM 或 leading-edge capacity 成為瓶頸，製造與設備股會得到 read-through。",
+      watch: ["CoWoS capacity", "HPC revenue mix", "WFE outlook", "inspection/metrology demand", "China exposure"],
+    },
+    {
+      title: "網路 / 光通訊 / scale-out",
+      job: "讓上萬顆 GPU 在資料中心內有效溝通，降低延遲、功耗與資料搬移成本。",
+      companies: ["ANET", "CSCO", "MRVL", "AVGO", "COHR", "LITE"],
+      stockLogic: "AI cluster 越大，networking 和 optics 的價值越高；若 Ethernet 或 CPO 成為主流，相關標的會被重新定價。",
+      watch: ["AI Ethernet adoption", "800G/1.6T optics", "CPO / silicon photonics", "cloud titan orders", "customer concentration"],
+    },
+    {
+      title: "電力 / 散熱 / 工程基建",
+      job: "解決 AI rack 的高功耗、高熱密度、併網與資料中心建置問題。",
+      companies: ["VRT", "ETN", "PWR"],
+      stockLogic: "這層不是晶片，但可能是 AI data center 擴張的真實瓶頸；訂單、backlog 與毛利會決定股價能否續強。",
+      watch: ["liquid cooling orders", "electrical backlog", "data center power projects", "utility spending", "margin execution"],
+    },
+    {
+      title: "企業軟體 / AI 變現",
+      job: "把 AI 從算力支出轉成企業願意付費的流程、自動化與應用。",
+      companies: ["CRM", "NOW", "MSFT", "ORCL"],
+      stockLogic: "如果 AI agent 能推升 cRPO、ARR、ARPU 或 seat expansion，軟體股會從成本疑慮轉向成長敘事。",
+      watch: ["Agentforce / Now Assist adoption", "cRPO", "net retention", "AI pricing", "workflow ROI"],
+    },
+  ],
+  investmentFramework: [
+    {
+      title: "財報該先讀哪裡",
+      points: ["revenue growth 是否來自 AI 相關產品", "gross margin 是否被新平台或供給限制影響", "capex 是否上修但 FCF 承壓", "backlog / RPO 是否能支撐未來收入"],
+    },
+    {
+      title: "法說會要抓哪些句子",
+      points: ["management 是否提到 supply constraint 或 capacity expansion", "是否明確談到 AI customer demand", "是否提到 pricing、margin normalization 或 digestion", "是否給出下一代產品時間表"],
+    },
+    {
+      title: "股價重估通常來自哪裡",
+      points: ["瓶頸從市場沒注意的地方浮現", "多家機構同步調升 target 或 rating", "公司把概念題材轉成訂單、backlog 或 revenue", "競爭格局被新平台改寫"],
+    },
+    {
+      title: "最容易踩空的地方",
+      points: ["只看 AI 相關新聞，沒有確認收入占比", "把短期拉貨誤認為長期需求", "忽略 capex 對 FCF 與毛利的壓力", "看到延伸標的但不知道它在產業鏈哪一層"],
+    },
+  ],
+  companyGroups: [
+    {
+      title: "雲端需求與平台變現",
+      summary: "負責付錢蓋 AI 產能，也要證明 AI 最後能變成 cloud revenue、廣告效率或企業軟體收入。",
+      tickers: ["MSFT", "AMZN", "GOOGL", "META", "ORCL", "CRM", "NOW"],
+    },
+    {
+      title: "核心晶片與 rack-scale 平台",
+      summary: "決定 AI 算力架構與下一代平台節奏，是整條鏈的技術敘事核心。",
+      tickers: ["NVDA", "AMD", "AVGO", "MRVL", "TSLA"],
+    },
+    {
+      title: "半導體製造與設備",
+      summary: "負責把 AI 晶片、先進封裝與製程良率落地，是供給瓶頸的主要觀察區。",
+      tickers: ["TSM", "INTC", "AMAT", "LRCX", "KLAC"],
+    },
+    {
+      title: "網路、光通訊與資料搬移",
+      summary: "AI cluster 規模越大，GPU 之間的連接與資料搬移越重要。",
+      tickers: ["ANET", "CSCO", "MRVL", "AVGO", "COHR", "LITE"],
+    },
+    {
+      title: "資料中心電力、散熱與工程",
+      summary: "解決 AI data center 能不能真的蓋起來，是非晶片但高度受惠的基建層。",
+      tickers: ["VRT", "ETN", "PWR"],
+    },
+  ],
+};
+
 Object.entries(dailyBriefing.stockUpdates ?? {}).forEach(([ticker, update]) => {
   if (!stockIntel[ticker]) stockIntel[ticker] = { recent: [], market: [], sources: [] };
   const autoItems = (update.items ?? []).map((item) => `自動更新：${item}`);
@@ -1648,6 +1777,7 @@ const secondaryCount = document.querySelector("#secondaryCount");
 const secondaryCountLabel = document.querySelector("#secondaryCountLabel");
 const eventCount = document.querySelector("#eventCount");
 const eventCountLabel = document.querySelector("#eventCountLabel");
+const industryGuidePanel = document.querySelector("#industryGuidePanel");
 const eventFilters = document.querySelector("#eventFilters");
 const eventList = document.querySelector("#eventList");
 const learningCount = document.querySelector("#learningCount");
@@ -1811,6 +1941,148 @@ function companyDeepDiveMarkup(deepDive) {
       <p class="deep-dive-monitor"><strong>可以怎麼追：</strong>${deepDive.monitor}</p>
     </div>
   `;
+}
+
+function guideTickerChips(tickers) {
+  return `
+    <div class="guide-ticker-row">
+      ${tickers.map((ticker) => {
+        const stock = watchlist.find((item) => item.ticker === ticker);
+        return `<a href="#watchlist" data-guide-ticker="${ticker}" title="${escapeHtml(stock?.company || ticker)}">${ticker}</a>`;
+      }).join("")}
+    </div>
+  `;
+}
+
+function renderIndustryGuide() {
+  if (!industryGuidePanel) return;
+  const { thesis, narrativeFlow, layers, investmentFramework, companyGroups } = industryGuide;
+  industryGuidePanel.innerHTML = `
+    <div class="guide-hero">
+      <div>
+        <span class="guide-kicker">產業總論</span>
+        <h4>${escapeHtml(thesis.title)}</h4>
+        <p>${escapeHtml(thesis.lead)}</p>
+      </div>
+      <aside>
+        <strong>閱讀這條鏈的核心問題</strong>
+        <ul>${thesis.coreJudgement.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
+      </aside>
+    </div>
+
+    <div class="guide-block">
+      <div class="guide-block-head">
+        <span>Research Path</span>
+        <h4>先建立研究順序，再看個股</h4>
+      </div>
+      <div class="narrative-flow">
+        ${narrativeFlow.map((item) => `
+          <article>
+            <span class="flow-step">${escapeHtml(item.step)}</span>
+            <h5>${escapeHtml(item.title)}</h5>
+            <p>${escapeHtml(item.body)}</p>
+            ${guideTickerChips(item.tickers)}
+          </article>
+        `).join("")}
+      </div>
+    </div>
+
+    <div class="guide-block">
+      <div class="guide-block-head">
+        <span>Supply Chain Map</span>
+        <h4>AI 供應鏈六大層級</h4>
+      </div>
+      <div class="layer-map">
+        ${layers.map((layer, index) => `
+          <article class="layer-card">
+            <div class="layer-index">${String(index + 1).padStart(2, "0")}</div>
+            <div>
+              <h5>${escapeHtml(layer.title)}</h5>
+              <p>${escapeHtml(layer.job)}</p>
+              ${guideTickerChips(layer.companies)}
+              <div class="layer-detail">
+                <strong>股價邏輯</strong>
+                <p>${escapeHtml(layer.stockLogic)}</p>
+              </div>
+              <div class="layer-detail">
+                <strong>觀察指標</strong>
+                <ul>${layer.watch.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
+              </div>
+            </div>
+          </article>
+        `).join("")}
+      </div>
+    </div>
+
+    <div class="guide-two-column">
+      <div class="guide-block">
+        <div class="guide-block-head">
+          <span>Investment Logic</span>
+          <h4>投資判斷框架</h4>
+        </div>
+        <div class="framework-list">
+          ${investmentFramework.map((item) => `
+            <article>
+              <h5>${escapeHtml(item.title)}</h5>
+              <ul>${item.points.map((point) => `<li>${escapeHtml(point)}</li>`).join("")}</ul>
+            </article>
+          `).join("")}
+        </div>
+      </div>
+
+      <div class="guide-block">
+        <div class="guide-block-head">
+          <span>Company Atlas</span>
+          <h4>公司分組與定位</h4>
+        </div>
+        <div class="company-group-list">
+          ${companyGroups.map((group) => `
+            <article>
+              <h5>${escapeHtml(group.title)}</h5>
+              <p>${escapeHtml(group.summary)}</p>
+              ${guideTickerChips(group.tickers)}
+            </article>
+          `).join("")}
+        </div>
+      </div>
+    </div>
+
+    <div class="guide-block">
+      <div class="guide-block-head">
+        <span>Company Table</span>
+        <h4>25 檔個股在產業鏈裡的位置</h4>
+      </div>
+      <div class="company-atlas-table" role="table" aria-label="25 檔個股定位表">
+        <div class="atlas-row atlas-head" role="row">
+          <span>Ticker</span>
+          <span>公司定位</span>
+          <span>主要項目</span>
+          <span>目前瓶頸</span>
+          <span>可以怎麼追</span>
+        </div>
+        ${watchlist.map((stock) => {
+          const deepDive = companyDeepDives[stock.ticker];
+          return `
+            <div class="atlas-row" role="row">
+              <span><b>${stock.ticker}</b><em>${escapeHtml(stock.company)}</em></span>
+              <span>${escapeHtml(deepDive?.role || stock.theme)}</span>
+              <span>${escapeHtml((deepDive?.mainItems || stock.focusItems).slice(0, 4).join(" / "))}</span>
+              <span>${escapeHtml((deepDive?.bottlenecks || stock.researchQuestions).slice(0, 3).join("、"))}</span>
+              <span>${escapeHtml(deepDive?.monitor || stock.watchReason)}</span>
+            </div>
+          `;
+        }).join("")}
+      </div>
+    </div>
+  `;
+
+  industryGuidePanel.querySelectorAll("[data-guide-ticker]").forEach((link) => {
+    link.addEventListener("click", () => {
+      state.query = link.dataset.guideTicker;
+      if (searchInput) searchInput.value = state.query;
+      renderStocks();
+    });
+  });
 }
 
 const performanceCache = new Map();
@@ -3460,6 +3732,7 @@ function render() {
   renderFilters();
   renderEventFilters();
   renderLearningFilters();
+  renderIndustryGuide();
   renderEvents();
   renderLearning();
   renderStocks();
