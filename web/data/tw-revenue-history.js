@@ -1,10 +1,10 @@
 window.twRevenueHistory = {
-  "generatedAt": "2026-06-02T21:56:18+08:00",
+  "generatedAt": "2026-06-03T21:47:48+08:00",
   "latestPeriod": "115/5",
   "source": "MOPS 月營收彙總表",
   "periods": [
     {
-      "generatedAt": "2026-06-02T21:56:18+08:00",
+      "generatedAt": "2026-06-03T21:47:48+08:00",
       "period": "115/5",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -25,12 +25,76 @@ window.twRevenueHistory = {
         "publicIssueDateCutoff": "89/01/01"
       },
       "stats": {
-        "selected": 1,
-        "stories": 0,
-        "highs": 0,
+        "selected": 5,
+        "stories": 1,
+        "highs": 1,
         "storyHighs": 0
       },
       "selected": [
+        {
+          "market": "上櫃",
+          "code": "6584",
+          "name": "南俊國際",
+          "industry": "電子零組件業",
+          "currentRevenue": 282207,
+          "momPct": 1.5922443337269245,
+          "yoyPct": 46.97515754387792,
+          "ytdYoyPct": 59.051783715818246,
+          "remark": "主係雲端CSP客戶的GB系列AI伺服器導軌持續出貨以及通用型伺服器導軌出貨增溫所致",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 312165,
+          "publicIssueDate": "105/06/17",
+          "businessDescription": "電子零組件製造業\n家具及裝設品製造業\n其他金屬製品製造業"
+        },
+        {
+          "market": "上市",
+          "code": "2637",
+          "name": "慧洋-KY",
+          "industry": "航運業",
+          "currentRevenue": 1817170,
+          "momPct": 10.409345212923672,
+          "yoyPct": 45.86522415148015,
+          "ytdYoyPct": 27.42045196022055,
+          "remark": "-",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 2641291,
+          "publicIssueDate": "99/08/17",
+          "businessDescription": "國際海上運輸業務\n船舶相關管理、維護及服務業務\n船舶租賃業務、船務代理業務"
+        },
+        {
+          "market": "上市",
+          "code": "6672",
+          "name": "騰輝電子-KY",
+          "industry": "電子零組件業",
+          "currentRevenue": 530395,
+          "momPct": 3.998815688596689,
+          "yoyPct": 34.98597700330342,
+          "ytdYoyPct": 28.12924884128879,
+          "remark": "-",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 749010,
+          "publicIssueDate": "106/12/27",
+          "businessDescription": "生產與銷售印刷電路板所需使用之黏合片、銅箔基板和鋁基板"
+        },
+        {
+          "market": "上櫃",
+          "code": "6510",
+          "name": "精測",
+          "industry": "半導體業",
+          "currentRevenue": 542510,
+          "momPct": 3.6949113018680033,
+          "yoyPct": 34.09214494043205,
+          "ytdYoyPct": 23.706179603764472,
+          "remark": "-",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：542,510 千元",
+          "previousHighRevenue": 523179,
+          "publicIssueDate": "103/10/30",
+          "businessDescription": "晶圓測試卡\nIC測試板\n技術服務與其他"
+        },
         {
           "market": "上櫃",
           "code": "3625",
@@ -48,10 +112,27 @@ window.twRevenueHistory = {
           "businessDescription": "鋰電池模組之研發、製造及銷售\n電池零件買賣\n電子材料買賣"
         }
       ],
-      "stories": []
+      "stories": [
+        {
+          "market": "上櫃",
+          "code": "6584",
+          "name": "南俊國際",
+          "industry": "電子零組件業",
+          "currentRevenue": 282207,
+          "momPct": 1.5922443337269245,
+          "yoyPct": 46.97515754387792,
+          "ytdYoyPct": 59.051783715818246,
+          "remark": "主係雲端CSP客戶的GB系列AI伺服器導軌持續出貨以及通用型伺服器導軌出貨增溫所致",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 312165,
+          "publicIssueDate": "105/06/17",
+          "businessDescription": "電子零組件製造業\n家具及裝設品製造業\n其他金屬製品製造業"
+        }
+      ]
     },
     {
-      "generatedAt": "2026-06-02T21:56:26+08:00",
+      "generatedAt": "2026-06-03T21:47:51+08:00",
       "period": "115/4",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -74,7 +155,7 @@ window.twRevenueHistory = {
       "stats": {
         "selected": 161,
         "stories": 97,
-        "highs": 51,
+        "highs": 50,
         "storyHighs": 38
       },
       "selected": [
@@ -2488,9 +2569,9 @@ window.twRevenueHistory = {
           "yoyPct": 30.215291950818855,
           "ytdYoyPct": 21.00248752697609,
           "remark": "-",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：523,179 千元",
-          "previousHighRevenue": 487462,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 542510,
           "publicIssueDate": "103/10/30",
           "businessDescription": "晶圓測試卡\nIC測試板\n技術服務與其他"
         },
@@ -4211,7 +4292,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-06-02T21:56:35+08:00",
+      "generatedAt": "2026-06-03T21:47:55+08:00",
       "period": "115/3",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -4232,10 +4313,10 @@ window.twRevenueHistory = {
         "publicIssueDateCutoff": "89/01/01"
       },
       "stats": {
-        "selected": 155,
-        "stories": 80,
-        "highs": 14,
-        "storyHighs": 10
+        "selected": 157,
+        "stories": 81,
+        "highs": 15,
+        "storyHighs": 11
       },
       "selected": [
         {
@@ -5279,6 +5360,22 @@ window.twRevenueHistory = {
           "businessDescription": "特殊應用積體電路設計 ( ASIC )\n系統單晶片設計服務 ( SoC Design Service )\n系統單晶片設計用矽智財及自動化軟體工具 ( IP & EDA Tools)"
         },
         {
+          "market": "上櫃",
+          "code": "6584",
+          "name": "南俊國際",
+          "industry": "電子零組件業",
+          "currentRevenue": 312165,
+          "momPct": 23.894665819971426,
+          "yoyPct": 52.71513135365198,
+          "ytdYoyPct": 73.53725427393202,
+          "remark": "主係雲端CSP客戶的GB系列AI伺服器導軌持續出貨以及通用型伺服器導軌出貨增溫所致",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：312,165 千元",
+          "previousHighRevenue": 302764,
+          "publicIssueDate": "105/06/17",
+          "businessDescription": "電子零組件製造業\n家具及裝設品製造業\n其他金屬製品製造業"
+        },
+        {
           "market": "上市",
           "code": "3530",
           "name": "晶相光",
@@ -5805,6 +5902,22 @@ window.twRevenueHistory = {
           "previousHighRevenue": 235818,
           "publicIssueDate": "89/07/11",
           "businessDescription": "連接器配線組立\n網通視訊\n車用電子"
+        },
+        {
+          "market": "上市",
+          "code": "2637",
+          "name": "慧洋-KY",
+          "industry": "航運業",
+          "currentRevenue": 1723874,
+          "momPct": 35.63889092152276,
+          "yoyPct": 34.90742045045468,
+          "ytdYoyPct": 23.60516073148354,
+          "remark": "-",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 2641291,
+          "publicIssueDate": "99/08/17",
+          "businessDescription": "國際海上運輸業務\n船舶相關管理、維護及服務業務\n船舶租賃業務、船務代理業務"
         },
         {
           "market": "上櫃",
@@ -7759,6 +7872,22 @@ window.twRevenueHistory = {
           "previousHighRevenue": 272523,
           "publicIssueDate": "89/04/15",
           "businessDescription": "特殊應用積體電路設計 ( ASIC )\n系統單晶片設計服務 ( SoC Design Service )\n系統單晶片設計用矽智財及自動化軟體工具 ( IP & EDA Tools)"
+        },
+        {
+          "market": "上櫃",
+          "code": "6584",
+          "name": "南俊國際",
+          "industry": "電子零組件業",
+          "currentRevenue": 312165,
+          "momPct": 23.894665819971426,
+          "yoyPct": 52.71513135365198,
+          "ytdYoyPct": 73.53725427393202,
+          "remark": "主係雲端CSP客戶的GB系列AI伺服器導軌持續出貨以及通用型伺服器導軌出貨增溫所致",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：312,165 千元",
+          "previousHighRevenue": 302764,
+          "publicIssueDate": "105/06/17",
+          "businessDescription": "電子零組件製造業\n家具及裝設品製造業\n其他金屬製品製造業"
         },
         {
           "market": "上市",
