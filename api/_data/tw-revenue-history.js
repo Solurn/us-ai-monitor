@@ -1,10 +1,10 @@
 window.twRevenueHistory = {
-  "generatedAt": "2026-06-03T21:47:48+08:00",
+  "generatedAt": "2026-06-04T20:58:27+08:00",
   "latestPeriod": "115/5",
   "source": "MOPS 月營收彙總表",
   "periods": [
     {
-      "generatedAt": "2026-06-03T21:47:48+08:00",
+      "generatedAt": "2026-06-04T20:58:27+08:00",
       "period": "115/5",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -25,12 +25,92 @@ window.twRevenueHistory = {
         "publicIssueDateCutoff": "89/01/01"
       },
       "stats": {
-        "selected": 5,
-        "stories": 1,
-        "highs": 1,
-        "storyHighs": 0
+        "selected": 15,
+        "stories": 6,
+        "highs": 8,
+        "storyHighs": 2
       },
       "selected": [
+        {
+          "market": "上櫃",
+          "code": "8299",
+          "name": "群聯",
+          "industry": "半導體業",
+          "currentRevenue": 22827979,
+          "momPct": 12.967892652492816,
+          "yoyPct": 301.22580678045523,
+          "ytdYoyPct": 229.02184199362367,
+          "remark": "係總出貨量及均價增加",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：22,827,979 千元",
+          "previousHighRevenue": 20207493,
+          "publicIssueDate": "92/05/16",
+          "businessDescription": "IC設計業\n半導體業\n電腦及週邊設備業"
+        },
+        {
+          "market": "上市",
+          "code": "2432",
+          "name": "倚天酷碁-創",
+          "industry": "電腦及週邊設備業",
+          "currentRevenue": 452941,
+          "momPct": 11.096639686043659,
+          "yoyPct": 94.03136606450563,
+          "ytdYoyPct": 55.29984809570999,
+          "remark": "本月營收較去年營收增加，主係電腦週邊產品挹注成長所致。",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：452,941 千元",
+          "previousHighRevenue": 420623,
+          "publicIssueDate": "111/09/30",
+          "businessDescription": "電信加值網路業務、電腦軟硬體應用系統之設計、銷售、出租\n電腦創新週邊商品與生活智慧產品之銷售"
+        },
+        {
+          "market": "上櫃",
+          "code": "3213",
+          "name": "茂訊",
+          "industry": "電腦及週邊設備業",
+          "currentRevenue": 364651,
+          "momPct": 18.18597264536203,
+          "yoyPct": 78.78466961821132,
+          "ytdYoyPct": 15.235271134508215,
+          "remark": "系統事業部 255,116 仟元/通路事業部 109,535 仟元",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 365789,
+          "publicIssueDate": "91/09/16",
+          "businessDescription": "各式電腦軟硬體之研究設計規劃製作銷售(特許業務除外)\n各式電腦零組件之研究銷售\n電腦主機及週邊設備零組件之製造加工及買賣業務"
+        },
+        {
+          "market": "上櫃",
+          "code": "4760",
+          "name": "勤凱科技",
+          "industry": "其他電子業",
+          "currentRevenue": 233002,
+          "momPct": 1.8098400769029102,
+          "yoyPct": 64.80898590294036,
+          "ytdYoyPct": 56.92625507265585,
+          "remark": "本月較去年同月份出貨量增加",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 247746,
+          "publicIssueDate": "102/06/28",
+          "businessDescription": "先進封裝接著、散熱材料及陶瓷元件導電材料設計製造及銷售"
+        },
+        {
+          "market": "上市",
+          "code": "6776",
+          "name": "展碁國際",
+          "industry": "電子通路業",
+          "currentRevenue": 3077924,
+          "momPct": 0.5972249776199965,
+          "yoyPct": 52.059623862982896,
+          "ytdYoyPct": 31.133965562921894,
+          "remark": "主要係因持續擴大營運版圖，自115.4.1起新增併入子公司納入合併報表範圍",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 3561496,
+          "publicIssueDate": "109/01/06",
+          "businessDescription": "系統資訊及數位娛樂產品\n電腦軟體\n其他"
+        },
         {
           "market": "上櫃",
           "code": "6584",
@@ -62,6 +142,70 @@ window.twRevenueHistory = {
           "previousHighRevenue": 2641291,
           "publicIssueDate": "99/08/17",
           "businessDescription": "國際海上運輸業務\n船舶相關管理、維護及服務業務\n船舶租賃業務、船務代理業務"
+        },
+        {
+          "market": "上櫃",
+          "code": "7794",
+          "name": "宏碁智新",
+          "industry": "居家生活",
+          "currentRevenue": 127786,
+          "momPct": 27.440635876773943,
+          "yoyPct": 44.86566148962703,
+          "ytdYoyPct": 38.306182448266554,
+          "remark": "-",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：127,786 千元",
+          "previousHighRevenue": 106807,
+          "publicIssueDate": "113/11/07",
+          "businessDescription": "雲端科技軟硬體整合、智慧空氣品質解決方案、旅館與租賃管理服務"
+        },
+        {
+          "market": "上市",
+          "code": "5284",
+          "name": "jpp-KY",
+          "industry": "其他",
+          "currentRevenue": 413067,
+          "momPct": 4.697440524770996,
+          "yoyPct": 43.319547280839934,
+          "ytdYoyPct": 46.71694797619575,
+          "remark": "-",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：413,067 千元",
+          "previousHighRevenue": 411327,
+          "publicIssueDate": "103/08/26",
+          "businessDescription": "金屬精密機構件"
+        },
+        {
+          "market": "上市",
+          "code": "6197",
+          "name": "佳必琪",
+          "industry": "電子零組件業",
+          "currentRevenue": 808198,
+          "momPct": 0.10379508521601269,
+          "yoyPct": 41.776437546815984,
+          "ytdYoyPct": 20.91218330657733,
+          "remark": "-",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：808,198 千元",
+          "previousHighRevenue": 807360,
+          "publicIssueDate": "90/06/14",
+          "businessDescription": "高速光電/光纜/模組/連接器/線束(雲端網通)\n連接器/線束(智能連結產業)、(新能源)、(消費性電子)\nIoT(物聯網系統)之以上相關產品研發，生產與銷售"
+        },
+        {
+          "market": "上櫃",
+          "code": "6548",
+          "name": "長科*",
+          "industry": "半導體業",
+          "currentRevenue": 1429567,
+          "momPct": 3.287263857509994,
+          "yoyPct": 36.65198726361844,
+          "ytdYoyPct": 21.492987745766094,
+          "remark": "-",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：1,429,567 千元",
+          "previousHighRevenue": 1384069,
+          "publicIssueDate": "104/06/15",
+          "businessDescription": "導線架製造"
         },
         {
           "market": "上市",
@@ -97,6 +241,22 @@ window.twRevenueHistory = {
         },
         {
           "market": "上櫃",
+          "code": "3264",
+          "name": "欣銓",
+          "industry": "半導體業",
+          "currentRevenue": 1517840,
+          "momPct": 3.6906277838198243,
+          "yoyPct": 32.95632125913624,
+          "ytdYoyPct": 26.642368747141933,
+          "remark": "-",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：1,517,840 千元",
+          "previousHighRevenue": 1463816,
+          "publicIssueDate": "92/04/14",
+          "businessDescription": "記憶體IC之晶圓測試\n數位訊號IC及混合訊號IC之晶圓及成品測試\n晶圓型式之Burn in 之測試"
+        },
+        {
+          "market": "上櫃",
           "code": "3625",
           "name": "西勝",
           "industry": "電腦及週邊設備業",
@@ -113,6 +273,86 @@ window.twRevenueHistory = {
         }
       ],
       "stories": [
+        {
+          "market": "上櫃",
+          "code": "8299",
+          "name": "群聯",
+          "industry": "半導體業",
+          "currentRevenue": 22827979,
+          "momPct": 12.967892652492816,
+          "yoyPct": 301.22580678045523,
+          "ytdYoyPct": 229.02184199362367,
+          "remark": "係總出貨量及均價增加",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：22,827,979 千元",
+          "previousHighRevenue": 20207493,
+          "publicIssueDate": "92/05/16",
+          "businessDescription": "IC設計業\n半導體業\n電腦及週邊設備業"
+        },
+        {
+          "market": "上市",
+          "code": "2432",
+          "name": "倚天酷碁-創",
+          "industry": "電腦及週邊設備業",
+          "currentRevenue": 452941,
+          "momPct": 11.096639686043659,
+          "yoyPct": 94.03136606450563,
+          "ytdYoyPct": 55.29984809570999,
+          "remark": "本月營收較去年營收增加，主係電腦週邊產品挹注成長所致。",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：452,941 千元",
+          "previousHighRevenue": 420623,
+          "publicIssueDate": "111/09/30",
+          "businessDescription": "電信加值網路業務、電腦軟硬體應用系統之設計、銷售、出租\n電腦創新週邊商品與生活智慧產品之銷售"
+        },
+        {
+          "market": "上櫃",
+          "code": "3213",
+          "name": "茂訊",
+          "industry": "電腦及週邊設備業",
+          "currentRevenue": 364651,
+          "momPct": 18.18597264536203,
+          "yoyPct": 78.78466961821132,
+          "ytdYoyPct": 15.235271134508215,
+          "remark": "系統事業部 255,116 仟元/通路事業部 109,535 仟元",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 365789,
+          "publicIssueDate": "91/09/16",
+          "businessDescription": "各式電腦軟硬體之研究設計規劃製作銷售(特許業務除外)\n各式電腦零組件之研究銷售\n電腦主機及週邊設備零組件之製造加工及買賣業務"
+        },
+        {
+          "market": "上櫃",
+          "code": "4760",
+          "name": "勤凱科技",
+          "industry": "其他電子業",
+          "currentRevenue": 233002,
+          "momPct": 1.8098400769029102,
+          "yoyPct": 64.80898590294036,
+          "ytdYoyPct": 56.92625507265585,
+          "remark": "本月較去年同月份出貨量增加",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 247746,
+          "publicIssueDate": "102/06/28",
+          "businessDescription": "先進封裝接著、散熱材料及陶瓷元件導電材料設計製造及銷售"
+        },
+        {
+          "market": "上市",
+          "code": "6776",
+          "name": "展碁國際",
+          "industry": "電子通路業",
+          "currentRevenue": 3077924,
+          "momPct": 0.5972249776199965,
+          "yoyPct": 52.059623862982896,
+          "ytdYoyPct": 31.133965562921894,
+          "remark": "主要係因持續擴大營運版圖，自115.4.1起新增併入子公司納入合併報表範圍",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 3561496,
+          "publicIssueDate": "109/01/06",
+          "businessDescription": "系統資訊及數位娛樂產品\n電腦軟體\n其他"
+        },
         {
           "market": "上櫃",
           "code": "6584",
@@ -132,7 +372,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-06-03T21:47:51+08:00",
+      "generatedAt": "2026-06-04T20:58:30+08:00",
       "period": "115/4",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -155,8 +395,8 @@ window.twRevenueHistory = {
       "stats": {
         "selected": 161,
         "stories": 97,
-        "highs": 50,
-        "storyHighs": 38
+        "highs": 49,
+        "storyHighs": 37
       },
       "selected": [
         {
@@ -457,9 +697,9 @@ window.twRevenueHistory = {
           "yoyPct": 236.6326033058058,
           "ytdYoyPct": 208.3172163574361,
           "remark": "係總出貨量及均價增加",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：20,207,493 千元",
-          "previousHighRevenue": 18316974,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 22827979,
           "publicIssueDate": "92/05/16",
           "businessDescription": "IC設計業\n半導體業\n電腦及週邊設備業"
         },
@@ -3035,9 +3275,9 @@ window.twRevenueHistory = {
           "yoyPct": 236.6326033058058,
           "ytdYoyPct": 208.3172163574361,
           "remark": "係總出貨量及均價增加",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：20,207,493 千元",
-          "previousHighRevenue": 18316974,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 22827979,
           "publicIssueDate": "92/05/16",
           "businessDescription": "IC設計業\n半導體業\n電腦及週邊設備業"
         },
@@ -4292,7 +4532,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-06-03T21:47:55+08:00",
+      "generatedAt": "2026-06-04T20:58:33+08:00",
       "period": "115/3",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -4313,9 +4553,9 @@ window.twRevenueHistory = {
         "publicIssueDateCutoff": "89/01/01"
       },
       "stats": {
-        "selected": 157,
-        "stories": 81,
-        "highs": 15,
+        "selected": 160,
+        "stories": 82,
+        "highs": 14,
         "storyHighs": 11
       },
       "selected": [
@@ -4491,7 +4731,7 @@ window.twRevenueHistory = {
           "remark": "係總出貨量增加",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 20207493,
+          "previousHighRevenue": 22827979,
           "publicIssueDate": "92/05/16",
           "businessDescription": "IC設計業\n半導體業\n電腦及週邊設備業"
         },
@@ -5073,6 +5313,22 @@ window.twRevenueHistory = {
         },
         {
           "market": "上櫃",
+          "code": "7794",
+          "name": "宏碁智新",
+          "industry": "居家生活",
+          "currentRevenue": 90417,
+          "momPct": 16.50474177919802,
+          "yoyPct": 72.38703527168732,
+          "ytdYoyPct": 46.85627723311547,
+          "remark": "主係印度子公司收入大幅增加所致。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 127786,
+          "publicIssueDate": "113/11/07",
+          "businessDescription": "雲端科技軟硬體整合、智慧空氣品質解決方案、旅館與租賃管理服務"
+        },
+        {
+          "market": "上櫃",
           "code": "4760",
           "name": "勤凱科技",
           "industry": "其他電子業",
@@ -5083,7 +5339,7 @@ window.twRevenueHistory = {
           "remark": "本月較去年同月份出貨量增加",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：247,746 千元",
-          "previousHighRevenue": 228860,
+          "previousHighRevenue": 233002,
           "publicIssueDate": "102/06/28",
           "businessDescription": "先進封裝接著、散熱材料及陶瓷元件導電材料設計製造及銷售"
         },
@@ -5518,6 +5774,22 @@ window.twRevenueHistory = {
           "previousHighRevenue": 450348,
           "publicIssueDate": "90/04/25",
           "businessDescription": "無線通信機械器材製造\n砷化鎵晶片\n數位行動電話功率放大器模組"
+        },
+        {
+          "market": "上市",
+          "code": "5284",
+          "name": "jpp-KY",
+          "industry": "其他",
+          "currentRevenue": 411327,
+          "momPct": 0.9099205628799514,
+          "yoyPct": 47.491941007096216,
+          "ytdYoyPct": 45.618482513586265,
+          "remark": "-",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 413067,
+          "publicIssueDate": "103/08/26",
+          "businessDescription": "金屬精密機構件"
         },
         {
           "market": "上櫃",
@@ -6121,9 +6393,9 @@ window.twRevenueHistory = {
           "yoyPct": 29.154218162278344,
           "ytdYoyPct": 25.808521390791732,
           "remark": "-",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：420,623 千元",
-          "previousHighRevenue": 409254,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 452941,
           "publicIssueDate": "111/09/30",
           "businessDescription": "電信加值網路業務、電腦軟硬體應用系統之設計、銷售、出租\n電腦創新週邊商品與生活智慧產品之銷售"
         },
@@ -6624,6 +6896,22 @@ window.twRevenueHistory = {
           "businessDescription": "類比積體整合電路產品設計"
         },
         {
+          "market": "上市",
+          "code": "6197",
+          "name": "佳必琪",
+          "industry": "電子零組件業",
+          "currentRevenue": 718597,
+          "momPct": 33.751938071067876,
+          "yoyPct": 12.34485292393318,
+          "ytdYoyPct": 20.98043945833816,
+          "remark": "-",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 808198,
+          "publicIssueDate": "90/06/14",
+          "businessDescription": "高速光電/光纜/模組/連接器/線束(雲端網通)\n連接器/線束(智能連結產業)、(新能源)、(消費性電子)\nIoT(物聯網系統)之以上相關產品研發，生產與銷售"
+        },
+        {
           "market": "上櫃",
           "code": "3357",
           "name": "臺慶科",
@@ -7005,7 +7293,7 @@ window.twRevenueHistory = {
           "remark": "係總出貨量增加",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 20207493,
+          "previousHighRevenue": 22827979,
           "publicIssueDate": "92/05/16",
           "businessDescription": "IC設計業\n半導體業\n電腦及週邊設備業"
         },
@@ -7587,6 +7875,22 @@ window.twRevenueHistory = {
         },
         {
           "market": "上櫃",
+          "code": "7794",
+          "name": "宏碁智新",
+          "industry": "居家生活",
+          "currentRevenue": 90417,
+          "momPct": 16.50474177919802,
+          "yoyPct": 72.38703527168732,
+          "ytdYoyPct": 46.85627723311547,
+          "remark": "主係印度子公司收入大幅增加所致。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 127786,
+          "publicIssueDate": "113/11/07",
+          "businessDescription": "雲端科技軟硬體整合、智慧空氣品質解決方案、旅館與租賃管理服務"
+        },
+        {
+          "market": "上櫃",
           "code": "4760",
           "name": "勤凱科技",
           "industry": "其他電子業",
@@ -7597,7 +7901,7 @@ window.twRevenueHistory = {
           "remark": "本月較去年同月份出貨量增加",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：247,746 千元",
-          "previousHighRevenue": 228860,
+          "previousHighRevenue": 233002,
           "publicIssueDate": "102/06/28",
           "businessDescription": "先進封裝接著、散熱材料及陶瓷元件導電材料設計製造及銷售"
         },
