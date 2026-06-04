@@ -1437,6 +1437,24 @@ th.sortable.sorted-desc::after {
   font-weight: 800;
 }
 
+.tw-insider-field-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 6px 10px;
+  background: #ffffff;
+  color: var(--navy);
+  font-size: 12px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.tw-insider-field-toggle input {
+  accent-color: var(--teal);
+}
+
 .financial-report-date-row {
   display: flex;
   align-items: center;

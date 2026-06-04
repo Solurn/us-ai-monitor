@@ -133,9 +133,17 @@
               <h3>內部人持股</h3>
             </div>
             <div class="self-report-controls">
-              <select id="twInsiderSortSelect" class="self-report-select" aria-label="選擇內部人持股排序">
-                <option value="threeMonthIncreaseValue">近三個月增加金額</option>
-                <option value="latestMonthIncreaseValue">最新月增加金額</option>
+              <label class="tw-insider-field-toggle">
+                <input type="checkbox" data-tw-insider-field="ownConcentrated" checked>
+                <span>自有股數(集中)</span>
+              </label>
+              <label class="tw-insider-field-toggle">
+                <input type="checkbox" data-tw-insider-field="pledged">
+                <span>設定質權股數</span>
+              </label>
+              <select id="twInsiderRangeSelect" class="self-report-select" aria-label="選擇內部人持股期間">
+                <option value="latestMonth">近一個月</option>
+                <option value="threeMonths" selected>近三個月</option>
               </select>
               <span class="last-checked" id="twInsiderStats">尚未更新</span>
             </div>

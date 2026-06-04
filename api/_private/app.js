@@ -579,7 +579,12 @@ const twInsiderHoldingLatest = window.twInsiderHoldingLatest ?? {
   highlights: [],
   stocks: [],
 };
-let twInsiderSortMode = "threeMonthIncreaseValue";
+const twInsiderFieldLabels = {
+  ownConcentrated: "自有股數(集中)",
+  pledged: "設定質權股數",
+};
+let twInsiderSelectedFields = ["ownConcentrated"];
+let twInsiderRangeMode = "threeMonths";
 
 const currentMacroEvents = [
   {
@@ -1808,7 +1813,8 @@ const twRevenueStats = document.querySelector("#twRevenueStats");
 const twRevenuePeriodSelect = document.querySelector("#twRevenuePeriodSelect");
 const twRevenuePanel = document.querySelector("#twRevenuePanel");
 const twInsiderStats = document.querySelector("#twInsiderStats");
-const twInsiderSortSelect = document.querySelector("#twInsiderSortSelect");
+const twInsiderRangeSelect = document.querySelector("#twInsiderRangeSelect");
+const twInsiderFieldInputs = document.querySelectorAll("[data-tw-insider-field]");
 const twInsiderPanel = document.querySelector("#twInsiderPanel");
 
 function canUseFeature(feature) {
@@ -2782,35 +2788,106 @@ function attachSortableTables(root = document) {
   });
 }
 
-function twInsiderLatestMonthIncreaseShares(stock) {
-  const latestPeriod = (twInsiderHoldingLatest.periods ?? [])[0];
-  if (!latestPeriod) return 0;
-  return (stock.people ?? []).reduce((sum, person) => {
-    const month = (person.monthly ?? []).find((item) => item.period === latestPeriod);
-    return sum + Number(month?.increaseShares ?? 0);
-  }, 0);
+function twInsiderActiveFields() {
+  return twInsiderSelectedFields.length ? twInsiderSelectedFields : ["ownConcentrated"];
 }
 
-function twInsiderLatestMonthIncreaseValue(stock) {
+function twInsiderRangePeriods() {
+  const periods = twInsiderHoldingLatest.periods ?? [];
+  return twInsiderRangeMode === "latestMonth" ? periods.slice(0, 1) : periods.slice(0, 3);
+}
+
+function twInsiderRangeLabel() {
+  return twInsiderRangeMode === "latestMonth" ? "近一個月" : "近三個月";
+}
+
+function twInsiderFieldLabel() {
+  return twInsiderActiveFields().map((field) => twInsiderFieldLabels[field] ?? field).join(" + ");
+}
+
+function twInsiderBreakdownTotal(breakdown, fields = twInsiderActiveFields()) {
+  return fields.reduce((sum, field) => sum + Number(breakdown?.[field] ?? 0), 0);
+}
+
+function twInsiderPersonMetrics(person) {
+  const periods = new Set(twInsiderRangePeriods());
+  const fields = twInsiderActiveFields();
+  const monthly = (person.monthly ?? [])
+    .filter((month) => periods.has(month.period))
+    .map((month) => ({
+      period: month.period,
+      increaseShares: twInsiderBreakdownTotal(month.increaseBreakdown, fields),
+      decreaseShares: twInsiderBreakdownTotal(month.decreaseBreakdown, fields),
+    }));
+  const totalIncreaseShares = monthly.reduce((sum, month) => sum + month.increaseShares, 0);
+  const totalDecreaseShares = monthly.reduce((sum, month) => sum + month.decreaseShares, 0);
+  const close = Number(person.closePrice);
+  const totalIncreaseValue = Number.isFinite(close) ? Math.round(totalIncreaseShares * close) : null;
+  const totalDecreaseValue = Number.isFinite(close) ? Math.round(totalDecreaseShares * close) : null;
+  const netShares = totalIncreaseShares - totalDecreaseShares;
+  return {
+    monthly,
+    totalIncreaseShares,
+    totalDecreaseShares,
+    totalIncreaseValue,
+    totalDecreaseValue,
+    netShares,
+    netValue: Number.isFinite(close) ? Math.round(netShares * close) : null,
+  };
+}
+
+function twInsiderStockMetrics(stock) {
+  const people = (stock.people ?? [])
+    .map((person) => ({ ...person, _twMetrics: twInsiderPersonMetrics(person) }))
+    .filter((person) => Math.max(person._twMetrics.totalIncreaseShares, person._twMetrics.totalDecreaseShares) > 0)
+    .sort((left, right) => {
+      const valueDiff = Number(right._twMetrics.totalIncreaseValue ?? 0) - Number(left._twMetrics.totalIncreaseValue ?? 0);
+      if (valueDiff) return valueDiff;
+      return right._twMetrics.totalIncreaseShares - left._twMetrics.totalIncreaseShares;
+    });
+  const totals = people.reduce(
+    (sum, person) => {
+      const metrics = person._twMetrics;
+      sum.totalIncreaseShares += metrics.totalIncreaseShares;
+      sum.totalDecreaseShares += metrics.totalDecreaseShares;
+      if (sum.totalIncreaseValue !== null && metrics.totalIncreaseValue !== null) sum.totalIncreaseValue += metrics.totalIncreaseValue;
+      else sum.totalIncreaseValue = null;
+      if (sum.totalDecreaseValue !== null && metrics.totalDecreaseValue !== null) sum.totalDecreaseValue += metrics.totalDecreaseValue;
+      else sum.totalDecreaseValue = null;
+      return sum;
+    },
+    {
+      totalIncreaseShares: 0,
+      totalDecreaseShares: 0,
+      totalIncreaseValue: stock.closePrice == null ? null : 0,
+      totalDecreaseValue: stock.closePrice == null ? null : 0,
+    },
+  );
+  const netShares = totals.totalIncreaseShares - totals.totalDecreaseShares;
   const close = Number(stock.closePrice);
-  if (!Number.isFinite(close)) return 0;
-  return twInsiderLatestMonthIncreaseShares(stock) * close;
+  return {
+    ...totals,
+    people,
+    netShares,
+    netValue: Number.isFinite(close) ? Math.round(netShares * close) : null,
+  };
 }
 
-function twInsiderSortValue(stock) {
-  if (twInsiderSortMode === "latestMonthIncreaseValue") return twInsiderLatestMonthIncreaseValue(stock);
-  return Number(stock.totalIncreaseValue ?? 0);
-}
-
-function twInsiderSortLabel() {
-  return twInsiderSortMode === "latestMonthIncreaseValue" ? "最新月增加金額" : "近三個月增加金額";
+function twInsiderPassesCurrentThreshold(metrics) {
+  const valueThreshold = Number(twInsiderHoldingLatest.filters?.valueThreshold ?? 5000000);
+  const shareThreshold = Number(twInsiderHoldingLatest.filters?.netShareThreshold ?? 10000);
+  const value = Math.max(Math.abs(Number(metrics.totalIncreaseValue ?? 0)), Math.abs(Number(metrics.totalDecreaseValue ?? 0)));
+  const shares = Math.max(Math.abs(metrics.totalIncreaseShares), Math.abs(metrics.totalDecreaseShares));
+  return value >= valueThreshold && shares >= shareThreshold;
 }
 
 function twInsiderRows() {
-  const rows = twInsiderHoldingLatest.stocks ?? [];
+  const rows = (twInsiderHoldingLatest.stocks ?? [])
+    .map((stock) => ({ ...stock, _twMetrics: twInsiderStockMetrics(stock) }))
+    .filter((stock) => stock._twMetrics.people.length && twInsiderPassesCurrentThreshold(stock._twMetrics));
   const query = state.query.trim().toLowerCase();
   const filtered = !query ? rows : rows.filter((stock) => {
-    const peopleText = (stock.people ?? []).map((person) => [
+    const peopleText = (stock._twMetrics.people ?? []).map((person) => [
       person.person,
       person.relation,
       (person.roles ?? []).join(" "),
@@ -2826,9 +2903,9 @@ function twInsiderRows() {
     return haystack.includes(query);
   });
   return [...filtered].sort((left, right) => {
-    const valueDiff = twInsiderSortValue(right) - twInsiderSortValue(left);
+    const valueDiff = Number(right._twMetrics.totalIncreaseValue ?? 0) - Number(left._twMetrics.totalIncreaseValue ?? 0);
     if (valueDiff) return valueDiff;
-    return Number(right.totalIncreaseShares ?? 0) - Number(left.totalIncreaseShares ?? 0);
+    return right._twMetrics.totalIncreaseShares - left._twMetrics.totalIncreaseShares;
   });
 }
 
@@ -2840,7 +2917,7 @@ function twInsiderTone(value) {
 }
 
 function twInsiderMonthlyCells(person) {
-  return (person.monthly ?? []).map((month) => `
+  return (person._twMetrics?.monthly ?? []).map((month) => `
     <span>
       <b>${escapeHtml(month.period)}</b>
       +${formatTwLots(month.increaseShares)} / -${formatTwLots(month.decreaseShares)} 張
@@ -2849,7 +2926,8 @@ function twInsiderMonthlyCells(person) {
 }
 
 function twInsiderPersonRow(person) {
-  const netShares = Number(person.netShares ?? 0);
+  const metrics = person._twMetrics ?? twInsiderPersonMetrics(person);
+  const netShares = Number(metrics.netShares ?? 0);
   return `
     <tr>
       <td>
@@ -2857,23 +2935,35 @@ function twInsiderPersonRow(person) {
         <span>${escapeHtml((person.roles ?? []).join(" / "))}</span>
       </td>
       <td>${escapeHtml(person.relation || "")}</td>
-      <td class="num">${formatTwLots(person.totalIncreaseShares)}</td>
-      <td class="num">${formatTwLots(person.totalDecreaseShares)}</td>
+      <td class="num">${formatTwLots(metrics.totalIncreaseShares)}</td>
+      <td class="num">${formatTwLots(metrics.totalDecreaseShares)}</td>
       <td class="num ${twInsiderTone(netShares)}">${netShares >= 0 ? "+" : ""}${formatTwLots(netShares)}</td>
-      <td class="num">${formatTwMoney(person.netValue)}</td>
+      <td class="num">${formatTwMoney(metrics.netValue)}</td>
       <td class="tw-insider-months">${twInsiderMonthlyCells(person)}</td>
     </tr>
   `;
 }
 
 function twInsiderBreakdownLabel(item, key, label) {
-  const increase = Number(item.totalIncreaseBreakdown?.[key] ?? 0);
-  const decrease = Number(item.totalDecreaseBreakdown?.[key] ?? 0);
+  const rangePeriods = new Set(twInsiderRangePeriods());
+  const people = item._twMetrics?.people ?? item.people ?? [];
+  const totals = people.reduce((sum, person) => {
+    (person.monthly ?? []).forEach((month) => {
+      if (!rangePeriods.has(month.period)) return;
+      sum.increase += Number(month.increaseBreakdown?.[key] ?? 0);
+      sum.decrease += Number(month.decreaseBreakdown?.[key] ?? 0);
+    });
+    return sum;
+  }, { increase: 0, decrease: 0 });
+  const increase = totals.increase;
+  const decrease = totals.decrease;
   return `${label} +${formatTwLots(increase)} / -${formatTwLots(decrease)} 張`;
 }
 
 function twInsiderStockCard(stock) {
-  const netShares = Number(stock.netShares ?? 0);
+  const metrics = stock._twMetrics ?? twInsiderStockMetrics(stock);
+  const netShares = Number(metrics.netShares ?? 0);
+  const rangeLabel = twInsiderRangeLabel();
   return `
     <article class="tw-insider-card">
       <div class="tw-insider-card-head">
@@ -2883,14 +2973,14 @@ function twInsiderStockCard(stock) {
           <p>${escapeHtml(stock.market || "")}${stock.industry ? ` / ${escapeHtml(stock.industry)}` : ""}</p>
         </div>
         <div class="tw-insider-net ${twInsiderTone(netShares)}">
-          <span>三月淨變動</span>
+          <span>${escapeHtml(rangeLabel)}淨變動</span>
           <strong>${netShares >= 0 ? "+" : ""}${formatTwLots(netShares)}</strong>
-          <em>${formatTwMoney(stock.netValue)}</em>
+          <em>${formatTwMoney(metrics.netValue)}</em>
         </div>
       </div>
       <div class="tw-insider-meta">
-        <span>增加 ${formatTwLots(stock.totalIncreaseShares)} 張</span>
-        <span>減少 ${formatTwLots(stock.totalDecreaseShares)} 張</span>
+        <span>增加 ${formatTwLots(metrics.totalIncreaseShares)} 張</span>
+        <span>減少 ${formatTwLots(metrics.totalDecreaseShares)} 張</span>
         <span>${escapeHtml(twInsiderBreakdownLabel(stock, "ownConcentrated", "集中"))}</span>
         <span>${escapeHtml(twInsiderBreakdownLabel(stock, "pledged", "質權"))}</span>
         <span>收盤 ${stock.closePrice == null ? "缺價" : formatTwNumber(stock.closePrice)}</span>
@@ -2910,7 +3000,7 @@ function twInsiderStockCard(stock) {
               <th>月別</th>
             </tr>
           </thead>
-          <tbody>${(stock.people ?? []).map(twInsiderPersonRow).join("")}</tbody>
+          <tbody>${metrics.people.map(twInsiderPersonRow).join("")}</tbody>
         </table>
       </div>
     </article>
@@ -2919,13 +3009,17 @@ function twInsiderStockCard(stock) {
 
 function renderTwInsiderHolding() {
   if (!twInsiderPanel) return;
-  if (twInsiderSortSelect) twInsiderSortSelect.value = twInsiderSortMode;
+  if (twInsiderRangeSelect) twInsiderRangeSelect.value = twInsiderRangeMode;
+  twInsiderFieldInputs.forEach((input) => {
+    input.checked = twInsiderSelectedFields.includes(input.dataset.twInsiderField);
+  });
   const rows = twInsiderRows();
   const stats = twInsiderHoldingLatest.stats ?? {};
   const periods = twInsiderHoldingLatest.periods ?? [];
   const updated = formatBriefingTime(twInsiderHoldingLatest.generatedAt);
   const liquidityThreshold = twInsiderHoldingLatest.filters?.liquidityThreshold;
   const liquidityFilterText = liquidityThreshold == null ? "" : `<span>月成交值 ${formatTwMoney(liquidityThreshold)} 以上</span>`;
+  const peopleCount = rows.reduce((sum, stock) => sum + Number(stock._twMetrics?.people?.length ?? 0), 0);
   if (twInsiderStats) {
     twInsiderStats.textContent = `${periods.join(" / ") || "尚未更新"} / ${rows.length} 檔`;
   }
@@ -2940,11 +3034,11 @@ function renderTwInsiderHolding() {
   }
   twInsiderPanel.innerHTML = `
     <div class="tw-insider-summary">
-      <span>訊號股票 ${Number(stats.selectedStocks ?? rows.length)} 檔</span>
-      <span>主管/家屬 ${Number(stats.selectedPeople ?? 0)} 人</span>
-      <span>統計 集中 + 質權</span>
+      <span>訊號股票 ${rows.length} 檔</span>
+      <span>主管/家屬 ${peopleCount} 人</span>
+      <span>期間 ${escapeHtml(twInsiderRangeLabel())}</span>
+      <span>欄位 ${escapeHtml(twInsiderFieldLabel())}</span>
       <span>金額門檻 ${formatTwMoney(twInsiderHoldingLatest.filters?.valueThreshold ?? 5000000)} 以上</span>
-      <span>排序 ${escapeHtml(twInsiderSortLabel())}</span>
       ${liquidityFilterText}
       <span>更新 ${escapeHtml(updated)}</span>
     </div>
@@ -3819,12 +3913,24 @@ if (twRevenuePeriodSelect) {
   });
 }
 
-if (twInsiderSortSelect) {
-  twInsiderSortSelect.addEventListener("change", (event) => {
-    twInsiderSortMode = event.target.value;
+if (twInsiderRangeSelect) {
+  twInsiderRangeSelect.addEventListener("change", (event) => {
+    twInsiderRangeMode = event.target.value;
     renderTwInsiderHolding();
   });
 }
+
+twInsiderFieldInputs.forEach((input) => {
+  input.addEventListener("change", () => {
+    twInsiderSelectedFields = Array.from(twInsiderFieldInputs)
+      .filter((fieldInput) => fieldInput.checked)
+      .map((fieldInput) => fieldInput.dataset.twInsiderField);
+    if (!twInsiderSelectedFields.length) {
+      twInsiderSelectedFields = ["ownConcentrated"];
+    }
+    renderTwInsiderHolding();
+  });
+});
 
 if (financialReportSelect) {
   financialReportSelect.addEventListener("change", (event) => {
