@@ -579,6 +579,7 @@ const twInsiderHoldingLatest = window.twInsiderHoldingLatest ?? {
   highlights: [],
   stocks: [],
 };
+let twInsiderSortMode = "threeMonthIncreaseValue";
 
 const currentMacroEvents = [
   {
@@ -1807,6 +1808,7 @@ const twRevenueStats = document.querySelector("#twRevenueStats");
 const twRevenuePeriodSelect = document.querySelector("#twRevenuePeriodSelect");
 const twRevenuePanel = document.querySelector("#twRevenuePanel");
 const twInsiderStats = document.querySelector("#twInsiderStats");
+const twInsiderSortSelect = document.querySelector("#twInsiderSortSelect");
 const twInsiderPanel = document.querySelector("#twInsiderPanel");
 
 function canUseFeature(feature) {
@@ -2780,11 +2782,34 @@ function attachSortableTables(root = document) {
   });
 }
 
+function twInsiderLatestMonthIncreaseShares(stock) {
+  const latestPeriod = (twInsiderHoldingLatest.periods ?? [])[0];
+  if (!latestPeriod) return 0;
+  return (stock.people ?? []).reduce((sum, person) => {
+    const month = (person.monthly ?? []).find((item) => item.period === latestPeriod);
+    return sum + Number(month?.increaseShares ?? 0);
+  }, 0);
+}
+
+function twInsiderLatestMonthIncreaseValue(stock) {
+  const close = Number(stock.closePrice);
+  if (!Number.isFinite(close)) return 0;
+  return twInsiderLatestMonthIncreaseShares(stock) * close;
+}
+
+function twInsiderSortValue(stock) {
+  if (twInsiderSortMode === "latestMonthIncreaseValue") return twInsiderLatestMonthIncreaseValue(stock);
+  return Number(stock.totalIncreaseValue ?? 0);
+}
+
+function twInsiderSortLabel() {
+  return twInsiderSortMode === "latestMonthIncreaseValue" ? "最新月增加金額" : "近三個月增加金額";
+}
+
 function twInsiderRows() {
   const rows = twInsiderHoldingLatest.stocks ?? [];
   const query = state.query.trim().toLowerCase();
-  if (!query) return rows;
-  return rows.filter((stock) => {
+  const filtered = !query ? rows : rows.filter((stock) => {
     const peopleText = (stock.people ?? []).map((person) => [
       person.person,
       person.relation,
@@ -2799,6 +2824,11 @@ function twInsiderRows() {
       peopleText,
     ].join(" ").toLowerCase();
     return haystack.includes(query);
+  });
+  return [...filtered].sort((left, right) => {
+    const valueDiff = twInsiderSortValue(right) - twInsiderSortValue(left);
+    if (valueDiff) return valueDiff;
+    return Number(right.totalIncreaseShares ?? 0) - Number(left.totalIncreaseShares ?? 0);
   });
 }
 
@@ -2836,6 +2866,12 @@ function twInsiderPersonRow(person) {
   `;
 }
 
+function twInsiderBreakdownLabel(item, key, label) {
+  const increase = Number(item.totalIncreaseBreakdown?.[key] ?? 0);
+  const decrease = Number(item.totalDecreaseBreakdown?.[key] ?? 0);
+  return `${label} +${formatTwLots(increase)} / -${formatTwLots(decrease)} 張`;
+}
+
 function twInsiderStockCard(stock) {
   const netShares = Number(stock.netShares ?? 0);
   return `
@@ -2855,6 +2891,8 @@ function twInsiderStockCard(stock) {
       <div class="tw-insider-meta">
         <span>增加 ${formatTwLots(stock.totalIncreaseShares)} 張</span>
         <span>減少 ${formatTwLots(stock.totalDecreaseShares)} 張</span>
+        <span>${escapeHtml(twInsiderBreakdownLabel(stock, "ownConcentrated", "集中"))}</span>
+        <span>${escapeHtml(twInsiderBreakdownLabel(stock, "pledged", "質權"))}</span>
         <span>收盤 ${stock.closePrice == null ? "缺價" : formatTwNumber(stock.closePrice)}</span>
         <span>${escapeHtml(stock.priceAsOf || stock.quoteProvider || "價格待更新")}</span>
         <span>月成交值 ${stock.monthlyTradedValue == null ? "缺量" : formatTwMoney(stock.monthlyTradedValue)}${stock.liquidityPeriod ? ` / ${escapeHtml(stock.liquidityPeriod)}` : ""}</span>
@@ -2881,6 +2919,7 @@ function twInsiderStockCard(stock) {
 
 function renderTwInsiderHolding() {
   if (!twInsiderPanel) return;
+  if (twInsiderSortSelect) twInsiderSortSelect.value = twInsiderSortMode;
   const rows = twInsiderRows();
   const stats = twInsiderHoldingLatest.stats ?? {};
   const periods = twInsiderHoldingLatest.periods ?? [];
@@ -2903,7 +2942,9 @@ function renderTwInsiderHolding() {
     <div class="tw-insider-summary">
       <span>訊號股票 ${Number(stats.selectedStocks ?? rows.length)} 檔</span>
       <span>主管/家屬 ${Number(stats.selectedPeople ?? 0)} 人</span>
+      <span>統計 集中 + 質權</span>
       <span>金額門檻 ${formatTwMoney(twInsiderHoldingLatest.filters?.valueThreshold ?? 5000000)} 以上</span>
+      <span>排序 ${escapeHtml(twInsiderSortLabel())}</span>
       ${liquidityFilterText}
       <span>更新 ${escapeHtml(updated)}</span>
     </div>
@@ -3775,6 +3816,13 @@ if (twRevenuePeriodSelect) {
     twRevenueSelectedPeriod = event.target.value;
     renderMarketShell();
     renderTwRevenue();
+  });
+}
+
+if (twInsiderSortSelect) {
+  twInsiderSortSelect.addEventListener("change", (event) => {
+    twInsiderSortMode = event.target.value;
+    renderTwInsiderHolding();
   });
 }
 
