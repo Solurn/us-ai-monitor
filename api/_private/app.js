@@ -2969,6 +2969,12 @@ function twInsiderMovementDetail(item, movement) {
   return parts.length ? `<span class="tw-insider-subbreakdown">${escapeHtml(parts.join("、"))}</span>` : "";
 }
 
+function twInsiderMovementSourceCell(item, movement) {
+  const parts = twInsiderMovementParts(item, movement);
+  if (!parts.length) return `<span class="tw-insider-source-empty">--</span>`;
+  return `<div class="tw-insider-source-list">${parts.map((part) => `<span>${escapeHtml(part)}</span>`).join("")}</div>`;
+}
+
 function twInsiderPrimaryMovementLabel(item, movement) {
   const key = movement === "decrease" ? "decreaseShares" : "increaseShares";
   const top = twInsiderFieldTotals(item).sort((left, right) => right[key] - left[key])[0];
@@ -2996,8 +3002,10 @@ function twInsiderPersonRow(person) {
         <span>${escapeHtml((person.roles ?? []).join(" / "))}</span>
       </td>
       <td>${escapeHtml(person.relation || "")}</td>
-      <td class="num">${formatTwLots(metrics.totalIncreaseShares)}${twInsiderMovementDetail(person, "increase")}</td>
-      <td class="num">${formatTwLots(metrics.totalDecreaseShares)}${twInsiderMovementDetail(person, "decrease")}</td>
+      <td class="num">${formatTwLots(metrics.totalIncreaseShares)}</td>
+      <td>${twInsiderMovementSourceCell(person, "increase")}</td>
+      <td class="num">${formatTwLots(metrics.totalDecreaseShares)}</td>
+      <td>${twInsiderMovementSourceCell(person, "decrease")}</td>
       <td class="num ${twInsiderTone(netShares)}">${netShares >= 0 ? "+" : ""}${formatTwLots(netShares)}</td>
       <td class="num">${formatTwMoney(metrics.netValue)}</td>
       <td class="tw-insider-months">${twInsiderMonthlyCells(person)}</td>
@@ -3057,7 +3065,9 @@ function twInsiderStockCard(stock) {
               <th>主管</th>
               <th>關係</th>
               <th>${escapeHtml(rangeLabel)}增加(張)</th>
+              <th>增加項目</th>
               <th>${escapeHtml(rangeLabel)}減少(張)</th>
+              <th>減少項目</th>
               <th>淨變動(張)</th>
               <th>淨變動金額</th>
               <th>月別</th>

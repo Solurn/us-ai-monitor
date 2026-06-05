@@ -1264,6 +1264,33 @@ body.modal-open {
   line-height: 1.35;
 }
 
+.tw-insider-source-list {
+  display: grid;
+  gap: 4px;
+  min-width: 96px;
+}
+
+.tw-insider-source-list span {
+  display: inline-flex;
+  width: max-content;
+  max-width: 180px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 3px 7px;
+  background: #f9fafc;
+  color: #405066;
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+
+.tw-insider-source-empty {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+}
+
 .tw-insider-months span {
   display: inline-block;
   margin: 0 6px 4px 0;
