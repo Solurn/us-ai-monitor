@@ -583,6 +583,10 @@ const twInsiderFieldLabels = {
   ownConcentrated: "自有股數(集中)",
   pledged: "設定質權股數",
 };
+const twInsiderFieldShortLabels = {
+  ownConcentrated: "自有集中",
+  pledged: "設定質權",
+};
 let twInsiderSelectedFields = ["ownConcentrated"];
 let twInsiderRangeMode = "threeMonths";
 
@@ -2814,11 +2818,20 @@ function twInsiderPersonMetrics(person) {
   const fields = twInsiderActiveFields();
   const monthly = (person.monthly ?? [])
     .filter((month) => periods.has(month.period))
-    .map((month) => ({
-      period: month.period,
-      increaseShares: twInsiderBreakdownTotal(month.increaseBreakdown, fields),
-      decreaseShares: twInsiderBreakdownTotal(month.decreaseBreakdown, fields),
-    }));
+    .map((month) => {
+      const fieldBreakdown = fields.map((field) => ({
+        field,
+        label: twInsiderFieldShortLabels[field] ?? field,
+        increaseShares: Number(month.increaseBreakdown?.[field] ?? 0),
+        decreaseShares: Number(month.decreaseBreakdown?.[field] ?? 0),
+      }));
+      return {
+        period: month.period,
+        increaseShares: fieldBreakdown.reduce((sum, item) => sum + item.increaseShares, 0),
+        decreaseShares: fieldBreakdown.reduce((sum, item) => sum + item.decreaseShares, 0),
+        fieldBreakdown,
+      };
+    });
   const totalIncreaseShares = monthly.reduce((sum, month) => sum + month.increaseShares, 0);
   const totalDecreaseShares = monthly.reduce((sum, month) => sum + month.decreaseShares, 0);
   const close = Number(person.closePrice);
@@ -2916,11 +2929,59 @@ function twInsiderTone(value) {
   return "flat";
 }
 
+function twInsiderFieldTotals(item) {
+  const activeFields = twInsiderActiveFields();
+  const people = item._twMetrics?.people ?? [item];
+  return activeFields.map((field) => {
+    const total = people.reduce((sum, person) => {
+      return sum + (person._twMetrics?.monthly ?? []).reduce((monthSum, month) => {
+        const fieldItem = (month.fieldBreakdown ?? []).find((entry) => entry.field === field);
+        return monthSum + Number(fieldItem?.increaseShares ?? 0);
+      }, 0);
+    }, 0);
+    const decrease = people.reduce((sum, person) => {
+      return sum + (person._twMetrics?.monthly ?? []).reduce((monthSum, month) => {
+        const fieldItem = (month.fieldBreakdown ?? []).find((entry) => entry.field === field);
+        return monthSum + Number(fieldItem?.decreaseShares ?? 0);
+      }, 0);
+    }, 0);
+    return {
+      field,
+      label: twInsiderFieldShortLabels[field] ?? field,
+      increaseShares: total,
+      decreaseShares: decrease,
+    };
+  });
+}
+
+function twInsiderMovementParts(item, movement) {
+  return twInsiderFieldTotals(item)
+    .map((field) => ({
+      label: field.label,
+      shares: movement === "decrease" ? field.decreaseShares : field.increaseShares,
+    }))
+    .filter((field) => field.shares > 0)
+    .map((field) => `${field.label} ${movement === "decrease" ? "-" : "+"}${formatTwLots(field.shares)} 張`);
+}
+
+function twInsiderMovementDetail(item, movement) {
+  const parts = twInsiderMovementParts(item, movement);
+  return parts.length ? `<span class="tw-insider-subbreakdown">${escapeHtml(parts.join("、"))}</span>` : "";
+}
+
+function twInsiderPrimaryMovementLabel(item, movement) {
+  const key = movement === "decrease" ? "decreaseShares" : "increaseShares";
+  const top = twInsiderFieldTotals(item).sort((left, right) => right[key] - left[key])[0];
+  if (!top || top[key] <= 0) return "";
+  return `主要${movement === "decrease" ? "減少" : "增加"}：${top.label} ${movement === "decrease" ? "-" : "+"}${formatTwLots(top[key])} 張`;
+}
+
 function twInsiderMonthlyCells(person) {
   return (person._twMetrics?.monthly ?? []).map((month) => `
     <span>
       <b>${escapeHtml(month.period)}</b>
       +${formatTwLots(month.increaseShares)} / -${formatTwLots(month.decreaseShares)} 張
+      ${month.fieldBreakdown.some((field) => field.increaseShares || field.decreaseShares) ? `<em>${escapeHtml(month.fieldBreakdown.filter((field) => field.increaseShares || field.decreaseShares).map((field) => `${field.label} +${formatTwLots(field.increaseShares)} / -${formatTwLots(field.decreaseShares)} 張`).join("；"))}</em>` : ""}
     </span>
   `).join("");
 }
@@ -2935,8 +2996,8 @@ function twInsiderPersonRow(person) {
         <span>${escapeHtml((person.roles ?? []).join(" / "))}</span>
       </td>
       <td>${escapeHtml(person.relation || "")}</td>
-      <td class="num">${formatTwLots(metrics.totalIncreaseShares)}</td>
-      <td class="num">${formatTwLots(metrics.totalDecreaseShares)}</td>
+      <td class="num">${formatTwLots(metrics.totalIncreaseShares)}${twInsiderMovementDetail(person, "increase")}</td>
+      <td class="num">${formatTwLots(metrics.totalDecreaseShares)}${twInsiderMovementDetail(person, "decrease")}</td>
       <td class="num ${twInsiderTone(netShares)}">${netShares >= 0 ? "+" : ""}${formatTwLots(netShares)}</td>
       <td class="num">${formatTwMoney(metrics.netValue)}</td>
       <td class="tw-insider-months">${twInsiderMonthlyCells(person)}</td>
@@ -2957,7 +3018,7 @@ function twInsiderBreakdownLabel(item, key, label) {
   }, { increase: 0, decrease: 0 });
   const increase = totals.increase;
   const decrease = totals.decrease;
-  return `${label} +${formatTwLots(increase)} / -${formatTwLots(decrease)} 張`;
+  return `${label}：增加 ${formatTwLots(increase)} 張 / 減少 ${formatTwLots(decrease)} 張`;
 }
 
 function twInsiderStockCard(stock) {
@@ -2981,8 +3042,10 @@ function twInsiderStockCard(stock) {
       <div class="tw-insider-meta">
         <span>增加 ${formatTwLots(metrics.totalIncreaseShares)} 張</span>
         <span>減少 ${formatTwLots(metrics.totalDecreaseShares)} 張</span>
-        <span>${escapeHtml(twInsiderBreakdownLabel(stock, "ownConcentrated", "集中"))}</span>
-        <span>${escapeHtml(twInsiderBreakdownLabel(stock, "pledged", "質權"))}</span>
+        ${twInsiderPrimaryMovementLabel(stock, "increase") ? `<span>${escapeHtml(twInsiderPrimaryMovementLabel(stock, "increase"))}</span>` : ""}
+        ${twInsiderPrimaryMovementLabel(stock, "decrease") ? `<span>${escapeHtml(twInsiderPrimaryMovementLabel(stock, "decrease"))}</span>` : ""}
+        <span>${escapeHtml(twInsiderBreakdownLabel(stock, "ownConcentrated", "自有集中"))}</span>
+        <span>${escapeHtml(twInsiderBreakdownLabel(stock, "pledged", "設定質權"))}</span>
         <span>收盤 ${stock.closePrice == null ? "缺價" : formatTwNumber(stock.closePrice)}</span>
         <span>${escapeHtml(stock.priceAsOf || stock.quoteProvider || "價格待更新")}</span>
         <span>月成交值 ${stock.monthlyTradedValue == null ? "缺量" : formatTwMoney(stock.monthlyTradedValue)}${stock.liquidityPeriod ? ` / ${escapeHtml(stock.liquidityPeriod)}` : ""}</span>
@@ -2993,8 +3056,8 @@ function twInsiderStockCard(stock) {
             <tr>
               <th>主管</th>
               <th>關係</th>
-              <th>三月增加(張)</th>
-              <th>三月減少(張)</th>
+              <th>${escapeHtml(rangeLabel)}增加(張)</th>
+              <th>${escapeHtml(rangeLabel)}減少(張)</th>
               <th>淨變動(張)</th>
               <th>淨變動金額</th>
               <th>月別</th>

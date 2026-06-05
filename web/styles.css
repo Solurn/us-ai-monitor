@@ -1257,10 +1257,26 @@ body.modal-open {
   font-weight: 900;
 }
 
+.tw-insider-table .num .tw-insider-subbreakdown {
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
 .tw-insider-months span {
   display: inline-block;
   margin: 0 6px 4px 0;
   white-space: nowrap;
+}
+
+.tw-insider-months em {
+  display: block;
+  color: var(--muted);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.35;
 }
 
 
