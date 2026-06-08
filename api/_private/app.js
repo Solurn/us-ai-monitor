@@ -592,84 +592,21 @@ let twInsiderRangeMode = "threeMonths";
 
 const currentMacroEvents = [
   {
-    date: "2026-05-28",
-    time: "20:30",
-    tickers: ["MACRO"],
-    title: "PCE / Personal Income and Outlays",
-    category: "經濟數據",
-    confidence: "官方日程",
-    announcementSummary: "BEA release schedule 顯示 April 2026 Personal Income and Outlays 將於美東 5/28 08:30 公布，台北時間為 5/28 20:30；這份資料包含 personal income、personal spending、PCE price index 與 core PCE。",
-    readingPoints: [
-      "Core PCE 是 Fed 更重視的通膨指標，會直接影響降息預期。",
-      "同時看 personal income 與 spending，判斷消費動能是否仍支撐 AMZN、AAPL、廣告與雲端需求。",
-      "若 core PCE 偏熱，長端利率可能壓抑 NVDA、MSFT、GOOGL、META 等高估值 AI/雲端股。"
-    ],
-    source: "BEA release schedule",
-    sourceUrl: "https://www.bea.gov/news/schedule",
-  },
-  {
-    date: "2026-05-28",
-    time: "20:30",
-    tickers: ["MACRO"],
-    title: "美國 Q1 GDP second estimate / corporate profits",
-    category: "經濟數據",
-    confidence: "官方日程",
-    announcementSummary: "BEA release schedule 顯示 Q1 2026 GDP second estimate 與 corporate profits 將於美東 5/28 08:30 公布，台北時間為 5/28 20:30。",
-    readingPoints: [
-      "GDP second estimate 可修正前次成長率，影響市場對景氣韌性的判讀。",
-      "Corporate profits 可觀察企業獲利壓力是否擴散，對科技股 margin 敘事有參考價值。",
-      "若 GDP 強、PCE 也熱，市場可能重新定價 Fed 維持高利率更久。"
-    ],
-    source: "BEA release schedule",
-    sourceUrl: "https://www.bea.gov/news/schedule",
-  },
-  {
-    date: "2026-05-28",
-    time: "20:30",
-    tickers: ["MACRO"],
-    title: "Initial Jobless Claims 初領失業救濟金",
-    category: "經濟數據",
-    confidence: "官方日程",
-    announcementSummary: "美國勞工部每週四公布初領失業救濟金；本週公布時間為美東週四 08:30，台北時間 5/28 20:30。",
-    readingPoints: [
-      "初領失業救濟金是勞動市場降溫速度的高頻資料。",
-      "若初領明顯上升，市場可能轉向交易降息預期；若仍偏低，則代表薪資與消費支撐仍在。",
-      "和 PCE 同天公布時，要一起看：通膨熱但就業弱，市場反應會更分歧。"
-    ],
-    source: "U.S. Department of Labor weekly claims",
-    sourceUrl: "https://www.dol.gov/ui/data.pdf",
-  },
-  {
-    date: "2026-06-01",
-    time: "22:00",
-    tickers: ["MACRO"],
-    title: "ISM Manufacturing PMI",
-    category: "經濟數據",
-    confidence: "官方日程",
-    announcementSummary: "ISM 製造業 PMI 通常於每月第一個工作日上午 10:00 ET 公布，台北時間為 22:00。",
-    readingPoints: [
-      "看 new orders、production、employment 與 prices paid，判斷製造業需求與通膨壓力。",
-      "半導體設備、電力設備與資料中心供應鏈可用 PMI 分項判斷訂單和成本壓力。",
-      "若 prices paid 維持高檔，會削弱市場對快速降息的期待。"
-    ],
-    source: "ISM report calendar",
-    sourceUrl: "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
-  },
-  {
     date: "2026-06-05",
     time: "20:30",
     tickers: ["MACRO"],
     title: "非農就業 NFP / Employment Situation",
     category: "經濟數據",
-    confidence: "官方日程",
-    announcementSummary: "BLS Employment Situation schedule 顯示 May 2026 非農就業報告將於美東 6/5 08:30 公布，台北時間為 6/5 20:30。",
+    confidence: "已公告結果",
+    announcementSummary: "BLS 公布 May 2026 非農就業增加 172,000 人，失業率維持 4.3%；March 與 April 合計上修 93,000 人。這代表勞動市場比市場原先擔心更有韌性，短線可能讓 Fed 降息預期變得更保守。",
     readingPoints: [
-      "重點看新增非農、失業率、平均時薪與勞參率。",
-      "若薪資仍強，市場會降低降息預期；若就業轉弱但不崩，對成長股通常較友善。",
-      "AI capex 相關股短線仍會受利率路徑影響，但中期要回到各公司財報與需求能見度。"
+      "新增非農：+172,000，高於多數預期；失業率：4.3%，維持不變。",
+      "平均時薪月增 0.3%、年增 3.4%；平均每週工時維持 34.3 小時。",
+      "產業結構上 leisure and hospitality、local government、health care 增加較明顯，financial activities 減少 22,000。",
+      "對 AI/雲端股來說，這不是需求訊號，而是利率路徑訊號：就業太強會削弱降息交易，估值較高的成長股容易被重新檢視。"
     ],
-    source: "BLS Employment Situation schedule",
-    sourceUrl: "https://www.bls.gov/schedule/news_release/empsit.htm",
+    source: "BLS Employment Situation May 2026",
+    sourceUrl: "https://www.bls.gov/news.release/archives/empsit_06052026.htm",
   },
   {
     date: "2026-06-10",
@@ -686,6 +623,150 @@ const currentMacroEvents = [
     ],
     source: "BLS CPI schedule",
     sourceUrl: "https://www.bls.gov/schedule/news_release/cpi.htm",
+  },
+  {
+    date: "2026-06-11",
+    time: "20:30",
+    tickers: ["MACRO"],
+    title: "PPI 生產者物價指數",
+    category: "經濟數據",
+    confidence: "官方日程",
+    announcementSummary: "BLS PPI schedule 顯示 May 2026 PPI 將於美東 6/11 08:30 公布，台北時間為 6/11 20:30。",
+    readingPoints: [
+      "重點看 final demand、core goods、services、transportation and warehousing 與能源分項。",
+      "PPI 偏熱會讓市場擔心企業成本壓力與後續 PCE 傳導；若降溫，則有助於緩和通膨疑慮。",
+      "半導體設備、電力設備與資料中心供應鏈可用 PPI 觀察成本壓力是否侵蝕 margin。"
+    ],
+    source: "BLS PPI schedule",
+    sourceUrl: "https://www.bls.gov/schedule/news_release/ppi.htm",
+  },
+  {
+    date: "2026-06-17",
+    time: "20:30",
+    tickers: ["MACRO"],
+    title: "Retail Sales 零售銷售",
+    category: "經濟數據",
+    confidence: "官方日程",
+    announcementSummary: "U.S. Census Economic Indicators 顯示 Advance Retail and Food Services Sales 下一次發布日為 6/17；美東 08:30 公布，台北時間為 6/17 20:30。",
+    readingPoints: [
+      "零售銷售是消費韌性的高頻資料，會影響 AMZN、AAPL、廣告、支付與消費電子需求判斷。",
+      "看 control group、汽車、餐飲、線上銷售與百貨分項，避免只看 headline。",
+      "若消費強但通膨也強，市場可能轉向利率壓力；若消費弱，則要分辨是正常降溫還是景氣轉弱。"
+    ],
+    source: "U.S. Census Economic Indicators",
+    sourceUrl: "https://www.census.gov/economic-indicators/2026-release-schedule-list-view.html",
+  },
+  {
+    date: "2026-06-18",
+    time: "02:00",
+    tickers: ["MACRO"],
+    title: "FOMC 利率決議與 SEP 點陣圖",
+    category: "央行政策",
+    confidence: "官方日程",
+    announcementSummary: "Federal Reserve 2026 calendar 顯示 FOMC 將於 6/16-6/17 召開會議；六月會議包含 Summary of Economic Projections，政策聲明通常於美東 14:00 公布，台北時間為 6/18 02:00。",
+    readingPoints: [
+      "重點看是否維持利率不變，以及點陣圖對 2026 降息次數的調整。",
+      "Powell 記者會若強調通膨黏性，AI/雲端高估值股可能承壓；若承認就業降溫，市場可能重新交易降息。",
+      "這次要把 CPI、PPI、零售銷售與非農一起看，單一事件很容易誤判利率路徑。"
+    ],
+    source: "Federal Reserve FOMC calendar",
+    sourceUrl: "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+  },
+  {
+    date: "2026-06-25",
+    time: "20:30",
+    tickers: ["MACRO"],
+    title: "美國 Q1 GDP third estimate / corporate profits",
+    category: "經濟數據",
+    confidence: "官方日程",
+    announcementSummary: "BEA release schedule 顯示 Q1 2026 GDP third estimate、industries、corporate profits 與 state GDP 將於 6/25 08:30 ET 公布，台北時間為 6/25 20:30。",
+    readingPoints: [
+      "GDP third estimate 可能修正景氣強弱判讀，corporate profits 可用來觀察企業獲利壓力是否擴散。",
+      "若企業獲利與需求仍穩，但 PCE 偏熱，市場會更偏向高利率維持更久的敘事。",
+      "對科技股而言，macro 只決定估值環境；最終仍要回到雲端、AI capex、margin 與訂單能見度。"
+    ],
+    source: "BEA release schedule",
+    sourceUrl: "https://www.bea.gov/news/schedule/",
+  },
+  {
+    date: "2026-07-01",
+    time: "22:00",
+    tickers: ["MACRO"],
+    title: "ISM Manufacturing PMI",
+    category: "經濟數據",
+    confidence: "官方日程",
+    announcementSummary: "ISM Report On Business calendar 顯示 June 2026 Manufacturing PMI 將於 7/1 10:00 ET 公布，台北時間為 7/1 22:00。",
+    readingPoints: [
+      "重點看 new orders、production、employment、inventories 與 prices paid。",
+      "半導體設備、工業電力與資料中心供應鏈可用 PMI 判斷製造端需求與成本壓力。",
+      "若 prices paid 又升、new orders 轉弱，市場可能用 stagflation 角度壓低估值。"
+    ],
+    source: "ISM report calendar",
+    sourceUrl: "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+  },
+  {
+    date: "2026-06-30",
+    time: "22:00",
+    tickers: ["MACRO"],
+    title: "JOLTS Job Openings",
+    category: "經濟數據",
+    confidence: "官方日程",
+    announcementSummary: "BLS JOLTS schedule 顯示 May 2026 Job Openings and Labor Turnover Survey 將於 6/30 10:00 ET 公布，台北時間為 6/30 22:00。",
+    readingPoints: [
+      "JOLTS 觀察職缺、離職率與聘僱需求，通常用來判斷勞動市場是否真正降溫。",
+      "職缺若明顯下滑，可能強化 Fed 降息預期；若仍高，代表薪資壓力不容易快速消失。",
+      "對高估值 AI/雲端股來說，JOLTS 是利率敘事的輔助資料，重要性低於 CPI、PCE、FOMC 與非農。"
+    ],
+    source: "BLS JOLTS schedule",
+    sourceUrl: "https://www.bls.gov/schedule/news_release/jolts.htm",
+  },
+  {
+    date: "2026-07-02",
+    time: "20:30",
+    tickers: ["MACRO"],
+    title: "非農就業 NFP / Employment Situation",
+    category: "經濟數據",
+    confidence: "官方日程",
+    announcementSummary: "BLS May 2026 Employment Situation release 顯示 June 2026 非農就業報告將於 7/2 08:30 ET 公布，台北時間為 7/2 20:30。",
+    readingPoints: [
+      "這會是 6 月 FOMC 後的第一份完整就業報告，會影響市場對 7 月與 9 月會議的降息想像。",
+      "看新增非農、失業率、平均時薪、勞參率，以及前兩個月修正。",
+      "若就業與薪資都偏強，AI/雲端高估值股可能面臨利率壓力；若就業降溫但沒有衰退訊號，市場風險偏好通常較好。"
+    ],
+    source: "BLS Employment Situation May 2026",
+    sourceUrl: "https://www.bls.gov/news.release/archives/empsit_06052026.htm",
+  },
+  {
+    date: "2026-07-06",
+    time: "22:00",
+    tickers: ["MACRO"],
+    title: "ISM Services PMI",
+    category: "經濟數據",
+    confidence: "官方日程",
+    announcementSummary: "ISM Report On Business calendar 顯示 June 2026 Services PMI 將於 7/6 10:00 ET 公布，台北時間為 7/6 22:00。",
+    readingPoints: [
+      "Services PMI 對美國經濟更重要，因服務業占比高；重點看 business activity、new orders、employment 與 prices。",
+      "若 services prices 仍熱，會讓市場擔心核心服務通膨黏性，壓抑降息預期。",
+      "對 MSFT、AMZN、GOOGL、META 等公司，服務業景氣與企業支出韌性也會影響 cloud、ads 與 software demand。"
+    ],
+    source: "ISM report calendar",
+    sourceUrl: "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+  },
+  {
+    date: "2026-07-07",
+    time: "20:30",
+    tickers: ["MACRO"],
+    title: "PCE / Personal Income and Outlays",
+    category: "經濟數據",
+    confidence: "官方日程",
+    announcementSummary: "BEA release schedule 顯示 May 2026 Personal Income and Outlays 將於 7/7 08:30 ET 公布，台北時間為 7/7 20:30；其中 PCE price index 與 core PCE 是 Fed 觀察通膨的重要資料。",
+    readingPoints: [
+      "Core PCE 是 Fed 更重視的通膨指標，會直接影響降息預期。",
+      "同時看 personal income 與 spending，判斷消費是否仍支撐 AMZN、AAPL、廣告與雲端需求。",
+      "若 CPI/PPI 與 PCE 方向不一致，以 PCE 的政策權重較高，但仍要看分項是否只是一次性波動。"
+    ],
+    source: "BEA release schedule",
+    sourceUrl: "https://www.bea.gov/news/schedule/",
   },
 ];
 
@@ -1790,6 +1871,7 @@ const eventCountLabel = document.querySelector("#eventCountLabel");
 const industryGuidePanel = document.querySelector("#industryGuidePanel");
 const eventFilters = document.querySelector("#eventFilters");
 const eventList = document.querySelector("#eventList");
+const eventWindowLabel = document.querySelector("#eventWindowLabel");
 const learningCount = document.querySelector("#learningCount");
 const learningFilters = document.querySelector("#learningFilters");
 const learningList = document.querySelector("#learningList");
@@ -1838,17 +1920,56 @@ function taipeiTodayIso() {
   }).format(new Date());
 }
 
+const oneDayMs = 24 * 60 * 60 * 1000;
+
+function isoToUtcDate(isoDate) {
+  const [year, month, day] = isoDate.split("-").map(Number);
+  return new Date(Date.UTC(year, month - 1, day));
+}
+
+function utcDateToIso(date) {
+  return date.toISOString().slice(0, 10);
+}
+
+function addDaysIso(isoDate, days) {
+  return utcDateToIso(new Date(isoToUtcDate(isoDate).getTime() + days * oneDayMs));
+}
+
+function isBusinessDay(date) {
+  const day = date.getUTCDay();
+  return day !== 0 && day !== 6;
+}
+
+function subtractBusinessDaysIso(isoDate, days) {
+  let date = isoToUtcDate(isoDate);
+  let remaining = days;
+  while (remaining > 0) {
+    date = new Date(date.getTime() - oneDayMs);
+    if (isBusinessDay(date)) remaining -= 1;
+  }
+  return utcDateToIso(date);
+}
+
 function currentEventDate() {
   const today = taipeiTodayIso();
   const briefingDate = /^\d{4}-\d{2}-\d{2}$/.test(dailyBriefing.asOfDate || "") ? dailyBriefing.asOfDate : today;
   return today > briefingDate ? today : briefingDate;
 }
 
+function currentEventWindow() {
+  const today = currentEventDate();
+  return {
+    start: subtractBusinessDaysIso(today, 3),
+    end: addDaysIso(today, 30),
+  };
+}
+
 function eventIsCurrent(event) {
   const today = currentEventDate();
+  const { start, end } = currentEventWindow();
   const outcome = eventOutcomeFor(event);
   if (outcome?.retainUntil && outcome.retainUntil >= today) return true;
-  return event.date >= today;
+  return event.date >= start && event.date <= end;
 }
 
 function themeCount(theme) {
@@ -3901,10 +4022,14 @@ function renderDailyBriefing() {
 
 function renderEvents() {
   const events = filteredEvents();
+  const { start, end } = currentEventWindow();
   eventCount.textContent = events.length;
+  if (eventWindowLabel) {
+    eventWindowLabel.textContent = `範圍：${start.slice(5)} 至 ${end.slice(5)}（前三個工作天 + 未來 30 天）`;
+  }
   eventList.innerHTML = events.length
     ? events.map(eventItem).join("")
-    : `<div class="empty-state">沒有符合條件的未來事件</div>`;
+    : `<div class="empty-state">沒有符合條件的近期或未來重大事件</div>`;
 }
 
 function renderLearning() {
