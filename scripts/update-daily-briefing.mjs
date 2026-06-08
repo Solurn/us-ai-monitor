@@ -416,6 +416,7 @@ const announcedEventCatalog = [
       "這份非農不是企業 AI 需求訊號，而是利率路徑訊號。就業比預期強會壓低降息交易，對 NVDA、MSFT、AMZN、GOOGL、META 這類高估值 AI/雲端股，短線仍要留意殖利率與 Fed 預期變化。",
     source: "BLS Employment Situation May 2026",
     sourceUrl: "https://www.bls.gov/news.release/archives/empsit_06052026.htm",
+    reactionDate: "2026-06-05",
   },
 ];
 
@@ -530,30 +531,71 @@ async function fetchMarketReaction(ticker, marketDate = "") {
   return parseYahooChartReaction(data, marketDate, dailyContext);
 }
 
+const macroReactionTickers = [
+  { ticker: "SPY", label: "S&P 500 / SPY" },
+  { ticker: "QQQ", label: "Nasdaq 100 / QQQ" },
+  { ticker: "DIA", label: "Dow / DIA" },
+  { ticker: "IWM", label: "Small Caps / IWM" },
+  { ticker: "TLT", label: "Long Treasury / TLT" },
+];
+
+function outcomeReactionConfig(outcome) {
+  const stockTickers = (outcome.tickers ?? []).filter((ticker) => ticker !== "MACRO");
+  if (stockTickers.length) {
+    return {
+      scope: "stock",
+      label: "個股盤後反應",
+      tickers: stockTickers.map((ticker) => ({ ticker, label: ticker })),
+    };
+  }
+  if ((outcome.tickers ?? []).includes("MACRO")) {
+    return {
+      scope: "macro",
+      label: "指數與利率第一反應",
+      tickers: macroReactionTickers,
+    };
+  }
+  return { scope: "none", label: "", tickers: [] };
+}
+
 async function enrichEventOutcomesWithMarketReaction(outcomes) {
   return Promise.all(outcomes.map(async (outcome) => {
-    const stockTickers = (outcome.tickers ?? []).filter((ticker) => ticker !== "MACRO");
-    if (!stockTickers.length) return outcome;
+    const reactionConfig = outcomeReactionConfig(outcome);
+    if (!reactionConfig.tickers.length) return outcome;
     const marketReaction = [];
-    for (const ticker of stockTickers) {
+    const reactionDate = outcome.reactionDate ?? outcome.date ?? "";
+    for (const item of reactionConfig.tickers) {
       try {
-        marketReaction.push(await fetchMarketReaction(ticker, outcome.reactionDate));
+        const reaction = await fetchMarketReaction(item.ticker, reactionDate);
+        marketReaction.push({
+          ...reaction,
+          ticker: item.ticker,
+          label: item.label,
+          scope: reactionConfig.scope,
+        });
       } catch (error) {
         marketReaction.push({
-          ticker,
+          ticker: item.ticker,
+          label: item.label,
+          scope: reactionConfig.scope,
           close: null,
           closeChangePct: null,
           previousClose: null,
           afterHoursPrice: null,
           afterHoursChangePct: null,
-          reactionDate: outcome.reactionDate ?? "",
+          reactionDate,
           asOf: "",
           provider: "Yahoo Finance chart",
           error: error.message,
         });
       }
     }
-    return { ...outcome, marketReaction };
+    return {
+      ...outcome,
+      reactionScope: reactionConfig.scope,
+      reactionLabel: reactionConfig.label,
+      marketReaction,
+    };
   }));
 }
 

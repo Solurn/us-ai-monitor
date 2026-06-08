@@ -2547,10 +2547,20 @@ function formatReactionTime(value) {
   return `更新 ${date.toLocaleString("zh-TW", { timeZone: "Asia/Taipei", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit" })}`;
 }
 
+function reactionHeading(outcome) {
+  if (outcome.reactionLabel) return outcome.reactionLabel;
+  return (outcome.tickers ?? []).includes("MACRO") ? "指數與利率第一反應" : "個股盤後反應";
+}
+
+function reactionAfterHoursLabel(outcome) {
+  return outcome.reactionScope === "macro" || (outcome.tickers ?? []).includes("MACRO") ? "盤後/延續" : "盤後";
+}
+
 function eventOutcomeMarkup(outcome) {
   if (!outcome) return "";
   const sourceUrl = safeHttpUrl(outcome.sourceUrl);
   const marketReaction = outcome.marketReaction ?? [];
+  const afterHoursLabel = reactionAfterHoursLabel(outcome);
   return `
     <div class="event-section event-outcome">
       <div class="event-outcome-head">
@@ -2567,13 +2577,13 @@ function eventOutcomeMarkup(outcome) {
         marketReaction.length
           ? `
             <div class="market-reaction">
-              <strong>市場第一反應</strong>
+              <strong>${escapeHtml(reactionHeading(outcome))}</strong>
               <div class="market-reaction-grid">
                 ${marketReaction.map((item) => `
                   <div class="reaction-card">
-                    <span>${escapeHtml(item.ticker)}</span>
-                    <p>收盤：${formatReactionPrice(item.close)}（${formatReactionPct(item.closeChangePct)}）</p>
-                    <p>盤後：${formatReactionPrice(item.afterHoursPrice)}（${formatReactionPct(item.afterHoursChangePct)}）</p>
+                    <span>${escapeHtml(item.label || item.ticker)}</span>
+                    <p>當日收盤：${formatReactionPrice(item.close)}（${formatReactionPct(item.closeChangePct)}）</p>
+                    <p>${afterHoursLabel}：${formatReactionPrice(item.afterHoursPrice)}（${formatReactionPct(item.afterHoursChangePct)}）</p>
                     <em>${item.error ? escapeHtml(item.error) : escapeHtml(formatReactionTime(item.asOf))}</em>
                   </div>
                 `).join("")}
