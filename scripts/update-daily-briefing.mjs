@@ -396,13 +396,34 @@ const announcedEventCatalog = [
     source: "BLS CPI April 2026",
     sourceUrl: "https://www.bls.gov/news.release/cpi.nr0.htm",
   },
+  {
+    date: "2026-06-05",
+    time: "20:30",
+    tickers: ["MACRO"],
+    matchTitle: "非農",
+    title: "非農就業 NFP / Employment Situation 已公布",
+    type: "已公告結果",
+    priority: "高",
+    summary:
+      "BLS 公布 May 2026 非農就業增加 172,000 人，失業率維持 4.3%；March 與 April 合計上修 93,000 人。這代表勞動市場比市場原先擔心更有韌性，短線可能讓 Fed 降息預期變得更保守。",
+    metrics: [
+      "新增非農：+172,000；前兩個月合計上修 93,000。",
+      "失業率：4.3%，與前月持平。",
+      "平均時薪：月增 0.3%、年增 3.4%；平均每週工時 34.3 小時。",
+      "主要增加產業：leisure and hospitality、local government、health care；financial activities 減少 22,000。",
+    ],
+    researchRead:
+      "這份非農不是企業 AI 需求訊號，而是利率路徑訊號。就業比預期強會壓低降息交易，對 NVDA、MSFT、AMZN、GOOGL、META 這類高估值 AI/雲端股，短線仍要留意殖利率與 Fed 預期變化。",
+    source: "BLS Employment Situation May 2026",
+    sourceUrl: "https://www.bls.gov/news.release/archives/empsit_06052026.htm",
+  },
 ];
 
 function activeAnnouncedEvents(asOfDate) {
   return announcedEventCatalog
     .map((event) => ({
       ...event,
-      retainUntil: addBusinessDays(event.date, 4),
+      retainUntil: addBusinessDays(event.date, 3),
     }))
     .filter((event) => asOfDate <= event.retainUntil);
 }
@@ -1008,7 +1029,7 @@ async function main() {
     highlights,
     summary: [
       eventOutcomes.length > 0
-        ? `已公告結果 ${eventOutcomes.length} 筆已接入事件卡片，會依 3 個工作天保留規則自動移除；例如 2026-04-30 公告會保留到 2026-05-06。`
+        ? `已公告結果 ${eventOutcomes.length} 筆已接入事件卡片，會依 3 個工作天保留規則自動移除；例如週五公布的資料會保留到隔週三。`
         : "今日沒有仍在 3 個工作天保留期內的已公告事件結果。",
       buildFallbackHeadline(secResult.events.length, secResult.errors.length),
       yahooResult.itemCount > 0
