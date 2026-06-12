@@ -418,6 +418,52 @@ const announcedEventCatalog = [
     sourceUrl: "https://www.bls.gov/news.release/archives/empsit_06052026.htm",
     reactionDate: "2026-06-05",
   },
+  {
+    date: "2026-06-10",
+    time: "20:30",
+    tickers: ["MACRO"],
+    matchTitle: "CPI",
+    title: "CPI 消費者物價指數已公布",
+    type: "已公告結果",
+    priority: "高",
+    summary:
+      "BLS 公布 May 2026 CPI：CPI-U 月增 0.5%、年增 4.2%；核心 CPI 月增 0.2%、年增 2.9%。表面上核心月增放緩，但 headline 年增升到 4.2%，且能源月增 3.9%、年增 23.5%，市場會同時看到通膨壓力與能源成本風險。",
+    metrics: [
+      "Headline CPI：月增 +0.5%，年增 +4.2%。",
+      "Core CPI（不含食品與能源）：月增 +0.2%，年增 +2.9%。",
+      "Energy：月增 +3.9%，年增 +23.5%；其中 gasoline 月增 +7.0%、年增 +40.5%。",
+      "Shelter：月增 +0.3%，年增 +3.4%；services less energy services 月增 +0.3%。",
+      "Food：月增 +0.2%，年增 +3.1%。",
+    ],
+    researchRead:
+      "這份 CPI 不是單純利多或利空：核心月增降溫有助於風險偏好，但 headline 與能源仍偏熱，會讓 Fed 對降息保持謹慎。AI/雲端高估值股要看 QQQ/SPY 與 TLT 的反應，若 TLT 走弱、殖利率上行，估值壓力仍會回來。",
+    source: "BLS CPI May 2026",
+    sourceUrl: "https://www.bls.gov/news.release/cpi.nr0.htm",
+    reactionDate: "2026-06-10",
+  },
+  {
+    date: "2026-06-11",
+    time: "20:30",
+    tickers: ["MACRO"],
+    matchTitle: "PPI",
+    title: "PPI 生產者物價指數已公布",
+    type: "已公告結果",
+    priority: "高",
+    summary:
+      "BLS 公布 May 2026 PPI：final demand 月增 1.1%、年增 6.5%，為 2022 年 11 月以來最大年增；final demand less foods, energy, and trade services 月增 0.8%、年增 5.1%。成本壓力明顯偏熱，能源與 goods 是主要推手。",
+    metrics: [
+      "Final demand PPI：月增 +1.1%，年增 +6.5%。",
+      "Final demand goods：月增 +2.8%，為該系列 2009 年開始以來最大單月增幅。",
+      "Final demand energy：月增 +10.7%；gasoline 價格月增 +23.4%。",
+      "Final demand services：月增 +0.3%；transportation and warehousing services 月增 +2.6%。",
+      "Less foods, energy, and trade services：月增 +0.8%，年增 +5.1%。",
+    ],
+    researchRead:
+      "這份 PPI 對風險資產偏不友善，因為它強化成本通膨與後續 PCE 傳導疑慮。資料中心電力、散熱、工業設備與供應鏈公司要留意 input cost 是否侵蝕 margin；高估值 AI 股則要看 TLT/QQQ 反應判斷利率壓力。",
+    source: "BLS PPI May 2026",
+    sourceUrl: "https://www.bls.gov/news.release/ppi.nr0.htm",
+    reactionDate: "2026-06-11",
+  },
 ];
 
 function activeAnnouncedEvents(asOfDate) {
