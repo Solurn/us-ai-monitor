@@ -464,6 +464,52 @@ const announcedEventCatalog = [
     sourceUrl: "https://www.bls.gov/news.release/ppi.nr0.htm",
     reactionDate: "2026-06-11",
   },
+  {
+    date: "2026-06-17",
+    time: "20:30",
+    tickers: ["MACRO"],
+    matchTitle: "Retail Sales",
+    title: "Retail Sales 零售銷售已公布",
+    type: "已公告結果",
+    priority: "高",
+    summary:
+      "U.S. Census Bureau 公布 May 2026 advance retail and food services sales 為 763.7B 美元，月增 0.9%、年增 6.9%；March-April-May 三個月合計年增 5.3%，April 月增由 0.5% 修正為 0.4%。",
+    metrics: [
+      "Retail and food services sales：763.7B 美元，月增 +0.9%，年增 +6.9%。",
+      "Retail trade sales：月增 +1.0%，年增 +7.5%。",
+      "Total excluding gasoline stations：700.0B 美元，月增約 +0.7%。",
+      "Nonstore retailers：年增 +12.2%。",
+      "Food services and drinking places：年增 +2.7%。",
+    ],
+    researchRead:
+      "這份零售銷售顯示名目消費仍強，但資料未經通膨調整，能源價格可能放大 headline。對 AMZN、AAPL、廣告平台與支付/消費電子來說，重點是排除汽車與汽油後的消費韌性；對 Fed 來說，強消費會降低快速降息的急迫性。",
+    source: "U.S. Census May 2026 Advance Monthly Retail Trade",
+    sourceUrl: "https://www.census.gov/retail/marts/www/marts_current.pdf",
+    reactionDate: "2026-06-17",
+  },
+  {
+    date: "2026-06-18",
+    time: "02:00",
+    tickers: ["MACRO"],
+    matchTitle: "FOMC",
+    title: "FOMC 利率決議與 SEP 點陣圖已公布",
+    type: "已公告結果",
+    priority: "高",
+    summary:
+      "Fed 於 6/17 以 12-0 投票維持聯邦基金利率目標區間在 3.50%-3.75%。聲明指出經濟活動仍以穩健步伐擴張、就業增幅跟上勞動力，並強調通膨仍高於 2% 目標；SEP 將 2026 PCE inflation 中位數上修至 3.6%，聯邦基金利率 2026 年底中位數升至 3.8%。",
+    metrics: [
+      "政策利率：維持 3.50%-3.75%，投票 12-0。",
+      "聲明語氣：經濟活動穩健、資本投資與生產率成長強，就業與失業率變化不大。",
+      "通膨語氣：通膨仍高於 2% 目標，部分反映能源等供給衝擊；Fed 表示將達成物價穩定。",
+      "SEP 2026：Real GDP 2.2%、失業率 4.3%、PCE inflation 3.6%、core PCE 3.3%。",
+      "SEP 利率路徑：2026 年底 federal funds rate 中位數 3.8%，高於 March projection 的 3.4%。",
+    ],
+    researchRead:
+      "這次 FOMC 對高估值 AI/雲端股偏壓抑：利率沒有變，但 SEP 把通膨與年底政策利率中位數上修，代表市場不能太快交易降息。要看 TLT 是否走弱、QQQ/SPY 是否承壓；若長端利率續升，NVDA、MSFT、AMZN、GOOGL、META 的估值折現壓力會比基本面新聞更快反映。",
+    source: "Federal Reserve FOMC statement / SEP June 2026",
+    sourceUrl: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+    reactionDate: "2026-06-17",
+  },
 ];
 
 function activeAnnouncedEvents(asOfDate) {
