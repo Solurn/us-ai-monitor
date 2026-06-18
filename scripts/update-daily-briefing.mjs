@@ -543,6 +543,23 @@ function formatMarketTimestamp(timestamp) {
   return new Date(timestamp * 1000).toISOString();
 }
 
+function eventTaipeiDateToNewYorkDate(dateIso, time = "00:00") {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(dateIso || "")) return "";
+  const [year, month, day] = dateIso.split("-").map(Number);
+  const [hour = 0, minute = 0] = String(time || "00:00").split(":").map(Number);
+  const eventUtc = new Date(Date.UTC(year, month - 1, day, hour - 8, minute));
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "America/New_York",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(eventUtc);
+}
+
+function reactionDateForOutcome(outcome) {
+  return outcome.reactionDate || eventTaipeiDateToNewYorkDate(outcome.date, outcome.time);
+}
+
 function easternEpoch(dateIso, time) {
   return Math.floor(Date.parse(`${dateIso}T${time}-04:00`) / 1000);
 }
@@ -655,7 +672,7 @@ async function enrichEventOutcomesWithMarketReaction(outcomes) {
     const reactionConfig = outcomeReactionConfig(outcome);
     if (!reactionConfig.tickers.length) return outcome;
     const marketReaction = [];
-    const reactionDate = outcome.reactionDate ?? outcome.date ?? "";
+    const reactionDate = reactionDateForOutcome(outcome);
     for (const item of reactionConfig.tickers) {
       try {
         const reaction = await fetchMarketReaction(item.ticker, reactionDate);
@@ -684,6 +701,7 @@ async function enrichEventOutcomesWithMarketReaction(outcomes) {
     }
     return {
       ...outcome,
+      reactionDate,
       reactionScope: reactionConfig.scope,
       reactionLabel: reactionConfig.label,
       marketReaction,

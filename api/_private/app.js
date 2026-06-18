@@ -2547,6 +2547,16 @@ function formatReactionTime(value) {
   return `更新 ${date.toLocaleString("zh-TW", { timeZone: "Asia/Taipei", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit" })}`;
 }
 
+function formatReactionDate(value) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(value || "")) return "";
+  return `美股交易日 ${value.slice(5).replace("-", "/")}`;
+}
+
+function formatReactionMeta(item) {
+  const parts = [formatReactionDate(item.reactionDate), formatReactionTime(item.asOf)].filter(Boolean);
+  return parts.join(" · ");
+}
+
 function reactionHeading(outcome) {
   if (outcome.reactionLabel) return outcome.reactionLabel;
   return (outcome.tickers ?? []).includes("MACRO") ? "指數與利率第一反應" : "個股盤後反應";
@@ -2577,14 +2587,17 @@ function eventOutcomeMarkup(outcome) {
         marketReaction.length
           ? `
             <div class="market-reaction">
-              <strong>${escapeHtml(reactionHeading(outcome))}</strong>
+              <div class="market-reaction-head">
+                <strong>${escapeHtml(reactionHeading(outcome))}</strong>
+                ${outcome.reactionDate ? `<span>${escapeHtml(formatReactionDate(outcome.reactionDate))}</span>` : ""}
+              </div>
               <div class="market-reaction-grid">
                 ${marketReaction.map((item) => `
                   <div class="reaction-card">
                     <span>${escapeHtml(item.label || item.ticker)}</span>
                     <p>當日收盤：${formatReactionPrice(item.close)}（${formatReactionPct(item.closeChangePct)}）</p>
                     <p>${afterHoursLabel}：${formatReactionPrice(item.afterHoursPrice)}（${formatReactionPct(item.afterHoursChangePct)}）</p>
-                    <em>${item.error ? escapeHtml(item.error) : escapeHtml(formatReactionTime(item.asOf))}</em>
+                    <em>${item.error ? escapeHtml(item.error) : escapeHtml(formatReactionMeta(item))}</em>
                   </div>
                 `).join("")}
               </div>

@@ -2352,9 +2352,26 @@ th.sortable.sorted-desc::after {
   padding-top: 10px;
 }
 
-.market-reaction > strong {
+.market-reaction-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.market-reaction-head strong {
   color: var(--ink);
   font-size: 13px;
+}
+
+.market-reaction-head span {
+  border-radius: 999px;
+  padding: 3px 8px;
+  color: #173f3b;
+  background: #dff5f1;
+  font-size: 11px;
+  font-weight: 900;
+  white-space: nowrap;
 }
 
 .market-reaction-grid {
