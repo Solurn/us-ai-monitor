@@ -1,10 +1,266 @@
 window.twRevenueHistory = {
-  "generatedAt": "2026-06-10T21:39:35+08:00",
-  "latestPeriod": "115/5",
+  "generatedAt": "2026-07-02T20:29:55+08:00",
+  "latestPeriod": "115/6",
   "source": "MOPS 月營收彙總表",
   "periods": [
     {
-      "generatedAt": "2026-06-10T21:39:35+08:00",
+      "generatedAt": "2026-07-02T20:29:55+08:00",
+      "period": "115/6",
+      "source": "MOPS 月營收彙總表",
+      "filters": {
+        "markets": [
+          "sii",
+          "otc"
+        ],
+        "momThresholdPct": 30.0,
+        "yoyThresholdPct": 30.0,
+        "requirePositiveYtdYoy": true,
+        "requireNonNegativeMomYoy": true,
+        "excludedIndustryKeywords": [
+          "生技",
+          "建材營造",
+          "營建",
+          "金融"
+        ],
+        "publicIssueDateCutoff": "89/01/01"
+      },
+      "stats": {
+        "selected": 10,
+        "stories": 4,
+        "highs": 3,
+        "storyHighs": 1
+      },
+      "selected": [
+        {
+          "market": "上市",
+          "code": "3006",
+          "name": "晶豪科",
+          "industry": "半導體業",
+          "currentRevenue": 4845479,
+          "momPct": 8.484532463333839,
+          "yoyPct": 328.3542479788894,
+          "ytdYoyPct": 242.62430701861496,
+          "remark": "本期營收較前期成長係因產品市場需求復甦",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：4,845,479 千元",
+          "previousHighRevenue": 4634223,
+          "publicIssueDate": "89/04/21",
+          "businessDescription": "動、靜態隨機存取記憶體(DRAM/SRAM)、快閃記憶體(FLASH)\n類比積體電路、類比與數位混合積體電路\n與本公司業務相關之產品設計及研發之技術服務"
+        },
+        {
+          "market": "上櫃",
+          "code": "6486",
+          "name": "互動",
+          "industry": "通信網路業",
+          "currentRevenue": 324711,
+          "momPct": 137.78073946059945,
+          "yoyPct": 60.05629137440665,
+          "ytdYoyPct": 15.047530849803403,
+          "remark": "本月營收較去年同期增加50%以上，係因本月認列營收的專案較去年同期增加所致。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 777057,
+          "publicIssueDate": "103/09/19",
+          "businessDescription": "電信暨寬頻網路系統服務、無線傳輸服務、數位媒體系統服務\n雲端資訊系統服務、地理資訊系統服務"
+        },
+        {
+          "market": "上櫃",
+          "code": "3228",
+          "name": "金麗科",
+          "industry": "半導體業",
+          "currentRevenue": 34669,
+          "momPct": 20.62558714032219,
+          "yoyPct": 56.80235187697874,
+          "ytdYoyPct": 10.332081972692912,
+          "remark": "115年6月單月營收較去年同期增加，係因去年同期營收基期較低，故增加比率高。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 92913,
+          "publicIssueDate": "91/11/11",
+          "businessDescription": "微控制器IC、嵌入式微處理器及網路單晶片IC等設計、製造及販賣"
+        },
+        {
+          "market": "上市",
+          "code": "1590",
+          "name": "亞德客-KY",
+          "industry": "電機機械",
+          "currentRevenue": 3912577,
+          "momPct": 0.07957608532725441,
+          "yoyPct": 44.88326804302754,
+          "ytdYoyPct": 30.084007805316617,
+          "remark": "本月營業收入換算匯率為4.6662457；本年累計營業收入換算匯率為4.6089963。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 4342337,
+          "publicIssueDate": "99/11/10",
+          "businessDescription": "氣動控制元件,氣動執行元件,\n氣源處理元件及氣動輔助元件之研發,生產及銷售"
+        },
+        {
+          "market": "上櫃",
+          "code": "8109",
+          "name": "博大",
+          "industry": "電子零組件業",
+          "currentRevenue": 192667,
+          "momPct": 10.299009028091849,
+          "yoyPct": 36.23166885862571,
+          "ytdYoyPct": 23.660143502370577,
+          "remark": "-",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：192,667 千元",
+          "previousHighRevenue": 183743,
+          "publicIssueDate": "90/06/28",
+          "businessDescription": "各種電腦軟硬體及週邊設備暨零組件之製造、加工、買賣\n各種交直流電源供應器.轉換器.電信器材及其零組件之製造加工買賣\n資訊軟體服務業"
+        },
+        {
+          "market": "上市",
+          "code": "3591",
+          "name": "艾笛森",
+          "industry": "光電業",
+          "currentRevenue": 241900,
+          "momPct": 12.145979851739213,
+          "yoyPct": 34.83384056274595,
+          "ytdYoyPct": 7.15291830170527,
+          "remark": "-",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 408232,
+          "publicIssueDate": "96/09/27",
+          "businessDescription": "LED照明產品、LED車用產品及傳感器元件之研發製造銷售"
+        },
+        {
+          "market": "上櫃",
+          "code": "2070",
+          "name": "精湛",
+          "industry": "電機機械",
+          "currentRevenue": 67296,
+          "momPct": 33.592726406479535,
+          "yoyPct": 33.17238240357786,
+          "ytdYoyPct": 16.424157057265518,
+          "remark": "-",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 143899,
+          "publicIssueDate": "104/10/21",
+          "businessDescription": "機器設備製造業\n其他"
+        },
+        {
+          "market": "上櫃",
+          "code": "3564",
+          "name": "其陽",
+          "industry": "通信網路業",
+          "currentRevenue": 326232,
+          "momPct": 38.932682602751974,
+          "yoyPct": 30.325462106655056,
+          "ytdYoyPct": 15.368224179278663,
+          "remark": "-",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：326,232 千元",
+          "previousHighRevenue": 289623,
+          "publicIssueDate": "96/06/20",
+          "businessDescription": "網路安全相關產品之設計、製造及銷售"
+        },
+        {
+          "market": "上市",
+          "code": "3168",
+          "name": "眾福科",
+          "industry": "光電業",
+          "currentRevenue": 407461,
+          "momPct": 35.81806969883835,
+          "yoyPct": 25.681211096785336,
+          "ytdYoyPct": 10.911639422492776,
+          "remark": "-",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 501142,
+          "publicIssueDate": "91/04/23",
+          "businessDescription": "液晶顯示器模組"
+        },
+        {
+          "market": "上櫃",
+          "code": "3625",
+          "name": "西勝",
+          "industry": "電腦及週邊設備業",
+          "currentRevenue": 45950,
+          "momPct": 43.27585669296249,
+          "yoyPct": 23.382202889211104,
+          "ytdYoyPct": 4.090689232532038,
+          "remark": "-",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 301503,
+          "publicIssueDate": "97/04/02",
+          "businessDescription": "鋰電池模組之研發、製造及銷售\n電池零件買賣\n電子材料買賣"
+        }
+      ],
+      "stories": [
+        {
+          "market": "上市",
+          "code": "3006",
+          "name": "晶豪科",
+          "industry": "半導體業",
+          "currentRevenue": 4845479,
+          "momPct": 8.484532463333839,
+          "yoyPct": 328.3542479788894,
+          "ytdYoyPct": 242.62430701861496,
+          "remark": "本期營收較前期成長係因產品市場需求復甦",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：4,845,479 千元",
+          "previousHighRevenue": 4634223,
+          "publicIssueDate": "89/04/21",
+          "businessDescription": "動、靜態隨機存取記憶體(DRAM/SRAM)、快閃記憶體(FLASH)\n類比積體電路、類比與數位混合積體電路\n與本公司業務相關之產品設計及研發之技術服務"
+        },
+        {
+          "market": "上櫃",
+          "code": "6486",
+          "name": "互動",
+          "industry": "通信網路業",
+          "currentRevenue": 324711,
+          "momPct": 137.78073946059945,
+          "yoyPct": 60.05629137440665,
+          "ytdYoyPct": 15.047530849803403,
+          "remark": "本月營收較去年同期增加50%以上，係因本月認列營收的專案較去年同期增加所致。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 777057,
+          "publicIssueDate": "103/09/19",
+          "businessDescription": "電信暨寬頻網路系統服務、無線傳輸服務、數位媒體系統服務\n雲端資訊系統服務、地理資訊系統服務"
+        },
+        {
+          "market": "上櫃",
+          "code": "3228",
+          "name": "金麗科",
+          "industry": "半導體業",
+          "currentRevenue": 34669,
+          "momPct": 20.62558714032219,
+          "yoyPct": 56.80235187697874,
+          "ytdYoyPct": 10.332081972692912,
+          "remark": "115年6月單月營收較去年同期增加，係因去年同期營收基期較低，故增加比率高。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 92913,
+          "publicIssueDate": "91/11/11",
+          "businessDescription": "微控制器IC、嵌入式微處理器及網路單晶片IC等設計、製造及販賣"
+        },
+        {
+          "market": "上市",
+          "code": "1590",
+          "name": "亞德客-KY",
+          "industry": "電機機械",
+          "currentRevenue": 3912577,
+          "momPct": 0.07957608532725441,
+          "yoyPct": 44.88326804302754,
+          "ytdYoyPct": 30.084007805316617,
+          "remark": "本月營業收入換算匯率為4.6662457；本年累計營業收入換算匯率為4.6089963。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 4342337,
+          "publicIssueDate": "99/11/10",
+          "businessDescription": "氣動控制元件,氣動執行元件,\n氣源處理元件及氣動輔助元件之研發,生產及銷售"
+        }
+      ]
+    },
+    {
+      "generatedAt": "2026-07-02T20:29:58+08:00",
       "period": "115/5",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -4580,7 +4836,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-06-10T21:39:39+08:00",
+      "generatedAt": "2026-07-02T20:30:02+08:00",
       "period": "115/4",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -4603,8 +4859,8 @@ window.twRevenueHistory = {
       "stats": {
         "selected": 161,
         "stories": 97,
-        "highs": 29,
-        "storyHighs": 23
+        "highs": 28,
+        "storyHighs": 22
       },
       "selected": [
         {
@@ -4793,9 +5049,9 @@ window.twRevenueHistory = {
           "yoyPct": 349.21497789414195,
           "ytdYoyPct": 202.47643829224194,
           "remark": "本期營收較前期成長係因產品市場需求復甦",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：4,634,223 千元",
-          "previousHighRevenue": 4466516,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 4845479,
           "publicIssueDate": "89/04/21",
           "businessDescription": "動、靜態隨機存取記憶體(DRAM/SRAM)、快閃記憶體(FLASH)\n類比積體電路、類比與數位混合積體電路\n與本公司業務相關之產品設計及研發之技術服務"
         },
@@ -7371,9 +7627,9 @@ window.twRevenueHistory = {
           "yoyPct": 349.21497789414195,
           "ytdYoyPct": 202.47643829224194,
           "remark": "本期營收較前期成長係因產品市場需求復甦",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：4,634,223 千元",
-          "previousHighRevenue": 4466516,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 4845479,
           "publicIssueDate": "89/04/21",
           "businessDescription": "動、靜態隨機存取記憶體(DRAM/SRAM)、快閃記憶體(FLASH)\n類比積體電路、類比與數位混合積體電路\n與本公司業務相關之產品設計及研發之技術服務"
         },
@@ -8740,7 +8996,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-06-10T21:39:44+08:00",
+      "generatedAt": "2026-07-02T20:30:06+08:00",
       "period": "115/3",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -8761,8 +9017,8 @@ window.twRevenueHistory = {
         "publicIssueDateCutoff": "89/01/01"
       },
       "stats": {
-        "selected": 215,
-        "stories": 111,
+        "selected": 219,
+        "stories": 112,
         "highs": 24,
         "storyHighs": 18
       },
@@ -9051,7 +9307,7 @@ window.twRevenueHistory = {
           "remark": "本期營收較前期成長係因產品市場需求復甦",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 4634223,
+          "previousHighRevenue": 4845479,
           "publicIssueDate": "89/04/21",
           "businessDescription": "動、靜態隨機存取記憶體(DRAM/SRAM)、快閃記憶體(FLASH)\n類比積體電路、類比與數位混合積體電路\n與本公司業務相關之產品設計及研發之技術服務"
         },
@@ -9710,6 +9966,22 @@ window.twRevenueHistory = {
           "previousHighRevenue": 1478692,
           "publicIssueDate": "113/10/17",
           "businessDescription": "船舶租賃、離岸風電工程管理、離岸風場長期運維等海事工程服務"
+        },
+        {
+          "market": "上櫃",
+          "code": "6486",
+          "name": "互動",
+          "industry": "通信網路業",
+          "currentRevenue": 198402,
+          "momPct": 52.74969781425393,
+          "yoyPct": 77.83693664622997,
+          "ytdYoyPct": 12.225478140921423,
+          "remark": "本月營收較去年同期增加50%以上，係因本月認列營收的專案較去年同期增加所致。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 777057,
+          "publicIssueDate": "103/09/19",
+          "businessDescription": "電信暨寬頻網路系統服務、無線傳輸服務、數位媒體系統服務\n雲端資訊系統服務、地理資訊系統服務"
         },
         {
           "market": "上市",
@@ -11313,6 +11585,22 @@ window.twRevenueHistory = {
         },
         {
           "market": "上櫃",
+          "code": "8109",
+          "name": "博大",
+          "industry": "電子零組件業",
+          "currentRevenue": 181798,
+          "momPct": 50.56358441343327,
+          "yoyPct": 27.246257113060032,
+          "ytdYoyPct": 20.633091470907672,
+          "remark": "-",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 192667,
+          "publicIssueDate": "90/06/28",
+          "businessDescription": "各種電腦軟硬體及週邊設備暨零組件之製造、加工、買賣\n各種交直流電源供應器.轉換器.電信器材及其零組件之製造加工買賣\n資訊軟體服務業"
+        },
+        {
+          "market": "上櫃",
           "code": "4534",
           "name": "慶騰",
           "industry": "電機機械",
@@ -11422,6 +11710,22 @@ window.twRevenueHistory = {
           "previousHighRevenue": 832341,
           "publicIssueDate": "103/08/06",
           "businessDescription": "汽機車零組件之製造、加工、買賣、五金零組件、機械零組件及裝配\n醫療器材之製造、加工、買賣、五金零組件、機械零組件及裝配\n休閒車輛零組件之製造、加工、買賣"
+        },
+        {
+          "market": "上櫃",
+          "code": "2070",
+          "name": "精湛",
+          "industry": "電機機械",
+          "currentRevenue": 75686,
+          "momPct": 108.59906843425296,
+          "yoyPct": 22.842952671557487,
+          "ytdYoyPct": 9.012544048990062,
+          "remark": "-",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 143899,
+          "publicIssueDate": "104/10/21",
+          "businessDescription": "機器設備製造業\n其他"
         },
         {
           "market": "上櫃",
@@ -11968,6 +12272,22 @@ window.twRevenueHistory = {
           "businessDescription": "國際貿易業\n資訊軟體服務業\n電子資訊供應服務業"
         },
         {
+          "market": "上市",
+          "code": "3168",
+          "name": "眾福科",
+          "industry": "光電業",
+          "currentRevenue": 339151,
+          "momPct": 30.575276434533528,
+          "yoyPct": 10.675964964951898,
+          "ytdYoyPct": 6.52585058011916,
+          "remark": "-",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 501142,
+          "publicIssueDate": "91/04/23",
+          "businessDescription": "液晶顯示器模組"
+        },
+        {
           "market": "上櫃",
           "code": "3520",
           "name": "華盈",
@@ -12493,7 +12813,7 @@ window.twRevenueHistory = {
           "remark": "本期營收較前期成長係因產品市場需求復甦",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 4634223,
+          "previousHighRevenue": 4845479,
           "publicIssueDate": "89/04/21",
           "businessDescription": "動、靜態隨機存取記憶體(DRAM/SRAM)、快閃記憶體(FLASH)\n類比積體電路、類比與數位混合積體電路\n與本公司業務相關之產品設計及研發之技術服務"
         },
@@ -13152,6 +13472,22 @@ window.twRevenueHistory = {
           "previousHighRevenue": 1478692,
           "publicIssueDate": "113/10/17",
           "businessDescription": "船舶租賃、離岸風電工程管理、離岸風場長期運維等海事工程服務"
+        },
+        {
+          "market": "上櫃",
+          "code": "6486",
+          "name": "互動",
+          "industry": "通信網路業",
+          "currentRevenue": 198402,
+          "momPct": 52.74969781425393,
+          "yoyPct": 77.83693664622997,
+          "ytdYoyPct": 12.225478140921423,
+          "remark": "本月營收較去年同期增加50%以上，係因本月認列營收的專案較去年同期增加所致。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 777057,
+          "publicIssueDate": "103/09/19",
+          "businessDescription": "電信暨寬頻網路系統服務、無線傳輸服務、數位媒體系統服務\n雲端資訊系統服務、地理資訊系統服務"
         },
         {
           "market": "上市",
