@@ -53,11 +53,19 @@ function parseBullets(sectionText) {
 }
 
 function sectionAfter(block, heading) {
-  const match = block.match(new RegExp(`\\n#{2,3}\\s+${heading.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*\\n`));
+  const match = block.match(new RegExp(`\\n#{1,3}\\s+${heading.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*\\n`));
   if (!match || match.index == null) return "";
   const rest = block.slice(match.index + match[0].length);
-  const next = rest.search(/\n#{2,3}\s+/);
+  const next = rest.search(/\n#{1,3}\s+/);
   return next >= 0 ? rest.slice(0, next) : rest;
+}
+
+function firstNarrativeBullets(block) {
+  const match = block.match(/\n#\s+[^\r\n]+\r?\n/);
+  if (!match || match.index == null) return [];
+  const rest = block.slice(match.index + match[0].length);
+  const next = rest.search(/\n#{1,3}\s+/);
+  return parseBullets(next >= 0 ? rest.slice(0, next) : rest);
 }
 
 function evaluateOutlookTone(outlookBullets, summaryBullets) {
@@ -194,6 +202,7 @@ function parseReport(markdown, reportFile) {
     const mediaValue = parseInlineValue(block, "影音");
     const outlookBullets = parseBullets(sectionAfter(block, "展望重點"));
     const summaryBullets = parseBullets(sectionAfter(block, "會議重點摘要"));
+    const resolvedSummaryBullets = summaryBullets.length ? summaryBullets : firstNarrativeBullets(block);
     const financialBullets = parseBullets(sectionAfter(block, "營運與財務"));
     const riskBullets = parseBullets(sectionAfter(block, "風險與不確定性"));
     const qnaBullets = parseBullets(sectionAfter(block, "Q&A / 其他"));
@@ -213,8 +222,8 @@ function parseReport(markdown, reportFile) {
       mediaStatus: mediaValue.includes("缺") ? "缺影音" : mediaValue ? "有影音" : "未揭露",
       transcriptStatus: transcriptLine || (mediaValue && !mediaValue.includes("缺") ? "未產生" : "缺影音"),
       outlookBullets: outlookBullets.length ? outlookBullets : parseBullets(sectionAfter(block, "展望")),
-      outlookTone: evaluateOutlookTone(outlookBullets, summaryBullets),
-      summaryBullets,
+      outlookTone: evaluateOutlookTone(outlookBullets, resolvedSummaryBullets),
+      summaryBullets: resolvedSummaryBullets,
       financialBullets,
       riskBullets,
       qnaBullets,
