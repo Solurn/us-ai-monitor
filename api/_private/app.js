@@ -2998,9 +2998,9 @@ function twInsiderStockMetrics(stock) {
     .map((person) => ({ ...person, _twMetrics: twInsiderPersonMetrics(person) }))
     .filter((person) => Math.max(person._twMetrics.totalIncreaseShares, person._twMetrics.totalDecreaseShares) > 0)
     .sort((left, right) => {
-      const valueDiff = Math.abs(Number(right._twMetrics.netValue ?? 0)) - Math.abs(Number(left._twMetrics.netValue ?? 0));
+      const valueDiff = Number(right._twMetrics.netValue ?? 0) - Number(left._twMetrics.netValue ?? 0);
       if (valueDiff) return valueDiff;
-      return Math.abs(right._twMetrics.netShares) - Math.abs(left._twMetrics.netShares);
+      return Number(right._twMetrics.netShares ?? 0) - Number(left._twMetrics.netShares ?? 0);
     });
   const totals = people.reduce(
     (sum, person) => {
@@ -3060,9 +3060,9 @@ function twInsiderRows() {
     return haystack.includes(query);
   });
   return [...filtered].sort((left, right) => {
-    const valueDiff = Math.abs(Number(right._twMetrics.netValue ?? 0)) - Math.abs(Number(left._twMetrics.netValue ?? 0));
+    const valueDiff = Number(right._twMetrics.netValue ?? 0) - Number(left._twMetrics.netValue ?? 0);
     if (valueDiff) return valueDiff;
-    return Math.abs(right._twMetrics.netShares) - Math.abs(left._twMetrics.netShares);
+    return Number(right._twMetrics.netShares ?? 0) - Number(left._twMetrics.netShares ?? 0);
   });
 }
 
@@ -3255,6 +3255,7 @@ function renderTwInsiderHolding() {
       <span>主管/家屬 ${peopleCount} 人</span>
       <span>期間 ${escapeHtml(twInsiderRangeLabel())}</span>
       <span>欄位 ${escapeHtml(twInsiderFieldLabel())}</span>
+      <span>排序 淨買金額至淨賣金額</span>
       <span>金額門檻 ${formatTwMoney(twInsiderHoldingLatest.filters?.valueThreshold ?? 5000000)} 以上</span>
       ${liquidityFilterText}
       <span>更新 ${escapeHtml(updated)}</span>
