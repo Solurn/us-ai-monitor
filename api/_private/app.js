@@ -2998,9 +2998,9 @@ function twInsiderStockMetrics(stock) {
     .map((person) => ({ ...person, _twMetrics: twInsiderPersonMetrics(person) }))
     .filter((person) => Math.max(person._twMetrics.totalIncreaseShares, person._twMetrics.totalDecreaseShares) > 0)
     .sort((left, right) => {
-      const valueDiff = Number(right._twMetrics.totalIncreaseValue ?? 0) - Number(left._twMetrics.totalIncreaseValue ?? 0);
+      const valueDiff = Math.abs(Number(right._twMetrics.netValue ?? 0)) - Math.abs(Number(left._twMetrics.netValue ?? 0));
       if (valueDiff) return valueDiff;
-      return right._twMetrics.totalIncreaseShares - left._twMetrics.totalIncreaseShares;
+      return Math.abs(right._twMetrics.netShares) - Math.abs(left._twMetrics.netShares);
     });
   const totals = people.reduce(
     (sum, person) => {
@@ -3060,9 +3060,9 @@ function twInsiderRows() {
     return haystack.includes(query);
   });
   return [...filtered].sort((left, right) => {
-    const valueDiff = Number(right._twMetrics.totalIncreaseValue ?? 0) - Number(left._twMetrics.totalIncreaseValue ?? 0);
+    const valueDiff = Math.abs(Number(right._twMetrics.netValue ?? 0)) - Math.abs(Number(left._twMetrics.netValue ?? 0));
     if (valueDiff) return valueDiff;
-    return right._twMetrics.totalIncreaseShares - left._twMetrics.totalIncreaseShares;
+    return Math.abs(right._twMetrics.netShares) - Math.abs(left._twMetrics.netShares);
   });
 }
 
