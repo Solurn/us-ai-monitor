@@ -219,7 +219,7 @@ window.irSummaryHistory = {
           "companyWebsite": "https://www.power-tech.com.tw/aboutUs/investor/financial/law",
           "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/329620260724M001.pdf",
           "englishPdf": "https://mopsov.twse.com.tw/nas/STR/329620260724E001.pdf",
-          "mediaUrl": "https://gfortune.webex.com/gfortune-tc/j.php?MTID=m6bf91e752cb2a9a978139b935f93583a",
+          "mediaUrl": "https://www.youtube.com/watch?v=PxfTzCBXQnI",
           "mediaStatus": "有影音",
           "transcriptStatus": "未產生",
           "outlookBullets": [
@@ -7319,7 +7319,7 @@ window.irSummaryLatest = {
       "companyWebsite": "https://www.power-tech.com.tw/aboutUs/investor/financial/law",
       "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/329620260724M001.pdf",
       "englishPdf": "https://mopsov.twse.com.tw/nas/STR/329620260724E001.pdf",
-      "mediaUrl": "https://gfortune.webex.com/gfortune-tc/j.php?MTID=m6bf91e752cb2a9a978139b935f93583a",
+      "mediaUrl": "https://www.youtube.com/watch?v=PxfTzCBXQnI",
       "mediaStatus": "有影音",
       "transcriptStatus": "未產生",
       "outlookBullets": [
