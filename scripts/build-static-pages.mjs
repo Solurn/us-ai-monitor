@@ -34,6 +34,17 @@ async function copyIfExists(from, to) {
   await fs.cp(from, to, { recursive: true });
 }
 
+async function copyTopLevelFilesIfExists(from, to) {
+  if (!(await pathExists(from))) return;
+  await fs.mkdir(to, { recursive: true });
+  const entries = await fs.readdir(from, { withFileTypes: true });
+  await Promise.all(
+    entries
+      .filter((entry) => entry.isFile())
+      .map((entry) => fs.copyFile(path.join(from, entry.name), path.join(to, entry.name))),
+  );
+}
+
 async function buildIndex() {
   const indexPath = path.join(root, "web", "index.html");
   let html = await fs.readFile(indexPath, "utf8");
@@ -68,7 +79,7 @@ async function main() {
   await fs.rm(outputDir, { recursive: true, force: true });
   await fs.mkdir(outputDir, { recursive: true });
   await fs.cp(path.join(root, "web"), outputDir, { recursive: true });
-  await copyIfExists(path.join(root, "api", "_data"), path.join(outputDir, "data"));
+  await copyTopLevelFilesIfExists(path.join(root, "api", "_data"), path.join(outputDir, "data"));
   await copyIfExists(path.join(root, "api", "_assets"), path.join(outputDir, "assets"));
   await fs.copyFile(path.join(root, "api", "_private", "app.js"), path.join(outputDir, "app.js"));
   await buildIndex();
