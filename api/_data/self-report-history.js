@@ -1,27 +1,49 @@
 window.selfReportHistory = {
   "items": [
     {
-      "generatedAt": "2026-08-06T21:25:23+08:00",
+      "generatedAt": "2026-08-06T23:13:04+08:00",
       "queryDate": "2026-08-06",
       "displayDate": "115年8月6日",
-      "checkedAt": "2026-08-06T21:25:23+08:00",
+      "checkedAt": "2026-08-06T23:13:04+08:00",
       "checkedQueryDate": "2026-08-06",
       "checkedDisplayDate": "115年8月6日",
-      "checkedCount": 1,
+      "checkedCount": 2,
       "checkedSkipped": {
         "bond_subject": 1,
-        "missing_financials": 1,
+        "missing_financials": 0,
         "duplicate": 0,
         "detail_error": 0
       },
-      "count": 1,
+      "count": 2,
       "skipped": {
         "bond_subject": 1,
-        "missing_financials": 1,
+        "missing_financials": 0,
         "duplicate": 0,
         "detail_error": 0
       },
       "rows": [
+        {
+          "code": "3037",
+          "name": "欣興",
+          "market": "上市",
+          "announcement_date": "115/08/06",
+          "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊 標準， 故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+          "month_label": "6月",
+          "monthly_revenue": 14897.0,
+          "monthly_pre_tax_income": 5934.0,
+          "monthly_parent_income": 4724.0,
+          "monthly_eps": 3.04,
+          "quarter_eps": 8.45,
+          "tax_margin_pct": 39.83352352822716,
+          "operating_margin_pct": 31.711082768342617,
+          "previous_quarter_monthly_eps": 2.8166666666666664,
+          "reference_quarter": "2026Q2",
+          "reference_tax_margin_pct": 36.32,
+          "reference_operating_margin_pct": 15.51,
+          "tax_margin_delta_pct": 3.513523528227161,
+          "operating_margin_delta_pct": 16.201082768342616,
+          "detail_key": "sii:3037:20260806:154541:1"
+        },
         {
           "code": "3653",
           "name": "健策",
