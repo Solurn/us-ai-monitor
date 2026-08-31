@@ -1,10 +1,433 @@
 window.irSummaryHistory = {
-  "generatedAt": "2026-08-28T13:44:20.175Z",
+  "generatedAt": "2026-08-31T11:42:21.523Z",
   "sourceRoot": "C:\\Users\\user\\Desktop\\Codex專案\\法說整理",
   "retentionDays": 30,
   "maxMeetingDate": "",
-  "latestDate": "2026-08-28",
+  "latestDate": "2026-08-31",
   "items": [
+    {
+      "generatedAt": "2026-08-31T11:42:21.523Z",
+      "queryDate": "2026-08-31",
+      "displayDate": "2026-08-31",
+      "count": 11,
+      "rows": [
+        {
+          "date": "2026-08-31",
+          "code": "1101",
+          "name": "台泥",
+          "eventType": "法人說明會",
+          "time": "14:00",
+          "location": "富邦金融大樓(台北巿大安區仁愛路四段169號15樓)",
+          "topic": "本公司受邀參加富邦證券舉辦之法人座談會, 會中說明本公司營運簡介、ESG、公司未來展望",
+          "companyWebsite": "https://www.taiwancement.com/tw/ir_investor-meetings.html",
+          "chinesePdf": "",
+          "englishPdf": "",
+          "mediaUrl": "https://media.taiwancement.com/investors/2026/20260831_FUBON.mp3",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "未從簡報或轉錄稿擷取到明確展望段落。"
+          ],
+          "outlookTone": {
+            "label": "中性觀望",
+            "score": 50,
+            "basis": "正向訊號 0、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "MOPS 擇要訊息：本公司受邀參加富邦證券舉辦之法人座談會, 會中說明本公司營運簡介、ESG、公司未來展望",
+            "缺少可摘要的簡報文字或轉錄稿。"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-08-31.md",
+          "detailMarkdown": "## 1101 台泥 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：本公司受邀參加富邦證券舉辦之法人座談會, 會中說明本公司營運簡介、ESG、公司未來展望\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-08-31",
+          "code": "2739",
+          "name": "寒舍",
+          "eventType": "法人說明會",
+          "time": "14:30",
+          "location": "台北喜來登大飯店B2月星廳(台北市忠孝東路一段12號B2)",
+          "topic": "本公司受邀參加國泰證券舉辦之法人說明會,說明本公司之營運概況及經營策略等相關資訊。",
+          "companyWebsite": "https://www.mhh-group.com/",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/273920260831M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/273920260831E001.pdf",
+          "mediaUrl": "https://www.youtube.com/watch?v=v-F2Rdd3aJE",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "探索廚房全新升級 2025年10月中，台北寒舍艾美酒店完成探索廚房全面升級，擴大日料區與增加多款海鮮料理，帶動營運表現提升。改 裝後2025年第四季營收較2024年第四季同期成長15%；2026年第一季營收進一步突破億元，第二季亦較去年同期成 長18%，顯示改裝效益持續發酵。 25",
+            "客房全新硬體升級 集團精準布局暑假及親子旅遊市場，台北喜來登大飯店於2026年5月完成12間親子主題客房改裝，攜手台灣插畫家打造多元 房型，暑期需求帶動7月親子房銷售房晚數較去年同期成長約103%。 礁溪寒沐酒店持續深耕高端國旅市場，升級「MU TOP尊榮貴賓廳」、部分房型更新席夢思睡床，並增設按摩設備，透過軟 硬體升級提升住房競爭力。受惠暑期旺季，7月平均房價年增1.13%，住房數年增約29%，帶動客房營收年增30%。 26 7月 VS. 去年同期 7月單月",
+            "45 員工持股 共創價值深化人才永續 • 寒舍餐旅於2026年6月正式推動員工持股制度，透過公司獎勵補助機制，鼓勵員工共同參與企業 長期發展，建立共享成果、共同成長的夥伴關係，強化薪酬福利及留才機制。 共同參與 鼓勵員工共同參與 企業長期發展 共享成果 建立共享成果、 共同成長的夥伴關係 完善制度 強化人才發展、 薪酬福利與留才機制 員工持股制度 一 共創價值・共享未來 一 39",
+            "• 寒舍餐旅舉辦多場公益捐血活動，有效挹注醫療用血需求，展現企 業攜手社會夥伴守護生命健康的具體成果。 • 2025年10月，寒舍餐旅持續投入花蓮震後重建工作，將第二批賑 災物資送達花蓮光復鄉，透過企業資源整合及員工共同參與，提供 受災居民實質協助。 • 2026年3月，萬豪國際集團與唐氏症基金會推出公益合作計畫，支 持《321 因為有你・我們一起》公益特展及愛心義賣活動。 攜手災後重建．推動熱血公益 38",
+            "Employee Stock Ownership Plan (ESOP) · Sustainable Talent Development • In June 2026, My Humble House Hospitality officially launched its Employee Stock Ownership Plan (ESOP), supported by a company-sponsored incentive program to encourage employees to partici"
+          ],
+          "outlookTone": {
+            "label": "正面看好",
+            "score": 85,
+            "basis": "正向訊號 5、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "MOPS 擇要訊息：本公司受邀參加國泰證券舉辦之法人說明會,說明本公司之營運概況及經營策略等相關資訊。",
+            "21 2023 2024 2025 稅後淨利(億元) 4.14 4.94 2.16 EPS(元) 4.52 5.39 2.36 每股股利(元) 0 1 2.58 4.14 4.94 2.16 4.52 5.39 2.36 0 1 2.58 0 1 2 3 4 5 6 稅後淨利(億元) EPS(元) 每股股利(元) 2023H1 2024H1 2025H1 2026H1 稅後淨利(億元) 1.21 5.19 0.97 2.5 EPS(元)",
+            "page 15 --- 股股股股 --- page 16 --- 各飯店平均住房率 資料來源：本公司及交通部觀光署統計資料 2021 2022 2023 2024 2025 2026H1 台北喜來登 27% 46% 70% 76% 77% 73% 寒舍艾美 33% 59% 79% 81% 85% 87% 礁溪寒沐 56% 62% 57% 50% 58% 49% 寒居酒店 58% 71% 78% 80% 81% 27% 46% 70% 7",
+            "25 --- page 26 --- 客房全新硬體升級 集團精準布局暑假及親子旅遊市場，台北喜來登大飯店於2026年5月完成12間親子主題客房改裝，攜手台灣插畫家打造多元 房型，暑期需求帶動7月親子房銷售房晚數較去年同期成長約103%。",
+            "2021-2026 2021 2022 2023 2024 2025 2026H1 Sheraton Grand Taipei Hotel 3,012 3,309 4,524 5,051 5,162 5,541 Le Méridien Taipei 5,309 6,226 9,611 9,803 9,574 10,078 MU JIAO XI HOTEL 7,262 7,955 8,295 7,632 7,253 8,115 Humbl",
+            "3 4 11 15 23 33 10 --- page 4 --- 股股股股 --- page 5 --- 股股股股 股股股股股 2000 股 1 股 17 股 股股股 915,260,000 股 股股股股 股股股股 股股股股股股股股股股股股股股股股股 股股股股股股股股股股股 股股股股 股股股股股股股股股 ( 股股股 29.8%) 股股股股 1, 384 股 5 --- page 6 --- 5 股股股股 五星級款待精緻體驗 國際級卓越"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-08-31.md",
+          "detailMarkdown": "## 2739 寒舍 深度法說分析\n\n### 一頁結論\n- 展望評價：正面看好（85 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 5、保守訊號 0。\n- 判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 \n\n### 營運與財務重點\n- 21 2023 2024 2025 稅後淨利(億元) 4.14 4.94 2.16 EPS(元) 4.52 5.39 2.36 每股股利(元) 0 1 2.58 4.14 4.94 2.16 4.52 5.39 2.36 0 1 2.58 0 1 2 3 4 5 6 稅後淨利(億元) EPS(元) 每股股利(元) 2023H1 2024H1 2025H1 2026H1 稅後淨利(億元) 1.21 5.19 0.97 2.5 EPS(元)\n- 25 --- page 26 --- 客房全新硬體升級 集團精準布局暑假及親子旅遊市場，台北喜來登大飯店於2026年5月完成12間親子主題客房改裝，攜手台灣插畫家打造多元 房型，暑期需求帶動7月親子房銷售房晚數較去年同期成長約103%。\n- 探索廚房全新升級 2025年10月中，台北寒舍艾美酒店完成探索廚房全面升級，擴大日料區與增加多款海鮮料理，帶動營運表現提升。改 裝後2025年第四季營收較2024年第四季同期成長15%；2026年第一季營收進一步突破億元，第二季亦較去年同期成 長18%，顯示改裝效益持續發酵。 25\n- 客房全新硬體升級 集團精準布局暑假及親子旅遊市場，台北喜來登大飯店於2026年5月完成12間親子主題客房改裝，攜手台灣插畫家打造多元 房型，暑期需求帶動7月親子房銷售房晚數較去年同期成長約103%。 礁溪寒沐酒店持續深耕高端國旅市場，升級「MU TOP尊榮貴賓廳」、部分房型更新席夢思睡床，並增設按摩設備，透過軟 硬體升級提升住房競爭力。受惠暑期旺季，7月平均房價年增1.13%，住房數年增約29%，帶動客房營收年增30%。 26 7月 VS. 去年同期 7月單月\n- 45 員工持股 共創價值深化人才永續 • 寒舍餐旅於2026年6月正式推動員工持股制度，透過公司獎勵補助機制，鼓勵員工共同參與企業 長期發展，建立共享成果、共同成長的夥伴關係，強化薪酬福利及留才機制。 共同參與 鼓勵員工共同參與 企業長期發展 共享成果 建立共享成果、 共同成長的夥伴關係 完善制度 強化人才發展、 薪酬福利與留才機制 員工持股制度 一 共創價值・共享未來 一 39\n\n### 展望與成長利基\n- 探索廚房全新升級 2025年10月中，台北寒舍艾美酒店完成探索廚房全面升級，擴大日料區與增加多款海鮮料理，帶動營運表現提升。改 裝後2025年第四季營收較2024年第四季同期成長15%；2026年第一季營收進一步突破億元，第二季亦較去年同期成 長18%，顯示改裝效益持續發酵。 25\n- 客房全新硬體升級 集團精準布局暑假及親子旅遊市場，台北喜來登大飯店於2026年5月完成12間親子主題客房改裝，攜手台灣插畫家打造多元 房型，暑期需求帶動7月親子房銷售房晚數較去年同期成長約103%。 礁溪寒沐酒店持續深耕高端國旅市場，升級「MU TOP尊榮貴賓廳」、部分房型更新席夢思睡床，並增設按摩設備，透過軟 硬體升級提升住房競爭力。受惠暑期旺季，7月平均房價年增1.13%，住房數年增約29%，帶動客房營收年增30%。 26 7月 VS. 去年同期 7月單月\n- 45 員工持股 共創價值深化人才永續 • 寒舍餐旅於2026年6月正式推動員工持股制度，透過公司獎勵補助機制，鼓勵員工共同參與企業 長期發展，建立共享成果、共同成長的夥伴關係，強化薪酬福利及留才機制。 共同參與 鼓勵員工共同參與 企業長期發展 共享成果 建立共享成果、 共同成長的夥伴關係 完善制度 強化人才發展、 薪酬福利與留才機制 員工持股制度 一 共創價值・共享未來 一 39\n- • 寒舍餐旅舉辦多場公益捐血活動，有效挹注醫療用血需求，展現企 業攜手社會夥伴守護生命健康的具體成果。 • 2025年10月，寒舍餐旅持續投入花蓮震後重建工作，將第二批賑 災物資送達花蓮光復鄉，透過企業資源整合及員工共同參與，提供 受災居民實質協助。 • 2026年3月，萬豪國際集團與唐氏症基金會推出公益合作計畫，支 持《321 因為有你・我們一起》公益特展及愛心義賣活動。 攜手災後重建．推動熱血公益 38\n- Employee Stock Ownership Plan (ESOP) · Sustainable Talent Development • In June 2026, My Humble House Hospitality officially launched its Employee Stock Ownership Plan (ESOP), supported by a company-sponsored incentive program to encourage employees to partici\n\n### 產品、客戶與市場位置\n- 25 --- page 26 --- 客房全新硬體升級 集團精準布局暑假及親子旅遊市場，台北喜來登大飯店於2026年5月完成12間親子主題客房改裝，攜手台灣插畫家打造多元 房型，暑期需求帶動7月親子房銷售房晚數較去年同期成長約103%。\n- 2021-2026 2021 2022 2023 2024 2025 2026H1 Sheraton Grand Taipei Hotel 3,012 3,309 4,524 5,051 5,162 5,541 Le Méridien Taipei 5,309 6,226 9,611 9,803 9,574 10,078 MU JIAO XI HOTEL 7,262 7,955 8,295 7,632 7,253 8,115 Humbl\n- 客房全新硬體升級 集團精準布局暑假及親子旅遊市場，台北喜來登大飯店於2026年5月完成12間親子主題客房改裝，攜手台灣插畫家打造多元 房型，暑期需求帶動7月親子房銷售房晚數較去年同期成長約103%。 礁溪寒沐酒店持續深耕高端國旅市場，升級「MU TOP尊榮貴賓廳」、部分房型更新席夢思睡床，並增設按摩設備，透過軟 硬體升級提升住房競爭力。受惠暑期旺季，7月平均房價年增1.13%，住房數年增約29%，帶動客房營收年增30%。 26 7月 VS. 去年同期 7月單月\n- • 寒舍餐旅舉辦多場公益捐血活動，有效挹注醫療用血需求，展現企 業攜手社會夥伴守護生命健康的具體成果。 • 2025年10月，寒舍餐旅持續投入花蓮震後重建工作，將第二批賑 災物資送達花蓮光復鄉，透過企業資源整合及員工共同參與，提供 受災居民實質協助。 • 2026年3月，萬豪國際集團與唐氏症基金會推出公益合作計畫，支 持《321 因為有你・我們一起》公益特展及愛心義賣活動。 攜手災後重建．推動熱血公益 38\n- Employee Stock Ownership Plan (ESOP) · Sustainable Talent Development • In June 2026, My Humble House Hospitality officially launched its Employee Stock Ownership Plan (ESOP), supported by a company-sponsored incentive program to encourage employees to partici\n\n### 風險與不確定性\n- 本次摘要未擷取到明確風險或保守訊號。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 加分主因：25 --- page 26 --- 客房全新硬體升級 集團精準布局暑假及親子旅遊市場，台北喜來登大飯店於2026年5月完成12間親子主題客房改裝，攜手台灣插畫家打造多元 房型，暑期需求帶動7月親子房銷售房晚數較去年同期成長約103%。；探索廚房全新升級 2025年10月中，台北寒舍艾美酒店完成探索廚房全面升級，擴大日料區與增加多款海鮮料理，帶動營運表現提升。改 裝後2025年第四季營收較2024年第四季同期成長15%；2026年第一季營收進一步突破億元，第二季亦較去年同期成 長18%，顯示改裝效益持續發酵。 25；客房全新硬體升級 集團精準布局暑假及親子旅遊市場，台北喜來登大飯店於2026年5月完成12間親子主題客房改裝，攜手台灣插畫家打造多元 房型，暑期需求帶動7月親子房銷售房晚數較去年同期成長約103%。 礁溪寒沐酒店持續深耕高端國旅市場，升級「MU TOP尊榮貴賓廳」、部分房型更新席夢思睡床，並增設按摩設備，透過軟 硬體升級提升住房競爭力。受惠暑期旺季，7月平均房價年增1.13%，住房數年增約29%，帶動客房營收年增30%。 26 7月 VS. 去年同期 7月單月。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-08-31",
+          "code": "2883",
+          "name": "凱基金",
+          "eventType": "法人說明會",
+          "time": "14:30",
+          "location": "臺北嘉佩樂酒店-台北市松山區敦化北路139號",
+          "topic": "屬自辦法人說明會,說明凱基金控115年第2季營運表現",
+          "companyWebsite": "https://kgi.irpro.co/tw/investor-conference.php",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/288320260831M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/288320260831E001.pdf",
+          "mediaUrl": "https://kgi.irpro.co/tw/investor-conference.php",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "2383FF 00B0F00070C0002060 B2D3FF 862F08 B5400B F16022 F6B6A4 FADBD2 0C3177 515981 FDF1E9F2F8EE EAEDF2 F2F2F2 EAF2FA 222A35 000000 C00000 F94545 FDD7D3 939ABB C4C8DA EAECF2 3C845D 4DA977 AEDAC22E6446 CFE9DB KGIB Backgrounds Fonts CDIB KGIS CLIC F69B72 FCE9E4 3B"
+          ],
+          "outlookTone": {
+            "label": "中性偏正面",
+            "score": 57,
+            "basis": "正向訊號 1、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "MOPS 擇要訊息：屬自辦法人說明會,說明凱基金控115年第2季營運表現",
+            "財富管理業務資產管理規模年成長39%，截至1H 26為新臺幣4144億元 ; 財管相關營收年增61% 3.7 17.9 7.3 10.1 11.5 1H25 1H26 2023 2024 2025 稅後淨利 (新臺幣十億元) 12.0% 48.1% 13.0% 16.3% 17.3% 1H25 1H26 2023 2024 2025 年化股東權益報酬率 --- page 26 --- 2383FF 00B0F00070C0002060",
+            "page 3 --- 2383FF 00B0F00070C0002060 B2D3FF 862F08 B5400B F16022 F6B6A4 FADBD2 0C3177 515981 FDF1E9F2F8EE EAEDF2 F2F2F2 EAF2FA 222A35 000000 C00000 F94545 FDD7D3 939ABB C4C8DA EAECF2 3C845D 4DA977 AEDAC22E6446 CFE9DB KGI",
+            "1H 2026營運報告 2018.01 69 億元 第31名 2019.06 突破1,000億元 2021.12 突破2,000億元 2025.01 突破3,000億元 2026.04 突破4,000億元 2026.06 5,187億元 第9名 --- page 32 --- 2383FF 00B0F00070C0002060 B2D3FF 862F08 B5400B F16022 F6B6A4 FADBD2 0C3177 515981",
+            "平均票面利率僅以債券產品計算 1H 2026營運報告 3.4 3.6 3.2 3.5 3.3 1H 25 1H 26 2023 2024 2025 私募債權1既有部位規模(新臺幣十億元) 162 167 311 294 334 24 7 17 36 29 11.9% 12.4% 11.6% 11.6% 11.7% 1H 25 1H 26 2023 2024 2025 利息收入 手續費收入 平均票面利率 328 330 363 私募債權2",
+            "總投資資產之投資收益率包含避險成本及分類至FVOCI權益工具處分損益 55% 39% 6% 1H26 FVTPL FVOCI AC 2.2兆元 金融資產分類 --- page 15 --- 2383FF 00B0F00070C0002060 B2D3FF 862F08 B5400B F16022 F6B6A4 FADBD2 0C3177 515981 FDF1E9F2F8EE EAEDF2 F2F2F2 EAF2FA 222A35 00"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-08-31.md",
+          "detailMarkdown": "## 2883 凱基金 深度法說分析\n\n### 一頁結論\n- 展望評價：中性偏正面（57 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 1、保守訊號 0。\n- 判讀：方向偏正面，但管理層仍保留部分彈性，較適合追蹤接單、毛利率與下一季財測是否延續。 \n\n### 營運與財務重點\n- 財富管理業務資產管理規模年成長39%，截至1H 26為新臺幣4144億元 ; 財管相關營收年增61% 3.7 17.9 7.3 10.1 11.5 1H25 1H26 2023 2024 2025 稅後淨利 (新臺幣十億元) 12.0% 48.1% 13.0% 16.3% 17.3% 1H25 1H26 2023 2024 2025 年化股東權益報酬率 --- page 26 --- 2383FF 00B0F00070C0002060\n\n### 展望與成長利基\n- 2383FF 00B0F00070C0002060 B2D3FF 862F08 B5400B F16022 F6B6A4 FADBD2 0C3177 515981 FDF1E9F2F8EE EAEDF2 F2F2F2 EAF2FA 222A35 000000 C00000 F94545 FDD7D3 939ABB C4C8DA EAECF2 3C845D 4DA977 AEDAC22E6446 CFE9DB KGIB Backgrounds Fonts CDIB KGIS CLIC F69B72 FCE9E4 3B\n\n### 產品、客戶與市場位置\n- 平均票面利率僅以債券產品計算 1H 2026營運報告 3.4 3.6 3.2 3.5 3.3 1H 25 1H 26 2023 2024 2025 私募債權1既有部位規模(新臺幣十億元) 162 167 311 294 334 24 7 17 36 29 11.9% 12.4% 11.6% 11.6% 11.7% 1H 25 1H 26 2023 2024 2025 利息收入 手續費收入 平均票面利率 328 330 363 私募債權2\n\n### 風險與不確定性\n- 總投資資產之投資收益率包含避險成本及分類至FVOCI權益工具處分損益 55% 39% 6% 1H26 FVTPL FVOCI AC 2.2兆元 金融資產分類 --- page 15 --- 2383FF 00B0F00070C0002060 B2D3FF 862F08 B5400B F16022 F6B6A4 FADBD2 0C3177 515981 FDF1E9F2F8EE EAEDF2 F2F2F2 EAF2FA 222A35 00\n\n### Q&A 與管理層口氣\n- 總投資資產之投資收益率包含避險成本及分類至FVOCI權益工具處分損益 55% 39% 6% 1H26 FVTPL FVOCI AC 2.2兆元 金融資產分類 --- page 15 --- 2383FF 00B0F00070C0002060 B2D3FF 862F08 B5400B F16022 F6B6A4 FADBD2 0C3177 515981 FDF1E9F2F8EE EAEDF2 F2F2F2 EAF2FA 222A35 00\n\n### 評分利基點\n- 加分主因：財富管理業務資產管理規模年成長39%，截至1H 26為新臺幣4144億元 ; 財管相關營收年增61% 3.7 17.9 7.3 10.1 11.5 1H25 1H26 2023 2024 2025 稅後淨利 (新臺幣十億元) 12.0% 48.1% 13.0% 16.3% 17.3% 1H25 1H26 2023 2024 2025 年化股東權益報酬率 --- page 26 --- 2383FF 00B0F00070C0002060。\n- 扣分或保留：總投資資產之投資收益率包含避險成本及分類至FVOCI權益工具處分損益 55% 39% 6% 1H26 FVTPL FVOCI AC 2.2兆元 金融資產分類 --- page 15 --- 2383FF 00B0F00070C0002060 B2D3FF 862F08 B5400B F16022 F6B6A4 FADBD2 0C3177 515981 FDF1E9F2F8EE EAEDF2 F2F2F2 EAF2FA 222A35 00。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-08-31",
+          "code": "2904",
+          "name": "匯僑",
+          "eventType": "法人說明會",
+          "time": "14:30",
+          "location": "台北市大安區敦化南路2段97號11樓(台新綜合證券教育訓練室)",
+          "topic": "本公司受邀參加台新綜合證券法人說明會,說明本公司營運及財務相關概況。",
+          "companyWebsite": "https://www.pocs.com.tw/msg/message-法人說明-13.html",
+          "chinesePdf": "",
+          "englishPdf": "",
+          "mediaUrl": "http://irconference.twse.com.tw/2904_10_20260831_ch.MP4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "未從簡報或轉錄稿擷取到明確展望段落。"
+          ],
+          "outlookTone": {
+            "label": "中性觀望",
+            "score": 50,
+            "basis": "正向訊號 0、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "MOPS 擇要訊息：本公司受邀參加台新綜合證券法人說明會,說明本公司營運及財務相關概況。",
+            "缺少可摘要的簡報文字或轉錄稿。"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-08-31.md",
+          "detailMarkdown": "## 2904 匯僑 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：本公司受邀參加台新綜合證券法人說明會,說明本公司營運及財務相關概況。\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-08-31",
+          "code": "4702",
+          "name": "中美實",
+          "eventType": "法人說明會",
+          "time": "14:00",
+          "location": "線上法說會",
+          "topic": "說明本公司營運狀況",
+          "companyWebsite": "http://www.aicgroup.com.tw/",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/470220260831M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/470220260831E001.pdf",
+          "mediaUrl": "http://irconference.twse.com.tw/4702_5_20260831_ch.mp4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "展望的預測性表述，該類表述受限 於已知或未知風險或不確定性因素的影響，因此實際結果將可能 明顯不同於表述內容。除法令要求外，公司並無義務因新事件或 新形勢的發生更新對未來展望的表述。 本簡報中對未來展望的表述， 僅反應本公司截至目前為止對於未 來的看法，而不構成投資建議。 關於這些未來展望表述的內容可 靠性、準確性或完整性不具有任何的明示或暗示， 本公司特此聲 明不承擔任何的保證。 對於因使用這些表述內容而引起的任何直 接或間接損失，本公司不承擔任何責任。",
+            "未來動能 結合經營團隊的豐沛資源及過去成功經驗， 未 來聚焦在具成長潛力的高新科技、 生技醫材及 民生消費等優質企業的投資， 以增加公司合併 營收及獲利。 aicgroup.com.tw 7",
+            "Future Outlook Combining the abundant resources and past successful experience of our management team, AIC is exploring the investment opportunities of high-quality enterprises where the areas of high-tech, biotech/ medical materials, and consumer goods are ta"
+          ],
+          "outlookTone": {
+            "label": "中性偏正面",
+            "score": 66,
+            "basis": "正向訊號 4、保守訊號 2"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "MOPS 擇要訊息：說明本公司營運狀況",
+            "轉投資業務 晶實科技(Studio A)集團 染料貿易 財務操作 藉由投資國內外上市櫃股票，增加公司盈餘， 支持未來投資發展 --- page 4 --- 營收資訊 aicgroup.com.tw 204 429 272 6% 304 7% 4 單位：新台幣千元 --- page 5 --- 營運結果 aicgroup.com.tw 5 單位：新台幣千元 68,979 24,332 12,476 36,808 39,902 9,069",
+            "Dyestuff Trading Investment Business --- page 4 --- Revenue Information aicgroup.com.tw 204 429 272 6% 304 7% 4 Unit：NT$ thousand --- page 5 --- Income Statement aicgroup.com.tw 5 Unit：NT$ thousand 68,979 24,332 12,476 3",
+            "[zh PDF] --- page 1 --- 中美聯合實業股份有限公司 2026年法人說明會 1 2026.8.31 --- page 2 --- 展望的預測性表述，該類表述受限 於已知或未知風險或不確定性因素的影響，因此實際結果將可能 明顯不同於表述內容。除法令要求外，公司並無義務因新事件或 新形勢的發生更新對未來展望的表述。",
+            "本簡報中對未來展望的表述， 僅反應本公司截至目前為止對於未 來的看法，而不構成投資建議。",
+            "關於這些未來展望表述的內容可 靠性、準確性或完整性不具有任何的明示或暗示， 本公司特此聲 明不承擔任何的保證。"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-08-31.md",
+          "detailMarkdown": "## 4702 中美實 深度法說分析\n\n### 一頁結論\n- 展望評價：中性偏正面（66 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 4、保守訊號 2。\n- 判讀：方向偏正面，但管理層仍保留部分彈性，較適合追蹤接單、毛利率與下一季財測是否延續。 \n\n### 營運與財務重點\n- 轉投資業務 晶實科技(Studio A)集團 染料貿易 財務操作 藉由投資國內外上市櫃股票，增加公司盈餘， 支持未來投資發展 --- page 4 --- 營收資訊 aicgroup.com.tw 204 429 272 6% 304 7% 4 單位：新台幣千元 --- page 5 --- 營運結果 aicgroup.com.tw 5 單位：新台幣千元 68,979 24,332 12,476 36,808 39,902 9,069\n- 未來動能 結合經營團隊的豐沛資源及過去成功經驗， 未 來聚焦在具成長潛力的高新科技、 生技醫材及 民生消費等優質企業的投資， 以增加公司合併 營收及獲利。 aicgroup.com.tw 7\n\n### 展望與成長利基\n- 展望的預測性表述，該類表述受限 於已知或未知風險或不確定性因素的影響，因此實際結果將可能 明顯不同於表述內容。除法令要求外，公司並無義務因新事件或 新形勢的發生更新對未來展望的表述。 本簡報中對未來展望的表述， 僅反應本公司截至目前為止對於未 來的看法，而不構成投資建議。 關於這些未來展望表述的內容可 靠性、準確性或完整性不具有任何的明示或暗示， 本公司特此聲 明不承擔任何的保證。 對於因使用這些表述內容而引起的任何直 接或間接損失，本公司不承擔任何責任。\n- 未來動能 結合經營團隊的豐沛資源及過去成功經驗， 未 來聚焦在具成長潛力的高新科技、 生技醫材及 民生消費等優質企業的投資， 以增加公司合併 營收及獲利。 aicgroup.com.tw 7\n- Future Outlook Combining the abundant resources and past successful experience of our management team, AIC is exploring the investment opportunities of high-quality enterprises where the areas of high-tech, biotech/ medical materials, and consumer goods are ta\n\n### 產品、客戶與市場位置\n- 轉投資業務 晶實科技(Studio A)集團 染料貿易 財務操作 藉由投資國內外上市櫃股票，增加公司盈餘， 支持未來投資發展 --- page 4 --- 營收資訊 aicgroup.com.tw 204 429 272 6% 304 7% 4 單位：新台幣千元 --- page 5 --- 營運結果 aicgroup.com.tw 5 單位：新台幣千元 68,979 24,332 12,476 36,808 39,902 9,069\n- Dyestuff Trading Investment Business --- page 4 --- Revenue Information aicgroup.com.tw 204 429 272 6% 304 7% 4 Unit：NT$ thousand --- page 5 --- Income Statement aicgroup.com.tw 5 Unit：NT$ thousand 68,979 24,332 12,476 3\n- 未來動能 結合經營團隊的豐沛資源及過去成功經驗， 未 來聚焦在具成長潛力的高新科技、 生技醫材及 民生消費等優質企業的投資， 以增加公司合併 營收及獲利。 aicgroup.com.tw 7\n- Future Outlook Combining the abundant resources and past successful experience of our management team, AIC is exploring the investment opportunities of high-quality enterprises where the areas of high-tech, biotech/ medical materials, and consumer goods are ta\n\n### 風險與不確定性\n- [zh PDF] --- page 1 --- 中美聯合實業股份有限公司 2026年法人說明會 1 2026.8.31 --- page 2 --- 展望的預測性表述，該類表述受限 於已知或未知風險或不確定性因素的影響，因此實際結果將可能 明顯不同於表述內容。除法令要求外，公司並無義務因新事件或 新形勢的發生更新對未來展望的表述。\n- 展望的預測性表述，該類表述受限 於已知或未知風險或不確定性因素的影響，因此實際結果將可能 明顯不同於表述內容。除法令要求外，公司並無義務因新事件或 新形勢的發生更新對未來展望的表述。 本簡報中對未來展望的表述， 僅反應本公司截至目前為止對於未 來的看法，而不構成投資建議。 關於這些未來展望表述的內容可 靠性、準確性或完整性不具有任何的明示或暗示， 本公司特此聲 明不承擔任何的保證。 對於因使用這些表述內容而引起的任何直 接或間接損失，本公司不承擔任何責任。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 加分主因：未來動能 結合經營團隊的豐沛資源及過去成功經驗， 未 來聚焦在具成長潛力的高新科技、 生技醫材及 民生消費等優質企業的投資， 以增加公司合併 營收及獲利。 aicgroup.com.tw 7。\n- 扣分或保留：[zh PDF] --- page 1 --- 中美聯合實業股份有限公司 2026年法人說明會 1 2026.8.31 --- page 2 --- 展望的預測性表述，該類表述受限 於已知或未知風險或不確定性因素的影響，因此實際結果將可能 明顯不同於表述內容。除法令要求外，公司並無義務因新事件或 新形勢的發生更新對未來展望的表述。；展望的預測性表述，該類表述受限 於已知或未知風險或不確定性因素的影響，因此實際結果將可能 明顯不同於表述內容。除法令要求外，公司並無義務因新事件或 新形勢的發生更新對未來展望的表述。 本簡報中對未來展望的表述， 僅反應本公司截至目前為止對於未 來的看法，而不構成投資建議。 關於這些未來展望表述的內容可 靠性、準確性或完整性不具有任何的明示或暗示， 本公司特此聲 明不承擔任何的保證。 對於因使用這些表述內容而引起的任何直 接或間接損失，本公司不承擔任何責任。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-08-31",
+          "code": "5878",
+          "name": "台名",
+          "eventType": "法人說明會",
+          "time": "15:00",
+          "location": "本公司(台北市中正區館前路49號11樓會議室)",
+          "topic": "2026年第2季法人說明會",
+          "companyWebsite": "https://www.tabc.com.tw/investors.aspx?ID=47",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/587820260831M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/587820260831E001.pdf",
+          "mediaUrl": "https://youtu.be/7eE2cmycqnE",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "經營實績 資產負債項目 2026年6月30日 2025年6月30日 YoY 流動資產 357,822 369,541 -3.2% 非流動資產 379,324 375,245 1.1% 資產總計 $737,146 $744,786 -1.0% 流動負債 156,874 149,207 5.1% 非流動負債 61,272 88,536 -30.8% 負債總計 $218,146 $237,743 -8.2% 股東權益 $519,000 $507,043 2.4% 負債與權益總計 $737,146 $744,786 -1.",
+            "目錄 01 產業概況 Market Overview 02 經營實績 Business Performance 03 品牌榮耀與營運展望 Awards & Growth",
+            "T A I M I N G 品牌榮耀與營運展望 Awards & Growth"
+          ],
+          "outlookTone": {
+            "label": "中性偏正面",
+            "score": 64,
+            "basis": "正向訊號 2、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "MOPS 擇要訊息：2026年第2季法人說明會",
+            "合併資產負債表 單位：新台幣仟元 --- page 15 --- 經營實績 現金流量項目 2026年1-6月 2025年1-6月 營業活動 $42,051 $41,789 投資活動 36,944 16,506 籌資活動(含股利發放) ($71,786) ($68,900) 期初現金及約當現金餘額 $44,882 $67,802 期末現金及約當現金餘額 $52,091 $57,197 期末現金及約當現金餘額較期初增長16.06% 單位：新",
+            "page 16 --- 2022 2023 2024 2025 2026Q1-Q2 2.64 2.20 2.22 2.86 1.30 Earnings Per Share (EPS) - Stable Profitability Earnings Per Share Unit: NTD$ Dollars Business Performance --- page 17 --- 0.00 0.30 0.60 0.90 1.20 1.50",
+            "page 3 --- 目錄 01 產業概況 Market Overview 02 經營實績 Business Performance 03 品牌榮耀與營運展望 Awards & Growth --- page 4 --- T A I M I N G 產業概況 Market Over view 資料來源：財團法人保險事業發展中心 中華民國人壽保險商業同業公會 --- page 5 --- 產業概況 近五年 保險經紀與代理業家數 Numbe",
+            "五 年 內 減 少 43 家 --- page 6 --- 產業概況 近五年 保險經紀與代理業從業人數 Number of Salespersons 141,779 145,668 151,014 155,775 155,965 176,968 171,240 172,467 173,687 178,694 318,747 316,908 323,481 329,462 334,659 2021年 2022年 2023年 2024年 2",
+            "2026年上半年因首年保費獎勵增加及繼續率獎金品質佳，致營業毛利與營業淨利呈現增長趨勢。"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-08-31.md",
+          "detailMarkdown": "## 5878 台名 深度法說分析\n\n### 一頁結論\n- 展望評價：中性偏正面（64 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 2、保守訊號 0。\n- 判讀：方向偏正面，但管理層仍保留部分彈性，較適合追蹤接單、毛利率與下一季財測是否延續。 \n\n### 營運與財務重點\n- 合併資產負債表 單位：新台幣仟元 --- page 15 --- 經營實績 現金流量項目 2026年1-6月 2025年1-6月 營業活動 $42,051 $41,789 投資活動 36,944 16,506 籌資活動(含股利發放) ($71,786) ($68,900) 期初現金及約當現金餘額 $44,882 $67,802 期末現金及約當現金餘額 $52,091 $57,197 期末現金及約當現金餘額較期初增長16.06% 單位：新\n- page 16 --- 2022 2023 2024 2025 2026Q1-Q2 2.64 2.20 2.22 2.86 1.30 Earnings Per Share (EPS) - Stable Profitability Earnings Per Share Unit: NTD$ Dollars Business Performance --- page 17 --- 0.00 0.30 0.60 0.90 1.20 1.50\n- 2026年上半年因首年保費獎勵增加及繼續率獎金品質佳，致營業毛利與營業淨利呈現增長趨勢。\n- 經營實績 資產負債項目 2026年6月30日 2025年6月30日 YoY 流動資產 357,822 369,541 -3.2% 非流動資產 379,324 375,245 1.1% 資產總計 $737,146 $744,786 -1.0% 流動負債 156,874 149,207 5.1% 非流動負債 61,272 88,536 -30.8% 負債總計 $218,146 $237,743 -8.2% 股東權益 $519,000 $507,043 2.4% 負債與權益總計 $737,146 $744,786 -1.\n\n### 展望與成長利基\n- 經營實績 資產負債項目 2026年6月30日 2025年6月30日 YoY 流動資產 357,822 369,541 -3.2% 非流動資產 379,324 375,245 1.1% 資產總計 $737,146 $744,786 -1.0% 流動負債 156,874 149,207 5.1% 非流動負債 61,272 88,536 -30.8% 負債總計 $218,146 $237,743 -8.2% 股東權益 $519,000 $507,043 2.4% 負債與權益總計 $737,146 $744,786 -1.\n- 目錄 01 產業概況 Market Overview 02 經營實績 Business Performance 03 品牌榮耀與營運展望 Awards & Growth\n- T A I M I N G 品牌榮耀與營運展望 Awards & Growth\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 本次摘要未擷取到明確風險或保守訊號。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 加分主因：page 3 --- 目錄 01 產業概況 Market Overview 02 經營實績 Business Performance 03 品牌榮耀與營運展望 Awards & Growth --- page 4 --- T A I M I N G 產業概況 Market Over view 資料來源：財團法人保險事業發展中心 中華民國人壽保險商業同業公會 --- page 5 --- 產業概況 近五年 保險經紀與代理業家數 Numbe；目錄 01 產業概況 Market Overview 02 經營實績 Business Performance 03 品牌榮耀與營運展望 Awards & Growth；T A I M I N G 品牌榮耀與營運展望 Awards & Growth。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-08-31",
+          "code": "5880",
+          "name": "合庫金",
+          "eventType": "法人說明會",
+          "time": "14:30",
+          "location": "網路,連結網址詳如本公司投資人關係專區項下活動訊息。",
+          "topic": "公佈本公司2026年第2季營運及財務概況",
+          "companyWebsite": "https://www.tcfhc.com.tw/investors-relations/event/2026",
+          "chinesePdf": "",
+          "englishPdf": "",
+          "mediaUrl": "http://irconference.twse.com.tw/5880_36_20260831_ch.mp3",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "未從簡報或轉錄稿擷取到明確展望段落。"
+          ],
+          "outlookTone": {
+            "label": "中性觀望",
+            "score": 50,
+            "basis": "正向訊號 0、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "MOPS 擇要訊息：公佈本公司2026年第2季營運及財務概況",
+            "缺少可摘要的簡報文字或轉錄稿。"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-08-31.md",
+          "detailMarkdown": "## 5880 合庫金 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：公佈本公司2026年第2季營運及財務概況\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-08-31",
+          "code": "6532",
+          "name": "瑞耘",
+          "eventType": "法人說明會",
+          "time": "14:30",
+          "location": "台開大樓19樓會議室 台北市重慶南路一段2號",
+          "topic": "公告本公司受邀參加永豐金證券舉辦之法人說明會",
+          "companyWebsite": "https://www.calitech.com.tw/zh-tw/investor/download/Investor-Conference",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/653220260831M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/653220260831E001.pdf",
+          "mediaUrl": "",
+          "mediaStatus": "缺影音",
+          "transcriptStatus": "缺影音",
+          "outlookBullets": [
+            "2026 H1營運概況業績表現2026/01~07 營收YoY 9 % −2026年全球半導體製造設備銷售額預估將達1,659億美元，較2025年成⾧23.2%，創下歷史新高。主要動能來自於日本、歐洲與台灣的產能擴建工程，全球多座新晶圓廠預計下半年進入設備安裝期，確保了設備訂單能見度達2028年。半導體設備客戶加速且加倍關鍵零組件物料的下單備料。營運概況台灣總部： 12- Quality Engineering, Manufacturing & Services Are Our Commitments −台灣總",
+            "市場發展動能 – GAA以及HBM製程推進帶動WFE需求 14- Quality Engineering, Manufacturing & Services Are Our Commitments涵蓋晶圓製程設備、光罩／光罩版（Mask/Reticle）設備及晶圓廠設施設備的全球前段製程設備（Wafer Fab Equipment, WFE），2025年銷售額創下1,169億美元新高，預估2026年將再成長23.1%，達1,439億美元。主要受惠於先進記憶體、尤其是HBM相關DRAM技術，以及先進邏輯應用投資持續增",
+            "2026 H2營運展望1.市場與技術驅動成長動能：1-1.目前全球半導體市場發展皆圍繞在AI相關應用，需求已從生成式AI往代理式AI、邊緣AI到實體AI快速發展。帶動高效能運算（HPC）、高階邏輯製程晶片與HBM記憶體需求持續攀升。1-2.在AI需求持續驅動下，全球半導體製造投資動能可望延續至2028年，設備銷售額預計將攀升至2,295億美元，創下連續五年成長的新紀錄。2. 機會與風險：2-1.供應鏈交期延誤 16- Quality Engineering, Manufacturing & Services Are",
+            "市場發展動能 -全球晶片製造商持續擴大設備支出 13- Quality Engineering, Manufacturing & Services Are Our Commitments 2026年全球半導體製造設備銷售額預估將達1,659億美元，較2025年成長23.2%，創下歷史新高。在AI需求持續驅動下，全球半導體製造投資動能可望延續至2028年，設備銷售額預計將攀升至2,295億美元，創下連續五年成長的新紀錄。",
+            "簡報大綱Ⅰ. 公司簡介Ⅱ. 產業結構vs產品組合Ⅲ. 經營實績 2- Quality Engineering, Manufacturing & Services Are Our Commitments- Quality Engineering, Manufacturing & Services Are Our Commitments Ⅳ. 2026營運概況及展望",
+            "OutlineI. Company OverviewII. Industry Landscape vs. Product PortfolioIII. Operating Performance 2- Quality Engineering, Manufacturing & Services Are Our Commitments- Quality Engineering, Manufacturing & Services Are Our CommitmentsIV. 2026 Operating Update an",
+            "2026 H2 Operating Outlook1. Market and Technology Growth Drivers1-1. AI-Driven Semiconductor DemandGlobal semiconductor market development is increasingly centered on AI-related applications. Demand is rapidly evolving from generative AI toward agentic AI, edg"
+          ],
+          "outlookTone": {
+            "label": "正面看好",
+            "score": 93,
+            "basis": "正向訊號 7、保守訊號 1"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "MOPS 擇要訊息：公告本公司受邀參加永豐金證券舉辦之法人說明會",
+            "2026營運概況及展望 --- page 3 --- 公司簡介成立時間：1998年實收資本額： 新台幣3億7仟4佰萬元董事長： 呂學恒總經理： 呂學恒員工人數：150人主要產品： 3- Quality Engineering, Manufacturing & Services Are Our Commitments- Quality Engineering, Manufacturing & Services Are Our",
+            "page 14 --- 市場發展動能 – GAA以及HBM製程推進帶動WFE需求 14- Quality Engineering, Manufacturing & Services Are Our Commitments涵蓋晶圓製程設備、光罩／光罩版（Mask/Reticle）設備及晶圓廠設施設備的全球前段製程設備（Wafer Fab Equipment, WFE），2025年銷售額創下1,169億美元新高，預估2026年將再成長23.",
+            "Bright Machines： $1.26 億美元 Weka： $1.4 億美元 NVIDIA 針對AI生態系已承諾投入超過USD$45B，以及USD$105信用與殘值保證蓋AI發電廠。資料來源: 輝達 --- page 16 --- 2026 H2營運展望1.市場與技術驅動成長動能：1-1.目前全球半導體市場發展皆圍繞在AI相關應用，需求已從生成式AI往代理式AI、邊緣AI到實體AI快速發展。帶動高效能運算（HPC）、高階邏輯製程晶",
+            "產能已全部滿載，為因應客戶備料需求大增，已陸續召募人員以及添購新生產設備，加速訂單去化。2.",
+            "page 13 --- 市場發展動能 -全球晶片製造商持續擴大設備支出 13- Quality Engineering, Manufacturing & Services Are Our Commitments 2026年全球半導體製造設備銷售額預估將達1,659億美元，較2025年成長23.2%，創下歷史新高。在AI需求持續驅動下，全球半導體製造投資動能可望延續至2028年，設備銷售額預計將攀升至2,295億美元，創下連續五年成長的新"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-08-31.md",
+          "detailMarkdown": "## 6532 瑞耘 深度法說分析\n\n### 一頁結論\n- 展望評價：正面看好（93 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 7、保守訊號 1。\n- 判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 \n\n### 營運與財務重點\n- page 14 --- 市場發展動能 – GAA以及HBM製程推進帶動WFE需求 14- Quality Engineering, Manufacturing & Services Are Our Commitments涵蓋晶圓製程設備、光罩／光罩版（Mask/Reticle）設備及晶圓廠設施設備的全球前段製程設備（Wafer Fab Equipment, WFE），2025年銷售額創下1,169億美元新高，預估2026年將再成長23.\n- Bright Machines： $1.26 億美元 Weka： $1.4 億美元 NVIDIA 針對AI生態系已承諾投入超過USD$45B，以及USD$105信用與殘值保證蓋AI發電廠。資料來源: 輝達 --- page 16 --- 2026 H2營運展望1.市場與技術驅動成長動能：1-1.目前全球半導體市場發展皆圍繞在AI相關應用，需求已從生成式AI往代理式AI、邊緣AI到實體AI快速發展。帶動高效能運算（HPC）、高階邏輯製程晶\n- page 13 --- 市場發展動能 -全球晶片製造商持續擴大設備支出 13- Quality Engineering, Manufacturing & Services Are Our Commitments 2026年全球半導體製造設備銷售額預估將達1,659億美元，較2025年成長23.2%，創下歷史新高。在AI需求持續驅動下，全球半導體製造投資動能可望延續至2028年，設備銷售額預計將攀升至2,295億美元，創下連續五年成長的新\n- 2026 H1營運概況業績表現2026/01~07 營收YoY 9 % −2026年全球半導體製造設備銷售額預估將達1,659億美元，較2025年成⾧23.2%，創下歷史新高。主要動能來自於日本、歐洲與台灣的產能擴建工程，全球多座新晶圓廠預計下半年進入設備安裝期，確保了設備訂單能見度達2028年。半導體設備客戶加速且加倍關鍵零組件物料的下單備料。營運概況台灣總部： 12- Quality Engineering, Manufacturing & Services Are Our Commitments −台灣總\n- 市場發展動能 – GAA以及HBM製程推進帶動WFE需求 14- Quality Engineering, Manufacturing & Services Are Our Commitments涵蓋晶圓製程設備、光罩／光罩版（Mask/Reticle）設備及晶圓廠設施設備的全球前段製程設備（Wafer Fab Equipment, WFE），2025年銷售額創下1,169億美元新高，預估2026年將再成長23.1%，達1,439億美元。主要受惠於先進記憶體、尤其是HBM相關DRAM技術，以及先進邏輯應用投資持續增\n- 2026 H2營運展望1.市場與技術驅動成長動能：1-1.目前全球半導體市場發展皆圍繞在AI相關應用，需求已從生成式AI往代理式AI、邊緣AI到實體AI快速發展。帶動高效能運算（HPC）、高階邏輯製程晶片與HBM記憶體需求持續攀升。1-2.在AI需求持續驅動下，全球半導體製造投資動能可望延續至2028年，設備銷售額預計將攀升至2,295億美元，創下連續五年成長的新紀錄。2. 機會與風險：2-1.供應鏈交期延誤 16- Quality Engineering, Manufacturing & Services Are\n\n### 展望與成長利基\n- 2026 H1營運概況業績表現2026/01~07 營收YoY 9 % −2026年全球半導體製造設備銷售額預估將達1,659億美元，較2025年成⾧23.2%，創下歷史新高。主要動能來自於日本、歐洲與台灣的產能擴建工程，全球多座新晶圓廠預計下半年進入設備安裝期，確保了設備訂單能見度達2028年。半導體設備客戶加速且加倍關鍵零組件物料的下單備料。營運概況台灣總部： 12- Quality Engineering, Manufacturing & Services Are Our Commitments −台灣總\n- 市場發展動能 – GAA以及HBM製程推進帶動WFE需求 14- Quality Engineering, Manufacturing & Services Are Our Commitments涵蓋晶圓製程設備、光罩／光罩版（Mask/Reticle）設備及晶圓廠設施設備的全球前段製程設備（Wafer Fab Equipment, WFE），2025年銷售額創下1,169億美元新高，預估2026年將再成長23.1%，達1,439億美元。主要受惠於先進記憶體、尤其是HBM相關DRAM技術，以及先進邏輯應用投資持續增\n- 2026 H2營運展望1.市場與技術驅動成長動能：1-1.目前全球半導體市場發展皆圍繞在AI相關應用，需求已從生成式AI往代理式AI、邊緣AI到實體AI快速發展。帶動高效能運算（HPC）、高階邏輯製程晶片與HBM記憶體需求持續攀升。1-2.在AI需求持續驅動下，全球半導體製造投資動能可望延續至2028年，設備銷售額預計將攀升至2,295億美元，創下連續五年成長的新紀錄。2. 機會與風險：2-1.供應鏈交期延誤 16- Quality Engineering, Manufacturing & Services Are\n- 市場發展動能 -全球晶片製造商持續擴大設備支出 13- Quality Engineering, Manufacturing & Services Are Our Commitments 2026年全球半導體製造設備銷售額預估將達1,659億美元，較2025年成長23.2%，創下歷史新高。在AI需求持續驅動下，全球半導體製造投資動能可望延續至2028年，設備銷售額預計將攀升至2,295億美元，創下連續五年成長的新紀錄。\n- 簡報大綱Ⅰ. 公司簡介Ⅱ. 產業結構vs產品組合Ⅲ. 經營實績 2- Quality Engineering, Manufacturing & Services Are Our Commitments- Quality Engineering, Manufacturing & Services Are Our Commitments Ⅳ. 2026營運概況及展望\n- OutlineI. Company OverviewII. Industry Landscape vs. Product PortfolioIII. Operating Performance 2- Quality Engineering, Manufacturing & Services Are Our Commitments- Quality Engineering, Manufacturing & Services Are Our CommitmentsIV. 2026 Operating Update an\n- 2026 H2 Operating Outlook1. Market and Technology Growth Drivers1-1. AI-Driven Semiconductor DemandGlobal semiconductor market development is increasingly centered on AI-related applications. Demand is rapidly evolving from generative AI toward agentic AI, edg\n\n### 產品、客戶與市場位置\n- 2026營運概況及展望 --- page 3 --- 公司簡介成立時間：1998年實收資本額： 新台幣3億7仟4佰萬元董事長： 呂學恒總經理： 呂學恒員工人數：150人主要產品： 3- Quality Engineering, Manufacturing & Services Are Our Commitments- Quality Engineering, Manufacturing & Services Are Our\n- page 14 --- 市場發展動能 – GAA以及HBM製程推進帶動WFE需求 14- Quality Engineering, Manufacturing & Services Are Our Commitments涵蓋晶圓製程設備、光罩／光罩版（Mask/Reticle）設備及晶圓廠設施設備的全球前段製程設備（Wafer Fab Equipment, WFE），2025年銷售額創下1,169億美元新高，預估2026年將再成長23.\n- Bright Machines： $1.26 億美元 Weka： $1.4 億美元 NVIDIA 針對AI生態系已承諾投入超過USD$45B，以及USD$105信用與殘值保證蓋AI發電廠。資料來源: 輝達 --- page 16 --- 2026 H2營運展望1.市場與技術驅動成長動能：1-1.目前全球半導體市場發展皆圍繞在AI相關應用，需求已從生成式AI往代理式AI、邊緣AI到實體AI快速發展。帶動高效能運算（HPC）、高階邏輯製程晶\n- 產能已全部滿載，為因應客戶備料需求大增，已陸續召募人員以及添購新生產設備，加速訂單去化。2.\n- page 13 --- 市場發展動能 -全球晶片製造商持續擴大設備支出 13- Quality Engineering, Manufacturing & Services Are Our Commitments 2026年全球半導體製造設備銷售額預估將達1,659億美元，較2025年成長23.2%，創下歷史新高。在AI需求持續驅動下，全球半導體製造投資動能可望延續至2028年，設備銷售額預計將攀升至2,295億美元，創下連續五年成長的新\n- 2026 H1營運概況業績表現2026/01~07 營收YoY 9 % −2026年全球半導體製造設備銷售額預估將達1,659億美元，較2025年成⾧23.2%，創下歷史新高。主要動能來自於日本、歐洲與台灣的產能擴建工程，全球多座新晶圓廠預計下半年進入設備安裝期，確保了設備訂單能見度達2028年。半導體設備客戶加速且加倍關鍵零組件物料的下單備料。營運概況台灣總部： 12- Quality Engineering, Manufacturing & Services Are Our Commitments −台灣總\n\n### 風險與不確定性\n- 2026 H2營運展望1.市場與技術驅動成長動能：1-1.目前全球半導體市場發展皆圍繞在AI相關應用，需求已從生成式AI往代理式AI、邊緣AI到實體AI快速發展。帶動高效能運算（HPC）、高階邏輯製程晶片與HBM記憶體需求持續攀升。1-2.在AI需求持續驅動下，全球半導體製造投資動能可望延續至2028年，設備銷售額預計將攀升至2,295億美元，創下連續五年成長的新紀錄。2. 機會與風險：2-1.供應鏈交期延誤 16- Quality Engineering, Manufacturing & Services Are\n\n### Q&A 與管理層口氣\n- 產能已全部滿載，為因應客戶備料需求大增，已陸續召募人員以及添購新生產設備，加速訂單去化。2.\n- 2026 H1營運概況業績表現2026/01~07 營收YoY 9 % −2026年全球半導體製造設備銷售額預估將達1,659億美元，較2025年成⾧23.2%，創下歷史新高。主要動能來自於日本、歐洲與台灣的產能擴建工程，全球多座新晶圓廠預計下半年進入設備安裝期，確保了設備訂單能見度達2028年。半導體設備客戶加速且加倍關鍵零組件物料的下單備料。營運概況台灣總部： 12- Quality Engineering, Manufacturing & Services Are Our Commitments −台灣總\n- 2026 H2營運展望1.市場與技術驅動成長動能：1-1.目前全球半導體市場發展皆圍繞在AI相關應用，需求已從生成式AI往代理式AI、邊緣AI到實體AI快速發展。帶動高效能運算（HPC）、高階邏輯製程晶片與HBM記憶體需求持續攀升。1-2.在AI需求持續驅動下，全球半導體製造投資動能可望延續至2028年，設備銷售額預計將攀升至2,295億美元，創下連續五年成長的新紀錄。2. 機會與風險：2-1.供應鏈交期延誤 16- Quality Engineering, Manufacturing & Services Are\n\n### 評分利基點\n- 加分主因：page 14 --- 市場發展動能 – GAA以及HBM製程推進帶動WFE需求 14- Quality Engineering, Manufacturing & Services Are Our Commitments涵蓋晶圓製程設備、光罩／光罩版（Mask/Reticle）設備及晶圓廠設施設備的全球前段製程設備（Wafer Fab Equipment, WFE），2025年銷售額創下1,169億美元新高，預估2026年將再成長23.；Bright Machines： $1.26 億美元 Weka： $1.4 億美元 NVIDIA 針對AI生態系已承諾投入超過USD$45B，以及USD$105信用與殘值保證蓋AI發電廠。資料來源: 輝達 --- page 16 --- 2026 H2營運展望1.市場與技術驅動成長動能：1-1.目前全球半導體市場發展皆圍繞在AI相關應用，需求已從生成式AI往代理式AI、邊緣AI到實體AI快速發展。帶動高效能運算（HPC）、高階邏輯製程晶；產能已全部滿載，為因應客戶備料需求大增，已陸續召募人員以及添購新生產設備，加速訂單去化。2.。\n- 扣分或保留：2026 H2營運展望1.市場與技術驅動成長動能：1-1.目前全球半導體市場發展皆圍繞在AI相關應用，需求已從生成式AI往代理式AI、邊緣AI到實體AI快速發展。帶動高效能運算（HPC）、高階邏輯製程晶片與HBM記憶體需求持續攀升。1-2.在AI需求持續驅動下，全球半導體製造投資動能可望延續至2028年，設備銷售額預計將攀升至2,295億美元，創下連續五年成長的新紀錄。2. 機會與風險：2-1.供應鏈交期延誤 16- Quality Engineering, Manufacturing & Services Are。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-08-31",
+          "code": "6733",
+          "name": "博晟生醫",
+          "eventType": "法人說明會",
+          "time": "15:00",
+          "location": "臺北市中正區新生南路一段50號3樓",
+          "topic": "說明公司經營成果及未來展望。",
+          "companyWebsite": "",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/673320260831M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/673320260831E001.pdf",
+          "mediaUrl": "",
+          "mediaStatus": "缺影音",
+          "transcriptStatus": "缺影音",
+          "outlookBullets": [
+            "年推展重點及進展•順利進行中 (批量為原來6倍)•已建立•業績持續成⾧•Menocik 澳門持續有業績; Fluzole 港澳審查中感染重症•Menocik擴大產能•建立自營團隊•新行銷方案推廣•粵港澳大灣區推廣 214160626552024年2025年2026年 Fluzole 年銷量9月起至8月",
+            "簡報大綱企業概況•公司簡介、商業模式產品簡介 •RevoCart、OIF、Softcut、Menocik 成⾧展望 •營收成⾧、產品推進"
+          ],
+          "outlookTone": {
+            "label": "中性觀望",
+            "score": 50,
+            "basis": "正向訊號 0、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "MOPS 擇要訊息：說明公司經營成果及未來展望。",
+            ">200>100>1200 --- page 8 --- 骨再生平臺：骨生⾧因子OIF •BiG-006OIF/β-TCP（塊狀型）與人工椎體並用適應症：腰椎融合21 •BiG-001OIF/β-TCP（顆粒型）適應症：開放性脛骨骨折骨折不癒合齒槽骨增生等 --- page 9 --- 骨生⾧因子全球開發進展 •MRONJ(藥物引發下顎骨壞死)9 •HTO (高脛骨截位術的骨缺損填補) 日本MRONJ/齒槽骨增生HTO/骨折不癒合 --",
+            ">200>100>1200 --- page 8 --- 骨再生平臺：骨生⾧因子OIF •BiG-006OIF/β-TCP（塊狀型）與人工椎體並用適應症：腰椎融合21 •BiG-001OIF/β-TCP（顆粒型）適應症：開放性脛骨骨折骨折不癒合齒槽骨增生等 --- page 9 --- 骨生⾧因子全球開發進展 •MRONJ(藥物引發下顎骨壞死)9 •HTO (高脛骨截位術的骨缺損填補) 日本MRONJ/齒槽骨增生HTO/骨折不癒合 --",
+            "[zh PDF] --- page 1 --- BioGend Therapeutics法說會 陳德禮醫師博晟生醫(6733)創辦人、董事⾧及總經理 --- page 2 --- 簡報大綱企業概況•公司簡介、商業模式產品簡介 •RevoCart、OIF、Softcut、Menocik 成⾧展望 •營收成⾧、產品推進 --- page 3 --- 概況•總公司地址：臺北市•公司成立：2016年•公司上櫃：2021年•實收資本額：1,330"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-08-31.md",
+          "detailMarkdown": "## 6733 博晟生醫 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- [zh PDF] --- page 1 --- BioGend Therapeutics法說會 陳德禮醫師博晟生醫(6733)創辦人、董事⾧及總經理 --- page 2 --- 簡報大綱企業概況•公司簡介、商業模式產品簡介 •RevoCart、OIF、Softcut、Menocik 成⾧展望 •營收成⾧、產品推進 --- page 3 --- 概況•總公司地址：臺北市•公司成立：2016年•公司上櫃：2021年•實收資本額：1,330\n- 簡報大綱企業概況•公司簡介、商業模式產品簡介 •RevoCart、OIF、Softcut、Menocik 成⾧展望 •營收成⾧、產品推進\n\n### 展望與成長利基\n- 年推展重點及進展•順利進行中 (批量為原來6倍)•已建立•業績持續成⾧•Menocik 澳門持續有業績; Fluzole 港澳審查中感染重症•Menocik擴大產能•建立自營團隊•新行銷方案推廣•粵港澳大灣區推廣 214160626552024年2025年2026年 Fluzole 年銷量9月起至8月\n- 簡報大綱企業概況•公司簡介、商業模式產品簡介 •RevoCart、OIF、Softcut、Menocik 成⾧展望 •營收成⾧、產品推進\n\n### 產品、客戶與市場位置\n- [zh PDF] --- page 1 --- BioGend Therapeutics法說會 陳德禮醫師博晟生醫(6733)創辦人、董事⾧及總經理 --- page 2 --- 簡報大綱企業概況•公司簡介、商業模式產品簡介 •RevoCart、OIF、Softcut、Menocik 成⾧展望 •營收成⾧、產品推進 --- page 3 --- 概況•總公司地址：臺北市•公司成立：2016年•公司上櫃：2021年•實收資本額：1,330\n- 簡報大綱企業概況•公司簡介、商業模式產品簡介 •RevoCart、OIF、Softcut、Menocik 成⾧展望 •營收成⾧、產品推進\n\n### 風險與不確定性\n- >200>100>1200 --- page 8 --- 骨再生平臺：骨生⾧因子OIF •BiG-006OIF/β-TCP（塊狀型）與人工椎體並用適應症：腰椎融合21 •BiG-001OIF/β-TCP（顆粒型）適應症：開放性脛骨骨折骨折不癒合齒槽骨增生等 --- page 9 --- 骨生⾧因子全球開發進展 •MRONJ(藥物引發下顎骨壞死)9 •HTO (高脛骨截位術的骨缺損填補) 日本MRONJ/齒槽骨增生HTO/骨折不癒合 --\n\n### Q&A 與管理層口氣\n- 年推展重點及進展•順利進行中 (批量為原來6倍)•已建立•業績持續成⾧•Menocik 澳門持續有業績; Fluzole 港澳審查中感染重症•Menocik擴大產能•建立自營團隊•新行銷方案推廣•粵港澳大灣區推廣 214160626552024年2025年2026年 Fluzole 年銷量9月起至8月\n\n### 評分利基點\n- 加分主因：>200>100>1200 --- page 8 --- 骨再生平臺：骨生⾧因子OIF •BiG-006OIF/β-TCP（塊狀型）與人工椎體並用適應症：腰椎融合21 •BiG-001OIF/β-TCP（顆粒型）適應症：開放性脛骨骨折骨折不癒合齒槽骨增生等 --- page 9 --- 骨生⾧因子全球開發進展 •MRONJ(藥物引發下顎骨壞死)9 •HTO (高脛骨截位術的骨缺損填補) 日本MRONJ/齒槽骨增生HTO/骨折不癒合 --。\n- 扣分或保留：>200>100>1200 --- page 8 --- 骨再生平臺：骨生⾧因子OIF •BiG-006OIF/β-TCP（塊狀型）與人工椎體並用適應症：腰椎融合21 •BiG-001OIF/β-TCP（顆粒型）適應症：開放性脛骨骨折骨折不癒合齒槽骨增生等 --- page 9 --- 骨生⾧因子全球開發進展 •MRONJ(藥物引發下顎骨壞死)9 •HTO (高脛骨截位術的骨缺損填補) 日本MRONJ/齒槽骨增生HTO/骨折不癒合 --。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-08-31",
+          "code": "6919",
+          "name": "康霈*",
+          "eventType": "法人說明會",
+          "time": "14:00",
+          "location": "線上法人說明會。",
+          "topic": "(1)公告本公司115年8月31日受邀參加元大證券舉辦之線上法人說明會, 並將於會中說明本公司營運進展。 (2)本次法說會採線上報名,有意參加者請至以下網址報名。 https://www.surveycake.com/s/Dvwlz",
+          "companyWebsite": "",
+          "chinesePdf": "",
+          "englishPdf": "",
+          "mediaUrl": "",
+          "mediaStatus": "缺影音",
+          "transcriptStatus": "缺影音",
+          "outlookBullets": [
+            "未從簡報或轉錄稿擷取到明確展望段落。"
+          ],
+          "outlookTone": {
+            "label": "中性觀望",
+            "score": 50,
+            "basis": "正向訊號 0、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "MOPS 擇要訊息：(1)公告本公司115年8月31日受邀參加元大證券舉辦之線上法人說明會, 並將於會中說明本公司營運進展。 (2)本次法說會採線上報名,有意參加者請至以下網址報名。 https://www.surveycake.com/s/Dvwlz",
+            "缺少可摘要的簡報文字或轉錄稿。"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-08-31.md",
+          "detailMarkdown": "## 6919 康霈* 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：(1)公告本公司115年8月31日受邀參加元大證券舉辦之線上法人說明會, 並將於會中說明本公司營運進展。 (2)本次法說會採線上報名,有意參加者請至以下網址報名。 https://www.surveycake.com/s/Dvwlz\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-08-31",
+          "code": "9907",
+          "name": "統一實",
+          "eventType": "法人說明會",
+          "time": "14:00",
+          "location": "線上法說會",
+          "topic": "本公司受邀參加凱基證券舉辦之線上法人說明會,說明本公司2026年第二季之營運狀況及公司近況。",
+          "companyWebsite": "http://www.tonyi.com.tw/cusPage.php?id=249",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/990720260831M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/990720260831E001.pdf",
+          "mediaUrl": "",
+          "mediaStatus": "缺影音",
+          "transcriptStatus": "缺影音",
+          "outlookBullets": [
+            "2026年第二季 業績報告 2026年8月31日 TWSE stock code:9907 1"
+          ],
+          "outlookTone": {
+            "label": "保守偏負面",
+            "score": 38,
+            "basis": "正向訊號 0、保守訊號 2"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "MOPS 擇要訊息：本公司受邀參加凱基證券舉辦之線上法人說明會,說明本公司2026年第二季之營運狀況及公司近況。",
+            "2 --- page 3 --- 合併損益簡表 新台幣:百萬元 (除另有說明) 2026年H1 2025年H1 差異 營收 21,174.64 24,236.93 -12.63% 毛利 2,281.24 3,693.46 -38.24% 營業利益 913.55 1,954.34 -53.26% 稅前淨利 927.10 1,774.91 -47.77% 稅後淨利-歸屬母公司 550.29 1,201.22 -54.19% 每股盈餘(元)",
+            "Such information is subject to change without notice and no representation or warranty express or implied is made as to, and no reliance, should be placed on, the fairness, accuracy, completeness or correctness of the in",
+            "This presentation contains projections and forward-looking statements that may reflect the Company’s current views with respect to future events and financial performance.",
+            "Readers are cautioned not to place undue reliance on these forward-looking statements which are subject to various risks and uncertainties and no assurance can be given that actual results will be consistent with these f",
+            "2 --- page 3 --- Results Highlight (Consolidated) In NTD Millions unless otherwise noted 2026Y H1 2025Y H1 YoY Revenue 21,174.64 24,236.93 -12.63% Gross Profit 2,281.24 3,693.46 -38.24% Operating Profit 913.55 1,954.34 -"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-08-31.md",
+          "detailMarkdown": "## 9907 統一實 深度法說分析\n\n### 一頁結論\n- 展望評價：保守偏負面（38 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 2。\n- 判讀：保守訊號較多，短期需要先確認需求、成本或產業變數是否落底。 \n\n### 營運與財務重點\n- 2 --- page 3 --- 合併損益簡表 新台幣:百萬元 (除另有說明) 2026年H1 2025年H1 差異 營收 21,174.64 24,236.93 -12.63% 毛利 2,281.24 3,693.46 -38.24% 營業利益 913.55 1,954.34 -53.26% 稅前淨利 927.10 1,774.91 -47.77% 稅後淨利-歸屬母公司 550.29 1,201.22 -54.19% 每股盈餘(元)\n\n### 展望與成長利基\n- 2026年第二季 業績報告 2026年8月31日 TWSE stock code:9907 1\n\n### 產品、客戶與市場位置\n- Such information is subject to change without notice and no representation or warranty express or implied is made as to, and no reliance, should be placed on, the fairness, accuracy, completeness or correctness of the in\n- This presentation contains projections and forward-looking statements that may reflect the Company’s current views with respect to future events and financial performance.\n- Readers are cautioned not to place undue reliance on these forward-looking statements which are subject to various risks and uncertainties and no assurance can be given that actual results will be consistent with these f\n\n### 風險與不確定性\n- Readers are cautioned not to place undue reliance on these forward-looking statements which are subject to various risks and uncertainties and no assurance can be given that actual results will be consistent with these f\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：Readers are cautioned not to place undue reliance on these forward-looking statements which are subject to various risks and uncertainties and no assurance can be given that actual results will be consistent with these f。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-28T13:44:20.175Z",
       "queryDate": "2026-08-28",
@@ -13024,913 +13447,27 @@ window.irSummaryHistory = {
           "detailMarkdown": "## 2488 漢平 深度法說分析\n\n### 一頁結論\n- 展望評價：中性偏正面（65 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 3、保守訊號 1。\n- 判讀：方向偏正面，但管理層仍保留部分彈性，較適合追蹤接單、毛利率與下一季財測是否延續。 \n\n### 營運與財務重點\n- 產品發產趨勢: 黑膠唱盤市場概況與客群轉變 4,300萬 2023美黑膠銷量 (連17年成 長) 8.5億美元 2030全球唱盤規模 (年複合成 長率 6.1-7.8%) 唱片銷量逆襲帶動硬體需求 美國黑膠銷售額佔實體音樂營收 71%，連續兩年超越 CD，帶動唱 盤需求成長。 Z世代與千禧世代成為消費主力 超過 50% 購買者小於 35 歲，流行巨星發行限定彩盤將黑膠提升 為偶像周邊。 巨大的潛在轉化空間 調查顯示 48% 買黑膠的人家中尚無唱機，為「入門/美觀型」唱機 帶來極大商機。 Market Insight\n\n### 展望與成長利基\n- 黑膠唱盤未來產品規劃與世代需求對比 指標 傳統黑膠唱盤時代 現代與未來黑膠唱盤趨勢 核心客群 熟齡發燒友 、資深收藏家 Z世代 / 千禧世代、流行音樂粉絲、潮流族群 核心賣點 純類比高保真 (Hi-Fi)、硬體模組升級 生活美學裝飾、音樂儀式感、無線便利性 系統架構 唱盤 → 獨立唱放 → 擴大機 → 被動喇叭 一體式主動系統 / 無線傳輸 / 內建唱頭放大器(Phono) 驅動技術 交流馬達、傳統皮帶驅動 精密直流/直驅馬達、DSP 轉速監控、低諧振結構 入門與中階：家飾化與美學導向 中高階與發燒級：極致抗震與驅\n- 產品發產趨勢: 黑膠唱盤市場概況與客群轉變 4,300萬 2023美黑膠銷量 (連17年成 長) 8.5億美元 2030全球唱盤規模 (年複合成 長率 6.1-7.8%) 唱片銷量逆襲帶動硬體需求 美國黑膠銷售額佔實體音樂營收 71%，連續兩年超越 CD，帶動唱 盤需求成長。 Z世代與千禧世代成為消費主力 超過 50% 購買者小於 35 歲，流行巨星發行限定彩盤將黑膠提升 為偶像周邊。 巨大的潛在轉化空間 調查顯示 48% 買黑膠的人家中尚無唱機，為「入門/美觀型」唱機 帶來極大商機。 Market Insight\n- 展望，反映本公司迄今對未來及市場的看法。對於這些看法在未來 若有任何改變或調整時，本公司不負責隨時提醒或更新。  本公司並未發布財務預測，簡報中有關公司的財務、業務或Q&A之說 法，可能與外來實際結果存有差異。此差異原因可能包括市場需求變 化、出廠價格與原物料價格波動、同業競爭行為、國際經濟局勢、匯 率波動、上下游供應鏈等其他各種本公司所不能掌控之風險因素。\n- 1965 標準品量產 OEM ◆生產流程控管 ◆生產成本控制 ◆消費音訊/機電產 品製造 1997 產品升級 ODM ◆消費性產品→專業 性產品 ◆持續提升專業研發 技術 ◆2000年成功跨入 DJ專業產品領域 2009 整合加值 解決方案 ◆整合軟硬體技術提 供新舊客戶加值服 務 ◆整合服務擴大市場 營運轉型過程 公司概況 產業概況 營運概況 財務概況 未來展望 ESG Q&A\n- 公司概況 產業概況 營運概況 財務概況 未來展望 ESG Q&A 營業 比重 截止至2026.06.30為止 音訊產品, 96.57% 其他 (原料、商品 雜項等), 3.43% 音訊產品 其他 (原料、商品雜項等)\n- 公司概況 產業概況 營運概況 財務概況 未來展望 ESG Q&A • 董事長兼總經理：劉深鏗 • 資本額：7.9億 • 成立日期：1965年 • 上市時間：2001年9月17日 • 公司網址：http://www.hanpin.com.tw/ • 公司地址：台南市仁德區中正路三段256號 基本資料 3\n- 漢平電子工業 股份有限公司 漢平(BVI)國際股 份有限公司 漢平電子(深圳) 有限公司 漢池電子(香港) 有限公司 漢池電子(深圳) 有限公司漢池開發股份有 限公司 漢平集團 公司概況 產業概況 營運概況 財務概況 未來展望 ESG Q&A\n- 公司概況 產業概況 營運概況 財務概況 未來展望 ESG Q&A 成立時間：1965年 正式員工人數：約150人 基地面積：約30,000 M2 集團職能：營運總部 (研發、 業務行銷 、物料採購規劃、 集團整體 財務規劃、ERP資源整合 ) 成立時間：1994年及2004年 二廠正式員工人數：約900人 廠基地面積：約29,500 M2 二廠廠房樓地面積：約40,800 M2 集團職能：生產基地 （塑射噴漆、 基板、生產組裝) ◣生產基地：深圳漢平及漢池兩廠 營運總部:台南◢\n\n### 產品、客戶與市場位置\n- • • • • Future Outlook & Comparison 公司概況 產業概況 營運概況 財務概況 未來展望 ESG Q&A --- page 14 --- 公司概況 產業概況 營運概況 財務概況 未來展望 ESG Q&A --- page 15 --- 公司概況 產業概況 營運概況 財務概況 未來展望 ESG Q&A 營業 比重 截止至2026.06.30為止 音訊產品, 96.57% 其他 (原料、商品 雜項等), 3.\n- Market Insights 公司概況 產業概況 營運概況 財務概況 未來展望 ESG Q&A --- page 13 --- 黑膠唱盤未來產品規劃與世代需求對比 指標 傳統黑膠唱盤時代 現代與未來黑膠唱盤趨勢 核心客群 熟齡發燒友 、資深收藏家 Z世代 / 千禧世代、流行音樂粉絲、潮流族群 核心賣點 純類比高保真 (Hi-Fi)、硬體模組升級 生活美學裝飾、音樂儀式感、無線便利性 系統架構 唱盤 → 獨立唱放 → 擴大機 → 被動喇\n- [zh PDF] --- page 1 --- 時間：2026/08/03 證券代號：2488 --- page 2 --- 展望，反映本公司迄今對未來及市場的看法。對於這些看法在未來 若有任何改變或調整時，本公司不負責隨時提醒或更新。\n-  本公司並未發布財務預測，簡報中有關公司的財務、業務或Q&A之說 法，可能與外來實際結果存有差異。此差異原因可能包括市場需求變 化、出廠價格與原物料價格波動、同業競爭行為、國際經濟局勢、匯 率波動、上下游供應鏈等其他各種本公司所不能掌控之風險因素。\n- 黑膠唱盤未來產品規劃與世代需求對比 指標 傳統黑膠唱盤時代 現代與未來黑膠唱盤趨勢 核心客群 熟齡發燒友 、資深收藏家 Z世代 / 千禧世代、流行音樂粉絲、潮流族群 核心賣點 純類比高保真 (Hi-Fi)、硬體模組升級 生活美學裝飾、音樂儀式感、無線便利性 系統架構 唱盤 → 獨立唱放 → 擴大機 → 被動喇叭 一體式主動系統 / 無線傳輸 / 內建唱頭放大器(Phono) 驅動技術 交流馬達、傳統皮帶驅動 精密直流/直驅馬達、DSP 轉速監控、低諧振結構 入門與中階：家飾化與美學導向 中高階與發燒級：極致抗震與驅\n- 產品發產趨勢: 黑膠唱盤市場概況與客群轉變 4,300萬 2023美黑膠銷量 (連17年成 長) 8.5億美元 2030全球唱盤規模 (年複合成 長率 6.1-7.8%) 唱片銷量逆襲帶動硬體需求 美國黑膠銷售額佔實體音樂營收 71%，連續兩年超越 CD，帶動唱 盤需求成長。 Z世代與千禧世代成為消費主力 超過 50% 購買者小於 35 歲，流行巨星發行限定彩盤將黑膠提升 為偶像周邊。 巨大的潛在轉化空間 調查顯示 48% 買黑膠的人家中尚無唱機，為「入門/美觀型」唱機 帶來極大商機。 Market Insight\n\n### 風險與不確定性\n- [zh PDF] --- page 1 --- 時間：2026/08/03 證券代號：2488 --- page 2 --- 展望，反映本公司迄今對未來及市場的看法。對於這些看法在未來 若有任何改變或調整時，本公司不負責隨時提醒或更新。\n-  本公司並未發布財務預測，簡報中有關公司的財務、業務或Q&A之說 法，可能與外來實際結果存有差異。此差異原因可能包括市場需求變 化、出廠價格與原物料價格波動、同業競爭行為、國際經濟局勢、匯 率波動、上下游供應鏈等其他各種本公司所不能掌控之風險因素。\n- 展望，反映本公司迄今對未來及市場的看法。對於這些看法在未來 若有任何改變或調整時，本公司不負責隨時提醒或更新。  本公司並未發布財務預測，簡報中有關公司的財務、業務或Q&A之說 法，可能與外來實際結果存有差異。此差異原因可能包括市場需求變 化、出廠價格與原物料價格波動、同業競爭行為、國際經濟局勢、匯 率波動、上下游供應鏈等其他各種本公司所不能掌控之風險因素。\n- 1965 標準品量產 OEM ◆生產流程控管 ◆生產成本控制 ◆消費音訊/機電產 品製造 1997 產品升級 ODM ◆消費性產品→專業 性產品 ◆持續提升專業研發 技術 ◆2000年成功跨入 DJ專業產品領域 2009 整合加值 解決方案 ◆整合軟硬體技術提 供新舊客戶加值服 務 ◆整合服務擴大市場 營運轉型過程 公司概況 產業概況 營運概況 財務概況 未來展望 ESG Q&A\n\n### Q&A 與管理層口氣\n- page 3 --- 公 司 概 況 產 業 概 況 營 運 概 況 財 務 概 況 未 來 展 望 E S G Q & A 議 程 --- page 4 --- 公司概況 產業概況 營運概況 財務概況 未來展望 ESG Q&A • 董事長兼總經理：劉深鏗 • 資本額：7.9億 • 成立日期：1965年 • 上市時間：2001年9月17日 • 公司網址：http://www.hanpin.com.tw/ • 公司地址：台南市仁德區中正路\n- • • • • Future Outlook & Comparison 公司概況 產業概況 營運概況 財務概況 未來展望 ESG Q&A --- page 14 --- 公司概況 產業概況 營運概況 財務概況 未來展望 ESG Q&A --- page 15 --- 公司概況 產業概況 營運概況 財務概況 未來展望 ESG Q&A 營業 比重 截止至2026.06.30為止 音訊產品, 96.57% 其他 (原料、商品 雜項等), 3.\n- Market Insights 公司概況 產業概況 營運概況 財務概況 未來展望 ESG Q&A --- page 13 --- 黑膠唱盤未來產品規劃與世代需求對比 指標 傳統黑膠唱盤時代 現代與未來黑膠唱盤趨勢 核心客群 熟齡發燒友 、資深收藏家 Z世代 / 千禧世代、流行音樂粉絲、潮流族群 核心賣點 純類比高保真 (Hi-Fi)、硬體模組升級 生活美學裝飾、音樂儀式感、無線便利性 系統架構 唱盤 → 獨立唱放 → 擴大機 → 被動喇\n-  本公司並未發布財務預測，簡報中有關公司的財務、業務或Q&A之說 法，可能與外來實際結果存有差異。此差異原因可能包括市場需求變 化、出廠價格與原物料價格波動、同業競爭行為、國際經濟局勢、匯 率波動、上下游供應鏈等其他各種本公司所不能掌控之風險因素。\n- 展望，反映本公司迄今對未來及市場的看法。對於這些看法在未來 若有任何改變或調整時，本公司不負責隨時提醒或更新。  本公司並未發布財務預測，簡報中有關公司的財務、業務或Q&A之說 法，可能與外來實際結果存有差異。此差異原因可能包括市場需求變 化、出廠價格與原物料價格波動、同業競爭行為、國際經濟局勢、匯 率波動、上下游供應鏈等其他各種本公司所不能掌控之風險因素。\n- 1965 標準品量產 OEM ◆生產流程控管 ◆生產成本控制 ◆消費音訊/機電產 品製造 1997 產品升級 ODM ◆消費性產品→專業 性產品 ◆持續提升專業研發 技術 ◆2000年成功跨入 DJ專業產品領域 2009 整合加值 解決方案 ◆整合軟硬體技術提 供新舊客戶加值服 務 ◆整合服務擴大市場 營運轉型過程 公司概況 產業概況 營運概況 財務概況 未來展望 ESG Q&A\n\n### 評分利基點\n- 加分主因：Market Insights 公司概況 產業概況 營運概況 財務概況 未來展望 ESG Q&A --- page 13 --- 黑膠唱盤未來產品規劃與世代需求對比 指標 傳統黑膠唱盤時代 現代與未來黑膠唱盤趨勢 核心客群 熟齡發燒友 、資深收藏家 Z世代 / 千禧世代、流行音樂粉絲、潮流族群 核心賣點 純類比高保真 (Hi-Fi)、硬體模組升級 生活美學裝飾、音樂儀式感、無線便利性 系統架構 唱盤 → 獨立唱放 → 擴大機 → 被動喇； 本公司並未發布財務預測，簡報中有關公司的財務、業務或Q&A之說 法，可能與外來實際結果存有差異。此差異原因可能包括市場需求變 化、出廠價格與原物料價格波動、同業競爭行為、國際經濟局勢、匯 率波動、上下游供應鏈等其他各種本公司所不能掌控之風險因素。；黑膠唱盤未來產品規劃與世代需求對比 指標 傳統黑膠唱盤時代 現代與未來黑膠唱盤趨勢 核心客群 熟齡發燒友 、資深收藏家 Z世代 / 千禧世代、流行音樂粉絲、潮流族群 核心賣點 純類比高保真 (Hi-Fi)、硬體模組升級 生活美學裝飾、音樂儀式感、無線便利性 系統架構 唱盤 → 獨立唱放 → 擴大機 → 被動喇叭 一體式主動系統 / 無線傳輸 / 內建唱頭放大器(Phono) 驅動技術 交流馬達、傳統皮帶驅動 精密直流/直驅馬達、DSP 轉速監控、低諧振結構 入門與中階：家飾化與美學導向 中高階與發燒級：極致抗震與驅。\n- 扣分或保留：[zh PDF] --- page 1 --- 時間：2026/08/03 證券代號：2488 --- page 2 --- 展望，反映本公司迄今對未來及市場的看法。對於這些看法在未來 若有任何改變或調整時，本公司不負責隨時提醒或更新。； 本公司並未發布財務預測，簡報中有關公司的財務、業務或Q&A之說 法，可能與外來實際結果存有差異。此差異原因可能包括市場需求變 化、出廠價格與原物料價格波動、同業競爭行為、國際經濟局勢、匯 率波動、上下游供應鏈等其他各種本公司所不能掌控之風險因素。；展望，反映本公司迄今對未來及市場的看法。對於這些看法在未來 若有任何改變或調整時，本公司不負責隨時提醒或更新。  本公司並未發布財務預測，簡報中有關公司的財務、業務或Q&A之說 法，可能與外來實際結果存有差異。此差異原因可能包括市場需求變 化、出廠價格與原物料價格波動、同業競爭行為、國際經濟局勢、匯 率波動、上下游供應鏈等其他各種本公司所不能掌控之風險因素。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
         }
       ]
-    },
-    {
-      "generatedAt": "2026-08-03T14:20:43.991Z",
-      "queryDate": "2026-07-31",
-      "displayDate": "2026-07-31",
-      "count": 9,
-      "rows": [
-        {
-          "date": "2026-07-31",
-          "code": "2301",
-          "name": "光寶科",
-          "eventType": "法人說明會",
-          "time": "14:00",
-          "location": "本公司(臺北市內湖區瑞光路392號1樓國際會議廳)",
-          "topic": "本公司115年第2季財務業務情形。",
-          "companyWebsite": "https://www.liteon.com/zh-tw",
-          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/230120260731M001.pdf",
-          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/230120260731E001.pdf",
-          "mediaUrl": "http://irconference.twse.com.tw/2301_329_20260731_ch.mp4",
-          "mediaStatus": "有影音",
-          "transcriptStatus": "未產生",
-          "outlookBullets": [
-            "Confidential 機密 2026 年第二季 & 上半年營運總覽 【第二季】 • 營收 NT$527 億元，年增 30%，季增 21%；其中雲端物聯網年成長超過七成。 • 營業毛利 NT$143 億元，年增 60%，毛利率 27.2%，年增 5.1 個百分點；營業利益 NT$82 億元，年增 120%，營業利 益率 15.6%，年增 6.3 個百分點，受惠新一代 AIDC 需求成長，以及第一季高階機種出貨遞延至本季，高價值事業比重 提升、全球產能擴充之規模經濟效益、及智能製造之營運效率優化，提升整體獲利表現。",
-            "Confidential 機密 策略布局與第三季展望 16 Delete this page after prod 1 Delete this page after prod 2 第三季展望：核心事業展現強勁年、季雙成長 新一代 AI 電能管理系統升級，電源及儲能整合式電源機櫃量產。 2026 年 AI 營收占比超過 30%： • 新一代 8.5kW PSU 及 BBU 量產，110kW Power Shelf 出貨。 • 800VDC Power Rack 2H 驗證完成。 • IT 高階電源應用動能提升，低軌衛",
-            "Confidential 機密 Powering a Bright and Sustainable Future Together 永續共好．光耀未來 2 0 2 6 / 0 7 / 3 1 2026年第二季法人說明會 光寶科技股份有限公司",
-            "Confidential 機密 法說會議程 • 營運展望及成長策略 邱森彬 總經理 王玉玲 投資人關係資深處長 • 會議主持 2 • 問與答 邱森彬 總經理 林建忠 財務長 • 2026 年第二季財務報告 林建忠 財務長",
-            "Confidential 機密 03 02 01 策略投資 DenseLight ，布局 AIDC 高速光通訊成長商機 19 光寶由光學核心延伸，邁向 AIDC 系統級光通訊方案領導商 • 光寶具備光學先進封裝、系統整合與跨區域製造營運能力，實現全球化生產與交付，強化供應鏈彈性與韌性，滿足 Hyperscalers 多元客製化及全球供貨需求。 Denselight 具備完整 InP 光通訊元件研發及製造能力，布局 ELS 應用，拓展 AIDC 高速光通訊市場與客戶 • 具備 InP 磊晶設計、晶圓製程、雷射元件到封",
-            "Confidential 機密 Growth Strategy & 3Q26 Outlook 16 Delete this page after prod 1 Delete this page after prod 2 3Q26 Outlook: Core businesses are expected to deliver strong yearly and quarterly growth Driven by next-generation AI power and energy management syst",
-            "Confidential 機密 © LITE -ON Technology Corporation. . 2026年第二季財務報告",
-            "Confidential 機密 164,828 173,456 148,333 137,134 166,085 96,111 18.5% 19.2% 22.0% 21.6% 22.9% 24.7% 7.9% 8.7% 9.8% 9.4% 10.1% 12.8% 0.0% 5.0% 10.0% 15.0% 20.0% 25.0% - 50,000 100,000 150,000 200,000 250,000 300,000 2021 2022 2023 2024 2025 1H 2026 Revenue GP% O"
-          ],
-          "outlookTone": {
-            "label": "正面看好",
-            "score": 100,
-            "basis": "正向訊號 9、保守訊號 0"
-          },
-          "summaryBullets": [
-            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-            "MOPS 擇要訊息：本公司115年第2季財務業務情形。",
-            "• 營業毛利 NT$143 億元，年增 60%，毛利率 27.2%，年增 5.1 個百分點；營業利益 NT$82 億元，年增 120%，營業利 益率 15.6%，年增 6.3 個百分點，受惠新一代 AIDC 需求成長，以及第一季高階機種出貨遞延至本季，高價值事業比重 提升、全球產能擴充之規模經濟效益、及智能製造之營運效率優化，提升整體獲利表現。",
-            "2026年第二季財務報告 --- page 5 --- Confidential 機密 5 --- page 6 --- Confidential 機密 6 --- page 7 --- Confidential 機密 30% 3 --- page 8 --- Confidential 機密 8 --- page 9 --- Confidential 機密 9 --- page 10 --- Confidential 機密 10 30%",
-            "page 17 --- 新一代 AI 電能管理系統全面升級，推動營收成長動能 17 33kW Power Shelf PSU 5.5kW 800VDC 660kW Power Rack 1H 2H 2026 110kW Power Shelf PSU 18.3kW PSU & BBU 8.5kW 800VDC >1.5MW Power Rack In-rack Power Rack 2.5kW DCDC Brick 50 VDC Inp",
-            "[zh PDF] --- page 1 --- Confidential 機密 Powering a Bright and Sustainable Future Together 永續共好．光耀未來 2 0 2 6 / 0 7 / 3 1 2026年第二季法人說明會 光寶科技股份有限公司 --- page 2 --- Confidential 機密 法說會議程 • 營運展望及成長策略 邱森彬 總經理 王玉玲 投資人關係資深處長 • 會議",
-            "【核心事業】 • 受惠高階 AI 伺服器電源、雲端運算產品及電能管理系統出貨順利，雲端運算營收年成長倍增。"
-          ],
-          "financialBullets": [],
-          "riskBullets": [],
-          "qnaBullets": [],
-          "crossCheckBullets": [],
-          "sourceReport": "../法說整理/reports/ir_summary_2026-08-03.md",
-          "detailMarkdown": "## 2301 光寶科 深度法說分析\n\n### 一頁結論\n- 展望評價：正面看好（100 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 9、保守訊號 0。\n- 判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 \n\n### 營運與財務重點\n- • 營業毛利 NT$143 億元，年增 60%，毛利率 27.2%，年增 5.1 個百分點；營業利益 NT$82 億元，年增 120%，營業利 益率 15.6%，年增 6.3 個百分點，受惠新一代 AIDC 需求成長，以及第一季高階機種出貨遞延至本季，高價值事業比重 提升、全球產能擴充之規模經濟效益、及智能製造之營運效率優化，提升整體獲利表現。\n- page 17 --- 新一代 AI 電能管理系統全面升級，推動營收成長動能 17 33kW Power Shelf PSU 5.5kW 800VDC 660kW Power Rack 1H 2H 2026 110kW Power Shelf PSU 18.3kW PSU & BBU 8.5kW 800VDC >1.5MW Power Rack In-rack Power Rack 2.5kW DCDC Brick 50 VDC Inp\n- [zh PDF] --- page 1 --- Confidential 機密 Powering a Bright and Sustainable Future Together 永續共好．光耀未來 2 0 2 6 / 0 7 / 3 1 2026年第二季法人說明會 光寶科技股份有限公司 --- page 2 --- Confidential 機密 法說會議程 • 營運展望及成長策略 邱森彬 總經理 王玉玲 投資人關係資深處長 • 會議\n- 【核心事業】 • 受惠高階 AI 伺服器電源、雲端運算產品及電能管理系統出貨順利，雲端運算營收年成長倍增。\n- Confidential 機密 2026 年第二季 & 上半年營運總覽 【第二季】 • 營收 NT$527 億元，年增 30%，季增 21%；其中雲端物聯網年成長超過七成。 • 營業毛利 NT$143 億元，年增 60%，毛利率 27.2%，年增 5.1 個百分點；營業利益 NT$82 億元，年增 120%，營業利 益率 15.6%，年增 6.3 個百分點，受惠新一代 AIDC 需求成長，以及第一季高階機種出貨遞延至本季，高價值事業比重 提升、全球產能擴充之規模經濟效益、及智能製造之營運效率優化，提升整體獲利表現。\n- Confidential 機密 策略布局與第三季展望 16 Delete this page after prod 1 Delete this page after prod 2 第三季展望：核心事業展現強勁年、季雙成長 新一代 AI 電能管理系統升級，電源及儲能整合式電源機櫃量產。 2026 年 AI 營收占比超過 30%： • 新一代 8.5kW PSU 及 BBU 量產，110kW Power Shelf 出貨。 • 800VDC Power Rack 2H 驗證完成。 • IT 高階電源應用動能提升，低軌衛\n\n### 展望與成長利基\n- Confidential 機密 2026 年第二季 & 上半年營運總覽 【第二季】 • 營收 NT$527 億元，年增 30%，季增 21%；其中雲端物聯網年成長超過七成。 • 營業毛利 NT$143 億元，年增 60%，毛利率 27.2%，年增 5.1 個百分點；營業利益 NT$82 億元，年增 120%，營業利 益率 15.6%，年增 6.3 個百分點，受惠新一代 AIDC 需求成長，以及第一季高階機種出貨遞延至本季，高價值事業比重 提升、全球產能擴充之規模經濟效益、及智能製造之營運效率優化，提升整體獲利表現。\n- Confidential 機密 策略布局與第三季展望 16 Delete this page after prod 1 Delete this page after prod 2 第三季展望：核心事業展現強勁年、季雙成長 新一代 AI 電能管理系統升級，電源及儲能整合式電源機櫃量產。 2026 年 AI 營收占比超過 30%： • 新一代 8.5kW PSU 及 BBU 量產，110kW Power Shelf 出貨。 • 800VDC Power Rack 2H 驗證完成。 • IT 高階電源應用動能提升，低軌衛\n- Confidential 機密 Powering a Bright and Sustainable Future Together 永續共好．光耀未來 2 0 2 6 / 0 7 / 3 1 2026年第二季法人說明會 光寶科技股份有限公司\n- Confidential 機密 法說會議程 • 營運展望及成長策略 邱森彬 總經理 王玉玲 投資人關係資深處長 • 會議主持 2 • 問與答 邱森彬 總經理 林建忠 財務長 • 2026 年第二季財務報告 林建忠 財務長\n- Confidential 機密 03 02 01 策略投資 DenseLight ，布局 AIDC 高速光通訊成長商機 19 光寶由光學核心延伸，邁向 AIDC 系統級光通訊方案領導商 • 光寶具備光學先進封裝、系統整合與跨區域製造營運能力，實現全球化生產與交付，強化供應鏈彈性與韌性，滿足 Hyperscalers 多元客製化及全球供貨需求。 Denselight 具備完整 InP 光通訊元件研發及製造能力，布局 ELS 應用，拓展 AIDC 高速光通訊市場與客戶 • 具備 InP 磊晶設計、晶圓製程、雷射元件到封\n- Confidential 機密 Growth Strategy & 3Q26 Outlook 16 Delete this page after prod 1 Delete this page after prod 2 3Q26 Outlook: Core businesses are expected to deliver strong yearly and quarterly growth Driven by next-generation AI power and energy management syst\n- Confidential 機密 © LITE -ON Technology Corporation. . 2026年第二季財務報告\n- Confidential 機密 164,828 173,456 148,333 137,134 166,085 96,111 18.5% 19.2% 22.0% 21.6% 22.9% 24.7% 7.9% 8.7% 9.8% 9.4% 10.1% 12.8% 0.0% 5.0% 10.0% 15.0% 20.0% 25.0% - 50,000 100,000 150,000 200,000 250,000 300,000 2021 2022 2023 2024 2025 1H 2026 Revenue GP% O\n\n### 產品、客戶與市場位置\n- • 營業毛利 NT$143 億元，年增 60%，毛利率 27.2%，年增 5.1 個百分點；營業利益 NT$82 億元，年增 120%，營業利 益率 15.6%，年增 6.3 個百分點，受惠新一代 AIDC 需求成長，以及第一季高階機種出貨遞延至本季，高價值事業比重 提升、全球產能擴充之規模經濟效益、及智能製造之營運效率優化，提升整體獲利表現。\n- page 17 --- 新一代 AI 電能管理系統全面升級，推動營收成長動能 17 33kW Power Shelf PSU 5.5kW 800VDC 660kW Power Rack 1H 2H 2026 110kW Power Shelf PSU 18.3kW PSU & BBU 8.5kW 800VDC >1.5MW Power Rack In-rack Power Rack 2.5kW DCDC Brick 50 VDC Inp\n- [zh PDF] --- page 1 --- Confidential 機密 Powering a Bright and Sustainable Future Together 永續共好．光耀未來 2 0 2 6 / 0 7 / 3 1 2026年第二季法人說明會 光寶科技股份有限公司 --- page 2 --- Confidential 機密 法說會議程 • 營運展望及成長策略 邱森彬 總經理 王玉玲 投資人關係資深處長 • 會議\n- 【核心事業】 • 受惠高階 AI 伺服器電源、雲端運算產品及電能管理系統出貨順利，雲端運算營收年成長倍增。\n- Confidential 機密 2026 年第二季 & 上半年營運總覽 【第二季】 • 營收 NT$527 億元，年增 30%，季增 21%；其中雲端物聯網年成長超過七成。 • 營業毛利 NT$143 億元，年增 60%，毛利率 27.2%，年增 5.1 個百分點；營業利益 NT$82 億元，年增 120%，營業利 益率 15.6%，年增 6.3 個百分點，受惠新一代 AIDC 需求成長，以及第一季高階機種出貨遞延至本季，高價值事業比重 提升、全球產能擴充之規模經濟效益、及智能製造之營運效率優化，提升整體獲利表現。\n- Confidential 機密 策略布局與第三季展望 16 Delete this page after prod 1 Delete this page after prod 2 第三季展望：核心事業展現強勁年、季雙成長 新一代 AI 電能管理系統升級，電源及儲能整合式電源機櫃量產。 2026 年 AI 營收占比超過 30%： • 新一代 8.5kW PSU 及 BBU 量產，110kW Power Shelf 出貨。 • 800VDC Power Rack 2H 驗證完成。 • IT 高階電源應用動能提升，低軌衛\n\n### 風險與不確定性\n- 本次摘要未擷取到明確風險或保守訊號。\n\n### Q&A 與管理層口氣\n- • 營業毛利 NT$143 億元，年增 60%，毛利率 27.2%，年增 5.1 個百分點；營業利益 NT$82 億元，年增 120%，營業利 益率 15.6%，年增 6.3 個百分點，受惠新一代 AIDC 需求成長，以及第一季高階機種出貨遞延至本季，高價值事業比重 提升、全球產能擴充之規模經濟效益、及智能製造之營運效率優化，提升整體獲利表現。\n- Confidential 機密 2026 年第二季 & 上半年營運總覽 【第二季】 • 營收 NT$527 億元，年增 30%，季增 21%；其中雲端物聯網年成長超過七成。 • 營業毛利 NT$143 億元，年增 60%，毛利率 27.2%，年增 5.1 個百分點；營業利益 NT$82 億元，年增 120%，營業利 益率 15.6%，年增 6.3 個百分點，受惠新一代 AIDC 需求成長，以及第一季高階機種出貨遞延至本季，高價值事業比重 提升、全球產能擴充之規模經濟效益、及智能製造之營運效率優化，提升整體獲利表現。\n- Confidential 機密 03 02 01 策略投資 DenseLight ，布局 AIDC 高速光通訊成長商機 19 光寶由光學核心延伸，邁向 AIDC 系統級光通訊方案領導商 • 光寶具備光學先進封裝、系統整合與跨區域製造營運能力，實現全球化生產與交付，強化供應鏈彈性與韌性，滿足 Hyperscalers 多元客製化及全球供貨需求。 Denselight 具備完整 InP 光通訊元件研發及製造能力，布局 ELS 應用，拓展 AIDC 高速光通訊市場與客戶 • 具備 InP 磊晶設計、晶圓製程、雷射元件到封\n\n### 評分利基點\n- 加分主因：• 營業毛利 NT$143 億元，年增 60%，毛利率 27.2%，年增 5.1 個百分點；營業利益 NT$82 億元，年增 120%，營業利 益率 15.6%，年增 6.3 個百分點，受惠新一代 AIDC 需求成長，以及第一季高階機種出貨遞延至本季，高價值事業比重 提升、全球產能擴充之規模經濟效益、及智能製造之營運效率優化，提升整體獲利表現。；page 17 --- 新一代 AI 電能管理系統全面升級，推動營收成長動能 17 33kW Power Shelf PSU 5.5kW 800VDC 660kW Power Rack 1H 2H 2026 110kW Power Shelf PSU 18.3kW PSU & BBU 8.5kW 800VDC >1.5MW Power Rack In-rack Power Rack 2.5kW DCDC Brick 50 VDC Inp；[zh PDF] --- page 1 --- Confidential 機密 Powering a Bright and Sustainable Future Together 永續共好．光耀未來 2 0 2 6 / 0 7 / 3 1 2026年第二季法人說明會 光寶科技股份有限公司 --- page 2 --- Confidential 機密 法說會議程 • 營運展望及成長策略 邱森彬 總經理 王玉玲 投資人關係資深處長 • 會議。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-        },
-        {
-          "date": "2026-07-31",
-          "code": "2439",
-          "name": "美律",
-          "eventType": "法人說明會",
-          "time": "15:00",
-          "location": "Webex線上會議",
-          "topic": "(1)本公司受邀參加富邦證券舉辦之法人說明會,公布本公司 2026年第2季營運成果。 (2)簡報內容於會議開始前15分鐘置於公開資訊觀測站,請自行下載。 (3)活動諮詢:karen.kj.yu@fubon.com",
-          "companyWebsite": "https://www.merry.com.tw/investor-detail/167/",
-          "chinesePdf": "",
-          "englishPdf": "",
-          "mediaUrl": "http://irconference.twse.com.tw/2439_269_20260731_ch.mp4",
-          "mediaStatus": "有影音",
-          "transcriptStatus": "未產生",
-          "outlookBullets": [
-            "未從簡報或轉錄稿擷取到明確展望段落。"
-          ],
-          "outlookTone": {
-            "label": "中性觀望",
-            "score": 50,
-            "basis": "正向訊號 0、保守訊號 0"
-          },
-          "summaryBullets": [
-            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-            "MOPS 擇要訊息：(1)本公司受邀參加富邦證券舉辦之法人說明會,公布本公司 2026年第2季營運成果。 (2)簡報內容於會議開始前15分鐘置於公開資訊觀測站,請自行下載。 (3)活動諮詢:karen.kj.yu@fubon.com",
-            "缺少可摘要的簡報文字或轉錄稿。"
-          ],
-          "financialBullets": [],
-          "riskBullets": [],
-          "qnaBullets": [],
-          "crossCheckBullets": [],
-          "sourceReport": "../法說整理/reports/ir_summary_2026-08-03.md",
-          "detailMarkdown": "## 2439 美律 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：(1)本公司受邀參加富邦證券舉辦之法人說明會,公布本公司 2026年第2季營運成果。 (2)簡報內容於會議開始前15分鐘置於公開資訊觀測站,請自行下載。 (3)活動諮詢:karen.kj.yu@fubon.com\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-        },
-        {
-          "date": "2026-07-31",
-          "code": "2454",
-          "name": "聯發科",
-          "eventType": "法人說明會",
-          "time": "15:00",
-          "location": "線上法說會",
-          "topic": "‎(1) 公布本公司2026年第2季財務報告及2026年第3季業績展望。 (2) 參加方式:請參見https://www.mediatek.com/zh-‎tw/investor-relations/financial-information#quarterly-earnings-‎release",
-          "companyWebsite": "https://www.mediatek.com",
-          "chinesePdf": "",
-          "englishPdf": "",
-          "mediaUrl": "https://ottlive.hinet.net/webapp/mediatek/watch?v=4011",
-          "mediaStatus": "有影音",
-          "transcriptStatus": "未產生",
-          "outlookBullets": [
-            "未從簡報或轉錄稿擷取到明確展望段落。"
-          ],
-          "outlookTone": {
-            "label": "中性觀望",
-            "score": 50,
-            "basis": "正向訊號 0、保守訊號 0"
-          },
-          "summaryBullets": [
-            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-            "MOPS 擇要訊息：‎(1) 公布本公司2026年第2季財務報告及2026年第3季業績展望。 (2) 參加方式:請參見https://www.mediatek.com/zh-‎tw/investor-relations/financial-information#quarterly-earnings-‎release",
-            "缺少可摘要的簡報文字或轉錄稿。"
-          ],
-          "financialBullets": [],
-          "riskBullets": [],
-          "qnaBullets": [],
-          "crossCheckBullets": [],
-          "sourceReport": "../法說整理/reports/ir_summary_2026-08-03.md",
-          "detailMarkdown": "## 2454 聯發科 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：‎(1) 公布本公司2026年第2季財務報告及2026年第3季業績展望。 (2) 參加方式:請參見https://www.mediatek.com/zh-‎tw/investor-relations/financial-information#quarterly-earnings-‎release\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-        },
-        {
-          "date": "2026-07-31",
-          "code": "2528",
-          "name": "皇普",
-          "eventType": "法人說明會",
-          "time": "14:30",
-          "location": "福邦證券總公司(台北市忠孝西路一段6號14樓)",
-          "topic": "受邀參加福邦證券舉辦之法人說明會,就本公司已公開之財務業務資訊作說明。",
-          "companyWebsite": "https://crowell.com.tw/Investors4.php?MT_id=site2017121511293216",
-          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/252820260731M001.pdf",
-          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/252820260731E001.pdf",
-          "mediaUrl": "http://irconference.twse.com.tw/2528_14_20260731_ch.MP4",
-          "mediaStatus": "有影音",
-          "transcriptStatus": "未產生",
-          "outlookBullets": [
-            "2 展望，反應本公司 截至目前為止對於未來的看法 ，對於這些看法，未來或有任何變更或調整時 ，本公司並不保 證本簡報資料之正確性，且不負有更新或修正本簡報資料內容之責任。 本簡報及其內容未經本公司書面許可，任何第三者不得任意取用。",
-            "2 outlook reflects the Company's current views on the future. When there are changes or adjustments to these views in the future, the Company does not guarantee the accuracy of the information in this presentation. It is not responsible for updating or amendin"
-          ],
-          "outlookTone": {
-            "label": "保守偏負面",
-            "score": 40,
-            "basis": "正向訊號 2、保守訊號 4"
-          },
-          "summaryBullets": [
-            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-            "MOPS 擇要訊息：受邀參加福邦證券舉辦之法人說明會,就本公司已公開之財務業務資訊作說明。",
-            "page 3 --- “ “ 公司簡介 財務資訊 營運概況 Q&A 01 02 03 04 內容 3 --- page 4 --- 公司簡介 4 --- page 5 --- 公司地址 320桃園市中壢區領航南路三段 307號17樓 公司網站 http://www.crowell.com.tw 主要營業項目 委託興建出售集合式住宅大樓 股票代號 2528 資本額 資本額新台幣4,359,965仟元 上市日期 1995.03.10 202",
-            "此類前瞻性資訊將受風險 、不確定性與推論所影響 ，部份將超出我們的控制之外 ，實際 結果可能與這些前瞻性資訊大不相同 。其原因可能來自於各種因素 ，包括但不限於原物料成 本增加、市場需求、各種政策法令與金融經濟現況之改變以及其他非本公司所能控制之風險 等因素。",
-            "本簡報資料中所提供之資訊並未明示或暗示的表達或保證其具有正確性 、完整性或可靠 性，亦不代表本公司、產業狀況或後續重大發展的完整論敘述 。對未來的展望，反應本公司 截至目前為止對於未來的看法 ，對於這些看法，未來或有任何變更或調整時 ，本公司並不保 證本簡報資料之正確性，且不負有更新或修正本簡報資料內容之責任。",
-            "The forward-looking statements involve certain risks, uncertainties and inferences that might be beyond our control and could cause actual results to differ materially from those contained in the forward-looking statemen",
-            "Potential risks and uncertainties include factors such as rising costs of raw materials, changes in market demand, policies and regulations and general economic conditions, and other factors beyond the Company's control."
-          ],
-          "financialBullets": [],
-          "riskBullets": [],
-          "qnaBullets": [],
-          "crossCheckBullets": [],
-          "sourceReport": "../法說整理/reports/ir_summary_2026-08-03.md",
-          "detailMarkdown": "## 2528 皇普 深度法說分析\n\n### 一頁結論\n- 展望評價：保守偏負面（40 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 2、保守訊號 4。\n- 判讀：保守訊號較多，短期需要先確認需求、成本或產業變數是否落底。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：受邀參加福邦證券舉辦之法人說明會,就本公司已公開之財務業務資訊作說明。\n- page 3 --- “ “ 公司簡介 財務資訊 營運概況 Q&A 01 02 03 04 內容 3 --- page 4 --- 公司簡介 4 --- page 5 --- 公司地址 320桃園市中壢區領航南路三段 307號17樓 公司網站 http://www.crowell.com.tw 主要營業項目 委託興建出售集合式住宅大樓 股票代號 2528 資本額 資本額新台幣4,359,965仟元 上市日期 1995.03.10 202\n- 此類前瞻性資訊將受風險 、不確定性與推論所影響 ，部份將超出我們的控制之外 ，實際 結果可能與這些前瞻性資訊大不相同 。其原因可能來自於各種因素 ，包括但不限於原物料成 本增加、市場需求、各種政策法令與金融經濟現況之改變以及其他非本公司所能控制之風險 等因素。\n- 本簡報資料中所提供之資訊並未明示或暗示的表達或保證其具有正確性 、完整性或可靠 性，亦不代表本公司、產業狀況或後續重大發展的完整論敘述 。對未來的展望，反應本公司 截至目前為止對於未來的看法 ，對於這些看法，未來或有任何變更或調整時 ，本公司並不保 證本簡報資料之正確性，且不負有更新或修正本簡報資料內容之責任。\n- The forward-looking statements involve certain risks, uncertainties and inferences that might be beyond our control and could cause actual results to differ materially from those contained in the forward-looking statemen\n\n### 展望與成長利基\n- 2 展望，反應本公司 截至目前為止對於未來的看法 ，對於這些看法，未來或有任何變更或調整時 ，本公司並不保 證本簡報資料之正確性，且不負有更新或修正本簡報資料內容之責任。 本簡報及其內容未經本公司書面許可，任何第三者不得任意取用。\n- 2 outlook reflects the Company's current views on the future. When there are changes or adjustments to these views in the future, the Company does not guarantee the accuracy of the information in this presentation. It is not responsible for updating or amendin\n\n### 產品、客戶與市場位置\n- 此類前瞻性資訊將受風險 、不確定性與推論所影響 ，部份將超出我們的控制之外 ，實際 結果可能與這些前瞻性資訊大不相同 。其原因可能來自於各種因素 ，包括但不限於原物料成 本增加、市場需求、各種政策法令與金融經濟現況之改變以及其他非本公司所能控制之風險 等因素。\n- The forward-looking statements involve certain risks, uncertainties and inferences that might be beyond our control and could cause actual results to differ materially from those contained in the forward-looking statemen\n- Potential risks and uncertainties include factors such as rising costs of raw materials, changes in market demand, policies and regulations and general economic conditions, and other factors beyond the Company's control.\n\n### 風險與不確定性\n- 此類前瞻性資訊將受風險 、不確定性與推論所影響 ，部份將超出我們的控制之外 ，實際 結果可能與這些前瞻性資訊大不相同 。其原因可能來自於各種因素 ，包括但不限於原物料成 本增加、市場需求、各種政策法令與金融經濟現況之改變以及其他非本公司所能控制之風險 等因素。\n- 本簡報資料中所提供之資訊並未明示或暗示的表達或保證其具有正確性 、完整性或可靠 性，亦不代表本公司、產業狀況或後續重大發展的完整論敘述 。對未來的展望，反應本公司 截至目前為止對於未來的看法 ，對於這些看法，未來或有任何變更或調整時 ，本公司並不保 證本簡報資料之正確性，且不負有更新或修正本簡報資料內容之責任。\n- The forward-looking statements involve certain risks, uncertainties and inferences that might be beyond our control and could cause actual results to differ materially from those contained in the forward-looking statemen\n- Potential risks and uncertainties include factors such as rising costs of raw materials, changes in market demand, policies and regulations and general economic conditions, and other factors beyond the Company's control.\n- 2 展望，反應本公司 截至目前為止對於未來的看法 ，對於這些看法，未來或有任何變更或調整時 ，本公司並不保 證本簡報資料之正確性，且不負有更新或修正本簡報資料內容之責任。 本簡報及其內容未經本公司書面許可，任何第三者不得任意取用。\n\n### Q&A 與管理層口氣\n- page 3 --- “ “ 公司簡介 財務資訊 營運概況 Q&A 01 02 03 04 內容 3 --- page 4 --- 公司簡介 4 --- page 5 --- 公司地址 320桃園市中壢區領航南路三段 307號17樓 公司網站 http://www.crowell.com.tw 主要營業項目 委託興建出售集合式住宅大樓 股票代號 2528 資本額 資本額新台幣4,359,965仟元 上市日期 1995.03.10 202\n\n### 評分利基點\n- 加分主因：此類前瞻性資訊將受風險 、不確定性與推論所影響 ，部份將超出我們的控制之外 ，實際 結果可能與這些前瞻性資訊大不相同 。其原因可能來自於各種因素 ，包括但不限於原物料成 本增加、市場需求、各種政策法令與金融經濟現況之改變以及其他非本公司所能控制之風險 等因素。。\n- 扣分或保留：此類前瞻性資訊將受風險 、不確定性與推論所影響 ，部份將超出我們的控制之外 ，實際 結果可能與這些前瞻性資訊大不相同 。其原因可能來自於各種因素 ，包括但不限於原物料成 本增加、市場需求、各種政策法令與金融經濟現況之改變以及其他非本公司所能控制之風險 等因素。；本簡報資料中所提供之資訊並未明示或暗示的表達或保證其具有正確性 、完整性或可靠 性，亦不代表本公司、產業狀況或後續重大發展的完整論敘述 。對未來的展望，反應本公司 截至目前為止對於未來的看法 ，對於這些看法，未來或有任何變更或調整時 ，本公司並不保 證本簡報資料之正確性，且不負有更新或修正本簡報資料內容之責任。；The forward-looking statements involve certain risks, uncertainties and inferences that might be beyond our control and could cause actual results to differ materially from those contained in the forward-looking statemen。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-        },
-        {
-          "date": "2026-07-31",
-          "code": "4968",
-          "name": "立積",
-          "eventType": "法人說明會",
-          "time": "15:30",
-          "location": "網路直播",
-          "topic": "立積電子(4968) 2026年第二季線上法人說明會",
-          "companyWebsite": "https://www.richwave.com.tw/zh/invest_sharholder_conference.aspx",
-          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/496820260731M001.pdf",
-          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/496820260731E001.pdf",
-          "mediaUrl": "https://www.zucast.com/webcast/E3D3vJSb",
-          "mediaStatus": "有影音",
-          "transcriptStatus": "未產生",
-          "outlookBullets": [
-            "13 | RichWave Confidential 聲明 本文件可能包含「前瞻性陳述」，包括但不限於所有本公司對未來可 能發生的業務活 動、事件或發展的陳述。該等陳述係基於本公司對未 來營運之假設，及種種本公司無法 控制之政治、經濟、市場等因素所 做成，故實際經營結果可能與該等陳述有重大差異。 受到各種風險及不確定性因素影響，可能造成實際結果與陳述內容發生顯著不符，這些不 確定性因素包括：受到競爭性產品及定價之影響、設計是否及時被客戶接受、新技術是否 及時導入利用、新產品大量量產之能力、產業及市場對半導體產品之供",
-            "8 | RichWave Confidential 手機&物聯網 • GPS L1/L5 LNA 與 FEM 產品持續穩定出貨。 • GPS 微型 LNA 成功取得國際手機品牌 design win，並持續量產供 貨。 • 非中國品牌智慧穿戴客戶持續導入 Mobile Switch 與 FEM 產品。 • IoT 業務持續擴展，成功切入北美大型零售品牌市場。 • AR／VR／AI 智慧眼鏡解決方案持續供貨全球重要客戶。 FEM LNA SW Filter 手機 & 物 聯 網 產 品 營收 4G/5G Tuner/"
-          ],
-          "outlookTone": {
-            "label": "中性觀望",
-            "score": 52,
-            "basis": "正向訊號 2、保守訊號 2"
-          },
-          "summaryBullets": [
-            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-            "MOPS 擇要訊息：立積電子(4968) 2026年第二季線上法人說明會",
-            "受到各種風險及不確定性因素影響，可能造成實際結果與陳述內容發生顯著不符，這些不 確定性因素包括：受到競爭性產品及定價之影響、設計是否及時被客戶接受、新技術是否 及時導入利用、新產品大量量產之能力、產業及市場對半導體產品之供給及需求移轉、產 業及市場是否供給過剩或短缺、供應鏈產能可得利用情況、終端市場之財務穩定性、人才 留任困難之可能性、無法預期之成本和費用、重要客戶之流失、法律或行政訴訟之涉及、 可能會影響營運之新法規、外匯匯率之波動、",
-            "• AR／VR／AI 智慧眼鏡解決方案持續供貨全球重要客戶。",
-            "雷達感測器 --- page 11 --- 11 | RichWave Confidential 2025Q2~2026Q2 損益表 11 2025 Q2 2025 Q3 2025 Q4 2026 Q1 2026 Q2 QoQ YoY Amount % Amount % Amount % Amount % Amount % % % 營業收入 974,396 100% 985,899 100% 951,933 100% 930,198 1",
-            "2004 全球據點 在WiFi- WiFi7 及未來扎實根基 掌握不同製程並應用在各類產品設計上 最佳夥伴及優異的客戶服務 以產品技術及市場策略創造公司長期價值 ＋ ＋ 在物聯網、行動通訊及車用提供多樣化產品 ＋ 經營方向與策略 創立於 300+ 832 Nov.",
-            "2004 證交所掛牌 產品數量 全球專利數 --- page 3 --- 3 | RichWave Confidential 各產品線營收 NT$ Million 3 - 100 200 300 400 500 600 700 800 900 1,000 2025 Q3 2025 Q4 2026 Q1 2026 Q2 858 818 825 837 128 134 105 140 Others Wi-Fi --- page 4 ---"
-          ],
-          "financialBullets": [],
-          "riskBullets": [],
-          "qnaBullets": [],
-          "crossCheckBullets": [],
-          "sourceReport": "../法說整理/reports/ir_summary_2026-08-03.md",
-          "detailMarkdown": "## 4968 立積 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（52 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 2、保守訊號 2。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 2004 證交所掛牌 產品數量 全球專利數 --- page 3 --- 3 | RichWave Confidential 各產品線營收 NT$ Million 3 - 100 200 300 400 500 600 700 800 900 1,000 2025 Q3 2025 Q4 2026 Q1 2026 Q2 858 818 825 837 128 134 105 140 Others Wi-Fi --- page 4 ---\n- 8 | RichWave Confidential 手機&物聯網 • GPS L1/L5 LNA 與 FEM 產品持續穩定出貨。 • GPS 微型 LNA 成功取得國際手機品牌 design win，並持續量產供 貨。 • 非中國品牌智慧穿戴客戶持續導入 Mobile Switch 與 FEM 產品。 • IoT 業務持續擴展，成功切入北美大型零售品牌市場。 • AR／VR／AI 智慧眼鏡解決方案持續供貨全球重要客戶。 FEM LNA SW Filter 手機 & 物 聯 網 產 品 營收 4G/5G Tuner/\n\n### 展望與成長利基\n- 13 | RichWave Confidential 聲明 本文件可能包含「前瞻性陳述」，包括但不限於所有本公司對未來可 能發生的業務活 動、事件或發展的陳述。該等陳述係基於本公司對未 來營運之假設，及種種本公司無法 控制之政治、經濟、市場等因素所 做成，故實際經營結果可能與該等陳述有重大差異。 受到各種風險及不確定性因素影響，可能造成實際結果與陳述內容發生顯著不符，這些不 確定性因素包括：受到競爭性產品及定價之影響、設計是否及時被客戶接受、新技術是否 及時導入利用、新產品大量量產之能力、產業及市場對半導體產品之供\n- 8 | RichWave Confidential 手機&物聯網 • GPS L1/L5 LNA 與 FEM 產品持續穩定出貨。 • GPS 微型 LNA 成功取得國際手機品牌 design win，並持續量產供 貨。 • 非中國品牌智慧穿戴客戶持續導入 Mobile Switch 與 FEM 產品。 • IoT 業務持續擴展，成功切入北美大型零售品牌市場。 • AR／VR／AI 智慧眼鏡解決方案持續供貨全球重要客戶。 FEM LNA SW Filter 手機 & 物 聯 網 產 品 營收 4G/5G Tuner/\n\n### 產品、客戶與市場位置\n- 受到各種風險及不確定性因素影響，可能造成實際結果與陳述內容發生顯著不符，這些不 確定性因素包括：受到競爭性產品及定價之影響、設計是否及時被客戶接受、新技術是否 及時導入利用、新產品大量量產之能力、產業及市場對半導體產品之供給及需求移轉、產 業及市場是否供給過剩或短缺、供應鏈產能可得利用情況、終端市場之財務穩定性、人才 留任困難之可能性、無法預期之成本和費用、重要客戶之流失、法律或行政訴訟之涉及、 可能會影響營運之新法規、外匯匯率之波動、\n- • AR／VR／AI 智慧眼鏡解決方案持續供貨全球重要客戶。\n- 2004 全球據點 在WiFi- WiFi7 及未來扎實根基 掌握不同製程並應用在各類產品設計上 最佳夥伴及優異的客戶服務 以產品技術及市場策略創造公司長期價值 ＋ ＋ 在物聯網、行動通訊及車用提供多樣化產品 ＋ 經營方向與策略 創立於 300+ 832 Nov.\n- 2004 證交所掛牌 產品數量 全球專利數 --- page 3 --- 3 | RichWave Confidential 各產品線營收 NT$ Million 3 - 100 200 300 400 500 600 700 800 900 1,000 2025 Q3 2025 Q4 2026 Q1 2026 Q2 858 818 825 837 128 134 105 140 Others Wi-Fi --- page 4 ---\n- 13 | RichWave Confidential 聲明 本文件可能包含「前瞻性陳述」，包括但不限於所有本公司對未來可 能發生的業務活 動、事件或發展的陳述。該等陳述係基於本公司對未 來營運之假設，及種種本公司無法 控制之政治、經濟、市場等因素所 做成，故實際經營結果可能與該等陳述有重大差異。 受到各種風險及不確定性因素影響，可能造成實際結果與陳述內容發生顯著不符，這些不 確定性因素包括：受到競爭性產品及定價之影響、設計是否及時被客戶接受、新技術是否 及時導入利用、新產品大量量產之能力、產業及市場對半導體產品之供\n- 8 | RichWave Confidential 手機&物聯網 • GPS L1/L5 LNA 與 FEM 產品持續穩定出貨。 • GPS 微型 LNA 成功取得國際手機品牌 design win，並持續量產供 貨。 • 非中國品牌智慧穿戴客戶持續導入 Mobile Switch 與 FEM 產品。 • IoT 業務持續擴展，成功切入北美大型零售品牌市場。 • AR／VR／AI 智慧眼鏡解決方案持續供貨全球重要客戶。 FEM LNA SW Filter 手機 & 物 聯 網 產 品 營收 4G/5G Tuner/\n\n### 風險與不確定性\n- 受到各種風險及不確定性因素影響，可能造成實際結果與陳述內容發生顯著不符，這些不 確定性因素包括：受到競爭性產品及定價之影響、設計是否及時被客戶接受、新技術是否 及時導入利用、新產品大量量產之能力、產業及市場對半導體產品之供給及需求移轉、產 業及市場是否供給過剩或短缺、供應鏈產能可得利用情況、終端市場之財務穩定性、人才 留任困難之可能性、無法預期之成本和費用、重要客戶之流失、法律或行政訴訟之涉及、 可能會影響營運之新法規、外匯匯率之波動、\n- 13 | RichWave Confidential 聲明 本文件可能包含「前瞻性陳述」，包括但不限於所有本公司對未來可 能發生的業務活 動、事件或發展的陳述。該等陳述係基於本公司對未 來營運之假設，及種種本公司無法 控制之政治、經濟、市場等因素所 做成，故實際經營結果可能與該等陳述有重大差異。 受到各種風險及不確定性因素影響，可能造成實際結果與陳述內容發生顯著不符，這些不 確定性因素包括：受到競爭性產品及定價之影響、設計是否及時被客戶接受、新技術是否 及時導入利用、新產品大量量產之能力、產業及市場對半導體產品之供\n\n### Q&A 與管理層口氣\n- 受到各種風險及不確定性因素影響，可能造成實際結果與陳述內容發生顯著不符，這些不 確定性因素包括：受到競爭性產品及定價之影響、設計是否及時被客戶接受、新技術是否 及時導入利用、新產品大量量產之能力、產業及市場對半導體產品之供給及需求移轉、產 業及市場是否供給過剩或短缺、供應鏈產能可得利用情況、終端市場之財務穩定性、人才 留任困難之可能性、無法預期之成本和費用、重要客戶之流失、法律或行政訴訟之涉及、 可能會影響營運之新法規、外匯匯率之波動、\n\n### 評分利基點\n- 加分主因：受到各種風險及不確定性因素影響，可能造成實際結果與陳述內容發生顯著不符，這些不 確定性因素包括：受到競爭性產品及定價之影響、設計是否及時被客戶接受、新技術是否 及時導入利用、新產品大量量產之能力、產業及市場對半導體產品之供給及需求移轉、產 業及市場是否供給過剩或短缺、供應鏈產能可得利用情況、終端市場之財務穩定性、人才 留任困難之可能性、無法預期之成本和費用、重要客戶之流失、法律或行政訴訟之涉及、 可能會影響營運之新法規、外匯匯率之波動、；13 | RichWave Confidential 聲明 本文件可能包含「前瞻性陳述」，包括但不限於所有本公司對未來可 能發生的業務活 動、事件或發展的陳述。該等陳述係基於本公司對未 來營運之假設，及種種本公司無法 控制之政治、經濟、市場等因素所 做成，故實際經營結果可能與該等陳述有重大差異。 受到各種風險及不確定性因素影響，可能造成實際結果與陳述內容發生顯著不符，這些不 確定性因素包括：受到競爭性產品及定價之影響、設計是否及時被客戶接受、新技術是否 及時導入利用、新產品大量量產之能力、產業及市場對半導體產品之供；8 | RichWave Confidential 手機&物聯網 • GPS L1/L5 LNA 與 FEM 產品持續穩定出貨。 • GPS 微型 LNA 成功取得國際手機品牌 design win，並持續量產供 貨。 • 非中國品牌智慧穿戴客戶持續導入 Mobile Switch 與 FEM 產品。 • IoT 業務持續擴展，成功切入北美大型零售品牌市場。 • AR／VR／AI 智慧眼鏡解決方案持續供貨全球重要客戶。 FEM LNA SW Filter 手機 & 物 聯 網 產 品 營收 4G/5G Tuner/。\n- 扣分或保留：受到各種風險及不確定性因素影響，可能造成實際結果與陳述內容發生顯著不符，這些不 確定性因素包括：受到競爭性產品及定價之影響、設計是否及時被客戶接受、新技術是否 及時導入利用、新產品大量量產之能力、產業及市場對半導體產品之供給及需求移轉、產 業及市場是否供給過剩或短缺、供應鏈產能可得利用情況、終端市場之財務穩定性、人才 留任困難之可能性、無法預期之成本和費用、重要客戶之流失、法律或行政訴訟之涉及、 可能會影響營運之新法規、外匯匯率之波動、；13 | RichWave Confidential 聲明 本文件可能包含「前瞻性陳述」，包括但不限於所有本公司對未來可 能發生的業務活 動、事件或發展的陳述。該等陳述係基於本公司對未 來營運之假設，及種種本公司無法 控制之政治、經濟、市場等因素所 做成，故實際經營結果可能與該等陳述有重大差異。 受到各種風險及不確定性因素影響，可能造成實際結果與陳述內容發生顯著不符，這些不 確定性因素包括：受到競爭性產品及定價之影響、設計是否及時被客戶接受、新技術是否 及時導入利用、新產品大量量產之能力、產業及市場對半導體產品之供。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-        },
-        {
-          "date": "2026-07-31",
-          "code": "5525",
-          "name": "順天",
-          "eventType": "法人說明會",
-          "time": "14:30",
-          "location": "線上法說會",
-          "topic": "本公司受邀參加由群益金鼎證券所舉辦之線上法說會,報告本公司營運概況",
-          "companyWebsite": "",
-          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/552520260731M001.pdf",
-          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/552520260731E001.pdf",
-          "mediaUrl": "http://irconference.twse.com.tw/5525_15_20260731_ch.mp4",
-          "mediaStatus": "有影音",
-          "transcriptStatus": "未產生",
-          "outlookBullets": [
-            "公司概況 1 財務概況 2 營運概況 3 未來展望 4 Q & A 5 議 程 3 股票代號 : 5 5 2 5"
-          ],
-          "outlookTone": {
-            "label": "中性觀望",
-            "score": 50,
-            "basis": "正向訊號 0、保守訊號 0"
-          },
-          "summaryBullets": [
-            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-            "MOPS 擇要訊息：本公司受邀參加由群益金鼎證券所舉辦之線上法說會,報告本公司營運概況",
-            "Property leasing --- page 8 --- 8 Stock Code : 5 5 2 5 2 Financial Overview --- page 9 --- 2.1 Financial Overview – Condensed Consolidated Statement of Income 9 Unit: NT$ thousand ITEM 2021 2022 2023 2024 2025 2026 Q1 Op",
-            "2 股票代號 : 5 5 2 5 --- page 3 --- 公司概況 1 財務概況 2 營運概況 3 未來展望 4 Q & A 5 議 程 3 股票代號 : 5 5 2 5 --- page 4 --- 1 4 公 司 概 況 股票代號 : 5 5 2 5 --- page 5 --- 1.1 公司概況-公司簡介、主要產品 ◆ 創立日期 : 1987年11月28日 ◆ 上櫃日期 : 2000年05月22日 ◆ 上市日期 : 2004",
-            "不動產租賃業 持 股 比 例 --- page 8 --- 2 8 財 務 概 況 股票代號 : 5 5 2 5 --- page 9 --- 2.1 財務概況-簡明合併綜合損益表 9 單位:新台幣仟元 項 目 2021年 2022年 2023年 2024年 2025年 2026年 Q1 營 業 收 入 777,712 5,407,171 5,021,223 4,516,267 2,293,357 1,698,934 營 業 毛 利 2",
-            "page 3 --- Company Introduction 1 Financial Overview 2 Operational Overview 3 Future Development 4 Q & A 5 3 Stock Code : 5 5 2 5 Agenda --- page 4 --- 4 Stock Code : 5 5 2 5 1 Company Introduction --- page 5 --- 1.1 Com",
-            "Hsin-Sui Ko ◆ Paid-up Capital：NTD 3,181,054 thousand ◆ Major Businesses： residential development, commercial real estate development, industrial zone development, urban renewal development, land development ◆ Employees o"
-          ],
-          "financialBullets": [],
-          "riskBullets": [],
-          "qnaBullets": [],
-          "crossCheckBullets": [],
-          "sourceReport": "../法說整理/reports/ir_summary_2026-08-03.md",
-          "detailMarkdown": "## 5525 順天 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：本公司受邀參加由群益金鼎證券所舉辦之線上法說會,報告本公司營運概況\n- Property leasing --- page 8 --- 8 Stock Code : 5 5 2 5 2 Financial Overview --- page 9 --- 2.1 Financial Overview – Condensed Consolidated Statement of Income 9 Unit: NT$ thousand ITEM 2021 2022 2023 2024 2025 2026 Q1 Op\n- 2 股票代號 : 5 5 2 5 --- page 3 --- 公司概況 1 財務概況 2 營運概況 3 未來展望 4 Q & A 5 議 程 3 股票代號 : 5 5 2 5 --- page 4 --- 1 4 公 司 概 況 股票代號 : 5 5 2 5 --- page 5 --- 1.1 公司概況-公司簡介、主要產品 ◆ 創立日期 : 1987年11月28日 ◆ 上櫃日期 : 2000年05月22日 ◆ 上市日期 : 2004\n- 不動產租賃業 持 股 比 例 --- page 8 --- 2 8 財 務 概 況 股票代號 : 5 5 2 5 --- page 9 --- 2.1 財務概況-簡明合併綜合損益表 9 單位:新台幣仟元 項 目 2021年 2022年 2023年 2024年 2025年 2026年 Q1 營 業 收 入 777,712 5,407,171 5,021,223 4,516,267 2,293,357 1,698,934 營 業 毛 利 2\n- page 3 --- Company Introduction 1 Financial Overview 2 Operational Overview 3 Future Development 4 Q & A 5 3 Stock Code : 5 5 2 5 Agenda --- page 4 --- 4 Stock Code : 5 5 2 5 1 Company Introduction --- page 5 --- 1.1 Com\n\n### 展望與成長利基\n- 公司概況 1 財務概況 2 營運概況 3 未來展望 4 Q & A 5 議 程 3 股票代號 : 5 5 2 5\n\n### 產品、客戶與市場位置\n- 2 股票代號 : 5 5 2 5 --- page 3 --- 公司概況 1 財務概況 2 營運概況 3 未來展望 4 Q & A 5 議 程 3 股票代號 : 5 5 2 5 --- page 4 --- 1 4 公 司 概 況 股票代號 : 5 5 2 5 --- page 5 --- 1.1 公司概況-公司簡介、主要產品 ◆ 創立日期 : 1987年11月28日 ◆ 上櫃日期 : 2000年05月22日 ◆ 上市日期 : 2004\n- Hsin-Sui Ko ◆ Paid-up Capital：NTD 3,181,054 thousand ◆ Major Businesses： residential development, commercial real estate development, industrial zone development, urban renewal development, land development ◆ Employees o\n\n### 風險與不確定性\n- 本次摘要未擷取到明確風險或保守訊號。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-        },
-        {
-          "date": "2026-07-31",
-          "code": "6274",
-          "name": "台燿",
-          "eventType": "法人說明會",
-          "time": "14:00",
-          "location": "凱基證券總公司(台北市中山區明水路700號)",
-          "topic": "受邀參加凱基證券舉辦之法說會",
-          "companyWebsite": "https://www.tuc.com.tw/zh-tw/corporate/id/133",
-          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/627420260729M001.pdf",
-          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/627420260729E001.pdf",
-          "mediaUrl": "",
-          "mediaStatus": "缺影音",
-          "transcriptStatus": "缺影音",
-          "outlookBullets": [
-            "0% 20% 40% 60% 80% 1Q24 2Q24 3Q24 4Q24 1Q25 2Q25 3Q25 4Q25 1Q26 2Q26 24% 30% 35% 34% 33% 36% 38% 36% 38% 39% 34% 32% 28% 32% 30% 32% 33% 34% 32% 31% 營業收入 (%) ELL & SLL VLL & LL 2026年第二季銅箔基板銷售分析 –技術別 0% 20% 40% 60% 80% 2021 2022 2023 2024 2025 10% 14% 22% 32% 3",
-            "2026年第二季法人說明會 2026年07月29日 Copyright © 2012 Taiwan Union Technology Corporation"
-          ],
-          "outlookTone": {
-            "label": "中性偏正面",
-            "score": 57,
-            "basis": "正向訊號 1、保守訊號 0"
-          },
-          "summaryBullets": [
-            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-            "MOPS 擇要訊息：受邀參加凱基證券舉辦之法說會",
-            "[zh PDF] --- page 1 --- 2026年第二季法人說明會 2026年07月29日 Copyright © 2012 Taiwan Union Technology Corporation --- page 2 --- 綜合損益表 • 2026年6月30日流通在外股數為290,463仟股 • 股東權益報酬率為以母公司股東平均股權計算的年化數據 --- page 3 --- 0% 20% 40% 60% 80% 1Q24",
-            "page 3 --- 0% 20% 40% 60% 80% 1Q24 2Q24 3Q24 4Q24 1Q25 2Q25 3Q25 4Q25 1Q26 2Q26 24% 30% 35% 34% 33% 36% 38% 36% 38% 39% 34% 32% 28% 32% 30% 32% 33% 34% 32% 31% Revenue (%) ELL & SLL VLL & LL 2Q26 CCL Revenue by Technolog"
-          ],
-          "financialBullets": [],
-          "riskBullets": [],
-          "qnaBullets": [],
-          "crossCheckBullets": [],
-          "sourceReport": "../法說整理/reports/ir_summary_2026-08-03.md",
-          "detailMarkdown": "## 6274 台燿 深度法說分析\n\n### 一頁結論\n- 展望評價：中性偏正面（57 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 1、保守訊號 0。\n- 判讀：方向偏正面，但管理層仍保留部分彈性，較適合追蹤接單、毛利率與下一季財測是否延續。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：受邀參加凱基證券舉辦之法說會\n- [zh PDF] --- page 1 --- 2026年第二季法人說明會 2026年07月29日 Copyright © 2012 Taiwan Union Technology Corporation --- page 2 --- 綜合損益表 • 2026年6月30日流通在外股數為290,463仟股 • 股東權益報酬率為以母公司股東平均股權計算的年化數據 --- page 3 --- 0% 20% 40% 60% 80% 1Q24\n- page 3 --- 0% 20% 40% 60% 80% 1Q24 2Q24 3Q24 4Q24 1Q25 2Q25 3Q25 4Q25 1Q26 2Q26 24% 30% 35% 34% 33% 36% 38% 36% 38% 39% 34% 32% 28% 32% 30% 32% 33% 34% 32% 31% Revenue (%) ELL & SLL VLL & LL 2Q26 CCL Revenue by Technolog\n\n### 展望與成長利基\n- 0% 20% 40% 60% 80% 1Q24 2Q24 3Q24 4Q24 1Q25 2Q25 3Q25 4Q25 1Q26 2Q26 24% 30% 35% 34% 33% 36% 38% 36% 38% 39% 34% 32% 28% 32% 30% 32% 33% 34% 32% 31% 營業收入 (%) ELL & SLL VLL & LL 2026年第二季銅箔基板銷售分析 –技術別 0% 20% 40% 60% 80% 2021 2022 2023 2024 2025 10% 14% 22% 32% 3\n- 2026年第二季法人說明會 2026年07月29日 Copyright © 2012 Taiwan Union Technology Corporation\n\n### 產品、客戶與市場位置\n- [zh PDF] --- page 1 --- 2026年第二季法人說明會 2026年07月29日 Copyright © 2012 Taiwan Union Technology Corporation --- page 2 --- 綜合損益表 • 2026年6月30日流通在外股數為290,463仟股 • 股東權益報酬率為以母公司股東平均股權計算的年化數據 --- page 3 --- 0% 20% 40% 60% 80% 1Q24\n- 2026年第二季法人說明會 2026年07月29日 Copyright © 2012 Taiwan Union Technology Corporation\n\n### 風險與不確定性\n- 本次摘要未擷取到明確風險或保守訊號。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-        },
-        {
-          "date": "2026-07-31",
-          "code": "6581",
-          "name": "鋼聯",
-          "eventType": "法人說明會",
-          "time": "14:00",
-          "location": "線上法說會",
-          "topic": "本公司受邀參加康和證券舉辦之法人說明會,說明本公司之營運、財務及業務狀況。",
-          "companyWebsite": "https://www.tsutw.com.tw/",
-          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/658120260731M001.pdf",
-          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/658120260731E001.pdf",
-          "mediaUrl": "https://tsutw.webex.com/meet/tsu1021",
-          "mediaStatus": "有影音",
-          "transcriptStatus": "未產生",
-          "outlookBullets": [
-            "氧化鋅業務展望 Page 22 氧化鋅銷售 LME國際鋅價走勢 2026年氧化鋅已完售供不應求、拓展含鋅廢棄物再利用項目申請中，增加含鋅資源物收受量，有助未來提升氧化鋅產品產量。加工費2026年由US$80US$85，仍處極低水平。2026年上半年鋅價走升，主係因礦端供應緊縮，且能源價格上揚，推升鋅價。龍井水洗廠專注於氧化鋅產品水洗服務，提升純度、走向產品高值化符合國際市場需求，增加營業收入與客源，預計2027年正式營運。",
-            "含鋅廢棄物再利用業務展望 Page 23 碳鋼集塵灰棄置場所集塵灰國內鋼鐵業因內需疲弱、鋼價走低、大陸產能過剩影響，產量下滑影響集塵灰交量。市場仍有需求，待政府機關編列預算。不鏽鋼集塵灰維持去年合作廠商。",
-            "(台鋼)事業廢棄物再利用業務展望 Page 27 煉鋼還原碴鋼鐵業景氣低迷，產能降低，2026年產量目標78,559噸/年；合格率目標100%2026Q2安定化產量36,184噸，合格率99.63% 鋼聯旋轉窯碴100%送交台鋼、上下游垂直整合 其他廢棄物再利用D-1199㇐般性飛灰或底渣混合物個案再利用許可案，產發署已審查通過，目前環保許可文件異動中D-0501廢耐火材個案再利用試驗計畫已審查完成，預計2026年8月可取得個案許可，後續進行環保文件異動申請台鋼資源經董事會同意啟動「土石方資源堆置",
-            "Page 18 2026年上半年損益表損益表2Q2026 1Q2026差異 差異% 2Q2025差異 差異%(NT$百萬)營業收入847435 412 95% 639 208 33%營業成本331204 127 62% 302 29 10%營業毛利516231 285 123% 337 179 53%營業費用7063 7 11% 71 -1 -1%營業淨利446168 278 165% 266 180 68%稅後純益356130 226 174% 209 147 70%每股盈餘(元)3.21.17 2.03 174",
-            "副原料廢棄物再利用業務展望 Page 25含鈣廢棄物環評變更開發石材礦泥廢棄物業務。焚化飛灰(提供市場更佳去化管道)目前國內飛灰循環再利用主要方式為鋼聯旋轉窯高溫冶煉(佔84%)，具競爭優勢。環評變更放寬收受量上限，並取得4家大型焚化廠標案、2家民營事業焚化廠及2家大型焚化廠BOT業者委託案。1家大型焚化廠專案許可辦理中，持續擴大業務量。工廠污土(非農地)有害高污染重金屬污土具市場優勢，2026年業務仍主要以高單價有害污土為主。",
-            "其餘業務展望 Page 26 屋頂太陽能版綠電持續建置地點：鋼聯及台鋼資源廠房屋頂已設置容量：1,356KW(再生能源設置佔10%)新增容量：3,831KW期程：2026年底前完成設置供電效益：生產綠電自發自用、節能減碳，推升再生能源比例達32%",
-            "(台鋼)預拌混凝土銷售業務展望 Page 28 預拌混凝土產品產品：管溝用控制性低強度回填材料控制性低強度回填材料非構造物用混凝土2026年混凝土產品預計目標75,968 m3/年；2026Q2混凝土銷售40,044 m3，目標達成率101%推廣無水泥低碳CLSM使用鹼活化混凝土技術(Alkali-activated Concrete)生產100%循環資源，無水泥低碳CLSM(台灣首創)無水泥低碳CLSM綠建材標章審查委員預計7月底實廠審查拓展營建剩餘土石方CLSM市場使用營建剩餘土石方為原料生產",
-            "Crude Zinc Oxide Business Forecast Page 22 CZO Sales LME Zinc PriceDemands continue exceeding supply in 2026.Expand Zinc Waste Recycling Business is now applying. This means we can take in more zinc materials and increase our Zinc Oxide production in the fut"
-          ],
-          "outlookTone": {
-            "label": "正面看好",
-            "score": 72,
-            "basis": "正向訊號 4、保守訊號 1"
-          },
-          "summaryBullets": [
-            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-            "MOPS 擇要訊息：本公司受邀參加康和證券舉辦之法人說明會,說明本公司之營運、財務及業務狀況。",
-            "page 16 --- Page 16 鋼聯廢棄物業務貢獻項目2026H1處理量2025H1處理量 差異%集塵灰處理量46,574噸54,908 噸(15%)鋅含量≧2.5%產品14,997噸16,532噸(9%)鋅含量≧2.5%廢棄物電鍍脫水污泥(含鋅鉛)焚化爐焚化飛灰污染土壤RDF具熱值固體(事業)廢棄物 --- page 17 --- Page 17 爐碴再利用業務(子公司台鋼資源)單位：噸項目2026H1 2025H1差異%煉鋼",
-            "page 23 --- 含鋅廢棄物再利用業務展望 Page 23 碳鋼集塵灰棄置場所集塵灰國內鋼鐵業因內需疲弱、鋼價走低、大陸產能過剩影響，產量下滑影響集塵灰交量。市場仍有需求，待政府機關編列預算。不鏽鋼集塵灰維持去年合作廠商。",
-            "page 10 --- 鋼聯集團永續認證及治理績效 Page 10 氣候變遷調適能力低碳生產製造程序產品循環永續性 CDP2024-25年氣候變遷問卷B管理級別國內廢棄物再利用同業首家取得環境部服務型碳足跡減碳標籤熱處理服務碳足跡-4.2%(國內熱處理服務唯㇐取得)產品氧化鋅碳足跡-13.2% UL2809再生料含量驗證產品粗氧化鋅中金屬鋅100%為再生資源(全世界同業唯㇐取得) 內政部綠建材標章證書(台鋼)CLSM-控制性低強度材",
-            "page 26 --- 其餘業務展望 Page 26 屋頂太陽能版綠電持續建置地點：鋼聯及台鋼資源廠房屋頂已設置容量：1,356KW(再生能源設置佔10%)新增容量：3,831KW期程：2026年底前完成設置供電效益：生產綠電自發自用、節能減碳，推升再生能源比例達32% --- page 27 --- (台鋼)事業廢棄物再利用業務展望 Page 27 煉鋼還原碴鋼鐵業景氣低迷，產能降低，2026年產量目標78,559噸/年；合格率",
-            "page 16 --- Page 16 Revenue Contribution from TSU Waste項目2026H1 2025H1 Diff %EAFD (including stainless)46,574 ton 54,908 ton(15%)Product contain 2.5% Zn14,997 ton 16,532 ton(9%)Wastes contain 2.5% ZnElectroplating Sludge"
-          ],
-          "financialBullets": [],
-          "riskBullets": [],
-          "qnaBullets": [],
-          "crossCheckBullets": [],
-          "sourceReport": "../法說整理/reports/ir_summary_2026-08-03.md",
-          "detailMarkdown": "## 6581 鋼聯 深度法說分析\n\n### 一頁結論\n- 展望評價：正面看好（72 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 4、保守訊號 1。\n- 判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 \n\n### 營運與財務重點\n- Page 18 2026年上半年損益表損益表2Q2026 1Q2026差異 差異% 2Q2025差異 差異%(NT$百萬)營業收入847435 412 95% 639 208 33%營業成本331204 127 62% 302 29 10%營業毛利516231 285 123% 337 179 53%營業費用7063 7 11% 71 -1 -1%營業淨利446168 278 165% 266 180 68%稅後純益356130 226 174% 209 147 70%每股盈餘(元)3.21.17 2.03 174\n\n### 展望與成長利基\n- 氧化鋅業務展望 Page 22 氧化鋅銷售 LME國際鋅價走勢 2026年氧化鋅已完售供不應求、拓展含鋅廢棄物再利用項目申請中，增加含鋅資源物收受量，有助未來提升氧化鋅產品產量。加工費2026年由US$80US$85，仍處極低水平。2026年上半年鋅價走升，主係因礦端供應緊縮，且能源價格上揚，推升鋅價。龍井水洗廠專注於氧化鋅產品水洗服務，提升純度、走向產品高值化符合國際市場需求，增加營業收入與客源，預計2027年正式營運。\n- 含鋅廢棄物再利用業務展望 Page 23 碳鋼集塵灰棄置場所集塵灰國內鋼鐵業因內需疲弱、鋼價走低、大陸產能過剩影響，產量下滑影響集塵灰交量。市場仍有需求，待政府機關編列預算。不鏽鋼集塵灰維持去年合作廠商。\n- (台鋼)事業廢棄物再利用業務展望 Page 27 煉鋼還原碴鋼鐵業景氣低迷，產能降低，2026年產量目標78,559噸/年；合格率目標100%2026Q2安定化產量36,184噸，合格率99.63% 鋼聯旋轉窯碴100%送交台鋼、上下游垂直整合 其他廢棄物再利用D-1199㇐般性飛灰或底渣混合物個案再利用許可案，產發署已審查通過，目前環保許可文件異動中D-0501廢耐火材個案再利用試驗計畫已審查完成，預計2026年8月可取得個案許可，後續進行環保文件異動申請台鋼資源經董事會同意啟動「土石方資源堆置\n- Page 18 2026年上半年損益表損益表2Q2026 1Q2026差異 差異% 2Q2025差異 差異%(NT$百萬)營業收入847435 412 95% 639 208 33%營業成本331204 127 62% 302 29 10%營業毛利516231 285 123% 337 179 53%營業費用7063 7 11% 71 -1 -1%營業淨利446168 278 165% 266 180 68%稅後純益356130 226 174% 209 147 70%每股盈餘(元)3.21.17 2.03 174\n- 副原料廢棄物再利用業務展望 Page 25含鈣廢棄物環評變更開發石材礦泥廢棄物業務。焚化飛灰(提供市場更佳去化管道)目前國內飛灰循環再利用主要方式為鋼聯旋轉窯高溫冶煉(佔84%)，具競爭優勢。環評變更放寬收受量上限，並取得4家大型焚化廠標案、2家民營事業焚化廠及2家大型焚化廠BOT業者委託案。1家大型焚化廠專案許可辦理中，持續擴大業務量。工廠污土(非農地)有害高污染重金屬污土具市場優勢，2026年業務仍主要以高單價有害污土為主。\n- 其餘業務展望 Page 26 屋頂太陽能版綠電持續建置地點：鋼聯及台鋼資源廠房屋頂已設置容量：1,356KW(再生能源設置佔10%)新增容量：3,831KW期程：2026年底前完成設置供電效益：生產綠電自發自用、節能減碳，推升再生能源比例達32%\n- (台鋼)預拌混凝土銷售業務展望 Page 28 預拌混凝土產品產品：管溝用控制性低強度回填材料控制性低強度回填材料非構造物用混凝土2026年混凝土產品預計目標75,968 m3/年；2026Q2混凝土銷售40,044 m3，目標達成率101%推廣無水泥低碳CLSM使用鹼活化混凝土技術(Alkali-activated Concrete)生產100%循環資源，無水泥低碳CLSM(台灣首創)無水泥低碳CLSM綠建材標章審查委員預計7月底實廠審查拓展營建剩餘土石方CLSM市場使用營建剩餘土石方為原料生產\n- Crude Zinc Oxide Business Forecast Page 22 CZO Sales LME Zinc PriceDemands continue exceeding supply in 2026.Expand Zinc Waste Recycling Business is now applying. This means we can take in more zinc materials and increase our Zinc Oxide production in the fut\n\n### 產品、客戶與市場位置\n- page 16 --- Page 16 鋼聯廢棄物業務貢獻項目2026H1處理量2025H1處理量 差異%集塵灰處理量46,574噸54,908 噸(15%)鋅含量≧2.5%產品14,997噸16,532噸(9%)鋅含量≧2.5%廢棄物電鍍脫水污泥(含鋅鉛)焚化爐焚化飛灰污染土壤RDF具熱值固體(事業)廢棄物 --- page 17 --- Page 17 爐碴再利用業務(子公司台鋼資源)單位：噸項目2026H1 2025H1差異%煉鋼\n- page 23 --- 含鋅廢棄物再利用業務展望 Page 23 碳鋼集塵灰棄置場所集塵灰國內鋼鐵業因內需疲弱、鋼價走低、大陸產能過剩影響，產量下滑影響集塵灰交量。市場仍有需求，待政府機關編列預算。不鏽鋼集塵灰維持去年合作廠商。\n- page 10 --- 鋼聯集團永續認證及治理績效 Page 10 氣候變遷調適能力低碳生產製造程序產品循環永續性 CDP2024-25年氣候變遷問卷B管理級別國內廢棄物再利用同業首家取得環境部服務型碳足跡減碳標籤熱處理服務碳足跡-4.2%(國內熱處理服務唯㇐取得)產品氧化鋅碳足跡-13.2% UL2809再生料含量驗證產品粗氧化鋅中金屬鋅100%為再生資源(全世界同業唯㇐取得) 內政部綠建材標章證書(台鋼)CLSM-控制性低強度材\n- page 26 --- 其餘業務展望 Page 26 屋頂太陽能版綠電持續建置地點：鋼聯及台鋼資源廠房屋頂已設置容量：1,356KW(再生能源設置佔10%)新增容量：3,831KW期程：2026年底前完成設置供電效益：生產綠電自發自用、節能減碳，推升再生能源比例達32% --- page 27 --- (台鋼)事業廢棄物再利用業務展望 Page 27 煉鋼還原碴鋼鐵業景氣低迷，產能降低，2026年產量目標78,559噸/年；合格率\n- page 16 --- Page 16 Revenue Contribution from TSU Waste項目2026H1 2025H1 Diff %EAFD (including stainless)46,574 ton 54,908 ton(15%)Product contain 2.5% Zn14,997 ton 16,532 ton(9%)Wastes contain 2.5% ZnElectroplating Sludge\n- 氧化鋅業務展望 Page 22 氧化鋅銷售 LME國際鋅價走勢 2026年氧化鋅已完售供不應求、拓展含鋅廢棄物再利用項目申請中，增加含鋅資源物收受量，有助未來提升氧化鋅產品產量。加工費2026年由US$80US$85，仍處極低水平。2026年上半年鋅價走升，主係因礦端供應緊縮，且能源價格上揚，推升鋅價。龍井水洗廠專注於氧化鋅產品水洗服務，提升純度、走向產品高值化符合國際市場需求，增加營業收入與客源，預計2027年正式營運。\n\n### 風險與不確定性\n- page 23 --- 含鋅廢棄物再利用業務展望 Page 23 碳鋼集塵灰棄置場所集塵灰國內鋼鐵業因內需疲弱、鋼價走低、大陸產能過剩影響，產量下滑影響集塵灰交量。市場仍有需求，待政府機關編列預算。不鏽鋼集塵灰維持去年合作廠商。\n- 含鋅廢棄物再利用業務展望 Page 23 碳鋼集塵灰棄置場所集塵灰國內鋼鐵業因內需疲弱、鋼價走低、大陸產能過剩影響，產量下滑影響集塵灰交量。市場仍有需求，待政府機關編列預算。不鏽鋼集塵灰維持去年合作廠商。\n- Page 18 2026年上半年損益表損益表2Q2026 1Q2026差異 差異% 2Q2025差異 差異%(NT$百萬)營業收入847435 412 95% 639 208 33%營業成本331204 127 62% 302 29 10%營業毛利516231 285 123% 337 179 53%營業費用7063 7 11% 71 -1 -1%營業淨利446168 278 165% 266 180 68%稅後純益356130 226 174% 209 147 70%每股盈餘(元)3.21.17 2.03 174\n\n### Q&A 與管理層口氣\n- page 23 --- 含鋅廢棄物再利用業務展望 Page 23 碳鋼集塵灰棄置場所集塵灰國內鋼鐵業因內需疲弱、鋼價走低、大陸產能過剩影響，產量下滑影響集塵灰交量。市場仍有需求，待政府機關編列預算。不鏽鋼集塵灰維持去年合作廠商。\n- page 26 --- 其餘業務展望 Page 26 屋頂太陽能版綠電持續建置地點：鋼聯及台鋼資源廠房屋頂已設置容量：1,356KW(再生能源設置佔10%)新增容量：3,831KW期程：2026年底前完成設置供電效益：生產綠電自發自用、節能減碳，推升再生能源比例達32% --- page 27 --- (台鋼)事業廢棄物再利用業務展望 Page 27 煉鋼還原碴鋼鐵業景氣低迷，產能降低，2026年產量目標78,559噸/年；合格率\n- 含鋅廢棄物再利用業務展望 Page 23 碳鋼集塵灰棄置場所集塵灰國內鋼鐵業因內需疲弱、鋼價走低、大陸產能過剩影響，產量下滑影響集塵灰交量。市場仍有需求，待政府機關編列預算。不鏽鋼集塵灰維持去年合作廠商。\n- (台鋼)事業廢棄物再利用業務展望 Page 27 煉鋼還原碴鋼鐵業景氣低迷，產能降低，2026年產量目標78,559噸/年；合格率目標100%2026Q2安定化產量36,184噸，合格率99.63% 鋼聯旋轉窯碴100%送交台鋼、上下游垂直整合 其他廢棄物再利用D-1199㇐般性飛灰或底渣混合物個案再利用許可案，產發署已審查通過，目前環保許可文件異動中D-0501廢耐火材個案再利用試驗計畫已審查完成，預計2026年8月可取得個案許可，後續進行環保文件異動申請台鋼資源經董事會同意啟動「土石方資源堆置\n- Page 18 2026年上半年損益表損益表2Q2026 1Q2026差異 差異% 2Q2025差異 差異%(NT$百萬)營業收入847435 412 95% 639 208 33%營業成本331204 127 62% 302 29 10%營業毛利516231 285 123% 337 179 53%營業費用7063 7 11% 71 -1 -1%營業淨利446168 278 165% 266 180 68%稅後純益356130 226 174% 209 147 70%每股盈餘(元)3.21.17 2.03 174\n\n### 評分利基點\n- 加分主因：page 16 --- Page 16 鋼聯廢棄物業務貢獻項目2026H1處理量2025H1處理量 差異%集塵灰處理量46,574噸54,908 噸(15%)鋅含量≧2.5%產品14,997噸16,532噸(9%)鋅含量≧2.5%廢棄物電鍍脫水污泥(含鋅鉛)焚化爐焚化飛灰污染土壤RDF具熱值固體(事業)廢棄物 --- page 17 --- Page 17 爐碴再利用業務(子公司台鋼資源)單位：噸項目2026H1 2025H1差異%煉鋼；page 23 --- 含鋅廢棄物再利用業務展望 Page 23 碳鋼集塵灰棄置場所集塵灰國內鋼鐵業因內需疲弱、鋼價走低、大陸產能過剩影響，產量下滑影響集塵灰交量。市場仍有需求，待政府機關編列預算。不鏽鋼集塵灰維持去年合作廠商。；page 10 --- 鋼聯集團永續認證及治理績效 Page 10 氣候變遷調適能力低碳生產製造程序產品循環永續性 CDP2024-25年氣候變遷問卷B管理級別國內廢棄物再利用同業首家取得環境部服務型碳足跡減碳標籤熱處理服務碳足跡-4.2%(國內熱處理服務唯㇐取得)產品氧化鋅碳足跡-13.2% UL2809再生料含量驗證產品粗氧化鋅中金屬鋅100%為再生資源(全世界同業唯㇐取得) 內政部綠建材標章證書(台鋼)CLSM-控制性低強度材。\n- 扣分或保留：page 23 --- 含鋅廢棄物再利用業務展望 Page 23 碳鋼集塵灰棄置場所集塵灰國內鋼鐵業因內需疲弱、鋼價走低、大陸產能過剩影響，產量下滑影響集塵灰交量。市場仍有需求，待政府機關編列預算。不鏽鋼集塵灰維持去年合作廠商。；含鋅廢棄物再利用業務展望 Page 23 碳鋼集塵灰棄置場所集塵灰國內鋼鐵業因內需疲弱、鋼價走低、大陸產能過剩影響，產量下滑影響集塵灰交量。市場仍有需求，待政府機關編列預算。不鏽鋼集塵灰維持去年合作廠商。；Page 18 2026年上半年損益表損益表2Q2026 1Q2026差異 差異% 2Q2025差異 差異%(NT$百萬)營業收入847435 412 95% 639 208 33%營業成本331204 127 62% 302 29 10%營業毛利516231 285 123% 337 179 53%營業費用7063 7 11% 71 -1 -1%營業淨利446168 278 165% 266 180 68%稅後純益356130 226 174% 209 147 70%每股盈餘(元)3.21.17 2.03 174。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-        },
-        {
-          "date": "2026-07-31",
-          "code": "8215",
-          "name": "明基材",
-          "eventType": "法人說明會",
-          "time": "14:30",
-          "location": "線上法說會",
-          "topic": "本公司受邀參加兆豐證券舉辦之線上法說會,將於會中向投資人說明115年第二季營運概況及未來展望。",
-          "companyWebsite": "https://www.benqmaterials.com/tw/",
-          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/821520260731M001.pdf",
-          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/821520260731E001.pdf",
-          "mediaUrl": "http://irconference.twse.com.tw/8215_33_20260731_ch.mp3",
-          "mediaStatus": "有影音",
-          "transcriptStatus": "未產生",
-          "outlookBullets": [
-            "© BenQ Corporation. . Confidential & Proprietary. 會議議程 ➢ 2026/Q2 營運狀況 ➢ ESG 成果 ➢ 業績展望 ➢ 問與答",
-            "© BenQ Corporation. . Confidential & Proprietary. Agenda ➢ 2026/Q2 Operating Review ➢ ESG Achievements ➢ Business Outlook ➢ Q & A"
-          ],
-          "outlookTone": {
-            "label": "中性偏正面",
-            "score": 57,
-            "basis": "正向訊號 1、保守訊號 0"
-          },
-          "summaryBullets": [
-            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-            "MOPS 擇要訊息：本公司受邀參加兆豐證券舉辦之線上法說會,將於會中向投資人說明115年第二季營運概況及未來展望。",
-            "ESG 獎項 序號 獎項 1 Yourator 雇主品牌大賞－金獎 (2025) 2 第11 屆公司治理評鑑－ 排名前百分之五 (2025) 3 TCSA 永續報告書白金獎 (2025) 4 TCSA 永續百大企業 (2025) 5 GCSA 永續報告書金獎 (2025) 6 天下永續公民獎大型企業製造業24 強 (2025) 7 親子天下友善家庭職場獎 (2025) 8 桃園優質企業溫控1.5 度C 認證 (2025) 9 CDP 碳",
-            "會議議程 ➢ 2026/Q2 營運狀況 ➢ ESG 成果 ➢ 業績展望 ➢ 問與答 --- page 4 --- 2026/Q2 營運狀況 --- page 5 --- © BenQ Corporation.",
-            "Actual results may differ materially from those contained in the forward-looking statements.",
-            "ESG Achievements NO Achievements 1 2nd Yourator Employer Branding Awards – Gold Award of 2025 2 The 11th Corporate Governance Evaluation – Top 5% of 2025 3 Platinum Award in the Corporate Sustainability Report category,"
-          ],
-          "financialBullets": [],
-          "riskBullets": [],
-          "qnaBullets": [],
-          "crossCheckBullets": [],
-          "sourceReport": "../法說整理/reports/ir_summary_2026-08-03.md",
-          "detailMarkdown": "## 8215 明基材 深度法說分析\n\n### 一頁結論\n- 展望評價：中性偏正面（57 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 1、保守訊號 0。\n- 判讀：方向偏正面，但管理層仍保留部分彈性，較適合追蹤接單、毛利率與下一季財測是否延續。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：本公司受邀參加兆豐證券舉辦之線上法說會,將於會中向投資人說明115年第二季營運概況及未來展望。\n- ESG 獎項 序號 獎項 1 Yourator 雇主品牌大賞－金獎 (2025) 2 第11 屆公司治理評鑑－ 排名前百分之五 (2025) 3 TCSA 永續報告書白金獎 (2025) 4 TCSA 永續百大企業 (2025) 5 GCSA 永續報告書金獎 (2025) 6 天下永續公民獎大型企業製造業24 強 (2025) 7 親子天下友善家庭職場獎 (2025) 8 桃園優質企業溫控1.5 度C 認證 (2025) 9 CDP 碳\n- 會議議程 ➢ 2026/Q2 營運狀況 ➢ ESG 成果 ➢ 業績展望 ➢ 問與答 --- page 4 --- 2026/Q2 營運狀況 --- page 5 --- © BenQ Corporation.\n- Actual results may differ materially from those contained in the forward-looking statements.\n- ESG Achievements NO Achievements 1 2nd Yourator Employer Branding Awards – Gold Award of 2025 2 The 11th Corporate Governance Evaluation – Top 5% of 2025 3 Platinum Award in the Corporate Sustainability Report category,\n\n### 展望與成長利基\n- © BenQ Corporation. . Confidential & Proprietary. 會議議程 ➢ 2026/Q2 營運狀況 ➢ ESG 成果 ➢ 業績展望 ➢ 問與答\n- © BenQ Corporation. . Confidential & Proprietary. Agenda ➢ 2026/Q2 Operating Review ➢ ESG Achievements ➢ Business Outlook ➢ Q & A\n\n### 產品、客戶與市場位置\n- Actual results may differ materially from those contained in the forward-looking statements.\n- ESG Achievements NO Achievements 1 2nd Yourator Employer Branding Awards – Gold Award of 2025 2 The 11th Corporate Governance Evaluation – Top 5% of 2025 3 Platinum Award in the Corporate Sustainability Report category,\n\n### 風險與不確定性\n- 本次摘要未擷取到明確風險或保守訊號。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 加分主因：ESG 獎項 序號 獎項 1 Yourator 雇主品牌大賞－金獎 (2025) 2 第11 屆公司治理評鑑－ 排名前百分之五 (2025) 3 TCSA 永續報告書白金獎 (2025) 4 TCSA 永續百大企業 (2025) 5 GCSA 永續報告書金獎 (2025) 6 天下永續公民獎大型企業製造業24 強 (2025) 7 親子天下友善家庭職場獎 (2025) 8 桃園優質企業溫控1.5 度C 認證 (2025) 9 CDP 碳。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-        }
-      ]
-    },
-    {
-      "generatedAt": "2026-07-31T12:59:19.687Z",
-      "queryDate": "2026-07-30",
-      "displayDate": "2026-07-30",
-      "count": 10,
-      "rows": [
-        {
-          "date": "2026-07-30",
-          "code": "2308",
-          "name": "台達電",
-          "eventType": "法人說明會",
-          "time": "15:00",
-          "location": "台達電子台北總部",
-          "topic": "本公司自辦法人說明會,說明115年第2季財務報告相關資訊",
-          "companyWebsite": "https://www.deltaww.com/zh-TW/investors/analyst-meeting",
-          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/230820260730M001.pdf",
-          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/230820260730E001.pdf",
-          "mediaUrl": "https://www.deltaww.com/zh-TW/investors/analyst-meeting",
-          "mediaStatus": "有影音",
-          "transcriptStatus": "未產生",
-          "outlookBullets": [
-            "30 July 2026 Delta Electronics, Inc. 2Q 2026 Results • 台達電子2026年第二季財報法人說明會",
-            "3Delta Confidential 2Q 2026 Financial Results 2026年第二季結算數字",
-            "4Delta Confidential Y/Y 年對年 Q/Q 季對季 Sales 營收 +48% +15% GP 毛利 +48% +11%2Q25 3Q25 4Q25 1Q26 2Q26 GP 44.1 52.4 55.9 59.0 65.3 GPM 35.5% 34.9% 34.6% 37.0% 35.6% GP 毛利 2Q25 3Q25 4Q25 1Q26 2Q26 Sales 124.1 150.3 161.6 159.4 183.2 Sales 營收 Sales Revenues & Gross Prof",
-            "5Delta Confidential 18.7 24.8 26.4 28.4 30.6 13.6 14.8 16.4 16.9 19.011.8 12.8 13.1 13.7 15.7 0.0 10.0 20.0 30.0 40.0 50.0 60.0 70.0 80.0 2Q25 3Q25 4Q25 1Q26 2Q26 R&D SG&A OP Y/Y 年對年 Q/Q 季對季 R&D 研發費用 +33% +16% SG&A 銷管費用 +40% +12% OPEX 總營業費用 +37% +14% OP 營業淨利 +",
-            "7Delta Confidential NT$ million 新台幣百萬元 2Q25 1Q26 2Q26 Gains or losses from investment* 投資損益* (586) (41) 1,880 Interest income 利息收益 512 428 398 FX income and valuation of FX forward 滙兌損益及遠匯評價損益等 (180) 364 735 Others 其他 1,156 1,925 1,416 Total 合計 902 2,676 4,429",
-            "8Delta Confidential 2Q25 3Q25 4Q25 1Q26 2Q26 EBITDA 26.8 35.4 32.7 39.4 44.0 % of sales 21.6% 23.5% 20.2% 24.7% 24.0% EBITDA 息稅折舊及 攤銷前利潤 Y/Y 年對年 Q/Q 季對季 Profits before tax 稅前淨利 +79% +13% EBITDA 息稅折舊及 攤銷前利潤 +64% +12% 2Q25 3Q25 4Q25 1Q26 2Q26 PBT 19.6 27.0 25.6",
-            "9Delta Confidential NT$ million 新台幣百萬元 2Q25 1Q26 2Q26 Profit before income tax 稅前淨利 19,571 31,093 35,000 Income tax 所得稅 (4,237) (7,258) (7,831) Non-controlling interest 非控制權益 (1,386) (3,279) (2,033) Net profit after tax 稅後淨利 13,948 20,556 25,136 Y/Y 年對年 Q/Q 季對",
-            "10Delta Confidential *EPS based on shares outstanding of 2,598 million. 每股盈餘之設算基於在外流通股數25.98億股。 5.37 7.16 6.67 7.91 9.68 2Q25 3Q25 4Q25 1Q26 2Q26 Unit: NT$ 新台幣元 EPS 每股淨利"
-          ],
-          "outlookTone": {
-            "label": "中性觀望",
-            "score": 51,
-            "basis": "正向訊號 1、保守訊號 1"
-          },
-          "summaryBullets": [
-            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-            "MOPS 擇要訊息：本公司自辦法人說明會,說明115年第2季財務報告相關資訊",
-            "5.37 7.16 6.67 7.91 9.68 2Q25 3Q25 4Q25 1Q26 2Q26 Unit: NT$ 新台幣元 EPS 每股淨利 --- page 11 --- 11Delta Confidential 1H 2026 Financial Results 2026年上半年結算數字 --- page 12 --- 12Delta Confidential Y/Y 年對年 Sales 營收 +41% GP 毛利 +52%",
-            "5.37 7.16 6.67 7.91 9.68 2Q25 3Q25 4Q25 1Q26 2Q26 Unit: NT$ 新台幣元 EPS 每股淨利 --- page 11 --- 11Delta Confidential 1H 2026 Financial Results 2026年上半年結算數字 --- page 12 --- 12Delta Confidential Y/Y 年對年 Sales 營收 +41% GP 毛利 +52%",
-            "2Q 2026 Results • 台達電子2026年第二季財報法人說明會 --- page 2 ---  The financial numbers hereby are based on International Financial Reporting Standards (IFRS) 本簡報財務數字係根據國際財務報導準則編製  Cumulative consolidated numbers have been reviewe",
-            "(turned to loss) Infrastructure 基礎設施 62,938 +78% +23% 11,257 +121% +10% 52% 54% 53% 9% 5% 5% 11% 9% 8% 28% 32% 34% 2Q25 1Q26 2Q26 Others Infrastructure Automation Mobility Power Electronics Sales% 營收佔比 Performance by Seg",
-            "(turned to loss) Infrastructure 基礎設施 114,274 +63% 21,445 +142% Sales% 營收佔比 --- page 15 --- 15Delta Confidential 1H25 1H26 non-op 2.5 7.1 % of sales 1.0% 2.1% Non-OP 業外損益 Non-operating Profits 業外損益 NT$ billion 新台幣十億元 NT$"
-          ],
-          "financialBullets": [],
-          "riskBullets": [],
-          "qnaBullets": [],
-          "crossCheckBullets": [],
-          "sourceReport": "../法說整理/reports/ir_summary_2026-07-31.md",
-          "detailMarkdown": "## 2308 台達電 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（51 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 1、保守訊號 1。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 5.37 7.16 6.67 7.91 9.68 2Q25 3Q25 4Q25 1Q26 2Q26 Unit: NT$ 新台幣元 EPS 每股淨利 --- page 11 --- 11Delta Confidential 1H 2026 Financial Results 2026年上半年結算數字 --- page 12 --- 12Delta Confidential Y/Y 年對年 Sales 營收 +41% GP 毛利 +52%\n- (turned to loss) Infrastructure 基礎設施 62,938 +78% +23% 11,257 +121% +10% 52% 54% 53% 9% 5% 5% 11% 9% 8% 28% 32% 34% 2Q25 1Q26 2Q26 Others Infrastructure Automation Mobility Power Electronics Sales% 營收佔比 Performance by Seg\n- (turned to loss) Infrastructure 基礎設施 114,274 +63% 21,445 +142% Sales% 營收佔比 --- page 15 --- 15Delta Confidential 1H25 1H26 non-op 2.5 7.1 % of sales 1.0% 2.1% Non-OP 業外損益 Non-operating Profits 業外損益 NT$ billion 新台幣十億元 NT$\n- 4Delta Confidential Y/Y 年對年 Q/Q 季對季 Sales 營收 +48% +15% GP 毛利 +48% +11%2Q25 3Q25 4Q25 1Q26 2Q26 GP 44.1 52.4 55.9 59.0 65.3 GPM 35.5% 34.9% 34.6% 37.0% 35.6% GP 毛利 2Q25 3Q25 4Q25 1Q26 2Q26 Sales 124.1 150.3 161.6 159.4 183.2 Sales 營收 Sales Revenues & Gross Prof\n- 5Delta Confidential 18.7 24.8 26.4 28.4 30.6 13.6 14.8 16.4 16.9 19.011.8 12.8 13.1 13.7 15.7 0.0 10.0 20.0 30.0 40.0 50.0 60.0 70.0 80.0 2Q25 3Q25 4Q25 1Q26 2Q26 R&D SG&A OP Y/Y 年對年 Q/Q 季對季 R&D 研發費用 +33% +16% SG&A 銷管費用 +40% +12% OPEX 總營業費用 +37% +14% OP 營業淨利 +\n- 8Delta Confidential 2Q25 3Q25 4Q25 1Q26 2Q26 EBITDA 26.8 35.4 32.7 39.4 44.0 % of sales 21.6% 23.5% 20.2% 24.7% 24.0% EBITDA 息稅折舊及 攤銷前利潤 Y/Y 年對年 Q/Q 季對季 Profits before tax 稅前淨利 +79% +13% EBITDA 息稅折舊及 攤銷前利潤 +64% +12% 2Q25 3Q25 4Q25 1Q26 2Q26 PBT 19.6 27.0 25.6\n\n### 展望與成長利基\n- 30 July 2026 Delta Electronics, Inc. 2Q 2026 Results • 台達電子2026年第二季財報法人說明會\n- 3Delta Confidential 2Q 2026 Financial Results 2026年第二季結算數字\n- 4Delta Confidential Y/Y 年對年 Q/Q 季對季 Sales 營收 +48% +15% GP 毛利 +48% +11%2Q25 3Q25 4Q25 1Q26 2Q26 GP 44.1 52.4 55.9 59.0 65.3 GPM 35.5% 34.9% 34.6% 37.0% 35.6% GP 毛利 2Q25 3Q25 4Q25 1Q26 2Q26 Sales 124.1 150.3 161.6 159.4 183.2 Sales 營收 Sales Revenues & Gross Prof\n- 5Delta Confidential 18.7 24.8 26.4 28.4 30.6 13.6 14.8 16.4 16.9 19.011.8 12.8 13.1 13.7 15.7 0.0 10.0 20.0 30.0 40.0 50.0 60.0 70.0 80.0 2Q25 3Q25 4Q25 1Q26 2Q26 R&D SG&A OP Y/Y 年對年 Q/Q 季對季 R&D 研發費用 +33% +16% SG&A 銷管費用 +40% +12% OPEX 總營業費用 +37% +14% OP 營業淨利 +\n- 7Delta Confidential NT$ million 新台幣百萬元 2Q25 1Q26 2Q26 Gains or losses from investment* 投資損益* (586) (41) 1,880 Interest income 利息收益 512 428 398 FX income and valuation of FX forward 滙兌損益及遠匯評價損益等 (180) 364 735 Others 其他 1,156 1,925 1,416 Total 合計 902 2,676 4,429\n- 8Delta Confidential 2Q25 3Q25 4Q25 1Q26 2Q26 EBITDA 26.8 35.4 32.7 39.4 44.0 % of sales 21.6% 23.5% 20.2% 24.7% 24.0% EBITDA 息稅折舊及 攤銷前利潤 Y/Y 年對年 Q/Q 季對季 Profits before tax 稅前淨利 +79% +13% EBITDA 息稅折舊及 攤銷前利潤 +64% +12% 2Q25 3Q25 4Q25 1Q26 2Q26 PBT 19.6 27.0 25.6\n- 9Delta Confidential NT$ million 新台幣百萬元 2Q25 1Q26 2Q26 Profit before income tax 稅前淨利 19,571 31,093 35,000 Income tax 所得稅 (4,237) (7,258) (7,831) Non-controlling interest 非控制權益 (1,386) (3,279) (2,033) Net profit after tax 稅後淨利 13,948 20,556 25,136 Y/Y 年對年 Q/Q 季對\n- 10Delta Confidential *EPS based on shares outstanding of 2,598 million. 每股盈餘之設算基於在外流通股數25.98億股。 5.37 7.16 6.67 7.91 9.68 2Q25 3Q25 4Q25 1Q26 2Q26 Unit: NT$ 新台幣元 EPS 每股淨利\n\n### 產品、客戶與市場位置\n- 7Delta Confidential NT$ million 新台幣百萬元 2Q25 1Q26 2Q26 Gains or losses from investment* 投資損益* (586) (41) 1,880 Interest income 利息收益 512 428 398 FX income and valuation of FX forward 滙兌損益及遠匯評價損益等 (180) 364 735 Others 其他 1,156 1,925 1,416 Total 合計 902 2,676 4,429\n\n### 風險與不確定性\n- 本次摘要未擷取到明確風險或保守訊號。\n\n### Q&A 與管理層口氣\n- 5Delta Confidential 18.7 24.8 26.4 28.4 30.6 13.6 14.8 16.4 16.9 19.011.8 12.8 13.1 13.7 15.7 0.0 10.0 20.0 30.0 40.0 50.0 60.0 70.0 80.0 2Q25 3Q25 4Q25 1Q26 2Q26 R&D SG&A OP Y/Y 年對年 Q/Q 季對季 R&D 研發費用 +33% +16% SG&A 銷管費用 +40% +12% OPEX 總營業費用 +37% +14% OP 營業淨利 +\n\n### 評分利基點\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-        },
-        {
-          "date": "2026-07-30",
-          "code": "2360",
-          "name": "致茂",
-          "eventType": "法人說明會",
-          "time": "14:30",
-          "location": "桃園市龜山區文茂路88號(本公司會議室)",
-          "topic": "2026年第二季營運結果",
-          "companyWebsite": "http://www.chromaate.com",
-          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/236020260730M001.pdf",
-          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/236020260730E001.pdf",
-          "mediaUrl": "https://www.chromaate.com/tw/investors/quarterly_results",
-          "mediaStatus": "有影音",
-          "transcriptStatus": "未產生",
-          "outlookBullets": [
-            "2026 年營運展望 2026年上半年，致茂電子連續兩個季度合併營收創下歷史新高。上半年總合併營收達新台幣254 億元，年增率高達 91%。母公司營收年增 92%，達到新台幣204億元。此強勁表現主要受益於兩 大核心事業體的有力推動，其中量測儀器與自動化測試設備及半導體事業部營收分別較去年同期 大幅增長 136% 與 62%。。 2026年下半年展望: ✓ 展望下半年，強勁的成長動能仍將持續。。 ✓ 下半年營收將由半導體業務為主要推升動能，表現將優於上半年。主要驅動因素來自 AI / HPC / ASIC 領域的系",
-            "Year 2026 Guidance 10 In the first half of 2026, Chroma delivered consecutive quarters of record-high consolidated sales revenue. Total consolidated revenue in the first half reached NT$25 billion, marking a robust 91% YoY. The parent company revenue increased",
-            "合併損益表 (單位: 佰萬新台幣，除每股盈餘為新台幣元) 2026.2Q % 2026.1Q % QoQ % 2025.2Q % YoY % 淨營業收入 13,529 100% 11,859 100% 14% 6,455 100% 110% 量測儀器事業部之合併營收(淨額) 13,111 97% 11,543 97% 14% 6,292 97% 108% 威光自動化事業部之合併營收 354 3% 251 2% 41% 94 2% 277% 其他 64 - 65 1% - 69 1% (7%) 營業成本 (5,344",
-            "(單位: 百萬新台幣) 2026.2Q % QoQ YoY 2026.1H % YoY 2025 % 量測及自動化檢測設備 6,169 56% 14% 129% 11,559 57% 136% 10,545 48% 半導體 / Photonics 測試解決方案 4,386 39% 29% 99% 7,796 38% 62% 9,759 44% Turnkey Solutions 53 1% - (57%) 106 1% (61%) 444 2% 其它 497 4% 24% 58% 899 4% 51% 1,264",
-            "2026.2Q Earnings Conference 30th July, 2026 1 Lawrence Wu, CFO Dr. Ishih Tseng, CEO",
-            "Year 2026.2Q Condensed Consolidated Income Statement Condensed Consolidated P&L (In Million NTD, except for EPS in NTD) 2026.2Q % 2026.1Q % QoQ % 2025.2Q % YoY % Net Sales 13,529 100% 11,859 100% 14% 6,455 100% 110% Consolidated Sales of Testing Equipment Busi",
-            "2026.2Q & 1H Product Mix and Consolidated Sales Breakdown (Unit: Million NTD) 2026.2Q % QoQ YoY 2026.1H % YoY 2025 % Test Instruments & Automatic Testing System (ATS) 6,169 56% 14% 129% 11,559 57% 136% 10,545 48% Semiconductor / Photonics Test Solutions 4,386"
-          ],
-          "outlookTone": {
-            "label": "正面看好",
-            "score": 99,
-            "basis": "正向訊號 7、保守訊號 0"
-          },
-          "summaryBullets": [
-            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-            "MOPS 擇要訊息：2026年第二季營運結果",
-            "✓ 下半年營收將由半導體業務為主要推升動能，表現將優於上半年。主要驅動因素來自 AI / HPC / ASIC 領域的系統級測試（SLT），以及光通訊 / 共封裝光學（CPO）領域的 Photonics測試設備需求。。",
-            "2 --- page 3 --- 3 議程 •財務數據 • 營運概況 • 問與答 --- page 4 --- 4 財務數據 --- page 5 --- 合併損益表 (單位: 佰萬新台幣，除每股盈餘為新台幣元) 2026.2Q % 2026.1Q % QoQ % 2025.2Q % YoY % 淨營業收入 13,529 100% 11,859 100% 14% 6,455 100% 110% 量測儀器事業部之合併營收(淨額) 13,1",
-            "page 8 --- 營運概況 8 --- page 9 --- (單位: 百萬新台幣) 2026.2Q % QoQ YoY 2026.1H % YoY 2025 % 量測及自動化檢測設備 6,169 56% 14% 129% 11,559 57% 136% 10,545 48% 半導體 / Photonics 測試解決方案 4,386 39% 29% 99% 7,796 38% 62% 9,759 44% Turnkey Soluti",
-            "2026年下半年展望: ✓ 展望下半年，強勁的成長動能仍將持續。。",
-            "✓ 在電源測試方面，量測儀器與自動化測試設備的營收將持續獲得來自 AI 伺服器電源（包含 高壓直流 HVDC）以及儲能系統（ESS）市場的貢獻。"
-          ],
-          "financialBullets": [],
-          "riskBullets": [],
-          "qnaBullets": [],
-          "crossCheckBullets": [],
-          "sourceReport": "../法說整理/reports/ir_summary_2026-07-31.md",
-          "detailMarkdown": "## 2360 致茂 深度法說分析\n\n### 一頁結論\n- 展望評價：正面看好（99 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 7、保守訊號 0。\n- 判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 \n\n### 營運與財務重點\n- ✓ 下半年營收將由半導體業務為主要推升動能，表現將優於上半年。主要驅動因素來自 AI / HPC / ASIC 領域的系統級測試（SLT），以及光通訊 / 共封裝光學（CPO）領域的 Photonics測試設備需求。。\n- 2 --- page 3 --- 3 議程 •財務數據 • 營運概況 • 問與答 --- page 4 --- 4 財務數據 --- page 5 --- 合併損益表 (單位: 佰萬新台幣，除每股盈餘為新台幣元) 2026.2Q % 2026.1Q % QoQ % 2025.2Q % YoY % 淨營業收入 13,529 100% 11,859 100% 14% 6,455 100% 110% 量測儀器事業部之合併營收(淨額) 13,1\n- 2026年下半年展望: ✓ 展望下半年，強勁的成長動能仍將持續。。\n- ✓ 在電源測試方面，量測儀器與自動化測試設備的營收將持續獲得來自 AI 伺服器電源（包含 高壓直流 HVDC）以及儲能系統（ESS）市場的貢獻。\n- 2026 年營運展望 2026年上半年，致茂電子連續兩個季度合併營收創下歷史新高。上半年總合併營收達新台幣254 億元，年增率高達 91%。母公司營收年增 92%，達到新台幣204億元。此強勁表現主要受益於兩 大核心事業體的有力推動，其中量測儀器與自動化測試設備及半導體事業部營收分別較去年同期 大幅增長 136% 與 62%。。 2026年下半年展望: ✓ 展望下半年，強勁的成長動能仍將持續。。 ✓ 下半年營收將由半導體業務為主要推升動能，表現將優於上半年。主要驅動因素來自 AI / HPC / ASIC 領域的系\n- 合併損益表 (單位: 佰萬新台幣，除每股盈餘為新台幣元) 2026.2Q % 2026.1Q % QoQ % 2025.2Q % YoY % 淨營業收入 13,529 100% 11,859 100% 14% 6,455 100% 110% 量測儀器事業部之合併營收(淨額) 13,111 97% 11,543 97% 14% 6,292 97% 108% 威光自動化事業部之合併營收 354 3% 251 2% 41% 94 2% 277% 其他 64 - 65 1% - 69 1% (7%) 營業成本 (5,344\n\n### 展望與成長利基\n- 2026 年營運展望 2026年上半年，致茂電子連續兩個季度合併營收創下歷史新高。上半年總合併營收達新台幣254 億元，年增率高達 91%。母公司營收年增 92%，達到新台幣204億元。此強勁表現主要受益於兩 大核心事業體的有力推動，其中量測儀器與自動化測試設備及半導體事業部營收分別較去年同期 大幅增長 136% 與 62%。。 2026年下半年展望: ✓ 展望下半年，強勁的成長動能仍將持續。。 ✓ 下半年營收將由半導體業務為主要推升動能，表現將優於上半年。主要驅動因素來自 AI / HPC / ASIC 領域的系\n- Year 2026 Guidance 10 In the first half of 2026, Chroma delivered consecutive quarters of record-high consolidated sales revenue. Total consolidated revenue in the first half reached NT$25 billion, marking a robust 91% YoY. The parent company revenue increased\n- 合併損益表 (單位: 佰萬新台幣，除每股盈餘為新台幣元) 2026.2Q % 2026.1Q % QoQ % 2025.2Q % YoY % 淨營業收入 13,529 100% 11,859 100% 14% 6,455 100% 110% 量測儀器事業部之合併營收(淨額) 13,111 97% 11,543 97% 14% 6,292 97% 108% 威光自動化事業部之合併營收 354 3% 251 2% 41% 94 2% 277% 其他 64 - 65 1% - 69 1% (7%) 營業成本 (5,344\n- (單位: 百萬新台幣) 2026.2Q % QoQ YoY 2026.1H % YoY 2025 % 量測及自動化檢測設備 6,169 56% 14% 129% 11,559 57% 136% 10,545 48% 半導體 / Photonics 測試解決方案 4,386 39% 29% 99% 7,796 38% 62% 9,759 44% Turnkey Solutions 53 1% - (57%) 106 1% (61%) 444 2% 其它 497 4% 24% 58% 899 4% 51% 1,264\n- 2026.2Q Earnings Conference 30th July, 2026 1 Lawrence Wu, CFO Dr. Ishih Tseng, CEO\n- Year 2026.2Q Condensed Consolidated Income Statement Condensed Consolidated P&L (In Million NTD, except for EPS in NTD) 2026.2Q % 2026.1Q % QoQ % 2025.2Q % YoY % Net Sales 13,529 100% 11,859 100% 14% 6,455 100% 110% Consolidated Sales of Testing Equipment Busi\n- 2026.2Q & 1H Product Mix and Consolidated Sales Breakdown (Unit: Million NTD) 2026.2Q % QoQ YoY 2026.1H % YoY 2025 % Test Instruments & Automatic Testing System (ATS) 6,169 56% 14% 129% 11,559 57% 136% 10,545 48% Semiconductor / Photonics Test Solutions 4,386\n\n### 產品、客戶與市場位置\n- ✓ 下半年營收將由半導體業務為主要推升動能，表現將優於上半年。主要驅動因素來自 AI / HPC / ASIC 領域的系統級測試（SLT），以及光通訊 / 共封裝光學（CPO）領域的 Photonics測試設備需求。。\n- page 8 --- 營運概況 8 --- page 9 --- (單位: 百萬新台幣) 2026.2Q % QoQ YoY 2026.1H % YoY 2025 % 量測及自動化檢測設備 6,169 56% 14% 129% 11,559 57% 136% 10,545 48% 半導體 / Photonics 測試解決方案 4,386 39% 29% 99% 7,796 38% 62% 9,759 44% Turnkey Soluti\n- ✓ 在電源測試方面，量測儀器與自動化測試設備的營收將持續獲得來自 AI 伺服器電源（包含 高壓直流 HVDC）以及儲能系統（ESS）市場的貢獻。\n- 2026 年營運展望 2026年上半年，致茂電子連續兩個季度合併營收創下歷史新高。上半年總合併營收達新台幣254 億元，年增率高達 91%。母公司營收年增 92%，達到新台幣204億元。此強勁表現主要受益於兩 大核心事業體的有力推動，其中量測儀器與自動化測試設備及半導體事業部營收分別較去年同期 大幅增長 136% 與 62%。。 2026年下半年展望: ✓ 展望下半年，強勁的成長動能仍將持續。。 ✓ 下半年營收將由半導體業務為主要推升動能，表現將優於上半年。主要驅動因素來自 AI / HPC / ASIC 領域的系\n- (單位: 百萬新台幣) 2026.2Q % QoQ YoY 2026.1H % YoY 2025 % 量測及自動化檢測設備 6,169 56% 14% 129% 11,559 57% 136% 10,545 48% 半導體 / Photonics 測試解決方案 4,386 39% 29% 99% 7,796 38% 62% 9,759 44% Turnkey Solutions 53 1% - (57%) 106 1% (61%) 444 2% 其它 497 4% 24% 58% 899 4% 51% 1,264\n\n### 風險與不確定性\n- 合併損益表 (單位: 佰萬新台幣，除每股盈餘為新台幣元) 2026.2Q % 2026.1Q % QoQ % 2025.2Q % YoY % 淨營業收入 13,529 100% 11,859 100% 14% 6,455 100% 110% 量測儀器事業部之合併營收(淨額) 13,111 97% 11,543 97% 14% 6,292 97% 108% 威光自動化事業部之合併營收 354 3% 251 2% 41% 94 2% 277% 其他 64 - 65 1% - 69 1% (7%) 營業成本 (5,344\n\n### Q&A 與管理層口氣\n- 合併損益表 (單位: 佰萬新台幣，除每股盈餘為新台幣元) 2026.2Q % 2026.1Q % QoQ % 2025.2Q % YoY % 淨營業收入 13,529 100% 11,859 100% 14% 6,455 100% 110% 量測儀器事業部之合併營收(淨額) 13,111 97% 11,543 97% 14% 6,292 97% 108% 威光自動化事業部之合併營收 354 3% 251 2% 41% 94 2% 277% 其他 64 - 65 1% - 69 1% (7%) 營業成本 (5,344\n\n### 評分利基點\n- 加分主因：✓ 下半年營收將由半導體業務為主要推升動能，表現將優於上半年。主要驅動因素來自 AI / HPC / ASIC 領域的系統級測試（SLT），以及光通訊 / 共封裝光學（CPO）領域的 Photonics測試設備需求。。；2026年下半年展望: ✓ 展望下半年，強勁的成長動能仍將持續。。；✓ 在電源測試方面，量測儀器與自動化測試設備的營收將持續獲得來自 AI 伺服器電源（包含 高壓直流 HVDC）以及儲能系統（ESS）市場的貢獻。。\n- 扣分或保留：合併損益表 (單位: 佰萬新台幣，除每股盈餘為新台幣元) 2026.2Q % 2026.1Q % QoQ % 2025.2Q % YoY % 淨營業收入 13,529 100% 11,859 100% 14% 6,455 100% 110% 量測儀器事業部之合併營收(淨額) 13,111 97% 11,543 97% 14% 6,292 97% 108% 威光自動化事業部之合併營收 354 3% 251 2% 41% 94 2% 277% 其他 64 - 65 1% - 69 1% (7%) 營業成本 (5,344。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-        },
-        {
-          "date": "2026-07-30",
-          "code": "2379",
-          "name": "瑞昱",
-          "eventType": "法人說明會",
-          "time": "15:00",
-          "location": "網路直播",
-          "topic": "瑞昱半導體將於115年07月30日(四)舉行2026年第2季線上法人說明會。 時間:3:00-4:00 pm 語言: 英文 直播網址:https://www.zucast.com/webcast/bv68uLnF建議參與者於法說會前安裝或升級所需播放軟體,或至http://www.zucast.com/help 尋求技術支援。",
-          "companyWebsite": "https://www.realtek.com",
-          "chinesePdf": "",
-          "englishPdf": "",
-          "mediaUrl": "https://www.zucast.com/webcast/bv68uLnF",
-          "mediaStatus": "有影音",
-          "transcriptStatus": "未產生",
-          "outlookBullets": [
-            "未從簡報或轉錄稿擷取到明確展望段落。"
-          ],
-          "outlookTone": {
-            "label": "中性觀望",
-            "score": 50,
-            "basis": "正向訊號 0、保守訊號 0"
-          },
-          "summaryBullets": [
-            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-            "MOPS 擇要訊息：瑞昱半導體將於115年07月30日(四)舉行2026年第2季線上法人說明會。 時間:3:00-4:00 pm 語言: 英文 直播網址:https://www.zucast.com/webcast/bv68uLnF建議參與者於法說會前安裝或升級所需播放軟體,或至http://www.zucast.com/help 尋求技術支援。",
-            "缺少可摘要的簡報文字或轉錄稿。"
-          ],
-          "financialBullets": [],
-          "riskBullets": [],
-          "qnaBullets": [],
-          "crossCheckBullets": [],
-          "sourceReport": "../法說整理/reports/ir_summary_2026-07-31.md",
-          "detailMarkdown": "## 2379 瑞昱 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：瑞昱半導體將於115年07月30日(四)舉行2026年第2季線上法人說明會。 時間:3:00-4:00 pm 語言: 英文 直播網址:https://www.zucast.com/webcast/bv68uLnF建議參與者於法說會前安裝或升級所需播放軟體,或至http://www.zucast.com/help 尋求技術支援。\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- MOPS 擇要訊息：瑞昱半導體將於115年07月30日(四)舉行2026年第2季線上法人說明會。 時間:3:00-4:00 pm 語言: 英文 直播網址:https://www.zucast.com/webcast/bv68uLnF建議參與者於法說會前安裝或升級所需播放軟體,或至http://www.zucast.com/help 尋求技術支援。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-        },
-        {
-          "date": "2026-07-30",
-          "code": "2409",
-          "name": "友達",
-          "eventType": "法人說明會",
-          "time": "14:00",
-          "location": "線上法說會",
-          "topic": "115年第二季線上法人說明會",
-          "companyWebsite": "https://www.auo.com/zh-TW/investor_conference/index",
-          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/240920260730M001.pdf",
-          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/240920260730E001.pdf",
-          "mediaUrl": "http://irconference.twse.com.tw/2409_222_20260730_ch.mp4",
-          "mediaStatus": "有影音",
-          "transcriptStatus": "未產生",
-          "outlookBullets": [
-            "未從簡報或轉錄稿擷取到明確展望段落。"
-          ],
-          "outlookTone": {
-            "label": "中性觀望",
-            "score": 50,
-            "basis": "正向訊號 0、保守訊號 0"
-          },
-          "summaryBullets": [
-            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-            "MOPS 擇要訊息：115年第二季線上法人說明會",
-            "缺少可摘要的簡報文字或轉錄稿。"
-          ],
-          "financialBullets": [],
-          "riskBullets": [],
-          "qnaBullets": [],
-          "crossCheckBullets": [],
-          "sourceReport": "../法說整理/reports/ir_summary_2026-07-31.md",
-          "detailMarkdown": "## 2409 友達 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：115年第二季線上法人說明會\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-        },
-        {
-          "date": "2026-07-30",
-          "code": "3711",
-          "name": "日月光投控",
-          "eventType": "法人說明會",
-          "time": "15:00",
-          "location": "台北W飯店 / Zoom 線上會議",
-          "topic": "詳115年07月30日公開資訊觀測站之重大訊息與公告-法說會專區。",
-          "companyWebsite": "https://ir.aseglobal.com/c/ir_events_details.php?id=21817",
-          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/371120260730M001.pdf",
-          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/371120260730E001.pdf",
-          "mediaUrl": "https://ir.aseglobal.com/c/ir_events_details.php?id=21817",
-          "mediaStatus": "有影音",
-          "transcriptStatus": "未產生",
-          "outlookBullets": [
-            "2026上半年回顧及2026年展望 (以美元計) ◼ 2026 年上半年日月光投控合併營收年成長 24%，其中封測事業成 長 35%，而 LEAP 服務和測試業務成長更為強勁。 ◼ 我們期望封測業務營收能維持相同的成長動能進入 2026 年下半年。 LEAP 服務全年營收預期將超過先前 35 億美元的預估，而一般業 務預期將年增 20%，高於先前 13% 的預估。我們預期整體封測業 務營收將年增 35%。 ◼ 2026 年上半年機器設備資本支出為 27 億美元；廠房、設施和自 動化相關資本支出為 14 億美元。我們",
-            "2026年第三季業績展望 (1/2) 根據對當前業務狀況的評估及匯率假設之 1美金兌換 31.9元新台幣（相比今 年第二季之 31.6元新台幣），日月光投控2026年第三季的業績展望如下： ◼投控合併 • 以台幣計價，投控合併第三季營收將季對季成長百分之二十一到百分之二十二； • 投控合併第三季毛利率將介於百分之二十點五到百分之二十一點五； • 投控合併第三季營業利益率將介於百分之十一點五到百分之十二點五。 14",
-            "2026年第三季業績展望 (2/2) ◼封測事業 • 以台幣計價，封測事業第三季營收將季對季成長百分之十一到百分之十三； • 封測事業第三季毛利率將介於百分之二十八到百分之二十九。 ◼電子代工服務 • 以台幣計價，電子代工服務第三季營收將季對季成長約百分之四十； • 電子代工服務第三季營業利益率將介於百分之三點二到百分之三點四。 15 根據對當前業務狀況的評估及匯率假設之 1美金兌換 31.9元新台幣（相比今 年第二季之 31.6元新台幣），日月光投控2026年第三季的業績展望如下：",
-            "市場動態與定位 ◼ 市場展望 ⚫ AI帶動規模更大、潛力更大的新應用。 ⚫ AI 對硬體尺寸、複雜度和整合提出新的需求。 ⚫ 對工業、電源、連接和儲存設備的需求日益增長。 ◼ 日月光的策略重點 ⚫ 硬體基礎設施是瓶頸（產能、自動化、創新）。 ⚫ 封裝在系統架構價值鏈中的地位正在提升。 ⚫ 支援 AI轉型並與客戶的長期目標保持一致。 ◼ 日月光的競爭定位 ⚫ 生態系定位（集群、規模、效率、專業代工、多方協作）。 ⚫ 先行者優勢（技術、速度、產能、信任） 。 4",
-            "1H2026 Recap & 2026 Outlook (in US dollar terms) ◼ Consolidated revenues grew 24% YoY in 1H2026, with ATM revenues up 35% YoY . Leading-edge advanced packaging and overall testing outpaced growth. ◼ For ATM business, we expect to maintain the same growth momen",
-            "Appendix 1 Consolidated Statements of Comprehensive Income (Unaudited) 17 (NT$ thousand) Q1/ 20251&2 Q2/ 20251&2 Q3/ 20251&2 Q4/ 20251&2 FY/ 20251&2 Q1/ 20261&2 Q2/ 20261&2 Revenues 148,153,262 150,750,323 168,568,888 177,915,165 645,387,638 173,662,152 191,06",
-            "2026年 第二季 法人說明會 2026年7月30日 日月光投資控股 股份有限公司",
-            "Safe Harbor Notice This presentation contains \"forward-looking statements\" within the meaning of Section 27A of the United States Securities Act of 1933, as amended, and Section 21E of the United States Securities Exchange Act of 1934, as amended. These statem"
-          ],
-          "outlookTone": {
-            "label": "正面看好",
-            "score": 85,
-            "basis": "正向訊號 5、保守訊號 0"
-          },
-          "summaryBullets": [
-            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-            "MOPS 擇要訊息：詳115年07月30日公開資訊觀測站之重大訊息與公告-法說會專區。",
-            "page 13 --- 機器設備資本支出及EBITDA (未經會計師查核) 13 892 992 779 733 1,003 1,695 843 879 1,095 1,242 1,210 1,450 0 500 1,000 1,500 2,000 Q1/25 Q2/25 Q3/25 Q4/25 Q1/26 Q2/26 美金百萬元 機器設備資本支出 EBITDA --- page 14 --- 2026年第三季業績展望 (1/2) 根據",
-            "14 --- page 15 --- 2026年第三季業績展望 (2/2) ◼封測事業 • 以台幣計價，封測事業第三季營收將季對季成長百分之十一到百分之十三； • 封測事業第三季毛利率將介於百分之二十八到百分之二十九。",
-            "2 --- page 3 --- 2026上半年回顧及2026年展望 (以美元計) ◼ 2026 年上半年日月光投控合併營收年成長 24%，其中封測事業成 長 35%，而 LEAP 服務和測試業務成長更為強勁。",
-            "◼ 我們期望封測業務營收能維持相同的成長動能進入 2026 年下半年。",
-            "3 --- page 4 --- 市場動態與定位 ◼ 市場展望 ⚫ AI帶動規模更大、潛力更大的新應用。"
-          ],
-          "financialBullets": [],
-          "riskBullets": [],
-          "qnaBullets": [],
-          "crossCheckBullets": [],
-          "sourceReport": "../法說整理/reports/ir_summary_2026-07-31.md",
-          "detailMarkdown": "## 3711 日月光投控 深度法說分析\n\n### 一頁結論\n- 展望評價：正面看好（85 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 5、保守訊號 0。\n- 判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 \n\n### 營運與財務重點\n- page 13 --- 機器設備資本支出及EBITDA (未經會計師查核) 13 892 992 779 733 1,003 1,695 843 879 1,095 1,242 1,210 1,450 0 500 1,000 1,500 2,000 Q1/25 Q2/25 Q3/25 Q4/25 Q1/26 Q2/26 美金百萬元 機器設備資本支出 EBITDA --- page 14 --- 2026年第三季業績展望 (1/2) 根據\n- 14 --- page 15 --- 2026年第三季業績展望 (2/2) ◼封測事業 • 以台幣計價，封測事業第三季營收將季對季成長百分之十一到百分之十三； • 封測事業第三季毛利率將介於百分之二十八到百分之二十九。\n- 2 --- page 3 --- 2026上半年回顧及2026年展望 (以美元計) ◼ 2026 年上半年日月光投控合併營收年成長 24%，其中封測事業成 長 35%，而 LEAP 服務和測試業務成長更為強勁。\n- ◼ 我們期望封測業務營收能維持相同的成長動能進入 2026 年下半年。\n- 2026上半年回顧及2026年展望 (以美元計) ◼ 2026 年上半年日月光投控合併營收年成長 24%，其中封測事業成 長 35%，而 LEAP 服務和測試業務成長更為強勁。 ◼ 我們期望封測業務營收能維持相同的成長動能進入 2026 年下半年。 LEAP 服務全年營收預期將超過先前 35 億美元的預估，而一般業 務預期將年增 20%，高於先前 13% 的預估。我們預期整體封測業 務營收將年增 35%。 ◼ 2026 年上半年機器設備資本支出為 27 億美元；廠房、設施和自 動化相關資本支出為 14 億美元。我們\n- 2026年第三季業績展望 (1/2) 根據對當前業務狀況的評估及匯率假設之 1美金兌換 31.9元新台幣（相比今 年第二季之 31.6元新台幣），日月光投控2026年第三季的業績展望如下： ◼投控合併 • 以台幣計價，投控合併第三季營收將季對季成長百分之二十一到百分之二十二； • 投控合併第三季毛利率將介於百分之二十點五到百分之二十一點五； • 投控合併第三季營業利益率將介於百分之十一點五到百分之十二點五。 14\n\n### 展望與成長利基\n- 2026上半年回顧及2026年展望 (以美元計) ◼ 2026 年上半年日月光投控合併營收年成長 24%，其中封測事業成 長 35%，而 LEAP 服務和測試業務成長更為強勁。 ◼ 我們期望封測業務營收能維持相同的成長動能進入 2026 年下半年。 LEAP 服務全年營收預期將超過先前 35 億美元的預估，而一般業 務預期將年增 20%，高於先前 13% 的預估。我們預期整體封測業 務營收將年增 35%。 ◼ 2026 年上半年機器設備資本支出為 27 億美元；廠房、設施和自 動化相關資本支出為 14 億美元。我們\n- 2026年第三季業績展望 (1/2) 根據對當前業務狀況的評估及匯率假設之 1美金兌換 31.9元新台幣（相比今 年第二季之 31.6元新台幣），日月光投控2026年第三季的業績展望如下： ◼投控合併 • 以台幣計價，投控合併第三季營收將季對季成長百分之二十一到百分之二十二； • 投控合併第三季毛利率將介於百分之二十點五到百分之二十一點五； • 投控合併第三季營業利益率將介於百分之十一點五到百分之十二點五。 14\n- 2026年第三季業績展望 (2/2) ◼封測事業 • 以台幣計價，封測事業第三季營收將季對季成長百分之十一到百分之十三； • 封測事業第三季毛利率將介於百分之二十八到百分之二十九。 ◼電子代工服務 • 以台幣計價，電子代工服務第三季營收將季對季成長約百分之四十； • 電子代工服務第三季營業利益率將介於百分之三點二到百分之三點四。 15 根據對當前業務狀況的評估及匯率假設之 1美金兌換 31.9元新台幣（相比今 年第二季之 31.6元新台幣），日月光投控2026年第三季的業績展望如下：\n- 市場動態與定位 ◼ 市場展望 ⚫ AI帶動規模更大、潛力更大的新應用。 ⚫ AI 對硬體尺寸、複雜度和整合提出新的需求。 ⚫ 對工業、電源、連接和儲存設備的需求日益增長。 ◼ 日月光的策略重點 ⚫ 硬體基礎設施是瓶頸（產能、自動化、創新）。 ⚫ 封裝在系統架構價值鏈中的地位正在提升。 ⚫ 支援 AI轉型並與客戶的長期目標保持一致。 ◼ 日月光的競爭定位 ⚫ 生態系定位（集群、規模、效率、專業代工、多方協作）。 ⚫ 先行者優勢（技術、速度、產能、信任） 。 4\n- 1H2026 Recap & 2026 Outlook (in US dollar terms) ◼ Consolidated revenues grew 24% YoY in 1H2026, with ATM revenues up 35% YoY . Leading-edge advanced packaging and overall testing outpaced growth. ◼ For ATM business, we expect to maintain the same growth momen\n- Appendix 1 Consolidated Statements of Comprehensive Income (Unaudited) 17 (NT$ thousand) Q1/ 20251&2 Q2/ 20251&2 Q3/ 20251&2 Q4/ 20251&2 FY/ 20251&2 Q1/ 20261&2 Q2/ 20261&2 Revenues 148,153,262 150,750,323 168,568,888 177,915,165 645,387,638 173,662,152 191,06\n- 2026年 第二季 法人說明會 2026年7月30日 日月光投資控股 股份有限公司\n- Safe Harbor Notice This presentation contains \"forward-looking statements\" within the meaning of Section 27A of the United States Securities Act of 1933, as amended, and Section 21E of the United States Securities Exchange Act of 1934, as amended. These statem\n\n### 產品、客戶與市場位置\n- page 13 --- 機器設備資本支出及EBITDA (未經會計師查核) 13 892 992 779 733 1,003 1,695 843 879 1,095 1,242 1,210 1,450 0 500 1,000 1,500 2,000 Q1/25 Q2/25 Q3/25 Q4/25 Q1/26 Q2/26 美金百萬元 機器設備資本支出 EBITDA --- page 14 --- 2026年第三季業績展望 (1/2) 根據\n- 3 --- page 4 --- 市場動態與定位 ◼ 市場展望 ⚫ AI帶動規模更大、潛力更大的新應用。\n- 2026上半年回顧及2026年展望 (以美元計) ◼ 2026 年上半年日月光投控合併營收年成長 24%，其中封測事業成 長 35%，而 LEAP 服務和測試業務成長更為強勁。 ◼ 我們期望封測業務營收能維持相同的成長動能進入 2026 年下半年。 LEAP 服務全年營收預期將超過先前 35 億美元的預估，而一般業 務預期將年增 20%，高於先前 13% 的預估。我們預期整體封測業 務營收將年增 35%。 ◼ 2026 年上半年機器設備資本支出為 27 億美元；廠房、設施和自 動化相關資本支出為 14 億美元。我們\n- 市場動態與定位 ◼ 市場展望 ⚫ AI帶動規模更大、潛力更大的新應用。 ⚫ AI 對硬體尺寸、複雜度和整合提出新的需求。 ⚫ 對工業、電源、連接和儲存設備的需求日益增長。 ◼ 日月光的策略重點 ⚫ 硬體基礎設施是瓶頸（產能、自動化、創新）。 ⚫ 封裝在系統架構價值鏈中的地位正在提升。 ⚫ 支援 AI轉型並與客戶的長期目標保持一致。 ◼ 日月光的競爭定位 ⚫ 生態系定位（集群、規模、效率、專業代工、多方協作）。 ⚫ 先行者優勢（技術、速度、產能、信任） 。 4\n- 1H2026 Recap & 2026 Outlook (in US dollar terms) ◼ Consolidated revenues grew 24% YoY in 1H2026, with ATM revenues up 35% YoY . Leading-edge advanced packaging and overall testing outpaced growth. ◼ For ATM business, we expect to maintain the same growth momen\n- Safe Harbor Notice This presentation contains \"forward-looking statements\" within the meaning of Section 27A of the United States Securities Act of 1933, as amended, and Section 21E of the United States Securities Exchange Act of 1934, as amended. These statem\n\n### 風險與不確定性\n- 本次摘要未擷取到明確風險或保守訊號。\n\n### Q&A 與管理層口氣\n- 14 --- page 15 --- 2026年第三季業績展望 (2/2) ◼封測事業 • 以台幣計價，封測事業第三季營收將季對季成長百分之十一到百分之十三； • 封測事業第三季毛利率將介於百分之二十八到百分之二十九。\n- 2026年第三季業績展望 (1/2) 根據對當前業務狀況的評估及匯率假設之 1美金兌換 31.9元新台幣（相比今 年第二季之 31.6元新台幣），日月光投控2026年第三季的業績展望如下： ◼投控合併 • 以台幣計價，投控合併第三季營收將季對季成長百分之二十一到百分之二十二； • 投控合併第三季毛利率將介於百分之二十點五到百分之二十一點五； • 投控合併第三季營業利益率將介於百分之十一點五到百分之十二點五。 14\n- 2026年第三季業績展望 (2/2) ◼封測事業 • 以台幣計價，封測事業第三季營收將季對季成長百分之十一到百分之十三； • 封測事業第三季毛利率將介於百分之二十八到百分之二十九。 ◼電子代工服務 • 以台幣計價，電子代工服務第三季營收將季對季成長約百分之四十； • 電子代工服務第三季營業利益率將介於百分之三點二到百分之三點四。 15 根據對當前業務狀況的評估及匯率假設之 1美金兌換 31.9元新台幣（相比今 年第二季之 31.6元新台幣），日月光投控2026年第三季的業績展望如下：\n- 市場動態與定位 ◼ 市場展望 ⚫ AI帶動規模更大、潛力更大的新應用。 ⚫ AI 對硬體尺寸、複雜度和整合提出新的需求。 ⚫ 對工業、電源、連接和儲存設備的需求日益增長。 ◼ 日月光的策略重點 ⚫ 硬體基礎設施是瓶頸（產能、自動化、創新）。 ⚫ 封裝在系統架構價值鏈中的地位正在提升。 ⚫ 支援 AI轉型並與客戶的長期目標保持一致。 ◼ 日月光的競爭定位 ⚫ 生態系定位（集群、規模、效率、專業代工、多方協作）。 ⚫ 先行者優勢（技術、速度、產能、信任） 。 4\n\n### 評分利基點\n- 加分主因：14 --- page 15 --- 2026年第三季業績展望 (2/2) ◼封測事業 • 以台幣計價，封測事業第三季營收將季對季成長百分之十一到百分之十三； • 封測事業第三季毛利率將介於百分之二十八到百分之二十九。；2 --- page 3 --- 2026上半年回顧及2026年展望 (以美元計) ◼ 2026 年上半年日月光投控合併營收年成長 24%，其中封測事業成 長 35%，而 LEAP 服務和測試業務成長更為強勁。；◼ 我們期望封測業務營收能維持相同的成長動能進入 2026 年下半年。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-        },
-        {
-          "date": "2026-07-30",
-          "code": "6176",
-          "name": "瑞儀",
-          "eventType": "法人說明會",
-          "time": "15:00",
-          "location": "線上直播 https://www.zucast.com/webcast/YzvYY1mm",
-          "topic": "115年第二季營運成果及公司未來展望",
-          "companyWebsite": "https://www.radiant.com.tw",
-          "chinesePdf": "",
-          "englishPdf": "",
-          "mediaUrl": "https://www.zucast.com/webcast/YzvYY1mm",
-          "mediaStatus": "有影音",
-          "transcriptStatus": "未產生",
-          "outlookBullets": [
-            "未從簡報或轉錄稿擷取到明確展望段落。"
-          ],
-          "outlookTone": {
-            "label": "中性觀望",
-            "score": 50,
-            "basis": "正向訊號 0、保守訊號 0"
-          },
-          "summaryBullets": [
-            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-            "MOPS 擇要訊息：115年第二季營運成果及公司未來展望",
-            "缺少可摘要的簡報文字或轉錄稿。"
-          ],
-          "financialBullets": [],
-          "riskBullets": [],
-          "qnaBullets": [],
-          "crossCheckBullets": [],
-          "sourceReport": "../法說整理/reports/ir_summary_2026-07-31.md",
-          "detailMarkdown": "## 6176 瑞儀 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：115年第二季營運成果及公司未來展望\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-        },
-        {
-          "date": "2026-07-30",
-          "code": "6202",
-          "name": "盛群",
-          "eventType": "法人說明會",
-          "time": "14:30",
-          "location": "宏遠證券總公司 (台北市大安區信義路四段236號7樓)",
-          "topic": "本公司115年第2季財務與業務營運相關資訊報告",
-          "companyWebsite": "https://www.holtek.com.tw/page/investor_relations/Shareholders_Services/Investor_Conference",
-          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/620220260730M001.pdf",
-          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/620220260730E001.pdf",
-          "mediaUrl": "http://irconference.twse.com.tw/6202_87_20260730_ch.mp4",
-          "mediaStatus": "有影音",
-          "transcriptStatus": "未產生",
-          "outlookBullets": [
-            "盛群半導體 115年第二季法人說明會 8 MCU營業額及比重 單位：新台幣百萬元 Total MCU IC Percentage 590 496 373 320 512 526 523 591 659 571 511 620 736 82% 79% 76% 72% 75% 77% 76% 78% 77% 76% 75% 75% 75% 20% 40% 60% 80% 100% 0 500 1,000 1,500 2,000 23Q2 23Q3 23Q4 24Q1 24Q2 24Q3 24Q4 25Q1 25Q2 2",
-            "盛群半導體 115年第二季法人說明會 9 26Q2：YOY +16%；QOQ +18%單位：K pcs MCU 出貨量 2023 MCU shipments: 298 KKpcs (YOY -53%) 2024 MCU shipments: 342 KKpcs (YOY +15%) 2025 MCU shipments: 402KKpcs (YOY +17%) 2026H1 MCU shipments: 235KKpcs (YOY +15%) 32 Bits MCU 8 Bits MCU Total MCU Shi",
-            "盛群半導體 115年第二季法人說明會 10 Touch MCU 出貨量 單位：K pcs 11,915 10,553 10,243 10,627 17,482 19,023 14,708 12,676 14,232 16,340 14,547 17,455 20,813 0 12,500 25,000 23Q2 23Q3 23Q4 24Q1 24Q2 24Q3 24Q4 25Q1 25Q2 25Q3 25Q4 26Q1 26Q2 26Q2：YOY +46%；QOQ +19% 2023 Touch MCU shipm",
-            "盛群半導體 115年第二季法人說明會 12 安全防護產品出貨量 單位：K pcs 9,020 7,485 7,648 3,215 2,923 6,110 8,028 11,122 14,881 12,624 14,021 15,000 19,648 0 10,000 20,000 23Q2 23Q3 23Q4 24Q1 24Q2 24Q3 24Q4 25Q1 25Q2 25Q3 25Q4 26Q1 26Q2 26Q2：YOY +32%；QOQ +31% 2023 Safety Care shipments: 31K",
-            "盛群半導體 115年第二季法人說明會 14 健康保健產品出貨量 單位: K pcs 9,442 12,565 6,530 7,331 11,044 12,407 14,147 8,776 13,225 14,147 8,592 9,927 15,043 0 10,000 20,000 23Q2 23Q3 23Q4 24Q1 24Q2 24Q3 24Q4 25Q1 25Q2 25Q3 25Q4 26Q1 26Q2 2023 Healthcare shipments: 37KK pcs (YOY -31%) 2024",
-            "盛群半導體 115年第二季法人說明會 16 馬達控制產品出貨量 單位: K pcs 1,163 835 2,183 524 1,644 1,545 2,692 2,980 3,694 3,929 3,518 2,797 3,557 0 2,500 5,000 23Q2 23Q3 23Q4 24Q1 24Q2 24Q3 24Q4 25Q1 25Q2 25Q3 25Q4 26Q1 26Q2 26Q2：YOY -4%；QOQ +27% 2023 Motor Control shipments: 5KK pcs (YOY",
-            "盛群半導體 115年第二季法人說明會 18 射頻（RF）產品出貨量 單位: K pcs 1,487 2,111 1,759 1,075 1,888 2,534 2,644 2,588 2,508 3,541 2,051 2,911 3,597 0 2,000 4,000 23Q2 23Q3 23Q4 24Q1 24Q2 24Q3 24Q4 25Q1 25Q2 25Q3 25Q4 26Q1 26Q2 26Q2：YOY +43%；QOQ +24% 2023 RF Application shipments: 8KK p",
-            "盛群半導體 115年第二季法人說明會 單位: K pcs 20 Electric Bicycle 產品出貨量 3,065 2,953 875 1,666 1,475 1,619 1,521 1,578 2,020 2,627 1,875 2,438 2,709 0 2,500 5,000 23Q2 23Q3 23Q4 24Q1 24Q2 24Q3 24Q4 25Q1 25Q2 25Q3 25Q4 26Q1 26Q2 2023 Electric Bicycle Application shipments: 10KK"
-          ],
-          "outlookTone": {
-            "label": "中性觀望",
-            "score": 50,
-            "basis": "正向訊號 0、保守訊號 0"
-          },
-          "summaryBullets": [
-            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-            "MOPS 擇要訊息：本公司115年第2季財務與業務營運相關資訊報告",
-            "[zh PDF] --- page 1 --- 盛群半導體 115年第二季法人說明會2025/Q4 Operating Results 2026/07/30 1 Professional MCU IC Provider 盛群半導體 115年第二季法人說明會 盛群半導體股份有限公司 115 年第二季法人說明會 --- page 2 --- 盛群半導體 115年第二季法人說明會 2 單位：新台幣百萬元 年度營運成績 Sales Income",
-            "2026/Q2 Operating Results 2026/07/30 1 Professional MCU IC Provider 2026/Q2 Operating Results --- page 2 --- 2026/Q2 Operating Results 2 Yearly Operating Results NT$ Million Sales Income after tax and minority interest G",
-            "Of shares(K) 226,168 226,168 226,168 226,168 230,388 230,388 EPS(NT$) 9.04 4.89 0.49 -0.66 0.76 0.94 Dividends per share Cash(NT$) 8.12 4.00 0.45 - 0.68 N/A Stock(NT$) - - - - - N/A Return on Equity(%) 40% 21% 3% - 4% 5%",
-            "2026/Q2 2025/Q2 2026/Q1 YOY QOQ Selected Items from Consolidated Statements of Comprehensive Income Amount % Amount % Amount % % % Sales 983,119 100 860,038 100 825,585 100 + 14 + 19 Gross Profits 439,543 45 321,692 38 3",
-            "2026/H1 2025/H1 YOY Selected Items from Consolidated Statements of Comprehensive Income Amount % Amount % % Sales 1,808,704 100 1,620,977 100 + 12 Gross Profits 769,898 42 616,017 38 + 25 Unrealized gross profits (3,666)"
-          ],
-          "financialBullets": [],
-          "riskBullets": [],
-          "qnaBullets": [],
-          "crossCheckBullets": [],
-          "sourceReport": "../法說整理/reports/ir_summary_2026-07-31.md",
-          "detailMarkdown": "## 6202 盛群 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- Of shares(K) 226,168 226,168 226,168 226,168 230,388 230,388 EPS(NT$) 9.04 4.89 0.49 -0.66 0.76 0.94 Dividends per share Cash(NT$) 8.12 4.00 0.45 - 0.68 N/A Stock(NT$) - - - - - N/A Return on Equity(%) 40% 21% 3% - 4% 5%\n\n### 展望與成長利基\n- 盛群半導體 115年第二季法人說明會 8 MCU營業額及比重 單位：新台幣百萬元 Total MCU IC Percentage 590 496 373 320 512 526 523 591 659 571 511 620 736 82% 79% 76% 72% 75% 77% 76% 78% 77% 76% 75% 75% 75% 20% 40% 60% 80% 100% 0 500 1,000 1,500 2,000 23Q2 23Q3 23Q4 24Q1 24Q2 24Q3 24Q4 25Q1 25Q2 2\n- 盛群半導體 115年第二季法人說明會 9 26Q2：YOY +16%；QOQ +18%單位：K pcs MCU 出貨量 2023 MCU shipments: 298 KKpcs (YOY -53%) 2024 MCU shipments: 342 KKpcs (YOY +15%) 2025 MCU shipments: 402KKpcs (YOY +17%) 2026H1 MCU shipments: 235KKpcs (YOY +15%) 32 Bits MCU 8 Bits MCU Total MCU Shi\n- 盛群半導體 115年第二季法人說明會 10 Touch MCU 出貨量 單位：K pcs 11,915 10,553 10,243 10,627 17,482 19,023 14,708 12,676 14,232 16,340 14,547 17,455 20,813 0 12,500 25,000 23Q2 23Q3 23Q4 24Q1 24Q2 24Q3 24Q4 25Q1 25Q2 25Q3 25Q4 26Q1 26Q2 26Q2：YOY +46%；QOQ +19% 2023 Touch MCU shipm\n- 盛群半導體 115年第二季法人說明會 12 安全防護產品出貨量 單位：K pcs 9,020 7,485 7,648 3,215 2,923 6,110 8,028 11,122 14,881 12,624 14,021 15,000 19,648 0 10,000 20,000 23Q2 23Q3 23Q4 24Q1 24Q2 24Q3 24Q4 25Q1 25Q2 25Q3 25Q4 26Q1 26Q2 26Q2：YOY +32%；QOQ +31% 2023 Safety Care shipments: 31K\n- 盛群半導體 115年第二季法人說明會 14 健康保健產品出貨量 單位: K pcs 9,442 12,565 6,530 7,331 11,044 12,407 14,147 8,776 13,225 14,147 8,592 9,927 15,043 0 10,000 20,000 23Q2 23Q3 23Q4 24Q1 24Q2 24Q3 24Q4 25Q1 25Q2 25Q3 25Q4 26Q1 26Q2 2023 Healthcare shipments: 37KK pcs (YOY -31%) 2024\n- 盛群半導體 115年第二季法人說明會 16 馬達控制產品出貨量 單位: K pcs 1,163 835 2,183 524 1,644 1,545 2,692 2,980 3,694 3,929 3,518 2,797 3,557 0 2,500 5,000 23Q2 23Q3 23Q4 24Q1 24Q2 24Q3 24Q4 25Q1 25Q2 25Q3 25Q4 26Q1 26Q2 26Q2：YOY -4%；QOQ +27% 2023 Motor Control shipments: 5KK pcs (YOY\n- 盛群半導體 115年第二季法人說明會 18 射頻（RF）產品出貨量 單位: K pcs 1,487 2,111 1,759 1,075 1,888 2,534 2,644 2,588 2,508 3,541 2,051 2,911 3,597 0 2,000 4,000 23Q2 23Q3 23Q4 24Q1 24Q2 24Q3 24Q4 25Q1 25Q2 25Q3 25Q4 26Q1 26Q2 26Q2：YOY +43%；QOQ +24% 2023 RF Application shipments: 8KK p\n- 盛群半導體 115年第二季法人說明會 單位: K pcs 20 Electric Bicycle 產品出貨量 3,065 2,953 875 1,666 1,475 1,619 1,521 1,578 2,020 2,627 1,875 2,438 2,709 0 2,500 5,000 23Q2 23Q3 23Q4 24Q1 24Q2 24Q3 24Q4 25Q1 25Q2 25Q3 25Q4 26Q1 26Q2 2023 Electric Bicycle Application shipments: 10KK\n\n### 產品、客戶與市場位置\n- [zh PDF] --- page 1 --- 盛群半導體 115年第二季法人說明會2025/Q4 Operating Results 2026/07/30 1 Professional MCU IC Provider 盛群半導體 115年第二季法人說明會 盛群半導體股份有限公司 115 年第二季法人說明會 --- page 2 --- 盛群半導體 115年第二季法人說明會 2 單位：新台幣百萬元 年度營運成績 Sales Income\n- 盛群半導體 115年第二季法人說明會 8 MCU營業額及比重 單位：新台幣百萬元 Total MCU IC Percentage 590 496 373 320 512 526 523 591 659 571 511 620 736 82% 79% 76% 72% 75% 77% 76% 78% 77% 76% 75% 75% 75% 20% 40% 60% 80% 100% 0 500 1,000 1,500 2,000 23Q2 23Q3 23Q4 24Q1 24Q2 24Q3 24Q4 25Q1 25Q2 2\n- 盛群半導體 115年第二季法人說明會 9 26Q2：YOY +16%；QOQ +18%單位：K pcs MCU 出貨量 2023 MCU shipments: 298 KKpcs (YOY -53%) 2024 MCU shipments: 342 KKpcs (YOY +15%) 2025 MCU shipments: 402KKpcs (YOY +17%) 2026H1 MCU shipments: 235KKpcs (YOY +15%) 32 Bits MCU 8 Bits MCU Total MCU Shi\n- 盛群半導體 115年第二季法人說明會 10 Touch MCU 出貨量 單位：K pcs 11,915 10,553 10,243 10,627 17,482 19,023 14,708 12,676 14,232 16,340 14,547 17,455 20,813 0 12,500 25,000 23Q2 23Q3 23Q4 24Q1 24Q2 24Q3 24Q4 25Q1 25Q2 25Q3 25Q4 26Q1 26Q2 26Q2：YOY +46%；QOQ +19% 2023 Touch MCU shipm\n- 盛群半導體 115年第二季法人說明會 12 安全防護產品出貨量 單位：K pcs 9,020 7,485 7,648 3,215 2,923 6,110 8,028 11,122 14,881 12,624 14,021 15,000 19,648 0 10,000 20,000 23Q2 23Q3 23Q4 24Q1 24Q2 24Q3 24Q4 25Q1 25Q2 25Q3 25Q4 26Q1 26Q2 26Q2：YOY +32%；QOQ +31% 2023 Safety Care shipments: 31K\n- 盛群半導體 115年第二季法人說明會 14 健康保健產品出貨量 單位: K pcs 9,442 12,565 6,530 7,331 11,044 12,407 14,147 8,776 13,225 14,147 8,592 9,927 15,043 0 10,000 20,000 23Q2 23Q3 23Q4 24Q1 24Q2 24Q3 24Q4 25Q1 25Q2 25Q3 25Q4 26Q1 26Q2 2023 Healthcare shipments: 37KK pcs (YOY -31%) 2024\n\n### 風險與不確定性\n- 本次摘要未擷取到明確風險或保守訊號。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-        },
-        {
-          "date": "2026-07-30",
-          "code": "6269",
-          "name": "台郡",
-          "eventType": "法人說明會",
-          "time": "15:00",
-          "location": "採Webex線上會議方式舉行",
-          "topic": "(1)本公司受邀參加凱基證券舉辦之法人說明會,說明本公司115年第2季營運成果。 (2)會議報名網址: https://pse.is/9cxpcj。 (3)活動諮詢: 凱基證券 鄭小姐,電話:02-2181-8167,E-mail:janice.cheng@kgi.com。",
-          "companyWebsite": "https://www.flexium.com.tw/InvestorSubFour/Past?lang=zh-tw",
-          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/626920260730M001.pdf",
-          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/626920260730E001.pdf",
-          "mediaUrl": "https://www.flexium.com.tw/InvestorSubFour/Past?lang=zh-tw",
-          "mediaStatus": "有影音",
-          "transcriptStatus": "未產生",
-          "outlookBullets": [
-            "Page 1 of 7Copyright © Flexium Interconnect Inc. .惜福 感恩 承擔 分享 台郡科技2026年第二季法人說明會 2Q 2026 Earnings Conference July 30, 2026",
-            "Page 2 of 7Copyright © Flexium Interconnect Inc. .惜福 感恩 承擔 分享 Agenda • Financial Results : 2Q 2026 財務報告 • Operation Highlight 營運摘要 • Q&A 問與答",
-            "Page 3 of 7Copyright © Flexium Interconnect Inc. .惜福 感恩 承擔 分享 2Q 2026 Consolidated P/L Selected Items from Statement of Comprehensive Income 綜合損益表 註：上述資料包含宏觀微公司 2Q26 2Q26 over over 1Q26 2Q25 營業收入 5,380 5,467 5,497 -1.6% -2.1% 營業毛利率 4.3% -1.4% 2.4% +5.7 ppts +1",
-            "Page 4 of 7Copyright © Flexium Interconnect Inc. .惜福 感恩 承擔 分享 2Q 2026 Consolidated P/L (YTD) Selected Items from Statement of Comprehensive Income 綜合損益表 註：上述資料包含宏觀微公司 YT2Q/2026 over YT2Q/2025 營業收入 10,847 10,668 1.7% 營業毛利率 1.4% 1.5% -0.1 ppts 營業費用 (1,855) (1,77",
-            "Page 4 of 7Copyright © Flexium Interconnect Inc. .惜福 感恩 承擔 分享 Consolidated Income Statement (YTD) 綜合損益表 Selected Items from Statement of Comprehensive Income Note：Rafael‘s data is included YT2Q/2026 over YT2Q/2025 Net Revenue 10,847 10,668 1.7% Gross Margin 1."
-          ],
-          "outlookTone": {
-            "label": "中性觀望",
-            "score": 50,
-            "basis": "正向訊號 0、保守訊號 0"
-          },
-          "summaryBullets": [
-            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-            "MOPS 擇要訊息：(1)本公司受邀參加凱基證券舉辦之法人說明會,說明本公司115年第2季營運成果。 (2)會議報名網址: https://pse.is/9cxpcj。 (3)活動諮詢: 凱基證券 鄭小姐,電話:02-2181-8167,E-mail:janice.cheng@kgi.com。",
-            ".惜福 感恩 承擔 分享 2Q 2026 Consolidated P/L Selected Items from Statement of Comprehensive Income 綜合損益表 註：上述資料包含宏觀微公司 2Q26 2Q26 over over 1Q26 2Q25 營業收入 5,380 5,467 5,497 -1.6% -2.1% 營業毛利率 4.3% -1.4% 2.4% +5.7 ppts +1.9 ppts 營",
-            ".惜福 感恩 承擔 分享 2Q 2026 Consolidated P/L (YTD) Selected Items from Statement of Comprehensive Income 綜合損益表 註：上述資料包含宏觀微公司 YT2Q/2026 over YT2Q/2025 營業收入 10,847 10,668 1.7% 營業毛利率 1.4% 1.5% -0.1 ppts 營業費用 (1,855) (1,775) 4.5% 營",
-            ".惜福 感恩 承擔 分享 Revenue by Application 營收結構 註：營收結構未包含宏觀微公司 --- page 6 --- Page 6 of 7Copyright © Flexium Interconnect Inc.",
-            ".惜福 感恩 承擔 分享 Consolidated Income Statement (Quarterly) 綜合損益表 Selected Items from Statement of Comprehensive Income Note：Rafael‘s data is included 2Q26 2Q26 over over 1Q26 2Q25 Net Revenue 5,380 5,467 5,497 -1.6% -2.1% Gr",
-            ".惜福 感恩 承擔 分享 Consolidated Income Statement (YTD) 綜合損益表 Selected Items from Statement of Comprehensive Income Note：Rafael‘s data is included YT2Q/2026 over YT2Q/2025 Net Revenue 10,847 10,668 1.7% Gross Margin 1.4% 1.5% -"
-          ],
-          "financialBullets": [],
-          "riskBullets": [],
-          "qnaBullets": [],
-          "crossCheckBullets": [],
-          "sourceReport": "../法說整理/reports/ir_summary_2026-07-31.md",
-          "detailMarkdown": "## 6269 台郡 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- .惜福 感恩 承擔 分享 2Q 2026 Consolidated P/L Selected Items from Statement of Comprehensive Income 綜合損益表 註：上述資料包含宏觀微公司 2Q26 2Q26 over over 1Q26 2Q25 營業收入 5,380 5,467 5,497 -1.6% -2.1% 營業毛利率 4.3% -1.4% 2.4% +5.7 ppts +1.9 ppts 營\n- .惜福 感恩 承擔 分享 2Q 2026 Consolidated P/L (YTD) Selected Items from Statement of Comprehensive Income 綜合損益表 註：上述資料包含宏觀微公司 YT2Q/2026 over YT2Q/2025 營業收入 10,847 10,668 1.7% 營業毛利率 1.4% 1.5% -0.1 ppts 營業費用 (1,855) (1,775) 4.5% 營\n- .惜福 感恩 承擔 分享 Revenue by Application 營收結構 註：營收結構未包含宏觀微公司 --- page 6 --- Page 6 of 7Copyright © Flexium Interconnect Inc.\n- Page 3 of 7Copyright © Flexium Interconnect Inc. .惜福 感恩 承擔 分享 2Q 2026 Consolidated P/L Selected Items from Statement of Comprehensive Income 綜合損益表 註：上述資料包含宏觀微公司 2Q26 2Q26 over over 1Q26 2Q25 營業收入 5,380 5,467 5,497 -1.6% -2.1% 營業毛利率 4.3% -1.4% 2.4% +5.7 ppts +1\n- Page 4 of 7Copyright © Flexium Interconnect Inc. .惜福 感恩 承擔 分享 2Q 2026 Consolidated P/L (YTD) Selected Items from Statement of Comprehensive Income 綜合損益表 註：上述資料包含宏觀微公司 YT2Q/2026 over YT2Q/2025 營業收入 10,847 10,668 1.7% 營業毛利率 1.4% 1.5% -0.1 ppts 營業費用 (1,855) (1,77\n\n### 展望與成長利基\n- Page 1 of 7Copyright © Flexium Interconnect Inc. .惜福 感恩 承擔 分享 台郡科技2026年第二季法人說明會 2Q 2026 Earnings Conference July 30, 2026\n- Page 2 of 7Copyright © Flexium Interconnect Inc. .惜福 感恩 承擔 分享 Agenda • Financial Results : 2Q 2026 財務報告 • Operation Highlight 營運摘要 • Q&A 問與答\n- Page 3 of 7Copyright © Flexium Interconnect Inc. .惜福 感恩 承擔 分享 2Q 2026 Consolidated P/L Selected Items from Statement of Comprehensive Income 綜合損益表 註：上述資料包含宏觀微公司 2Q26 2Q26 over over 1Q26 2Q25 營業收入 5,380 5,467 5,497 -1.6% -2.1% 營業毛利率 4.3% -1.4% 2.4% +5.7 ppts +1\n- Page 4 of 7Copyright © Flexium Interconnect Inc. .惜福 感恩 承擔 分享 2Q 2026 Consolidated P/L (YTD) Selected Items from Statement of Comprehensive Income 綜合損益表 註：上述資料包含宏觀微公司 YT2Q/2026 over YT2Q/2025 營業收入 10,847 10,668 1.7% 營業毛利率 1.4% 1.5% -0.1 ppts 營業費用 (1,855) (1,77\n\n### 產品、客戶與市場位置\n- MOPS 擇要訊息：(1)本公司受邀參加凱基證券舉辦之法人說明會,說明本公司115年第2季營運成果。 (2)會議報名網址: https://pse.is/9cxpcj。 (3)活動諮詢: 凱基證券 鄭小姐,電話:02-2181-8167,E-mail:janice.cheng@kgi.com。\n\n### 風險與不確定性\n- 本次摘要未擷取到明確風險或保守訊號。\n\n### Q&A 與管理層口氣\n- .惜福 感恩 承擔 分享 2Q 2026 Consolidated P/L Selected Items from Statement of Comprehensive Income 綜合損益表 註：上述資料包含宏觀微公司 2Q26 2Q26 over over 1Q26 2Q25 營業收入 5,380 5,467 5,497 -1.6% -2.1% 營業毛利率 4.3% -1.4% 2.4% +5.7 ppts +1.9 ppts 營\n- .惜福 感恩 承擔 分享 2Q 2026 Consolidated P/L (YTD) Selected Items from Statement of Comprehensive Income 綜合損益表 註：上述資料包含宏觀微公司 YT2Q/2026 over YT2Q/2025 營業收入 10,847 10,668 1.7% 營業毛利率 1.4% 1.5% -0.1 ppts 營業費用 (1,855) (1,775) 4.5% 營\n- Page 2 of 7Copyright © Flexium Interconnect Inc. .惜福 感恩 承擔 分享 Agenda • Financial Results : 2Q 2026 財務報告 • Operation Highlight 營運摘要 • Q&A 問與答\n- Page 3 of 7Copyright © Flexium Interconnect Inc. .惜福 感恩 承擔 分享 2Q 2026 Consolidated P/L Selected Items from Statement of Comprehensive Income 綜合損益表 註：上述資料包含宏觀微公司 2Q26 2Q26 over over 1Q26 2Q25 營業收入 5,380 5,467 5,497 -1.6% -2.1% 營業毛利率 4.3% -1.4% 2.4% +5.7 ppts +1\n- Page 4 of 7Copyright © Flexium Interconnect Inc. .惜福 感恩 承擔 分享 2Q 2026 Consolidated P/L (YTD) Selected Items from Statement of Comprehensive Income 綜合損益表 註：上述資料包含宏觀微公司 YT2Q/2026 over YT2Q/2025 營業收入 10,847 10,668 1.7% 營業毛利率 1.4% 1.5% -0.1 ppts 營業費用 (1,855) (1,77\n\n### 評分利基點\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-        },
-        {
-          "date": "2026-07-30",
-          "code": "6792",
-          "name": "詠業",
-          "eventType": "法人說明會",
-          "time": "15:00",
-          "location": "線上法說會",
-          "topic": "本公司受邀參加群益金鼎證券於115年7月30日舉辦之線上投資法 人說明會,向投資人說明115年度第2季營業成果及未來營運展望",
-          "companyWebsite": "https://www.unictron.com",
-          "chinesePdf": "",
-          "englishPdf": "",
-          "mediaUrl": "http://irconference.twse.com.tw/6792_19_20260730_ch.mp4",
-          "mediaStatus": "有影音",
-          "transcriptStatus": "未產生",
-          "outlookBullets": [
-            "未從簡報或轉錄稿擷取到明確展望段落。"
-          ],
-          "outlookTone": {
-            "label": "中性觀望",
-            "score": 50,
-            "basis": "正向訊號 0、保守訊號 0"
-          },
-          "summaryBullets": [
-            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-            "MOPS 擇要訊息：本公司受邀參加群益金鼎證券於115年7月30日舉辦之線上投資法 人說明會,向投資人說明115年度第2季營業成果及未來營運展望",
-            "缺少可摘要的簡報文字或轉錄稿。"
-          ],
-          "financialBullets": [],
-          "riskBullets": [],
-          "qnaBullets": [],
-          "crossCheckBullets": [],
-          "sourceReport": "../法說整理/reports/ir_summary_2026-07-31.md",
-          "detailMarkdown": "## 6792 詠業 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：本公司受邀參加群益金鼎證券於115年7月30日舉辦之線上投資法 人說明會,向投資人說明115年度第2季營業成果及未來營運展望\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-        },
-        {
-          "date": "2026-07-30",
-          "code": "7769",
-          "name": "鴻勁",
-          "eventType": "法人說明會",
-          "time": "14:30",
-          "location": "線上法說會",
-          "topic": "本公司受邀參加凱基證券舉辦之線上法人說明會",
-          "companyWebsite": "https://www.honprec.com/stock/#conference",
-          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/776920260730M001.pdf",
-          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/776920260730E001.pdf",
-          "mediaUrl": "http://irconference.twse.com.tw/7769_19_20260730_ch.mp4",
-          "mediaStatus": "有影音",
-          "transcriptStatus": "未產生",
-          "outlookBullets": [
-            "© Hon. Precision, Inc. . 2 0 2 6 Q 2 法 人 說 明 會 簡 報 營運概況及未來展望-1 財務表現 營運概況及未來展望  26H1實際成⻑率 45%+ • 接單能見度至26年底，產能規劃至27Q1  27年產能擴充計畫：+50% • 德勝廠27Q1投產，預計提升15%產能 • 中國在地生產 27Q1，預計提升20%產能 • 現有總部廠區，預計提升15%產能 • 26H2~27：美系車用晶片客⼾泰國廠 • 27Q1：OSAT美國/新加坡新廠，以及中國新廠 • 27Q2：OSAT",
-            "© Hon. Precision, Inc. . 2 0 2 6 Q 2 法 人 說 明 會 簡 報 營運概況及未來展望-2 財務表現 營運概況及未來展望 FT04 • 中國市場車用與AI測試需求強勁，訂單數量年增80% • 美系Austin客⼾CPU 26H2開始出貨，GPU產品驗證中 • 美系EV大廠量產導入三溫SLT • 美系GPU大客⼾工程驗證機完成第⼀階段驗證，持續優化中 • 美系CSP客⼾下世代CPU+TPU導入中，驗證機台預計26年9月至12月陸續出貨 • 中國市場MSLT(multi-site SL",
-            "© Hon. Precision, Inc. . 2 0 2 6 Q 2 法 人 說 明 會 簡 報 0201 財務表現 營運概況及未來展望 3 AGENDA 財務表現 營運概況及未來展望 Operation Update and Outlook Profitability",
-            "© Hon. Precision, Inc. . 2 0 2 6 Q 2 法 人 說 明 會 簡 報 5 獲利趨勢 0.00% 10.00% 20.00% 30.00% 40.00% 50.00% 60.00% 70.00% 25Q2 25Q3 25Q4 26Q1 26Q2 毛利率 營業淨利率 淨利率 EPS (元)毛利率營業收入 (仟元) 2026 H1 24,518,966 56.15% 56.14 2025 30,270,625 56.54% 75.71 2024 13,992,344 55.02% 32.9",
-            "© Hon. Precision, Inc. . 2 0 2 6 Q 2 法 人 說 明 會 簡 報 營運概況 及未來展望 Operation Update and Outlook • 訂單應用別分布 • 營運概況及未來展望 7 財務表現 營運概況及未來展望",
-            "© Hon. Precision, Inc. . 2 0 2 6 Q 2 法 人 說 明 會 簡 報 8 8 ► Sensor ► MCU ► LiDAR 9% 2026 H1 from 11% (2025) Automotive 訂單應用別分布 ► SiP ► 5G OTA ► Power, PMIC ► Mobile Phone/AP ► RF Related Devices 8% 2026 H1 from 10% (2025) Mobile AP Communication ► AI Computing ►",
-            "© Hon. Precision, Inc. . 2 0 2 6 Q 2 法 人 說 明 會 簡 報 財務表現 Profitability • 財務報表 • 獲利趨勢 4 財務表現 營運概況及未來展望",
-            "© Hon. Precision, Inc. . 2 0 2 6 Q 2 法 人 說 明 會 簡 報 6 財務報表 TWD ；仟元 2025 % 26 H1 % 30,270,625 100.0 24,518,966 100.0 17,113,636 56.5 13,768,304 56.2 2,067,933 6.8 1,722,048 7.0 15,045,703 49.7 12,046,256 49.1 12,361,796 40.8 10,100,517 40.7 25H1 % 25H2 % 營業收入 12"
-          ],
-          "outlookTone": {
-            "label": "正面看好",
-            "score": 92,
-            "basis": "正向訊號 6、保守訊號 0"
-          },
-          "summaryBullets": [
-            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-            "MOPS 擇要訊息：本公司受邀參加凱基證券舉辦之線上法人說明會",
-            "2 0 2 6 Q 2 法 人 說 明 會 簡 報 5 獲利趨勢 0.00% 10.00% 20.00% 30.00% 40.00% 50.00% 60.00% 70.00% 25Q2 25Q3 25Q4 26Q1 26Q2 毛利率 營業淨利率 淨利率 EPS (元)毛利率營業收入 (仟元) 2026 H1 24,518,966 56.15% 56.14 2025 30,270,625 56.54% 75.71 2024 13,992,",
-            "2 0 2 6 Q 2 法 人 說 明 會 簡 報 營運概況及未來展望-1 財務表現 營運概況及未來展望  26H1實際成⻑率 45%+ • 接單能見度至26年底，產能規劃至27Q1  27年產能擴充計畫：+50% • 德勝廠27Q1投產，預計提升15%產能 • 中國在地生產 27Q1，預計提升20%產能 • 現有總部廠區，預計提升15%產能 • 26H2~27：美系車用晶片客⼾泰國廠 • 27Q1：OSAT美國/新加坡新廠，以及中",
-            "2 0 2 6 Q 2 法 人 說 明 會 簡 報 營運概況及未來展望-2 財務表現 營運概況及未來展望 FT04 • 中國市場車用與AI測試需求強勁，訂單數量年增80% • 美系Austin客⼾CPU 26H2開始出貨，GPU產品驗證中 • 美系EV大廠量產導入三溫SLT • 美系GPU大客⼾工程驗證機完成第⼀階段驗證，持續優化中 • 美系CSP客⼾下世代CPU+TPU導入中，驗證機台預計26年9月至12月陸續出貨 • 中國市場MSL",
-            "2 0 2 6 Q 2 法 人 說 明 會 簡 報 財務表現 Profitability • 財務報表 • 獲利趨勢 4 財務表現 營運概況及未來展望 --- page 5 --- © Hon.",
-            "2 0 2 6 Q 2 法 人 說 明 會 簡 報 6 財務報表 TWD ；仟元 2025 % 26 H1 % 30,270,625 100.0 24,518,966 100.0 17,113,636 56.5 13,768,304 56.2 2,067,933 6.8 1,722,048 7.0 15,045,703 49.7 12,046,256 49.1 12,361,796 40.8 10,100,517 40.7 25H1 %"
-          ],
-          "financialBullets": [],
-          "riskBullets": [],
-          "qnaBullets": [],
-          "crossCheckBullets": [],
-          "sourceReport": "../法說整理/reports/ir_summary_2026-07-31.md",
-          "detailMarkdown": "## 7769 鴻勁 深度法說分析\n\n### 一頁結論\n- 展望評價：正面看好（92 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 6、保守訊號 0。\n- 判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 \n\n### 營運與財務重點\n- 2 0 2 6 Q 2 法 人 說 明 會 簡 報 5 獲利趨勢 0.00% 10.00% 20.00% 30.00% 40.00% 50.00% 60.00% 70.00% 25Q2 25Q3 25Q4 26Q1 26Q2 毛利率 營業淨利率 淨利率 EPS (元)毛利率營業收入 (仟元) 2026 H1 24,518,966 56.15% 56.14 2025 30,270,625 56.54% 75.71 2024 13,992,\n- 2 0 2 6 Q 2 法 人 說 明 會 簡 報 營運概況及未來展望-2 財務表現 營運概況及未來展望 FT04 • 中國市場車用與AI測試需求強勁，訂單數量年增80% • 美系Austin客⼾CPU 26H2開始出貨，GPU產品驗證中 • 美系EV大廠量產導入三溫SLT • 美系GPU大客⼾工程驗證機完成第⼀階段驗證，持續優化中 • 美系CSP客⼾下世代CPU+TPU導入中，驗證機台預計26年9月至12月陸續出貨 • 中國市場MSL\n- 2 0 2 6 Q 2 法 人 說 明 會 簡 報 財務表現 Profitability • 財務報表 • 獲利趨勢 4 財務表現 營運概況及未來展望 --- page 5 --- © Hon.\n- © Hon. Precision, Inc. . 2 0 2 6 Q 2 法 人 說 明 會 簡 報 5 獲利趨勢 0.00% 10.00% 20.00% 30.00% 40.00% 50.00% 60.00% 70.00% 25Q2 25Q3 25Q4 26Q1 26Q2 毛利率 營業淨利率 淨利率 EPS (元)毛利率營業收入 (仟元) 2026 H1 24,518,966 56.15% 56.14 2025 30,270,625 56.54% 75.71 2024 13,992,344 55.02% 32.9\n- © Hon. Precision, Inc. . 2 0 2 6 Q 2 法 人 說 明 會 簡 報 財務表現 Profitability • 財務報表 • 獲利趨勢 4 財務表現 營運概況及未來展望\n\n### 展望與成長利基\n- © Hon. Precision, Inc. . 2 0 2 6 Q 2 法 人 說 明 會 簡 報 營運概況及未來展望-1 財務表現 營運概況及未來展望  26H1實際成⻑率 45%+ • 接單能見度至26年底，產能規劃至27Q1  27年產能擴充計畫：+50% • 德勝廠27Q1投產，預計提升15%產能 • 中國在地生產 27Q1，預計提升20%產能 • 現有總部廠區，預計提升15%產能 • 26H2~27：美系車用晶片客⼾泰國廠 • 27Q1：OSAT美國/新加坡新廠，以及中國新廠 • 27Q2：OSAT\n- © Hon. Precision, Inc. . 2 0 2 6 Q 2 法 人 說 明 會 簡 報 0201 財務表現 營運概況及未來展望 3 AGENDA 財務表現 營運概況及未來展望 Operation Update and Outlook Profitability\n- © Hon. Precision, Inc. . 2 0 2 6 Q 2 法 人 說 明 會 簡 報 5 獲利趨勢 0.00% 10.00% 20.00% 30.00% 40.00% 50.00% 60.00% 70.00% 25Q2 25Q3 25Q4 26Q1 26Q2 毛利率 營業淨利率 淨利率 EPS (元)毛利率營業收入 (仟元) 2026 H1 24,518,966 56.15% 56.14 2025 30,270,625 56.54% 75.71 2024 13,992,344 55.02% 32.9\n- © Hon. Precision, Inc. . 2 0 2 6 Q 2 法 人 說 明 會 簡 報 營運概況 及未來展望 Operation Update and Outlook • 訂單應用別分布 • 營運概況及未來展望 7 財務表現 營運概況及未來展望\n- © Hon. Precision, Inc. . 2 0 2 6 Q 2 法 人 說 明 會 簡 報 8 8 ► Sensor ► MCU ► LiDAR 9% 2026 H1 from 11% (2025) Automotive 訂單應用別分布 ► SiP ► 5G OTA ► Power, PMIC ► Mobile Phone/AP ► RF Related Devices 8% 2026 H1 from 10% (2025) Mobile AP Communication ► AI Computing ►\n- © Hon. Precision, Inc. . 2 0 2 6 Q 2 法 人 說 明 會 簡 報 財務表現 Profitability • 財務報表 • 獲利趨勢 4 財務表現 營運概況及未來展望\n- © Hon. Precision, Inc. . 2 0 2 6 Q 2 法 人 說 明 會 簡 報 6 財務報表 TWD ；仟元 2025 % 26 H1 % 30,270,625 100.0 24,518,966 100.0 17,113,636 56.5 13,768,304 56.2 2,067,933 6.8 1,722,048 7.0 15,045,703 49.7 12,046,256 49.1 12,361,796 40.8 10,100,517 40.7 25H1 % 25H2 % 營業收入 12\n\n### 產品、客戶與市場位置\n- 2 0 2 6 Q 2 法 人 說 明 會 簡 報 營運概況及未來展望-1 財務表現 營運概況及未來展望  26H1實際成⻑率 45%+ • 接單能見度至26年底，產能規劃至27Q1  27年產能擴充計畫：+50% • 德勝廠27Q1投產，預計提升15%產能 • 中國在地生產 27Q1，預計提升20%產能 • 現有總部廠區，預計提升15%產能 • 26H2~27：美系車用晶片客⼾泰國廠 • 27Q1：OSAT美國/新加坡新廠，以及中\n- 2 0 2 6 Q 2 法 人 說 明 會 簡 報 營運概況及未來展望-2 財務表現 營運概況及未來展望 FT04 • 中國市場車用與AI測試需求強勁，訂單數量年增80% • 美系Austin客⼾CPU 26H2開始出貨，GPU產品驗證中 • 美系EV大廠量產導入三溫SLT • 美系GPU大客⼾工程驗證機完成第⼀階段驗證，持續優化中 • 美系CSP客⼾下世代CPU+TPU導入中，驗證機台預計26年9月至12月陸續出貨 • 中國市場MSL\n- © Hon. Precision, Inc. . 2 0 2 6 Q 2 法 人 說 明 會 簡 報 營運概況及未來展望-1 財務表現 營運概況及未來展望  26H1實際成⻑率 45%+ • 接單能見度至26年底，產能規劃至27Q1  27年產能擴充計畫：+50% • 德勝廠27Q1投產，預計提升15%產能 • 中國在地生產 27Q1，預計提升20%產能 • 現有總部廠區，預計提升15%產能 • 26H2~27：美系車用晶片客⼾泰國廠 • 27Q1：OSAT美國/新加坡新廠，以及中國新廠 • 27Q2：OSAT\n- © Hon. Precision, Inc. . 2 0 2 6 Q 2 法 人 說 明 會 簡 報 8 8 ► Sensor ► MCU ► LiDAR 9% 2026 H1 from 11% (2025) Automotive 訂單應用別分布 ► SiP ► 5G OTA ► Power, PMIC ► Mobile Phone/AP ► RF Related Devices 8% 2026 H1 from 10% (2025) Mobile AP Communication ► AI Computing ►\n\n### 風險與不確定性\n- 本次摘要未擷取到明確風險或保守訊號。\n\n### Q&A 與管理層口氣\n- 2 0 2 6 Q 2 法 人 說 明 會 簡 報 5 獲利趨勢 0.00% 10.00% 20.00% 30.00% 40.00% 50.00% 60.00% 70.00% 25Q2 25Q3 25Q4 26Q1 26Q2 毛利率 營業淨利率 淨利率 EPS (元)毛利率營業收入 (仟元) 2026 H1 24,518,966 56.15% 56.14 2025 30,270,625 56.54% 75.71 2024 13,992,\n- 2 0 2 6 Q 2 法 人 說 明 會 簡 報 營運概況及未來展望-1 財務表現 營運概況及未來展望  26H1實際成⻑率 45%+ • 接單能見度至26年底，產能規劃至27Q1  27年產能擴充計畫：+50% • 德勝廠27Q1投產，預計提升15%產能 • 中國在地生產 27Q1，預計提升20%產能 • 現有總部廠區，預計提升15%產能 • 26H2~27：美系車用晶片客⼾泰國廠 • 27Q1：OSAT美國/新加坡新廠，以及中\n- 2 0 2 6 Q 2 法 人 說 明 會 簡 報 營運概況及未來展望-2 財務表現 營運概況及未來展望 FT04 • 中國市場車用與AI測試需求強勁，訂單數量年增80% • 美系Austin客⼾CPU 26H2開始出貨，GPU產品驗證中 • 美系EV大廠量產導入三溫SLT • 美系GPU大客⼾工程驗證機完成第⼀階段驗證，持續優化中 • 美系CSP客⼾下世代CPU+TPU導入中，驗證機台預計26年9月至12月陸續出貨 • 中國市場MSL\n- © Hon. Precision, Inc. . 2 0 2 6 Q 2 法 人 說 明 會 簡 報 營運概況及未來展望-1 財務表現 營運概況及未來展望  26H1實際成⻑率 45%+ • 接單能見度至26年底，產能規劃至27Q1  27年產能擴充計畫：+50% • 德勝廠27Q1投產，預計提升15%產能 • 中國在地生產 27Q1，預計提升20%產能 • 現有總部廠區，預計提升15%產能 • 26H2~27：美系車用晶片客⼾泰國廠 • 27Q1：OSAT美國/新加坡新廠，以及中國新廠 • 27Q2：OSAT\n- © Hon. Precision, Inc. . 2 0 2 6 Q 2 法 人 說 明 會 簡 報 5 獲利趨勢 0.00% 10.00% 20.00% 30.00% 40.00% 50.00% 60.00% 70.00% 25Q2 25Q3 25Q4 26Q1 26Q2 毛利率 營業淨利率 淨利率 EPS (元)毛利率營業收入 (仟元) 2026 H1 24,518,966 56.15% 56.14 2025 30,270,625 56.54% 75.71 2024 13,992,344 55.02% 32.9\n- © Hon. Precision, Inc. . 2 0 2 6 Q 2 法 人 說 明 會 簡 報 營運概況 及未來展望 Operation Update and Outlook • 訂單應用別分布 • 營運概況及未來展望 7 財務表現 營運概況及未來展望\n\n### 評分利基點\n- 加分主因：2 0 2 6 Q 2 法 人 說 明 會 簡 報 營運概況及未來展望-1 財務表現 營運概況及未來展望  26H1實際成⻑率 45%+ • 接單能見度至26年底，產能規劃至27Q1  27年產能擴充計畫：+50% • 德勝廠27Q1投產，預計提升15%產能 • 中國在地生產 27Q1，預計提升20%產能 • 現有總部廠區，預計提升15%產能 • 26H2~27：美系車用晶片客⼾泰國廠 • 27Q1：OSAT美國/新加坡新廠，以及中；2 0 2 6 Q 2 法 人 說 明 會 簡 報 營運概況及未來展望-2 財務表現 營運概況及未來展望 FT04 • 中國市場車用與AI測試需求強勁，訂單數量年增80% • 美系Austin客⼾CPU 26H2開始出貨，GPU產品驗證中 • 美系EV大廠量產導入三溫SLT • 美系GPU大客⼾工程驗證機完成第⼀階段驗證，持續優化中 • 美系CSP客⼾下世代CPU+TPU導入中，驗證機台預計26年9月至12月陸續出貨 • 中國市場MSL；© Hon. Precision, Inc. . 2 0 2 6 Q 2 法 人 說 明 會 簡 報 營運概況及未來展望-1 財務表現 營運概況及未來展望  26H1實際成⻑率 45%+ • 接單能見度至26年底，產能規劃至27Q1  27年產能擴充計畫：+50% • 德勝廠27Q1投產，預計提升15%產能 • 中國在地生產 27Q1，預計提升20%產能 • 現有總部廠區，預計提升15%產能 • 26H2~27：美系車用晶片客⼾泰國廠 • 27Q1：OSAT美國/新加坡新廠，以及中國新廠 • 27Q2：OSAT。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-        }
-      ]
     }
   ]
 };
 window.irSummaryLatest = {
-  "generatedAt": "2026-08-28T13:44:20.175Z",
-  "queryDate": "2026-08-28",
-  "displayDate": "2026-08-28",
-  "count": 16,
+  "generatedAt": "2026-08-31T11:42:21.523Z",
+  "queryDate": "2026-08-31",
+  "displayDate": "2026-08-31",
+  "count": 11,
   "rows": [
     {
-      "date": "2026-08-28",
-      "code": "1590",
-      "name": "亞德客-KY",
-      "eventType": "法人說明會",
-      "time": "09:00",
-      "location": "香港",
-      "topic": "本公司受邀參加香港美銀證券舉辦之法人說明會「2026 Asia Pacific Conference」,說明本公司2026年第2季營運狀況。",
-      "companyWebsite": "https://as-tw.airtac.com/about.aspx?c_kind=5&amp;c_kind2=134&amp;c_kind3=311",
-      "chinesePdf": "",
-      "englishPdf": "",
-      "mediaUrl": "",
-      "mediaStatus": "缺影音",
-      "transcriptStatus": "缺影音",
-      "outlookBullets": [
-        "未從簡報或轉錄稿擷取到明確展望段落。"
-      ],
-      "outlookTone": {
-        "label": "中性觀望",
-        "score": 50,
-        "basis": "正向訊號 0、保守訊號 0"
-      },
-      "summaryBullets": [
-        "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-        "MOPS 擇要訊息：本公司受邀參加香港美銀證券舉辦之法人說明會「2026 Asia Pacific Conference」,說明本公司2026年第2季營運狀況。",
-        "缺少可摘要的簡報文字或轉錄稿。"
-      ],
-      "financialBullets": [],
-      "riskBullets": [],
-      "qnaBullets": [],
-      "crossCheckBullets": [],
-      "sourceReport": "../法說整理/reports/ir_summary_2026-08-28.md",
-      "detailMarkdown": "## 1590 亞德客-KY 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：本公司受邀參加香港美銀證券舉辦之法人說明會「2026 Asia Pacific Conference」,說明本公司2026年第2季營運狀況。\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-    },
-    {
-      "date": "2026-08-28",
-      "code": "1737",
-      "name": "臺鹽",
-      "eventType": "法人說明會",
-      "time": "14:30",
-      "location": "臺灣證券交易所1F資訊展示中心(台北市信義路五段7號1樓)",
-      "topic": "本公司營運及財務相關概況",
-      "companyWebsite": "https://www.tybio.com.tw/taiyen/tw/about",
-      "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/173720260827M001.pdf",
-      "englishPdf": "https://mopsov.twse.com.tw/nas/STR/173720260827E001.pdf",
-      "mediaUrl": "https://webpro.twse.com.tw/WebPortal/vod/101/83646AF21158-4440A5E8-A2AF-11F1-96AA/?categoryId=101",
-      "mediaStatus": "有影音",
-      "transcriptStatus": "未產生",
-      "outlookBullets": [
-        "利基與優勢 11 獨特電透析鹽水共生製程 透過製程整合開創成長動能，有效因應極端氣候與污染風險並持續優化重要設施鞏固競爭優勢 牙膏GMP新廠啟動量產新里程 躍升製程與品質標竿，厚植製造競爭護城河，打造在地自製核心優勢 深耕CollaFix®保健核心技術 持續深化非變性二型膠原蛋白技術布局，以科學實證支持產品價值，拓展高齡健康市場成長機會 科學實證 X 國營品牌=專業與信賴 根植國營背景，憑藉長年深耕與良好口碑，展現穩健可信賴的專業形象",
-        "15 保健食品系列 非變性II型膠原蛋白技術實力與市場發展  CollaFix®(非變性II型膠原蛋白)專利製程技術，完整保留結構 與生物活性，展現核心競爭優勢  深耕行動保健市場逾20年，累積穩固市場基礎與產品口碑  持續深化全球市場布局，拓展國際合作與成長機會 三高預防 體態管理 視力保健 一般食品 亮麗保健 完整產品線 滿足多元健康需求 行動保健",
-        "16 穩健基石 經典口腔護理系列 清潔品系列 穩健現金流與 ESG 永續雙引擎 主力產品：台塩鹹淨、護牙齦系列 深耕台灣市場超過 30 年，具備極高品牌忠誠度 榮獲 台灣精品獎 (Taiwan Excellence) 肯定 產能升級：全新 GMP 廠房落成啟用，品質與產能邁向 業界高標準 主力產品：塩易潔系列 (洗衣精/洗碗精) 榮獲 2024 英國全球綠色美妝獎 殊榮 全系列取得環保標章及 MIT 標章認證 綠色承諾：採用 100% 再生塑料瓶器，落實高生物分解 度及無石化爭議配方 永續成長 綠色環保洗劑系列",
-        "深耕智財 以專利驅動創新與品牌價值 17 » 利用新穎可信賴的科學方法，從天然素材中發掘安全有效的創新原料，開發清潔、護膚、 健齒與保健產品，建立與時俱進的品牌價值 » 解析配方與原料資料庫，建立智能化平台，依代工客戶需求迅速提供客製化方案，遵循法規 提供化粧品PIF資訊檔案所需之檢測與評估，提升競爭優勢。 2025-2026授予專利 名稱 應用 1.台灣發明專利 I878640 魚鱗製備的氫氧基磷灰石及其製備方法與用途 天然護齒，修護琺瑯 2.台灣發明專利 I883982 具調控內質網壓力效用之胜肽組成物及其用途"
-      ],
-      "outlookTone": {
-        "label": "正面看好",
-        "score": 74,
-        "basis": "正向訊號 6、保守訊號 3"
-      },
-      "summaryBullets": [
-        "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-        "MOPS 擇要訊息：本公司營運及財務相關概況",
-        "114年H1 793 558 248 38 10 29 1,676 115年H1 770 518 205 25 11 29 1,558 成長率 -2.9% -7.2% -17.3% -34.2% +10% - -7.0% --- page 23 --- 115年H1合併損益表 23 單位 : 新台幣百萬元  營業收入較去年同期減少，且受美伊戰爭影響，原物料、運費等成本增加，致毛利(率)減少  營業外收支方面，去年同期新台幣兌美元大幅",
-        "» 鹼性離子水不僅熱銷、更榮登瓶裝水單一品牌市占龍頭 » 八度蟬聯Monde Selection 國際金獎及榮獲 iTi 2026風味絕佳三星獎章 注入文化與藝術能量、延續品牌創新及質感生活 » 首次與日本藝術家合作藝術瓶話題行銷，結合《質感好水》消費者活動， 將高品質好水，昇華為質感生活體驗，淬鍊世界級的好水 導入環保瓶器，推行ESG » 採用 25% rPET環保瓶(420ml)，結合多檔主題行銷活動(高鐵商務車廂水、 發財水、白沙",
-        "page 3 --- 3 一、公司簡介 二、營運概況 三、財務績效 四、發展方向 簡報大綱 --- page 4 --- 4 一、公司簡介 國營奠基 生技創新 品質為本 健康為先 --- page 5 --- 公司簡介 5  成立時間 41年3月  上市時間 92年11月  產業別 食品製造業  董事長 丁彥哲董事長  實收資本額 20億元  員工人數 459人 (截至115.6)  秉持誠信踏實的精神，專注品質，深耕創新",
-        "2025 TCSA 永續報告獎金獎 「2025台南市商業服務業 ESG概念店」認證 1111人力銀行 2025幸福企業 --- page 20 --- 20 三、財務績效 營運穩步推進 年年穩定配息 --- page 21 --- 歷年合併營收概況 21 單位 : 新台幣百萬元  臺綠子公司調整營運方向，縮減工程及勞務業務因素，合併營收逐年減少  生技產品營收維持平穩  鹽產品及包裝飲用水營收穩步成長 總營收成長率 -11.8%",
-        "Item H1 2026 H1 2025 YoY Operating Revenue 1,558 1,676 -7.0% Gross Profit 611 696 -12.2% Operating Expenses 414 450 -8.0% Operating Income 197 246 -19.9% Non-operating Income and Expenses 15 (21) +171.4% Profit Before Ta"
-      ],
-      "financialBullets": [],
-      "riskBullets": [],
-      "qnaBullets": [],
-      "crossCheckBullets": [],
-      "sourceReport": "../法說整理/reports/ir_summary_2026-08-28.md",
-      "detailMarkdown": "## 1737 臺鹽 深度法說分析\n\n### 一頁結論\n- 展望評價：正面看好（74 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 6、保守訊號 3。\n- 判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 \n\n### 營運與財務重點\n- 114年H1 793 558 248 38 10 29 1,676 115年H1 770 518 205 25 11 29 1,558 成長率 -2.9% -7.2% -17.3% -34.2% +10% - -7.0% --- page 23 --- 115年H1合併損益表 23 單位 : 新台幣百萬元  營業收入較去年同期減少，且受美伊戰爭影響，原物料、運費等成本增加，致毛利(率)減少  營業外收支方面，去年同期新台幣兌美元大幅\n- 2025 TCSA 永續報告獎金獎 「2025台南市商業服務業 ESG概念店」認證 1111人力銀行 2025幸福企業 --- page 20 --- 20 三、財務績效 營運穩步推進 年年穩定配息 --- page 21 --- 歷年合併營收概況 21 單位 : 新台幣百萬元  臺綠子公司調整營運方向，縮減工程及勞務業務因素，合併營收逐年減少  生技產品營收維持平穩  鹽產品及包裝飲用水營收穩步成長 總營收成長率 -11.8%\n- 利基與優勢 11 獨特電透析鹽水共生製程 透過製程整合開創成長動能，有效因應極端氣候與污染風險並持續優化重要設施鞏固競爭優勢 牙膏GMP新廠啟動量產新里程 躍升製程與品質標竿，厚植製造競爭護城河，打造在地自製核心優勢 深耕CollaFix®保健核心技術 持續深化非變性二型膠原蛋白技術布局，以科學實證支持產品價值，拓展高齡健康市場成長機會 科學實證 X 國營品牌=專業與信賴 根植國營背景，憑藉長年深耕與良好口碑，展現穩健可信賴的專業形象\n- 15 保健食品系列 非變性II型膠原蛋白技術實力與市場發展  CollaFix®(非變性II型膠原蛋白)專利製程技術，完整保留結構 與生物活性，展現核心競爭優勢  深耕行動保健市場逾20年，累積穩固市場基礎與產品口碑  持續深化全球市場布局，拓展國際合作與成長機會 三高預防 體態管理 視力保健 一般食品 亮麗保健 完整產品線 滿足多元健康需求 行動保健\n- 16 穩健基石 經典口腔護理系列 清潔品系列 穩健現金流與 ESG 永續雙引擎 主力產品：台塩鹹淨、護牙齦系列 深耕台灣市場超過 30 年，具備極高品牌忠誠度 榮獲 台灣精品獎 (Taiwan Excellence) 肯定 產能升級：全新 GMP 廠房落成啟用，品質與產能邁向 業界高標準 主力產品：塩易潔系列 (洗衣精/洗碗精) 榮獲 2024 英國全球綠色美妝獎 殊榮 全系列取得環保標章及 MIT 標章認證 綠色承諾：採用 100% 再生塑料瓶器，落實高生物分解 度及無石化爭議配方 永續成長 綠色環保洗劑系列\n\n### 展望與成長利基\n- 利基與優勢 11 獨特電透析鹽水共生製程 透過製程整合開創成長動能，有效因應極端氣候與污染風險並持續優化重要設施鞏固競爭優勢 牙膏GMP新廠啟動量產新里程 躍升製程與品質標竿，厚植製造競爭護城河，打造在地自製核心優勢 深耕CollaFix®保健核心技術 持續深化非變性二型膠原蛋白技術布局，以科學實證支持產品價值，拓展高齡健康市場成長機會 科學實證 X 國營品牌=專業與信賴 根植國營背景，憑藉長年深耕與良好口碑，展現穩健可信賴的專業形象\n- 15 保健食品系列 非變性II型膠原蛋白技術實力與市場發展  CollaFix®(非變性II型膠原蛋白)專利製程技術，完整保留結構 與生物活性，展現核心競爭優勢  深耕行動保健市場逾20年，累積穩固市場基礎與產品口碑  持續深化全球市場布局，拓展國際合作與成長機會 三高預防 體態管理 視力保健 一般食品 亮麗保健 完整產品線 滿足多元健康需求 行動保健\n- 16 穩健基石 經典口腔護理系列 清潔品系列 穩健現金流與 ESG 永續雙引擎 主力產品：台塩鹹淨、護牙齦系列 深耕台灣市場超過 30 年，具備極高品牌忠誠度 榮獲 台灣精品獎 (Taiwan Excellence) 肯定 產能升級：全新 GMP 廠房落成啟用，品質與產能邁向 業界高標準 主力產品：塩易潔系列 (洗衣精/洗碗精) 榮獲 2024 英國全球綠色美妝獎 殊榮 全系列取得環保標章及 MIT 標章認證 綠色承諾：採用 100% 再生塑料瓶器，落實高生物分解 度及無石化爭議配方 永續成長 綠色環保洗劑系列\n- 深耕智財 以專利驅動創新與品牌價值 17 » 利用新穎可信賴的科學方法，從天然素材中發掘安全有效的創新原料，開發清潔、護膚、 健齒與保健產品，建立與時俱進的品牌價值 » 解析配方與原料資料庫，建立智能化平台，依代工客戶需求迅速提供客製化方案，遵循法規 提供化粧品PIF資訊檔案所需之檢測與評估，提升競爭優勢。 2025-2026授予專利 名稱 應用 1.台灣發明專利 I878640 魚鱗製備的氫氧基磷灰石及其製備方法與用途 天然護齒，修護琺瑯 2.台灣發明專利 I883982 具調控內質網壓力效用之胜肽組成物及其用途\n\n### 產品、客戶與市場位置\n- 2025 TCSA 永續報告獎金獎 「2025台南市商業服務業 ESG概念店」認證 1111人力銀行 2025幸福企業 --- page 20 --- 20 三、財務績效 營運穩步推進 年年穩定配息 --- page 21 --- 歷年合併營收概況 21 單位 : 新台幣百萬元  臺綠子公司調整營運方向，縮減工程及勞務業務因素，合併營收逐年減少  生技產品營收維持平穩  鹽產品及包裝飲用水營收穩步成長 總營收成長率 -11.8%\n- 利基與優勢 11 獨特電透析鹽水共生製程 透過製程整合開創成長動能，有效因應極端氣候與污染風險並持續優化重要設施鞏固競爭優勢 牙膏GMP新廠啟動量產新里程 躍升製程與品質標竿，厚植製造競爭護城河，打造在地自製核心優勢 深耕CollaFix®保健核心技術 持續深化非變性二型膠原蛋白技術布局，以科學實證支持產品價值，拓展高齡健康市場成長機會 科學實證 X 國營品牌=專業與信賴 根植國營背景，憑藉長年深耕與良好口碑，展現穩健可信賴的專業形象\n- 15 保健食品系列 非變性II型膠原蛋白技術實力與市場發展  CollaFix®(非變性II型膠原蛋白)專利製程技術，完整保留結構 與生物活性，展現核心競爭優勢  深耕行動保健市場逾20年，累積穩固市場基礎與產品口碑  持續深化全球市場布局，拓展國際合作與成長機會 三高預防 體態管理 視力保健 一般食品 亮麗保健 完整產品線 滿足多元健康需求 行動保健\n- 16 穩健基石 經典口腔護理系列 清潔品系列 穩健現金流與 ESG 永續雙引擎 主力產品：台塩鹹淨、護牙齦系列 深耕台灣市場超過 30 年，具備極高品牌忠誠度 榮獲 台灣精品獎 (Taiwan Excellence) 肯定 產能升級：全新 GMP 廠房落成啟用，品質與產能邁向 業界高標準 主力產品：塩易潔系列 (洗衣精/洗碗精) 榮獲 2024 英國全球綠色美妝獎 殊榮 全系列取得環保標章及 MIT 標章認證 綠色承諾：採用 100% 再生塑料瓶器，落實高生物分解 度及無石化爭議配方 永續成長 綠色環保洗劑系列\n- 深耕智財 以專利驅動創新與品牌價值 17 » 利用新穎可信賴的科學方法，從天然素材中發掘安全有效的創新原料，開發清潔、護膚、 健齒與保健產品，建立與時俱進的品牌價值 » 解析配方與原料資料庫，建立智能化平台，依代工客戶需求迅速提供客製化方案，遵循法規 提供化粧品PIF資訊檔案所需之檢測與評估，提升競爭優勢。 2025-2026授予專利 名稱 應用 1.台灣發明專利 I878640 魚鱗製備的氫氧基磷灰石及其製備方法與用途 天然護齒，修護琺瑯 2.台灣發明專利 I883982 具調控內質網壓力效用之胜肽組成物及其用途\n\n### 風險與不確定性\n- 114年H1 793 558 248 38 10 29 1,676 115年H1 770 518 205 25 11 29 1,558 成長率 -2.9% -7.2% -17.3% -34.2% +10% - -7.0% --- page 23 --- 115年H1合併損益表 23 單位 : 新台幣百萬元  營業收入較去年同期減少，且受美伊戰爭影響，原物料、運費等成本增加，致毛利(率)減少  營業外收支方面，去年同期新台幣兌美元大幅\n- 2025 TCSA 永續報告獎金獎 「2025台南市商業服務業 ESG概念店」認證 1111人力銀行 2025幸福企業 --- page 20 --- 20 三、財務績效 營運穩步推進 年年穩定配息 --- page 21 --- 歷年合併營收概況 21 單位 : 新台幣百萬元  臺綠子公司調整營運方向，縮減工程及勞務業務因素，合併營收逐年減少  生技產品營收維持平穩  鹽產品及包裝飲用水營收穩步成長 總營收成長率 -11.8%\n- 利基與優勢 11 獨特電透析鹽水共生製程 透過製程整合開創成長動能，有效因應極端氣候與污染風險並持續優化重要設施鞏固競爭優勢 牙膏GMP新廠啟動量產新里程 躍升製程與品質標竿，厚植製造競爭護城河，打造在地自製核心優勢 深耕CollaFix®保健核心技術 持續深化非變性二型膠原蛋白技術布局，以科學實證支持產品價值，拓展高齡健康市場成長機會 科學實證 X 國營品牌=專業與信賴 根植國營背景，憑藉長年深耕與良好口碑，展現穩健可信賴的專業形象\n- 深耕智財 以專利驅動創新與品牌價值 17 » 利用新穎可信賴的科學方法，從天然素材中發掘安全有效的創新原料，開發清潔、護膚、 健齒與保健產品，建立與時俱進的品牌價值 » 解析配方與原料資料庫，建立智能化平台，依代工客戶需求迅速提供客製化方案，遵循法規 提供化粧品PIF資訊檔案所需之檢測與評估，提升競爭優勢。 2025-2026授予專利 名稱 應用 1.台灣發明專利 I878640 魚鱗製備的氫氧基磷灰石及其製備方法與用途 天然護齒，修護琺瑯 2.台灣發明專利 I883982 具調控內質網壓力效用之胜肽組成物及其用途\n\n### Q&A 與管理層口氣\n- 114年H1 793 558 248 38 10 29 1,676 115年H1 770 518 205 25 11 29 1,558 成長率 -2.9% -7.2% -17.3% -34.2% +10% - -7.0% --- page 23 --- 115年H1合併損益表 23 單位 : 新台幣百萬元  營業收入較去年同期減少，且受美伊戰爭影響，原物料、運費等成本增加，致毛利(率)減少  營業外收支方面，去年同期新台幣兌美元大幅\n- 16 穩健基石 經典口腔護理系列 清潔品系列 穩健現金流與 ESG 永續雙引擎 主力產品：台塩鹹淨、護牙齦系列 深耕台灣市場超過 30 年，具備極高品牌忠誠度 榮獲 台灣精品獎 (Taiwan Excellence) 肯定 產能升級：全新 GMP 廠房落成啟用，品質與產能邁向 業界高標準 主力產品：塩易潔系列 (洗衣精/洗碗精) 榮獲 2024 英國全球綠色美妝獎 殊榮 全系列取得環保標章及 MIT 標章認證 綠色承諾：採用 100% 再生塑料瓶器，落實高生物分解 度及無石化爭議配方 永續成長 綠色環保洗劑系列\n\n### 評分利基點\n- 加分主因：114年H1 793 558 248 38 10 29 1,676 115年H1 770 518 205 25 11 29 1,558 成長率 -2.9% -7.2% -17.3% -34.2% +10% - -7.0% --- page 23 --- 115年H1合併損益表 23 單位 : 新台幣百萬元  營業收入較去年同期減少，且受美伊戰爭影響，原物料、運費等成本增加，致毛利(率)減少  營業外收支方面，去年同期新台幣兌美元大幅；» 鹼性離子水不僅熱銷、更榮登瓶裝水單一品牌市占龍頭 » 八度蟬聯Monde Selection 國際金獎及榮獲 iTi 2026風味絕佳三星獎章 注入文化與藝術能量、延續品牌創新及質感生活 » 首次與日本藝術家合作藝術瓶話題行銷，結合《質感好水》消費者活動， 將高品質好水，昇華為質感生活體驗，淬鍊世界級的好水 導入環保瓶器，推行ESG » 採用 25% rPET環保瓶(420ml)，結合多檔主題行銷活動(高鐵商務車廂水、 發財水、白沙；2025 TCSA 永續報告獎金獎 「2025台南市商業服務業 ESG概念店」認證 1111人力銀行 2025幸福企業 --- page 20 --- 20 三、財務績效 營運穩步推進 年年穩定配息 --- page 21 --- 歷年合併營收概況 21 單位 : 新台幣百萬元  臺綠子公司調整營運方向，縮減工程及勞務業務因素，合併營收逐年減少  生技產品營收維持平穩  鹽產品及包裝飲用水營收穩步成長 總營收成長率 -11.8%。\n- 扣分或保留：114年H1 793 558 248 38 10 29 1,676 115年H1 770 518 205 25 11 29 1,558 成長率 -2.9% -7.2% -17.3% -34.2% +10% - -7.0% --- page 23 --- 115年H1合併損益表 23 單位 : 新台幣百萬元  營業收入較去年同期減少，且受美伊戰爭影響，原物料、運費等成本增加，致毛利(率)減少  營業外收支方面，去年同期新台幣兌美元大幅；2025 TCSA 永續報告獎金獎 「2025台南市商業服務業 ESG概念店」認證 1111人力銀行 2025幸福企業 --- page 20 --- 20 三、財務績效 營運穩步推進 年年穩定配息 --- page 21 --- 歷年合併營收概況 21 單位 : 新台幣百萬元  臺綠子公司調整營運方向，縮減工程及勞務業務因素，合併營收逐年減少  生技產品營收維持平穩  鹽產品及包裝飲用水營收穩步成長 總營收成長率 -11.8%；利基與優勢 11 獨特電透析鹽水共生製程 透過製程整合開創成長動能，有效因應極端氣候與污染風險並持續優化重要設施鞏固競爭優勢 牙膏GMP新廠啟動量產新里程 躍升製程與品質標竿，厚植製造競爭護城河，打造在地自製核心優勢 深耕CollaFix®保健核心技術 持續深化非變性二型膠原蛋白技術布局，以科學實證支持產品價值，拓展高齡健康市場成長機會 科學實證 X 國營品牌=專業與信賴 根植國營背景，憑藉長年深耕與良好口碑，展現穩健可信賴的專業形象。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-    },
-    {
-      "date": "2026-08-28",
-      "code": "2015",
-      "name": "豐興",
+      "date": "2026-08-31",
+      "code": "1101",
+      "name": "台泥",
       "eventType": "法人說明會",
       "time": "14:00",
-      "location": "線上法人說明會",
-      "topic": "本公司受邀參加國票綜合證券法人說明會-115年第二季營運狀況報告",
-      "companyWebsite": "https://www.fenghsin.com.tw",
-      "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/201520260827M001.pdf",
-      "englishPdf": "https://mopsov.twse.com.tw/nas/STR/201520260827E001.pdf",
-      "mediaUrl": "http://irconference.twse.com.tw/2015_46_20260828_ch.mp4",
-      "mediaStatus": "有影音",
-      "transcriptStatus": "未產生",
-      "outlookBullets": [
-        "1. 2011~2026Q2全球主要國家粗鋼生產統計表 / 2011~2026Q2 Statistical table of crude steel production in major countries in the world 資料來源: World Steel Association 根據世界鋼鐵協會短期展望，2026 年全球鋼鐵需求預估僅年增 0.3%，達 17.24 億噸，整體仍處低成長且區域分化的格局。中國 受房地產調整及基建拉動有限影響，需求偏弱，減產對供需改善有限；印度則受惠基建、都市化及製造業",
-        "會議大綱 Agenda ◼公司簡介Profile ◼ 2026年第二季財務績效Q2 2026 Financial Results. ◼公司、產業及營運概況暨未來展望 Steel Market Overview ◼ Q&A P 2",
-        "2. 2011~2026M6全球主要國家粗鋼生產佔比 / Proportion of crude steel production in major countries of the world from 2011 to 2026M6 資料來源: World Steel Association 根據世界鋼鐵協會統計，2026年1–6月全球粗鋼總產量為 9.32 億噸，同比小幅下滑 0.68%, 雖上半年萎 縮，但Q2以來,尤其是 6 月粗鋼產量達 1.557 億噸，年增1.7%。全球粗鋼年產量維持在18~19億噸高",
-        "展望，反應本公司截至目前為止對於未來的看 法。對於這些看法，未來若有任何變更或調整時，本公司並不負 責隨時提醒或更新。 Except as required by law, we undertake no obligation to update any forward-looking statements, whether as a result of new information, future events, or otherwise. P 3",
-        "資料來源:內政部國土管理署業務指標/Data Source: National Land Management Agency, MOI , construction business metrics 3.2022~2026M6營建統計-台灣地區近四年逐季核發建築物建造執照統計 2022~2026M6 Statistics of building construction licenses quarterly in the past three years in Taiwan 單位：件；千平方公尺 年別 Year 2",
-        "4.豐興鋼筋銷售 & 國內市佔率 Feng Hsin’s Rebar Sales & Domestic Market Share 2022Q AVG 2023Q AVG 2024Q AVG 2025Q AVG 2024Q1 2024Q2 2024Q3 2024Q4 2025Q1 2025/Q2 2025/Q3 2025/Q4 2026 M1-M6 與 2025 M1-M6 同 期比較 豐興銷售量 FH Sales 240,928 247,762 246,490 221,799 241,890 255,107 231",
-        "豐興鋼鐵股份有限公司 2026年第二季法人說明會 Feng Hsin Steel Co.,Ltd . Q2 2026 Earnings Conference 2026/08/28 P 1",
-        "2026年第二季財務績效 Q2 2026 Financial Results. P 6"
-      ],
-      "outlookTone": {
-        "label": "正面看好",
-        "score": 72,
-        "basis": "正向訊號 4、保守訊號 1"
-      },
-      "summaryBullets": [
-        "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-        "MOPS 擇要訊息：本公司受邀參加國票綜合證券法人說明會-115年第二季營運狀況報告",
-        "P 6 --- page 7 --- 銷售淨額 Net Sales 2026Q22026Q1 QoQ % 2025Q2 YoY % 型鋼Merchant Bar 1,681 1,593 88 6% 1,568 113 7% 條線Round Bar 2,285 1,692 593 35% 2,050 235 11% 鋼筋Rebar 3,591 3,102 489 16% 4,711 (1,120) -24% 其他 others 30 18",
-        "2011~2026Q2全球主要國家粗鋼生產統計表 / 2011~2026Q2 Statistical table of crude steel production in major countries in the world 資料來源: World Steel Association 根據世界鋼鐵協會短期展望，2026 年全球鋼鐵需求預估僅年增 0.3%，達 17.24 億噸，整體仍處低成長且區域分化的格局。中國 受房地產調整及基建",
-        "2011~2026M6全球主要國家粗鋼生產佔比 / Proportion of crude steel production in major countries of the world from 2011 to 2026M6 資料來源: World Steel Association 根據世界鋼鐵協會統計，2026年1–6月全球粗鋼總產量為 9.32 億噸，同比小幅下滑 0.68%, 雖上半年萎 縮，但Q2以來,尤其是 6 月粗鋼產",
-        "P 6 --- page 7 --- 銷售淨額 Net Sales 2026Q22026Q1 QoQ % 2025Q2 YoY % 型鋼Merchant Bar 1,681 1,593 88 6% 1,568 113 7% 條線Round Bar 2,285 1,692 593 35% 2,050 235 11% 鋼筋Rebar 3,591 3,102 489 16% 4,711 (1,120) -24% 其他 others 30 18",
-        "2011~2026Q2全球主要國家粗鋼生產統計表 / 2011~2026Q2 Statistical table of crude steel production in major countries in the world 資料來源: World Steel Association 根據世界鋼鐵協會短期展望，2026 年全球鋼鐵需求預估僅年增 0.3%，達 17.24 億噸，整體仍處低成長且區域分化的格局。中國 受房地產調整及基建"
-      ],
-      "financialBullets": [],
-      "riskBullets": [],
-      "qnaBullets": [],
-      "crossCheckBullets": [],
-      "sourceReport": "../法說整理/reports/ir_summary_2026-08-28.md",
-      "detailMarkdown": "## 2015 豐興 深度法說分析\n\n### 一頁結論\n- 展望評價：正面看好（72 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 4、保守訊號 1。\n- 判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 \n\n### 營運與財務重點\n- 2011~2026Q2全球主要國家粗鋼生產統計表 / 2011~2026Q2 Statistical table of crude steel production in major countries in the world 資料來源: World Steel Association 根據世界鋼鐵協會短期展望，2026 年全球鋼鐵需求預估僅年增 0.3%，達 17.24 億噸，整體仍處低成長且區域分化的格局。中國 受房地產調整及基建\n- 1. 2011~2026Q2全球主要國家粗鋼生產統計表 / 2011~2026Q2 Statistical table of crude steel production in major countries in the world 資料來源: World Steel Association 根據世界鋼鐵協會短期展望，2026 年全球鋼鐵需求預估僅年增 0.3%，達 17.24 億噸，整體仍處低成長且區域分化的格局。中國 受房地產調整及基建拉動有限影響，需求偏弱，減產對供需改善有限；印度則受惠基建、都市化及製造業\n- 2. 2011~2026M6全球主要國家粗鋼生產佔比 / Proportion of crude steel production in major countries of the world from 2011 to 2026M6 資料來源: World Steel Association 根據世界鋼鐵協會統計，2026年1–6月全球粗鋼總產量為 9.32 億噸，同比小幅下滑 0.68%, 雖上半年萎 縮，但Q2以來,尤其是 6 月粗鋼產量達 1.557 億噸，年增1.7%。全球粗鋼年產量維持在18~19億噸高\n\n### 展望與成長利基\n- 1. 2011~2026Q2全球主要國家粗鋼生產統計表 / 2011~2026Q2 Statistical table of crude steel production in major countries in the world 資料來源: World Steel Association 根據世界鋼鐵協會短期展望，2026 年全球鋼鐵需求預估僅年增 0.3%，達 17.24 億噸，整體仍處低成長且區域分化的格局。中國 受房地產調整及基建拉動有限影響，需求偏弱，減產對供需改善有限；印度則受惠基建、都市化及製造業\n- 會議大綱 Agenda ◼公司簡介Profile ◼ 2026年第二季財務績效Q2 2026 Financial Results. ◼公司、產業及營運概況暨未來展望 Steel Market Overview ◼ Q&A P 2\n- 2. 2011~2026M6全球主要國家粗鋼生產佔比 / Proportion of crude steel production in major countries of the world from 2011 to 2026M6 資料來源: World Steel Association 根據世界鋼鐵協會統計，2026年1–6月全球粗鋼總產量為 9.32 億噸，同比小幅下滑 0.68%, 雖上半年萎 縮，但Q2以來,尤其是 6 月粗鋼產量達 1.557 億噸，年增1.7%。全球粗鋼年產量維持在18~19億噸高\n- 展望，反應本公司截至目前為止對於未來的看 法。對於這些看法，未來若有任何變更或調整時，本公司並不負 責隨時提醒或更新。 Except as required by law, we undertake no obligation to update any forward-looking statements, whether as a result of new information, future events, or otherwise. P 3\n- 資料來源:內政部國土管理署業務指標/Data Source: National Land Management Agency, MOI , construction business metrics 3.2022~2026M6營建統計-台灣地區近四年逐季核發建築物建造執照統計 2022~2026M6 Statistics of building construction licenses quarterly in the past three years in Taiwan 單位：件；千平方公尺 年別 Year 2\n- 4.豐興鋼筋銷售 & 國內市佔率 Feng Hsin’s Rebar Sales & Domestic Market Share 2022Q AVG 2023Q AVG 2024Q AVG 2025Q AVG 2024Q1 2024Q2 2024Q3 2024Q4 2025Q1 2025/Q2 2025/Q3 2025/Q4 2026 M1-M6 與 2025 M1-M6 同 期比較 豐興銷售量 FH Sales 240,928 247,762 246,490 221,799 241,890 255,107 231\n- 豐興鋼鐵股份有限公司 2026年第二季法人說明會 Feng Hsin Steel Co.,Ltd . Q2 2026 Earnings Conference 2026/08/28 P 1\n- 2026年第二季財務績效 Q2 2026 Financial Results. P 6\n\n### 產品、客戶與市場位置\n- 2011~2026Q2全球主要國家粗鋼生產統計表 / 2011~2026Q2 Statistical table of crude steel production in major countries in the world 資料來源: World Steel Association 根據世界鋼鐵協會短期展望，2026 年全球鋼鐵需求預估僅年增 0.3%，達 17.24 億噸，整體仍處低成長且區域分化的格局。中國 受房地產調整及基建\n- 1. 2011~2026Q2全球主要國家粗鋼生產統計表 / 2011~2026Q2 Statistical table of crude steel production in major countries in the world 資料來源: World Steel Association 根據世界鋼鐵協會短期展望，2026 年全球鋼鐵需求預估僅年增 0.3%，達 17.24 億噸，整體仍處低成長且區域分化的格局。中國 受房地產調整及基建拉動有限影響，需求偏弱，減產對供需改善有限；印度則受惠基建、都市化及製造業\n- 資料來源:內政部國土管理署業務指標/Data Source: National Land Management Agency, MOI , construction business metrics 3.2022~2026M6營建統計-台灣地區近四年逐季核發建築物建造執照統計 2022~2026M6 Statistics of building construction licenses quarterly in the past three years in Taiwan 單位：件；千平方公尺 年別 Year 2\n\n### 風險與不確定性\n- 2011~2026Q2全球主要國家粗鋼生產統計表 / 2011~2026Q2 Statistical table of crude steel production in major countries in the world 資料來源: World Steel Association 根據世界鋼鐵協會短期展望，2026 年全球鋼鐵需求預估僅年增 0.3%，達 17.24 億噸，整體仍處低成長且區域分化的格局。中國 受房地產調整及基建\n- 2011~2026M6全球主要國家粗鋼生產佔比 / Proportion of crude steel production in major countries of the world from 2011 to 2026M6 資料來源: World Steel Association 根據世界鋼鐵協會統計，2026年1–6月全球粗鋼總產量為 9.32 億噸，同比小幅下滑 0.68%, 雖上半年萎 縮，但Q2以來,尤其是 6 月粗鋼產\n- 1. 2011~2026Q2全球主要國家粗鋼生產統計表 / 2011~2026Q2 Statistical table of crude steel production in major countries in the world 資料來源: World Steel Association 根據世界鋼鐵協會短期展望，2026 年全球鋼鐵需求預估僅年增 0.3%，達 17.24 億噸，整體仍處低成長且區域分化的格局。中國 受房地產調整及基建拉動有限影響，需求偏弱，減產對供需改善有限；印度則受惠基建、都市化及製造業\n- 2. 2011~2026M6全球主要國家粗鋼生產佔比 / Proportion of crude steel production in major countries of the world from 2011 to 2026M6 資料來源: World Steel Association 根據世界鋼鐵協會統計，2026年1–6月全球粗鋼總產量為 9.32 億噸，同比小幅下滑 0.68%, 雖上半年萎 縮，但Q2以來,尤其是 6 月粗鋼產量達 1.557 億噸，年增1.7%。全球粗鋼年產量維持在18~19億噸高\n- 展望，反應本公司截至目前為止對於未來的看 法。對於這些看法，未來若有任何變更或調整時，本公司並不負 責隨時提醒或更新。 Except as required by law, we undertake no obligation to update any forward-looking statements, whether as a result of new information, future events, or otherwise. P 3\n\n### Q&A 與管理層口氣\n- 會議大綱 Agenda ◼公司簡介Profile ◼ 2026年第二季財務績效Q2 2026 Financial Results. ◼公司、產業及營運概況暨未來展望 Steel Market Overview ◼ Q&A P 2\n\n### 評分利基點\n- 加分主因：2011~2026Q2全球主要國家粗鋼生產統計表 / 2011~2026Q2 Statistical table of crude steel production in major countries in the world 資料來源: World Steel Association 根據世界鋼鐵協會短期展望，2026 年全球鋼鐵需求預估僅年增 0.3%，達 17.24 億噸，整體仍處低成長且區域分化的格局。中國 受房地產調整及基建；1. 2011~2026Q2全球主要國家粗鋼生產統計表 / 2011~2026Q2 Statistical table of crude steel production in major countries in the world 資料來源: World Steel Association 根據世界鋼鐵協會短期展望，2026 年全球鋼鐵需求預估僅年增 0.3%，達 17.24 億噸，整體仍處低成長且區域分化的格局。中國 受房地產調整及基建拉動有限影響，需求偏弱，減產對供需改善有限；印度則受惠基建、都市化及製造業；2. 2011~2026M6全球主要國家粗鋼生產佔比 / Proportion of crude steel production in major countries of the world from 2011 to 2026M6 資料來源: World Steel Association 根據世界鋼鐵協會統計，2026年1–6月全球粗鋼總產量為 9.32 億噸，同比小幅下滑 0.68%, 雖上半年萎 縮，但Q2以來,尤其是 6 月粗鋼產量達 1.557 億噸，年增1.7%。全球粗鋼年產量維持在18~19億噸高。\n- 扣分或保留：2011~2026Q2全球主要國家粗鋼生產統計表 / 2011~2026Q2 Statistical table of crude steel production in major countries in the world 資料來源: World Steel Association 根據世界鋼鐵協會短期展望，2026 年全球鋼鐵需求預估僅年增 0.3%，達 17.24 億噸，整體仍處低成長且區域分化的格局。中國 受房地產調整及基建；2011~2026M6全球主要國家粗鋼生產佔比 / Proportion of crude steel production in major countries of the world from 2011 to 2026M6 資料來源: World Steel Association 根據世界鋼鐵協會統計，2026年1–6月全球粗鋼總產量為 9.32 億噸，同比小幅下滑 0.68%, 雖上半年萎 縮，但Q2以來,尤其是 6 月粗鋼產；1. 2011~2026Q2全球主要國家粗鋼生產統計表 / 2011~2026Q2 Statistical table of crude steel production in major countries in the world 資料來源: World Steel Association 根據世界鋼鐵協會短期展望，2026 年全球鋼鐵需求預估僅年增 0.3%，達 17.24 億噸，整體仍處低成長且區域分化的格局。中國 受房地產調整及基建拉動有限影響，需求偏弱，減產對供需改善有限；印度則受惠基建、都市化及製造業。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-    },
-    {
-      "date": "2026-08-28",
-      "code": "2017",
-      "name": "官田鋼",
-      "eventType": "法人說明會",
-      "time": "14:30",
-      "location": "線上會議",
-      "topic": "本公司受邀參加統一證券聯合法人說明會,會中就公司業務狀況說明。",
-      "companyWebsite": "",
+      "location": "富邦金融大樓(台北巿大安區仁愛路四段169號15樓)",
+      "topic": "本公司受邀參加富邦證券舉辦之法人座談會, 會中說明本公司營運簡介、ESG、公司未來展望",
+      "companyWebsite": "https://www.taiwancement.com/tw/ir_investor-meetings.html",
       "chinesePdf": "",
       "englishPdf": "",
-      "mediaUrl": "http://irconference.twse.com.tw/2017_28_20260828_ch.mp4",
+      "mediaUrl": "https://media.taiwancement.com/investors/2026/20260831_FUBON.mp3",
       "mediaStatus": "有影音",
       "transcriptStatus": "未產生",
       "outlookBullets": [
@@ -13943,392 +13480,74 @@ window.irSummaryLatest = {
       },
       "summaryBullets": [
         "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-        "MOPS 擇要訊息：本公司受邀參加統一證券聯合法人說明會,會中就公司業務狀況說明。",
+        "MOPS 擇要訊息：本公司受邀參加富邦證券舉辦之法人座談會, 會中說明本公司營運簡介、ESG、公司未來展望",
         "缺少可摘要的簡報文字或轉錄稿。"
       ],
       "financialBullets": [],
       "riskBullets": [],
       "qnaBullets": [],
       "crossCheckBullets": [],
-      "sourceReport": "../法說整理/reports/ir_summary_2026-08-28.md",
-      "detailMarkdown": "## 2017 官田鋼 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：本公司受邀參加統一證券聯合法人說明會,會中就公司業務狀況說明。\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+      "sourceReport": "../法說整理/reports/ir_summary_2026-08-31.md",
+      "detailMarkdown": "## 1101 台泥 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：本公司受邀參加富邦證券舉辦之法人座談會, 會中說明本公司營運簡介、ESG、公司未來展望\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
     },
     {
-      "date": "2026-08-28",
-      "code": "2368",
-      "name": "金像電",
+      "date": "2026-08-31",
+      "code": "2739",
+      "name": "寒舍",
       "eventType": "法人說明會",
       "time": "14:30",
-      "location": "台北君悅酒店",
-      "topic": "本公司受邀參加富邦證舉辦之法人說明會",
-      "companyWebsite": "https://www.gce.com.tw/legal.html",
-      "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/236820260819M001.pdf",
-      "englishPdf": "https://mopsov.twse.com.tw/nas/STR/236820260819E001.pdf",
-      "mediaUrl": "http://irconference.twse.com.tw/2368_46_20260828_ch.mp4",
+      "location": "台北喜來登大飯店B2月星廳(台北市忠孝東路一段12號B2)",
+      "topic": "本公司受邀參加國泰證券舉辦之法人說明會,說明本公司之營運概況及經營策略等相關資訊。",
+      "companyWebsite": "https://www.mhh-group.com/",
+      "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/273920260831M001.pdf",
+      "englishPdf": "https://mopsov.twse.com.tw/nas/STR/273920260831E001.pdf",
+      "mediaUrl": "https://www.youtube.com/watch?v=v-F2Rdd3aJE",
       "mediaStatus": "有影音",
       "transcriptStatus": "未產生",
       "outlookBullets": [
-        "8 金像電 2026/2025 每季淨利 單位:台幣億元 Q1 Q2 Q3 Q4 Y2025 營收 120.6 138.5 176.8 164.1 毛利率 31.3% 29.6% 35.60% 33.66% 稅前淨利 26.5 25.1 47.3 42.8 Y2026 營收 193.1 242.8 毛利率 34.81% 34.7% 稅前淨利 50.9 63 營收成長% 60% 75%"
-      ],
-      "outlookTone": {
-        "label": "中性觀望",
-        "score": 52,
-        "basis": "正向訊號 2、保守訊號 2"
-      },
-      "summaryBullets": [
-        "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-        "MOPS 擇要訊息：本公司受邀參加富邦證舉辦之法人說明會",
-        " 生產 基地 金像電子股份有限公司 民國70年 民國87年3月9日 台幣52.3億 高階線路板 ,厚銅板及背板 HDI 台灣中壢、大陸蘇州、大陸常熟、泰國巴真 公司基本資料 --- page 4 --- 全球服務據點 America AsiaEurope Africa Oceania West USA Service Office Plant East USA South USA Europe Japan Korea Malaysia",
-        "9th, 1998 NTD 5,229 Million High Layer Count, HDI, Heavy Cu & Backplane Taiwan 、 Suzhou 、 Chang Shu 、 Thailand General Information 3 --- page 4 --- Global Support & Service America AsiaEurope Africa Oceania West USA Serv",
-        "These projections & estimates are based on information currently available which we believe to be reliable, but they involve risks & uncertainties.",
-        "Our actual results of operations & financial condition may differ significantly from those contained in projections & estimates.",
-        "These projections & estimates are based on information currently available which we believe to be reliable, but they involve risks & uncertainties."
-      ],
-      "financialBullets": [],
-      "riskBullets": [],
-      "qnaBullets": [],
-      "crossCheckBullets": [],
-      "sourceReport": "../法說整理/reports/ir_summary_2026-08-28.md",
-      "detailMarkdown": "## 2368 金像電 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（52 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 2、保守訊號 2。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 8 金像電 2026/2025 每季淨利 單位:台幣億元 Q1 Q2 Q3 Q4 Y2025 營收 120.6 138.5 176.8 164.1 毛利率 31.3% 29.6% 35.60% 33.66% 稅前淨利 26.5 25.1 47.3 42.8 Y2026 營收 193.1 242.8 毛利率 34.81% 34.7% 稅前淨利 50.9 63 營收成長% 60% 75%\n\n### 展望與成長利基\n- 8 金像電 2026/2025 每季淨利 單位:台幣億元 Q1 Q2 Q3 Q4 Y2025 營收 120.6 138.5 176.8 164.1 毛利率 31.3% 29.6% 35.60% 33.66% 稅前淨利 26.5 25.1 47.3 42.8 Y2026 營收 193.1 242.8 毛利率 34.81% 34.7% 稅前淨利 50.9 63 營收成長% 60% 75%\n\n### 產品、客戶與市場位置\n- 9th, 1998 NTD 5,229 Million High Layer Count, HDI, Heavy Cu & Backplane Taiwan 、 Suzhou 、 Chang Shu 、 Thailand General Information 3 --- page 4 --- Global Support & Service America AsiaEurope Africa Oceania West USA Serv\n- These projections & estimates are based on information currently available which we believe to be reliable, but they involve risks & uncertainties.\n- Our actual results of operations & financial condition may differ significantly from those contained in projections & estimates.\n\n### 風險與不確定性\n- These projections & estimates are based on information currently available which we believe to be reliable, but they involve risks & uncertainties.\n\n### Q&A 與管理層口氣\n- 8 金像電 2026/2025 每季淨利 單位:台幣億元 Q1 Q2 Q3 Q4 Y2025 營收 120.6 138.5 176.8 164.1 毛利率 31.3% 29.6% 35.60% 33.66% 稅前淨利 26.5 25.1 47.3 42.8 Y2026 營收 193.1 242.8 毛利率 34.81% 34.7% 稅前淨利 50.9 63 營收成長% 60% 75%\n\n### 評分利基點\n- 加分主因： 生產 基地 金像電子股份有限公司 民國70年 民國87年3月9日 台幣52.3億 高階線路板 ,厚銅板及背板 HDI 台灣中壢、大陸蘇州、大陸常熟、泰國巴真 公司基本資料 --- page 4 --- 全球服務據點 America AsiaEurope Africa Oceania West USA Service Office Plant East USA South USA Europe Japan Korea Malaysia；8 金像電 2026/2025 每季淨利 單位:台幣億元 Q1 Q2 Q3 Q4 Y2025 營收 120.6 138.5 176.8 164.1 毛利率 31.3% 29.6% 35.60% 33.66% 稅前淨利 26.5 25.1 47.3 42.8 Y2026 營收 193.1 242.8 毛利率 34.81% 34.7% 稅前淨利 50.9 63 營收成長% 60% 75%。\n- 扣分或保留：These projections & estimates are based on information currently available which we believe to be reliable, but they involve risks & uncertainties.。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-    },
-    {
-      "date": "2026-08-28",
-      "code": "2882",
-      "name": "國泰金",
-      "eventType": "法人說明會",
-      "time": "14:00",
-      "location": "中文場與英文場皆採電話會議暨網路直播方式進行。",
-      "topic": "公佈115年度第二季營運概況。中文場14:00-15:00;英文場17:00-18:00。",
-      "companyWebsite": "https://www.cathayholdings.com/holdings/ir/events_and_announcements/events",
-      "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/288220260828M001.pdf",
-      "englishPdf": "https://mopsov.twse.com.tw/nas/STR/288220260828E001.pdf",
-      "mediaUrl": "https://www.zucast.com/webcast/uONouyka",
-      "mediaStatus": "有影音",
-      "transcriptStatus": "未產生",
-      "outlookBullets": [
-        "2026年上半年營運回顧 4 國泰世華銀行 國泰投信 國泰產險 國泰證券 國泰人壽 ⚫ 稅後淨利續創同期新高，年成長15% ⚫ 存放款動能強健，淨利息收入年成長14%，資產品質維持良好 ⚫ 淨手續費收入年成長11%，受惠財富管理成長動能強勁 ⚫ 強化數位經營競爭優勢 ，以數據驅動優化客戶體驗 ，結合集團資源 ，擴大客 戶規模，台股經紀市占率持續提升 ⚫ 持續豐富複委託商品線，優化平台功能，複委託成交量持續提升 ⚫ 首檔主動式ETF 00400A成功掛牌，基金規模至6月底達新台幣254億元 ⚫ 總資產管理規模新台幣3",
-        "國泰世華銀行 – 淨利差 11 Spread NIM Quarterly 1Q23 2Q23 3Q23 4Q23 1Q24 2Q24 3Q24 4Q24 1Q25 2Q25 3Q25 4Q25 1Q26 2Q26 1.91% 1.84% 1.73% 1.70% 1.75% 1.83% 1.86% 1.87% 1.85% 1.86% 1.89% 1.90% 1.91% 1.95% 1.40% 1.37% 1.36% 1.40% 1.46% 1.55% 1.61% 1.57% 1.55% 1.57% 1.54% 1.5",
-        "2026 2027 2028 2029 2030 38 國泰人壽 - IFRS 17接軌主要影響 IFRS 4 IFRS 17 淨值具一次性影響，納入稅後CSM 之調整後淨值高於IFRS 4 淨值 CSM釋出(2)逐年增加，支撐未來獲利 利息成本降低，具穩定正利差 CSM釋出成長有助於穩定損益兩平 投資收益率 504.5 749.0 914.0 IFRS 4 IFRS 17 CSM餘額 淨值 IFRS 4 負債成本 IFRS 17 負債利息成本 IFRS 4 IFRS 17 (Asset-based) 34 (NT",
-        "217.3 214.6 281.9 314.7 378.3 FY22 FY23 FY24 FY25 1H26 304.2 324.0 335.2 361.8 376.6 FY22 FY23 FY24 FY25 1H26 國泰世華銀行 – SME與外幣放款 13 占全行放款 12.8% 12.8%14.5%15.3% 12.3% 10.8% 11.1%9.6%10.9% 12.4% +7% YoY +34% YoY  中小企業放款穩健成長，年成長7%  受惠供應鏈重組及企業海外資本支出需求，外幣放款年成長34%",
-        "39 IFRS 17接軌資產與負債主要變動  保險負債改採公允價值衡量，未來保險合約利潤以CSM認列於負債，餘額達NT$5,119億， 將於保險合約保障期間逐步釋出至損益  資產差異主要反映金融資產重新指定與調整保單貸款改納入保險合約負債認列 資產 負債 8,990.9 8,726.0 IFRS 9 & IFRS 4 IFRS 9 & IFRS 17 6,966.1 6,582.0 62.6 511.9 8,241.9 8,221.5 IFRS 4 IFRS 17 保險負債 BEL RA CSM 其他 (NT$",
-        "41 9.7 504.5 409.5 749.0 (70.0) (184.2) 914.0 IFRS 4淨值 保險負債 重新衡量 影響 金融資產 重新指定 其他 子公司 IFRS 17 淨值 CSM (稅後) IFRS 17 調整後淨值 IFRS 4 淨值(1) IFRS 17接軌日之淨值變動 (NT$BN) 9.4%淨值比 6.8% 11.9% 納入稅後CSM之調整後淨值更能反映公司價值  淨值之一次性影響主要反映台幣高預定利率保單改以現行市場利率衡量之結果  CSM為保險合約未來利潤，納入稅後CSM之調整後",
-        "47 國泰人壽：IFRS 17 接軌影響 • CSM 為保險合約未來利潤，餘額達NT$ 5,119億；納入稅後CSM之調整後淨 值更能反映公司價值，達NT$9,140億，高於IFRS 4淨值 資本 獲利 ALM & 風險管理 CSM &淨值 • 強健的新契約CSM生成能力支撐獲利成長 • 接軌後負債利息成本降至市場利率水準，具穩定正利差 • 獲利主要來自CSM釋出及經常性利差貢獻，可預測性及穩定性增加，有助於 整體ROE表現 • 強化ALM及風險管理能力，有助於財報表現，並降低淨值之波動度 • 強勁之新契約CSM生",
-        "Cathay United Bank – Interest yield 11  Interest spread and NIM both expanded, driven by strong FX loan growth and a higher demand deposit ratio. Spread NIM Quarterly Note: Credit card-related loans are included in the calculation of interest spread. .5 . 2."
+        "探索廚房全新升級 2025年10月中，台北寒舍艾美酒店完成探索廚房全面升級，擴大日料區與增加多款海鮮料理，帶動營運表現提升。改 裝後2025年第四季營收較2024年第四季同期成長15%；2026年第一季營收進一步突破億元，第二季亦較去年同期成 長18%，顯示改裝效益持續發酵。 25",
+        "客房全新硬體升級 集團精準布局暑假及親子旅遊市場，台北喜來登大飯店於2026年5月完成12間親子主題客房改裝，攜手台灣插畫家打造多元 房型，暑期需求帶動7月親子房銷售房晚數較去年同期成長約103%。 礁溪寒沐酒店持續深耕高端國旅市場，升級「MU TOP尊榮貴賓廳」、部分房型更新席夢思睡床，並增設按摩設備，透過軟 硬體升級提升住房競爭力。受惠暑期旺季，7月平均房價年增1.13%，住房數年增約29%，帶動客房營收年增30%。 26 7月 VS. 去年同期 7月單月",
+        "45 員工持股 共創價值深化人才永續 • 寒舍餐旅於2026年6月正式推動員工持股制度，透過公司獎勵補助機制，鼓勵員工共同參與企業 長期發展，建立共享成果、共同成長的夥伴關係，強化薪酬福利及留才機制。 共同參與 鼓勵員工共同參與 企業長期發展 共享成果 建立共享成果、 共同成長的夥伴關係 完善制度 強化人才發展、 薪酬福利與留才機制 員工持股制度 一 共創價值・共享未來 一 39",
+        "• 寒舍餐旅舉辦多場公益捐血活動，有效挹注醫療用血需求，展現企 業攜手社會夥伴守護生命健康的具體成果。 • 2025年10月，寒舍餐旅持續投入花蓮震後重建工作，將第二批賑 災物資送達花蓮光復鄉，透過企業資源整合及員工共同參與，提供 受災居民實質協助。 • 2026年3月，萬豪國際集團與唐氏症基金會推出公益合作計畫，支 持《321 因為有你・我們一起》公益特展及愛心義賣活動。 攜手災後重建．推動熱血公益 38",
+        "Employee Stock Ownership Plan (ESOP) · Sustainable Talent Development • In June 2026, My Humble House Hospitality officially launched its Employee Stock Ownership Plan (ESOP), supported by a company-sponsored incentive program to encourage employees to partici"
       ],
       "outlookTone": {
         "label": "正面看好",
-        "score": 100,
-        "basis": "正向訊號 10、保守訊號 1"
+        "score": 85,
+        "basis": "正向訊號 5、保守訊號 0"
       },
       "summaryBullets": [
         "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-        "MOPS 擇要訊息：公佈115年度第二季營運概況。中文場14:00-15:00;英文場17:00-18:00。",
-        "page 3 ---  2026年上半年營運回顧  營運績效 國泰世華銀行 國泰人壽 國泰產險 國泰投信 國泰證券  附錄 議程 3註：國泰世華銀行、國泰人壽及國泰產險章節之數字均為個體基礎 --- page 4 --- 2026年上半年營運回顧 4 國泰世華銀行 國泰投信 國泰產險 國泰證券 國泰人壽 ⚫ 稅後淨利續創同期新高，年成長15% ⚫ 存放款動能強健，淨利息收入年成長14%，資產品質維持良好 ⚫ 淨手續費收入年成長11",
-        "page 6 --- 4.95 6.09 2.89 11.04 1H25 1H26 76.5 89.4 45.9 165.9 1H25 1H26 51.5 111.2 107.6 FY23 FY24 FY25 3.24 7.29 7.06 FY23 FY24 FY25 6 FVOCI equity disposal gains, net of tax Net income (NT$BN) (NT$) FVOCI equity dispo",
-        "FitBack health promotion program Members > 1.7mn Note: Includes both individual and group insurance Source: Taiwan Insurance Institute, Life Insurance Association of Taiwan Health insurance* sales support NB CSM Strong d",
-        "1 Large-Cap & Financial in 2025 Globally recognized sustainability performance TaiwanGlobal 52 A- level Top 20% Among 1,000+ listed companies ’ th financial institution First Taiwan financial institution 1st in Asia TWSE",
-        "Except for the numbers and information included in the Company's financial statements, the information contained in this document has not been audited or reviewed by any accountant or independent expert."
+        "MOPS 擇要訊息：本公司受邀參加國泰證券舉辦之法人說明會,說明本公司之營運概況及經營策略等相關資訊。",
+        "21 2023 2024 2025 稅後淨利(億元) 4.14 4.94 2.16 EPS(元) 4.52 5.39 2.36 每股股利(元) 0 1 2.58 4.14 4.94 2.16 4.52 5.39 2.36 0 1 2.58 0 1 2 3 4 5 6 稅後淨利(億元) EPS(元) 每股股利(元) 2023H1 2024H1 2025H1 2026H1 稅後淨利(億元) 1.21 5.19 0.97 2.5 EPS(元)",
+        "page 15 --- 股股股股 --- page 16 --- 各飯店平均住房率 資料來源：本公司及交通部觀光署統計資料 2021 2022 2023 2024 2025 2026H1 台北喜來登 27% 46% 70% 76% 77% 73% 寒舍艾美 33% 59% 79% 81% 85% 87% 礁溪寒沐 56% 62% 57% 50% 58% 49% 寒居酒店 58% 71% 78% 80% 81% 27% 46% 70% 7",
+        "25 --- page 26 --- 客房全新硬體升級 集團精準布局暑假及親子旅遊市場，台北喜來登大飯店於2026年5月完成12間親子主題客房改裝，攜手台灣插畫家打造多元 房型，暑期需求帶動7月親子房銷售房晚數較去年同期成長約103%。",
+        "2021-2026 2021 2022 2023 2024 2025 2026H1 Sheraton Grand Taipei Hotel 3,012 3,309 4,524 5,051 5,162 5,541 Le Méridien Taipei 5,309 6,226 9,611 9,803 9,574 10,078 MU JIAO XI HOTEL 7,262 7,955 8,295 7,632 7,253 8,115 Humbl",
+        "3 4 11 15 23 33 10 --- page 4 --- 股股股股 --- page 5 --- 股股股股 股股股股股 2000 股 1 股 17 股 股股股 915,260,000 股 股股股股 股股股股 股股股股股股股股股股股股股股股股股 股股股股股股股股股股股 股股股股 股股股股股股股股股 ( 股股股 29.8%) 股股股股 1, 384 股 5 --- page 6 --- 5 股股股股 五星級款待精緻體驗 國際級卓越"
       ],
       "financialBullets": [],
       "riskBullets": [],
       "qnaBullets": [],
       "crossCheckBullets": [],
-      "sourceReport": "../法說整理/reports/ir_summary_2026-08-28.md",
-      "detailMarkdown": "## 2882 國泰金 深度法說分析\n\n### 一頁結論\n- 展望評價：正面看好（100 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 10、保守訊號 1。\n- 判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 \n\n### 營運與財務重點\n- page 3 ---  2026年上半年營運回顧  營運績效 國泰世華銀行 國泰人壽 國泰產險 國泰投信 國泰證券  附錄 議程 3註：國泰世華銀行、國泰人壽及國泰產險章節之數字均為個體基礎 --- page 4 --- 2026年上半年營運回顧 4 國泰世華銀行 國泰投信 國泰產險 國泰證券 國泰人壽 ⚫ 稅後淨利續創同期新高，年成長15% ⚫ 存放款動能強健，淨利息收入年成長14%，資產品質維持良好 ⚫ 淨手續費收入年成長11\n- 2026年上半年營運回顧 4 國泰世華銀行 國泰投信 國泰產險 國泰證券 國泰人壽 ⚫ 稅後淨利續創同期新高，年成長15% ⚫ 存放款動能強健，淨利息收入年成長14%，資產品質維持良好 ⚫ 淨手續費收入年成長11%，受惠財富管理成長動能強勁 ⚫ 強化數位經營競爭優勢 ，以數據驅動優化客戶體驗 ，結合集團資源 ，擴大客 戶規模，台股經紀市占率持續提升 ⚫ 持續豐富複委託商品線，優化平台功能，複委託成交量持續提升 ⚫ 首檔主動式ETF 00400A成功掛牌，基金規模至6月底達新台幣254億元 ⚫ 總資產管理規模新台幣3\n- 國泰世華銀行 – 淨利差 11 Spread NIM Quarterly 1Q23 2Q23 3Q23 4Q23 1Q24 2Q24 3Q24 4Q24 1Q25 2Q25 3Q25 4Q25 1Q26 2Q26 1.91% 1.84% 1.73% 1.70% 1.75% 1.83% 1.86% 1.87% 1.85% 1.86% 1.89% 1.90% 1.91% 1.95% 1.40% 1.37% 1.36% 1.40% 1.46% 1.55% 1.61% 1.57% 1.55% 1.57% 1.54% 1.5\n- 2026 2027 2028 2029 2030 38 國泰人壽 - IFRS 17接軌主要影響 IFRS 4 IFRS 17 淨值具一次性影響，納入稅後CSM 之調整後淨值高於IFRS 4 淨值 CSM釋出(2)逐年增加，支撐未來獲利 利息成本降低，具穩定正利差 CSM釋出成長有助於穩定損益兩平 投資收益率 504.5 749.0 914.0 IFRS 4 IFRS 17 CSM餘額 淨值 IFRS 4 負債成本 IFRS 17 負債利息成本 IFRS 4 IFRS 17 (Asset-based) 34 (NT\n- 217.3 214.6 281.9 314.7 378.3 FY22 FY23 FY24 FY25 1H26 304.2 324.0 335.2 361.8 376.6 FY22 FY23 FY24 FY25 1H26 國泰世華銀行 – SME與外幣放款 13 占全行放款 12.8% 12.8%14.5%15.3% 12.3% 10.8% 11.1%9.6%10.9% 12.4% +7% YoY +34% YoY  中小企業放款穩健成長，年成長7%  受惠供應鏈重組及企業海外資本支出需求，外幣放款年成長34%\n- 39 IFRS 17接軌資產與負債主要變動  保險負債改採公允價值衡量，未來保險合約利潤以CSM認列於負債，餘額達NT$5,119億， 將於保險合約保障期間逐步釋出至損益  資產差異主要反映金融資產重新指定與調整保單貸款改納入保險合約負債認列 資產 負債 8,990.9 8,726.0 IFRS 9 & IFRS 4 IFRS 9 & IFRS 17 6,966.1 6,582.0 62.6 511.9 8,241.9 8,221.5 IFRS 4 IFRS 17 保險負債 BEL RA CSM 其他 (NT$\n\n### 展望與成長利基\n- 2026年上半年營運回顧 4 國泰世華銀行 國泰投信 國泰產險 國泰證券 國泰人壽 ⚫ 稅後淨利續創同期新高，年成長15% ⚫ 存放款動能強健，淨利息收入年成長14%，資產品質維持良好 ⚫ 淨手續費收入年成長11%，受惠財富管理成長動能強勁 ⚫ 強化數位經營競爭優勢 ，以數據驅動優化客戶體驗 ，結合集團資源 ，擴大客 戶規模，台股經紀市占率持續提升 ⚫ 持續豐富複委託商品線，優化平台功能，複委託成交量持續提升 ⚫ 首檔主動式ETF 00400A成功掛牌，基金規模至6月底達新台幣254億元 ⚫ 總資產管理規模新台幣3\n- 國泰世華銀行 – 淨利差 11 Spread NIM Quarterly 1Q23 2Q23 3Q23 4Q23 1Q24 2Q24 3Q24 4Q24 1Q25 2Q25 3Q25 4Q25 1Q26 2Q26 1.91% 1.84% 1.73% 1.70% 1.75% 1.83% 1.86% 1.87% 1.85% 1.86% 1.89% 1.90% 1.91% 1.95% 1.40% 1.37% 1.36% 1.40% 1.46% 1.55% 1.61% 1.57% 1.55% 1.57% 1.54% 1.5\n- 2026 2027 2028 2029 2030 38 國泰人壽 - IFRS 17接軌主要影響 IFRS 4 IFRS 17 淨值具一次性影響，納入稅後CSM 之調整後淨值高於IFRS 4 淨值 CSM釋出(2)逐年增加，支撐未來獲利 利息成本降低，具穩定正利差 CSM釋出成長有助於穩定損益兩平 投資收益率 504.5 749.0 914.0 IFRS 4 IFRS 17 CSM餘額 淨值 IFRS 4 負債成本 IFRS 17 負債利息成本 IFRS 4 IFRS 17 (Asset-based) 34 (NT\n- 217.3 214.6 281.9 314.7 378.3 FY22 FY23 FY24 FY25 1H26 304.2 324.0 335.2 361.8 376.6 FY22 FY23 FY24 FY25 1H26 國泰世華銀行 – SME與外幣放款 13 占全行放款 12.8% 12.8%14.5%15.3% 12.3% 10.8% 11.1%9.6%10.9% 12.4% +7% YoY +34% YoY  中小企業放款穩健成長，年成長7%  受惠供應鏈重組及企業海外資本支出需求，外幣放款年成長34%\n- 39 IFRS 17接軌資產與負債主要變動  保險負債改採公允價值衡量，未來保險合約利潤以CSM認列於負債，餘額達NT$5,119億， 將於保險合約保障期間逐步釋出至損益  資產差異主要反映金融資產重新指定與調整保單貸款改納入保險合約負債認列 資產 負債 8,990.9 8,726.0 IFRS 9 & IFRS 4 IFRS 9 & IFRS 17 6,966.1 6,582.0 62.6 511.9 8,241.9 8,221.5 IFRS 4 IFRS 17 保險負債 BEL RA CSM 其他 (NT$\n- 41 9.7 504.5 409.5 749.0 (70.0) (184.2) 914.0 IFRS 4淨值 保險負債 重新衡量 影響 金融資產 重新指定 其他 子公司 IFRS 17 淨值 CSM (稅後) IFRS 17 調整後淨值 IFRS 4 淨值(1) IFRS 17接軌日之淨值變動 (NT$BN) 9.4%淨值比 6.8% 11.9% 納入稅後CSM之調整後淨值更能反映公司價值  淨值之一次性影響主要反映台幣高預定利率保單改以現行市場利率衡量之結果  CSM為保險合約未來利潤，納入稅後CSM之調整後\n- 47 國泰人壽：IFRS 17 接軌影響 • CSM 為保險合約未來利潤，餘額達NT$ 5,119億；納入稅後CSM之調整後淨 值更能反映公司價值，達NT$9,140億，高於IFRS 4淨值 資本 獲利 ALM & 風險管理 CSM &淨值 • 強健的新契約CSM生成能力支撐獲利成長 • 接軌後負債利息成本降至市場利率水準，具穩定正利差 • 獲利主要來自CSM釋出及經常性利差貢獻，可預測性及穩定性增加，有助於 整體ROE表現 • 強化ALM及風險管理能力，有助於財報表現，並降低淨值之波動度 • 強勁之新契約CSM生\n- Cathay United Bank – Interest yield 11  Interest spread and NIM both expanded, driven by strong FX loan growth and a higher demand deposit ratio. Spread NIM Quarterly Note: Credit card-related loans are included in the calculation of interest spread. .5 . 2.\n\n### 產品、客戶與市場位置\n- page 3 ---  2026年上半年營運回顧  營運績效 國泰世華銀行 國泰人壽 國泰產險 國泰投信 國泰證券  附錄 議程 3註：國泰世華銀行、國泰人壽及國泰產險章節之數字均為個體基礎 --- page 4 --- 2026年上半年營運回顧 4 國泰世華銀行 國泰投信 國泰產險 國泰證券 國泰人壽 ⚫ 稅後淨利續創同期新高，年成長15% ⚫ 存放款動能強健，淨利息收入年成長14%，資產品質維持良好 ⚫ 淨手續費收入年成長11\n- page 6 --- 4.95 6.09 2.89 11.04 1H25 1H26 76.5 89.4 45.9 165.9 1H25 1H26 51.5 111.2 107.6 FY23 FY24 FY25 3.24 7.29 7.06 FY23 FY24 FY25 6 FVOCI equity disposal gains, net of tax Net income (NT$BN) (NT$) FVOCI equity dispo\n- FitBack health promotion program Members > 1.7mn Note: Includes both individual and group insurance Source: Taiwan Insurance Institute, Life Insurance Association of Taiwan Health insurance* sales support NB CSM Strong d\n- 1 Large-Cap & Financial in 2025 Globally recognized sustainability performance TaiwanGlobal 52 A- level Top 20% Among 1,000+ listed companies ’ th financial institution First Taiwan financial institution 1st in Asia TWSE\n- Except for the numbers and information included in the Company's financial statements, the information contained in this document has not been audited or reviewed by any accountant or independent expert.\n- 2026年上半年營運回顧 4 國泰世華銀行 國泰投信 國泰產險 國泰證券 國泰人壽 ⚫ 稅後淨利續創同期新高，年成長15% ⚫ 存放款動能強健，淨利息收入年成長14%，資產品質維持良好 ⚫ 淨手續費收入年成長11%，受惠財富管理成長動能強勁 ⚫ 強化數位經營競爭優勢 ，以數據驅動優化客戶體驗 ，結合集團資源 ，擴大客 戶規模，台股經紀市占率持續提升 ⚫ 持續豐富複委託商品線，優化平台功能，複委託成交量持續提升 ⚫ 首檔主動式ETF 00400A成功掛牌，基金規模至6月底達新台幣254億元 ⚫ 總資產管理規模新台幣3\n\n### 風險與不確定性\n- 2026 2027 2028 2029 2030 38 國泰人壽 - IFRS 17接軌主要影響 IFRS 4 IFRS 17 淨值具一次性影響，納入稅後CSM 之調整後淨值高於IFRS 4 淨值 CSM釋出(2)逐年增加，支撐未來獲利 利息成本降低，具穩定正利差 CSM釋出成長有助於穩定損益兩平 投資收益率 504.5 749.0 914.0 IFRS 4 IFRS 17 CSM餘額 淨值 IFRS 4 負債成本 IFRS 17 負債利息成本 IFRS 4 IFRS 17 (Asset-based) 34 (NT\n- 39 IFRS 17接軌資產與負債主要變動  保險負債改採公允價值衡量，未來保險合約利潤以CSM認列於負債，餘額達NT$5,119億， 將於保險合約保障期間逐步釋出至損益  資產差異主要反映金融資產重新指定與調整保單貸款改納入保險合約負債認列 資產 負債 8,990.9 8,726.0 IFRS 9 & IFRS 4 IFRS 9 & IFRS 17 6,966.1 6,582.0 62.6 511.9 8,241.9 8,221.5 IFRS 4 IFRS 17 保險負債 BEL RA CSM 其他 (NT$\n- 41 9.7 504.5 409.5 749.0 (70.0) (184.2) 914.0 IFRS 4淨值 保險負債 重新衡量 影響 金融資產 重新指定 其他 子公司 IFRS 17 淨值 CSM (稅後) IFRS 17 調整後淨值 IFRS 4 淨值(1) IFRS 17接軌日之淨值變動 (NT$BN) 9.4%淨值比 6.8% 11.9% 納入稅後CSM之調整後淨值更能反映公司價值  淨值之一次性影響主要反映台幣高預定利率保單改以現行市場利率衡量之結果  CSM為保險合約未來利潤，納入稅後CSM之調整後\n- 47 國泰人壽：IFRS 17 接軌影響 • CSM 為保險合約未來利潤，餘額達NT$ 5,119億；納入稅後CSM之調整後淨 值更能反映公司價值，達NT$9,140億，高於IFRS 4淨值 資本 獲利 ALM & 風險管理 CSM &淨值 • 強健的新契約CSM生成能力支撐獲利成長 • 接軌後負債利息成本降至市場利率水準，具穩定正利差 • 獲利主要來自CSM釋出及經常性利差貢獻，可預測性及穩定性增加，有助於 整體ROE表現 • 強化ALM及風險管理能力，有助於財報表現，並降低淨值之波動度 • 強勁之新契約CSM生\n\n### Q&A 與管理層口氣\n- 2026 2027 2028 2029 2030 38 國泰人壽 - IFRS 17接軌主要影響 IFRS 4 IFRS 17 淨值具一次性影響，納入稅後CSM 之調整後淨值高於IFRS 4 淨值 CSM釋出(2)逐年增加，支撐未來獲利 利息成本降低，具穩定正利差 CSM釋出成長有助於穩定損益兩平 投資收益率 504.5 749.0 914.0 IFRS 4 IFRS 17 CSM餘額 淨值 IFRS 4 負債成本 IFRS 17 負債利息成本 IFRS 4 IFRS 17 (Asset-based) 34 (NT\n- 217.3 214.6 281.9 314.7 378.3 FY22 FY23 FY24 FY25 1H26 304.2 324.0 335.2 361.8 376.6 FY22 FY23 FY24 FY25 1H26 國泰世華銀行 – SME與外幣放款 13 占全行放款 12.8% 12.8%14.5%15.3% 12.3% 10.8% 11.1%9.6%10.9% 12.4% +7% YoY +34% YoY  中小企業放款穩健成長，年成長7%  受惠供應鏈重組及企業海外資本支出需求，外幣放款年成長34%\n- 47 國泰人壽：IFRS 17 接軌影響 • CSM 為保險合約未來利潤，餘額達NT$ 5,119億；納入稅後CSM之調整後淨 值更能反映公司價值，達NT$9,140億，高於IFRS 4淨值 資本 獲利 ALM & 風險管理 CSM &淨值 • 強健的新契約CSM生成能力支撐獲利成長 • 接軌後負債利息成本降至市場利率水準，具穩定正利差 • 獲利主要來自CSM釋出及經常性利差貢獻，可預測性及穩定性增加，有助於 整體ROE表現 • 強化ALM及風險管理能力，有助於財報表現，並降低淨值之波動度 • 強勁之新契約CSM生\n\n### 評分利基點\n- 加分主因：page 3 ---  2026年上半年營運回顧  營運績效 國泰世華銀行 國泰人壽 國泰產險 國泰投信 國泰證券  附錄 議程 3註：國泰世華銀行、國泰人壽及國泰產險章節之數字均為個體基礎 --- page 4 --- 2026年上半年營運回顧 4 國泰世華銀行 國泰投信 國泰產險 國泰證券 國泰人壽 ⚫ 稅後淨利續創同期新高，年成長15% ⚫ 存放款動能強健，淨利息收入年成長14%，資產品質維持良好 ⚫ 淨手續費收入年成長11；FitBack health promotion program Members > 1.7mn Note: Includes both individual and group insurance Source: Taiwan Insurance Institute, Life Insurance Association of Taiwan Health insurance* sales support NB CSM Strong d；2026年上半年營運回顧 4 國泰世華銀行 國泰投信 國泰產險 國泰證券 國泰人壽 ⚫ 稅後淨利續創同期新高，年成長15% ⚫ 存放款動能強健，淨利息收入年成長14%，資產品質維持良好 ⚫ 淨手續費收入年成長11%，受惠財富管理成長動能強勁 ⚫ 強化數位經營競爭優勢 ，以數據驅動優化客戶體驗 ，結合集團資源 ，擴大客 戶規模，台股經紀市占率持續提升 ⚫ 持續豐富複委託商品線，優化平台功能，複委託成交量持續提升 ⚫ 首檔主動式ETF 00400A成功掛牌，基金規模至6月底達新台幣254億元 ⚫ 總資產管理規模新台幣3。\n- 扣分或保留：2026 2027 2028 2029 2030 38 國泰人壽 - IFRS 17接軌主要影響 IFRS 4 IFRS 17 淨值具一次性影響，納入稅後CSM 之調整後淨值高於IFRS 4 淨值 CSM釋出(2)逐年增加，支撐未來獲利 利息成本降低，具穩定正利差 CSM釋出成長有助於穩定損益兩平 投資收益率 504.5 749.0 914.0 IFRS 4 IFRS 17 CSM餘額 淨值 IFRS 4 負債成本 IFRS 17 負債利息成本 IFRS 4 IFRS 17 (Asset-based) 34 (NT；39 IFRS 17接軌資產與負債主要變動  保險負債改採公允價值衡量，未來保險合約利潤以CSM認列於負債，餘額達NT$5,119億， 將於保險合約保障期間逐步釋出至損益  資產差異主要反映金融資產重新指定與調整保單貸款改納入保險合約負債認列 資產 負債 8,990.9 8,726.0 IFRS 9 & IFRS 4 IFRS 9 & IFRS 17 6,966.1 6,582.0 62.6 511.9 8,241.9 8,221.5 IFRS 4 IFRS 17 保險負債 BEL RA CSM 其他 (NT$；41 9.7 504.5 409.5 749.0 (70.0) (184.2) 914.0 IFRS 4淨值 保險負債 重新衡量 影響 金融資產 重新指定 其他 子公司 IFRS 17 淨值 CSM (稅後) IFRS 17 調整後淨值 IFRS 4 淨值(1) IFRS 17接軌日之淨值變動 (NT$BN) 9.4%淨值比 6.8% 11.9% 納入稅後CSM之調整後淨值更能反映公司價值  淨值之一次性影響主要反映台幣高預定利率保單改以現行市場利率衡量之結果  CSM為保險合約未來利潤，納入稅後CSM之調整後。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+      "sourceReport": "../法說整理/reports/ir_summary_2026-08-31.md",
+      "detailMarkdown": "## 2739 寒舍 深度法說分析\n\n### 一頁結論\n- 展望評價：正面看好（85 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 5、保守訊號 0。\n- 判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 \n\n### 營運與財務重點\n- 21 2023 2024 2025 稅後淨利(億元) 4.14 4.94 2.16 EPS(元) 4.52 5.39 2.36 每股股利(元) 0 1 2.58 4.14 4.94 2.16 4.52 5.39 2.36 0 1 2.58 0 1 2 3 4 5 6 稅後淨利(億元) EPS(元) 每股股利(元) 2023H1 2024H1 2025H1 2026H1 稅後淨利(億元) 1.21 5.19 0.97 2.5 EPS(元)\n- 25 --- page 26 --- 客房全新硬體升級 集團精準布局暑假及親子旅遊市場，台北喜來登大飯店於2026年5月完成12間親子主題客房改裝，攜手台灣插畫家打造多元 房型，暑期需求帶動7月親子房銷售房晚數較去年同期成長約103%。\n- 探索廚房全新升級 2025年10月中，台北寒舍艾美酒店完成探索廚房全面升級，擴大日料區與增加多款海鮮料理，帶動營運表現提升。改 裝後2025年第四季營收較2024年第四季同期成長15%；2026年第一季營收進一步突破億元，第二季亦較去年同期成 長18%，顯示改裝效益持續發酵。 25\n- 客房全新硬體升級 集團精準布局暑假及親子旅遊市場，台北喜來登大飯店於2026年5月完成12間親子主題客房改裝，攜手台灣插畫家打造多元 房型，暑期需求帶動7月親子房銷售房晚數較去年同期成長約103%。 礁溪寒沐酒店持續深耕高端國旅市場，升級「MU TOP尊榮貴賓廳」、部分房型更新席夢思睡床，並增設按摩設備，透過軟 硬體升級提升住房競爭力。受惠暑期旺季，7月平均房價年增1.13%，住房數年增約29%，帶動客房營收年增30%。 26 7月 VS. 去年同期 7月單月\n- 45 員工持股 共創價值深化人才永續 • 寒舍餐旅於2026年6月正式推動員工持股制度，透過公司獎勵補助機制，鼓勵員工共同參與企業 長期發展，建立共享成果、共同成長的夥伴關係，強化薪酬福利及留才機制。 共同參與 鼓勵員工共同參與 企業長期發展 共享成果 建立共享成果、 共同成長的夥伴關係 完善制度 強化人才發展、 薪酬福利與留才機制 員工持股制度 一 共創價值・共享未來 一 39\n\n### 展望與成長利基\n- 探索廚房全新升級 2025年10月中，台北寒舍艾美酒店完成探索廚房全面升級，擴大日料區與增加多款海鮮料理，帶動營運表現提升。改 裝後2025年第四季營收較2024年第四季同期成長15%；2026年第一季營收進一步突破億元，第二季亦較去年同期成 長18%，顯示改裝效益持續發酵。 25\n- 客房全新硬體升級 集團精準布局暑假及親子旅遊市場，台北喜來登大飯店於2026年5月完成12間親子主題客房改裝，攜手台灣插畫家打造多元 房型，暑期需求帶動7月親子房銷售房晚數較去年同期成長約103%。 礁溪寒沐酒店持續深耕高端國旅市場，升級「MU TOP尊榮貴賓廳」、部分房型更新席夢思睡床，並增設按摩設備，透過軟 硬體升級提升住房競爭力。受惠暑期旺季，7月平均房價年增1.13%，住房數年增約29%，帶動客房營收年增30%。 26 7月 VS. 去年同期 7月單月\n- 45 員工持股 共創價值深化人才永續 • 寒舍餐旅於2026年6月正式推動員工持股制度，透過公司獎勵補助機制，鼓勵員工共同參與企業 長期發展，建立共享成果、共同成長的夥伴關係，強化薪酬福利及留才機制。 共同參與 鼓勵員工共同參與 企業長期發展 共享成果 建立共享成果、 共同成長的夥伴關係 完善制度 強化人才發展、 薪酬福利與留才機制 員工持股制度 一 共創價值・共享未來 一 39\n- • 寒舍餐旅舉辦多場公益捐血活動，有效挹注醫療用血需求，展現企 業攜手社會夥伴守護生命健康的具體成果。 • 2025年10月，寒舍餐旅持續投入花蓮震後重建工作，將第二批賑 災物資送達花蓮光復鄉，透過企業資源整合及員工共同參與，提供 受災居民實質協助。 • 2026年3月，萬豪國際集團與唐氏症基金會推出公益合作計畫，支 持《321 因為有你・我們一起》公益特展及愛心義賣活動。 攜手災後重建．推動熱血公益 38\n- Employee Stock Ownership Plan (ESOP) · Sustainable Talent Development • In June 2026, My Humble House Hospitality officially launched its Employee Stock Ownership Plan (ESOP), supported by a company-sponsored incentive program to encourage employees to partici\n\n### 產品、客戶與市場位置\n- 25 --- page 26 --- 客房全新硬體升級 集團精準布局暑假及親子旅遊市場，台北喜來登大飯店於2026年5月完成12間親子主題客房改裝，攜手台灣插畫家打造多元 房型，暑期需求帶動7月親子房銷售房晚數較去年同期成長約103%。\n- 2021-2026 2021 2022 2023 2024 2025 2026H1 Sheraton Grand Taipei Hotel 3,012 3,309 4,524 5,051 5,162 5,541 Le Méridien Taipei 5,309 6,226 9,611 9,803 9,574 10,078 MU JIAO XI HOTEL 7,262 7,955 8,295 7,632 7,253 8,115 Humbl\n- 客房全新硬體升級 集團精準布局暑假及親子旅遊市場，台北喜來登大飯店於2026年5月完成12間親子主題客房改裝，攜手台灣插畫家打造多元 房型，暑期需求帶動7月親子房銷售房晚數較去年同期成長約103%。 礁溪寒沐酒店持續深耕高端國旅市場，升級「MU TOP尊榮貴賓廳」、部分房型更新席夢思睡床，並增設按摩設備，透過軟 硬體升級提升住房競爭力。受惠暑期旺季，7月平均房價年增1.13%，住房數年增約29%，帶動客房營收年增30%。 26 7月 VS. 去年同期 7月單月\n- • 寒舍餐旅舉辦多場公益捐血活動，有效挹注醫療用血需求，展現企 業攜手社會夥伴守護生命健康的具體成果。 • 2025年10月，寒舍餐旅持續投入花蓮震後重建工作，將第二批賑 災物資送達花蓮光復鄉，透過企業資源整合及員工共同參與，提供 受災居民實質協助。 • 2026年3月，萬豪國際集團與唐氏症基金會推出公益合作計畫，支 持《321 因為有你・我們一起》公益特展及愛心義賣活動。 攜手災後重建．推動熱血公益 38\n- Employee Stock Ownership Plan (ESOP) · Sustainable Talent Development • In June 2026, My Humble House Hospitality officially launched its Employee Stock Ownership Plan (ESOP), supported by a company-sponsored incentive program to encourage employees to partici\n\n### 風險與不確定性\n- 本次摘要未擷取到明確風險或保守訊號。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 加分主因：25 --- page 26 --- 客房全新硬體升級 集團精準布局暑假及親子旅遊市場，台北喜來登大飯店於2026年5月完成12間親子主題客房改裝，攜手台灣插畫家打造多元 房型，暑期需求帶動7月親子房銷售房晚數較去年同期成長約103%。；探索廚房全新升級 2025年10月中，台北寒舍艾美酒店完成探索廚房全面升級，擴大日料區與增加多款海鮮料理，帶動營運表現提升。改 裝後2025年第四季營收較2024年第四季同期成長15%；2026年第一季營收進一步突破億元，第二季亦較去年同期成 長18%，顯示改裝效益持續發酵。 25；客房全新硬體升級 集團精準布局暑假及親子旅遊市場，台北喜來登大飯店於2026年5月完成12間親子主題客房改裝，攜手台灣插畫家打造多元 房型，暑期需求帶動7月親子房銷售房晚數較去年同期成長約103%。 礁溪寒沐酒店持續深耕高端國旅市場，升級「MU TOP尊榮貴賓廳」、部分房型更新席夢思睡床，並增設按摩設備，透過軟 硬體升級提升住房競爭力。受惠暑期旺季，7月平均房價年增1.13%，住房數年增約29%，帶動客房營收年增30%。 26 7月 VS. 去年同期 7月單月。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
     },
     {
-      "date": "2026-08-28",
-      "code": "3093",
-      "name": "港建*",
-      "eventType": "法人說明會",
-      "time": "14:00",
-      "location": "線上法人說明會",
-      "topic": "本公司受邀參加永豐金證券舉辦之法人說明會",
-      "companyWebsite": "https://www.tkk.com.tw",
-      "chinesePdf": "",
-      "englishPdf": "",
-      "mediaUrl": "http://irconference.twse.com.tw/3093_7_20260828_ch.mp4",
-      "mediaStatus": "有影音",
-      "transcriptStatus": "未產生",
-      "outlookBullets": [
-        "未從簡報或轉錄稿擷取到明確展望段落。"
-      ],
-      "outlookTone": {
-        "label": "中性觀望",
-        "score": 50,
-        "basis": "正向訊號 0、保守訊號 0"
-      },
-      "summaryBullets": [
-        "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-        "MOPS 擇要訊息：本公司受邀參加永豐金證券舉辦之法人說明會",
-        "缺少可摘要的簡報文字或轉錄稿。"
-      ],
-      "financialBullets": [],
-      "riskBullets": [],
-      "qnaBullets": [],
-      "crossCheckBullets": [],
-      "sourceReport": "../法說整理/reports/ir_summary_2026-08-28.md",
-      "detailMarkdown": "## 3093 港建* 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：本公司受邀參加永豐金證券舉辦之法人說明會\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-    },
-    {
-      "date": "2026-08-28",
-      "code": "3576",
-      "name": "聯合再生",
-      "eventType": "法人說明會",
-      "time": "14:00",
-      "location": "台北市忠孝西路一段6號4樓 (中信證券忠孝分公司)",
-      "topic": "說明公司營運概況及未來展望",
-      "companyWebsite": "",
-      "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/357620260825M001.pdf",
-      "englishPdf": "https://mopsov.twse.com.tw/nas/STR/357620260825E001.pdf",
-      "mediaUrl": "",
-      "mediaStatus": "缺影音",
-      "transcriptStatus": "缺影音",
-      "outlookBullets": [
-        "2026/8/25 For URE Internal Use Only 11 雙面發電先行者 +4% +6% +11% +15% 雙面模組於戶外發電可獲得更佳功率增益 水泥地面 草地 白漆地面 白漆+HJT /TOPcon ⚫ 雙面模組 (Bifacial PV Modules) ◼更多有效發電面積，可有效利用環境反射光，提高系統發電量。 ◼聯合再生為台灣最早全面導入雙面電池及量產雙面模組之廠商。",
-        "用綠電來強化台灣製造業國際競爭力 建置電力系統 建立綠電供應 強化系統營運 聯合再生能源系統電站展望",
-        "Strengthening Taiwan's manufacturing industry's international competitiveness with green energy powering electrical systems Green energy supply PV system O&M Outlook for URECO PV system business"
-      ],
-      "outlookTone": {
-        "label": "正面看好",
-        "score": 72,
-        "basis": "正向訊號 4、保守訊號 1"
-      },
-      "summaryBullets": [
-        "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-        "MOPS 擇要訊息：說明公司營運概況及未來展望",
-        "聯合再生能源公司簡介 --- page 2 --- 1 成立: 2005年8月 合併: 2018年10月 (新日光、昱晶、昇陽合併，為台灣最大太陽 能廠商) 2 市值: 約NT$278億元 員工人數: 654人(截止至2026/6/30) 3 全球據點與廠區: 台灣: 台北辦公室、竹科廠、台南廠 美國: 洛杉磯 東南亞: 泰國 COMPANY INTRO4 大股東包含: 國發基金及耀華玻璃 (11.9%) 台達電子 (1.92%) --",
-        "⚫ 台灣第一 ➢連續4年度為臺灣第一大的太陽能供應商 ➢業界唯一連續十三年榮獲金能獎(2013~2025) ➢獲 Bloomberg New Energy Finance 評定為全球一線太陽能企業暨模組供應商 (2017~2025) ➢ 最高效能 : 業界同級產品發電效能領先 ➢ 最高價值 : 雙面發電加值 及 布局回收循環經濟 ➢ 最高可靠 : 通過最嚴苛鹽霧等級8 及 17級風洞測試 ➢ 環境友善 : 通過模組水質無毒檢測 及 電磁",
-        "案場開發 以優良工程、模組製造 及供應鏈整合降低成本 及提升品質 供應鏈優勢 專業的維運團隊來經營 YieldCo為公司提供穩定 收入 專業資產管理 GES USA & DelSolar US 開發/建置/投資/維運超過200MW 的案場，主要為商業屋頂(Walmart, Target and Amazon) 台灣團隊 美國團隊 --- page 18 --- 電池模組製造 系統業務開發 工程規劃建置 維運管理 電廠持有20年 北美地區",
-        "此EPC 案 帶來了許多最專業級領導力和團隊合作的挑戰 • 此 EPC 專案牽連了千變萬化的 調度，管理， team work ， 創新和學習，尤其是穩固的合作協力夥伴關係 • URE 是您可以信賴的合作伙伴 --- page 25 --- 表後儲能示範案場 • 聯合再生於台南廠區建置表前儲能+表後儲能示範案場 • 表前裝置容量: 4.4MW • 表後裝置容量: 4.2MW • 聯合再生具備建置大型表前儲能系統及客製化表後儲能系統的設計",
-        "page 2 --- 1 Founded: Aug 2005 Merged: Oct 2018 (NSP , Gintech, Solartech merged to become largest solar company in Taiwan) 2 Mkt cap: about NT$27.8 billion No of employee: 654 (2026/06/30) 3 Location Taiwan: Taipei, Hsi"
-      ],
-      "financialBullets": [],
-      "riskBullets": [],
-      "qnaBullets": [],
-      "crossCheckBullets": [],
-      "sourceReport": "../法說整理/reports/ir_summary_2026-08-28.md",
-      "detailMarkdown": "## 3576 聯合再生 深度法說分析\n\n### 一頁結論\n- 展望評價：正面看好（72 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 4、保守訊號 1。\n- 判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：說明公司營運概況及未來展望\n- 聯合再生能源公司簡介 --- page 2 --- 1 成立: 2005年8月 合併: 2018年10月 (新日光、昱晶、昇陽合併，為台灣最大太陽 能廠商) 2 市值: 約NT$278億元 員工人數: 654人(截止至2026/6/30) 3 全球據點與廠區: 台灣: 台北辦公室、竹科廠、台南廠 美國: 洛杉磯 東南亞: 泰國 COMPANY INTRO4 大股東包含: 國發基金及耀華玻璃 (11.9%) 台達電子 (1.92%) --\n- ⚫ 台灣第一 ➢連續4年度為臺灣第一大的太陽能供應商 ➢業界唯一連續十三年榮獲金能獎(2013~2025) ➢獲 Bloomberg New Energy Finance 評定為全球一線太陽能企業暨模組供應商 (2017~2025) ➢ 最高效能 : 業界同級產品發電效能領先 ➢ 最高價值 : 雙面發電加值 及 布局回收循環經濟 ➢ 最高可靠 : 通過最嚴苛鹽霧等級8 及 17級風洞測試 ➢ 環境友善 : 通過模組水質無毒檢測 及 電磁\n- 案場開發 以優良工程、模組製造 及供應鏈整合降低成本 及提升品質 供應鏈優勢 專業的維運團隊來經營 YieldCo為公司提供穩定 收入 專業資產管理 GES USA & DelSolar US 開發/建置/投資/維運超過200MW 的案場，主要為商業屋頂(Walmart, Target and Amazon) 台灣團隊 美國團隊 --- page 18 --- 電池模組製造 系統業務開發 工程規劃建置 維運管理 電廠持有20年 北美地區\n- 此EPC 案 帶來了許多最專業級領導力和團隊合作的挑戰 • 此 EPC 專案牽連了千變萬化的 調度，管理， team work ， 創新和學習，尤其是穩固的合作協力夥伴關係 • URE 是您可以信賴的合作伙伴 --- page 25 --- 表後儲能示範案場 • 聯合再生於台南廠區建置表前儲能+表後儲能示範案場 • 表前裝置容量: 4.4MW • 表後裝置容量: 4.2MW • 聯合再生具備建置大型表前儲能系統及客製化表後儲能系統的設計\n\n### 展望與成長利基\n- 2026/8/25 For URE Internal Use Only 11 雙面發電先行者 +4% +6% +11% +15% 雙面模組於戶外發電可獲得更佳功率增益 水泥地面 草地 白漆地面 白漆+HJT /TOPcon ⚫ 雙面模組 (Bifacial PV Modules) ◼更多有效發電面積，可有效利用環境反射光，提高系統發電量。 ◼聯合再生為台灣最早全面導入雙面電池及量產雙面模組之廠商。\n- 用綠電來強化台灣製造業國際競爭力 建置電力系統 建立綠電供應 強化系統營運 聯合再生能源系統電站展望\n- Strengthening Taiwan's manufacturing industry's international competitiveness with green energy powering electrical systems Green energy supply PV system O&M Outlook for URECO PV system business\n\n### 產品、客戶與市場位置\n- 聯合再生能源公司簡介 --- page 2 --- 1 成立: 2005年8月 合併: 2018年10月 (新日光、昱晶、昇陽合併，為台灣最大太陽 能廠商) 2 市值: 約NT$278億元 員工人數: 654人(截止至2026/6/30) 3 全球據點與廠區: 台灣: 台北辦公室、竹科廠、台南廠 美國: 洛杉磯 東南亞: 泰國 COMPANY INTRO4 大股東包含: 國發基金及耀華玻璃 (11.9%) 台達電子 (1.92%) --\n- ⚫ 台灣第一 ➢連續4年度為臺灣第一大的太陽能供應商 ➢業界唯一連續十三年榮獲金能獎(2013~2025) ➢獲 Bloomberg New Energy Finance 評定為全球一線太陽能企業暨模組供應商 (2017~2025) ➢ 最高效能 : 業界同級產品發電效能領先 ➢ 最高價值 : 雙面發電加值 及 布局回收循環經濟 ➢ 最高可靠 : 通過最嚴苛鹽霧等級8 及 17級風洞測試 ➢ 環境友善 : 通過模組水質無毒檢測 及 電磁\n- 案場開發 以優良工程、模組製造 及供應鏈整合降低成本 及提升品質 供應鏈優勢 專業的維運團隊來經營 YieldCo為公司提供穩定 收入 專業資產管理 GES USA & DelSolar US 開發/建置/投資/維運超過200MW 的案場，主要為商業屋頂(Walmart, Target and Amazon) 台灣團隊 美國團隊 --- page 18 --- 電池模組製造 系統業務開發 工程規劃建置 維運管理 電廠持有20年 北美地區\n- page 2 --- 1 Founded: Aug 2005 Merged: Oct 2018 (NSP , Gintech, Solartech merged to become largest solar company in Taiwan) 2 Mkt cap: about NT$27.8 billion No of employee: 654 (2026/06/30) 3 Location Taiwan: Taipei, Hsi\n- 用綠電來強化台灣製造業國際競爭力 建置電力系統 建立綠電供應 強化系統營運 聯合再生能源系統電站展望\n- Strengthening Taiwan's manufacturing industry's international competitiveness with green energy powering electrical systems Green energy supply PV system O&M Outlook for URECO PV system business\n\n### 風險與不確定性\n- 案場開發 以優良工程、模組製造 及供應鏈整合降低成本 及提升品質 供應鏈優勢 專業的維運團隊來經營 YieldCo為公司提供穩定 收入 專業資產管理 GES USA & DelSolar US 開發/建置/投資/維運超過200MW 的案場，主要為商業屋頂(Walmart, Target and Amazon) 台灣團隊 美國團隊 --- page 18 --- 電池模組製造 系統業務開發 工程規劃建置 維運管理 電廠持有20年 北美地區\n\n### Q&A 與管理層口氣\n- 案場開發 以優良工程、模組製造 及供應鏈整合降低成本 及提升品質 供應鏈優勢 專業的維運團隊來經營 YieldCo為公司提供穩定 收入 專業資產管理 GES USA & DelSolar US 開發/建置/投資/維運超過200MW 的案場，主要為商業屋頂(Walmart, Target and Amazon) 台灣團隊 美國團隊 --- page 18 --- 電池模組製造 系統業務開發 工程規劃建置 維運管理 電廠持有20年 北美地區\n\n### 評分利基點\n- 加分主因：⚫ 台灣第一 ➢連續4年度為臺灣第一大的太陽能供應商 ➢業界唯一連續十三年榮獲金能獎(2013~2025) ➢獲 Bloomberg New Energy Finance 評定為全球一線太陽能企業暨模組供應商 (2017~2025) ➢ 最高效能 : 業界同級產品發電效能領先 ➢ 最高價值 : 雙面發電加值 及 布局回收循環經濟 ➢ 最高可靠 : 通過最嚴苛鹽霧等級8 及 17級風洞測試 ➢ 環境友善 : 通過模組水質無毒檢測 及 電磁；案場開發 以優良工程、模組製造 及供應鏈整合降低成本 及提升品質 供應鏈優勢 專業的維運團隊來經營 YieldCo為公司提供穩定 收入 專業資產管理 GES USA & DelSolar US 開發/建置/投資/維運超過200MW 的案場，主要為商業屋頂(Walmart, Target and Amazon) 台灣團隊 美國團隊 --- page 18 --- 電池模組製造 系統業務開發 工程規劃建置 維運管理 電廠持有20年 北美地區；2026/8/25 For URE Internal Use Only 11 雙面發電先行者 +4% +6% +11% +15% 雙面模組於戶外發電可獲得更佳功率增益 水泥地面 草地 白漆地面 白漆+HJT /TOPcon ⚫ 雙面模組 (Bifacial PV Modules) ◼更多有效發電面積，可有效利用環境反射光，提高系統發電量。 ◼聯合再生為台灣最早全面導入雙面電池及量產雙面模組之廠商。。\n- 扣分或保留：案場開發 以優良工程、模組製造 及供應鏈整合降低成本 及提升品質 供應鏈優勢 專業的維運團隊來經營 YieldCo為公司提供穩定 收入 專業資產管理 GES USA & DelSolar US 開發/建置/投資/維運超過200MW 的案場，主要為商業屋頂(Walmart, Target and Amazon) 台灣團隊 美國團隊 --- page 18 --- 電池模組製造 系統業務開發 工程規劃建置 維運管理 電廠持有20年 北美地區。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-    },
-    {
-      "date": "2026-08-28",
-      "code": "4714",
-      "name": "永捷",
-      "eventType": "法人說明會",
-      "time": "14:00",
-      "location": "Webex視訊會議",
-      "topic": "本公司受邀凱基證券舉辦之線上法人說明會",
-      "companyWebsite": "https://www.u-best-inno.com/gov_info",
-      "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/471420260828M001.pdf",
-      "englishPdf": "https://mopsov.twse.com.tw/nas/STR/471420260828E001.pdf",
-      "mediaUrl": "https://youtu.be/PsCEGRjioIQ",
-      "mediaStatus": "有影音",
-      "transcriptStatus": "未產生",
-      "outlookBullets": [
-        "3.1未來發展(4)-PU相關產品發展方向 19 新產品規劃以歐洲環保水性為主，去年Q2將開始接單生產，已投入一只六噸反 應槽，設備月產能已大幅提升。2026年出貨穩定提升。 產品主要用於電子廠水處理及管路有效管理強化管路及設備的安全維護。 PU樹脂因環保意識抬頭，環保型水性及高固無溶劑樹脂客戶陸續開發中，水 性環保樹脂預期會成長。廣泛運用於運動鞋材、汽車、傢俱、電子材料、健身 器材及服裝等等。另水性Foam coating將運用於運動鞋基材及服裝，已與客戶 密切開發量產試樣中，規劃將再投入新設備。 以集團內生產設",
-        "3.1 未來發展(3)–淨零碳排趨勢下 水性環保PU樹脂市場趨勢 18 市場驅動與發展趨勢 低碳與低VOC需求：水性PU以水取代傳統有機溶 劑，大幅降低揮發性有機物（VOC）排放與碳足 跡，符合國際品牌對供應鏈的減碳要求。 應用領域擴大：廣泛導入於運動鞋材、車用內裝、 合成皮、綠色建築塗料及可持續包裝接著劑。 結合循環經濟：結合生物基（Bio-based）原料或 具備回收再利用特性的水性PUD，滿足GRS等永 續認證標準。 國際市場門檻提高：歐洲與中國等主要市場對環 保無毒材料的需求強勁，促使化工廠加速產能轉 換與",
-        "4.1 結論 22 本公司預期於2026~2027年擁五大成長動能： 歐洲客戶環保水性產品量產，對公司長期訂單將注入 穩定產能成長。 與集團公司垂直整合開發運動鞋材以符合各大品牌需 求，配合客戶海外擴產有助於推升出貨動能。 防彈纖維產品、環保型水性、無溶劑樹脂及回收再生 產品持續開發新產品，將有助於營收及獲利成長。 旗下長榮泰山將步入完工交屋階段，將有助於2027 年營運成長。另外新推出的建案-城之芯正熱烈預售 中。 研發適合摺疊手機應用之無氟塗層配方、及其相關替 代氟素之抗刮耐磨助劑合成及開發。 3",
-        "參考資料：優分析產業數據中心 https://uanalyze.com.tw/ 3.1 未來發展(2)–全球品牌與供應鏈動態 17 (一)庫存恢復健康：多數國際大廠終端庫存回歸正常，擴大釋出新訂單。 (二)供應鏈集中：品牌持續縮減供應商，訂單流向具備自動化與海外佈局的 台廠。 (三)外擴廠加速：部分大廠在印尼與印度加碼擴產，推升出貨動能。 (四)強化產業鏈上中下游的連結與跨域合作，將有助於創造更多商機並提升 產業附加價值。 (五)新興與功能鞋崛起：如 New Balance 等品牌表現亮眼，戶外功能鞋與 特殊潮流鞋",
-        "3.1未來發展(5)-無氟塗層配方 當前(2026年)歐盟REACH法規與美國各州強烈監管PFAS(全 氟及多氟烷基物質，俗稱含氟永久化學物)的全面禁令下， 開發「無含氟塗料(PFAS-Free Coatings)」已成為全球摺 疊手機、半導體與面板供應鏈的生死存亡之戰。 氟(Fluorine)在化學界因其極強的碳-氟鍵(C-F Bond)而被 稱為「元素之王」。要將其從摺疊螢幕(包含面板、偏光 片、光學膠與原廠保護膜)中徹底拔除，面臨著極高的重要 性。 目前歐美已開始限制>50ppm~1000ppm必須申報，最後",
-        "3.1 Future Development (3) -Market Trends of Water-based Eco-friendly PU Resin Under the Net Zero Carbon Emissions Trend. 18 Global water-based resin market size Driven by the global push toward net-zero carbon emissions and increasingly stringent environmenta",
-        "3.1Future Development (4) -Development Direction of PU-Related Products 19 The new product development plan focuses primarily on environmentally friendly water-based PU products for the European market. Order-taking and production commenced in the second quart",
-        "As of 2026, with the EU REACH framework and stringent regulations on PFAS (per- and polyfluoroalkyl substances, commonly known as “forever chemicals”) being implemented across U.S. states, the development of PFAS-free coatings has become a critical priority fo"
-      ],
-      "outlookTone": {
-        "label": "正面看好",
-        "score": 100,
-        "basis": "正向訊號 9、保守訊號 0"
-      },
-      "summaryBullets": [
-        "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-        "MOPS 擇要訊息：本公司受邀凱基證券舉辦之線上法人說明會",
-        "12 --- page 13 --- 2.3 營運現況分析-獲利趨勢 115年上半年因受毛利不佳的建案尚在交屋，使營收增加但毛利卻未 同步增加，又合併子公司轉投資的評價利益不如預期，致使營業利 益及本期淨利均尚未轉正。",
-        "原聚脂產品已與國內大廠完成開發並導入量產，新產品也陸續驗證中，除原 設備產能外，將評估規劃再投一只12噸反應槽，預期月產能將提升以應客戶 未來需求。可望增加產能及營業額，提升生產能力及效率，因應訂單需求及 設備互補備援需要，配合新客戶印度線及日本線油墨訂單的需求。",
-        "page 22 --- 4.1 結論 22 本公司預期於2026~2027年擁五大成長動能： 歐洲客戶環保水性產品量產，對公司長期訂單將注入 穩定產能成長。",
-        "防彈纖維產品、環保型水性、無溶劑樹脂及回收再生 產品持續開發新產品，將有助於營收及獲利成長。",
-        "2 --- page 3 --- 1.1 公司簡介-基本資料 民國80年8月29日 成立日期 可以提供客戶高品質的產 品，配合客戶開發其獨特 的產品需求。"
-      ],
-      "financialBullets": [],
-      "riskBullets": [],
-      "qnaBullets": [],
-      "crossCheckBullets": [],
-      "sourceReport": "../法說整理/reports/ir_summary_2026-08-28.md",
-      "detailMarkdown": "## 4714 永捷 深度法說分析\n\n### 一頁結論\n- 展望評價：正面看好（100 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 9、保守訊號 0。\n- 判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 \n\n### 營運與財務重點\n- 12 --- page 13 --- 2.3 營運現況分析-獲利趨勢 115年上半年因受毛利不佳的建案尚在交屋，使營收增加但毛利卻未 同步增加，又合併子公司轉投資的評價利益不如預期，致使營業利 益及本期淨利均尚未轉正。\n- page 22 --- 4.1 結論 22 本公司預期於2026~2027年擁五大成長動能： 歐洲客戶環保水性產品量產，對公司長期訂單將注入 穩定產能成長。\n- 防彈纖維產品、環保型水性、無溶劑樹脂及回收再生 產品持續開發新產品，將有助於營收及獲利成長。\n- 3.1未來發展(4)-PU相關產品發展方向 19 新產品規劃以歐洲環保水性為主，去年Q2將開始接單生產，已投入一只六噸反 應槽，設備月產能已大幅提升。2026年出貨穩定提升。 產品主要用於電子廠水處理及管路有效管理強化管路及設備的安全維護。 PU樹脂因環保意識抬頭，環保型水性及高固無溶劑樹脂客戶陸續開發中，水 性環保樹脂預期會成長。廣泛運用於運動鞋材、汽車、傢俱、電子材料、健身 器材及服裝等等。另水性Foam coating將運用於運動鞋基材及服裝，已與客戶 密切開發量產試樣中，規劃將再投入新設備。 以集團內生產設\n- 4.1 結論 22 本公司預期於2026~2027年擁五大成長動能： 歐洲客戶環保水性產品量產，對公司長期訂單將注入 穩定產能成長。 與集團公司垂直整合開發運動鞋材以符合各大品牌需 求，配合客戶海外擴產有助於推升出貨動能。 防彈纖維產品、環保型水性、無溶劑樹脂及回收再生 產品持續開發新產品，將有助於營收及獲利成長。 旗下長榮泰山將步入完工交屋階段，將有助於2027 年營運成長。另外新推出的建案-城之芯正熱烈預售 中。 研發適合摺疊手機應用之無氟塗層配方、及其相關替 代氟素之抗刮耐磨助劑合成及開發。 3\n\n### 展望與成長利基\n- 3.1未來發展(4)-PU相關產品發展方向 19 新產品規劃以歐洲環保水性為主，去年Q2將開始接單生產，已投入一只六噸反 應槽，設備月產能已大幅提升。2026年出貨穩定提升。 產品主要用於電子廠水處理及管路有效管理強化管路及設備的安全維護。 PU樹脂因環保意識抬頭，環保型水性及高固無溶劑樹脂客戶陸續開發中，水 性環保樹脂預期會成長。廣泛運用於運動鞋材、汽車、傢俱、電子材料、健身 器材及服裝等等。另水性Foam coating將運用於運動鞋基材及服裝，已與客戶 密切開發量產試樣中，規劃將再投入新設備。 以集團內生產設\n- 3.1 未來發展(3)–淨零碳排趨勢下 水性環保PU樹脂市場趨勢 18 市場驅動與發展趨勢 低碳與低VOC需求：水性PU以水取代傳統有機溶 劑，大幅降低揮發性有機物（VOC）排放與碳足 跡，符合國際品牌對供應鏈的減碳要求。 應用領域擴大：廣泛導入於運動鞋材、車用內裝、 合成皮、綠色建築塗料及可持續包裝接著劑。 結合循環經濟：結合生物基（Bio-based）原料或 具備回收再利用特性的水性PUD，滿足GRS等永 續認證標準。 國際市場門檻提高：歐洲與中國等主要市場對環 保無毒材料的需求強勁，促使化工廠加速產能轉 換與\n- 4.1 結論 22 本公司預期於2026~2027年擁五大成長動能： 歐洲客戶環保水性產品量產，對公司長期訂單將注入 穩定產能成長。 與集團公司垂直整合開發運動鞋材以符合各大品牌需 求，配合客戶海外擴產有助於推升出貨動能。 防彈纖維產品、環保型水性、無溶劑樹脂及回收再生 產品持續開發新產品，將有助於營收及獲利成長。 旗下長榮泰山將步入完工交屋階段，將有助於2027 年營運成長。另外新推出的建案-城之芯正熱烈預售 中。 研發適合摺疊手機應用之無氟塗層配方、及其相關替 代氟素之抗刮耐磨助劑合成及開發。 3\n- 參考資料：優分析產業數據中心 https://uanalyze.com.tw/ 3.1 未來發展(2)–全球品牌與供應鏈動態 17 (一)庫存恢復健康：多數國際大廠終端庫存回歸正常，擴大釋出新訂單。 (二)供應鏈集中：品牌持續縮減供應商，訂單流向具備自動化與海外佈局的 台廠。 (三)外擴廠加速：部分大廠在印尼與印度加碼擴產，推升出貨動能。 (四)強化產業鏈上中下游的連結與跨域合作，將有助於創造更多商機並提升 產業附加價值。 (五)新興與功能鞋崛起：如 New Balance 等品牌表現亮眼，戶外功能鞋與 特殊潮流鞋\n- 3.1未來發展(5)-無氟塗層配方 當前(2026年)歐盟REACH法規與美國各州強烈監管PFAS(全 氟及多氟烷基物質，俗稱含氟永久化學物)的全面禁令下， 開發「無含氟塗料(PFAS-Free Coatings)」已成為全球摺 疊手機、半導體與面板供應鏈的生死存亡之戰。 氟(Fluorine)在化學界因其極強的碳-氟鍵(C-F Bond)而被 稱為「元素之王」。要將其從摺疊螢幕(包含面板、偏光 片、光學膠與原廠保護膜)中徹底拔除，面臨著極高的重要 性。 目前歐美已開始限制>50ppm~1000ppm必須申報，最後\n- 3.1 Future Development (3) -Market Trends of Water-based Eco-friendly PU Resin Under the Net Zero Carbon Emissions Trend. 18 Global water-based resin market size Driven by the global push toward net-zero carbon emissions and increasingly stringent environmenta\n- 3.1Future Development (4) -Development Direction of PU-Related Products 19 The new product development plan focuses primarily on environmentally friendly water-based PU products for the European market. Order-taking and production commenced in the second quart\n- As of 2026, with the EU REACH framework and stringent regulations on PFAS (per- and polyfluoroalkyl substances, commonly known as “forever chemicals”) being implemented across U.S. states, the development of PFAS-free coatings has become a critical priority fo\n\n### 產品、客戶與市場位置\n- 原聚脂產品已與國內大廠完成開發並導入量產，新產品也陸續驗證中，除原 設備產能外，將評估規劃再投一只12噸反應槽，預期月產能將提升以應客戶 未來需求。可望增加產能及營業額，提升生產能力及效率，因應訂單需求及 設備互補備援需要，配合新客戶印度線及日本線油墨訂單的需求。\n- page 22 --- 4.1 結論 22 本公司預期於2026~2027年擁五大成長動能： 歐洲客戶環保水性產品量產，對公司長期訂單將注入 穩定產能成長。\n- 防彈纖維產品、環保型水性、無溶劑樹脂及回收再生 產品持續開發新產品，將有助於營收及獲利成長。\n- 2 --- page 3 --- 1.1 公司簡介-基本資料 民國80年8月29日 成立日期 可以提供客戶高品質的產 品，配合客戶開發其獨特 的產品需求。\n- 3.1未來發展(4)-PU相關產品發展方向 19 新產品規劃以歐洲環保水性為主，去年Q2將開始接單生產，已投入一只六噸反 應槽，設備月產能已大幅提升。2026年出貨穩定提升。 產品主要用於電子廠水處理及管路有效管理強化管路及設備的安全維護。 PU樹脂因環保意識抬頭，環保型水性及高固無溶劑樹脂客戶陸續開發中，水 性環保樹脂預期會成長。廣泛運用於運動鞋材、汽車、傢俱、電子材料、健身 器材及服裝等等。另水性Foam coating將運用於運動鞋基材及服裝，已與客戶 密切開發量產試樣中，規劃將再投入新設備。 以集團內生產設\n- 3.1 未來發展(3)–淨零碳排趨勢下 水性環保PU樹脂市場趨勢 18 市場驅動與發展趨勢 低碳與低VOC需求：水性PU以水取代傳統有機溶 劑，大幅降低揮發性有機物（VOC）排放與碳足 跡，符合國際品牌對供應鏈的減碳要求。 應用領域擴大：廣泛導入於運動鞋材、車用內裝、 合成皮、綠色建築塗料及可持續包裝接著劑。 結合循環經濟：結合生物基（Bio-based）原料或 具備回收再利用特性的水性PUD，滿足GRS等永 續認證標準。 國際市場門檻提高：歐洲與中國等主要市場對環 保無毒材料的需求強勁，促使化工廠加速產能轉 換與\n\n### 風險與不確定性\n- 12 --- page 13 --- 2.3 營運現況分析-獲利趨勢 115年上半年因受毛利不佳的建案尚在交屋，使營收增加但毛利卻未 同步增加，又合併子公司轉投資的評價利益不如預期，致使營業利 益及本期淨利均尚未轉正。\n\n### Q&A 與管理層口氣\n- 原聚脂產品已與國內大廠完成開發並導入量產，新產品也陸續驗證中，除原 設備產能外，將評估規劃再投一只12噸反應槽，預期月產能將提升以應客戶 未來需求。可望增加產能及營業額，提升生產能力及效率，因應訂單需求及 設備互補備援需要，配合新客戶印度線及日本線油墨訂單的需求。\n- page 22 --- 4.1 結論 22 本公司預期於2026~2027年擁五大成長動能： 歐洲客戶環保水性產品量產，對公司長期訂單將注入 穩定產能成長。\n- 3.1未來發展(4)-PU相關產品發展方向 19 新產品規劃以歐洲環保水性為主，去年Q2將開始接單生產，已投入一只六噸反 應槽，設備月產能已大幅提升。2026年出貨穩定提升。 產品主要用於電子廠水處理及管路有效管理強化管路及設備的安全維護。 PU樹脂因環保意識抬頭，環保型水性及高固無溶劑樹脂客戶陸續開發中，水 性環保樹脂預期會成長。廣泛運用於運動鞋材、汽車、傢俱、電子材料、健身 器材及服裝等等。另水性Foam coating將運用於運動鞋基材及服裝，已與客戶 密切開發量產試樣中，規劃將再投入新設備。 以集團內生產設\n- 3.1 未來發展(3)–淨零碳排趨勢下 水性環保PU樹脂市場趨勢 18 市場驅動與發展趨勢 低碳與低VOC需求：水性PU以水取代傳統有機溶 劑，大幅降低揮發性有機物（VOC）排放與碳足 跡，符合國際品牌對供應鏈的減碳要求。 應用領域擴大：廣泛導入於運動鞋材、車用內裝、 合成皮、綠色建築塗料及可持續包裝接著劑。 結合循環經濟：結合生物基（Bio-based）原料或 具備回收再利用特性的水性PUD，滿足GRS等永 續認證標準。 國際市場門檻提高：歐洲與中國等主要市場對環 保無毒材料的需求強勁，促使化工廠加速產能轉 換與\n- 4.1 結論 22 本公司預期於2026~2027年擁五大成長動能： 歐洲客戶環保水性產品量產，對公司長期訂單將注入 穩定產能成長。 與集團公司垂直整合開發運動鞋材以符合各大品牌需 求，配合客戶海外擴產有助於推升出貨動能。 防彈纖維產品、環保型水性、無溶劑樹脂及回收再生 產品持續開發新產品，將有助於營收及獲利成長。 旗下長榮泰山將步入完工交屋階段，將有助於2027 年營運成長。另外新推出的建案-城之芯正熱烈預售 中。 研發適合摺疊手機應用之無氟塗層配方、及其相關替 代氟素之抗刮耐磨助劑合成及開發。 3\n- 參考資料：優分析產業數據中心 https://uanalyze.com.tw/ 3.1 未來發展(2)–全球品牌與供應鏈動態 17 (一)庫存恢復健康：多數國際大廠終端庫存回歸正常，擴大釋出新訂單。 (二)供應鏈集中：品牌持續縮減供應商，訂單流向具備自動化與海外佈局的 台廠。 (三)外擴廠加速：部分大廠在印尼與印度加碼擴產，推升出貨動能。 (四)強化產業鏈上中下游的連結與跨域合作，將有助於創造更多商機並提升 產業附加價值。 (五)新興與功能鞋崛起：如 New Balance 等品牌表現亮眼，戶外功能鞋與 特殊潮流鞋\n\n### 評分利基點\n- 加分主因：原聚脂產品已與國內大廠完成開發並導入量產，新產品也陸續驗證中，除原 設備產能外，將評估規劃再投一只12噸反應槽，預期月產能將提升以應客戶 未來需求。可望增加產能及營業額，提升生產能力及效率，因應訂單需求及 設備互補備援需要，配合新客戶印度線及日本線油墨訂單的需求。；page 22 --- 4.1 結論 22 本公司預期於2026~2027年擁五大成長動能： 歐洲客戶環保水性產品量產，對公司長期訂單將注入 穩定產能成長。；防彈纖維產品、環保型水性、無溶劑樹脂及回收再生 產品持續開發新產品，將有助於營收及獲利成長。。\n- 扣分或保留：12 --- page 13 --- 2.3 營運現況分析-獲利趨勢 115年上半年因受毛利不佳的建案尚在交屋，使營收增加但毛利卻未 同步增加，又合併子公司轉投資的評價利益不如預期，致使營業利 益及本期淨利均尚未轉正。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-    },
-    {
-      "date": "2026-08-28",
-      "code": "4979",
-      "name": "華星光",
-      "eventType": "法人說明會",
-      "time": "14:00",
-      "location": "線上法說會",
-      "topic": "本公司受邀參加中信證券舉辦之線上法人說明會",
-      "companyWebsite": "https://www.luxnetcorp.com.tw/",
-      "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/497920260828M001.pdf",
-      "englishPdf": "https://mopsov.twse.com.tw/nas/STR/497920260828E001.pdf",
-      "mediaUrl": "http://irconference.twse.com.tw/4979_12_20260828_ch.mp4",
-      "mediaStatus": "有影音",
-      "transcriptStatus": "未產生",
-      "outlookBullets": [
-        "LUXNET Proprietary 市場趨勢及未來展望– Intra-Datacenter Light Source 11Source: Yole (2026) •以模塊的發光源來看，可以約略分成 VCSEL, DML, EML & CWlaser(SiPh用)•今年預估用CW laser的模塊出貨量約85KK只，假以一個模塊會用到2~8個CW laser，全年度預計需求是400KK的CW laser。•EML模塊全年預估在18~20KK，1通道需要1顆EML，需求約160KK。SiPh 正快速吃下大規模 AI",
-        "LUXNET Proprietary 13 Shipments of xWDM optical transceivers (K units), 2021~2031市場趨勢及未來展望– Inter-Datacenter Module•根據調研機構的預估，400G ZR/ZR+ 的出貨，Y27跟Y26是持平的，但是800G ZR/ZR+ 則是在Y26開始量產出貨，Y27、Y28年2~3 倍成長。而800G ZR/ZR+也是未來公司成長的動能。 Source: Yole (2026.05) 1000Y2026400G Z",
-        "LUXNET Proprietary 10 市場趨勢及未來展望– Intra-Datacenter Module•由於AI伺服器的大量需求，連帶著Intra-Datacenter的光收發模組也一併需求提升。•去年調研機構預期Y2026 800G的需求數是35KK，今年的報告已經翻倍到70KK。•1.6T預計在今年開始上量，整年度市場需求為 15KK只。 Source: Yole (2026)市場從100G/lane迅速的切換到200G/lane、400G/lane。模塊持續往單模、高速、高功率移動。",
-        "LUXNET Proprietary 8 市場趨勢及未來展望– Intra-Datacenter Module (2026.07)",
-        "LUXNET Proprietary 市場趨勢及未來展望– Intra-Datacenter Module 9 (2026.07)",
-        "LUXNET Proprietary 12 •Y2027~Y2029 NPO取代CPO為主要出貨，最大的原因是CPO 的良率還不夠好，且幾乎無維修性，而NPO可以做到接近CPO的電耗跟密度，而且插拔或多家供應商，這對HyperScale來說是非常重要的。•CPO預計會在Y2030年成為主流 Source: SemiAnalysis AI Networking Model (2026) 市場趨勢及未來展望– NPO & CPO",
-        "LUXNET Proprietary •Y2025全年 Coherent 400G module是Marvell 出貨量最多。 市場趨勢及未來展望 – Coherent Module",
-        "LUXNET Proprietary 2 展望的表述，本公司不暗示、不聲明亦不保證其內容之正確性或可靠性，使用者應自行判斷與承擔風險。該類表述是基於對現況的預期，但同時受限於已知或未知風險或不確定性的影響。因此實際結果將可能明顯不同於表述內容。有些資訊可能受未來不確定性因素影響，致使與原先本公司對於未來前景的說明迥異。除法令要求外，公司並無義務因應新資訊的產生或未來事件的發生，主動更新對未來展望的表述。本簡報資料中所提供之資訊不代表本公司、產業狀況或後續重大發展的完整論述。此簡報及其內容未經本公司書面許可，任何第三"
-      ],
-      "outlookTone": {
-        "label": "正面看好",
-        "score": 73,
-        "basis": "正向訊號 5、保守訊號 2"
-      },
-      "summaryBullets": [
-        "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-        "MOPS 擇要訊息：本公司受邀參加中信證券舉辦之線上法人說明會",
-        "page 3 --- LUXNET Proprietary 3 經營實績 技術及製程能力簡報大綱 LUXNET Proprietary Q & A 公司簡介 市場趨勢及未來展望 --- page 4 --- LUXNET Proprietary 4 公司簡介 2001/11/15成立日期新台幣1,428百萬元實收資本額桃園市中壢區合江路& 吉林路所在地700人員工人數LD & PD/APD .OSA, Optical Engine, E",
-        "page 3 --- LUXNET Proprietary 3 經營實績 技術及製程能力簡報大綱 LUXNET Proprietary Q & A 公司簡介 市場趨勢及未來展望 --- page 4 --- LUXNET Proprietary 4 公司簡介 2001/11/15成立日期新台幣1,428百萬元實收資本額桃園市中壢區合江路& 吉林路所在地700人員工人數LD & PD/APD .OSA, Optical Engine, E",
-        "page 11 --- LUXNET Proprietary 市場趨勢及未來展望– Intra-Datacenter Light Source 11Source: Yole (2026) •以模塊的發光源來看，可以約略分成 VCSEL, DML, EML & CWlaser(SiPh用)•今年預估用CW laser的模塊出貨量約85KK只，假以一個模塊會用到2~8個CW laser，全年度預計需求是400KK的CW laser。•EML",
-        "page 11 --- LUXNET Proprietary 市場趨勢及未來展望– Intra-Datacenter Light Source 11Source: Yole (2026) •以模塊的發光源來看，可以約略分成 VCSEL, DML, EML & CWlaser(SiPh用)•今年預估用CW laser的模塊出貨量約85KK只，假以一個模塊會用到2~8個CW laser，全年度預計需求是400KK的CW laser。•EML",
-        "page 12 --- LUXNET Proprietary 12 •Y2027~Y2029 NPO取代CPO為主要出貨，最大的原因是CPO 的良率還不夠好，且幾乎無維修性，而NPO可以做到接近CPO的電耗跟密度，而且插拔或多家供應商，這對HyperScale來說是非常重要的。•CPO預計會在Y2030年成為主流 Source: SemiAnalysis AI Networking Model (2026) 市場趨勢及未來展望– NPO"
-      ],
-      "financialBullets": [],
-      "riskBullets": [],
-      "qnaBullets": [],
-      "crossCheckBullets": [],
-      "sourceReport": "../法說整理/reports/ir_summary_2026-08-28.md",
-      "detailMarkdown": "## 4979 華星光 深度法說分析\n\n### 一頁結論\n- 展望評價：正面看好（73 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 5、保守訊號 2。\n- 判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 \n\n### 營運與財務重點\n- LUXNET Proprietary 13 Shipments of xWDM optical transceivers (K units), 2021~2031市場趨勢及未來展望– Inter-Datacenter Module•根據調研機構的預估，400G ZR/ZR+ 的出貨，Y27跟Y26是持平的，但是800G ZR/ZR+ 則是在Y26開始量產出貨，Y27、Y28年2~3 倍成長。而800G ZR/ZR+也是未來公司成長的動能。 Source: Yole (2026.05) 1000Y2026400G Z\n\n### 展望與成長利基\n- LUXNET Proprietary 市場趨勢及未來展望– Intra-Datacenter Light Source 11Source: Yole (2026) •以模塊的發光源來看，可以約略分成 VCSEL, DML, EML & CWlaser(SiPh用)•今年預估用CW laser的模塊出貨量約85KK只，假以一個模塊會用到2~8個CW laser，全年度預計需求是400KK的CW laser。•EML模塊全年預估在18~20KK，1通道需要1顆EML，需求約160KK。SiPh 正快速吃下大規模 AI\n- LUXNET Proprietary 13 Shipments of xWDM optical transceivers (K units), 2021~2031市場趨勢及未來展望– Inter-Datacenter Module•根據調研機構的預估，400G ZR/ZR+ 的出貨，Y27跟Y26是持平的，但是800G ZR/ZR+ 則是在Y26開始量產出貨，Y27、Y28年2~3 倍成長。而800G ZR/ZR+也是未來公司成長的動能。 Source: Yole (2026.05) 1000Y2026400G Z\n- LUXNET Proprietary 10 市場趨勢及未來展望– Intra-Datacenter Module•由於AI伺服器的大量需求，連帶著Intra-Datacenter的光收發模組也一併需求提升。•去年調研機構預期Y2026 800G的需求數是35KK，今年的報告已經翻倍到70KK。•1.6T預計在今年開始上量，整年度市場需求為 15KK只。 Source: Yole (2026)市場從100G/lane迅速的切換到200G/lane、400G/lane。模塊持續往單模、高速、高功率移動。\n- LUXNET Proprietary 8 市場趨勢及未來展望– Intra-Datacenter Module (2026.07)\n- LUXNET Proprietary 市場趨勢及未來展望– Intra-Datacenter Module 9 (2026.07)\n- LUXNET Proprietary 12 •Y2027~Y2029 NPO取代CPO為主要出貨，最大的原因是CPO 的良率還不夠好，且幾乎無維修性，而NPO可以做到接近CPO的電耗跟密度，而且插拔或多家供應商，這對HyperScale來說是非常重要的。•CPO預計會在Y2030年成為主流 Source: SemiAnalysis AI Networking Model (2026) 市場趨勢及未來展望– NPO & CPO\n- LUXNET Proprietary •Y2025全年 Coherent 400G module是Marvell 出貨量最多。 市場趨勢及未來展望 – Coherent Module\n- LUXNET Proprietary 2 展望的表述，本公司不暗示、不聲明亦不保證其內容之正確性或可靠性，使用者應自行判斷與承擔風險。該類表述是基於對現況的預期，但同時受限於已知或未知風險或不確定性的影響。因此實際結果將可能明顯不同於表述內容。有些資訊可能受未來不確定性因素影響，致使與原先本公司對於未來前景的說明迥異。除法令要求外，公司並無義務因應新資訊的產生或未來事件的發生，主動更新對未來展望的表述。本簡報資料中所提供之資訊不代表本公司、產業狀況或後續重大發展的完整論述。此簡報及其內容未經本公司書面許可，任何第三\n\n### 產品、客戶與市場位置\n- page 3 --- LUXNET Proprietary 3 經營實績 技術及製程能力簡報大綱 LUXNET Proprietary Q & A 公司簡介 市場趨勢及未來展望 --- page 4 --- LUXNET Proprietary 4 公司簡介 2001/11/15成立日期新台幣1,428百萬元實收資本額桃園市中壢區合江路& 吉林路所在地700人員工人數LD & PD/APD .OSA, Optical Engine, E\n- page 11 --- LUXNET Proprietary 市場趨勢及未來展望– Intra-Datacenter Light Source 11Source: Yole (2026) •以模塊的發光源來看，可以約略分成 VCSEL, DML, EML & CWlaser(SiPh用)•今年預估用CW laser的模塊出貨量約85KK只，假以一個模塊會用到2~8個CW laser，全年度預計需求是400KK的CW laser。•EML\n- page 12 --- LUXNET Proprietary 12 •Y2027~Y2029 NPO取代CPO為主要出貨，最大的原因是CPO 的良率還不夠好，且幾乎無維修性，而NPO可以做到接近CPO的電耗跟密度，而且插拔或多家供應商，這對HyperScale來說是非常重要的。•CPO預計會在Y2030年成為主流 Source: SemiAnalysis AI Networking Model (2026) 市場趨勢及未來展望– NPO\n- LUXNET Proprietary 市場趨勢及未來展望– Intra-Datacenter Light Source 11Source: Yole (2026) •以模塊的發光源來看，可以約略分成 VCSEL, DML, EML & CWlaser(SiPh用)•今年預估用CW laser的模塊出貨量約85KK只，假以一個模塊會用到2~8個CW laser，全年度預計需求是400KK的CW laser。•EML模塊全年預估在18~20KK，1通道需要1顆EML，需求約160KK。SiPh 正快速吃下大規模 AI\n- LUXNET Proprietary 13 Shipments of xWDM optical transceivers (K units), 2021~2031市場趨勢及未來展望– Inter-Datacenter Module•根據調研機構的預估，400G ZR/ZR+ 的出貨，Y27跟Y26是持平的，但是800G ZR/ZR+ 則是在Y26開始量產出貨，Y27、Y28年2~3 倍成長。而800G ZR/ZR+也是未來公司成長的動能。 Source: Yole (2026.05) 1000Y2026400G Z\n- LUXNET Proprietary 10 市場趨勢及未來展望– Intra-Datacenter Module•由於AI伺服器的大量需求，連帶著Intra-Datacenter的光收發模組也一併需求提升。•去年調研機構預期Y2026 800G的需求數是35KK，今年的報告已經翻倍到70KK。•1.6T預計在今年開始上量，整年度市場需求為 15KK只。 Source: Yole (2026)市場從100G/lane迅速的切換到200G/lane、400G/lane。模塊持續往單模、高速、高功率移動。\n\n### 風險與不確定性\n- LUXNET Proprietary 13 Shipments of xWDM optical transceivers (K units), 2021~2031市場趨勢及未來展望– Inter-Datacenter Module•根據調研機構的預估，400G ZR/ZR+ 的出貨，Y27跟Y26是持平的，但是800G ZR/ZR+ 則是在Y26開始量產出貨，Y27、Y28年2~3 倍成長。而800G ZR/ZR+也是未來公司成長的動能。 Source: Yole (2026.05) 1000Y2026400G Z\n- LUXNET Proprietary 2 展望的表述，本公司不暗示、不聲明亦不保證其內容之正確性或可靠性，使用者應自行判斷與承擔風險。該類表述是基於對現況的預期，但同時受限於已知或未知風險或不確定性的影響。因此實際結果將可能明顯不同於表述內容。有些資訊可能受未來不確定性因素影響，致使與原先本公司對於未來前景的說明迥異。除法令要求外，公司並無義務因應新資訊的產生或未來事件的發生，主動更新對未來展望的表述。本簡報資料中所提供之資訊不代表本公司、產業狀況或後續重大發展的完整論述。此簡報及其內容未經本公司書面許可，任何第三\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 加分主因：page 11 --- LUXNET Proprietary 市場趨勢及未來展望– Intra-Datacenter Light Source 11Source: Yole (2026) •以模塊的發光源來看，可以約略分成 VCSEL, DML, EML & CWlaser(SiPh用)•今年預估用CW laser的模塊出貨量約85KK只，假以一個模塊會用到2~8個CW laser，全年度預計需求是400KK的CW laser。•EML；LUXNET Proprietary 市場趨勢及未來展望– Intra-Datacenter Light Source 11Source: Yole (2026) •以模塊的發光源來看，可以約略分成 VCSEL, DML, EML & CWlaser(SiPh用)•今年預估用CW laser的模塊出貨量約85KK只，假以一個模塊會用到2~8個CW laser，全年度預計需求是400KK的CW laser。•EML模塊全年預估在18~20KK，1通道需要1顆EML，需求約160KK。SiPh 正快速吃下大規模 AI；LUXNET Proprietary 13 Shipments of xWDM optical transceivers (K units), 2021~2031市場趨勢及未來展望– Inter-Datacenter Module•根據調研機構的預估，400G ZR/ZR+ 的出貨，Y27跟Y26是持平的，但是800G ZR/ZR+ 則是在Y26開始量產出貨，Y27、Y28年2~3 倍成長。而800G ZR/ZR+也是未來公司成長的動能。 Source: Yole (2026.05) 1000Y2026400G Z。\n- 扣分或保留：LUXNET Proprietary 13 Shipments of xWDM optical transceivers (K units), 2021~2031市場趨勢及未來展望– Inter-Datacenter Module•根據調研機構的預估，400G ZR/ZR+ 的出貨，Y27跟Y26是持平的，但是800G ZR/ZR+ 則是在Y26開始量產出貨，Y27、Y28年2~3 倍成長。而800G ZR/ZR+也是未來公司成長的動能。 Source: Yole (2026.05) 1000Y2026400G Z；LUXNET Proprietary 2 展望的表述，本公司不暗示、不聲明亦不保證其內容之正確性或可靠性，使用者應自行判斷與承擔風險。該類表述是基於對現況的預期，但同時受限於已知或未知風險或不確定性的影響。因此實際結果將可能明顯不同於表述內容。有些資訊可能受未來不確定性因素影響，致使與原先本公司對於未來前景的說明迥異。除法令要求外，公司並無義務因應新資訊的產生或未來事件的發生，主動更新對未來展望的表述。本簡報資料中所提供之資訊不代表本公司、產業狀況或後續重大發展的完整論述。此簡報及其內容未經本公司書面許可，任何第三。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-    },
-    {
-      "date": "2026-08-28",
-      "code": "6944",
-      "name": "兆聯實業",
+      "date": "2026-08-31",
+      "code": "2883",
+      "name": "凱基金",
       "eventType": "法人說明會",
       "time": "14:30",
-      "location": "台北市信義區松壽路2號3樓(台北君悅酒店)",
-      "topic": "本公司受邀參加富邦證券舉辦之法人說明會",
-      "companyWebsite": "https://www.megaunion-tw.com/tw/investor/announcement?meeting",
-      "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/694420260828M001.pdf",
-      "englishPdf": "https://mopsov.twse.com.tw/nas/STR/694420260828E001.pdf",
-      "mediaUrl": "https://www.youtube.com/watch?v=iP-t4ALJlCE",
+      "location": "臺北嘉佩樂酒店-台北市松山區敦化北路139號",
+      "topic": "屬自辦法人說明會,說明凱基金控115年第2季營運表現",
+      "companyWebsite": "https://kgi.irpro.co/tw/investor-conference.php",
+      "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/288320260831M001.pdf",
+      "englishPdf": "https://mopsov.twse.com.tw/nas/STR/288320260831E001.pdf",
+      "mediaUrl": "https://kgi.irpro.co/tw/investor-conference.php",
       "mediaStatus": "有影音",
       "transcriptStatus": "未產生",
       "outlookBullets": [
-        "6944 營運結果可能與前述資訊有所差異。其原因包括但不限於市場需求、價格 波動、國際情勢、競爭態勢、各種政策法令與金融經濟現況之改變，以及其他本公司無法 掌控之風險等因素。本公司不因實際發生之事件或狀況而負有主動更新或修訂該等預測性 資訊之責任。 •本簡報所提供之資訊，係反應本公司截至目前為止對於未來的看法，並未明示或暗示地表 達或保證其具有正確性、即時性、完整性或可靠性。對於這些看法，未來若有變更或調整 時，本公司並不負有更新或修正之責任。",
-        "報告大綱 一、2026年第2季財務概況 二、產業現況與展望 三、附件 6944"
-      ],
-      "outlookTone": {
-        "label": "中性觀望",
-        "score": 51,
-        "basis": "正向訊號 1、保守訊號 1"
-      },
-      "summaryBullets": [
-        "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-        "MOPS 擇要訊息：本公司受邀參加富邦證券舉辦之法人說明會",
-        "page 3 --- 報告大綱 一、2026年第2季財務概況 二、產業現況與展望 三、附件 6944 --- page 4 --- 6944 01 2026年第2季財務概況 --- page 5 --- 合併各年度累計營收 6944 5 2026年7月 去年同期 增減金額 增減百分比 本年累計 去年累積 增減金額 增減百分比 1,799,012 1,391,236 407,776 29.31% 11,586,335 8,162,782",
-        "Veolia(法國) Kurita(日本) Organo(日本) 兆聯(台灣) Nomura (日本) 市值1 9,433 1,875 1,244 706 297 營收2 16,471 812 358 169 113 營收YOY -0.7% 3.6% 8.8% 64.2% -41.6% 毛利率 17.7% 38.0% 36.6% 22.6% 22.6% 費用率 10.5% 23.5% 15.4% 4.2% 10.7% 營益率 7.2%",
-        "162* *註： 1.同業平均均指公開資訊觀測站「綠能環保產業」分類之上市櫃公司平均 2.全體上市櫃公司排評係以114年度資料計算(共1945家) 兆聯實業 114年度 - 5 10 15 20 25 30 35 40 - 500 1,000 1,500 2,000 兆聯 EPS 32.29(追溯前), 平均年薪1,728千元 每股盈餘EPS 平均年薪(千元) 薪資與獲利能力比較 同業 1,032千元 兆聯 1,728千元 高於同業+6",
-        "page 3 --- Agenda 1、Financials 2、Industry overview & outlook 3、Appendix 6944 --- page 4 --- 6944 01 Financials ppendixppendix --- page 5 --- Consolidated Revenue Growth Over the Years 6944 5 Unit : NT thousand 1,377,223",
-        "•本公司未來實際營運結果可能與前述資訊有所差異。其原因包括但不限於市場需求、價格 波動、國際情勢、競爭態勢、各種政策法令與金融經濟現況之改變，以及其他本公司無法 掌控之風險等因素。本公司不因實際發生之事件或狀況而負有主動更新或修訂該等預測性 資訊之責任。"
-      ],
-      "financialBullets": [],
-      "riskBullets": [],
-      "qnaBullets": [],
-      "crossCheckBullets": [],
-      "sourceReport": "../法說整理/reports/ir_summary_2026-08-28.md",
-      "detailMarkdown": "## 6944 兆聯實業 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（51 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 1、保守訊號 1。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- page 3 --- 報告大綱 一、2026年第2季財務概況 二、產業現況與展望 三、附件 6944 --- page 4 --- 6944 01 2026年第2季財務概況 --- page 5 --- 合併各年度累計營收 6944 5 2026年7月 去年同期 增減金額 增減百分比 本年累計 去年累積 增減金額 增減百分比 1,799,012 1,391,236 407,776 29.31% 11,586,335 8,162,782\n- Veolia(法國) Kurita(日本) Organo(日本) 兆聯(台灣) Nomura (日本) 市值1 9,433 1,875 1,244 706 297 營收2 16,471 812 358 169 113 營收YOY -0.7% 3.6% 8.8% 64.2% -41.6% 毛利率 17.7% 38.0% 36.6% 22.6% 22.6% 費用率 10.5% 23.5% 15.4% 4.2% 10.7% 營益率 7.2%\n- 162* *註： 1.同業平均均指公開資訊觀測站「綠能環保產業」分類之上市櫃公司平均 2.全體上市櫃公司排評係以114年度資料計算(共1945家) 兆聯實業 114年度 - 5 10 15 20 25 30 35 40 - 500 1,000 1,500 2,000 兆聯 EPS 32.29(追溯前), 平均年薪1,728千元 每股盈餘EPS 平均年薪(千元) 薪資與獲利能力比較 同業 1,032千元 兆聯 1,728千元 高於同業+6\n\n### 展望與成長利基\n- 6944 營運結果可能與前述資訊有所差異。其原因包括但不限於市場需求、價格 波動、國際情勢、競爭態勢、各種政策法令與金融經濟現況之改變，以及其他本公司無法 掌控之風險等因素。本公司不因實際發生之事件或狀況而負有主動更新或修訂該等預測性 資訊之責任。 •本簡報所提供之資訊，係反應本公司截至目前為止對於未來的看法，並未明示或暗示地表 達或保證其具有正確性、即時性、完整性或可靠性。對於這些看法，未來若有變更或調整 時，本公司並不負有更新或修正之責任。\n- 報告大綱 一、2026年第2季財務概況 二、產業現況與展望 三、附件 6944\n\n### 產品、客戶與市場位置\n- •本公司未來實際營運結果可能與前述資訊有所差異。其原因包括但不限於市場需求、價格 波動、國際情勢、競爭態勢、各種政策法令與金融經濟現況之改變，以及其他本公司無法 掌控之風險等因素。本公司不因實際發生之事件或狀況而負有主動更新或修訂該等預測性 資訊之責任。\n- 6944 營運結果可能與前述資訊有所差異。其原因包括但不限於市場需求、價格 波動、國際情勢、競爭態勢、各種政策法令與金融經濟現況之改變，以及其他本公司無法 掌控之風險等因素。本公司不因實際發生之事件或狀況而負有主動更新或修訂該等預測性 資訊之責任。 •本簡報所提供之資訊，係反應本公司截至目前為止對於未來的看法，並未明示或暗示地表 達或保證其具有正確性、即時性、完整性或可靠性。對於這些看法，未來若有變更或調整 時，本公司並不負有更新或修正之責任。\n\n### 風險與不確定性\n- •本公司未來實際營運結果可能與前述資訊有所差異。其原因包括但不限於市場需求、價格 波動、國際情勢、競爭態勢、各種政策法令與金融經濟現況之改變，以及其他本公司無法 掌控之風險等因素。本公司不因實際發生之事件或狀況而負有主動更新或修訂該等預測性 資訊之責任。\n- 6944 營運結果可能與前述資訊有所差異。其原因包括但不限於市場需求、價格 波動、國際情勢、競爭態勢、各種政策法令與金融經濟現況之改變，以及其他本公司無法 掌控之風險等因素。本公司不因實際發生之事件或狀況而負有主動更新或修訂該等預測性 資訊之責任。 •本簡報所提供之資訊，係反應本公司截至目前為止對於未來的看法，並未明示或暗示地表 達或保證其具有正確性、即時性、完整性或可靠性。對於這些看法，未來若有變更或調整 時，本公司並不負有更新或修正之責任。\n\n### Q&A 與管理層口氣\n- Veolia(法國) Kurita(日本) Organo(日本) 兆聯(台灣) Nomura (日本) 市值1 9,433 1,875 1,244 706 297 營收2 16,471 812 358 169 113 營收YOY -0.7% 3.6% 8.8% 64.2% -41.6% 毛利率 17.7% 38.0% 36.6% 22.6% 22.6% 費用率 10.5% 23.5% 15.4% 4.2% 10.7% 營益率 7.2%\n\n### 評分利基點\n- 加分主因：162* *註： 1.同業平均均指公開資訊觀測站「綠能環保產業」分類之上市櫃公司平均 2.全體上市櫃公司排評係以114年度資料計算(共1945家) 兆聯實業 114年度 - 5 10 15 20 25 30 35 40 - 500 1,000 1,500 2,000 兆聯 EPS 32.29(追溯前), 平均年薪1,728千元 每股盈餘EPS 平均年薪(千元) 薪資與獲利能力比較 同業 1,032千元 兆聯 1,728千元 高於同業+6；page 3 --- Agenda 1、Financials 2、Industry overview & outlook 3、Appendix 6944 --- page 4 --- 6944 01 Financials ppendixppendix --- page 5 --- Consolidated Revenue Growth Over the Years 6944 5 Unit : NT thousand 1,377,223；•本公司未來實際營運結果可能與前述資訊有所差異。其原因包括但不限於市場需求、價格 波動、國際情勢、競爭態勢、各種政策法令與金融經濟現況之改變，以及其他本公司無法 掌控之風險等因素。本公司不因實際發生之事件或狀況而負有主動更新或修訂該等預測性 資訊之責任。。\n- 扣分或保留：•本公司未來實際營運結果可能與前述資訊有所差異。其原因包括但不限於市場需求、價格 波動、國際情勢、競爭態勢、各種政策法令與金融經濟現況之改變，以及其他本公司無法 掌控之風險等因素。本公司不因實際發生之事件或狀況而負有主動更新或修訂該等預測性 資訊之責任。；6944 營運結果可能與前述資訊有所差異。其原因包括但不限於市場需求、價格 波動、國際情勢、競爭態勢、各種政策法令與金融經濟現況之改變，以及其他本公司無法 掌控之風險等因素。本公司不因實際發生之事件或狀況而負有主動更新或修訂該等預測性 資訊之責任。 •本簡報所提供之資訊，係反應本公司截至目前為止對於未來的看法，並未明示或暗示地表 達或保證其具有正確性、即時性、完整性或可靠性。對於這些看法，未來若有變更或調整 時，本公司並不負有更新或修正之責任。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-    },
-    {
-      "date": "2026-08-28",
-      "code": "7749",
-      "name": "意騰-KY",
-      "eventType": "法人說明會",
-      "time": "14:30",
-      "location": "線上法說會。",
-      "topic": "本公司受邀參加由元大證券舉辦之線上法說會,說明本公司之營運概況及財務相關資訊。",
-      "companyWebsite": "https://www.intelli-go.com/zh-tw/investor-area/investor-60",
-      "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/774920260827M001.pdf",
-      "englishPdf": "https://mopsov.twse.com.tw/nas/STR/774920260827E001.pdf",
-      "mediaUrl": "http://irconference.twse.com.tw/7749_9_20260828_ch.mp4",
-      "mediaStatus": "有影音",
-      "transcriptStatus": "未產生",
-      "outlookBullets": [
-        "2C O N F I D E N T I A L AI-NR Improves ASR_Azure投資安全聲明 簡報內所提供之資訊 (除歷史資訊外 )屬預測性陳述 ，受到各種風險及不確定性因素影響 ， 可能造成實際結果與陳述內容發生顯著不符 ，這些不確定性因素包括：受到競爭性產品及 定價之影響、設計是否及時被客戶接受 、新技術是否及時導入利用 、新產品大量量產之能 力、產業及市場對半導體產品之供給及需求移轉 、產業及市場是否供給過剩、製造產能可 得利用情況、終端市場之財務穩定性、人才留任困難之可能性、無法預期之成本"
-      ],
-      "outlookTone": {
-        "label": "中性偏正面",
-        "score": 59,
-        "basis": "正向訊號 3、保守訊號 2"
-      },
-      "summaryBullets": [
-        "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-        "MOPS 擇要訊息：本公司受邀參加由元大證券舉辦之線上法說會,說明本公司之營運概況及財務相關資訊。",
-        "[zh PDF] --- page 1 --- C O N F I D E N T I A L 意騰科技 2026 年 第 二 季 法 人 說 明 會 Aug 28 , 2 0 2 6 I n t e l l i g o 2026 - Q 2 I n v e s t o r C o n f e r e n c e --- page 2 --- 2C O N F I D E N T I A L AI-NR Improves ASR_Azu",
-        "page 3 --- 財務成果 --- page 4 --- 4C O N F I D E N T I A L 合併營業收入 349,832 533,313 551,715 2Q 25 1Q 26 2Q 26 YoY +57.7% QoQ +3.5% (單位：新台幣仟元) --- page 5 --- 5C O N F I D E N T I A L 合併毛利率 (單位：%) YoY -10.1 pts QoQ -1.7 pts 78.",
-        "The factors include the impact of competitive products and pricing, timely acceptance of products design by our customers, timely introduction of new technologies, ability to ramp new products into volume, industry wide",
-        "Ratio R&D Ratio 28.3% QoQ -23.4% YoY -8.2 pts 36.5%127,811 QoQ -9.9 pts 38.2% (Unit：NTD thousand) (Unit：%) --- page 7 --- 7C O N F I D E N T I A L YoY +50.9% QoQ +29.9% 146,999 170,669 221,774 2Q 25 1Q 26 2Q 26 Consolida"
-      ],
-      "financialBullets": [],
-      "riskBullets": [],
-      "qnaBullets": [],
-      "crossCheckBullets": [],
-      "sourceReport": "../法說整理/reports/ir_summary_2026-08-28.md",
-      "detailMarkdown": "## 7749 意騰-KY 深度法說分析\n\n### 一頁結論\n- 展望評價：中性偏正面（59 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 3、保守訊號 2。\n- 判讀：方向偏正面，但管理層仍保留部分彈性，較適合追蹤接單、毛利率與下一季財測是否延續。 \n\n### 營運與財務重點\n- page 3 --- 財務成果 --- page 4 --- 4C O N F I D E N T I A L 合併營業收入 349,832 533,313 551,715 2Q 25 1Q 26 2Q 26 YoY +57.7% QoQ +3.5% (單位：新台幣仟元) --- page 5 --- 5C O N F I D E N T I A L 合併毛利率 (單位：%) YoY -10.1 pts QoQ -1.7 pts 78.\n\n### 展望與成長利基\n- 2C O N F I D E N T I A L AI-NR Improves ASR_Azure投資安全聲明 簡報內所提供之資訊 (除歷史資訊外 )屬預測性陳述 ，受到各種風險及不確定性因素影響 ， 可能造成實際結果與陳述內容發生顯著不符 ，這些不確定性因素包括：受到競爭性產品及 定價之影響、設計是否及時被客戶接受 、新技術是否及時導入利用 、新產品大量量產之能 力、產業及市場對半導體產品之供給及需求移轉 、產業及市場是否供給過剩、製造產能可 得利用情況、終端市場之財務穩定性、人才留任困難之可能性、無法預期之成本\n\n### 產品、客戶與市場位置\n- [zh PDF] --- page 1 --- C O N F I D E N T I A L 意騰科技 2026 年 第 二 季 法 人 說 明 會 Aug 28 , 2 0 2 6 I n t e l l i g o 2026 - Q 2 I n v e s t o r C o n f e r e n c e --- page 2 --- 2C O N F I D E N T I A L AI-NR Improves ASR_Azu\n- 2C O N F I D E N T I A L AI-NR Improves ASR_Azure投資安全聲明 簡報內所提供之資訊 (除歷史資訊外 )屬預測性陳述 ，受到各種風險及不確定性因素影響 ， 可能造成實際結果與陳述內容發生顯著不符 ，這些不確定性因素包括：受到競爭性產品及 定價之影響、設計是否及時被客戶接受 、新技術是否及時導入利用 、新產品大量量產之能 力、產業及市場對半導體產品之供給及需求移轉 、產業及市場是否供給過剩、製造產能可 得利用情況、終端市場之財務穩定性、人才留任困難之可能性、無法預期之成本\n\n### 風險與不確定性\n- 2C O N F I D E N T I A L AI-NR Improves ASR_Azure投資安全聲明 簡報內所提供之資訊 (除歷史資訊外 )屬預測性陳述 ，受到各種風險及不確定性因素影響 ， 可能造成實際結果與陳述內容發生顯著不符 ，這些不確定性因素包括：受到競爭性產品及 定價之影響、設計是否及時被客戶接受 、新技術是否及時導入利用 、新產品大量量產之能 力、產業及市場對半導體產品之供給及需求移轉 、產業及市場是否供給過剩、製造產能可 得利用情況、終端市場之財務穩定性、人才留任困難之可能性、無法預期之成本\n\n### Q&A 與管理層口氣\n- page 3 --- 財務成果 --- page 4 --- 4C O N F I D E N T I A L 合併營業收入 349,832 533,313 551,715 2Q 25 1Q 26 2Q 26 YoY +57.7% QoQ +3.5% (單位：新台幣仟元) --- page 5 --- 5C O N F I D E N T I A L 合併毛利率 (單位：%) YoY -10.1 pts QoQ -1.7 pts 78.\n- 2C O N F I D E N T I A L AI-NR Improves ASR_Azure投資安全聲明 簡報內所提供之資訊 (除歷史資訊外 )屬預測性陳述 ，受到各種風險及不確定性因素影響 ， 可能造成實際結果與陳述內容發生顯著不符 ，這些不確定性因素包括：受到競爭性產品及 定價之影響、設計是否及時被客戶接受 、新技術是否及時導入利用 、新產品大量量產之能 力、產業及市場對半導體產品之供給及需求移轉 、產業及市場是否供給過剩、製造產能可 得利用情況、終端市場之財務穩定性、人才留任困難之可能性、無法預期之成本\n\n### 評分利基點\n- 加分主因：[zh PDF] --- page 1 --- C O N F I D E N T I A L 意騰科技 2026 年 第 二 季 法 人 說 明 會 Aug 28 , 2 0 2 6 I n t e l l i g o 2026 - Q 2 I n v e s t o r C o n f e r e n c e --- page 2 --- 2C O N F I D E N T I A L AI-NR Improves ASR_Azu；2C O N F I D E N T I A L AI-NR Improves ASR_Azure投資安全聲明 簡報內所提供之資訊 (除歷史資訊外 )屬預測性陳述 ，受到各種風險及不確定性因素影響 ， 可能造成實際結果與陳述內容發生顯著不符 ，這些不確定性因素包括：受到競爭性產品及 定價之影響、設計是否及時被客戶接受 、新技術是否及時導入利用 、新產品大量量產之能 力、產業及市場對半導體產品之供給及需求移轉 、產業及市場是否供給過剩、製造產能可 得利用情況、終端市場之財務穩定性、人才留任困難之可能性、無法預期之成本。\n- 扣分或保留：2C O N F I D E N T I A L AI-NR Improves ASR_Azure投資安全聲明 簡報內所提供之資訊 (除歷史資訊外 )屬預測性陳述 ，受到各種風險及不確定性因素影響 ， 可能造成實際結果與陳述內容發生顯著不符 ，這些不確定性因素包括：受到競爭性產品及 定價之影響、設計是否及時被客戶接受 、新技術是否及時導入利用 、新產品大量量產之能 力、產業及市場對半導體產品之供給及需求移轉 、產業及市場是否供給過剩、製造產能可 得利用情況、終端市場之財務穩定性、人才留任困難之可能性、無法預期之成本。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-    },
-    {
-      "date": "2026-08-28",
-      "code": "8034",
-      "name": "榮群",
-      "eventType": "法人說明會",
-      "time": "14:00",
-      "location": "新竹科學園區工業東九路五號3樓(榮群電訊)",
-      "topic": "本公司會中將就本公司已公開發佈之財務業務等相關訊息作說明",
-      "companyWebsite": "https://www.opnet.com.tw/zh-tw/a3-2463/公司基本資料.html",
-      "chinesePdf": "",
-      "englishPdf": "",
-      "mediaUrl": "https://www.youtube.com/watch?v=OP6jUISGrVw",
-      "mediaStatus": "有影音",
-      "transcriptStatus": "未產生",
-      "outlookBullets": [
-        "未從簡報或轉錄稿擷取到明確展望段落。"
-      ],
-      "outlookTone": {
-        "label": "中性觀望",
-        "score": 50,
-        "basis": "正向訊號 0、保守訊號 0"
-      },
-      "summaryBullets": [
-        "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-        "MOPS 擇要訊息：本公司會中將就本公司已公開發佈之財務業務等相關訊息作說明",
-        "缺少可摘要的簡報文字或轉錄稿。"
-      ],
-      "financialBullets": [],
-      "riskBullets": [],
-      "qnaBullets": [],
-      "crossCheckBullets": [],
-      "sourceReport": "../法說整理/reports/ir_summary_2026-08-28.md",
-      "detailMarkdown": "## 8034 榮群 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：本公司會中將就本公司已公開發佈之財務業務等相關訊息作說明\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
-    },
-    {
-      "date": "2026-08-28",
-      "code": "8121",
-      "name": "越峰",
-      "eventType": "法人說明會",
-      "time": "14:00",
-      "location": "線上法說會",
-      "topic": "本公司受邀參加群益金鼎證券舉辦之線上法說會,說明公司營運及財務概況。報名網址:請填寫報名表單 https://www.surveycake.com/s/qo8BP 活動內容詢問電話:(02)2650-3337分機6810王協理",
-      "companyWebsite": "https://www.acme-ferrite.com.tw/Offical_Zone/CorporateGovernance_Seven",
-      "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/812120260828M001.pdf",
-      "englishPdf": "https://mopsov.twse.com.tw/nas/STR/812120260828E001.pdf",
-      "mediaUrl": "http://irconference.twse.com.tw/8121_14_20260828_ch.mp4",
-      "mediaStatus": "有影音",
-      "transcriptStatus": "未產生",
-      "outlookBullets": [
-        "市場展望 ACME Electronics Corporation 資料來源：YOLE 2026年 5 月",
-        "ACME Electronics Corporation 簡報大綱  公司概況、營運回顧與展望  財務資訊  Q&A與意見交流",
-        "ACME Electronics Corporation 公司概況、營運回顧與展望 報告人 : 王敏華 協理",
-        "市場展望 ACME Electronics Corporation"
+        "2383FF 00B0F00070C0002060 B2D3FF 862F08 B5400B F16022 F6B6A4 FADBD2 0C3177 515981 FDF1E9F2F8EE EAEDF2 F2F2F2 EAF2FA 222A35 000000 C00000 F94545 FDD7D3 939ABB C4C8DA EAECF2 3C845D 4DA977 AEDAC22E6446 CFE9DB KGIB Backgrounds Fonts CDIB KGIS CLIC F69B72 FCE9E4 3B"
       ],
       "outlookTone": {
         "label": "中性偏正面",
@@ -14337,28 +13556,32 @@ window.irSummaryLatest = {
       },
       "summaryBullets": [
         "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-        "MOPS 擇要訊息：本公司受邀參加群益金鼎證券舉辦之線上法說會,說明公司營運及財務概況。報名網址:請填寫報名表單 https://www.surveycake.com/s/qo8BP 活動內容詢問電話:(02)2650-3337分機6810王協理",
-        "page 3 --- ACME Electronics Corporation 簡報大綱  公司概況、營運回顧與展望  財務資訊  Q&A與意見交流 --- page 4 --- ACME Electronics Corporation 公司概況、營運回顧與展望 報告人 : 王敏華 協理 --- page 5 --- 越峯電子材料股份有限公司 ACME Electronics Corporation 1991/09/05成立時間"
+        "MOPS 擇要訊息：屬自辦法人說明會,說明凱基金控115年第2季營運表現",
+        "財富管理業務資產管理規模年成長39%，截至1H 26為新臺幣4144億元 ; 財管相關營收年增61% 3.7 17.9 7.3 10.1 11.5 1H25 1H26 2023 2024 2025 稅後淨利 (新臺幣十億元) 12.0% 48.1% 13.0% 16.3% 17.3% 1H25 1H26 2023 2024 2025 年化股東權益報酬率 --- page 26 --- 2383FF 00B0F00070C0002060",
+        "page 3 --- 2383FF 00B0F00070C0002060 B2D3FF 862F08 B5400B F16022 F6B6A4 FADBD2 0C3177 515981 FDF1E9F2F8EE EAEDF2 F2F2F2 EAF2FA 222A35 000000 C00000 F94545 FDD7D3 939ABB C4C8DA EAECF2 3C845D 4DA977 AEDAC22E6446 CFE9DB KGI",
+        "1H 2026營運報告 2018.01 69 億元 第31名 2019.06 突破1,000億元 2021.12 突破2,000億元 2025.01 突破3,000億元 2026.04 突破4,000億元 2026.06 5,187億元 第9名 --- page 32 --- 2383FF 00B0F00070C0002060 B2D3FF 862F08 B5400B F16022 F6B6A4 FADBD2 0C3177 515981",
+        "平均票面利率僅以債券產品計算 1H 2026營運報告 3.4 3.6 3.2 3.5 3.3 1H 25 1H 26 2023 2024 2025 私募債權1既有部位規模(新臺幣十億元) 162 167 311 294 334 24 7 17 36 29 11.9% 12.4% 11.6% 11.6% 11.7% 1H 25 1H 26 2023 2024 2025 利息收入 手續費收入 平均票面利率 328 330 363 私募債權2",
+        "總投資資產之投資收益率包含避險成本及分類至FVOCI權益工具處分損益 55% 39% 6% 1H26 FVTPL FVOCI AC 2.2兆元 金融資產分類 --- page 15 --- 2383FF 00B0F00070C0002060 B2D3FF 862F08 B5400B F16022 F6B6A4 FADBD2 0C3177 515981 FDF1E9F2F8EE EAEDF2 F2F2F2 EAF2FA 222A35 00"
       ],
       "financialBullets": [],
       "riskBullets": [],
       "qnaBullets": [],
       "crossCheckBullets": [],
-      "sourceReport": "../法說整理/reports/ir_summary_2026-08-28.md",
-      "detailMarkdown": "## 8121 越峰 深度法說分析\n\n### 一頁結論\n- 展望評價：中性偏正面（57 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 1、保守訊號 0。\n- 判讀：方向偏正面，但管理層仍保留部分彈性，較適合追蹤接單、毛利率與下一季財測是否延續。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：本公司受邀參加群益金鼎證券舉辦之線上法說會,說明公司營運及財務概況。報名網址:請填寫報名表單 https://www.surveycake.com/s/qo8BP 活動內容詢問電話:(02)2650-3337分機6810王協理\n- page 3 --- ACME Electronics Corporation 簡報大綱  公司概況、營運回顧與展望  財務資訊  Q&A與意見交流 --- page 4 --- ACME Electronics Corporation 公司概況、營運回顧與展望 報告人 : 王敏華 協理 --- page 5 --- 越峯電子材料股份有限公司 ACME Electronics Corporation 1991/09/05成立時間\n\n### 展望與成長利基\n- 市場展望 ACME Electronics Corporation 資料來源：YOLE 2026年 5 月\n- ACME Electronics Corporation 簡報大綱  公司概況、營運回顧與展望  財務資訊  Q&A與意見交流\n- ACME Electronics Corporation 公司概況、營運回顧與展望 報告人 : 王敏華 協理\n- 市場展望 ACME Electronics Corporation\n\n### 產品、客戶與市場位置\n- 市場展望 ACME Electronics Corporation 資料來源：YOLE 2026年 5 月\n- 市場展望 ACME Electronics Corporation\n\n### 風險與不確定性\n- 本次摘要未擷取到明確風險或保守訊號。\n\n### Q&A 與管理層口氣\n- page 3 --- ACME Electronics Corporation 簡報大綱  公司概況、營運回顧與展望  財務資訊  Q&A與意見交流 --- page 4 --- ACME Electronics Corporation 公司概況、營運回顧與展望 報告人 : 王敏華 協理 --- page 5 --- 越峯電子材料股份有限公司 ACME Electronics Corporation 1991/09/05成立時間\n- ACME Electronics Corporation 簡報大綱  公司概況、營運回顧與展望  財務資訊  Q&A與意見交流\n\n### 評分利基點\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+      "sourceReport": "../法說整理/reports/ir_summary_2026-08-31.md",
+      "detailMarkdown": "## 2883 凱基金 深度法說分析\n\n### 一頁結論\n- 展望評價：中性偏正面（57 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 1、保守訊號 0。\n- 判讀：方向偏正面，但管理層仍保留部分彈性，較適合追蹤接單、毛利率與下一季財測是否延續。 \n\n### 營運與財務重點\n- 財富管理業務資產管理規模年成長39%，截至1H 26為新臺幣4144億元 ; 財管相關營收年增61% 3.7 17.9 7.3 10.1 11.5 1H25 1H26 2023 2024 2025 稅後淨利 (新臺幣十億元) 12.0% 48.1% 13.0% 16.3% 17.3% 1H25 1H26 2023 2024 2025 年化股東權益報酬率 --- page 26 --- 2383FF 00B0F00070C0002060\n\n### 展望與成長利基\n- 2383FF 00B0F00070C0002060 B2D3FF 862F08 B5400B F16022 F6B6A4 FADBD2 0C3177 515981 FDF1E9F2F8EE EAEDF2 F2F2F2 EAF2FA 222A35 000000 C00000 F94545 FDD7D3 939ABB C4C8DA EAECF2 3C845D 4DA977 AEDAC22E6446 CFE9DB KGIB Backgrounds Fonts CDIB KGIS CLIC F69B72 FCE9E4 3B\n\n### 產品、客戶與市場位置\n- 平均票面利率僅以債券產品計算 1H 2026營運報告 3.4 3.6 3.2 3.5 3.3 1H 25 1H 26 2023 2024 2025 私募債權1既有部位規模(新臺幣十億元) 162 167 311 294 334 24 7 17 36 29 11.9% 12.4% 11.6% 11.6% 11.7% 1H 25 1H 26 2023 2024 2025 利息收入 手續費收入 平均票面利率 328 330 363 私募債權2\n\n### 風險與不確定性\n- 總投資資產之投資收益率包含避險成本及分類至FVOCI權益工具處分損益 55% 39% 6% 1H26 FVTPL FVOCI AC 2.2兆元 金融資產分類 --- page 15 --- 2383FF 00B0F00070C0002060 B2D3FF 862F08 B5400B F16022 F6B6A4 FADBD2 0C3177 515981 FDF1E9F2F8EE EAEDF2 F2F2F2 EAF2FA 222A35 00\n\n### Q&A 與管理層口氣\n- 總投資資產之投資收益率包含避險成本及分類至FVOCI權益工具處分損益 55% 39% 6% 1H26 FVTPL FVOCI AC 2.2兆元 金融資產分類 --- page 15 --- 2383FF 00B0F00070C0002060 B2D3FF 862F08 B5400B F16022 F6B6A4 FADBD2 0C3177 515981 FDF1E9F2F8EE EAEDF2 F2F2F2 EAF2FA 222A35 00\n\n### 評分利基點\n- 加分主因：財富管理業務資產管理規模年成長39%，截至1H 26為新臺幣4144億元 ; 財管相關營收年增61% 3.7 17.9 7.3 10.1 11.5 1H25 1H26 2023 2024 2025 稅後淨利 (新臺幣十億元) 12.0% 48.1% 13.0% 16.3% 17.3% 1H25 1H26 2023 2024 2025 年化股東權益報酬率 --- page 26 --- 2383FF 00B0F00070C0002060。\n- 扣分或保留：總投資資產之投資收益率包含避險成本及分類至FVOCI權益工具處分損益 55% 39% 6% 1H26 FVTPL FVOCI AC 2.2兆元 金融資產分類 --- page 15 --- 2383FF 00B0F00070C0002060 B2D3FF 862F08 B5400B F16022 F6B6A4 FADBD2 0C3177 515981 FDF1E9F2F8EE EAEDF2 F2F2F2 EAF2FA 222A35 00。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
     },
     {
-      "date": "2026-08-28",
-      "code": "8438",
-      "name": "昶昕",
+      "date": "2026-08-31",
+      "code": "2904",
+      "name": "匯僑",
       "eventType": "法人說明會",
       "time": "14:30",
-      "location": "台北市中山區建國北路一段96號(台証金融大樓)B1樓福爾摩沙廰會議室",
-      "topic": "本公司受台新證券邀請,參加其舉辦之法人說明會,報告公司簡介與營運現況。",
-      "companyWebsite": "https://www.persee.com.tw/法人說明會-1/",
+      "location": "台北市大安區敦化南路2段97號11樓(台新綜合證券教育訓練室)",
+      "topic": "本公司受邀參加台新綜合證券法人說明會,說明本公司營運及財務相關概況。",
+      "companyWebsite": "https://www.pocs.com.tw/msg/message-法人說明-13.html",
       "chinesePdf": "",
       "englishPdf": "",
-      "mediaUrl": "http://irconference.twse.com.tw/8438_11_20260828_ch.MP4",
+      "mediaUrl": "http://irconference.twse.com.tw/2904_10_20260831_ch.MP4",
       "mediaStatus": "有影音",
       "transcriptStatus": "未產生",
       "outlookBullets": [
@@ -14371,33 +13594,74 @@ window.irSummaryLatest = {
       },
       "summaryBullets": [
         "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-        "MOPS 擇要訊息：本公司受台新證券邀請,參加其舉辦之法人說明會,報告公司簡介與營運現況。",
+        "MOPS 擇要訊息：本公司受邀參加台新綜合證券法人說明會,說明本公司營運及財務相關概況。",
         "缺少可摘要的簡報文字或轉錄稿。"
       ],
       "financialBullets": [],
       "riskBullets": [],
       "qnaBullets": [],
       "crossCheckBullets": [],
-      "sourceReport": "../法說整理/reports/ir_summary_2026-08-28.md",
-      "detailMarkdown": "## 8438 昶昕 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：本公司受台新證券邀請,參加其舉辦之法人說明會,報告公司簡介與營運現況。\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+      "sourceReport": "../法說整理/reports/ir_summary_2026-08-31.md",
+      "detailMarkdown": "## 2904 匯僑 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：本公司受邀參加台新綜合證券法人說明會,說明本公司營運及財務相關概況。\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
     },
     {
-      "date": "2026-08-28",
-      "code": "9918",
-      "name": "欣天然",
+      "date": "2026-08-31",
+      "code": "4702",
+      "name": "中美實",
       "eventType": "法人說明會",
       "time": "14:00",
-      "location": "新北市中和區新民街29號8樓",
-      "topic": "說明本公司營運狀況及業務展望。",
-      "companyWebsite": "https://www.shinshingas.com.tw/Investors/info_34/Investor_Conference/",
-      "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/991820260828M001.pdf",
-      "englishPdf": "https://mopsov.twse.com.tw/nas/STR/991820260828E001.pdf",
-      "mediaUrl": "https://www.youtube.com/watch?v=IKksBb9uF9o",
+      "location": "線上法說會",
+      "topic": "說明本公司營運狀況",
+      "companyWebsite": "http://www.aicgroup.com.tw/",
+      "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/470220260831M001.pdf",
+      "englishPdf": "https://mopsov.twse.com.tw/nas/STR/470220260831E001.pdf",
+      "mediaUrl": "http://irconference.twse.com.tw/4702_5_20260831_ch.mp4",
       "mediaStatus": "有影音",
       "transcriptStatus": "未產生",
       "outlookBullets": [
-        "Page 10 of 17 4. Operation Prospects (1) New customer promotion a. The Company tries to extend pipeline network and expand service area to meet future demands, such as residential compounds, new residential buildings, urban renewal projects, and individual bui",
-        "Page 16 of 17 advantages, making it the best energy choice for urban daily life. We believe that with the support and care of our shareholders, the guidance of the Board of Directors, and the collective efforts of all employees, the company’s performance will"
+        "展望的預測性表述，該類表述受限 於已知或未知風險或不確定性因素的影響，因此實際結果將可能 明顯不同於表述內容。除法令要求外，公司並無義務因新事件或 新形勢的發生更新對未來展望的表述。 本簡報中對未來展望的表述， 僅反應本公司截至目前為止對於未 來的看法，而不構成投資建議。 關於這些未來展望表述的內容可 靠性、準確性或完整性不具有任何的明示或暗示， 本公司特此聲 明不承擔任何的保證。 對於因使用這些表述內容而引起的任何直 接或間接損失，本公司不承擔任何責任。",
+        "未來動能 結合經營團隊的豐沛資源及過去成功經驗， 未 來聚焦在具成長潛力的高新科技、 生技醫材及 民生消費等優質企業的投資， 以增加公司合併 營收及獲利。 aicgroup.com.tw 7",
+        "Future Outlook Combining the abundant resources and past successful experience of our management team, AIC is exploring the investment opportunities of high-quality enterprises where the areas of high-tech, biotech/ medical materials, and consumer goods are ta"
+      ],
+      "outlookTone": {
+        "label": "中性偏正面",
+        "score": 66,
+        "basis": "正向訊號 4、保守訊號 2"
+      },
+      "summaryBullets": [
+        "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+        "MOPS 擇要訊息：說明本公司營運狀況",
+        "轉投資業務 晶實科技(Studio A)集團 染料貿易 財務操作 藉由投資國內外上市櫃股票，增加公司盈餘， 支持未來投資發展 --- page 4 --- 營收資訊 aicgroup.com.tw 204 429 272 6% 304 7% 4 單位：新台幣千元 --- page 5 --- 營運結果 aicgroup.com.tw 5 單位：新台幣千元 68,979 24,332 12,476 36,808 39,902 9,069",
+        "Dyestuff Trading Investment Business --- page 4 --- Revenue Information aicgroup.com.tw 204 429 272 6% 304 7% 4 Unit：NT$ thousand --- page 5 --- Income Statement aicgroup.com.tw 5 Unit：NT$ thousand 68,979 24,332 12,476 3",
+        "[zh PDF] --- page 1 --- 中美聯合實業股份有限公司 2026年法人說明會 1 2026.8.31 --- page 2 --- 展望的預測性表述，該類表述受限 於已知或未知風險或不確定性因素的影響，因此實際結果將可能 明顯不同於表述內容。除法令要求外，公司並無義務因新事件或 新形勢的發生更新對未來展望的表述。",
+        "本簡報中對未來展望的表述， 僅反應本公司截至目前為止對於未 來的看法，而不構成投資建議。",
+        "關於這些未來展望表述的內容可 靠性、準確性或完整性不具有任何的明示或暗示， 本公司特此聲 明不承擔任何的保證。"
+      ],
+      "financialBullets": [],
+      "riskBullets": [],
+      "qnaBullets": [],
+      "crossCheckBullets": [],
+      "sourceReport": "../法說整理/reports/ir_summary_2026-08-31.md",
+      "detailMarkdown": "## 4702 中美實 深度法說分析\n\n### 一頁結論\n- 展望評價：中性偏正面（66 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 4、保守訊號 2。\n- 判讀：方向偏正面，但管理層仍保留部分彈性，較適合追蹤接單、毛利率與下一季財測是否延續。 \n\n### 營運與財務重點\n- 轉投資業務 晶實科技(Studio A)集團 染料貿易 財務操作 藉由投資國內外上市櫃股票，增加公司盈餘， 支持未來投資發展 --- page 4 --- 營收資訊 aicgroup.com.tw 204 429 272 6% 304 7% 4 單位：新台幣千元 --- page 5 --- 營運結果 aicgroup.com.tw 5 單位：新台幣千元 68,979 24,332 12,476 36,808 39,902 9,069\n- 未來動能 結合經營團隊的豐沛資源及過去成功經驗， 未 來聚焦在具成長潛力的高新科技、 生技醫材及 民生消費等優質企業的投資， 以增加公司合併 營收及獲利。 aicgroup.com.tw 7\n\n### 展望與成長利基\n- 展望的預測性表述，該類表述受限 於已知或未知風險或不確定性因素的影響，因此實際結果將可能 明顯不同於表述內容。除法令要求外，公司並無義務因新事件或 新形勢的發生更新對未來展望的表述。 本簡報中對未來展望的表述， 僅反應本公司截至目前為止對於未 來的看法，而不構成投資建議。 關於這些未來展望表述的內容可 靠性、準確性或完整性不具有任何的明示或暗示， 本公司特此聲 明不承擔任何的保證。 對於因使用這些表述內容而引起的任何直 接或間接損失，本公司不承擔任何責任。\n- 未來動能 結合經營團隊的豐沛資源及過去成功經驗， 未 來聚焦在具成長潛力的高新科技、 生技醫材及 民生消費等優質企業的投資， 以增加公司合併 營收及獲利。 aicgroup.com.tw 7\n- Future Outlook Combining the abundant resources and past successful experience of our management team, AIC is exploring the investment opportunities of high-quality enterprises where the areas of high-tech, biotech/ medical materials, and consumer goods are ta\n\n### 產品、客戶與市場位置\n- 轉投資業務 晶實科技(Studio A)集團 染料貿易 財務操作 藉由投資國內外上市櫃股票，增加公司盈餘， 支持未來投資發展 --- page 4 --- 營收資訊 aicgroup.com.tw 204 429 272 6% 304 7% 4 單位：新台幣千元 --- page 5 --- 營運結果 aicgroup.com.tw 5 單位：新台幣千元 68,979 24,332 12,476 36,808 39,902 9,069\n- Dyestuff Trading Investment Business --- page 4 --- Revenue Information aicgroup.com.tw 204 429 272 6% 304 7% 4 Unit：NT$ thousand --- page 5 --- Income Statement aicgroup.com.tw 5 Unit：NT$ thousand 68,979 24,332 12,476 3\n- 未來動能 結合經營團隊的豐沛資源及過去成功經驗， 未 來聚焦在具成長潛力的高新科技、 生技醫材及 民生消費等優質企業的投資， 以增加公司合併 營收及獲利。 aicgroup.com.tw 7\n- Future Outlook Combining the abundant resources and past successful experience of our management team, AIC is exploring the investment opportunities of high-quality enterprises where the areas of high-tech, biotech/ medical materials, and consumer goods are ta\n\n### 風險與不確定性\n- [zh PDF] --- page 1 --- 中美聯合實業股份有限公司 2026年法人說明會 1 2026.8.31 --- page 2 --- 展望的預測性表述，該類表述受限 於已知或未知風險或不確定性因素的影響，因此實際結果將可能 明顯不同於表述內容。除法令要求外，公司並無義務因新事件或 新形勢的發生更新對未來展望的表述。\n- 展望的預測性表述，該類表述受限 於已知或未知風險或不確定性因素的影響，因此實際結果將可能 明顯不同於表述內容。除法令要求外，公司並無義務因新事件或 新形勢的發生更新對未來展望的表述。 本簡報中對未來展望的表述， 僅反應本公司截至目前為止對於未 來的看法，而不構成投資建議。 關於這些未來展望表述的內容可 靠性、準確性或完整性不具有任何的明示或暗示， 本公司特此聲 明不承擔任何的保證。 對於因使用這些表述內容而引起的任何直 接或間接損失，本公司不承擔任何責任。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 加分主因：未來動能 結合經營團隊的豐沛資源及過去成功經驗， 未 來聚焦在具成長潛力的高新科技、 生技醫材及 民生消費等優質企業的投資， 以增加公司合併 營收及獲利。 aicgroup.com.tw 7。\n- 扣分或保留：[zh PDF] --- page 1 --- 中美聯合實業股份有限公司 2026年法人說明會 1 2026.8.31 --- page 2 --- 展望的預測性表述，該類表述受限 於已知或未知風險或不確定性因素的影響，因此實際結果將可能 明顯不同於表述內容。除法令要求外，公司並無義務因新事件或 新形勢的發生更新對未來展望的表述。；展望的預測性表述，該類表述受限 於已知或未知風險或不確定性因素的影響，因此實際結果將可能 明顯不同於表述內容。除法令要求外，公司並無義務因新事件或 新形勢的發生更新對未來展望的表述。 本簡報中對未來展望的表述， 僅反應本公司截至目前為止對於未 來的看法，而不構成投資建議。 關於這些未來展望表述的內容可 靠性、準確性或完整性不具有任何的明示或暗示， 本公司特此聲 明不承擔任何的保證。 對於因使用這些表述內容而引起的任何直 接或間接損失，本公司不承擔任何責任。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+    },
+    {
+      "date": "2026-08-31",
+      "code": "5878",
+      "name": "台名",
+      "eventType": "法人說明會",
+      "time": "15:00",
+      "location": "本公司(台北市中正區館前路49號11樓會議室)",
+      "topic": "2026年第2季法人說明會",
+      "companyWebsite": "https://www.tabc.com.tw/investors.aspx?ID=47",
+      "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/587820260831M001.pdf",
+      "englishPdf": "https://mopsov.twse.com.tw/nas/STR/587820260831E001.pdf",
+      "mediaUrl": "https://youtu.be/7eE2cmycqnE",
+      "mediaStatus": "有影音",
+      "transcriptStatus": "未產生",
+      "outlookBullets": [
+        "經營實績 資產負債項目 2026年6月30日 2025年6月30日 YoY 流動資產 357,822 369,541 -3.2% 非流動資產 379,324 375,245 1.1% 資產總計 $737,146 $744,786 -1.0% 流動負債 156,874 149,207 5.1% 非流動負債 61,272 88,536 -30.8% 負債總計 $218,146 $237,743 -8.2% 股東權益 $519,000 $507,043 2.4% 負債與權益總計 $737,146 $744,786 -1.",
+        "目錄 01 產業概況 Market Overview 02 經營實績 Business Performance 03 品牌榮耀與營運展望 Awards & Growth",
+        "T A I M I N G 品牌榮耀與營運展望 Awards & Growth"
       ],
       "outlookTone": {
         "label": "中性偏正面",
@@ -14406,19 +13670,206 @@ window.irSummaryLatest = {
       },
       "summaryBullets": [
         "未使用 LLM 摘要，以下為程式抽取的初步重點。",
-        "MOPS 擇要訊息：說明本公司營運狀況及業務展望。",
-        "page 13 --- 0 100,000 200,000 300,000 400,000 500,000 近三年供氣戶 單位：戶 資料時間： 2026.06.30 --- page 14 --- 0 20,000 40,000 60,000 80,000 100,000 120,000 單位：仟立方公尺 近三年售氣量 資料時間： 2026.06.30 --- page 15 --- 繳費方式 代繳 代收 ●郵局 ●銀行 ●信用卡 ●紙",
-        "資料時間： 2026.06.30 9.61% 8.70% --- page 33 --- 定檢專線 8942 - 3060 8942 - 2282 企業標誌 欣欣天然氣股 份有限公司 現場不收費 請核對公司全名 --- page 34 --- 應變管理中心 即時 新聞 CCTV 保全監控 GIS 系統 施工 攝影 供氣 監控 MIS 系統 值勤車輛 衛星定位 --- page 35 --- 管線設備人員管理系統 ● 巡查 、 搶修派工管",
-        "The representation is based on the information obtained from various sources, which the Company believes to be reliable, but many factors could cause actual results to differ materially from those statements.",
-        "Please refer to the information on MOPS website (http://mpos.twse.com.tw/mops/web/index) as the main basis, if any change has been made.",
-        "Also, we provide professional tailored design, construction of natural gas pipeline and safety devices for customers."
+        "MOPS 擇要訊息：2026年第2季法人說明會",
+        "合併資產負債表 單位：新台幣仟元 --- page 15 --- 經營實績 現金流量項目 2026年1-6月 2025年1-6月 營業活動 $42,051 $41,789 投資活動 36,944 16,506 籌資活動(含股利發放) ($71,786) ($68,900) 期初現金及約當現金餘額 $44,882 $67,802 期末現金及約當現金餘額 $52,091 $57,197 期末現金及約當現金餘額較期初增長16.06% 單位：新",
+        "page 16 --- 2022 2023 2024 2025 2026Q1-Q2 2.64 2.20 2.22 2.86 1.30 Earnings Per Share (EPS) - Stable Profitability Earnings Per Share Unit: NTD$ Dollars Business Performance --- page 17 --- 0.00 0.30 0.60 0.90 1.20 1.50",
+        "page 3 --- 目錄 01 產業概況 Market Overview 02 經營實績 Business Performance 03 品牌榮耀與營運展望 Awards & Growth --- page 4 --- T A I M I N G 產業概況 Market Over view 資料來源：財團法人保險事業發展中心 中華民國人壽保險商業同業公會 --- page 5 --- 產業概況 近五年 保險經紀與代理業家數 Numbe",
+        "五 年 內 減 少 43 家 --- page 6 --- 產業概況 近五年 保險經紀與代理業從業人數 Number of Salespersons 141,779 145,668 151,014 155,775 155,965 176,968 171,240 172,467 173,687 178,694 318,747 316,908 323,481 329,462 334,659 2021年 2022年 2023年 2024年 2",
+        "2026年上半年因首年保費獎勵增加及繼續率獎金品質佳，致營業毛利與營業淨利呈現增長趨勢。"
       ],
       "financialBullets": [],
       "riskBullets": [],
       "qnaBullets": [],
       "crossCheckBullets": [],
-      "sourceReport": "../法說整理/reports/ir_summary_2026-08-28.md",
-      "detailMarkdown": "## 9918 欣天然 深度法說分析\n\n### 一頁結論\n- 展望評價：中性偏正面（64 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 2、保守訊號 0。\n- 判讀：方向偏正面，但管理層仍保留部分彈性，較適合追蹤接單、毛利率與下一季財測是否延續。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：說明本公司營運狀況及業務展望。\n- page 13 --- 0 100,000 200,000 300,000 400,000 500,000 近三年供氣戶 單位：戶 資料時間： 2026.06.30 --- page 14 --- 0 20,000 40,000 60,000 80,000 100,000 120,000 單位：仟立方公尺 近三年售氣量 資料時間： 2026.06.30 --- page 15 --- 繳費方式 代繳 代收 ●郵局 ●銀行 ●信用卡 ●紙\n- 資料時間： 2026.06.30 9.61% 8.70% --- page 33 --- 定檢專線 8942 - 3060 8942 - 2282 企業標誌 欣欣天然氣股 份有限公司 現場不收費 請核對公司全名 --- page 34 --- 應變管理中心 即時 新聞 CCTV 保全監控 GIS 系統 施工 攝影 供氣 監控 MIS 系統 值勤車輛 衛星定位 --- page 35 --- 管線設備人員管理系統 ● 巡查 、 搶修派工管\n- The representation is based on the information obtained from various sources, which the Company believes to be reliable, but many factors could cause actual results to differ materially from those statements.\n- Please refer to the information on MOPS website (http://mpos.twse.com.tw/mops/web/index) as the main basis, if any change has been made.\n\n### 展望與成長利基\n- Page 10 of 17 4. Operation Prospects (1) New customer promotion a. The Company tries to extend pipeline network and expand service area to meet future demands, such as residential compounds, new residential buildings, urban renewal projects, and individual bui\n- Page 16 of 17 advantages, making it the best energy choice for urban daily life. We believe that with the support and care of our shareholders, the guidance of the Board of Directors, and the collective efforts of all employees, the company’s performance will\n\n### 產品、客戶與市場位置\n- The representation is based on the information obtained from various sources, which the Company believes to be reliable, but many factors could cause actual results to differ materially from those statements.\n- Please refer to the information on MOPS website (http://mpos.twse.com.tw/mops/web/index) as the main basis, if any change has been made.\n- Also, we provide professional tailored design, construction of natural gas pipeline and safety devices for customers.\n- Page 16 of 17 advantages, making it the best energy choice for urban daily life. We believe that with the support and care of our shareholders, the guidance of the Board of Directors, and the collective efforts of all employees, the company’s performance will\n\n### 風險與不確定性\n- 本次摘要未擷取到明確風險或保守訊號。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+      "sourceReport": "../法說整理/reports/ir_summary_2026-08-31.md",
+      "detailMarkdown": "## 5878 台名 深度法說分析\n\n### 一頁結論\n- 展望評價：中性偏正面（64 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 2、保守訊號 0。\n- 判讀：方向偏正面，但管理層仍保留部分彈性，較適合追蹤接單、毛利率與下一季財測是否延續。 \n\n### 營運與財務重點\n- 合併資產負債表 單位：新台幣仟元 --- page 15 --- 經營實績 現金流量項目 2026年1-6月 2025年1-6月 營業活動 $42,051 $41,789 投資活動 36,944 16,506 籌資活動(含股利發放) ($71,786) ($68,900) 期初現金及約當現金餘額 $44,882 $67,802 期末現金及約當現金餘額 $52,091 $57,197 期末現金及約當現金餘額較期初增長16.06% 單位：新\n- page 16 --- 2022 2023 2024 2025 2026Q1-Q2 2.64 2.20 2.22 2.86 1.30 Earnings Per Share (EPS) - Stable Profitability Earnings Per Share Unit: NTD$ Dollars Business Performance --- page 17 --- 0.00 0.30 0.60 0.90 1.20 1.50\n- 2026年上半年因首年保費獎勵增加及繼續率獎金品質佳，致營業毛利與營業淨利呈現增長趨勢。\n- 經營實績 資產負債項目 2026年6月30日 2025年6月30日 YoY 流動資產 357,822 369,541 -3.2% 非流動資產 379,324 375,245 1.1% 資產總計 $737,146 $744,786 -1.0% 流動負債 156,874 149,207 5.1% 非流動負債 61,272 88,536 -30.8% 負債總計 $218,146 $237,743 -8.2% 股東權益 $519,000 $507,043 2.4% 負債與權益總計 $737,146 $744,786 -1.\n\n### 展望與成長利基\n- 經營實績 資產負債項目 2026年6月30日 2025年6月30日 YoY 流動資產 357,822 369,541 -3.2% 非流動資產 379,324 375,245 1.1% 資產總計 $737,146 $744,786 -1.0% 流動負債 156,874 149,207 5.1% 非流動負債 61,272 88,536 -30.8% 負債總計 $218,146 $237,743 -8.2% 股東權益 $519,000 $507,043 2.4% 負債與權益總計 $737,146 $744,786 -1.\n- 目錄 01 產業概況 Market Overview 02 經營實績 Business Performance 03 品牌榮耀與營運展望 Awards & Growth\n- T A I M I N G 品牌榮耀與營運展望 Awards & Growth\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 本次摘要未擷取到明確風險或保守訊號。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 加分主因：page 3 --- 目錄 01 產業概況 Market Overview 02 經營實績 Business Performance 03 品牌榮耀與營運展望 Awards & Growth --- page 4 --- T A I M I N G 產業概況 Market Over view 資料來源：財團法人保險事業發展中心 中華民國人壽保險商業同業公會 --- page 5 --- 產業概況 近五年 保險經紀與代理業家數 Numbe；目錄 01 產業概況 Market Overview 02 經營實績 Business Performance 03 品牌榮耀與營運展望 Awards & Growth；T A I M I N G 品牌榮耀與營運展望 Awards & Growth。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+    },
+    {
+      "date": "2026-08-31",
+      "code": "5880",
+      "name": "合庫金",
+      "eventType": "法人說明會",
+      "time": "14:30",
+      "location": "網路,連結網址詳如本公司投資人關係專區項下活動訊息。",
+      "topic": "公佈本公司2026年第2季營運及財務概況",
+      "companyWebsite": "https://www.tcfhc.com.tw/investors-relations/event/2026",
+      "chinesePdf": "",
+      "englishPdf": "",
+      "mediaUrl": "http://irconference.twse.com.tw/5880_36_20260831_ch.mp3",
+      "mediaStatus": "有影音",
+      "transcriptStatus": "未產生",
+      "outlookBullets": [
+        "未從簡報或轉錄稿擷取到明確展望段落。"
+      ],
+      "outlookTone": {
+        "label": "中性觀望",
+        "score": 50,
+        "basis": "正向訊號 0、保守訊號 0"
+      },
+      "summaryBullets": [
+        "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+        "MOPS 擇要訊息：公佈本公司2026年第2季營運及財務概況",
+        "缺少可摘要的簡報文字或轉錄稿。"
+      ],
+      "financialBullets": [],
+      "riskBullets": [],
+      "qnaBullets": [],
+      "crossCheckBullets": [],
+      "sourceReport": "../法說整理/reports/ir_summary_2026-08-31.md",
+      "detailMarkdown": "## 5880 合庫金 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：公佈本公司2026年第2季營運及財務概況\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+    },
+    {
+      "date": "2026-08-31",
+      "code": "6532",
+      "name": "瑞耘",
+      "eventType": "法人說明會",
+      "time": "14:30",
+      "location": "台開大樓19樓會議室 台北市重慶南路一段2號",
+      "topic": "公告本公司受邀參加永豐金證券舉辦之法人說明會",
+      "companyWebsite": "https://www.calitech.com.tw/zh-tw/investor/download/Investor-Conference",
+      "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/653220260831M001.pdf",
+      "englishPdf": "https://mopsov.twse.com.tw/nas/STR/653220260831E001.pdf",
+      "mediaUrl": "",
+      "mediaStatus": "缺影音",
+      "transcriptStatus": "缺影音",
+      "outlookBullets": [
+        "2026 H1營運概況業績表現2026/01~07 營收YoY 9 % −2026年全球半導體製造設備銷售額預估將達1,659億美元，較2025年成⾧23.2%，創下歷史新高。主要動能來自於日本、歐洲與台灣的產能擴建工程，全球多座新晶圓廠預計下半年進入設備安裝期，確保了設備訂單能見度達2028年。半導體設備客戶加速且加倍關鍵零組件物料的下單備料。營運概況台灣總部： 12- Quality Engineering, Manufacturing & Services Are Our Commitments −台灣總",
+        "市場發展動能 – GAA以及HBM製程推進帶動WFE需求 14- Quality Engineering, Manufacturing & Services Are Our Commitments涵蓋晶圓製程設備、光罩／光罩版（Mask/Reticle）設備及晶圓廠設施設備的全球前段製程設備（Wafer Fab Equipment, WFE），2025年銷售額創下1,169億美元新高，預估2026年將再成長23.1%，達1,439億美元。主要受惠於先進記憶體、尤其是HBM相關DRAM技術，以及先進邏輯應用投資持續增",
+        "2026 H2營運展望1.市場與技術驅動成長動能：1-1.目前全球半導體市場發展皆圍繞在AI相關應用，需求已從生成式AI往代理式AI、邊緣AI到實體AI快速發展。帶動高效能運算（HPC）、高階邏輯製程晶片與HBM記憶體需求持續攀升。1-2.在AI需求持續驅動下，全球半導體製造投資動能可望延續至2028年，設備銷售額預計將攀升至2,295億美元，創下連續五年成長的新紀錄。2. 機會與風險：2-1.供應鏈交期延誤 16- Quality Engineering, Manufacturing & Services Are",
+        "市場發展動能 -全球晶片製造商持續擴大設備支出 13- Quality Engineering, Manufacturing & Services Are Our Commitments 2026年全球半導體製造設備銷售額預估將達1,659億美元，較2025年成長23.2%，創下歷史新高。在AI需求持續驅動下，全球半導體製造投資動能可望延續至2028年，設備銷售額預計將攀升至2,295億美元，創下連續五年成長的新紀錄。",
+        "簡報大綱Ⅰ. 公司簡介Ⅱ. 產業結構vs產品組合Ⅲ. 經營實績 2- Quality Engineering, Manufacturing & Services Are Our Commitments- Quality Engineering, Manufacturing & Services Are Our Commitments Ⅳ. 2026營運概況及展望",
+        "OutlineI. Company OverviewII. Industry Landscape vs. Product PortfolioIII. Operating Performance 2- Quality Engineering, Manufacturing & Services Are Our Commitments- Quality Engineering, Manufacturing & Services Are Our CommitmentsIV. 2026 Operating Update an",
+        "2026 H2 Operating Outlook1. Market and Technology Growth Drivers1-1. AI-Driven Semiconductor DemandGlobal semiconductor market development is increasingly centered on AI-related applications. Demand is rapidly evolving from generative AI toward agentic AI, edg"
+      ],
+      "outlookTone": {
+        "label": "正面看好",
+        "score": 93,
+        "basis": "正向訊號 7、保守訊號 1"
+      },
+      "summaryBullets": [
+        "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+        "MOPS 擇要訊息：公告本公司受邀參加永豐金證券舉辦之法人說明會",
+        "2026營運概況及展望 --- page 3 --- 公司簡介成立時間：1998年實收資本額： 新台幣3億7仟4佰萬元董事長： 呂學恒總經理： 呂學恒員工人數：150人主要產品： 3- Quality Engineering, Manufacturing & Services Are Our Commitments- Quality Engineering, Manufacturing & Services Are Our",
+        "page 14 --- 市場發展動能 – GAA以及HBM製程推進帶動WFE需求 14- Quality Engineering, Manufacturing & Services Are Our Commitments涵蓋晶圓製程設備、光罩／光罩版（Mask/Reticle）設備及晶圓廠設施設備的全球前段製程設備（Wafer Fab Equipment, WFE），2025年銷售額創下1,169億美元新高，預估2026年將再成長23.",
+        "Bright Machines： $1.26 億美元 Weka： $1.4 億美元 NVIDIA 針對AI生態系已承諾投入超過USD$45B，以及USD$105信用與殘值保證蓋AI發電廠。資料來源: 輝達 --- page 16 --- 2026 H2營運展望1.市場與技術驅動成長動能：1-1.目前全球半導體市場發展皆圍繞在AI相關應用，需求已從生成式AI往代理式AI、邊緣AI到實體AI快速發展。帶動高效能運算（HPC）、高階邏輯製程晶",
+        "產能已全部滿載，為因應客戶備料需求大增，已陸續召募人員以及添購新生產設備，加速訂單去化。2.",
+        "page 13 --- 市場發展動能 -全球晶片製造商持續擴大設備支出 13- Quality Engineering, Manufacturing & Services Are Our Commitments 2026年全球半導體製造設備銷售額預估將達1,659億美元，較2025年成長23.2%，創下歷史新高。在AI需求持續驅動下，全球半導體製造投資動能可望延續至2028年，設備銷售額預計將攀升至2,295億美元，創下連續五年成長的新"
+      ],
+      "financialBullets": [],
+      "riskBullets": [],
+      "qnaBullets": [],
+      "crossCheckBullets": [],
+      "sourceReport": "../法說整理/reports/ir_summary_2026-08-31.md",
+      "detailMarkdown": "## 6532 瑞耘 深度法說分析\n\n### 一頁結論\n- 展望評價：正面看好（93 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 7、保守訊號 1。\n- 判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 \n\n### 營運與財務重點\n- page 14 --- 市場發展動能 – GAA以及HBM製程推進帶動WFE需求 14- Quality Engineering, Manufacturing & Services Are Our Commitments涵蓋晶圓製程設備、光罩／光罩版（Mask/Reticle）設備及晶圓廠設施設備的全球前段製程設備（Wafer Fab Equipment, WFE），2025年銷售額創下1,169億美元新高，預估2026年將再成長23.\n- Bright Machines： $1.26 億美元 Weka： $1.4 億美元 NVIDIA 針對AI生態系已承諾投入超過USD$45B，以及USD$105信用與殘值保證蓋AI發電廠。資料來源: 輝達 --- page 16 --- 2026 H2營運展望1.市場與技術驅動成長動能：1-1.目前全球半導體市場發展皆圍繞在AI相關應用，需求已從生成式AI往代理式AI、邊緣AI到實體AI快速發展。帶動高效能運算（HPC）、高階邏輯製程晶\n- page 13 --- 市場發展動能 -全球晶片製造商持續擴大設備支出 13- Quality Engineering, Manufacturing & Services Are Our Commitments 2026年全球半導體製造設備銷售額預估將達1,659億美元，較2025年成長23.2%，創下歷史新高。在AI需求持續驅動下，全球半導體製造投資動能可望延續至2028年，設備銷售額預計將攀升至2,295億美元，創下連續五年成長的新\n- 2026 H1營運概況業績表現2026/01~07 營收YoY 9 % −2026年全球半導體製造設備銷售額預估將達1,659億美元，較2025年成⾧23.2%，創下歷史新高。主要動能來自於日本、歐洲與台灣的產能擴建工程，全球多座新晶圓廠預計下半年進入設備安裝期，確保了設備訂單能見度達2028年。半導體設備客戶加速且加倍關鍵零組件物料的下單備料。營運概況台灣總部： 12- Quality Engineering, Manufacturing & Services Are Our Commitments −台灣總\n- 市場發展動能 – GAA以及HBM製程推進帶動WFE需求 14- Quality Engineering, Manufacturing & Services Are Our Commitments涵蓋晶圓製程設備、光罩／光罩版（Mask/Reticle）設備及晶圓廠設施設備的全球前段製程設備（Wafer Fab Equipment, WFE），2025年銷售額創下1,169億美元新高，預估2026年將再成長23.1%，達1,439億美元。主要受惠於先進記憶體、尤其是HBM相關DRAM技術，以及先進邏輯應用投資持續增\n- 2026 H2營運展望1.市場與技術驅動成長動能：1-1.目前全球半導體市場發展皆圍繞在AI相關應用，需求已從生成式AI往代理式AI、邊緣AI到實體AI快速發展。帶動高效能運算（HPC）、高階邏輯製程晶片與HBM記憶體需求持續攀升。1-2.在AI需求持續驅動下，全球半導體製造投資動能可望延續至2028年，設備銷售額預計將攀升至2,295億美元，創下連續五年成長的新紀錄。2. 機會與風險：2-1.供應鏈交期延誤 16- Quality Engineering, Manufacturing & Services Are\n\n### 展望與成長利基\n- 2026 H1營運概況業績表現2026/01~07 營收YoY 9 % −2026年全球半導體製造設備銷售額預估將達1,659億美元，較2025年成⾧23.2%，創下歷史新高。主要動能來自於日本、歐洲與台灣的產能擴建工程，全球多座新晶圓廠預計下半年進入設備安裝期，確保了設備訂單能見度達2028年。半導體設備客戶加速且加倍關鍵零組件物料的下單備料。營運概況台灣總部： 12- Quality Engineering, Manufacturing & Services Are Our Commitments −台灣總\n- 市場發展動能 – GAA以及HBM製程推進帶動WFE需求 14- Quality Engineering, Manufacturing & Services Are Our Commitments涵蓋晶圓製程設備、光罩／光罩版（Mask/Reticle）設備及晶圓廠設施設備的全球前段製程設備（Wafer Fab Equipment, WFE），2025年銷售額創下1,169億美元新高，預估2026年將再成長23.1%，達1,439億美元。主要受惠於先進記憶體、尤其是HBM相關DRAM技術，以及先進邏輯應用投資持續增\n- 2026 H2營運展望1.市場與技術驅動成長動能：1-1.目前全球半導體市場發展皆圍繞在AI相關應用，需求已從生成式AI往代理式AI、邊緣AI到實體AI快速發展。帶動高效能運算（HPC）、高階邏輯製程晶片與HBM記憶體需求持續攀升。1-2.在AI需求持續驅動下，全球半導體製造投資動能可望延續至2028年，設備銷售額預計將攀升至2,295億美元，創下連續五年成長的新紀錄。2. 機會與風險：2-1.供應鏈交期延誤 16- Quality Engineering, Manufacturing & Services Are\n- 市場發展動能 -全球晶片製造商持續擴大設備支出 13- Quality Engineering, Manufacturing & Services Are Our Commitments 2026年全球半導體製造設備銷售額預估將達1,659億美元，較2025年成長23.2%，創下歷史新高。在AI需求持續驅動下，全球半導體製造投資動能可望延續至2028年，設備銷售額預計將攀升至2,295億美元，創下連續五年成長的新紀錄。\n- 簡報大綱Ⅰ. 公司簡介Ⅱ. 產業結構vs產品組合Ⅲ. 經營實績 2- Quality Engineering, Manufacturing & Services Are Our Commitments- Quality Engineering, Manufacturing & Services Are Our Commitments Ⅳ. 2026營運概況及展望\n- OutlineI. Company OverviewII. Industry Landscape vs. Product PortfolioIII. Operating Performance 2- Quality Engineering, Manufacturing & Services Are Our Commitments- Quality Engineering, Manufacturing & Services Are Our CommitmentsIV. 2026 Operating Update an\n- 2026 H2 Operating Outlook1. Market and Technology Growth Drivers1-1. AI-Driven Semiconductor DemandGlobal semiconductor market development is increasingly centered on AI-related applications. Demand is rapidly evolving from generative AI toward agentic AI, edg\n\n### 產品、客戶與市場位置\n- 2026營運概況及展望 --- page 3 --- 公司簡介成立時間：1998年實收資本額： 新台幣3億7仟4佰萬元董事長： 呂學恒總經理： 呂學恒員工人數：150人主要產品： 3- Quality Engineering, Manufacturing & Services Are Our Commitments- Quality Engineering, Manufacturing & Services Are Our\n- page 14 --- 市場發展動能 – GAA以及HBM製程推進帶動WFE需求 14- Quality Engineering, Manufacturing & Services Are Our Commitments涵蓋晶圓製程設備、光罩／光罩版（Mask/Reticle）設備及晶圓廠設施設備的全球前段製程設備（Wafer Fab Equipment, WFE），2025年銷售額創下1,169億美元新高，預估2026年將再成長23.\n- Bright Machines： $1.26 億美元 Weka： $1.4 億美元 NVIDIA 針對AI生態系已承諾投入超過USD$45B，以及USD$105信用與殘值保證蓋AI發電廠。資料來源: 輝達 --- page 16 --- 2026 H2營運展望1.市場與技術驅動成長動能：1-1.目前全球半導體市場發展皆圍繞在AI相關應用，需求已從生成式AI往代理式AI、邊緣AI到實體AI快速發展。帶動高效能運算（HPC）、高階邏輯製程晶\n- 產能已全部滿載，為因應客戶備料需求大增，已陸續召募人員以及添購新生產設備，加速訂單去化。2.\n- page 13 --- 市場發展動能 -全球晶片製造商持續擴大設備支出 13- Quality Engineering, Manufacturing & Services Are Our Commitments 2026年全球半導體製造設備銷售額預估將達1,659億美元，較2025年成長23.2%，創下歷史新高。在AI需求持續驅動下，全球半導體製造投資動能可望延續至2028年，設備銷售額預計將攀升至2,295億美元，創下連續五年成長的新\n- 2026 H1營運概況業績表現2026/01~07 營收YoY 9 % −2026年全球半導體製造設備銷售額預估將達1,659億美元，較2025年成⾧23.2%，創下歷史新高。主要動能來自於日本、歐洲與台灣的產能擴建工程，全球多座新晶圓廠預計下半年進入設備安裝期，確保了設備訂單能見度達2028年。半導體設備客戶加速且加倍關鍵零組件物料的下單備料。營運概況台灣總部： 12- Quality Engineering, Manufacturing & Services Are Our Commitments −台灣總\n\n### 風險與不確定性\n- 2026 H2營運展望1.市場與技術驅動成長動能：1-1.目前全球半導體市場發展皆圍繞在AI相關應用，需求已從生成式AI往代理式AI、邊緣AI到實體AI快速發展。帶動高效能運算（HPC）、高階邏輯製程晶片與HBM記憶體需求持續攀升。1-2.在AI需求持續驅動下，全球半導體製造投資動能可望延續至2028年，設備銷售額預計將攀升至2,295億美元，創下連續五年成長的新紀錄。2. 機會與風險：2-1.供應鏈交期延誤 16- Quality Engineering, Manufacturing & Services Are\n\n### Q&A 與管理層口氣\n- 產能已全部滿載，為因應客戶備料需求大增，已陸續召募人員以及添購新生產設備，加速訂單去化。2.\n- 2026 H1營運概況業績表現2026/01~07 營收YoY 9 % −2026年全球半導體製造設備銷售額預估將達1,659億美元，較2025年成⾧23.2%，創下歷史新高。主要動能來自於日本、歐洲與台灣的產能擴建工程，全球多座新晶圓廠預計下半年進入設備安裝期，確保了設備訂單能見度達2028年。半導體設備客戶加速且加倍關鍵零組件物料的下單備料。營運概況台灣總部： 12- Quality Engineering, Manufacturing & Services Are Our Commitments −台灣總\n- 2026 H2營運展望1.市場與技術驅動成長動能：1-1.目前全球半導體市場發展皆圍繞在AI相關應用，需求已從生成式AI往代理式AI、邊緣AI到實體AI快速發展。帶動高效能運算（HPC）、高階邏輯製程晶片與HBM記憶體需求持續攀升。1-2.在AI需求持續驅動下，全球半導體製造投資動能可望延續至2028年，設備銷售額預計將攀升至2,295億美元，創下連續五年成長的新紀錄。2. 機會與風險：2-1.供應鏈交期延誤 16- Quality Engineering, Manufacturing & Services Are\n\n### 評分利基點\n- 加分主因：page 14 --- 市場發展動能 – GAA以及HBM製程推進帶動WFE需求 14- Quality Engineering, Manufacturing & Services Are Our Commitments涵蓋晶圓製程設備、光罩／光罩版（Mask/Reticle）設備及晶圓廠設施設備的全球前段製程設備（Wafer Fab Equipment, WFE），2025年銷售額創下1,169億美元新高，預估2026年將再成長23.；Bright Machines： $1.26 億美元 Weka： $1.4 億美元 NVIDIA 針對AI生態系已承諾投入超過USD$45B，以及USD$105信用與殘值保證蓋AI發電廠。資料來源: 輝達 --- page 16 --- 2026 H2營運展望1.市場與技術驅動成長動能：1-1.目前全球半導體市場發展皆圍繞在AI相關應用，需求已從生成式AI往代理式AI、邊緣AI到實體AI快速發展。帶動高效能運算（HPC）、高階邏輯製程晶；產能已全部滿載，為因應客戶備料需求大增，已陸續召募人員以及添購新生產設備，加速訂單去化。2.。\n- 扣分或保留：2026 H2營運展望1.市場與技術驅動成長動能：1-1.目前全球半導體市場發展皆圍繞在AI相關應用，需求已從生成式AI往代理式AI、邊緣AI到實體AI快速發展。帶動高效能運算（HPC）、高階邏輯製程晶片與HBM記憶體需求持續攀升。1-2.在AI需求持續驅動下，全球半導體製造投資動能可望延續至2028年，設備銷售額預計將攀升至2,295億美元，創下連續五年成長的新紀錄。2. 機會與風險：2-1.供應鏈交期延誤 16- Quality Engineering, Manufacturing & Services Are。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+    },
+    {
+      "date": "2026-08-31",
+      "code": "6733",
+      "name": "博晟生醫",
+      "eventType": "法人說明會",
+      "time": "15:00",
+      "location": "臺北市中正區新生南路一段50號3樓",
+      "topic": "說明公司經營成果及未來展望。",
+      "companyWebsite": "",
+      "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/673320260831M001.pdf",
+      "englishPdf": "https://mopsov.twse.com.tw/nas/STR/673320260831E001.pdf",
+      "mediaUrl": "",
+      "mediaStatus": "缺影音",
+      "transcriptStatus": "缺影音",
+      "outlookBullets": [
+        "年推展重點及進展•順利進行中 (批量為原來6倍)•已建立•業績持續成⾧•Menocik 澳門持續有業績; Fluzole 港澳審查中感染重症•Menocik擴大產能•建立自營團隊•新行銷方案推廣•粵港澳大灣區推廣 214160626552024年2025年2026年 Fluzole 年銷量9月起至8月",
+        "簡報大綱企業概況•公司簡介、商業模式產品簡介 •RevoCart、OIF、Softcut、Menocik 成⾧展望 •營收成⾧、產品推進"
+      ],
+      "outlookTone": {
+        "label": "中性觀望",
+        "score": 50,
+        "basis": "正向訊號 0、保守訊號 0"
+      },
+      "summaryBullets": [
+        "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+        "MOPS 擇要訊息：說明公司經營成果及未來展望。",
+        ">200>100>1200 --- page 8 --- 骨再生平臺：骨生⾧因子OIF •BiG-006OIF/β-TCP（塊狀型）與人工椎體並用適應症：腰椎融合21 •BiG-001OIF/β-TCP（顆粒型）適應症：開放性脛骨骨折骨折不癒合齒槽骨增生等 --- page 9 --- 骨生⾧因子全球開發進展 •MRONJ(藥物引發下顎骨壞死)9 •HTO (高脛骨截位術的骨缺損填補) 日本MRONJ/齒槽骨增生HTO/骨折不癒合 --",
+        ">200>100>1200 --- page 8 --- 骨再生平臺：骨生⾧因子OIF •BiG-006OIF/β-TCP（塊狀型）與人工椎體並用適應症：腰椎融合21 •BiG-001OIF/β-TCP（顆粒型）適應症：開放性脛骨骨折骨折不癒合齒槽骨增生等 --- page 9 --- 骨生⾧因子全球開發進展 •MRONJ(藥物引發下顎骨壞死)9 •HTO (高脛骨截位術的骨缺損填補) 日本MRONJ/齒槽骨增生HTO/骨折不癒合 --",
+        "[zh PDF] --- page 1 --- BioGend Therapeutics法說會 陳德禮醫師博晟生醫(6733)創辦人、董事⾧及總經理 --- page 2 --- 簡報大綱企業概況•公司簡介、商業模式產品簡介 •RevoCart、OIF、Softcut、Menocik 成⾧展望 •營收成⾧、產品推進 --- page 3 --- 概況•總公司地址：臺北市•公司成立：2016年•公司上櫃：2021年•實收資本額：1,330"
+      ],
+      "financialBullets": [],
+      "riskBullets": [],
+      "qnaBullets": [],
+      "crossCheckBullets": [],
+      "sourceReport": "../法說整理/reports/ir_summary_2026-08-31.md",
+      "detailMarkdown": "## 6733 博晟生醫 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- [zh PDF] --- page 1 --- BioGend Therapeutics法說會 陳德禮醫師博晟生醫(6733)創辦人、董事⾧及總經理 --- page 2 --- 簡報大綱企業概況•公司簡介、商業模式產品簡介 •RevoCart、OIF、Softcut、Menocik 成⾧展望 •營收成⾧、產品推進 --- page 3 --- 概況•總公司地址：臺北市•公司成立：2016年•公司上櫃：2021年•實收資本額：1,330\n- 簡報大綱企業概況•公司簡介、商業模式產品簡介 •RevoCart、OIF、Softcut、Menocik 成⾧展望 •營收成⾧、產品推進\n\n### 展望與成長利基\n- 年推展重點及進展•順利進行中 (批量為原來6倍)•已建立•業績持續成⾧•Menocik 澳門持續有業績; Fluzole 港澳審查中感染重症•Menocik擴大產能•建立自營團隊•新行銷方案推廣•粵港澳大灣區推廣 214160626552024年2025年2026年 Fluzole 年銷量9月起至8月\n- 簡報大綱企業概況•公司簡介、商業模式產品簡介 •RevoCart、OIF、Softcut、Menocik 成⾧展望 •營收成⾧、產品推進\n\n### 產品、客戶與市場位置\n- [zh PDF] --- page 1 --- BioGend Therapeutics法說會 陳德禮醫師博晟生醫(6733)創辦人、董事⾧及總經理 --- page 2 --- 簡報大綱企業概況•公司簡介、商業模式產品簡介 •RevoCart、OIF、Softcut、Menocik 成⾧展望 •營收成⾧、產品推進 --- page 3 --- 概況•總公司地址：臺北市•公司成立：2016年•公司上櫃：2021年•實收資本額：1,330\n- 簡報大綱企業概況•公司簡介、商業模式產品簡介 •RevoCart、OIF、Softcut、Menocik 成⾧展望 •營收成⾧、產品推進\n\n### 風險與不確定性\n- >200>100>1200 --- page 8 --- 骨再生平臺：骨生⾧因子OIF •BiG-006OIF/β-TCP（塊狀型）與人工椎體並用適應症：腰椎融合21 •BiG-001OIF/β-TCP（顆粒型）適應症：開放性脛骨骨折骨折不癒合齒槽骨增生等 --- page 9 --- 骨生⾧因子全球開發進展 •MRONJ(藥物引發下顎骨壞死)9 •HTO (高脛骨截位術的骨缺損填補) 日本MRONJ/齒槽骨增生HTO/骨折不癒合 --\n\n### Q&A 與管理層口氣\n- 年推展重點及進展•順利進行中 (批量為原來6倍)•已建立•業績持續成⾧•Menocik 澳門持續有業績; Fluzole 港澳審查中感染重症•Menocik擴大產能•建立自營團隊•新行銷方案推廣•粵港澳大灣區推廣 214160626552024年2025年2026年 Fluzole 年銷量9月起至8月\n\n### 評分利基點\n- 加分主因：>200>100>1200 --- page 8 --- 骨再生平臺：骨生⾧因子OIF •BiG-006OIF/β-TCP（塊狀型）與人工椎體並用適應症：腰椎融合21 •BiG-001OIF/β-TCP（顆粒型）適應症：開放性脛骨骨折骨折不癒合齒槽骨增生等 --- page 9 --- 骨生⾧因子全球開發進展 •MRONJ(藥物引發下顎骨壞死)9 •HTO (高脛骨截位術的骨缺損填補) 日本MRONJ/齒槽骨增生HTO/骨折不癒合 --。\n- 扣分或保留：>200>100>1200 --- page 8 --- 骨再生平臺：骨生⾧因子OIF •BiG-006OIF/β-TCP（塊狀型）與人工椎體並用適應症：腰椎融合21 •BiG-001OIF/β-TCP（顆粒型）適應症：開放性脛骨骨折骨折不癒合齒槽骨增生等 --- page 9 --- 骨生⾧因子全球開發進展 •MRONJ(藥物引發下顎骨壞死)9 •HTO (高脛骨截位術的骨缺損填補) 日本MRONJ/齒槽骨增生HTO/骨折不癒合 --。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+    },
+    {
+      "date": "2026-08-31",
+      "code": "6919",
+      "name": "康霈*",
+      "eventType": "法人說明會",
+      "time": "14:00",
+      "location": "線上法人說明會。",
+      "topic": "(1)公告本公司115年8月31日受邀參加元大證券舉辦之線上法人說明會, 並將於會中說明本公司營運進展。 (2)本次法說會採線上報名,有意參加者請至以下網址報名。 https://www.surveycake.com/s/Dvwlz",
+      "companyWebsite": "",
+      "chinesePdf": "",
+      "englishPdf": "",
+      "mediaUrl": "",
+      "mediaStatus": "缺影音",
+      "transcriptStatus": "缺影音",
+      "outlookBullets": [
+        "未從簡報或轉錄稿擷取到明確展望段落。"
+      ],
+      "outlookTone": {
+        "label": "中性觀望",
+        "score": 50,
+        "basis": "正向訊號 0、保守訊號 0"
+      },
+      "summaryBullets": [
+        "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+        "MOPS 擇要訊息：(1)公告本公司115年8月31日受邀參加元大證券舉辦之線上法人說明會, 並將於會中說明本公司營運進展。 (2)本次法說會採線上報名,有意參加者請至以下網址報名。 https://www.surveycake.com/s/Dvwlz",
+        "缺少可摘要的簡報文字或轉錄稿。"
+      ],
+      "financialBullets": [],
+      "riskBullets": [],
+      "qnaBullets": [],
+      "crossCheckBullets": [],
+      "sourceReport": "../法說整理/reports/ir_summary_2026-08-31.md",
+      "detailMarkdown": "## 6919 康霈* 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：(1)公告本公司115年8月31日受邀參加元大證券舉辦之線上法人說明會, 並將於會中說明本公司營運進展。 (2)本次法說會採線上報名,有意參加者請至以下網址報名。 https://www.surveycake.com/s/Dvwlz\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+    },
+    {
+      "date": "2026-08-31",
+      "code": "9907",
+      "name": "統一實",
+      "eventType": "法人說明會",
+      "time": "14:00",
+      "location": "線上法說會",
+      "topic": "本公司受邀參加凱基證券舉辦之線上法人說明會,說明本公司2026年第二季之營運狀況及公司近況。",
+      "companyWebsite": "http://www.tonyi.com.tw/cusPage.php?id=249",
+      "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/990720260831M001.pdf",
+      "englishPdf": "https://mopsov.twse.com.tw/nas/STR/990720260831E001.pdf",
+      "mediaUrl": "",
+      "mediaStatus": "缺影音",
+      "transcriptStatus": "缺影音",
+      "outlookBullets": [
+        "2026年第二季 業績報告 2026年8月31日 TWSE stock code:9907 1"
+      ],
+      "outlookTone": {
+        "label": "保守偏負面",
+        "score": 38,
+        "basis": "正向訊號 0、保守訊號 2"
+      },
+      "summaryBullets": [
+        "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+        "MOPS 擇要訊息：本公司受邀參加凱基證券舉辦之線上法人說明會,說明本公司2026年第二季之營運狀況及公司近況。",
+        "2 --- page 3 --- 合併損益簡表 新台幣:百萬元 (除另有說明) 2026年H1 2025年H1 差異 營收 21,174.64 24,236.93 -12.63% 毛利 2,281.24 3,693.46 -38.24% 營業利益 913.55 1,954.34 -53.26% 稅前淨利 927.10 1,774.91 -47.77% 稅後淨利-歸屬母公司 550.29 1,201.22 -54.19% 每股盈餘(元)",
+        "Such information is subject to change without notice and no representation or warranty express or implied is made as to, and no reliance, should be placed on, the fairness, accuracy, completeness or correctness of the in",
+        "This presentation contains projections and forward-looking statements that may reflect the Company’s current views with respect to future events and financial performance.",
+        "Readers are cautioned not to place undue reliance on these forward-looking statements which are subject to various risks and uncertainties and no assurance can be given that actual results will be consistent with these f",
+        "2 --- page 3 --- Results Highlight (Consolidated) In NTD Millions unless otherwise noted 2026Y H1 2025Y H1 YoY Revenue 21,174.64 24,236.93 -12.63% Gross Profit 2,281.24 3,693.46 -38.24% Operating Profit 913.55 1,954.34 -"
+      ],
+      "financialBullets": [],
+      "riskBullets": [],
+      "qnaBullets": [],
+      "crossCheckBullets": [],
+      "sourceReport": "../法說整理/reports/ir_summary_2026-08-31.md",
+      "detailMarkdown": "## 9907 統一實 深度法說分析\n\n### 一頁結論\n- 展望評價：保守偏負面（38 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 2。\n- 判讀：保守訊號較多，短期需要先確認需求、成本或產業變數是否落底。 \n\n### 營運與財務重點\n- 2 --- page 3 --- 合併損益簡表 新台幣:百萬元 (除另有說明) 2026年H1 2025年H1 差異 營收 21,174.64 24,236.93 -12.63% 毛利 2,281.24 3,693.46 -38.24% 營業利益 913.55 1,954.34 -53.26% 稅前淨利 927.10 1,774.91 -47.77% 稅後淨利-歸屬母公司 550.29 1,201.22 -54.19% 每股盈餘(元)\n\n### 展望與成長利基\n- 2026年第二季 業績報告 2026年8月31日 TWSE stock code:9907 1\n\n### 產品、客戶與市場位置\n- Such information is subject to change without notice and no representation or warranty express or implied is made as to, and no reliance, should be placed on, the fairness, accuracy, completeness or correctness of the in\n- This presentation contains projections and forward-looking statements that may reflect the Company’s current views with respect to future events and financial performance.\n- Readers are cautioned not to place undue reliance on these forward-looking statements which are subject to various risks and uncertainties and no assurance can be given that actual results will be consistent with these f\n\n### 風險與不確定性\n- Readers are cautioned not to place undue reliance on these forward-looking statements which are subject to various risks and uncertainties and no assurance can be given that actual results will be consistent with these f\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：Readers are cautioned not to place undue reliance on these forward-looking statements which are subject to various risks and uncertainties and no assurance can be given that actual results will be consistent with these f。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
     }
   ]
 };
