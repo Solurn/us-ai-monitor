@@ -1,6 +1,54 @@
 window.selfReportHistory = {
   "items": [
     {
+      "generatedAt": "2026-09-10T20:35:42+08:00",
+      "queryDate": "2026-09-10",
+      "displayDate": "115年9月10日",
+      "checkedAt": "2026-09-10T20:35:42+08:00",
+      "checkedQueryDate": "2026-09-10",
+      "checkedDisplayDate": "115年9月10日",
+      "checkedCount": 1,
+      "checkedSkipped": {
+        "bond_subject": 0,
+        "missing_financials": 0,
+        "duplicate": 1,
+        "detail_error": 0
+      },
+      "count": 1,
+      "skipped": {
+        "bond_subject": 0,
+        "missing_financials": 0,
+        "duplicate": 1,
+        "detail_error": 0
+      },
+      "rows": [
+        {
+          "code": "6872",
+          "name": "浩宇生醫",
+          "market": "上櫃",
+          "announcement_date": "115/09/10",
+          "subject": "本公司有價證券近期多次達公布注意交易資訊標準， 故公告相關訊息，以利投資人區別暸解",
+          "month_label": "單月",
+          "monthly_revenue": 0.8,
+          "monthly_pre_tax_income": -11.64,
+          "monthly_parent_income": -11.11,
+          "monthly_eps": -0.16,
+          "quarter_eps": -0.62,
+          "tax_margin_pct": -1455.0,
+          "operating_margin_pct": -1388.75,
+          "previous_quarter_monthly_eps": -0.20666666666666667,
+          "reference_quarter": "2026Q2",
+          "reference_tax_margin_pct": -1356.78,
+          "reference_operating_margin_pct": -1374.67,
+          "tax_margin_delta_pct": -98.22000000000003,
+          "operating_margin_delta_pct": -14.079999999999927,
+          "detail_key": "otc:6872:20260910:143539:1"
+        }
+      ],
+      "image": "./assets/self-report/self-report-2026-09-10.png",
+      "source": "公開資訊觀測站 / CMoney 財務比率"
+    },
+    {
       "generatedAt": "2026-09-08T20:03:26+08:00",
       "queryDate": "2026-09-08",
       "displayDate": "115年9月8日",
@@ -2040,98 +2088,6 @@ window.selfReportHistory = {
         }
       ],
       "image": "./assets/self-report/self-report-2026-08-11.png",
-      "source": "公開資訊觀測站 / CMoney 財務比率"
-    },
-    {
-      "generatedAt": "2026-08-10T21:39:06+08:00",
-      "queryDate": "2026-08-10",
-      "displayDate": "115年8月10日",
-      "checkedAt": "2026-08-10T21:39:06+08:00",
-      "checkedQueryDate": "2026-08-10",
-      "checkedDisplayDate": "115年8月10日",
-      "checkedCount": 3,
-      "checkedSkipped": {
-        "bond_subject": 0,
-        "missing_financials": 1,
-        "duplicate": 2,
-        "detail_error": 0
-      },
-      "count": 3,
-      "skipped": {
-        "bond_subject": 0,
-        "missing_financials": 1,
-        "duplicate": 2,
-        "detail_error": 0
-      },
-      "rows": [
-        {
-          "code": "6269",
-          "name": "台郡",
-          "market": "上市",
-          "announcement_date": "115/08/10",
-          "subject": "係因本公司有價證券於集中交易市場達公布注意 交易資訊標準，故公布相關財務業務等重大訊息， 以利投資人區別瞭解",
-          "month_label": "06月",
-          "monthly_revenue": 1716.0,
-          "monthly_pre_tax_income": -179.0,
-          "monthly_parent_income": -152.0,
-          "monthly_eps": -0.47,
-          "quarter_eps": -1.68,
-          "tax_margin_pct": -10.431235431235432,
-          "operating_margin_pct": -8.857808857808857,
-          "previous_quarter_monthly_eps": -0.5599999999999999,
-          "reference_quarter": "2026Q1",
-          "reference_tax_margin_pct": -17.96,
-          "reference_operating_margin_pct": -18.29,
-          "tax_margin_delta_pct": 7.528764568764569,
-          "operating_margin_delta_pct": 9.432191142191142,
-          "detail_key": "sii:6269:20260810:161515:4"
-        },
-        {
-          "code": "6274",
-          "name": "台燿",
-          "market": "上櫃",
-          "announcement_date": "115/08/10",
-          "subject": "本公司有價證券近期多次達公布注意交易資訊標準， 故公告相關訊息，以利投資人區別暸解",
-          "month_label": "單月",
-          "monthly_revenue": 5909.0,
-          "monthly_pre_tax_income": 1865.0,
-          "monthly_parent_income": 1306.0,
-          "monthly_eps": 4.36,
-          "quarter_eps": 8.02,
-          "tax_margin_pct": 31.56202403113894,
-          "operating_margin_pct": 22.101878490438313,
-          "previous_quarter_monthly_eps": 2.6733333333333333,
-          "reference_quarter": "2026Q2",
-          "reference_tax_margin_pct": 23.96,
-          "reference_operating_margin_pct": 23.48,
-          "tax_margin_delta_pct": 7.602024031138939,
-          "operating_margin_delta_pct": -1.3781215095616872,
-          "detail_key": "otc:6274:20260810:150605:1"
-        },
-        {
-          "code": "7828",
-          "name": "創新服務",
-          "market": "上櫃",
-          "announcement_date": "115/08/10",
-          "subject": "本公司有價證券近期多次達公布注意交易資訊標準， 故公告相關訊息，以利投資人區別暸解",
-          "month_label": "7月",
-          "monthly_revenue": 130.0,
-          "monthly_pre_tax_income": 68.0,
-          "monthly_parent_income": 55.0,
-          "monthly_eps": 1.35,
-          "quarter_eps": 1.02,
-          "tax_margin_pct": 52.307692307692314,
-          "operating_margin_pct": 42.30769230769231,
-          "previous_quarter_monthly_eps": 0.34,
-          "reference_quarter": "2026Q1",
-          "reference_tax_margin_pct": 30.76,
-          "reference_operating_margin_pct": 25.3,
-          "tax_margin_delta_pct": 21.547692307692312,
-          "operating_margin_delta_pct": 17.007692307692306,
-          "detail_key": "otc:7828:20260810:150326:1"
-        }
-      ],
-      "image": "./assets/self-report/self-report-2026-08-10.png",
       "source": "公開資訊觀測站 / CMoney 財務比率"
     }
   ]
