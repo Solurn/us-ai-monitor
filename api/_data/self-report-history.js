@@ -1,6 +1,76 @@
 window.selfReportHistory = {
   "items": [
     {
+      "generatedAt": "2026-09-14T21:25:10+08:00",
+      "queryDate": "2026-09-14",
+      "displayDate": "115年9月14日",
+      "checkedAt": "2026-09-14T21:25:10+08:00",
+      "checkedQueryDate": "2026-09-14",
+      "checkedDisplayDate": "115年9月14日",
+      "checkedCount": 2,
+      "checkedSkipped": {
+        "bond_subject": 0,
+        "missing_financials": 0,
+        "duplicate": 0,
+        "detail_error": 0
+      },
+      "count": 2,
+      "skipped": {
+        "bond_subject": 0,
+        "missing_financials": 0,
+        "duplicate": 0,
+        "detail_error": 0
+      },
+      "rows": [
+        {
+          "code": "2305",
+          "name": "全友",
+          "market": "上市",
+          "announcement_date": "115/09/14",
+          "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準， 故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+          "month_label": "07月",
+          "monthly_revenue": 178.56,
+          "monthly_pre_tax_income": 60.54,
+          "monthly_parent_income": 20.64,
+          "monthly_eps": 0.1,
+          "quarter_eps": 0.35,
+          "tax_margin_pct": 33.90456989247312,
+          "operating_margin_pct": 11.559139784946238,
+          "previous_quarter_monthly_eps": 0.11666666666666665,
+          "reference_quarter": "2026Q2",
+          "reference_tax_margin_pct": 35.69,
+          "reference_operating_margin_pct": 23.57,
+          "tax_margin_delta_pct": -1.785430107526878,
+          "operating_margin_delta_pct": -12.010860215053762,
+          "detail_key": "sii:2305:20260914:150214:1"
+        },
+        {
+          "code": "3229",
+          "name": "晟鈦",
+          "market": "上市",
+          "announcement_date": "115/09/14",
+          "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊 標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+          "month_label": "08月",
+          "monthly_revenue": 141.22,
+          "monthly_pre_tax_income": 8.43,
+          "monthly_parent_income": 8.48,
+          "monthly_eps": 0.13,
+          "quarter_eps": 0.73,
+          "tax_margin_pct": 5.969409432091771,
+          "operating_margin_pct": 6.004815181985554,
+          "previous_quarter_monthly_eps": 0.24333333333333332,
+          "reference_quarter": "2026Q2",
+          "reference_tax_margin_pct": 11.22,
+          "reference_operating_margin_pct": 11.01,
+          "tax_margin_delta_pct": -5.25059056790823,
+          "operating_margin_delta_pct": -5.005184818014445,
+          "detail_key": "sii:3229:20260914:150301:1"
+        }
+      ],
+      "image": "./assets/self-report/self-report-2026-09-14.png",
+      "source": "公開資訊觀測站 / CMoney 財務比率"
+    },
+    {
       "generatedAt": "2026-09-11T22:00:09+08:00",
       "queryDate": "2026-09-11",
       "displayDate": "115年9月11日",
@@ -1812,194 +1882,6 @@ window.selfReportHistory = {
         }
       ],
       "image": "./assets/self-report/self-report-2026-08-17.png",
-      "source": "公開資訊觀測站 / CMoney 財務比率"
-    },
-    {
-      "generatedAt": "2026-08-14T20:16:02+08:00",
-      "queryDate": "2026-08-14",
-      "displayDate": "115年8月14日",
-      "checkedAt": "2026-08-14T20:16:02+08:00",
-      "checkedQueryDate": "2026-08-14",
-      "checkedDisplayDate": "115年8月14日",
-      "checkedCount": 1,
-      "checkedSkipped": {
-        "bond_subject": 0,
-        "missing_financials": 0,
-        "duplicate": 0,
-        "detail_error": 0
-      },
-      "count": 1,
-      "skipped": {
-        "bond_subject": 0,
-        "missing_financials": 0,
-        "duplicate": 0,
-        "detail_error": 0
-      },
-      "rows": [
-        {
-          "code": "2059",
-          "name": "川湖",
-          "market": "上市",
-          "announcement_date": "115/08/14",
-          "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準， 故公布相關財務業務等重大訊息，以利投資人區別瞭解",
-          "month_label": "7月",
-          "monthly_revenue": 6407.0,
-          "monthly_pre_tax_income": 5985.0,
-          "monthly_parent_income": 4787.0,
-          "monthly_eps": 50.24,
-          "quarter_eps": 74.38,
-          "tax_margin_pct": 93.4134540346496,
-          "operating_margin_pct": 74.71515529889183,
-          "previous_quarter_monthly_eps": 24.793333333333333,
-          "reference_quarter": "2026Q2",
-          "reference_tax_margin_pct": 84.2,
-          "reference_operating_margin_pct": 82.08,
-          "tax_margin_delta_pct": 9.213454034649601,
-          "operating_margin_delta_pct": -7.364844701108169,
-          "detail_key": "sii:2059:20260814:153822:1"
-        }
-      ],
-      "image": "./assets/self-report/self-report-2026-08-14.png",
-      "source": "公開資訊觀測站 / CMoney 財務比率"
-    },
-    {
-      "generatedAt": "2026-08-13T22:18:58+08:00",
-      "queryDate": "2026-08-13",
-      "displayDate": "115年8月13日",
-      "checkedAt": "2026-08-13T22:18:58+08:00",
-      "checkedQueryDate": "2026-08-13",
-      "checkedDisplayDate": "115年8月13日",
-      "checkedCount": 2,
-      "checkedSkipped": {
-        "bond_subject": 0,
-        "missing_financials": 0,
-        "duplicate": 0,
-        "detail_error": 0
-      },
-      "count": 2,
-      "skipped": {
-        "bond_subject": 0,
-        "missing_financials": 0,
-        "duplicate": 0,
-        "detail_error": 0
-      },
-      "rows": [
-        {
-          "code": "6152",
-          "name": "百一",
-          "market": "上市",
-          "announcement_date": "115/08/13",
-          "subject": "係因本公司有價證券於集中市場達公布注意交易資訊標準， 故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
-          "month_label": "單月",
-          "monthly_revenue": 302.0,
-          "monthly_pre_tax_income": 13.0,
-          "monthly_parent_income": 13.0,
-          "monthly_eps": 0.08,
-          "quarter_eps": 0.49,
-          "tax_margin_pct": 4.304635761589404,
-          "operating_margin_pct": 4.304635761589404,
-          "previous_quarter_monthly_eps": 0.16333333333333333,
-          "reference_quarter": "2026Q2",
-          "reference_tax_margin_pct": 13.22,
-          "reference_operating_margin_pct": 9.48,
-          "tax_margin_delta_pct": -8.915364238410596,
-          "operating_margin_delta_pct": -5.175364238410596,
-          "detail_key": "sii:6152:20260813:155151:1"
-        },
-        {
-          "code": "6716",
-          "name": "應廣",
-          "market": "上櫃",
-          "announcement_date": "115/08/13",
-          "subject": "本公司有價證券近期多次達公佈注意交易資訊標準，故公告 相關訊息，以利投資人區別暸解",
-          "month_label": "07月",
-          "monthly_revenue": 169.51,
-          "monthly_pre_tax_income": 36.61,
-          "monthly_parent_income": 31.62,
-          "monthly_eps": 1.07,
-          "quarter_eps": 3.06,
-          "tax_margin_pct": 21.597545867500443,
-          "operating_margin_pct": 18.653766739425404,
-          "previous_quarter_monthly_eps": 1.02,
-          "reference_quarter": "2026Q2",
-          "reference_tax_margin_pct": 22.83,
-          "reference_operating_margin_pct": 21.18,
-          "tax_margin_delta_pct": -1.232454132499555,
-          "operating_margin_delta_pct": -2.526233260574596,
-          "detail_key": "otc:6716:20260813:143836:1"
-        }
-      ],
-      "image": "./assets/self-report/self-report-2026-08-13.png",
-      "source": "公開資訊觀測站 / CMoney 財務比率"
-    },
-    {
-      "generatedAt": "2026-08-12T21:01:33+08:00",
-      "queryDate": "2026-08-12",
-      "displayDate": "115年8月12日",
-      "checkedAt": "2026-08-12T21:01:33+08:00",
-      "checkedQueryDate": "2026-08-12",
-      "checkedDisplayDate": "115年8月12日",
-      "checkedCount": 2,
-      "checkedSkipped": {
-        "bond_subject": 1,
-        "missing_financials": 0,
-        "duplicate": 1,
-        "detail_error": 0
-      },
-      "count": 2,
-      "skipped": {
-        "bond_subject": 1,
-        "missing_financials": 0,
-        "duplicate": 1,
-        "detail_error": 0
-      },
-      "rows": [
-        {
-          "code": "3529",
-          "name": "力旺",
-          "market": "上櫃",
-          "announcement_date": "115/08/12",
-          "subject": "本公司有價證券近期多次達公布注意交易資訊標準， 故公告相關訊息，以利投資人區別暸解",
-          "month_label": "單月",
-          "monthly_revenue": 675.86,
-          "monthly_pre_tax_income": 495.21,
-          "monthly_parent_income": 408.58,
-          "monthly_eps": 5.47,
-          "quarter_eps": 29.01,
-          "tax_margin_pct": 73.27109164619891,
-          "operating_margin_pct": 60.4533483265765,
-          "previous_quarter_monthly_eps": 9.67,
-          "reference_quarter": "2026Q2",
-          "reference_tax_margin_pct": 63.06,
-          "reference_operating_margin_pct": 60.74,
-          "tax_margin_delta_pct": 10.21109164619891,
-          "operating_margin_delta_pct": -0.2866516734234992,
-          "detail_key": "otc:3529:20260812:142909:1"
-        },
-        {
-          "code": "5475",
-          "name": "德宏",
-          "market": "上櫃",
-          "announcement_date": "115/08/12",
-          "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告 相關訊息，以利投資人區別暸解",
-          "month_label": "7月",
-          "monthly_revenue": 229.0,
-          "monthly_pre_tax_income": 79.0,
-          "monthly_parent_income": 79.0,
-          "monthly_eps": 0.62,
-          "quarter_eps": 0.24,
-          "tax_margin_pct": 34.49781659388647,
-          "operating_margin_pct": 34.49781659388647,
-          "previous_quarter_monthly_eps": 0.08,
-          "reference_quarter": "2026Q1",
-          "reference_tax_margin_pct": 9.67,
-          "reference_operating_margin_pct": 8.83,
-          "tax_margin_delta_pct": 24.827816593886467,
-          "operating_margin_delta_pct": 25.66781659388647,
-          "detail_key": "otc:5475:20260812:191528:1"
-        }
-      ],
-      "image": "./assets/self-report/self-report-2026-08-12.png",
       "source": "公開資訊觀測站 / CMoney 財務比率"
     }
   ]
