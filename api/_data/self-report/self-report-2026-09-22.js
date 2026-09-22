@@ -1,4 +1,5 @@
-window.selfReportLatest = {
+window.selfReportArchiveItems = window.selfReportArchiveItems || {};
+window.selfReportArchiveItems["2026-09-22"] = {
   "generatedAt": "2026-09-22T20:53:22+08:00",
   "queryDate": "2026-09-22",
   "displayDate": "115年9月22日",
