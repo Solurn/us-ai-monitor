@@ -1,12 +1,151 @@
 window.irSummaryHistory = {
-  "generatedAt": "2026-09-30T13:19:57.440Z",
+  "generatedAt": "2026-10-01T14:09:07.416Z",
   "sourceRoot": "C:\\Users\\user\\Desktop\\Codex專案\\法說整理",
   "retentionDays": 30,
   "maxMeetingDate": "",
-  "latestDate": "2026-09-30",
+  "latestDate": "2026-10-01",
   "items": [
     {
-      "generatedAt": "2026-09-30T13:19:57.440Z",
+      "generatedAt": "2026-10-01T14:09:07.416Z",
+      "queryDate": "2026-10-01",
+      "displayDate": "2026-10-01",
+      "count": 3,
+      "rows": [
+        {
+          "date": "2026-10-01",
+          "code": "3013",
+          "name": "晟銘電",
+          "eventType": "法人說明會",
+          "time": "14:30",
+          "location": "南港中信金融園區B棟13樓1302會議室(台北市南港區經貿二路188號13樓)",
+          "topic": "本公司受邀參加中國信託綜合證券舉辦之法人說明會。",
+          "companyWebsite": "",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/301320261001M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/301320261001E001.pdf",
+          "mediaUrl": "http://irconference.twse.com.tw/3013_10_20261001_ch.MP4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "營運之預測性資訊，該項預估 存在未實現風險及不確定性。本公司未來實際所發生的營運結 果、財務狀況以及業務展望，可能與這些預測性資訊有所差異， 其原因可能來自於各種本公司所不能掌控的風險。 除法令要求外，本公司並無義務因應新資訊的產生或未來事件 的發生主動更新對未來展望的表述。 1"
+          ],
+          "outlookTone": {
+            "label": "保守偏負面",
+            "score": 38,
+            "basis": "正向訊號 0、保守訊號 2"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：本公司受邀參加中國信託綜合證券舉辦之法人說明會。",
+            "NTD 億元 DT 3% SVR 73% L11系統整合18% Tooling 6% --- page 7 --- 單位：NTD仟元，EPS：元 營運成果 分析項目 2025年1-6月 2026年1-6月 Y0Y(%) 營業收入 5,029,380 6,147,745 22% 營業毛利 830,097 1,280,037 54% 營業費用 401,399 459,381 14% 營業淨利 428,698 820,656 91% 稅前淨利",
+            "[zh PDF] --- page 1 --- 2026/10/01法人說明會 晟銘電子 科技股份有限公司 --- page 2 --- 營運之預測性資訊，該項預估 存在未實現風險及不確定性。本公司未來實際所發生的營運結 果、財務狀況以及業務展望，可能與這些預測性資訊有所差異， 其原因可能來自於各種本公司所不能掌控的風險。",
+            "除法令要求外，本公司並無義務因應新資訊的產生或未來事件 的發生主動更新對未來展望的表述。",
+            "1 --- page 3 --- 簡報綱要 一、公司資訊 ▲營運據點 ▲營運成果 二、新產品新技術 三、意見交流 2 --- page 4 --- 一、公司資訊 營運據點 營運成果 3 --- page 5 --- 4 東莞廠 寧波廠 中壢廠 泰國廠 晟銘電子(寧波)有限公司 地點: 浙江省寧波市保稅區 東區港東大道25號 營運面積: 約 57,500平方米 員工人數: 約 1,700人 晟銘電子中壢廠 地點:桃園市中壢區松江北路 18",
+            "Compute ✓ Training/Inference ✓ GPU (FLOPS/Watts) ✓ Megawatt to Gigawatt 2."
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-01.md",
+          "detailMarkdown": "## 3013 晟銘電 深度法說分析\n\n### 一頁結論\n- 展望評價：保守偏負面（38 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 2。\n- 判讀：保守訊號較多，短期需要先確認需求、成本或產業變數是否落底。 \n\n### 營運與財務重點\n- NTD 億元 DT 3% SVR 73% L11系統整合18% Tooling 6% --- page 7 --- 單位：NTD仟元，EPS：元 營運成果 分析項目 2025年1-6月 2026年1-6月 Y0Y(%) 營業收入 5,029,380 6,147,745 22% 營業毛利 830,097 1,280,037 54% 營業費用 401,399 459,381 14% 營業淨利 428,698 820,656 91% 稅前淨利\n\n### 展望與成長利基\n- 營運之預測性資訊，該項預估 存在未實現風險及不確定性。本公司未來實際所發生的營運結 果、財務狀況以及業務展望，可能與這些預測性資訊有所差異， 其原因可能來自於各種本公司所不能掌控的風險。 除法令要求外，本公司並無義務因應新資訊的產生或未來事件 的發生主動更新對未來展望的表述。 1\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- MOPS 擇要訊息：本公司受邀參加中國信託綜合證券舉辦之法人說明會。\n- 1 --- page 3 --- 簡報綱要 一、公司資訊 ▲營運據點 ▲營運成果 二、新產品新技術 三、意見交流 2 --- page 4 --- 一、公司資訊 營運據點 營運成果 3 --- page 5 --- 4 東莞廠 寧波廠 中壢廠 泰國廠 晟銘電子(寧波)有限公司 地點: 浙江省寧波市保稅區 東區港東大道25號 營運面積: 約 57,500平方米 員工人數: 約 1,700人 晟銘電子中壢廠 地點:桃園市中壢區松江北路 18\n- Compute ✓ Training/Inference ✓ GPU (FLOPS/Watts) ✓ Megawatt to Gigawatt 2.\n\n### 風險與不確定性\n- [zh PDF] --- page 1 --- 2026/10/01法人說明會 晟銘電子 科技股份有限公司 --- page 2 --- 營運之預測性資訊，該項預估 存在未實現風險及不確定性。本公司未來實際所發生的營運結 果、財務狀況以及業務展望，可能與這些預測性資訊有所差異， 其原因可能來自於各種本公司所不能掌控的風險。\n- 營運之預測性資訊，該項預估 存在未實現風險及不確定性。本公司未來實際所發生的營運結 果、財務狀況以及業務展望，可能與這些預測性資訊有所差異， 其原因可能來自於各種本公司所不能掌控的風險。 除法令要求外，本公司並無義務因應新資訊的產生或未來事件 的發生主動更新對未來展望的表述。 1\n\n### Q&A 與管理層口氣\n- NTD 億元 DT 3% SVR 73% L11系統整合18% Tooling 6% --- page 7 --- 單位：NTD仟元，EPS：元 營運成果 分析項目 2025年1-6月 2026年1-6月 Y0Y(%) 營業收入 5,029,380 6,147,745 22% 營業毛利 830,097 1,280,037 54% 營業費用 401,399 459,381 14% 營業淨利 428,698 820,656 91% 稅前淨利\n\n### 評分利基點\n- 扣分或保留：[zh PDF] --- page 1 --- 2026/10/01法人說明會 晟銘電子 科技股份有限公司 --- page 2 --- 營運之預測性資訊，該項預估 存在未實現風險及不確定性。本公司未來實際所發生的營運結 果、財務狀況以及業務展望，可能與這些預測性資訊有所差異， 其原因可能來自於各種本公司所不能掌控的風險。；營運之預測性資訊，該項預估 存在未實現風險及不確定性。本公司未來實際所發生的營運結 果、財務狀況以及業務展望，可能與這些預測性資訊有所差異， 其原因可能來自於各種本公司所不能掌控的風險。 除法令要求外，本公司並無義務因應新資訊的產生或未來事件 的發生主動更新對未來展望的表述。 1。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-10-01",
+          "code": "7689",
+          "name": "大鵬科CLMX",
+          "eventType": "法人說明會",
+          "time": "14:30",
+          "location": "富邦金融大樓(台北市大安區仁愛路四段169號15樓)",
+          "topic": "本公司受邀參加富邦證券舉辦之法人說明會, 說明本公司營運概況與未來展望。",
+          "companyWebsite": "https://www.climax.com.tw/tw/shareholder_area.php",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/768920261001M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/768920261001E001.pdf",
+          "mediaUrl": "https://www.youtube.com/watch?v=1zYM2wnfAzw",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "Climax Technology Co., Ltd. 2 股票代號 Ticker 7689 ⚫ 本簡報係於當時公司資料及整體經濟發展現況所得之資訊 ，對過去、現在及未來營運彙總與評估；及同時發布之相關訊息所提及 之前瞻性資訊，受風險、不確定性與推論所影響 ，包括但不限於成本增加 、市場需求，各種政策法令與金融經濟現況之改變以及 其他非本公司所能控制之風險等因素，實際結果可能與這些前瞻性資訊大不相同。 This presentation summarizes and assesses past, present a",
+            "Climax Technology Co., Ltd. 10 股票代號 Ticker 7689 商業模式 Business Model 以ODM為核心，結合技術與客戶市場優勢，建立長期合作關係 ODM-centered, combining our technology with customers' market strengths to build long -term partnerships 核心商業模式 Core Business Model • 以ODM模式為主，提供客戶客製化產品與整合解決方案 Mai",
+            "Climax Technology Co., Ltd. 29 股票代號 Ticker 7689 AI及先進技術中心 AI & Advanced Technology Center 以既有AI、RF與系統整合能力為基礎，擴大前瞻技術投入與新應用探索 Building on existing AI, RF and system integration capabilities to expand forward-looking technology investment and explore new applicat",
+            "股票代號 Ticker 7689 未來展望 Outlook",
+            "Climax Technology Co., Ltd. 36 股票代號 Ticker 7689 新廠建設計畫：研發製造整合與中長期成長布局 New Plant: R&D–Manufacturing Integration and Mid-to-Long-T erm Growth 因應業務成長與研發規模擴張，推進內湖新廠建設，強化研發、製造與全球供應能力 To support business growth and R&D expansion, the new Neihu plant will strengthen",
+            "Climax Technology Co., Ltd. 42 股票代號 Ticker 7689 依據Allied Market Research預估，2022年智慧家庭安防 市場規模 258億美元 ，預估2032年市場規模將達 1,126億 美元，未來10年CAGR達16.2%。 Allied Market Research estimates the smart home security market at US$25.8 billion in 2022, reaching US$112.6 billion b",
+            "Climax Technology Co., Ltd. 49 股票代號 Ticker 7689 公益投入與社會參與 Community Engagement • 設立財團法人大鵬科技慈善基金會，持續投入教育、兒少發展及醫療資源等公益計畫。 The Climax Technology Charity Foundation supports community programs focused on education, youth development and healthcare resources. 偏鄉閱讀推",
+            "Climax Technology Co., Ltd. 4 股票代號 Ticker 7689 公司名稱：大鵬科技股份有限公司 Company Name: Climax Technology Co., Ltd. 設立日期：1984年12月6日 Founded: December 6, 1984 實收資本額：新台幣5.85億元 Paid-in Capital: NT$585 million 董事長：張再發先生 Chairman: Michael CHANG 員工數：620人（研發人員126人） Employees: 6"
+          ],
+          "outlookTone": {
+            "label": "正面看好",
+            "score": 73,
+            "basis": "正向訊號 5、保守訊號 2"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：本公司受邀參加富邦證券舉辦之法人說明會, 說明本公司營運概況與未來展望。",
+            "10 股票代號 Ticker 7689 商業模式 Business Model 以ODM為核心，結合技術與客戶市場優勢，建立長期合作關係 ODM-centered, combining our technology with customers' market strengths to build long -term partnerships 核心商業模式 Core Business Model • 以ODM模式為主，提供客戶客製化產",
+            "21 股票代號 Ticker 7689 營收與獲利｜8月營收年增4.30% Revenue & Profitability | August Revenue +4.30% YoY 0 2,000,000 4,000,000 6,000,000 營業收入 Revenue 2023年 2024年 2025年 0 200,000 400,000 600,000 稅後淨利 Net Income 2023年 2024年 2025年 2023年 2",
+            "10 股票代號 Ticker 7689 商業模式 Business Model 以ODM為核心，結合技術與客戶市場優勢，建立長期合作關係 ODM-centered, combining our technology with customers' market strengths to build long -term partnerships 核心商業模式 Core Business Model • 以ODM模式為主，提供客戶客製化產",
+            "21 股票代號 Ticker 7689 營收與獲利｜8月營收年增4.30% Revenue & Profitability | August Revenue +4.30% YoY 0 2,000,000 4,000,000 6,000,000 營業收入 Revenue 2023年 2024年 2025年 0 200,000 400,000 600,000 稅後淨利 Net Income 2023年 2024年 2025年 2023年 2",
+            "29 股票代號 Ticker 7689 AI及先進技術中心 AI & Advanced Technology Center 以既有AI、RF與系統整合能力為基礎，擴大前瞻技術投入與新應用探索 Building on existing AI, RF and system integration capabilities to expand forward-looking technology investment and explore"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-01.md",
+          "detailMarkdown": "## 7689 大鵬科CLMX 深度法說分析\n\n### 一頁結論\n- 展望評價：正面看好（73 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 5、保守訊號 2。\n- 判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 \n\n### 營運與財務重點\n- 21 股票代號 Ticker 7689 營收與獲利｜8月營收年增4.30% Revenue & Profitability | August Revenue +4.30% YoY 0 2,000,000 4,000,000 6,000,000 營業收入 Revenue 2023年 2024年 2025年 0 200,000 400,000 600,000 稅後淨利 Net Income 2023年 2024年 2025年 2023年 2\n- Climax Technology Co., Ltd. 36 股票代號 Ticker 7689 新廠建設計畫：研發製造整合與中長期成長布局 New Plant: R&D–Manufacturing Integration and Mid-to-Long-T erm Growth 因應業務成長與研發規模擴張，推進內湖新廠建設，強化研發、製造與全球供應能力 To support business growth and R&D expansion, the new Neihu plant will strengthen\n\n### 展望與成長利基\n- Climax Technology Co., Ltd. 2 股票代號 Ticker 7689 ⚫ 本簡報係於當時公司資料及整體經濟發展現況所得之資訊 ，對過去、現在及未來營運彙總與評估；及同時發布之相關訊息所提及 之前瞻性資訊，受風險、不確定性與推論所影響 ，包括但不限於成本增加 、市場需求，各種政策法令與金融經濟現況之改變以及 其他非本公司所能控制之風險等因素，實際結果可能與這些前瞻性資訊大不相同。 This presentation summarizes and assesses past, present a\n- Climax Technology Co., Ltd. 10 股票代號 Ticker 7689 商業模式 Business Model 以ODM為核心，結合技術與客戶市場優勢，建立長期合作關係 ODM-centered, combining our technology with customers' market strengths to build long -term partnerships 核心商業模式 Core Business Model • 以ODM模式為主，提供客戶客製化產品與整合解決方案 Mai\n- Climax Technology Co., Ltd. 29 股票代號 Ticker 7689 AI及先進技術中心 AI & Advanced Technology Center 以既有AI、RF與系統整合能力為基礎，擴大前瞻技術投入與新應用探索 Building on existing AI, RF and system integration capabilities to expand forward-looking technology investment and explore new applicat\n- 股票代號 Ticker 7689 未來展望 Outlook\n- Climax Technology Co., Ltd. 36 股票代號 Ticker 7689 新廠建設計畫：研發製造整合與中長期成長布局 New Plant: R&D–Manufacturing Integration and Mid-to-Long-T erm Growth 因應業務成長與研發規模擴張，推進內湖新廠建設，強化研發、製造與全球供應能力 To support business growth and R&D expansion, the new Neihu plant will strengthen\n- Climax Technology Co., Ltd. 42 股票代號 Ticker 7689 依據Allied Market Research預估，2022年智慧家庭安防 市場規模 258億美元 ，預估2032年市場規模將達 1,126億 美元，未來10年CAGR達16.2%。 Allied Market Research estimates the smart home security market at US$25.8 billion in 2022, reaching US$112.6 billion b\n- Climax Technology Co., Ltd. 49 股票代號 Ticker 7689 公益投入與社會參與 Community Engagement • 設立財團法人大鵬科技慈善基金會，持續投入教育、兒少發展及醫療資源等公益計畫。 The Climax Technology Charity Foundation supports community programs focused on education, youth development and healthcare resources. 偏鄉閱讀推\n- Climax Technology Co., Ltd. 4 股票代號 Ticker 7689 公司名稱：大鵬科技股份有限公司 Company Name: Climax Technology Co., Ltd. 設立日期：1984年12月6日 Founded: December 6, 1984 實收資本額：新台幣5.85億元 Paid-in Capital: NT$585 million 董事長：張再發先生 Chairman: Michael CHANG 員工數：620人（研發人員126人） Employees: 6\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- 10 股票代號 Ticker 7689 商業模式 Business Model 以ODM為核心，結合技術與客戶市場優勢，建立長期合作關係 ODM-centered, combining our technology with customers' market strengths to build long -term partnerships 核心商業模式 Core Business Model • 以ODM模式為主，提供客戶客製化產\n- 29 股票代號 Ticker 7689 AI及先進技術中心 AI & Advanced Technology Center 以既有AI、RF與系統整合能力為基礎，擴大前瞻技術投入與新應用探索 Building on existing AI, RF and system integration capabilities to expand forward-looking technology investment and explore\n- Climax Technology Co., Ltd. 2 股票代號 Ticker 7689 ⚫ 本簡報係於當時公司資料及整體經濟發展現況所得之資訊 ，對過去、現在及未來營運彙總與評估；及同時發布之相關訊息所提及 之前瞻性資訊，受風險、不確定性與推論所影響 ，包括但不限於成本增加 、市場需求，各種政策法令與金融經濟現況之改變以及 其他非本公司所能控制之風險等因素，實際結果可能與這些前瞻性資訊大不相同。 This presentation summarizes and assesses past, present a\n- Climax Technology Co., Ltd. 10 股票代號 Ticker 7689 商業模式 Business Model 以ODM為核心，結合技術與客戶市場優勢，建立長期合作關係 ODM-centered, combining our technology with customers' market strengths to build long -term partnerships 核心商業模式 Core Business Model • 以ODM模式為主，提供客戶客製化產品與整合解決方案 Mai\n- Climax Technology Co., Ltd. 29 股票代號 Ticker 7689 AI及先進技術中心 AI & Advanced Technology Center 以既有AI、RF與系統整合能力為基礎，擴大前瞻技術投入與新應用探索 Building on existing AI, RF and system integration capabilities to expand forward-looking technology investment and explore new applicat\n\n### 風險與不確定性\n- Climax Technology Co., Ltd. 2 股票代號 Ticker 7689 ⚫ 本簡報係於當時公司資料及整體經濟發展現況所得之資訊 ，對過去、現在及未來營運彙總與評估；及同時發布之相關訊息所提及 之前瞻性資訊，受風險、不確定性與推論所影響 ，包括但不限於成本增加 、市場需求，各種政策法令與金融經濟現況之改變以及 其他非本公司所能控制之風險等因素，實際結果可能與這些前瞻性資訊大不相同。 This presentation summarizes and assesses past, present a\n\n### Q&A 與管理層口氣\n- Climax Technology Co., Ltd. 2 股票代號 Ticker 7689 ⚫ 本簡報係於當時公司資料及整體經濟發展現況所得之資訊 ，對過去、現在及未來營運彙總與評估；及同時發布之相關訊息所提及 之前瞻性資訊，受風險、不確定性與推論所影響 ，包括但不限於成本增加 、市場需求，各種政策法令與金融經濟現況之改變以及 其他非本公司所能控制之風險等因素，實際結果可能與這些前瞻性資訊大不相同。 This presentation summarizes and assesses past, present a\n\n### 評分利基點\n- 加分主因：Climax Technology Co., Ltd. 2 股票代號 Ticker 7689 ⚫ 本簡報係於當時公司資料及整體經濟發展現況所得之資訊 ，對過去、現在及未來營運彙總與評估；及同時發布之相關訊息所提及 之前瞻性資訊，受風險、不確定性與推論所影響 ，包括但不限於成本增加 、市場需求，各種政策法令與金融經濟現況之改變以及 其他非本公司所能控制之風險等因素，實際結果可能與這些前瞻性資訊大不相同。 This presentation summarizes and assesses past, present a；Climax Technology Co., Ltd. 36 股票代號 Ticker 7689 新廠建設計畫：研發製造整合與中長期成長布局 New Plant: R&D–Manufacturing Integration and Mid-to-Long-T erm Growth 因應業務成長與研發規模擴張，推進內湖新廠建設，強化研發、製造與全球供應能力 To support business growth and R&D expansion, the new Neihu plant will strengthen。\n- 扣分或保留：Climax Technology Co., Ltd. 2 股票代號 Ticker 7689 ⚫ 本簡報係於當時公司資料及整體經濟發展現況所得之資訊 ，對過去、現在及未來營運彙總與評估；及同時發布之相關訊息所提及 之前瞻性資訊，受風險、不確定性與推論所影響 ，包括但不限於成本增加 、市場需求，各種政策法令與金融經濟現況之改變以及 其他非本公司所能控制之風險等因素，實際結果可能與這些前瞻性資訊大不相同。 This presentation summarizes and assesses past, present a。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-10-01",
+          "code": "7743",
+          "name": "金利食安",
+          "eventType": "法人說明會",
+          "time": "14:30",
+          "location": "台開大樓19樓1901會議室(地址:台北市重慶南路一段2號)",
+          "topic": "本公司受邀參加永豐金證券舉辦之法人說明會",
+          "companyWebsite": "https://www.kfs-foodtech.com/tw",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/774320261001M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/774320261001E001.pdf",
+          "mediaUrl": "https://youtu.be/aaE9DcviCgo?si=8RDAgleNHuxC6sdf",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "營運展望、財務狀況及業務 預測等內容，係本公司基於內部資料及外部整體經濟發展現況所得之資訊。 本公司未來實際所可能產生的營運結果、財務狀況與業務成果，可能與預測性資訊所 差異。其原因可能來自各 種因素，包括但不限於市場需求、價格波動、競爭態勢、各 種政策法令與金融經濟現況之改變，以及其他本公司無法掌控之風險等因素。 本簡報中所提供之資訊，係反應本公司截至目前為止對於未來的看法，並未明示或暗 性地表達或保證其具有正確性、完整性或可靠性。對於這些看法，未來若有變更或調 整時，本公司並不負有更新或修正之責任。",
+            "雙核驅動 台灣⽣產基地 雙基地完成後，⾦利⻝安的競爭單位將從「單⼀⼯廠」提升到「跨產區供應鏈」。 泰國⽣產基地 2.5倍台灣產能 成熟的冷凍與 HPP 製造經驗 熱帶水果產地優勢核心優勢 原料/產品 通路/市場 核心定位 台灣在地蔬果與產品研發 擴大原料品項與產季彈性 服務台灣既有大型通路與客戶 建立東南亞製造能力，拓展日本及海外市場 品牌、研發與食品科技核心 區域供應與國際市場前哨站 未來展望",
+            "Dual-Engine Growth 台灣⽣產基地 雙基地完成後，⾦利⻝安的競爭單位將從「單⼀⼯廠」提升到「跨產區供應鏈」。 泰國⽣產基地 2.5倍台灣產能 成熟的冷凍與 HPP 製造經驗 熱帶水果產地優勢核心優勢 原料/產品 通路/市場 核心定位 台灣在地蔬果與產品研發 擴大原料品項與產季彈性 服務台灣既有大型通路與客戶 建立東南亞製造能力，拓展日本及海外市場 品牌、研發與食品科技核心 區域供應與國際市場前哨站 Future Outlook",
+            "Table of contents ⼀、公司簡介與願景 三、營運表現 四、未來展望 ⼆、市場概況暨競爭⼒ 五、永續發展",
+            "Welcome to the future 無添加就是飲⻝未來式 公司簡介與願景 我們只做⾃⼰與家⼈ 樂於分享的⻝物 亞洲第⼀家HPP冷壓蔬果汁專業⻝品廠 改變國⼈飲⻝模式 讓每⼀個⼈家中的餐桌都有 HPP無添加⻝品！ 台灣第⼀家無添加⼤健康專業⻝品廠 以無添加⻝品為 創作核⼼的⻝品公司",
+            "全球冷壓蔬果汁健康飲品市場規模為8.6億美金。 市場概況暨競爭⼒ 台灣蔬果汁健康飲品市場超過>60億產值。 HPP飲品台灣未來3年內市場規模，預估 超過30億台幣，可能接近50億台幣內需， 屬於高度成長的飲品與原料市場發展。 HPP飲品市場概況 全 球 Global market CAGR, 2024–2029",
+            "海外銷售通路 國內連鎖通路上架 大型 商業配送電商 連鎖餐飲/酒店/咖啡品牌 蛋⽩ 質 適⼝ 性 不需咀 嚼 膳⻝纖 維 功效 認證 未來展望 短期策略概述 1 自有品牌「純在」 「CB Lab」 銷售擴張 2 機能性飲品之 自有品牌「品純萃」 領先地位穩固 醫療/銀髮院所講座 醫師/營養師專業背景 銀髮族展覽深耕 實體通路拓展",
+            "未來展望 短期策略概述 3 產品線 擴展與創新 4 ODM製造 訂單擴增 無添加淋醬/沾醬開發 餐飲使用RTC/RTE Cb Lab冷萃茶飲/咖啡 進口品牌代理經營 國內外手搖茶飲佈局 航空餐飲擴大 大型餐飲集團客製化原料"
+          ],
+          "outlookTone": {
+            "label": "正面看好",
+            "score": 73,
+            "basis": "正向訊號 5、保守訊號 2"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：本公司受邀參加永豐金證券舉辦之法人說明會",
+            "泰國⽣產基地 2.5倍台灣產能 成熟的冷凍與 HPP 製造經驗 熱帶水果產地優勢核心優勢 原料/產品 通路/市場 核心定位 台灣在地蔬果與產品研發 擴大原料品項與產季彈性 服務台灣既有大型通路與客戶 建立東南亞製造能力，拓展日本及海外市場 品牌、研發與食品科技核心 區域供應與國際市場前哨站 未來展望 --- page 38 --- The Highest-Pressure Factory in Thailand Location Fac",
+            "泰國⽣產基地 2.5倍台灣產能 成熟的冷凍與 HPP 製造經驗 熱帶水果產地優勢核心優勢 原料/產品 通路/市場 核心定位 台灣在地蔬果與產品研發 擴大原料品項與產季彈性 服務台灣既有大型通路與客戶 建立東南亞製造能力，拓展日本及海外市場 品牌、研發與食品科技核心 區域供應與國際市場前哨站 Future Outlook --- page 38 --- The Highest-Pressure Factory in Thailand Lo",
+            "page 27 --- (三)營運表現 --- page 28 --- 營業收入(台幣仟元) 113年 114年 115年/1-6月 0 100K 200K 300K 400K 500K 600K 700K 33% 28% 28% 營運表現 ⾦利⻝安營收業績&⽑利 642,366 682,132 364,686 --- page 29 --- 外銷現況/占⽐ 營運表現 0 5 10 15 20 25 16.66% 13.65% 24.7",
+            "page 27 --- 03 Operating Performance --- page 28 --- Revenue (NT$ thousands) 2024 2025 Jan–Jun 2026 0 100K 200K 300K 400K 500K 600K 700K 33% 28% 28% 642,366 682,132 364,686 KFS Revenue & Gross Margin Operating Performanc",
+            "[zh PDF] --- page 1 --- 7743 股票代號 2026.10.01 KEE Fresh & Safe Foodtech Co., Ltd --- page 2 --- 營運展望、財務狀況及業務 預測等內容，係本公司基於內部資料及外部整體經濟發展現況所得之資訊。"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-01.md",
+          "detailMarkdown": "## 7743 金利食安 深度法說分析\n\n### 一頁結論\n- 展望評價：正面看好（73 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 5、保守訊號 2。\n- 判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 \n\n### 營運與財務重點\n- page 27 --- (三)營運表現 --- page 28 --- 營業收入(台幣仟元) 113年 114年 115年/1-6月 0 100K 200K 300K 400K 500K 600K 700K 33% 28% 28% 營運表現 ⾦利⻝安營收業績&⽑利 642,366 682,132 364,686 --- page 29 --- 外銷現況/占⽐ 營運表現 0 5 10 15 20 25 16.66% 13.65% 24.7\n- 全球冷壓蔬果汁健康飲品市場規模為8.6億美金。 市場概況暨競爭⼒ 台灣蔬果汁健康飲品市場超過>60億產值。 HPP飲品台灣未來3年內市場規模，預估 超過30億台幣，可能接近50億台幣內需， 屬於高度成長的飲品與原料市場發展。 HPP飲品市場概況 全 球 Global market CAGR, 2024–2029\n\n### 展望與成長利基\n- 營運展望、財務狀況及業務 預測等內容，係本公司基於內部資料及外部整體經濟發展現況所得之資訊。 本公司未來實際所可能產生的營運結果、財務狀況與業務成果，可能與預測性資訊所 差異。其原因可能來自各 種因素，包括但不限於市場需求、價格波動、競爭態勢、各 種政策法令與金融經濟現況之改變，以及其他本公司無法掌控之風險等因素。 本簡報中所提供之資訊，係反應本公司截至目前為止對於未來的看法，並未明示或暗 性地表達或保證其具有正確性、完整性或可靠性。對於這些看法，未來若有變更或調 整時，本公司並不負有更新或修正之責任。\n- 雙核驅動 台灣⽣產基地 雙基地完成後，⾦利⻝安的競爭單位將從「單⼀⼯廠」提升到「跨產區供應鏈」。 泰國⽣產基地 2.5倍台灣產能 成熟的冷凍與 HPP 製造經驗 熱帶水果產地優勢核心優勢 原料/產品 通路/市場 核心定位 台灣在地蔬果與產品研發 擴大原料品項與產季彈性 服務台灣既有大型通路與客戶 建立東南亞製造能力，拓展日本及海外市場 品牌、研發與食品科技核心 區域供應與國際市場前哨站 未來展望\n- Dual-Engine Growth 台灣⽣產基地 雙基地完成後，⾦利⻝安的競爭單位將從「單⼀⼯廠」提升到「跨產區供應鏈」。 泰國⽣產基地 2.5倍台灣產能 成熟的冷凍與 HPP 製造經驗 熱帶水果產地優勢核心優勢 原料/產品 通路/市場 核心定位 台灣在地蔬果與產品研發 擴大原料品項與產季彈性 服務台灣既有大型通路與客戶 建立東南亞製造能力，拓展日本及海外市場 品牌、研發與食品科技核心 區域供應與國際市場前哨站 Future Outlook\n- Table of contents ⼀、公司簡介與願景 三、營運表現 四、未來展望 ⼆、市場概況暨競爭⼒ 五、永續發展\n- Welcome to the future 無添加就是飲⻝未來式 公司簡介與願景 我們只做⾃⼰與家⼈ 樂於分享的⻝物 亞洲第⼀家HPP冷壓蔬果汁專業⻝品廠 改變國⼈飲⻝模式 讓每⼀個⼈家中的餐桌都有 HPP無添加⻝品！ 台灣第⼀家無添加⼤健康專業⻝品廠 以無添加⻝品為 創作核⼼的⻝品公司\n- 全球冷壓蔬果汁健康飲品市場規模為8.6億美金。 市場概況暨競爭⼒ 台灣蔬果汁健康飲品市場超過>60億產值。 HPP飲品台灣未來3年內市場規模，預估 超過30億台幣，可能接近50億台幣內需， 屬於高度成長的飲品與原料市場發展。 HPP飲品市場概況 全 球 Global market CAGR, 2024–2029\n- 海外銷售通路 國內連鎖通路上架 大型 商業配送電商 連鎖餐飲/酒店/咖啡品牌 蛋⽩ 質 適⼝ 性 不需咀 嚼 膳⻝纖 維 功效 認證 未來展望 短期策略概述 1 自有品牌「純在」 「CB Lab」 銷售擴張 2 機能性飲品之 自有品牌「品純萃」 領先地位穩固 醫療/銀髮院所講座 醫師/營養師專業背景 銀髮族展覽深耕 實體通路拓展\n- 未來展望 短期策略概述 3 產品線 擴展與創新 4 ODM製造 訂單擴增 無添加淋醬/沾醬開發 餐飲使用RTC/RTE Cb Lab冷萃茶飲/咖啡 進口品牌代理經營 國內外手搖茶飲佈局 航空餐飲擴大 大型餐飲集團客製化原料\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- 泰國⽣產基地 2.5倍台灣產能 成熟的冷凍與 HPP 製造經驗 熱帶水果產地優勢核心優勢 原料/產品 通路/市場 核心定位 台灣在地蔬果與產品研發 擴大原料品項與產季彈性 服務台灣既有大型通路與客戶 建立東南亞製造能力，拓展日本及海外市場 品牌、研發與食品科技核心 區域供應與國際市場前哨站 未來展望 --- page 38 --- The Highest-Pressure Factory in Thailand Location Fac\n- 營運展望、財務狀況及業務 預測等內容，係本公司基於內部資料及外部整體經濟發展現況所得之資訊。 本公司未來實際所可能產生的營運結果、財務狀況與業務成果，可能與預測性資訊所 差異。其原因可能來自各 種因素，包括但不限於市場需求、價格波動、競爭態勢、各 種政策法令與金融經濟現況之改變，以及其他本公司無法掌控之風險等因素。 本簡報中所提供之資訊，係反應本公司截至目前為止對於未來的看法，並未明示或暗 性地表達或保證其具有正確性、完整性或可靠性。對於這些看法，未來若有變更或調 整時，本公司並不負有更新或修正之責任。\n- 雙核驅動 台灣⽣產基地 雙基地完成後，⾦利⻝安的競爭單位將從「單⼀⼯廠」提升到「跨產區供應鏈」。 泰國⽣產基地 2.5倍台灣產能 成熟的冷凍與 HPP 製造經驗 熱帶水果產地優勢核心優勢 原料/產品 通路/市場 核心定位 台灣在地蔬果與產品研發 擴大原料品項與產季彈性 服務台灣既有大型通路與客戶 建立東南亞製造能力，拓展日本及海外市場 品牌、研發與食品科技核心 區域供應與國際市場前哨站 未來展望\n- Dual-Engine Growth 台灣⽣產基地 雙基地完成後，⾦利⻝安的競爭單位將從「單⼀⼯廠」提升到「跨產區供應鏈」。 泰國⽣產基地 2.5倍台灣產能 成熟的冷凍與 HPP 製造經驗 熱帶水果產地優勢核心優勢 原料/產品 通路/市場 核心定位 台灣在地蔬果與產品研發 擴大原料品項與產季彈性 服務台灣既有大型通路與客戶 建立東南亞製造能力，拓展日本及海外市場 品牌、研發與食品科技核心 區域供應與國際市場前哨站 Future Outlook\n- Table of contents ⼀、公司簡介與願景 三、營運表現 四、未來展望 ⼆、市場概況暨競爭⼒ 五、永續發展\n\n### 風險與不確定性\n- 泰國⽣產基地 2.5倍台灣產能 成熟的冷凍與 HPP 製造經驗 熱帶水果產地優勢核心優勢 原料/產品 通路/市場 核心定位 台灣在地蔬果與產品研發 擴大原料品項與產季彈性 服務台灣既有大型通路與客戶 建立東南亞製造能力，拓展日本及海外市場 品牌、研發與食品科技核心 區域供應與國際市場前哨站 未來展望 --- page 38 --- The Highest-Pressure Factory in Thailand Location Fac\n- 營運展望、財務狀況及業務 預測等內容，係本公司基於內部資料及外部整體經濟發展現況所得之資訊。 本公司未來實際所可能產生的營運結果、財務狀況與業務成果，可能與預測性資訊所 差異。其原因可能來自各 種因素，包括但不限於市場需求、價格波動、競爭態勢、各 種政策法令與金融經濟現況之改變，以及其他本公司無法掌控之風險等因素。 本簡報中所提供之資訊，係反應本公司截至目前為止對於未來的看法，並未明示或暗 性地表達或保證其具有正確性、完整性或可靠性。對於這些看法，未來若有變更或調 整時，本公司並不負有更新或修正之責任。\n\n### Q&A 與管理層口氣\n- 泰國⽣產基地 2.5倍台灣產能 成熟的冷凍與 HPP 製造經驗 熱帶水果產地優勢核心優勢 原料/產品 通路/市場 核心定位 台灣在地蔬果與產品研發 擴大原料品項與產季彈性 服務台灣既有大型通路與客戶 建立東南亞製造能力，拓展日本及海外市場 品牌、研發與食品科技核心 區域供應與國際市場前哨站 未來展望 --- page 38 --- The Highest-Pressure Factory in Thailand Location Fac\n- 雙核驅動 台灣⽣產基地 雙基地完成後，⾦利⻝安的競爭單位將從「單⼀⼯廠」提升到「跨產區供應鏈」。 泰國⽣產基地 2.5倍台灣產能 成熟的冷凍與 HPP 製造經驗 熱帶水果產地優勢核心優勢 原料/產品 通路/市場 核心定位 台灣在地蔬果與產品研發 擴大原料品項與產季彈性 服務台灣既有大型通路與客戶 建立東南亞製造能力，拓展日本及海外市場 品牌、研發與食品科技核心 區域供應與國際市場前哨站 未來展望\n- Dual-Engine Growth 台灣⽣產基地 雙基地完成後，⾦利⻝安的競爭單位將從「單⼀⼯廠」提升到「跨產區供應鏈」。 泰國⽣產基地 2.5倍台灣產能 成熟的冷凍與 HPP 製造經驗 熱帶水果產地優勢核心優勢 原料/產品 通路/市場 核心定位 台灣在地蔬果與產品研發 擴大原料品項與產季彈性 服務台灣既有大型通路與客戶 建立東南亞製造能力，拓展日本及海外市場 品牌、研發與食品科技核心 區域供應與國際市場前哨站 Future Outlook\n- 未來展望 短期策略概述 3 產品線 擴展與創新 4 ODM製造 訂單擴增 無添加淋醬/沾醬開發 餐飲使用RTC/RTE Cb Lab冷萃茶飲/咖啡 進口品牌代理經營 國內外手搖茶飲佈局 航空餐飲擴大 大型餐飲集團客製化原料\n\n### 評分利基點\n- 加分主因：營運展望、財務狀況及業務 預測等內容，係本公司基於內部資料及外部整體經濟發展現況所得之資訊。 本公司未來實際所可能產生的營運結果、財務狀況與業務成果，可能與預測性資訊所 差異。其原因可能來自各 種因素，包括但不限於市場需求、價格波動、競爭態勢、各 種政策法令與金融經濟現況之改變，以及其他本公司無法掌控之風險等因素。 本簡報中所提供之資訊，係反應本公司截至目前為止對於未來的看法，並未明示或暗 性地表達或保證其具有正確性、完整性或可靠性。對於這些看法，未來若有變更或調 整時，本公司並不負有更新或修正之責任。；雙核驅動 台灣⽣產基地 雙基地完成後，⾦利⻝安的競爭單位將從「單⼀⼯廠」提升到「跨產區供應鏈」。 泰國⽣產基地 2.5倍台灣產能 成熟的冷凍與 HPP 製造經驗 熱帶水果產地優勢核心優勢 原料/產品 通路/市場 核心定位 台灣在地蔬果與產品研發 擴大原料品項與產季彈性 服務台灣既有大型通路與客戶 建立東南亞製造能力，拓展日本及海外市場 品牌、研發與食品科技核心 區域供應與國際市場前哨站 未來展望；Dual-Engine Growth 台灣⽣產基地 雙基地完成後，⾦利⻝安的競爭單位將從「單⼀⼯廠」提升到「跨產區供應鏈」。 泰國⽣產基地 2.5倍台灣產能 成熟的冷凍與 HPP 製造經驗 熱帶水果產地優勢核心優勢 原料/產品 通路/市場 核心定位 台灣在地蔬果與產品研發 擴大原料品項與產季彈性 服務台灣既有大型通路與客戶 建立東南亞製造能力，拓展日本及海外市場 品牌、研發與食品科技核心 區域供應與國際市場前哨站 Future Outlook。\n- 扣分或保留：泰國⽣產基地 2.5倍台灣產能 成熟的冷凍與 HPP 製造經驗 熱帶水果產地優勢核心優勢 原料/產品 通路/市場 核心定位 台灣在地蔬果與產品研發 擴大原料品項與產季彈性 服務台灣既有大型通路與客戶 建立東南亞製造能力，拓展日本及海外市場 品牌、研發與食品科技核心 區域供應與國際市場前哨站 未來展望 --- page 38 --- The Highest-Pressure Factory in Thailand Location Fac；營運展望、財務狀況及業務 預測等內容，係本公司基於內部資料及外部整體經濟發展現況所得之資訊。 本公司未來實際所可能產生的營運結果、財務狀況與業務成果，可能與預測性資訊所 差異。其原因可能來自各 種因素，包括但不限於市場需求、價格波動、競爭態勢、各 種政策法令與金融經濟現況之改變，以及其他本公司無法掌控之風險等因素。 本簡報中所提供之資訊，係反應本公司截至目前為止對於未來的看法，並未明示或暗 性地表達或保證其具有正確性、完整性或可靠性。對於這些看法，未來若有變更或調 整時，本公司並不負有更新或修正之責任。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        }
+      ]
+    },
+    {
+      "generatedAt": "2026-10-01T14:09:07.416Z",
       "queryDate": "2026-09-30",
       "displayDate": "2026-09-30",
       "count": 15,
@@ -344,9 +483,9 @@ window.irSummaryHistory = {
           "companyWebsite": "https://www.acetekgroup.com",
           "chinesePdf": "",
           "englishPdf": "",
-          "mediaUrl": "",
-          "mediaStatus": "缺影音",
-          "transcriptStatus": "缺影音",
+          "mediaUrl": "https://irconference.twse.com.tw/4763_47_20260930_ch.mp4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
           "outlookBullets": [
             "未從簡報或轉錄稿擷取到明確展望段落。"
           ],
