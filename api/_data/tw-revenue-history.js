@@ -1,10 +1,57 @@
 window.twRevenueHistory = {
-  "generatedAt": "2026-09-10T20:36:09+08:00",
-  "latestPeriod": "115/8",
+  "generatedAt": "2026-10-01T22:06:17+08:00",
+  "latestPeriod": "115/9",
   "source": "MOPS 月營收彙總表",
   "periods": [
     {
-      "generatedAt": "2026-09-10T20:36:09+08:00",
+      "generatedAt": "2026-10-01T22:06:17+08:00",
+      "period": "115/9",
+      "source": "MOPS 月營收彙總表",
+      "filters": {
+        "markets": [
+          "sii",
+          "otc"
+        ],
+        "momThresholdPct": 30.0,
+        "yoyThresholdPct": 30.0,
+        "requirePositiveYtdYoy": true,
+        "requireNonNegativeMomYoy": true,
+        "excludedIndustryKeywords": [
+          "生技",
+          "建材營造",
+          "營建",
+          "金融"
+        ],
+        "publicIssueDateCutoff": "89/01/01"
+      },
+      "stats": {
+        "selected": 1,
+        "stories": 0,
+        "highs": 1,
+        "storyHighs": 0
+      },
+      "selected": [
+        {
+          "market": "上市",
+          "code": "6438",
+          "name": "迅得",
+          "industry": "其他電子業",
+          "currentRevenue": 695372,
+          "momPct": 13.749263887980108,
+          "yoyPct": 30.84183193467053,
+          "ytdYoyPct": 13.616425398532916,
+          "remark": "-",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：695,372 千元",
+          "previousHighRevenue": 667469,
+          "publicIssueDate": "102/10/25",
+          "businessDescription": "自動化設備及其相關產品"
+        }
+      ],
+      "stories": []
+    },
+    {
+      "generatedAt": "2026-10-01T22:06:21+08:00",
       "period": "115/8",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -5572,7 +5619,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-09-10T20:36:11+08:00",
+      "generatedAt": "2026-10-01T22:06:25+08:00",
       "period": "115/7",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -12308,7 +12355,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-09-10T20:36:14+08:00",
+      "generatedAt": "2026-10-01T22:06:28+08:00",
       "period": "115/6",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -18916,7 +18963,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-09-10T20:36:17+08:00",
+      "generatedAt": "2026-10-01T22:06:32+08:00",
       "period": "115/5",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -23492,7 +23539,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-09-10T20:36:20+08:00",
+      "generatedAt": "2026-10-01T22:06:36+08:00",
       "period": "115/4",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -27652,7 +27699,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-09-10T20:36:23+08:00",
+      "generatedAt": "2026-10-01T22:06:40+08:00",
       "period": "115/3",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -27673,7 +27720,7 @@ window.twRevenueHistory = {
         "publicIssueDateCutoff": "89/01/01"
       },
       "stats": {
-        "selected": 285,
+        "selected": 286,
         "stories": 137,
         "highs": 17,
         "storyHighs": 15
@@ -31534,6 +31581,22 @@ window.twRevenueHistory = {
           "previousHighRevenue": 299726,
           "publicIssueDate": "112/08/28",
           "businessDescription": "多樣化整合型的車用顯示器驅動晶片之研發、設計及銷售"
+        },
+        {
+          "market": "上市",
+          "code": "6438",
+          "name": "迅得",
+          "industry": "其他電子業",
+          "currentRevenue": 667469,
+          "momPct": 30.420824532368336,
+          "yoyPct": 15.662565003647655,
+          "ytdYoyPct": 12.203828652126157,
+          "remark": "-",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 695372,
+          "publicIssueDate": "102/10/25",
+          "businessDescription": "自動化設備及其相關產品"
         },
         {
           "market": "上市",
