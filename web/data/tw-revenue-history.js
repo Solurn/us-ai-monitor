@@ -1,10 +1,10 @@
 window.twRevenueHistory = {
-  "generatedAt": "2026-10-01T22:06:17+08:00",
+  "generatedAt": "2026-10-02T22:44:38+08:00",
   "latestPeriod": "115/9",
   "source": "MOPS 月營收彙總表",
   "periods": [
     {
-      "generatedAt": "2026-10-01T22:06:17+08:00",
+      "generatedAt": "2026-10-02T22:44:38+08:00",
       "period": "115/9",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -25,12 +25,76 @@ window.twRevenueHistory = {
         "publicIssueDateCutoff": "89/01/01"
       },
       "stats": {
-        "selected": 1,
-        "stories": 0,
-        "highs": 1,
-        "storyHighs": 0
+        "selected": 5,
+        "stories": 2,
+        "highs": 4,
+        "storyHighs": 2
       },
       "selected": [
+        {
+          "market": "上市",
+          "code": "3563",
+          "name": "牧德",
+          "industry": "光電業",
+          "currentRevenue": 372810,
+          "momPct": 3.2262887711195654,
+          "yoyPct": 63.2010716349437,
+          "ytdYoyPct": 18.801472271547034,
+          "remark": "主係產品組合改變，致本期營收較去年同期成長。",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：372,810 千元",
+          "previousHighRevenue": 361158,
+          "publicIssueDate": "96/05/29",
+          "businessDescription": "非接觸式機械視覺檢測系統設備"
+        },
+        {
+          "market": "上櫃",
+          "code": "3564",
+          "name": "其陽",
+          "industry": "通信網路業",
+          "currentRevenue": 354239,
+          "momPct": 31.264775851719,
+          "yoyPct": 54.241612783837326,
+          "ytdYoyPct": 29.834611192468678,
+          "remark": "新專案導入以及客戶需求增加",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：354,239 千元",
+          "previousHighRevenue": 326232,
+          "publicIssueDate": "96/06/20",
+          "businessDescription": "網路安全相關產品之設計、製造及銷售"
+        },
+        {
+          "market": "上櫃",
+          "code": "6538",
+          "name": "倉和",
+          "industry": "電子零組件業",
+          "currentRevenue": 175001,
+          "momPct": 4.187727351205892,
+          "yoyPct": 43.078709192141346,
+          "ytdYoyPct": 4.664014552536598,
+          "remark": "-",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 254028,
+          "publicIssueDate": "104/05/20",
+          "businessDescription": "網版製造\n網印耗材買賣"
+        },
+        {
+          "market": "上市",
+          "code": "6830",
+          "name": "汎銓",
+          "industry": "其他電子業",
+          "currentRevenue": 264589,
+          "momPct": 4.1479860343001995,
+          "yoyPct": 36.70812170938758,
+          "ytdYoyPct": 24.382632198999907,
+          "remark": "-",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：264,589 千元",
+          "previousHighRevenue": 254051,
+          "publicIssueDate": "110/03/11",
+          "businessDescription": "技術分析服務"
+        },
         {
           "market": "上市",
           "code": "6438",
@@ -48,10 +112,43 @@ window.twRevenueHistory = {
           "businessDescription": "自動化設備及其相關產品"
         }
       ],
-      "stories": []
+      "stories": [
+        {
+          "market": "上市",
+          "code": "3563",
+          "name": "牧德",
+          "industry": "光電業",
+          "currentRevenue": 372810,
+          "momPct": 3.2262887711195654,
+          "yoyPct": 63.2010716349437,
+          "ytdYoyPct": 18.801472271547034,
+          "remark": "主係產品組合改變，致本期營收較去年同期成長。",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：372,810 千元",
+          "previousHighRevenue": 361158,
+          "publicIssueDate": "96/05/29",
+          "businessDescription": "非接觸式機械視覺檢測系統設備"
+        },
+        {
+          "market": "上櫃",
+          "code": "3564",
+          "name": "其陽",
+          "industry": "通信網路業",
+          "currentRevenue": 354239,
+          "momPct": 31.264775851719,
+          "yoyPct": 54.241612783837326,
+          "ytdYoyPct": 29.834611192468678,
+          "remark": "新專案導入以及客戶需求增加",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：354,239 千元",
+          "previousHighRevenue": 326232,
+          "publicIssueDate": "96/06/20",
+          "businessDescription": "網路安全相關產品之設計、製造及銷售"
+        }
+      ]
     },
     {
-      "generatedAt": "2026-10-01T22:06:21+08:00",
+      "generatedAt": "2026-10-02T22:44:41+08:00",
       "period": "115/8",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -74,7 +171,7 @@ window.twRevenueHistory = {
       "stats": {
         "selected": 205,
         "stories": 141,
-        "highs": 75,
+        "highs": 73,
         "storyHighs": 53
       },
       "selected": [
@@ -170,7 +267,7 @@ window.twRevenueHistory = {
           "remark": "本期營收較前期成長係因產品市場供需因素所致",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：7,904,796 千元",
-          "previousHighRevenue": 6784662,
+          "previousHighRevenue": 7460769,
           "publicIssueDate": "89/04/21",
           "businessDescription": "動、靜態隨機存取記憶體(DRAM/SRAM)、快閃記憶體(FLASH)\n類比積體電路、類比與數位混合積體電路\n與本公司業務相關之產品設計及研發之技術服務"
         },
@@ -1930,7 +2027,7 @@ window.twRevenueHistory = {
           "remark": "全球客戶出貨需求強勁，各領域產品皆呈現穩定成長",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：227,249 千元",
-          "previousHighRevenue": 211593,
+          "previousHighRevenue": 220400,
           "publicIssueDate": "90/06/28",
           "businessDescription": "各種電腦軟硬體及週邊設備暨零組件之製造、加工、買賣\n各種交直流電源供應器.轉換器.電信器材及其零組件之製造加工買賣\n資訊軟體服務業"
         },
@@ -2904,9 +3001,9 @@ window.twRevenueHistory = {
           "yoyPct": 35.677791635986594,
           "ytdYoyPct": 14.39307833166791,
           "remark": "-",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：361,158 千元",
-          "previousHighRevenue": 359659,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 372810,
           "publicIssueDate": "96/05/29",
           "businessDescription": "非接觸式機械視覺檢測系統設備"
         },
@@ -3160,9 +3257,9 @@ window.twRevenueHistory = {
           "yoyPct": 31.952610475141796,
           "ytdYoyPct": 22.670021753020656,
           "remark": "-",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：254,051 千元",
-          "previousHighRevenue": 240751,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 264589,
           "publicIssueDate": "110/03/11",
           "businessDescription": "技術分析服務"
         },
@@ -3452,7 +3549,7 @@ window.twRevenueHistory = {
           "remark": "本期營收較前期成長係因產品市場供需因素所致",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：7,904,796 千元",
-          "previousHighRevenue": 6784662,
+          "previousHighRevenue": 7460769,
           "publicIssueDate": "89/04/21",
           "businessDescription": "動、靜態隨機存取記憶體(DRAM/SRAM)、快閃記憶體(FLASH)\n類比積體電路、類比與數位混合積體電路\n與本公司業務相關之產品設計及研發之技術服務"
         },
@@ -5212,7 +5309,7 @@ window.twRevenueHistory = {
           "remark": "全球客戶出貨需求強勁，各領域產品皆呈現穩定成長",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：227,249 千元",
-          "previousHighRevenue": 211593,
+          "previousHighRevenue": 220400,
           "publicIssueDate": "90/06/28",
           "businessDescription": "各種電腦軟硬體及週邊設備暨零組件之製造、加工、買賣\n各種交直流電源供應器.轉換器.電信器材及其零組件之製造加工買賣\n資訊軟體服務業"
         },
@@ -5619,7 +5716,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-10-01T22:06:25+08:00",
+      "generatedAt": "2026-10-02T22:44:44+08:00",
       "period": "115/7",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -9434,7 +9531,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 361158,
+          "previousHighRevenue": 372810,
           "publicIssueDate": "96/05/29",
           "businessDescription": "非接觸式機械視覺檢測系統設備"
         },
@@ -12355,7 +12452,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-10-01T22:06:28+08:00",
+      "generatedAt": "2026-10-02T22:44:48+08:00",
       "period": "115/6",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -12378,7 +12475,7 @@ window.twRevenueHistory = {
       "stats": {
         "selected": 254,
         "stories": 157,
-        "highs": 37,
+        "highs": 36,
         "storyHighs": 27
       },
       "selected": [
@@ -16072,9 +16169,9 @@ window.twRevenueHistory = {
           "yoyPct": 30.325462106655056,
           "ytdYoyPct": 15.368224179278663,
           "remark": "-",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：326,232 千元",
-          "previousHighRevenue": 296008,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 354239,
           "publicIssueDate": "96/06/20",
           "businessDescription": "網路安全相關產品之設計、製造及銷售"
         },
@@ -18963,7 +19060,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-10-01T22:06:32+08:00",
+      "generatedAt": "2026-10-02T22:44:52+08:00",
       "period": "115/5",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -23539,7 +23636,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-10-01T22:06:36+08:00",
+      "generatedAt": "2026-10-02T22:44:56+08:00",
       "period": "115/4",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -27699,7 +27796,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-10-01T22:06:40+08:00",
+      "generatedAt": "2026-10-02T22:44:59+08:00",
       "period": "115/3",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -31082,7 +31179,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 254051,
+          "previousHighRevenue": 264589,
           "publicIssueDate": "110/03/11",
           "businessDescription": "技術分析服務"
         },
