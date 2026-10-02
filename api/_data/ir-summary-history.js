@@ -1,10 +1,129 @@
 window.irSummaryHistory = {
-  "generatedAt": "2026-10-01T14:09:07.416Z",
+  "generatedAt": "2026-10-02T14:45:24.947Z",
   "sourceRoot": "C:\\Users\\user\\Desktop\\Codex專案\\法說整理",
   "retentionDays": 30,
   "maxMeetingDate": "",
-  "latestDate": "2026-10-01",
+  "latestDate": "2026-10-02",
   "items": [
+    {
+      "generatedAt": "2026-10-02T14:45:24.947Z",
+      "queryDate": "2026-10-02",
+      "displayDate": "2026-10-02",
+      "count": 3,
+      "rows": [
+        {
+          "date": "2026-10-02",
+          "code": "2329",
+          "name": "華泰",
+          "eventType": "法人說明會",
+          "time": "14:30",
+          "location": "凱基證券大樓12樓會議廳(台北市中山區明水路700號)",
+          "topic": "受邀參加凱基證券舉辦之法人說明會,報告本公司營運狀況。",
+          "companyWebsite": "https://www.ose.com.tw/about/investment/shareholder#company-intro-meeting",
+          "chinesePdf": "",
+          "englishPdf": "",
+          "mediaUrl": "http://irconference.twse.com.tw/2329_14_20261002_ch.mp4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "未從簡報或轉錄稿擷取到明確展望段落。"
+          ],
+          "outlookTone": {
+            "label": "中性觀望",
+            "score": 50,
+            "basis": "正向訊號 0、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "MOPS 擇要訊息：受邀參加凱基證券舉辦之法人說明會,報告本公司營運狀況。",
+            "缺少可摘要的簡報文字或轉錄稿。"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-02.md",
+          "detailMarkdown": "## 2329 華泰 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：受邀參加凱基證券舉辦之法人說明會,報告本公司營運狀況。\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-10-02",
+          "code": "2399",
+          "name": "映泰",
+          "eventType": "法人說明會",
+          "time": "14:30",
+          "location": "福邦證券(台北市忠孝西路一段6號14樓)",
+          "topic": "受邀參加福邦證券舉辦之法人說明會,就本公司已公開之財務業務資訊作說明。",
+          "companyWebsite": "",
+          "chinesePdf": "",
+          "englishPdf": "",
+          "mediaUrl": "http://irconference.twse.com.tw/2399_10_20261002_ch.MP4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "未從簡報或轉錄稿擷取到明確展望段落。"
+          ],
+          "outlookTone": {
+            "label": "中性觀望",
+            "score": 50,
+            "basis": "正向訊號 0、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "MOPS 擇要訊息：受邀參加福邦證券舉辦之法人說明會,就本公司已公開之財務業務資訊作說明。",
+            "缺少可摘要的簡報文字或轉錄稿。"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-02.md",
+          "detailMarkdown": "## 2399 映泰 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：受邀參加福邦證券舉辦之法人說明會,就本公司已公開之財務業務資訊作說明。\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-10-02",
+          "code": "9908",
+          "name": "大台北",
+          "eventType": "法人說明會",
+          "time": "14:30",
+          "location": "台灣證交所一樓資訊展示中心(台北市信義路5段7號)",
+          "topic": "本公司近期財務及營運概況說明",
+          "companyWebsite": "https://www.taipeigas.com.tw/IR/shareholder_2",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/990820261002M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/990820261002E001.pdf",
+          "mediaUrl": "https://webpro.twse.com.tw/WebPortal/vod/101/8B2ED93DFC11-C39DFD0C-BE2E-11F1-B2F5/?categoryId=101",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "展望的表述，該類表 述是基於對現況的預期，但同時受限於已知或未知 風險或不確定性的影響。因此實際結果將可能明顯 不同於表述內容。 • 除法令要求外，公司並無義務因應新資訊的產生或 未來事件的發生，主動更新對未來展望的表述。 • 本簡報內容非經由本公司書面許可，任何第三者不 得任意取用或複製。 1",
+            "目錄 • 公司簡介 • 財務概況 • 營運概況 • 未來展望 • 結論 • Q&A 2",
+            "導入生成式AI優化客服 規劃導入生成式AI 優化客服品質及效率 我們自2024年11月即參加關係 企業AI研討會，觀摩導入技術及 實際應用，陸續建置AI知識庫， 規劃符合產業屬性之客服願景， 增進品牌價值。未來生成式AI將 輔助真人客服，快速並精準回應 用戶需求，提供用戶最佳的客服 體驗。透過人機協作的方式，使 AI持續優化和進化，確保服務質 量的穩定提升。 客服 自動語音應答 精準理解需求 快速有效服務 復歸 線上指導操作 即時恢復通氣 降低受理人力 抄表 全時自報度數 減少人工失誤 提升抄表效率 收費 全時氣費",
+            "Content 3 • Corporate Overview • Financial Overview • Operations Overview • Future Outlook • Conclusion • Q&A",
+            "Optimization of Customer Service Quality and Efficiency As of Nov 2024, we have, in cooperation with associate companies, participated in various AI workshops, observed AI technology for introduction and application purposes, gradually build an AI database, to"
+          ],
+          "outlookTone": {
+            "label": "中性觀望",
+            "score": 53,
+            "basis": "正向訊號 3、保守訊號 3"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：本公司近期財務及營運概況說明",
+            "▲ GHP瓦斯冷暖空調機 22 ▲變頻離心式冰水主機 ▲蒸汽吸收式冰水主機 ▲高效能蒸汽鍋爐 --- page 23 --- 未來展望 23 --- page 24 --- 導入生成式AI優化客服 規劃導入生成式AI 優化客服品質及效率 我們自2024年11月即參加關係 企業AI研討會，觀摩導入技術及 實際應用，陸續建置AI知識庫， 規劃符合產業屬性之客服願景， 增進品牌價值。未來生成式AI將 輔助真人客服，快速並精準回應 用戶需求，提",
+            "客服 自動語音應答 精準理解需求 快速有效服務 復歸 線上指導操作 即時恢復通氣 降低受理人力 抄表 全時自報度數 減少人工失誤 提升抄表效率 收費 全時氣費查詢 引導即查即繳 管控欠費風險 報漏 全時智能受理 提升派工速率 維護公共安全 24 --- page 25 --- 天然氣能源轉型 • 為積極響應國家能源淨零排放政策 • 因應AI算力龐大的能源需求 • 建制微電網強化城市電力韌性 • 提高天然氣能源利用降低碳排量 • 大台北瓦",
+            "Gas Related Investments Natural Gas Distribution Pipeline Installation Gas Safety Equipment and Devices Gas Appliance Sales Sale of Kitchen Appliances and Bathroom related Equipments Telecom Business Refrigerating and Ai",
+            "[zh PDF] --- page 1 --- 大台北區瓦斯股份有限公司 THE GREAT TAIPEI GAS CORPORATION 股票代號:9908 2026年法人說明會 --- page 2",
+            "• 本簡報資料可能包含對於未來展望的表述，該類表 述是基於對現況的預期，但同時受限於已知或未知 風險或不確定性的影響。因此實際結果將可能明顯 不同於表述內容。"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-02.md",
+          "detailMarkdown": "## 9908 大台北 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（53 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 3、保守訊號 3。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- MOPS 擇要訊息：本公司近期財務及營運概況說明\n- ▲ GHP瓦斯冷暖空調機 22 ▲變頻離心式冰水主機 ▲蒸汽吸收式冰水主機 ▲高效能蒸汽鍋爐 --- page 23 --- 未來展望 23 --- page 24 --- 導入生成式AI優化客服 規劃導入生成式AI 優化客服品質及效率 我們自2024年11月即參加關係 企業AI研討會，觀摩導入技術及 實際應用，陸續建置AI知識庫， 規劃符合產業屬性之客服願景， 增進品牌價值。未來生成式AI將 輔助真人客服，快速並精準回應 用戶需求，提\n- 客服 自動語音應答 精準理解需求 快速有效服務 復歸 線上指導操作 即時恢復通氣 降低受理人力 抄表 全時自報度數 減少人工失誤 提升抄表效率 收費 全時氣費查詢 引導即查即繳 管控欠費風險 報漏 全時智能受理 提升派工速率 維護公共安全 24 --- page 25 --- 天然氣能源轉型 • 為積極響應國家能源淨零排放政策 • 因應AI算力龐大的能源需求 • 建制微電網強化城市電力韌性 • 提高天然氣能源利用降低碳排量 • 大台北瓦\n- Gas Related Investments Natural Gas Distribution Pipeline Installation Gas Safety Equipment and Devices Gas Appliance Sales Sale of Kitchen Appliances and Bathroom related Equipments Telecom Business Refrigerating and Ai\n\n### 展望與成長利基\n- 展望的表述，該類表 述是基於對現況的預期，但同時受限於已知或未知 風險或不確定性的影響。因此實際結果將可能明顯 不同於表述內容。 • 除法令要求外，公司並無義務因應新資訊的產生或 未來事件的發生，主動更新對未來展望的表述。 • 本簡報內容非經由本公司書面許可，任何第三者不 得任意取用或複製。 1\n- 目錄 • 公司簡介 • 財務概況 • 營運概況 • 未來展望 • 結論 • Q&A 2\n- 導入生成式AI優化客服 規劃導入生成式AI 優化客服品質及效率 我們自2024年11月即參加關係 企業AI研討會，觀摩導入技術及 實際應用，陸續建置AI知識庫， 規劃符合產業屬性之客服願景， 增進品牌價值。未來生成式AI將 輔助真人客服，快速並精準回應 用戶需求，提供用戶最佳的客服 體驗。透過人機協作的方式，使 AI持續優化和進化，確保服務質 量的穩定提升。 客服 自動語音應答 精準理解需求 快速有效服務 復歸 線上指導操作 即時恢復通氣 降低受理人力 抄表 全時自報度數 減少人工失誤 提升抄表效率 收費 全時氣費\n- Content 3 • Corporate Overview • Financial Overview • Operations Overview • Future Outlook • Conclusion • Q&A\n- Optimization of Customer Service Quality and Efficiency As of Nov 2024, we have, in cooperation with associate companies, participated in various AI workshops, observed AI technology for introduction and application purposes, gradually build an AI database, to\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- ▲ GHP瓦斯冷暖空調機 22 ▲變頻離心式冰水主機 ▲蒸汽吸收式冰水主機 ▲高效能蒸汽鍋爐 --- page 23 --- 未來展望 23 --- page 24 --- 導入生成式AI優化客服 規劃導入生成式AI 優化客服品質及效率 我們自2024年11月即參加關係 企業AI研討會，觀摩導入技術及 實際應用，陸續建置AI知識庫， 規劃符合產業屬性之客服願景， 增進品牌價值。未來生成式AI將 輔助真人客服，快速並精準回應 用戶需求，提\n- 客服 自動語音應答 精準理解需求 快速有效服務 復歸 線上指導操作 即時恢復通氣 降低受理人力 抄表 全時自報度數 減少人工失誤 提升抄表效率 收費 全時氣費查詢 引導即查即繳 管控欠費風險 報漏 全時智能受理 提升派工速率 維護公共安全 24 --- page 25 --- 天然氣能源轉型 • 為積極響應國家能源淨零排放政策 • 因應AI算力龐大的能源需求 • 建制微電網強化城市電力韌性 • 提高天然氣能源利用降低碳排量 • 大台北瓦\n- Gas Related Investments Natural Gas Distribution Pipeline Installation Gas Safety Equipment and Devices Gas Appliance Sales Sale of Kitchen Appliances and Bathroom related Equipments Telecom Business Refrigerating and Ai\n- [zh PDF] --- page 1 --- 大台北區瓦斯股份有限公司 THE GREAT TAIPEI GAS CORPORATION 股票代號:9908 2026年法人說明會 --- page 2\n- 導入生成式AI優化客服 規劃導入生成式AI 優化客服品質及效率 我們自2024年11月即參加關係 企業AI研討會，觀摩導入技術及 實際應用，陸續建置AI知識庫， 規劃符合產業屬性之客服願景， 增進品牌價值。未來生成式AI將 輔助真人客服，快速並精準回應 用戶需求，提供用戶最佳的客服 體驗。透過人機協作的方式，使 AI持續優化和進化，確保服務質 量的穩定提升。 客服 自動語音應答 精準理解需求 快速有效服務 復歸 線上指導操作 即時恢復通氣 降低受理人力 抄表 全時自報度數 減少人工失誤 提升抄表效率 收費 全時氣費\n\n### 風險與不確定性\n- 客服 自動語音應答 精準理解需求 快速有效服務 復歸 線上指導操作 即時恢復通氣 降低受理人力 抄表 全時自報度數 減少人工失誤 提升抄表效率 收費 全時氣費查詢 引導即查即繳 管控欠費風險 報漏 全時智能受理 提升派工速率 維護公共安全 24 --- page 25 --- 天然氣能源轉型 • 為積極響應國家能源淨零排放政策 • 因應AI算力龐大的能源需求 • 建制微電網強化城市電力韌性 • 提高天然氣能源利用降低碳排量 • 大台北瓦\n- • 本簡報資料可能包含對於未來展望的表述，該類表 述是基於對現況的預期，但同時受限於已知或未知 風險或不確定性的影響。因此實際結果將可能明顯 不同於表述內容。\n- 展望的表述，該類表 述是基於對現況的預期，但同時受限於已知或未知 風險或不確定性的影響。因此實際結果將可能明顯 不同於表述內容。 • 除法令要求外，公司並無義務因應新資訊的產生或 未來事件的發生，主動更新對未來展望的表述。 • 本簡報內容非經由本公司書面許可，任何第三者不 得任意取用或複製。 1\n\n### Q&A 與管理層口氣\n- 目錄 • 公司簡介 • 財務概況 • 營運概況 • 未來展望 • 結論 • Q&A 2\n- Content 3 • Corporate Overview • Financial Overview • Operations Overview • Future Outlook • Conclusion • Q&A\n\n### 評分利基點\n- 加分主因：▲ GHP瓦斯冷暖空調機 22 ▲變頻離心式冰水主機 ▲蒸汽吸收式冰水主機 ▲高效能蒸汽鍋爐 --- page 23 --- 未來展望 23 --- page 24 --- 導入生成式AI優化客服 規劃導入生成式AI 優化客服品質及效率 我們自2024年11月即參加關係 企業AI研討會，觀摩導入技術及 實際應用，陸續建置AI知識庫， 規劃符合產業屬性之客服願景， 增進品牌價值。未來生成式AI將 輔助真人客服，快速並精準回應 用戶需求，提；客服 自動語音應答 精準理解需求 快速有效服務 復歸 線上指導操作 即時恢復通氣 降低受理人力 抄表 全時自報度數 減少人工失誤 提升抄表效率 收費 全時氣費查詢 引導即查即繳 管控欠費風險 報漏 全時智能受理 提升派工速率 維護公共安全 24 --- page 25 --- 天然氣能源轉型 • 為積極響應國家能源淨零排放政策 • 因應AI算力龐大的能源需求 • 建制微電網強化城市電力韌性 • 提高天然氣能源利用降低碳排量 • 大台北瓦；導入生成式AI優化客服 規劃導入生成式AI 優化客服品質及效率 我們自2024年11月即參加關係 企業AI研討會，觀摩導入技術及 實際應用，陸續建置AI知識庫， 規劃符合產業屬性之客服願景， 增進品牌價值。未來生成式AI將 輔助真人客服，快速並精準回應 用戶需求，提供用戶最佳的客服 體驗。透過人機協作的方式，使 AI持續優化和進化，確保服務質 量的穩定提升。 客服 自動語音應答 精準理解需求 快速有效服務 復歸 線上指導操作 即時恢復通氣 降低受理人力 抄表 全時自報度數 減少人工失誤 提升抄表效率 收費 全時氣費。\n- 扣分或保留：客服 自動語音應答 精準理解需求 快速有效服務 復歸 線上指導操作 即時恢復通氣 降低受理人力 抄表 全時自報度數 減少人工失誤 提升抄表效率 收費 全時氣費查詢 引導即查即繳 管控欠費風險 報漏 全時智能受理 提升派工速率 維護公共安全 24 --- page 25 --- 天然氣能源轉型 • 為積極響應國家能源淨零排放政策 • 因應AI算力龐大的能源需求 • 建制微電網強化城市電力韌性 • 提高天然氣能源利用降低碳排量 • 大台北瓦；• 本簡報資料可能包含對於未來展望的表述，該類表 述是基於對現況的預期，但同時受限於已知或未知 風險或不確定性的影響。因此實際結果將可能明顯 不同於表述內容。；展望的表述，該類表 述是基於對現況的預期，但同時受限於已知或未知 風險或不確定性的影響。因此實際結果將可能明顯 不同於表述內容。 • 除法令要求外，公司並無義務因應新資訊的產生或 未來事件的發生，主動更新對未來展望的表述。 • 本簡報內容非經由本公司書面許可，任何第三者不 得任意取用或複製。 1。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-10-01T14:09:07.416Z",
       "queryDate": "2026-10-01",
