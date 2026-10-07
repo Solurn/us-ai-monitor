@@ -1,10 +1,258 @@
 window.irSummaryHistory = {
-  "generatedAt": "2026-10-06T13:56:19.924Z",
+  "generatedAt": "2026-10-07T13:48:21.254Z",
   "sourceRoot": "C:\\Users\\user\\Desktop\\Codex專案\\法說整理",
   "retentionDays": 30,
   "maxMeetingDate": "",
-  "latestDate": "2026-10-06",
+  "latestDate": "2026-10-07",
   "items": [
+    {
+      "generatedAt": "2026-10-07T13:48:21.254Z",
+      "queryDate": "2026-10-07",
+      "displayDate": "2026-10-07",
+      "count": 6,
+      "rows": [
+        {
+          "date": "2026-10-07",
+          "code": "3624",
+          "name": "光頡",
+          "eventType": "法人說明會",
+          "time": "14:00",
+          "location": "台北市松山區復興北路99號2樓(犇亞商務暨會議中心)",
+          "topic": "本公司受邀參加中國信託證券舉辦之法說會",
+          "companyWebsite": "https://www.viking.com.tw/zh-TW/investors/Investors-T0301.html",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/362420261006M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/362420261006E001.pdf",
+          "mediaUrl": "http://irconference.twse.com.tw/3624_7_20261007_ch.mp4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "合併綜合損益表(2) 單位：新台幣 仟元 季成長 年成長 金額 % 金額 % Change(%) 金額 % Change(%) 營業收入 894,919 100.0 727,980 100.0 22.9 705,655 100.0 26.8 營業成本 (601,435) (67.2) (520,091) (71.4) 15.6 (500,473) (70.9) 20.2 營業毛利 293,484 32.8 207,889 28.6 41.2 205,182 29.1 43.0 營業費用 (127,850) (14.",
+            "合併綜合損益表(3) 年成長 金額 % 金額 % Chanie(%) 營業收入 1,622,899 100.0 1,324,650 100.0 22.5 營業成本 (1,121,525) (69.1) (955,056) (72.1) 17.4 營業毛利 501,374 30.9 369,594 27.9 35.7 營業費用 (239,311) (14.7) (199,744) (15.1) 19.8 營業利益 262,063 16.2 169,850 12.8 54.3 營業外收入及支出 30,538 1.9 (",
+            "合併資產負債表(2) 單位：新台幣 仟元 季成長 年成長 金額 % 金額 % Change(%) 金額 % Change(%) 現金及約當現金 701,616 15.4 585,209 13.6 19.9 720,532 17.8 (2.6) 應收票據及應收帳款 756,587 16.6 629,645 14.6 20.2 573,652 14.2 31.9 存貨 966,478 21.3 840,925 19.5 14.9 700,705 17.3 37.9 不動產、廠房及設備 1,162,913 25.6 1,",
+            "未來公司發展策略 專注發展核心技術，提升製程能力，滿足第三代 半導體規格需求(高壓、高頻、高功率、高溫) 持續開發與行銷車用/醫療/工業設備應用領域 開發與行銷高階電子元件，滿足智能產品應用領 域 持續提升顧客滿意度，強化供應關係"
+          ],
+          "outlookTone": {
+            "label": "中性偏正面",
+            "score": 64,
+            "basis": "正向訊號 2、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：本公司受邀參加中國信託證券舉辦之法說會",
+            "汽車工業 44% 代工 9% 醫學用 5% 航空/軍用 8% AI 13% --- page 6 --- 主要產品之銷售比重 一般電阻 36% 精密電阻 57% 高頻電感 5% 其他 2% --- page 7 --- 光頡的被動元件優勢 --- page 8 --- 主要客戶 Page 26 Industrial / Medical Aerospace / Military Automotives --- page 9 --- 合併綜",
+            "investor conference 2026 --- page 2 ---  Establishment：October 1997  Capital：NTD 11.73B  OTC Market：Y2011  Headquarter: Hsinchu, Taiwan  Factory Location: Company Profile Hsinchu Hsinchu (Factory II) Kaohsiung Wuxi,",
+            "page 2 ---  成立日期：1997年10月  資本額：11.73億元  上櫃時間：2011年  營運總部:台灣 新竹  工廠: 公司簡介 新竹一廠 新竹二廠 高雄廠 無錫廠 --- page 3 --- 薄膜技術,厚膜技術,合金技術,RF 核心技術及主要產品 --- page 4 --- 產品簡介 - 薄膜精密電阻 厚膜電阻 - 高阻值電阻 - 高壓電阻 - 微電阻 - 金屬膜精密電阻 - 功率電阻 - 汽車級 抗硫化",
+            "Consistently develop and aiming on Automotive/ Medical/ Industrial equipment market."
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-07.md",
+          "detailMarkdown": "## 3624 光頡 深度法說分析\n\n### 一頁結論\n- 展望評價：中性偏正面（64 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 2、保守訊號 0。\n- 判讀：方向偏正面，但管理層仍保留部分彈性，較適合追蹤接單、毛利率與下一季財測是否延續。 \n\n### 營運與財務重點\n- 合併綜合損益表(2) 單位：新台幣 仟元 季成長 年成長 金額 % 金額 % Change(%) 金額 % Change(%) 營業收入 894,919 100.0 727,980 100.0 22.9 705,655 100.0 26.8 營業成本 (601,435) (67.2) (520,091) (71.4) 15.6 (500,473) (70.9) 20.2 營業毛利 293,484 32.8 207,889 28.6 41.2 205,182 29.1 43.0 營業費用 (127,850) (14.\n- 合併綜合損益表(3) 年成長 金額 % 金額 % Chanie(%) 營業收入 1,622,899 100.0 1,324,650 100.0 22.5 營業成本 (1,121,525) (69.1) (955,056) (72.1) 17.4 營業毛利 501,374 30.9 369,594 27.9 35.7 營業費用 (239,311) (14.7) (199,744) (15.1) 19.8 營業利益 262,063 16.2 169,850 12.8 54.3 營業外收入及支出 30,538 1.9 (\n- 合併資產負債表(2) 單位：新台幣 仟元 季成長 年成長 金額 % 金額 % Change(%) 金額 % Change(%) 現金及約當現金 701,616 15.4 585,209 13.6 19.9 720,532 17.8 (2.6) 應收票據及應收帳款 756,587 16.6 629,645 14.6 20.2 573,652 14.2 31.9 存貨 966,478 21.3 840,925 19.5 14.9 700,705 17.3 37.9 不動產、廠房及設備 1,162,913 25.6 1,\n\n### 展望與成長利基\n- 合併綜合損益表(2) 單位：新台幣 仟元 季成長 年成長 金額 % 金額 % Change(%) 金額 % Change(%) 營業收入 894,919 100.0 727,980 100.0 22.9 705,655 100.0 26.8 營業成本 (601,435) (67.2) (520,091) (71.4) 15.6 (500,473) (70.9) 20.2 營業毛利 293,484 32.8 207,889 28.6 41.2 205,182 29.1 43.0 營業費用 (127,850) (14.\n- 合併綜合損益表(3) 年成長 金額 % 金額 % Chanie(%) 營業收入 1,622,899 100.0 1,324,650 100.0 22.5 營業成本 (1,121,525) (69.1) (955,056) (72.1) 17.4 營業毛利 501,374 30.9 369,594 27.9 35.7 營業費用 (239,311) (14.7) (199,744) (15.1) 19.8 營業利益 262,063 16.2 169,850 12.8 54.3 營業外收入及支出 30,538 1.9 (\n- 合併資產負債表(2) 單位：新台幣 仟元 季成長 年成長 金額 % 金額 % Change(%) 金額 % Change(%) 現金及約當現金 701,616 15.4 585,209 13.6 19.9 720,532 17.8 (2.6) 應收票據及應收帳款 756,587 16.6 629,645 14.6 20.2 573,652 14.2 31.9 存貨 966,478 21.3 840,925 19.5 14.9 700,705 17.3 37.9 不動產、廠房及設備 1,162,913 25.6 1,\n- 未來公司發展策略 專注發展核心技術，提升製程能力，滿足第三代 半導體規格需求(高壓、高頻、高功率、高溫) 持續開發與行銷車用/醫療/工業設備應用領域 開發與行銷高階電子元件，滿足智能產品應用領 域 持續提升顧客滿意度，強化供應關係\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- MOPS 擇要訊息：本公司受邀參加中國信託證券舉辦之法說會\n- 汽車工業 44% 代工 9% 醫學用 5% 航空/軍用 8% AI 13% --- page 6 --- 主要產品之銷售比重 一般電阻 36% 精密電阻 57% 高頻電感 5% 其他 2% --- page 7 --- 光頡的被動元件優勢 --- page 8 --- 主要客戶 Page 26 Industrial / Medical Aerospace / Military Automotives --- page 9 --- 合併綜\n- investor conference 2026 --- page 2 ---  Establishment：October 1997  Capital：NTD 11.73B  OTC Market：Y2011  Headquarter: Hsinchu, Taiwan  Factory Location: Company Profile Hsinchu Hsinchu (Factory II) Kaohsiung Wuxi,\n- page 2 ---  成立日期：1997年10月  資本額：11.73億元  上櫃時間：2011年  營運總部:台灣 新竹  工廠: 公司簡介 新竹一廠 新竹二廠 高雄廠 無錫廠 --- page 3 --- 薄膜技術,厚膜技術,合金技術,RF 核心技術及主要產品 --- page 4 --- 產品簡介 - 薄膜精密電阻 厚膜電阻 - 高阻值電阻 - 高壓電阻 - 微電阻 - 金屬膜精密電阻 - 功率電阻 - 汽車級 抗硫化\n- Consistently develop and aiming on Automotive/ Medical/ Industrial equipment market.\n\n### 風險與不確定性\n- 合併綜合損益表(2) 單位：新台幣 仟元 季成長 年成長 金額 % 金額 % Change(%) 金額 % Change(%) 營業收入 894,919 100.0 727,980 100.0 22.9 705,655 100.0 26.8 營業成本 (601,435) (67.2) (520,091) (71.4) 15.6 (500,473) (70.9) 20.2 營業毛利 293,484 32.8 207,889 28.6 41.2 205,182 29.1 43.0 營業費用 (127,850) (14.\n- 合併綜合損益表(3) 年成長 金額 % 金額 % Chanie(%) 營業收入 1,622,899 100.0 1,324,650 100.0 22.5 營業成本 (1,121,525) (69.1) (955,056) (72.1) 17.4 營業毛利 501,374 30.9 369,594 27.9 35.7 營業費用 (239,311) (14.7) (199,744) (15.1) 19.8 營業利益 262,063 16.2 169,850 12.8 54.3 營業外收入及支出 30,538 1.9 (\n\n### Q&A 與管理層口氣\n- 合併綜合損益表(2) 單位：新台幣 仟元 季成長 年成長 金額 % 金額 % Change(%) 金額 % Change(%) 營業收入 894,919 100.0 727,980 100.0 22.9 705,655 100.0 26.8 營業成本 (601,435) (67.2) (520,091) (71.4) 15.6 (500,473) (70.9) 20.2 營業毛利 293,484 32.8 207,889 28.6 41.2 205,182 29.1 43.0 營業費用 (127,850) (14.\n- 合併綜合損益表(3) 年成長 金額 % 金額 % Chanie(%) 營業收入 1,622,899 100.0 1,324,650 100.0 22.5 營業成本 (1,121,525) (69.1) (955,056) (72.1) 17.4 營業毛利 501,374 30.9 369,594 27.9 35.7 營業費用 (239,311) (14.7) (199,744) (15.1) 19.8 營業利益 262,063 16.2 169,850 12.8 54.3 營業外收入及支出 30,538 1.9 (\n\n### 評分利基點\n- 加分主因：汽車工業 44% 代工 9% 醫學用 5% 航空/軍用 8% AI 13% --- page 6 --- 主要產品之銷售比重 一般電阻 36% 精密電阻 57% 高頻電感 5% 其他 2% --- page 7 --- 光頡的被動元件優勢 --- page 8 --- 主要客戶 Page 26 Industrial / Medical Aerospace / Military Automotives --- page 9 --- 合併綜；page 2 ---  成立日期：1997年10月  資本額：11.73億元  上櫃時間：2011年  營運總部:台灣 新竹  工廠: 公司簡介 新竹一廠 新竹二廠 高雄廠 無錫廠 --- page 3 --- 薄膜技術,厚膜技術,合金技術,RF 核心技術及主要產品 --- page 4 --- 產品簡介 - 薄膜精密電阻 厚膜電阻 - 高阻值電阻 - 高壓電阻 - 微電阻 - 金屬膜精密電阻 - 功率電阻 - 汽車級 抗硫化；合併綜合損益表(2) 單位：新台幣 仟元 季成長 年成長 金額 % 金額 % Change(%) 金額 % Change(%) 營業收入 894,919 100.0 727,980 100.0 22.9 705,655 100.0 26.8 營業成本 (601,435) (67.2) (520,091) (71.4) 15.6 (500,473) (70.9) 20.2 營業毛利 293,484 32.8 207,889 28.6 41.2 205,182 29.1 43.0 營業費用 (127,850) (14.。\n- 扣分或保留：合併綜合損益表(2) 單位：新台幣 仟元 季成長 年成長 金額 % 金額 % Change(%) 金額 % Change(%) 營業收入 894,919 100.0 727,980 100.0 22.9 705,655 100.0 26.8 營業成本 (601,435) (67.2) (520,091) (71.4) 15.6 (500,473) (70.9) 20.2 營業毛利 293,484 32.8 207,889 28.6 41.2 205,182 29.1 43.0 營業費用 (127,850) (14.；合併綜合損益表(3) 年成長 金額 % 金額 % Chanie(%) 營業收入 1,622,899 100.0 1,324,650 100.0 22.5 營業成本 (1,121,525) (69.1) (955,056) (72.1) 17.4 營業毛利 501,374 30.9 369,594 27.9 35.7 營業費用 (239,311) (14.7) (199,744) (15.1) 19.8 營業利益 262,063 16.2 169,850 12.8 54.3 營業外收入及支出 30,538 1.9 (。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-10-07",
+          "code": "3707",
+          "name": "漢磊",
+          "eventType": "法人說明會",
+          "time": "14:30",
+          "location": "KGI凱基證券總部大樓(台北市中山區明水路700號)",
+          "topic": "本公司受邀參加凱基證券於115年10月7日舉辦之法人說明會,說明公司營業成果與營運展望。",
+          "companyWebsite": "https://www.episil.com/",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/370720261007M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/370720261007E001.pdf",
+          "mediaUrl": "http://irconference.twse.com.tw/3707_9_20261007_ch.mp4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "Power & Analog Semiconductor Foundries Company Confidential Information Copyright © 下半年展望(續)  GaN (氮化稼): 產能滿載，長線需求動能充沛  業績展望： 下半年較上半年成長約25~30%；2026 全年年增 50%， 預計2027 年目標年增 > 20%。  產能動態： 產能利用率 >100%。AI Data Center 需求強勁，客戶 提出擴產需求。  SiC (碳化矽): 呈現 V 型反彈，利用率逐季攀升"
+          ],
+          "outlookTone": {
+            "label": "正面看好",
+            "score": 92,
+            "basis": "正向訊號 6、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：本公司受邀參加凱基證券於115年10月7日舉辦之法人說明會,說明公司營業成果與營運展望。",
+            " SiC (碳化矽): 呈現 V 型反彈，利用率逐季攀升  業績展望：下半年營收較上半年大幅成長 >120%。受惠 AI 需求 外溢與產品滲透率提升，元件價格有調升空間。",
+            "page 3 --- Power & Analog Semiconductor Foundries Company Confidential Information Copyright © 大綱  2026年上半年財報及營運概況  主要產品市場概況  營運展望 --- page 4 --- Power & Analog Semiconductor Foundries Company Confidential Information",
+            "2026下半年展望(續) 39% 34% 37% 5% 10% 2025H1 2025H2 2026H1 2026H2(F) 2027H1(F) 2027H2(F) Revenue HoH 6-in TVS --- page 20 --- Power & Analog Semiconductor Foundries Company Confidential Information Copyright © 下半年展望(續)  GaN (",
+            " 產能動態： 產能利用率 >100%。AI Data Center 需求強勁，客戶 提出擴產需求。",
+            " Si-base (矽基) 年增 51%。受惠 AI 伺服器電源升級與地緣政治轉單效應。其中TVS 保護元件需求強勁 （年增 88%），產能利用率持續突破 100%。"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-07.md",
+          "detailMarkdown": "## 3707 漢磊 深度法說分析\n\n### 一頁結論\n- 展望評價：正面看好（92 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 6、保守訊號 0。\n- 判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 \n\n### 營運與財務重點\n-  SiC (碳化矽): 呈現 V 型反彈，利用率逐季攀升  業績展望：下半年營收較上半年大幅成長 >120%。受惠 AI 需求 外溢與產品滲透率提升，元件價格有調升空間。\n-  Si-base (矽基) 年增 51%。受惠 AI 伺服器電源升級與地緣政治轉單效應。其中TVS 保護元件需求強勁 （年增 88%），產能利用率持續突破 100%。\n- Power & Analog Semiconductor Foundries Company Confidential Information Copyright © 下半年展望(續)  GaN (氮化稼): 產能滿載，長線需求動能充沛  業績展望： 下半年較上半年成長約25~30%；2026 全年年增 50%， 預計2027 年目標年增 > 20%。  產能動態： 產能利用率 >100%。AI Data Center 需求強勁，客戶 提出擴產需求。  SiC (碳化矽): 呈現 V 型反彈，利用率逐季攀升\n\n### 展望與成長利基\n- Power & Analog Semiconductor Foundries Company Confidential Information Copyright © 下半年展望(續)  GaN (氮化稼): 產能滿載，長線需求動能充沛  業績展望： 下半年較上半年成長約25~30%；2026 全年年增 50%， 預計2027 年目標年增 > 20%。  產能動態： 產能利用率 >100%。AI Data Center 需求強勁，客戶 提出擴產需求。  SiC (碳化矽): 呈現 V 型反彈，利用率逐季攀升\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n-  SiC (碳化矽): 呈現 V 型反彈，利用率逐季攀升  業績展望：下半年營收較上半年大幅成長 >120%。受惠 AI 需求 外溢與產品滲透率提升，元件價格有調升空間。\n- page 3 --- Power & Analog Semiconductor Foundries Company Confidential Information Copyright © 大綱  2026年上半年財報及營運概況  主要產品市場概況  營運展望 --- page 4 --- Power & Analog Semiconductor Foundries Company Confidential Information\n-  產能動態： 產能利用率 >100%。AI Data Center 需求強勁，客戶 提出擴產需求。\n-  Si-base (矽基) 年增 51%。受惠 AI 伺服器電源升級與地緣政治轉單效應。其中TVS 保護元件需求強勁 （年增 88%），產能利用率持續突破 100%。\n- Power & Analog Semiconductor Foundries Company Confidential Information Copyright © 下半年展望(續)  GaN (氮化稼): 產能滿載，長線需求動能充沛  業績展望： 下半年較上半年成長約25~30%；2026 全年年增 50%， 預計2027 年目標年增 > 20%。  產能動態： 產能利用率 >100%。AI Data Center 需求強勁，客戶 提出擴產需求。  SiC (碳化矽): 呈現 V 型反彈，利用率逐季攀升\n\n### 風險與不確定性\n- 本次摘要未擷取到明確風險或保守訊號。\n\n### Q&A 與管理層口氣\n-  產能動態： 產能利用率 >100%。AI Data Center 需求強勁，客戶 提出擴產需求。\n-  Si-base (矽基) 年增 51%。受惠 AI 伺服器電源升級與地緣政治轉單效應。其中TVS 保護元件需求強勁 （年增 88%），產能利用率持續突破 100%。\n- Power & Analog Semiconductor Foundries Company Confidential Information Copyright © 下半年展望(續)  GaN (氮化稼): 產能滿載，長線需求動能充沛  業績展望： 下半年較上半年成長約25~30%；2026 全年年增 50%， 預計2027 年目標年增 > 20%。  產能動態： 產能利用率 >100%。AI Data Center 需求強勁，客戶 提出擴產需求。  SiC (碳化矽): 呈現 V 型反彈，利用率逐季攀升\n\n### 評分利基點\n- 加分主因： SiC (碳化矽): 呈現 V 型反彈，利用率逐季攀升  業績展望：下半年營收較上半年大幅成長 >120%。受惠 AI 需求 外溢與產品滲透率提升，元件價格有調升空間。； 產能動態： 產能利用率 >100%。AI Data Center 需求強勁，客戶 提出擴產需求。； Si-base (矽基) 年增 51%。受惠 AI 伺服器電源升級與地緣政治轉單效應。其中TVS 保護元件需求強勁 （年增 88%），產能利用率持續突破 100%。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-10-07",
+          "code": "5309",
+          "name": "系統電",
+          "eventType": "法人說明會",
+          "time": "14:00",
+          "location": "臺北市大安區忠孝東路四段87號15樓",
+          "topic": "本公司受邀參加群益金鼎證券舉辦之法人說明會,會中就本公司之營運狀況、經營績效等相關資訊做說明。",
+          "companyWebsite": "https://www.sysgration.com/zh-tw/investor-conference",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/530920261007M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/530920261007E001.pdf",
+          "mediaUrl": "http://irconference.twse.com.tw/5309_24_20261007_ch.MP4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "◼ 地面控制站（GCS）產品持續推進驗 證與量產準備，已具備承接後續市場 需求的產品與製造基礎。 ◼ 陸續接獲客戶洽談需求，並透過 Quantum Systems與Vantage Robotics 合作，完善無人機產品組合，為業務 成長增添新動能。 7 7 工業電腦(IPC) AI資料中心 能源系統 無人機(Drone) ◼ 相關新品應用專案已於 3Q25 進入量 產，帶動整體工業電腦業務1H26營 收較去年同期增長150%。 ◼ 鎖定高毛利、長生命週期 (5-7年) 利 基型專案 (500-1,000台/月)，後",
+            "21 21 無人機 無人機市場版圖 系統電聚焦三大切入點 下一代無人機將從飛手操控走向自主飛行，核心競爭力來自 VIO 視覺慣性 導航、視覺飛行與即時 AI 辨識能力；在主流無人載具約 200 TOPS 以內的 算力需求下，Qualcomm 平台相較高功耗 GPU 方案，可望兼具足夠 AI 效 能，並降低約 40% 功耗與成本。 軍用級強固GCS / 算力模組 ⚫ 數個GCS案子開發中，第一個案子將於4Q26量 產，以警用與公共安全為主要應用。 ⚫ 算力模組與客戶開發中，預計2028年放量。 固定翼中程與長程偵察",
+            "27 策略投資概覽 • 2026年2月，和碩透過私募方式 取得系統電9.6%股權，成為重要 策略股東。 • 鎖定AI伺服器「美國製造」商機， 整合雙方資源，預計2026下半年 雙方美國廠開始量產出貨。 BBU 技術優勢 組裝實力 落地AI伺服器美國製造 深度合作，聚焦三大綜效 01 02 03 聯合採購 美國製造商機 互補銷售 透過聯合採購關鍵材料與零組件，優化成本結構並放大規 模經濟效益，為毛利率提升創造空間。 整合雙方美國製造資源，強攻AI基礎建設「在美製造」的 龐大商機，貼近CSP客戶需求，強化交期與在地工程",
+            "26 26 搶先布局，產能於2026 年開出，領先同業1 全自動生產線，降低人 力成本2 鄰近AI伺服器產業鏈聚 落，大幅縮短產品交期3 廠房面積10萬平方英呎，產能於 2026年開出，可彈性生產BBU、 工業電腦、無人機、 TPMS等產 品，滿足客戶美國生產需求。 採全自動化生產線，大量使用機 器手臂，每條生產線人力僅需3～ 5人，且可彈性擴充產能配置達8 條自動化產線。 鄰近德州台廠伺服器供應鏈產業 聚落，可就近生產相關產品並節 省運費，同時產品交期可從5~6 週縮短至2~3週，快速因應市場 變化與客戶需求。",
+            "28 28 2024-2025 2027 ◼ Facility & Equipment ◼ Build-Up PCBA for AI Servers TPMS IPC AR Head-Mount Devices (HMD) Automotive ECU / BCM Autonomous Mobile Robot (AMR) Datacenter BBU LIB Pack for UPS SMR Battery Pack 2026 Drone Plano廠產能逐步開出，滿足客戶區域製造需求",
+            "34 34 單位: 新台幣佰萬元，除另予註明者外 2Q26 1Q26 2Q25 季變化 (%) 年變化 (%) 營業收入 897.0 863.3 832.7 3.9 7.7 營業毛利 199.4 214.7 204.3 -7.1 -2.4 營業毛利率 (%) 22.2% 24.9% 24.5% -2.6pp -2.3pp 營業費用 264.7 244.6 186.5 8.2 41.9 營業費用率 (%) 29.5% 28.3% 22.4% 1.2pp 7.1pp 營業利益 -65.3 -29.9 17.9 營業利益",
+            "◼ Ground Control Station (GCS) products are advancing through qualification and mass-production readiness to support future demand. ◼ Customer engagements are increasing, while partnerships with Quantum Systems and Vantage Robotics expand the drone portfolio a",
+            "21 21 Drone Market Landscape Three Strategic Entry Points Next-generation drones are shifting toward autonomous flight, driven by VIO navigation, vision-based flight, and real-time AI recognition. For platforms requiring up to ~200 TOPS, Qualcomm solutions are"
+          ],
+          "outlookTone": {
+            "label": "正面看好",
+            "score": 93,
+            "basis": "正向訊號 7、保守訊號 1"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：本公司受邀參加群益金鼎證券舉辦之法人說明會,會中就本公司之營運狀況、經營績效等相關資訊做說明。",
+            "2027年營收挑戰倍數成長 目標2026-2028年營收複合成長>30% 強固型工業電腦 三大產品線：量產啟動、客戶擴增、產能到位 --- page 8 --- 8 TPMS, 57% 工業電腦 , 23% AI資料中心能 源系統及其他, 20% TPMS, 25-30% 工業電腦 , 20-25% AI資料中心能 源系統及其他, 45-50% 系統電2025年產品 應用營收占比 系統電2028年產品 應用目標營收占比 8 三大產品線接",
+            "預計 2 年內技術層次 追上領先梯隊 系統電BBU業務成長路徑 1H26 2H26 2027 2028 Global #3 CSP客戶專案 持續推進 CSP客戶進入 商業化導入與 新客戶拓展 大客戶出貨陸 續放量，客戶 訂單佔比拉升 AI資料中心 能源系統 目標2028年內成為全球第三大BBU製造商 台廠A公司 日廠P公司 --- page 17 --- 工業電腦業務 從強固型工業電腦延伸至任務型 無人載具，打造高毛利成長引擎 17 -",
+            "「美國製造、快速交付 」 德州Plano廠 美國製造的關鍵據點 美國德州 Plano 廠：打造 BBU 美國在地製造能力 --- page 26 --- 26 26 搶先布局，產能於2026 年開出，領先同業1 全自動生產線，降低人 力成本2 鄰近AI伺服器產業鏈聚 落，大幅縮短產品交期3 廠房面積10萬平方英呎，產能於 2026年開出，可彈性生產BBU、 工業電腦、無人機、 TPMS等產 品，滿足客戶美國生產需求。",
+            "和碩策略入股，落地AI伺服器美國製造 --- page 28 --- 28 28 2024-2025 2027 ◼ Facility & Equipment ◼ Build-Up PCBA for AI Servers TPMS IPC AR Head-Mount Devices (HMD) Automotive ECU / BCM Autonomous Mobile Robot (AMR) Datacenter BBU LIB Pac",
+            "◼ 陸續接獲客戶洽談需求，並透過 Quantum Systems與Vantage Robotics 合作，完善無人機產品組合，為業務 成長增添新動能。"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-07.md",
+          "detailMarkdown": "## 5309 系統電 深度法說分析\n\n### 一頁結論\n- 展望評價：正面看好（93 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 7、保守訊號 1。\n- 判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 \n\n### 營運與財務重點\n- 2027年營收挑戰倍數成長 目標2026-2028年營收複合成長>30% 強固型工業電腦 三大產品線：量產啟動、客戶擴增、產能到位 --- page 8 --- 8 TPMS, 57% 工業電腦 , 23% AI資料中心能 源系統及其他, 20% TPMS, 25-30% 工業電腦 , 20-25% AI資料中心能 源系統及其他, 45-50% 系統電2025年產品 應用營收占比 系統電2028年產品 應用目標營收占比 8 三大產品線接\n- 預計 2 年內技術層次 追上領先梯隊 系統電BBU業務成長路徑 1H26 2H26 2027 2028 Global #3 CSP客戶專案 持續推進 CSP客戶進入 商業化導入與 新客戶拓展 大客戶出貨陸 續放量，客戶 訂單佔比拉升 AI資料中心 能源系統 目標2028年內成為全球第三大BBU製造商 台廠A公司 日廠P公司 --- page 17 --- 工業電腦業務 從強固型工業電腦延伸至任務型 無人載具，打造高毛利成長引擎 17 -\n- ◼ 陸續接獲客戶洽談需求，並透過 Quantum Systems與Vantage Robotics 合作，完善無人機產品組合，為業務 成長增添新動能。\n- ◼ 地面控制站（GCS）產品持續推進驗 證與量產準備，已具備承接後續市場 需求的產品與製造基礎。 ◼ 陸續接獲客戶洽談需求，並透過 Quantum Systems與Vantage Robotics 合作，完善無人機產品組合，為業務 成長增添新動能。 7 7 工業電腦(IPC) AI資料中心 能源系統 無人機(Drone) ◼ 相關新品應用專案已於 3Q25 進入量 產，帶動整體工業電腦業務1H26營 收較去年同期增長150%。 ◼ 鎖定高毛利、長生命週期 (5-7年) 利 基型專案 (500-1,000台/月)，後\n- 27 策略投資概覽 • 2026年2月，和碩透過私募方式 取得系統電9.6%股權，成為重要 策略股東。 • 鎖定AI伺服器「美國製造」商機， 整合雙方資源，預計2026下半年 雙方美國廠開始量產出貨。 BBU 技術優勢 組裝實力 落地AI伺服器美國製造 深度合作，聚焦三大綜效 01 02 03 聯合採購 美國製造商機 互補銷售 透過聯合採購關鍵材料與零組件，優化成本結構並放大規 模經濟效益，為毛利率提升創造空間。 整合雙方美國製造資源，強攻AI基礎建設「在美製造」的 龐大商機，貼近CSP客戶需求，強化交期與在地工程\n- 34 34 單位: 新台幣佰萬元，除另予註明者外 2Q26 1Q26 2Q25 季變化 (%) 年變化 (%) 營業收入 897.0 863.3 832.7 3.9 7.7 營業毛利 199.4 214.7 204.3 -7.1 -2.4 營業毛利率 (%) 22.2% 24.9% 24.5% -2.6pp -2.3pp 營業費用 264.7 244.6 186.5 8.2 41.9 營業費用率 (%) 29.5% 28.3% 22.4% 1.2pp 7.1pp 營業利益 -65.3 -29.9 17.9 營業利益\n\n### 展望與成長利基\n- ◼ 地面控制站（GCS）產品持續推進驗 證與量產準備，已具備承接後續市場 需求的產品與製造基礎。 ◼ 陸續接獲客戶洽談需求，並透過 Quantum Systems與Vantage Robotics 合作，完善無人機產品組合，為業務 成長增添新動能。 7 7 工業電腦(IPC) AI資料中心 能源系統 無人機(Drone) ◼ 相關新品應用專案已於 3Q25 進入量 產，帶動整體工業電腦業務1H26營 收較去年同期增長150%。 ◼ 鎖定高毛利、長生命週期 (5-7年) 利 基型專案 (500-1,000台/月)，後\n- 21 21 無人機 無人機市場版圖 系統電聚焦三大切入點 下一代無人機將從飛手操控走向自主飛行，核心競爭力來自 VIO 視覺慣性 導航、視覺飛行與即時 AI 辨識能力；在主流無人載具約 200 TOPS 以內的 算力需求下，Qualcomm 平台相較高功耗 GPU 方案，可望兼具足夠 AI 效 能，並降低約 40% 功耗與成本。 軍用級強固GCS / 算力模組 ⚫ 數個GCS案子開發中，第一個案子將於4Q26量 產，以警用與公共安全為主要應用。 ⚫ 算力模組與客戶開發中，預計2028年放量。 固定翼中程與長程偵察\n- 27 策略投資概覽 • 2026年2月，和碩透過私募方式 取得系統電9.6%股權，成為重要 策略股東。 • 鎖定AI伺服器「美國製造」商機， 整合雙方資源，預計2026下半年 雙方美國廠開始量產出貨。 BBU 技術優勢 組裝實力 落地AI伺服器美國製造 深度合作，聚焦三大綜效 01 02 03 聯合採購 美國製造商機 互補銷售 透過聯合採購關鍵材料與零組件，優化成本結構並放大規 模經濟效益，為毛利率提升創造空間。 整合雙方美國製造資源，強攻AI基礎建設「在美製造」的 龐大商機，貼近CSP客戶需求，強化交期與在地工程\n- 26 26 搶先布局，產能於2026 年開出，領先同業1 全自動生產線，降低人 力成本2 鄰近AI伺服器產業鏈聚 落，大幅縮短產品交期3 廠房面積10萬平方英呎，產能於 2026年開出，可彈性生產BBU、 工業電腦、無人機、 TPMS等產 品，滿足客戶美國生產需求。 採全自動化生產線，大量使用機 器手臂，每條生產線人力僅需3～ 5人，且可彈性擴充產能配置達8 條自動化產線。 鄰近德州台廠伺服器供應鏈產業 聚落，可就近生產相關產品並節 省運費，同時產品交期可從5~6 週縮短至2~3週，快速因應市場 變化與客戶需求。\n- 28 28 2024-2025 2027 ◼ Facility & Equipment ◼ Build-Up PCBA for AI Servers TPMS IPC AR Head-Mount Devices (HMD) Automotive ECU / BCM Autonomous Mobile Robot (AMR) Datacenter BBU LIB Pack for UPS SMR Battery Pack 2026 Drone Plano廠產能逐步開出，滿足客戶區域製造需求\n- 34 34 單位: 新台幣佰萬元，除另予註明者外 2Q26 1Q26 2Q25 季變化 (%) 年變化 (%) 營業收入 897.0 863.3 832.7 3.9 7.7 營業毛利 199.4 214.7 204.3 -7.1 -2.4 營業毛利率 (%) 22.2% 24.9% 24.5% -2.6pp -2.3pp 營業費用 264.7 244.6 186.5 8.2 41.9 營業費用率 (%) 29.5% 28.3% 22.4% 1.2pp 7.1pp 營業利益 -65.3 -29.9 17.9 營業利益\n- ◼ Ground Control Station (GCS) products are advancing through qualification and mass-production readiness to support future demand. ◼ Customer engagements are increasing, while partnerships with Quantum Systems and Vantage Robotics expand the drone portfolio a\n- 21 21 Drone Market Landscape Three Strategic Entry Points Next-generation drones are shifting toward autonomous flight, driven by VIO navigation, vision-based flight, and real-time AI recognition. For platforms requiring up to ~200 TOPS, Qualcomm solutions are\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- 2027年營收挑戰倍數成長 目標2026-2028年營收複合成長>30% 強固型工業電腦 三大產品線：量產啟動、客戶擴增、產能到位 --- page 8 --- 8 TPMS, 57% 工業電腦 , 23% AI資料中心能 源系統及其他, 20% TPMS, 25-30% 工業電腦 , 20-25% AI資料中心能 源系統及其他, 45-50% 系統電2025年產品 應用營收占比 系統電2028年產品 應用目標營收占比 8 三大產品線接\n- 預計 2 年內技術層次 追上領先梯隊 系統電BBU業務成長路徑 1H26 2H26 2027 2028 Global #3 CSP客戶專案 持續推進 CSP客戶進入 商業化導入與 新客戶拓展 大客戶出貨陸 續放量，客戶 訂單佔比拉升 AI資料中心 能源系統 目標2028年內成為全球第三大BBU製造商 台廠A公司 日廠P公司 --- page 17 --- 工業電腦業務 從強固型工業電腦延伸至任務型 無人載具，打造高毛利成長引擎 17 -\n- 「美國製造、快速交付 」 德州Plano廠 美國製造的關鍵據點 美國德州 Plano 廠：打造 BBU 美國在地製造能力 --- page 26 --- 26 26 搶先布局，產能於2026 年開出，領先同業1 全自動生產線，降低人 力成本2 鄰近AI伺服器產業鏈聚 落，大幅縮短產品交期3 廠房面積10萬平方英呎，產能於 2026年開出，可彈性生產BBU、 工業電腦、無人機、 TPMS等產 品，滿足客戶美國生產需求。\n- 和碩策略入股，落地AI伺服器美國製造 --- page 28 --- 28 28 2024-2025 2027 ◼ Facility & Equipment ◼ Build-Up PCBA for AI Servers TPMS IPC AR Head-Mount Devices (HMD) Automotive ECU / BCM Autonomous Mobile Robot (AMR) Datacenter BBU LIB Pac\n- ◼ 陸續接獲客戶洽談需求，並透過 Quantum Systems與Vantage Robotics 合作，完善無人機產品組合，為業務 成長增添新動能。\n\n### 風險與不確定性\n- 「美國製造、快速交付 」 德州Plano廠 美國製造的關鍵據點 美國德州 Plano 廠：打造 BBU 美國在地製造能力 --- page 26 --- 26 26 搶先布局，產能於2026 年開出，領先同業1 全自動生產線，降低人 力成本2 鄰近AI伺服器產業鏈聚 落，大幅縮短產品交期3 廠房面積10萬平方英呎，產能於 2026年開出，可彈性生產BBU、 工業電腦、無人機、 TPMS等產 品，滿足客戶美國生產需求。\n- 21 21 無人機 無人機市場版圖 系統電聚焦三大切入點 下一代無人機將從飛手操控走向自主飛行，核心競爭力來自 VIO 視覺慣性 導航、視覺飛行與即時 AI 辨識能力；在主流無人載具約 200 TOPS 以內的 算力需求下，Qualcomm 平台相較高功耗 GPU 方案，可望兼具足夠 AI 效 能，並降低約 40% 功耗與成本。 軍用級強固GCS / 算力模組 ⚫ 數個GCS案子開發中，第一個案子將於4Q26量 產，以警用與公共安全為主要應用。 ⚫ 算力模組與客戶開發中，預計2028年放量。 固定翼中程與長程偵察\n- 27 策略投資概覽 • 2026年2月，和碩透過私募方式 取得系統電9.6%股權，成為重要 策略股東。 • 鎖定AI伺服器「美國製造」商機， 整合雙方資源，預計2026下半年 雙方美國廠開始量產出貨。 BBU 技術優勢 組裝實力 落地AI伺服器美國製造 深度合作，聚焦三大綜效 01 02 03 聯合採購 美國製造商機 互補銷售 透過聯合採購關鍵材料與零組件，優化成本結構並放大規 模經濟效益，為毛利率提升創造空間。 整合雙方美國製造資源，強攻AI基礎建設「在美製造」的 龐大商機，貼近CSP客戶需求，強化交期與在地工程\n- 26 26 搶先布局，產能於2026 年開出，領先同業1 全自動生產線，降低人 力成本2 鄰近AI伺服器產業鏈聚 落，大幅縮短產品交期3 廠房面積10萬平方英呎，產能於 2026年開出，可彈性生產BBU、 工業電腦、無人機、 TPMS等產 品，滿足客戶美國生產需求。 採全自動化生產線，大量使用機 器手臂，每條生產線人力僅需3～ 5人，且可彈性擴充產能配置達8 條自動化產線。 鄰近德州台廠伺服器供應鏈產業 聚落，可就近生產相關產品並節 省運費，同時產品交期可從5~6 週縮短至2~3週，快速因應市場 變化與客戶需求。\n\n### Q&A 與管理層口氣\n- 2027年營收挑戰倍數成長 目標2026-2028年營收複合成長>30% 強固型工業電腦 三大產品線：量產啟動、客戶擴增、產能到位 --- page 8 --- 8 TPMS, 57% 工業電腦 , 23% AI資料中心能 源系統及其他, 20% TPMS, 25-30% 工業電腦 , 20-25% AI資料中心能 源系統及其他, 45-50% 系統電2025年產品 應用營收占比 系統電2028年產品 應用目標營收占比 8 三大產品線接\n- 預計 2 年內技術層次 追上領先梯隊 系統電BBU業務成長路徑 1H26 2H26 2027 2028 Global #3 CSP客戶專案 持續推進 CSP客戶進入 商業化導入與 新客戶拓展 大客戶出貨陸 續放量，客戶 訂單佔比拉升 AI資料中心 能源系統 目標2028年內成為全球第三大BBU製造商 台廠A公司 日廠P公司 --- page 17 --- 工業電腦業務 從強固型工業電腦延伸至任務型 無人載具，打造高毛利成長引擎 17 -\n- 「美國製造、快速交付 」 德州Plano廠 美國製造的關鍵據點 美國德州 Plano 廠：打造 BBU 美國在地製造能力 --- page 26 --- 26 26 搶先布局，產能於2026 年開出，領先同業1 全自動生產線，降低人 力成本2 鄰近AI伺服器產業鏈聚 落，大幅縮短產品交期3 廠房面積10萬平方英呎，產能於 2026年開出，可彈性生產BBU、 工業電腦、無人機、 TPMS等產 品，滿足客戶美國生產需求。\n- 21 21 無人機 無人機市場版圖 系統電聚焦三大切入點 下一代無人機將從飛手操控走向自主飛行，核心競爭力來自 VIO 視覺慣性 導航、視覺飛行與即時 AI 辨識能力；在主流無人載具約 200 TOPS 以內的 算力需求下，Qualcomm 平台相較高功耗 GPU 方案，可望兼具足夠 AI 效 能，並降低約 40% 功耗與成本。 軍用級強固GCS / 算力模組 ⚫ 數個GCS案子開發中，第一個案子將於4Q26量 產，以警用與公共安全為主要應用。 ⚫ 算力模組與客戶開發中，預計2028年放量。 固定翼中程與長程偵察\n- 27 策略投資概覽 • 2026年2月，和碩透過私募方式 取得系統電9.6%股權，成為重要 策略股東。 • 鎖定AI伺服器「美國製造」商機， 整合雙方資源，預計2026下半年 雙方美國廠開始量產出貨。 BBU 技術優勢 組裝實力 落地AI伺服器美國製造 深度合作，聚焦三大綜效 01 02 03 聯合採購 美國製造商機 互補銷售 透過聯合採購關鍵材料與零組件，優化成本結構並放大規 模經濟效益，為毛利率提升創造空間。 整合雙方美國製造資源，強攻AI基礎建設「在美製造」的 龐大商機，貼近CSP客戶需求，強化交期與在地工程\n- 26 26 搶先布局，產能於2026 年開出，領先同業1 全自動生產線，降低人 力成本2 鄰近AI伺服器產業鏈聚 落，大幅縮短產品交期3 廠房面積10萬平方英呎，產能於 2026年開出，可彈性生產BBU、 工業電腦、無人機、 TPMS等產 品，滿足客戶美國生產需求。 採全自動化生產線，大量使用機 器手臂，每條生產線人力僅需3～ 5人，且可彈性擴充產能配置達8 條自動化產線。 鄰近德州台廠伺服器供應鏈產業 聚落，可就近生產相關產品並節 省運費，同時產品交期可從5~6 週縮短至2~3週，快速因應市場 變化與客戶需求。\n\n### 評分利基點\n- 加分主因：2027年營收挑戰倍數成長 目標2026-2028年營收複合成長>30% 強固型工業電腦 三大產品線：量產啟動、客戶擴增、產能到位 --- page 8 --- 8 TPMS, 57% 工業電腦 , 23% AI資料中心能 源系統及其他, 20% TPMS, 25-30% 工業電腦 , 20-25% AI資料中心能 源系統及其他, 45-50% 系統電2025年產品 應用營收占比 系統電2028年產品 應用目標營收占比 8 三大產品線接；預計 2 年內技術層次 追上領先梯隊 系統電BBU業務成長路徑 1H26 2H26 2027 2028 Global #3 CSP客戶專案 持續推進 CSP客戶進入 商業化導入與 新客戶拓展 大客戶出貨陸 續放量，客戶 訂單佔比拉升 AI資料中心 能源系統 目標2028年內成為全球第三大BBU製造商 台廠A公司 日廠P公司 --- page 17 --- 工業電腦業務 從強固型工業電腦延伸至任務型 無人載具，打造高毛利成長引擎 17 -；「美國製造、快速交付 」 德州Plano廠 美國製造的關鍵據點 美國德州 Plano 廠：打造 BBU 美國在地製造能力 --- page 26 --- 26 26 搶先布局，產能於2026 年開出，領先同業1 全自動生產線，降低人 力成本2 鄰近AI伺服器產業鏈聚 落，大幅縮短產品交期3 廠房面積10萬平方英呎，產能於 2026年開出，可彈性生產BBU、 工業電腦、無人機、 TPMS等產 品，滿足客戶美國生產需求。。\n- 扣分或保留：「美國製造、快速交付 」 德州Plano廠 美國製造的關鍵據點 美國德州 Plano 廠：打造 BBU 美國在地製造能力 --- page 26 --- 26 26 搶先布局，產能於2026 年開出，領先同業1 全自動生產線，降低人 力成本2 鄰近AI伺服器產業鏈聚 落，大幅縮短產品交期3 廠房面積10萬平方英呎，產能於 2026年開出，可彈性生產BBU、 工業電腦、無人機、 TPMS等產 品，滿足客戶美國生產需求。；21 21 無人機 無人機市場版圖 系統電聚焦三大切入點 下一代無人機將從飛手操控走向自主飛行，核心競爭力來自 VIO 視覺慣性 導航、視覺飛行與即時 AI 辨識能力；在主流無人載具約 200 TOPS 以內的 算力需求下，Qualcomm 平台相較高功耗 GPU 方案，可望兼具足夠 AI 效 能，並降低約 40% 功耗與成本。 軍用級強固GCS / 算力模組 ⚫ 數個GCS案子開發中，第一個案子將於4Q26量 產，以警用與公共安全為主要應用。 ⚫ 算力模組與客戶開發中，預計2028年放量。 固定翼中程與長程偵察；27 策略投資概覽 • 2026年2月，和碩透過私募方式 取得系統電9.6%股權，成為重要 策略股東。 • 鎖定AI伺服器「美國製造」商機， 整合雙方資源，預計2026下半年 雙方美國廠開始量產出貨。 BBU 技術優勢 組裝實力 落地AI伺服器美國製造 深度合作，聚焦三大綜效 01 02 03 聯合採購 美國製造商機 互補銷售 透過聯合採購關鍵材料與零組件，優化成本結構並放大規 模經濟效益，為毛利率提升創造空間。 整合雙方美國製造資源，強攻AI基礎建設「在美製造」的 龐大商機，貼近CSP客戶需求，強化交期與在地工程。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-10-07",
+          "code": "6120",
+          "name": "達運",
+          "eventType": "法人說明會",
+          "time": "14:30",
+          "location": "線上法說會",
+          "topic": "本公司受邀參加台新證券舉辦之線上法人說明會,說明本公司之財務與營運概況。",
+          "companyWebsite": "https://www.darwinprecisions.com/zh-tw/investors-4.php",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/612020261007M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/612020261007E001.pdf",
+          "mediaUrl": "http://irconference.twse.com.tw/6120_10_20261007_ch.mp4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "  智慧場域系統開發：整合多元顯示裝置（ LCD、EPD等）、前端作業系統與後台管理平台 ， 並依場域需求導入感測器及 AI 技術，提供軟硬體整合之智慧場域解決方案。 • 戶外電子紙整合自供電解決方案，已通過日本客戶認證，應用於 太陽能智慧公車站牌及 大型廣告看板，拓展日本市場。 • 智慧電桿及交通解決方案，與合作夥伴共同導入政府智慧節點基建計畫， 未來將在北、 中、南等五縣市逐步完成。"
+          ],
+          "outlookTone": {
+            "label": "中性觀望",
+            "score": 52,
+            "basis": "正向訊號 2、保守訊號 2"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：本公司受邀參加台新證券舉辦之線上法人說明會,說明本公司之財務與營運概況。",
+            "2026 員工人數 4,000 2026/09平均值 業務項目 • 製造服務 • 關鍵零組件 • 系統整合 • 醫療/光學解決方案 股票代碼 6120 TAIEX 達運精密研發團隊碩博士學歷59.5%，已核准全球專利745件 (專利累積申請1,171件，通過率64%) --- page 7 --- 新竹總部 大雅廠區 吳江廠區 廈門廠區 首爾 東京 曼谷 加州 --- page 9 --- 單位 : 新台幣千元 ( 除每股盈餘 ( 損失",
+            "page 23 ---   智慧場域系統開發：整合多元顯示裝置（ LCD、EPD等）、前端作業系統與後台管理平台 ， 並依場域需求導入感測器及 AI 技術，提供軟硬體整合之智慧場域解決方案。",
+            "2026 Employees 4,000 2026/09 average 4 Major Service ．Manufacturing Services ．Key Components ．System Integration ．Medical/Optical Solutions --- page 6 --- Milestone --- page 7 --- International Presence Taiwan HQ Hsinchu",
+            "Our forward-looking statements contain information regarding, among other things, our financial conditions, future expansion plans and business strategies.",
+            "Although we believe that these expectations and projections are reasonable, such forward-looking statements are inherently subject to risks, uncertainties, and assumptions about us."
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-07.md",
+          "detailMarkdown": "## 6120 達運 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（52 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 2、保守訊號 2。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- MOPS 擇要訊息：本公司受邀參加台新證券舉辦之線上法人說明會,說明本公司之財務與營運概況。\n- 2026 員工人數 4,000 2026/09平均值 業務項目 • 製造服務 • 關鍵零組件 • 系統整合 • 醫療/光學解決方案 股票代碼 6120 TAIEX 達運精密研發團隊碩博士學歷59.5%，已核准全球專利745件 (專利累積申請1,171件，通過率64%) --- page 7 --- 新竹總部 大雅廠區 吳江廠區 廈門廠區 首爾 東京 曼谷 加州 --- page 9 --- 單位 : 新台幣千元 ( 除每股盈餘 ( 損失\n- page 23 ---   智慧場域系統開發：整合多元顯示裝置（ LCD、EPD等）、前端作業系統與後台管理平台 ， 並依場域需求導入感測器及 AI 技術，提供軟硬體整合之智慧場域解決方案。\n- 2026 Employees 4,000 2026/09 average 4 Major Service ．Manufacturing Services ．Key Components ．System Integration ．Medical/Optical Solutions --- page 6 --- Milestone --- page 7 --- International Presence Taiwan HQ Hsinchu\n\n### 展望與成長利基\n-   智慧場域系統開發：整合多元顯示裝置（ LCD、EPD等）、前端作業系統與後台管理平台 ， 並依場域需求導入感測器及 AI 技術，提供軟硬體整合之智慧場域解決方案。 • 戶外電子紙整合自供電解決方案，已通過日本客戶認證，應用於 太陽能智慧公車站牌及 大型廣告看板，拓展日本市場。 • 智慧電桿及交通解決方案，與合作夥伴共同導入政府智慧節點基建計畫， 未來將在北、 中、南等五縣市逐步完成。\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- 2026 員工人數 4,000 2026/09平均值 業務項目 • 製造服務 • 關鍵零組件 • 系統整合 • 醫療/光學解決方案 股票代碼 6120 TAIEX 達運精密研發團隊碩博士學歷59.5%，已核准全球專利745件 (專利累積申請1,171件，通過率64%) --- page 7 --- 新竹總部 大雅廠區 吳江廠區 廈門廠區 首爾 東京 曼谷 加州 --- page 9 --- 單位 : 新台幣千元 ( 除每股盈餘 ( 損失\n- page 23 ---   智慧場域系統開發：整合多元顯示裝置（ LCD、EPD等）、前端作業系統與後台管理平台 ， 並依場域需求導入感測器及 AI 技術，提供軟硬體整合之智慧場域解決方案。\n- 2026 Employees 4,000 2026/09 average 4 Major Service ．Manufacturing Services ．Key Components ．System Integration ．Medical/Optical Solutions --- page 6 --- Milestone --- page 7 --- International Presence Taiwan HQ Hsinchu\n- Our forward-looking statements contain information regarding, among other things, our financial conditions, future expansion plans and business strategies.\n- Although we believe that these expectations and projections are reasonable, such forward-looking statements are inherently subject to risks, uncertainties, and assumptions about us.\n\n### 風險與不確定性\n- Although we believe that these expectations and projections are reasonable, such forward-looking statements are inherently subject to risks, uncertainties, and assumptions about us.\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 加分主因：page 23 ---   智慧場域系統開發：整合多元顯示裝置（ LCD、EPD等）、前端作業系統與後台管理平台 ， 並依場域需求導入感測器及 AI 技術，提供軟硬體整合之智慧場域解決方案。；  智慧場域系統開發：整合多元顯示裝置（ LCD、EPD等）、前端作業系統與後台管理平台 ， 並依場域需求導入感測器及 AI 技術，提供軟硬體整合之智慧場域解決方案。 • 戶外電子紙整合自供電解決方案，已通過日本客戶認證，應用於 太陽能智慧公車站牌及 大型廣告看板，拓展日本市場。 • 智慧電桿及交通解決方案，與合作夥伴共同導入政府智慧節點基建計畫， 未來將在北、 中、南等五縣市逐步完成。。\n- 扣分或保留：Although we believe that these expectations and projections are reasonable, such forward-looking statements are inherently subject to risks, uncertainties, and assumptions about us.。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-10-07",
+          "code": "6174",
+          "name": "安碁",
+          "eventType": "法人說明會",
+          "time": "14:30",
+          "location": "台北市中正區忠孝東路二段95號13樓",
+          "topic": "本公司受邀參加兆豐證券所舉辦之法人說明會。",
+          "companyWebsite": "https://www.aker.com.tw/esg/法人說明會-2",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/617420261007M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/617420261007E001.pdf",
+          "mediaUrl": "http://irconference.twse.com.tw/6174_4_20261007_ch.mp4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "Automotive Electronics Market Outlook Automotive Electronics Market Global Automotive Electronics Market Compound Annual Growth Rate Total Growth (2026-2034E) Market Size (US$ billions) The automotive electronics market is growing steadily Advancements in smar",
+            "Business Outlook: Book-toBill Ratio Signals Strong Order Momentum Shipments (TWD) Orders (TWD) QuarterQ2 Book-to-Bill Ratio Above 1.15, with Orders Exceeding Shipments 250 200 150 100 50 0 2023Q2 2023Q3 2023Q4 2024Q1 2024Q2 2024Q3 2024Q4 2025Q1 2025Q2 2025Q3 2",
+            "AI and Industrial Control Market Development AI Market Industrial Control Market Global AI Server Market Global Industry 4.0 Market Compound Annual Growth Rate (CAGR) Total Growth (2026-2034E) Compound Annual Growth Rate (CAGR) Total Growth (2026-2034E) Market"
+          ],
+          "outlookTone": {
+            "label": "中性偏正面",
+            "score": 59,
+            "basis": "正向訊號 3、保守訊號 2"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：本公司受邀參加兆豐證券所舉辦之法人說明會。",
+            "Connecting Intelligence Driving the Future 34.7% +985.8% 16.3% +234.7% --- page 11 --- Smart Manufacturing: From Industrial Control to AI Factory Industrial Automation PLC / PAC / Motion Control I/O and Edge Control Plat",
+            "These forward-looking statements are subject to risks, uncertainties and assumptions, some of which are beyond our control.",
+            "page 3 --- Contents 01 02 03 04 05 --- page 4 --- Global Footprint and High-Quality Manufacturing with Worldwide Service Founded in 1990 Japanese management practices Listed in Taiwan in 2002 (Ticker: 6174) Over 250 empl",
+            "Connecting Intelligence Driving the Future --- page 8 --- AKER Sample Qualification and Mass Production Record Level 4 Autonomous Driving Vehicle Autonomous Driving Control HMI Bluetooth / Wi-Fi Module Air-Conditioning S",
+            "Fortune Business Insights, AI Server Market, July 2026 2."
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-07.md",
+          "detailMarkdown": "## 6174 安碁 深度法說分析\n\n### 一頁結論\n- 展望評價：中性偏正面（59 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 3、保守訊號 2。\n- 判讀：方向偏正面，但管理層仍保留部分彈性，較適合追蹤接單、毛利率與下一季財測是否延續。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- MOPS 擇要訊息：本公司受邀參加兆豐證券所舉辦之法人說明會。\n- Connecting Intelligence Driving the Future 34.7% +985.8% 16.3% +234.7% --- page 11 --- Smart Manufacturing: From Industrial Control to AI Factory Industrial Automation PLC / PAC / Motion Control I/O and Edge Control Plat\n- These forward-looking statements are subject to risks, uncertainties and assumptions, some of which are beyond our control.\n- page 3 --- Contents 01 02 03 04 05 --- page 4 --- Global Footprint and High-Quality Manufacturing with Worldwide Service Founded in 1990 Japanese management practices Listed in Taiwan in 2002 (Ticker: 6174) Over 250 empl\n\n### 展望與成長利基\n- Automotive Electronics Market Outlook Automotive Electronics Market Global Automotive Electronics Market Compound Annual Growth Rate Total Growth (2026-2034E) Market Size (US$ billions) The automotive electronics market is growing steadily Advancements in smar\n- Business Outlook: Book-toBill Ratio Signals Strong Order Momentum Shipments (TWD) Orders (TWD) QuarterQ2 Book-to-Bill Ratio Above 1.15, with Orders Exceeding Shipments 250 200 150 100 50 0 2023Q2 2023Q3 2023Q4 2024Q1 2024Q2 2024Q3 2024Q4 2025Q1 2025Q2 2025Q3 2\n- AI and Industrial Control Market Development AI Market Industrial Control Market Global AI Server Market Global Industry 4.0 Market Compound Annual Growth Rate (CAGR) Total Growth (2026-2034E) Compound Annual Growth Rate (CAGR) Total Growth (2026-2034E) Market\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- Connecting Intelligence Driving the Future 34.7% +985.8% 16.3% +234.7% --- page 11 --- Smart Manufacturing: From Industrial Control to AI Factory Industrial Automation PLC / PAC / Motion Control I/O and Edge Control Plat\n- These forward-looking statements are subject to risks, uncertainties and assumptions, some of which are beyond our control.\n- page 3 --- Contents 01 02 03 04 05 --- page 4 --- Global Footprint and High-Quality Manufacturing with Worldwide Service Founded in 1990 Japanese management practices Listed in Taiwan in 2002 (Ticker: 6174) Over 250 empl\n- Connecting Intelligence Driving the Future --- page 8 --- AKER Sample Qualification and Mass Production Record Level 4 Autonomous Driving Vehicle Autonomous Driving Control HMI Bluetooth / Wi-Fi Module Air-Conditioning S\n- Fortune Business Insights, AI Server Market, July 2026 2.\n\n### 風險與不確定性\n- These forward-looking statements are subject to risks, uncertainties and assumptions, some of which are beyond our control.\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 加分主因：Automotive Electronics Market Outlook Automotive Electronics Market Global Automotive Electronics Market Compound Annual Growth Rate Total Growth (2026-2034E) Market Size (US$ billions) The automotive electronics market is growing steadily Advancements in smar；Business Outlook: Book-toBill Ratio Signals Strong Order Momentum Shipments (TWD) Orders (TWD) QuarterQ2 Book-to-Bill Ratio Above 1.15, with Orders Exceeding Shipments 250 200 150 100 50 0 2023Q2 2023Q3 2023Q4 2024Q1 2024Q2 2024Q3 2024Q4 2025Q1 2025Q2 2025Q3 2；AI and Industrial Control Market Development AI Market Industrial Control Market Global AI Server Market Global Industry 4.0 Market Compound Annual Growth Rate (CAGR) Total Growth (2026-2034E) Compound Annual Growth Rate (CAGR) Total Growth (2026-2034E) Market。\n- 扣分或保留：These forward-looking statements are subject to risks, uncertainties and assumptions, some of which are beyond our control.。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-10-07",
+          "code": "8421",
+          "name": "旭源",
+          "eventType": "法人說明會",
+          "time": "14:30",
+          "location": "台北市中正區忠孝東路一段85號6樓大會議室。",
+          "topic": "本公司受邀台中銀證券舉辦之法人說明會。",
+          "companyWebsite": "",
+          "chinesePdf": "",
+          "englishPdf": "",
+          "mediaUrl": "http://irconference.twse.com.tw/8421_16_20261007_ch.MP4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "未從簡報或轉錄稿擷取到明確展望段落。"
+          ],
+          "outlookTone": {
+            "label": "中性觀望",
+            "score": 50,
+            "basis": "正向訊號 0、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "MOPS 擇要訊息：本公司受邀台中銀證券舉辦之法人說明會。",
+            "缺少可摘要的簡報文字或轉錄稿。"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-07.md",
+          "detailMarkdown": "## 8421 旭源 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：本公司受邀台中銀證券舉辦之法人說明會。\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-10-06T13:56:19.924Z",
       "queryDate": "2026-10-06",
