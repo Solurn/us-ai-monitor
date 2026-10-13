@@ -1,6 +1,76 @@
 window.selfReportHistory = {
   "items": [
     {
+      "generatedAt": "2026-10-13T21:37:56+08:00",
+      "queryDate": "2026-10-13",
+      "displayDate": "115年10月13日",
+      "checkedAt": "2026-10-13T21:37:56+08:00",
+      "checkedQueryDate": "2026-10-13",
+      "checkedDisplayDate": "115年10月13日",
+      "checkedCount": 2,
+      "checkedSkipped": {
+        "bond_subject": 0,
+        "missing_financials": 0,
+        "duplicate": 1,
+        "detail_error": 0
+      },
+      "count": 2,
+      "skipped": {
+        "bond_subject": 0,
+        "missing_financials": 0,
+        "duplicate": 1,
+        "detail_error": 0
+      },
+      "rows": [
+        {
+          "code": "3362",
+          "name": "先進光",
+          "market": "上櫃",
+          "announcement_date": "115/10/13",
+          "subject": "本公司有價證券近期多次達公布注意交易資訊標準， 故公告相關訊息，以利投資人區別暸解",
+          "month_label": "單月",
+          "monthly_revenue": 245.0,
+          "monthly_pre_tax_income": 129.0,
+          "monthly_parent_income": 119.7,
+          "monthly_eps": 0.81,
+          "quarter_eps": 1.38,
+          "tax_margin_pct": 52.6530612244898,
+          "operating_margin_pct": 48.85714285714286,
+          "previous_quarter_monthly_eps": 0.45999999999999996,
+          "reference_quarter": "2026Q2",
+          "reference_tax_margin_pct": -24.84,
+          "reference_operating_margin_pct": -23.52,
+          "tax_margin_delta_pct": 77.4930612244898,
+          "operating_margin_delta_pct": 72.37714285714286,
+          "detail_key": "otc:3362:20261013:154031:1"
+        },
+        {
+          "code": "3597",
+          "name": "映興",
+          "market": "上櫃",
+          "announcement_date": "115/10/13",
+          "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準， 故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+          "month_label": "08月",
+          "monthly_revenue": 104.82,
+          "monthly_pre_tax_income": 10.73,
+          "monthly_parent_income": 8.22,
+          "monthly_eps": 0.21,
+          "quarter_eps": 0.27,
+          "tax_margin_pct": 10.236596069452396,
+          "operating_margin_pct": 7.842014882655983,
+          "previous_quarter_monthly_eps": 0.09000000000000001,
+          "reference_quarter": "2026Q2",
+          "reference_tax_margin_pct": 6.54,
+          "reference_operating_margin_pct": 7.43,
+          "tax_margin_delta_pct": 3.6965960694523963,
+          "operating_margin_delta_pct": 0.4120148826559831,
+          "detail_key": "otc:3597:20261013:133804:1"
+        }
+      ],
+      "image": "./assets/self-report/self-report-2026-10-13.png",
+      "source": "公開資訊觀測站 / CMoney 財務比率"
+    },
+    {
       "generatedAt": "2026-10-12T21:14:06+08:00",
       "queryDate": "2026-10-12",
       "displayDate": "115年10月12日",
