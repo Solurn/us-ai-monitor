@@ -1,10 +1,290 @@
 window.irSummaryHistory = {
-  "generatedAt": "2026-10-13T13:39:31.204Z",
+  "generatedAt": "2026-10-14T13:14:01.012Z",
   "sourceRoot": "C:\\Users\\user\\Desktop\\Codex專案\\法說整理",
   "retentionDays": 30,
   "maxMeetingDate": "",
-  "latestDate": "2026-10-13",
+  "latestDate": "2026-10-14",
   "items": [
+    {
+      "generatedAt": "2026-10-14T13:14:01.012Z",
+      "queryDate": "2026-10-14",
+      "displayDate": "2026-10-14",
+      "count": 7,
+      "rows": [
+        {
+          "date": "2026-10-14",
+          "code": "1203",
+          "name": "味王",
+          "eventType": "法人說明會",
+          "time": "14:30",
+          "location": "臺灣證券交易所1樓資訊展示中心(台北市信義路五段7號)",
+          "topic": "公司概況、財務報告及營運概況。",
+          "companyWebsite": "https://www.vewong.com/ec99/ushop20069/profile-11.asp",
+          "chinesePdf": "",
+          "englishPdf": "",
+          "mediaUrl": "https://webpro.twse.com.tw/WebPortal/vod/101/631C532394C2-5D412F81-C79A-11F1-9C69/?categoryId=101",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "未從簡報或轉錄稿擷取到明確展望段落。"
+          ],
+          "outlookTone": {
+            "label": "中性觀望",
+            "score": 50,
+            "basis": "正向訊號 0、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "MOPS 擇要訊息：公司概況、財務報告及營運概況。",
+            "缺少可摘要的簡報文字或轉錄稿。"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-14.md",
+          "detailMarkdown": "## 1203 味王 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：公司概況、財務報告及營運概況。\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-10-14",
+          "code": "2707",
+          "name": "晶華",
+          "eventType": "法人說明會",
+          "time": "14:00",
+          "location": "Webex線上會議",
+          "topic": "本公司受邀參加第一金證券舉辦之線上法人說明會",
+          "companyWebsite": "https://digital.silkshotelgroup.com/Investment",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/270720261014M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/270720261014E001.pdf",
+          "mediaUrl": "http://irconference.twse.com.tw/2707_60_20261014_ch.mp4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "2026年第二季 觀光旅館獲利能力比較 19 晶華 國賓 六福 第一店 華園 萬企 寒舍 雲品 營業收入 (單位：新台幣仟元) 3,610,518 378,532 510,861 89,870 363,520 65,646 1,423,271 776,929 稅後損益 (單位：新台幣仟元) 1,109,142 58,836 (39,827) 69,107 30,137 50,202 119,066 99,299 每股盈餘 (單位：新台幣元) 8.62 0.16 (0.21) 0.14 0.19 0.11 1.30"
+          ],
+          "outlookTone": {
+            "label": "中性偏正面",
+            "score": 57,
+            "basis": "正向訊號 1、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：本公司受邀參加第一金證券舉辦之線上法人說明會",
+            "– June 2026) Rooms, 584,478 , 23.62% F&B 991,498 40.06% Function Dining, 326,083 , 13.18% ROD, 141,977 , 5.74% Regent Galleria, 379,544 , 15.34% Others 51,207 2.07% Total Revenue: 2,474,787 單位:仟元 --- page 14 --- 台北晶華客源比例",
+            "[zh PDF] --- page 1 --- 0 --- page 2 --- 簡報大綱 公司概況 營運及財務概況 企業永續 落實ESG Q&A 01 02 03 04 --- page 4 --- 歷史沿革 1990 台北晶華酒店開幕， 晶華麗晶酒店成立 2004 開拓館外餐飲事業，如 故宮晶華 2009 第一家晶英及捷絲旅分別 於宜蘭及西門町開幕 2016 第一家晶泉丰旅於宜蘭 開幕 2010 併購麗晶並將英文識 別名改為Rege",
+            "Opened the second Wellspring by Silks in Beitou, Taipei.",
+            "2024 Listed on the Taiwan Stock Exchange.",
+            "1998 2018 Partnered with IHG to expand Regent and renamed the company Silks Hotel Group, responsible for Regent Taipei operations and the expansion of Silks Place and Just Sleep."
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-14.md",
+          "detailMarkdown": "## 2707 晶華 深度法說分析\n\n### 一頁結論\n- 展望評價：中性偏正面（57 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 1、保守訊號 0。\n- 判讀：方向偏正面，但管理層仍保留部分彈性，較適合追蹤接單、毛利率與下一季財測是否延續。 \n\n### 營運與財務重點\n- 2026年第二季 觀光旅館獲利能力比較 19 晶華 國賓 六福 第一店 華園 萬企 寒舍 雲品 營業收入 (單位：新台幣仟元) 3,610,518 378,532 510,861 89,870 363,520 65,646 1,423,271 776,929 稅後損益 (單位：新台幣仟元) 1,109,142 58,836 (39,827) 69,107 30,137 50,202 119,066 99,299 每股盈餘 (單位：新台幣元) 8.62 0.16 (0.21) 0.14 0.19 0.11 1.30\n\n### 展望與成長利基\n- 2026年第二季 觀光旅館獲利能力比較 19 晶華 國賓 六福 第一店 華園 萬企 寒舍 雲品 營業收入 (單位：新台幣仟元) 3,610,518 378,532 510,861 89,870 363,520 65,646 1,423,271 776,929 稅後損益 (單位：新台幣仟元) 1,109,142 58,836 (39,827) 69,107 30,137 50,202 119,066 99,299 每股盈餘 (單位：新台幣元) 8.62 0.16 (0.21) 0.14 0.19 0.11 1.30\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- Opened the second Wellspring by Silks in Beitou, Taipei.\n- 2024 Listed on the Taiwan Stock Exchange.\n- 1998 2018 Partnered with IHG to expand Regent and renamed the company Silks Hotel Group, responsible for Regent Taipei operations and the expansion of Silks Place and Just Sleep.\n\n### 風險與不確定性\n- 本次摘要未擷取到明確風險或保守訊號。\n\n### Q&A 與管理層口氣\n- [zh PDF] --- page 1 --- 0 --- page 2 --- 簡報大綱 公司概況 營運及財務概況 企業永續 落實ESG Q&A 01 02 03 04 --- page 4 --- 歷史沿革 1990 台北晶華酒店開幕， 晶華麗晶酒店成立 2004 開拓館外餐飲事業，如 故宮晶華 2009 第一家晶英及捷絲旅分別 於宜蘭及西門町開幕 2016 第一家晶泉丰旅於宜蘭 開幕 2010 併購麗晶並將英文識 別名改為Rege\n\n### 評分利基點\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-10-14",
+          "code": "2816",
+          "name": "旺旺保",
+          "eventType": "法人說明會",
+          "time": "14:00",
+          "location": "台北市大安區忠孝東路四段219號4樓會議室",
+          "topic": "本公司自辦法人說明會,會中就本公司已公開發布之營運及財務業務狀況作說明。",
+          "companyWebsite": "https://www.wwunion.com/?page_id=5584",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/281620261014M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/281620261014E001.pdf",
+          "mediaUrl": "http://irconference.twse.com.tw/2816_11_20261014_ch.mp4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "最 值 得 信 賴 的 保 險 公 司 經營策略、 營運計劃與未來展望等皆屬前瞻性陳述範疇 ，而前瞻性陳述本身的不 確定性、風險、假設或其他因素如：法規變化 、競爭環境、科技發展、 經濟情勢與經營上的改變等，皆有可能導致公司實際營運結果與簡報 陳述有重大差異。 本文件不得視為買賣本公司有價證券之要約或要約之引導。 2",
+            "最 值 得 信 賴 的 保 險 公 司 25 美國標準普爾(Standard & Poor‘s)： A-；展望：穩定 中華信用評等(Taiwan Ratings)： twAA ；展望：穩定 貝氏信用評等(A.M. Best Company) ： A- (Excellent) ；展望：穩定 Governance",
+            "最 值 得 信 賴 的 保 險 公 司 25 Standard & Poor‘s： A-；Outlook：Stable Taiwan Ratings： twAA ；Outlook：Stable A.M. Best Company： A- (Excellent) ；Outlook：Stable Governance"
+          ],
+          "outlookTone": {
+            "label": "中性觀望",
+            "score": 51,
+            "basis": "正向訊號 1、保守訊號 1"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：本公司自辦法人說明會,會中就本公司已公開發布之營運及財務業務狀況作說明。",
+            "page 25 --- 最 值 得 信 賴 的 保 險 公 司 25 美國標準普爾(Standard & Poor‘s)： A-；展望：穩定 中華信用評等(Taiwan Ratings)： twAA ；展望：穩定 貝氏信用評等(A.M.",
+            "本份簡報可能包含前瞻性陳述 。任何非歷史資料，包括公司經營策略、 營運計劃與未來展望等皆屬前瞻性陳述範疇 ，而前瞻性陳述本身的不 確定性、風險、假設或其他因素如：法規變化 、競爭環境、科技發展、 經濟情勢與經營上的改變等，皆有可能導致公司實際營運結果與簡報 陳述有重大差異。",
+            "本公司總公司設於臺北市 ，並於全國設置 12家分公司、16個服務中心 及7個通訊處，建構完整的服務網路 ，為客戶提供即時、專業且優質的 服務。",
+            "page 11 --- 最 值 得 信 賴 的 保 險 公 司 獲利能力 11 - 5.00 10.00 15.00 20.00 2025Q2 2026Q2 稅後淨利(億元) 6.03 17.54 每股盈餘(元) 2.70 7.84 註：本表係依IFRS17編製。",
+            "page 15 --- 最 值 得 信 賴 的 保 險 公 司 資本適足率(原RBC%) 15 455.92% 460.67% 455.09% 200.00% 250.00% 300.00% 350.00% 400.00% 450.00% 500.00% 2023 2024 2025 註：2026年上半年度全面轉換為TIS%，比率為274.6% --- page 16 --- 最 值 得 信 賴 的 保 險 公 司 16 企業永續 --"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-14.md",
+          "detailMarkdown": "## 2816 旺旺保 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（51 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 1、保守訊號 1。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- page 11 --- 最 值 得 信 賴 的 保 險 公 司 獲利能力 11 - 5.00 10.00 15.00 20.00 2025Q2 2026Q2 稅後淨利(億元) 6.03 17.54 每股盈餘(元) 2.70 7.84 註：本表係依IFRS17編製。\n\n### 展望與成長利基\n- 最 值 得 信 賴 的 保 險 公 司 經營策略、 營運計劃與未來展望等皆屬前瞻性陳述範疇 ，而前瞻性陳述本身的不 確定性、風險、假設或其他因素如：法規變化 、競爭環境、科技發展、 經濟情勢與經營上的改變等，皆有可能導致公司實際營運結果與簡報 陳述有重大差異。 本文件不得視為買賣本公司有價證券之要約或要約之引導。 2\n- 最 值 得 信 賴 的 保 險 公 司 25 美國標準普爾(Standard & Poor‘s)： A-；展望：穩定 中華信用評等(Taiwan Ratings)： twAA ；展望：穩定 貝氏信用評等(A.M. Best Company) ： A- (Excellent) ；展望：穩定 Governance\n- 最 值 得 信 賴 的 保 險 公 司 25 Standard & Poor‘s： A-；Outlook：Stable Taiwan Ratings： twAA ；Outlook：Stable A.M. Best Company： A- (Excellent) ；Outlook：Stable Governance\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- page 25 --- 最 值 得 信 賴 的 保 險 公 司 25 美國標準普爾(Standard & Poor‘s)： A-；展望：穩定 中華信用評等(Taiwan Ratings)： twAA ；展望：穩定 貝氏信用評等(A.M.\n- 本公司總公司設於臺北市 ，並於全國設置 12家分公司、16個服務中心 及7個通訊處，建構完整的服務網路 ，為客戶提供即時、專業且優質的 服務。\n- 最 值 得 信 賴 的 保 險 公 司 25 美國標準普爾(Standard & Poor‘s)： A-；展望：穩定 中華信用評等(Taiwan Ratings)： twAA ；展望：穩定 貝氏信用評等(A.M. Best Company) ： A- (Excellent) ；展望：穩定 Governance\n- 最 值 得 信 賴 的 保 險 公 司 25 Standard & Poor‘s： A-；Outlook：Stable Taiwan Ratings： twAA ；Outlook：Stable A.M. Best Company： A- (Excellent) ；Outlook：Stable Governance\n\n### 風險與不確定性\n- 本份簡報可能包含前瞻性陳述 。任何非歷史資料，包括公司經營策略、 營運計劃與未來展望等皆屬前瞻性陳述範疇 ，而前瞻性陳述本身的不 確定性、風險、假設或其他因素如：法規變化 、競爭環境、科技發展、 經濟情勢與經營上的改變等，皆有可能導致公司實際營運結果與簡報 陳述有重大差異。\n- 最 值 得 信 賴 的 保 險 公 司 經營策略、 營運計劃與未來展望等皆屬前瞻性陳述範疇 ，而前瞻性陳述本身的不 確定性、風險、假設或其他因素如：法規變化 、競爭環境、科技發展、 經濟情勢與經營上的改變等，皆有可能導致公司實際營運結果與簡報 陳述有重大差異。 本文件不得視為買賣本公司有價證券之要約或要約之引導。 2\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：本份簡報可能包含前瞻性陳述 。任何非歷史資料，包括公司經營策略、 營運計劃與未來展望等皆屬前瞻性陳述範疇 ，而前瞻性陳述本身的不 確定性、風險、假設或其他因素如：法規變化 、競爭環境、科技發展、 經濟情勢與經營上的改變等，皆有可能導致公司實際營運結果與簡報 陳述有重大差異。；最 值 得 信 賴 的 保 險 公 司 經營策略、 營運計劃與未來展望等皆屬前瞻性陳述範疇 ，而前瞻性陳述本身的不 確定性、風險、假設或其他因素如：法規變化 、競爭環境、科技發展、 經濟情勢與經營上的改變等，皆有可能導致公司實際營運結果與簡報 陳述有重大差異。 本文件不得視為買賣本公司有價證券之要約或要約之引導。 2。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-10-14",
+          "code": "8222",
+          "name": "寶一",
+          "eventType": "法人說明會",
+          "time": "14:00",
+          "location": "高雄市前鎮區中山二路2號9樓之一(大眾財金大樓)",
+          "topic": "本公司受邀參加由台新證券舉辦之法人說明會,說明本公司之營運概況、財務及業務相關資訊。",
+          "companyWebsite": "",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/822220261012M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/822220261012E001.pdf",
+          "mediaUrl": "http://irconference.twse.com.tw/8222_12_20261014_ch.MP4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "BOEING 2025 COMMERCIAL MARKET OUTLOOK 10/2/2026 25 資料來源:Boeing 2025 Commercial Market Outlook DELIVERIES(需求) (2025-2044) Africa China Eurasia Latin America Middle East North America Northeast Asia Oceania South Asia Southeast Asia World Regional Jet(區間機) 90 36",
+            "BOEING 2025 COMMERCIAL MARKET OUTLOOK 10/2/2026 25 Data Source : Boeing 2025 Commercial Market Outlook DELIVERIES(需求) (2025-2044) Africa China Eurasia Latin America Middle East North America Northeast Asia Oceania South Asia Southeast Asia World Regional Jet(區"
+          ],
+          "outlookTone": {
+            "label": "中性觀望",
+            "score": 50,
+            "basis": "正向訊號 0、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：本公司受邀參加由台新證券舉辦之法人說明會,說明本公司之營運概況、財務及業務相關資訊。",
+            "[zh PDF] --- page 1 --- 寶一科技發言人: 胡淑賢 副總經理 2026.10.14 --- page 2 --- Company Introduction 1974 成立時間 685,735,000 新台幣 資本額 8222 股票代號 4 285.8 廠區占地坪數 新營 工 業 區 2026/10/2 --- page 3 --- 工廠分布-本廠區 新廠區(2分鐘) 熱處理檢驗+營檢 X光檢驗 (B1) 立車 臥車",
+            "18, , Xingong Rd., Xinying Dist., Tainan city, TAIWAN  Facility Size: 1,750 m²  4 Vertical Lathes  1 Big 5X Milling  3 Small 5X Milling  1 CMM (Brand: Mitutoyo X:2,000mm Y:3,000mm Z:1,600mm)  1 CMM (Brand: Mitutoyo",
+            "PRC) (亞太) PRC (中華人民共和國) Europe/CIS (歐洲) Latin America (拉丁美洲) Middle East (中東) North America (北美) Total (全部) Typically Single Aisle (單走道) 1,200 8,100 8,030 6,660 2,440 2,150 5,680 34,250 Typically Widebody (廣體機) 290 1,950",
+            "2026.10.14 --- page 2 --- Company Introduction 1974 Established 685,735,000 NTD Capital 8222 TAIEX Listed 14,033 sq.",
+            "13, Xingong Rd., Xinying Dist., Tainan city, TAIWAN  Revenue 2025: NTD 961,015 thousand  Revenue 2025(H1): NTD 506,947 thousand  Revenue 2026(H1): NTD 482,007 thousand  YoY: - 4.92 %  Employees: 230 (2026.09.30) 5 a"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-14.md",
+          "detailMarkdown": "## 8222 寶一 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- MOPS 擇要訊息：本公司受邀參加由台新證券舉辦之法人說明會,說明本公司之營運概況、財務及業務相關資訊。\n- [zh PDF] --- page 1 --- 寶一科技發言人: 胡淑賢 副總經理 2026.10.14 --- page 2 --- Company Introduction 1974 成立時間 685,735,000 新台幣 資本額 8222 股票代號 4 285.8 廠區占地坪數 新營 工 業 區 2026/10/2 --- page 3 --- 工廠分布-本廠區 新廠區(2分鐘) 熱處理檢驗+營檢 X光檢驗 (B1) 立車 臥車\n- 18, , Xingong Rd., Xinying Dist., Tainan city, TAIWAN  Facility Size: 1,750 m²  4 Vertical Lathes  1 Big 5X Milling  3 Small 5X Milling  1 CMM (Brand: Mitutoyo X:2,000mm Y:3,000mm Z:1,600mm)  1 CMM (Brand: Mitutoyo\n- PRC) (亞太) PRC (中華人民共和國) Europe/CIS (歐洲) Latin America (拉丁美洲) Middle East (中東) North America (北美) Total (全部) Typically Single Aisle (單走道) 1,200 8,100 8,030 6,660 2,440 2,150 5,680 34,250 Typically Widebody (廣體機) 290 1,950\n\n### 展望與成長利基\n- BOEING 2025 COMMERCIAL MARKET OUTLOOK 10/2/2026 25 資料來源:Boeing 2025 Commercial Market Outlook DELIVERIES(需求) (2025-2044) Africa China Eurasia Latin America Middle East North America Northeast Asia Oceania South Asia Southeast Asia World Regional Jet(區間機) 90 36\n- BOEING 2025 COMMERCIAL MARKET OUTLOOK 10/2/2026 25 Data Source : Boeing 2025 Commercial Market Outlook DELIVERIES(需求) (2025-2044) Africa China Eurasia Latin America Middle East North America Northeast Asia Oceania South Asia Southeast Asia World Regional Jet(區\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- 18, , Xingong Rd., Xinying Dist., Tainan city, TAIWAN  Facility Size: 1,750 m²  4 Vertical Lathes  1 Big 5X Milling  3 Small 5X Milling  1 CMM (Brand: Mitutoyo X:2,000mm Y:3,000mm Z:1,600mm)  1 CMM (Brand: Mitutoyo\n- PRC) (亞太) PRC (中華人民共和國) Europe/CIS (歐洲) Latin America (拉丁美洲) Middle East (中東) North America (北美) Total (全部) Typically Single Aisle (單走道) 1,200 8,100 8,030 6,660 2,440 2,150 5,680 34,250 Typically Widebody (廣體機) 290 1,950\n- 2026.10.14 --- page 2 --- Company Introduction 1974 Established 685,735,000 NTD Capital 8222 TAIEX Listed 14,033 sq.\n- 13, Xingong Rd., Xinying Dist., Tainan city, TAIWAN  Revenue 2025: NTD 961,015 thousand  Revenue 2025(H1): NTD 506,947 thousand  Revenue 2026(H1): NTD 482,007 thousand  YoY: - 4.92 %  Employees: 230 (2026.09.30) 5 a\n\n### 風險與不確定性\n- 本次摘要未擷取到明確風險或保守訊號。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 加分主因：BOEING 2025 COMMERCIAL MARKET OUTLOOK 10/2/2026 25 資料來源:Boeing 2025 Commercial Market Outlook DELIVERIES(需求) (2025-2044) Africa China Eurasia Latin America Middle East North America Northeast Asia Oceania South Asia Southeast Asia World Regional Jet(區間機) 90 36；BOEING 2025 COMMERCIAL MARKET OUTLOOK 10/2/2026 25 Data Source : Boeing 2025 Commercial Market Outlook DELIVERIES(需求) (2025-2044) Africa China Eurasia Latin America Middle East North America Northeast Asia Oceania South Asia Southeast Asia World Regional Jet(區。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-10-14",
+          "code": "8354",
+          "name": "冠好",
+          "eventType": "法人說明會",
+          "time": "14:00",
+          "location": "實體(採實名報名制)法說會,實體法說會地點:南投市成功三路239號。",
+          "topic": "說明本公司營運概況",
+          "companyWebsite": "",
+          "chinesePdf": "",
+          "englishPdf": "",
+          "mediaUrl": "http://irconference.twse.com.tw/8354_5_20261014_ch.mp4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "未從簡報或轉錄稿擷取到明確展望段落。"
+          ],
+          "outlookTone": {
+            "label": "中性觀望",
+            "score": 50,
+            "basis": "正向訊號 0、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "MOPS 擇要訊息：說明本公司營運概況",
+            "缺少可摘要的簡報文字或轉錄稿。"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-14.md",
+          "detailMarkdown": "## 8354 冠好 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：說明本公司營運概況\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-10-14",
+          "code": "8404",
+          "name": "百和興業-KY",
+          "eventType": "法人說明會",
+          "time": "14:00",
+          "location": "聯合線上法人說明會",
+          "topic": "本公司受邀參加富邦證券舉辦之聯合線上法人說明會,說明本公司營運成果及未來展望。",
+          "companyWebsite": "http://www.kypaiho.com",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/840420261014M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/840420261014E001.pdf",
+          "mediaUrl": "http://irconference.twse.com.tw/8404_19_20261014_ch.mp4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "PAIHO SHIH PAIHO SHIH 2626肆、未來展望 一.未來研發方向 持續開發實用美觀 具高質感、高價值的產品 符合環保需求 自動化設備及製程的 開發 未來 研發方向",
+            "PAIHO SHIH PAIHO SHIH 2 簡報大綱 壹、 公司簡介。 貳、 營運概況及經營實績。 叁、 競爭優勢。 肆、 未來展望。",
+            "PAIHO SHIH PAIHO SHIH 二. 歷史沿革 5 ▓ 2000年 台灣百和工業股份有限公司於英屬維京群島設立百和集團有限公司。 百和集團有限公司投資成立百和控股有限公司，再由百和控股有限公司於中國大陸設立江蘇百宏公司。 ▓ 2005年 配合業務重組需要，成立東莞百宏公司，以服務珠江三角洲的客戶。 ▓ 2010年 江蘇百宏公司獲江蘇省科學技術廳頒發「高新技術產品認定證書」及「高新技術企業證書」，可按15%徵收企業所得稅。 ▓ 2011年 本公司於5月18日於台灣資本市場掛牌上市。 ▓ 2015年 因應未",
+            "PAIHO SHIH PAIHO SHIH 2 Agenda 1. Company Profile. 2. Operating Overview & Performance. 3. Competitive Advantages. 4. Future Outlook.",
+            "PAIHO SHIH PAIHO SHIH (2) History 5 ▓ Year 2000 Taiwan Paiho Limited. established Paiho Group Inc. locates in British Virgin Island. Paiho Group Inc. invested and established Paiho Holdings Ltd., and Paiho Holdings Ltd. established Thomas Dynamic Material (Jia",
+            "PAIHO SHIH PAIHO SHIH 2626 4. Future Outlook (1)Research Direction Continuously developing practical and attractive appearance with high quality and high value products Compliance with environmental requirements Facility automation and development of process F"
+          ],
+          "outlookTone": {
+            "label": "中性觀望",
+            "score": 50,
+            "basis": "正向訊號 0、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：本公司受邀參加富邦證券舉辦之聯合線上法人說明會,說明本公司營運成果及未來展望。",
+            "10,141 8,073 5,269 7,000 7,577 5,955 1,249 556 (627) 368 602 31 13.1% 6.9% -12.0% 5.1% 7.9% 0.5% 37.4% 34.0% 29.4% 37.2% 38.5% 32.2% 20.5% 13.2% -1.3% 14.2% 16.4% 9.1% 2021 2022 2023 2024 2025 2026年 1-9⽉ 營收淨額 母公司淨利 (損) 淨",
+            "主要產品說明(續) 17 --- page 18 --- PAIHO SHIH PAIHO SHIH 運動 1818 五.主要產品的運用領域 鞋 醫療 器材 包包 成衣 玩具 汽車 資訊 電子 飛機 腳踏車 DIY裝潢 寢具 胸罩 肩帶美髮 文具 --- page 19 --- PAIHO SHIH PAIHO SHIH 六、主要產品營業比重 19 單位 :新台幣仟元 ; % --- page 20 --- PAIHO SHIH PAI",
+            "1,248,644 555,749 (627,254) 368,319 601,631 30,669 EPS Attributable to Shareholders of Paiho Shih Holdings Corp.",
+            "[zh PDF] --- page 1 --- 百和興業股份有限公司 百和興業股份有限公司 1 2026 年 10 月 百和興業股份有限公司 公司簡報 股票代碼:8404 報告人： 張玉敏經理 --- page 2 --- PAIHO SHIH PAIHO SHIH 2 簡報大綱 壹、 公司簡介。",
+            "page 3 --- PAIHO SHIH PAIHO SHIH 壹、公司簡介 一."
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-14.md",
+          "detailMarkdown": "## 8404 百和興業-KY 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 10,141 8,073 5,269 7,000 7,577 5,955 1,249 556 (627) 368 602 31 13.1% 6.9% -12.0% 5.1% 7.9% 0.5% 37.4% 34.0% 29.4% 37.2% 38.5% 32.2% 20.5% 13.2% -1.3% 14.2% 16.4% 9.1% 2021 2022 2023 2024 2025 2026年 1-9⽉ 營收淨額 母公司淨利 (損) 淨\n- 1,248,644 555,749 (627,254) 368,319 601,631 30,669 EPS Attributable to Shareholders of Paiho Shih Holdings Corp.\n\n### 展望與成長利基\n- PAIHO SHIH PAIHO SHIH 2626肆、未來展望 一.未來研發方向 持續開發實用美觀 具高質感、高價值的產品 符合環保需求 自動化設備及製程的 開發 未來 研發方向\n- PAIHO SHIH PAIHO SHIH 2 簡報大綱 壹、 公司簡介。 貳、 營運概況及經營實績。 叁、 競爭優勢。 肆、 未來展望。\n- PAIHO SHIH PAIHO SHIH 二. 歷史沿革 5 ▓ 2000年 台灣百和工業股份有限公司於英屬維京群島設立百和集團有限公司。 百和集團有限公司投資成立百和控股有限公司，再由百和控股有限公司於中國大陸設立江蘇百宏公司。 ▓ 2005年 配合業務重組需要，成立東莞百宏公司，以服務珠江三角洲的客戶。 ▓ 2010年 江蘇百宏公司獲江蘇省科學技術廳頒發「高新技術產品認定證書」及「高新技術企業證書」，可按15%徵收企業所得稅。 ▓ 2011年 本公司於5月18日於台灣資本市場掛牌上市。 ▓ 2015年 因應未\n- PAIHO SHIH PAIHO SHIH 2 Agenda 1. Company Profile. 2. Operating Overview & Performance. 3. Competitive Advantages. 4. Future Outlook.\n- PAIHO SHIH PAIHO SHIH (2) History 5 ▓ Year 2000 Taiwan Paiho Limited. established Paiho Group Inc. locates in British Virgin Island. Paiho Group Inc. invested and established Paiho Holdings Ltd., and Paiho Holdings Ltd. established Thomas Dynamic Material (Jia\n- PAIHO SHIH PAIHO SHIH 2626 4. Future Outlook (1)Research Direction Continuously developing practical and attractive appearance with high quality and high value products Compliance with environmental requirements Facility automation and development of process F\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- 主要產品說明(續) 17 --- page 18 --- PAIHO SHIH PAIHO SHIH 運動 1818 五.主要產品的運用領域 鞋 醫療 器材 包包 成衣 玩具 汽車 資訊 電子 飛機 腳踏車 DIY裝潢 寢具 胸罩 肩帶美髮 文具 --- page 19 --- PAIHO SHIH PAIHO SHIH 六、主要產品營業比重 19 單位 :新台幣仟元 ; % --- page 20 --- PAIHO SHIH PAI\n- 1,248,644 555,749 (627,254) 368,319 601,631 30,669 EPS Attributable to Shareholders of Paiho Shih Holdings Corp.\n- [zh PDF] --- page 1 --- 百和興業股份有限公司 百和興業股份有限公司 1 2026 年 10 月 百和興業股份有限公司 公司簡報 股票代碼:8404 報告人： 張玉敏經理 --- page 2 --- PAIHO SHIH PAIHO SHIH 2 簡報大綱 壹、 公司簡介。\n- page 3 --- PAIHO SHIH PAIHO SHIH 壹、公司簡介 一.\n- PAIHO SHIH PAIHO SHIH 2626肆、未來展望 一.未來研發方向 持續開發實用美觀 具高質感、高價值的產品 符合環保需求 自動化設備及製程的 開發 未來 研發方向\n\n### 風險與不確定性\n- 本次摘要未擷取到明確風險或保守訊號。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 加分主因：PAIHO SHIH PAIHO SHIH 2626肆、未來展望 一.未來研發方向 持續開發實用美觀 具高質感、高價值的產品 符合環保需求 自動化設備及製程的 開發 未來 研發方向；PAIHO SHIH PAIHO SHIH 二. 歷史沿革 5 ▓ 2000年 台灣百和工業股份有限公司於英屬維京群島設立百和集團有限公司。 百和集團有限公司投資成立百和控股有限公司，再由百和控股有限公司於中國大陸設立江蘇百宏公司。 ▓ 2005年 配合業務重組需要，成立東莞百宏公司，以服務珠江三角洲的客戶。 ▓ 2010年 江蘇百宏公司獲江蘇省科學技術廳頒發「高新技術產品認定證書」及「高新技術企業證書」，可按15%徵收企業所得稅。 ▓ 2011年 本公司於5月18日於台灣資本市場掛牌上市。 ▓ 2015年 因應未。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-10-14",
+          "code": "9938",
+          "name": "百和",
+          "eventType": "法人說明會",
+          "time": "14:00",
+          "location": "聯合線上法人說明會",
+          "topic": "本公司受邀參加富邦證券舉辦之聯合線上法人說明會,說明本公司財務業務狀況及經營績效",
+          "companyWebsite": "https://www.paiho.com",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/993820261013M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/993820261013E001.pdf",
+          "mediaUrl": "http://irconference.twse.com.tw/9938_50_20261014_ch.mp4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "各年度推出之主要產品 百和開發各類的產品， 以滿足客戶更完整的需 求，未來還會陸續開發 其他產品 1979 黏 扣 帶 1990 鬆 緊 帶 1993 ~ 1995 織 帶 ． 鞋 帶 1996 ~ 1998 反 光 產 品 . 編 織 布 2003 ~ 2004 TPU商標 紙尿褲用 醫療用品 運動器材 汽車內裝 射出勾 成衣拉鍊片 消費性產品 貼而美產品 2005 ~ 2006 竹炭長短纖 原料商品 射出勾產品 (電腦管線帶 、戶外體育 用品) LACOYA 竹炭產品 浮水印 防偽反光 射出勾產品 2007 ~",
+            "Main products Paiho develops various types of products to meet all customers’ needs, and will keeps developing more products in the future. 1979 Touch fastener 1990 Elastics 1993 ~ 1995 Webbing Shoelace 1996 ~ 1998 Reflective material Braid fabric 2003 ~ 2004"
+          ],
+          "outlookTone": {
+            "label": "中性觀望",
+            "score": 50,
+            "basis": "正向訊號 0、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：本公司受邀參加富邦證券舉辦之聯合線上法人說明會,說明本公司財務業務狀況及經營績效",
+            "編 織 布 2003 ~ 2004 TPU商標 紙尿褲用 醫療用品 運動器材 汽車內裝 射出勾 成衣拉鍊片 消費性產品 貼而美產品 2005 ~ 2006 竹炭長短纖 原料商品 射出勾產品 (電腦管線帶 、戶外體育 用品) LACOYA 竹炭產品 浮水印 防偽反光 射出勾產品 2007 ~ 2008 射出勾 竹炭系列 成品及 品牌通路 水晶束頭 琉璃束頭 可拆換式 大底 黑天鵝握 把帶系列 2009 ~ 2010 經緯提織帶 牛耳織帶",
+            "[zh PDF] --- page 1 --- Taiwan Paiho Limited 40-years experiences in the line of textiles 2026/10/14 1 --- page 2 --- 簡報內容  經營績效  ESG企業永續發展  新產品簡介  競爭優勢  未來發展計畫  公司概況  集團關係企業  主要產品及專利  產品應用市場  主要知名客戶 2 --- page",
+            "Paiho Indonesia  Date of establishment：March, 2010  Land Area：105,162 square meter 13 --- page 14 --- Dongguan Paihong  Date of establishment ：October, 2005  Pilot production started：September, 2007  Invested amount",
+            "2025 Touch fasteners 12.1% Webbings/Shoelaces 43.6%Elastics 12.5% Others processed taken 3.7% Molded Hook 6.6% Warp Knitting Jacquard Fabric 21.5% (Not include real estate) Net sales：NT$ 11,968 mn --- page 25 --- Operati",
+            "參與工業技術研究院開發「複合再生韌帶」獲得2026 Edison Awards愛迪生金獎 6 --- page 7 --- 集團主要生產工廠 越南百和 責任有限 公司 江蘇百宏 複合材料科技 股份有限公司 (無錫百和) 東莞百宏 實業有限 公司 印尼百和 股份有限 公司 百和興業 股份有限 公司 越南百宏 責任有限 公司 越南二廠 (黎明春 三工業區) 無錫百衛 生物科技 有限公司 越南三廠 (新造工業區) 無錫百宏 置業有限 公司 台"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-14.md",
+          "detailMarkdown": "## 9938 百和 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- Main products Paiho develops various types of products to meet all customers’ needs, and will keeps developing more products in the future. 1979 Touch fastener 1990 Elastics 1993 ~ 1995 Webbing Shoelace 1996 ~ 1998 Reflective material Braid fabric 2003 ~ 2004\n\n### 展望與成長利基\n- 各年度推出之主要產品 百和開發各類的產品， 以滿足客戶更完整的需 求，未來還會陸續開發 其他產品 1979 黏 扣 帶 1990 鬆 緊 帶 1993 ~ 1995 織 帶 ． 鞋 帶 1996 ~ 1998 反 光 產 品 . 編 織 布 2003 ~ 2004 TPU商標 紙尿褲用 醫療用品 運動器材 汽車內裝 射出勾 成衣拉鍊片 消費性產品 貼而美產品 2005 ~ 2006 竹炭長短纖 原料商品 射出勾產品 (電腦管線帶 、戶外體育 用品) LACOYA 竹炭產品 浮水印 防偽反光 射出勾產品 2007 ~\n- Main products Paiho develops various types of products to meet all customers’ needs, and will keeps developing more products in the future. 1979 Touch fastener 1990 Elastics 1993 ~ 1995 Webbing Shoelace 1996 ~ 1998 Reflective material Braid fabric 2003 ~ 2004\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- 編 織 布 2003 ~ 2004 TPU商標 紙尿褲用 醫療用品 運動器材 汽車內裝 射出勾 成衣拉鍊片 消費性產品 貼而美產品 2005 ~ 2006 竹炭長短纖 原料商品 射出勾產品 (電腦管線帶 、戶外體育 用品) LACOYA 竹炭產品 浮水印 防偽反光 射出勾產品 2007 ~ 2008 射出勾 竹炭系列 成品及 品牌通路 水晶束頭 琉璃束頭 可拆換式 大底 黑天鵝握 把帶系列 2009 ~ 2010 經緯提織帶 牛耳織帶\n- [zh PDF] --- page 1 --- Taiwan Paiho Limited 40-years experiences in the line of textiles 2026/10/14 1 --- page 2 --- 簡報內容  經營績效  ESG企業永續發展  新產品簡介  競爭優勢  未來發展計畫  公司概況  集團關係企業  主要產品及專利  產品應用市場  主要知名客戶 2 --- page\n- Paiho Indonesia  Date of establishment：March, 2010  Land Area：105,162 square meter 13 --- page 14 --- Dongguan Paihong  Date of establishment ：October, 2005  Pilot production started：September, 2007  Invested amount\n- 各年度推出之主要產品 百和開發各類的產品， 以滿足客戶更完整的需 求，未來還會陸續開發 其他產品 1979 黏 扣 帶 1990 鬆 緊 帶 1993 ~ 1995 織 帶 ． 鞋 帶 1996 ~ 1998 反 光 產 品 . 編 織 布 2003 ~ 2004 TPU商標 紙尿褲用 醫療用品 運動器材 汽車內裝 射出勾 成衣拉鍊片 消費性產品 貼而美產品 2005 ~ 2006 竹炭長短纖 原料商品 射出勾產品 (電腦管線帶 、戶外體育 用品) LACOYA 竹炭產品 浮水印 防偽反光 射出勾產品 2007 ~\n- Main products Paiho develops various types of products to meet all customers’ needs, and will keeps developing more products in the future. 1979 Touch fastener 1990 Elastics 1993 ~ 1995 Webbing Shoelace 1996 ~ 1998 Reflective material Braid fabric 2003 ~ 2004\n\n### 風險與不確定性\n- 本次摘要未擷取到明確風險或保守訊號。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-10-13T13:39:31.204Z",
       "queryDate": "2026-10-13",
