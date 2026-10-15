@@ -1,10 +1,144 @@
 window.irSummaryHistory = {
-  "generatedAt": "2026-10-14T13:14:01.012Z",
+  "generatedAt": "2026-10-15T13:08:05.972Z",
   "sourceRoot": "C:\\Users\\user\\Desktop\\Codex專案\\法說整理",
   "retentionDays": 30,
   "maxMeetingDate": "",
-  "latestDate": "2026-10-14",
+  "latestDate": "2026-10-15",
   "items": [
+    {
+      "generatedAt": "2026-10-15T13:08:05.972Z",
+      "queryDate": "2026-10-15",
+      "displayDate": "2026-10-15",
+      "count": 3,
+      "rows": [
+        {
+          "date": "2026-10-15",
+          "code": "1540",
+          "name": "喬福",
+          "eventType": "法人說明會",
+          "time": "14:00",
+          "location": "11049台北市信義區信義路五段7號1樓(證交所(101大樓1樓資訊展示中心)",
+          "topic": "近期財務狀況",
+          "companyWebsite": "",
+          "chinesePdf": "",
+          "englishPdf": "",
+          "mediaUrl": "https://webprovod.twse.com.tw/vod/_definst_/BA/72/4D240C2994C1-71046A49-C866-11F1-BA72/4D240C2994C1-71046A49-C866-11F1-BA72_ATM.mp4/playlist.m3u8",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "未從簡報或轉錄稿擷取到明確展望段落。"
+          ],
+          "outlookTone": {
+            "label": "中性觀望",
+            "score": 50,
+            "basis": "正向訊號 0、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "MOPS 擇要訊息：近期財務狀況",
+            "缺少可摘要的簡報文字或轉錄稿。"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-15.md",
+          "detailMarkdown": "## 1540 喬福 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：近期財務狀況\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-10-15",
+          "code": "2330",
+          "name": "台積電",
+          "eventType": "法人說明會",
+          "time": "14:00",
+          "location": "線上法說會",
+          "topic": "(1)公布本公司2026年第3季財務報告及2026年第4季業績展望。(2)參加方式:請參見https://investor.tsmc.com/chinese/quarterly-results/2026/q3",
+          "companyWebsite": "https://investor.tsmc.com/chinese/quarterly-results/2026/q3",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/233020261015M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/233020261015E001.pdf",
+          "mediaUrl": "https://investor.tsmc.com/chinese/quarterly-results/2026/q3",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "Unleash Innovation © 32026 TSMC, Ltd TSMC Property 綜合損益表 綜合損益表項目 3Q26 3Q26 2Q26 3Q25 季變化 年變化(除另予註明者外，金額為新台幣十億元) 業績展望 營業收入淨額 (美金十億元) 46.72 44.6-45.8 40.20 33.10 +16.2% +41.2% 營業收入淨額 1,494.24 1,270.38 989.92 +17.6% +50.9% 營業毛利率 66.4% 65.0%-67.0% 67.7% 59.5% -1.3",
+            "Unleash Innovation © 92026 TSMC, Ltd TSMC Property 未來展望 基於目前對營運展望的假設，台積公司預期 : • 2026 年美元合併營收成長大約 44%。",
+            "Unleash Innovation © 32026 TSMC, Ltd TSMC Property Statements of Comprehensive Income Selected Items from Statements of Comprehensive Income 3Q26 3Q26 2Q26 3Q25 3Q26 Over 2Q26 3Q26 Over 3Q25(In NT$ billions unless otherwise noted) Guidance Net Revenue (US$ bil",
+            "Unleash Innovation © 12026 TSMC, Ltd TSMC Property 會議議程 • 致歡迎詞 蘇志凱 法人關係處處長 • 2026年第三季營運成果及第四季業績展望 黃仁昭 財務長 • Key Messages 黃仁昭 財務長 魏哲家 董事長暨總裁 • 問與答",
+            "Unleash Innovation © 62026 TSMC, Ltd TSMC Property 資產負債表及重要財務指標 資產負債表項目 3Q26 2Q26 3Q25 (新台幣十億元) 金額 % 金額 % 金額 % 現金及有價金融商品投資 4,016.98 39.9 % 3,518.01 37.5 % 2,751.06 37.4 % 應收帳款 483.56 4.8 % 440.92 4.7 % 307.81 4.2 % 存貨 427.75 4.3 % 385.53 4.1 % 288.69 3.9 % 長期投",
+            "Unleash Innovation © 72026 TSMC, Ltd TSMC Property 現金流量表 * 自由現金流量 = 營運活動之現金流入–資本支出 (新台幣十億元) 3Q26 2Q26 3Q25 期初現金 3,134.22 3,035.64 2,364.52 營運活動之現金流入 919.77 783.36 426.83 資本支出 (443.21) (496.00) (287.45) 現金股利 (155.59) (155.59) (116.70) 應付公司債 (0.85) (31.66) (9.06",
+            "Unleash Innovation © 12026 TSMC, Ltd TSMC Property Agenda • Welcome Jeff Su, IR Director • 3Q26 Financial Results and 4Q26 Outlook Wendell Huang, CFO • Key Messages Wendell Huang, CFO C.C. Wei, Chairman & CEO • Q&A",
+            "Unleash Innovation © 62026 TSMC, Ltd TSMC Property Balance Sheets & Key Indices Selected Items from Balance Sheets 3Q26 2Q26 3Q25 (In NT$ billions) Amount % Amount % Amount % Cash & Marketable Securities 4,016.98 39.9 % 3,518.01 37.5 % 2,751.06 37.4 % Accounts"
+          ],
+          "outlookTone": {
+            "label": "中性偏正面",
+            "score": 58,
+            "basis": "正向訊號 2、保守訊號 1"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：(1)公布本公司2026年第3季財務報告及2026年第4季業績展望。(2)參加方式:請參見https://investor.tsmc.com/chinese/quarterly-results/2026/q3",
+            "page 4 --- Unleash Innovation © 32026 TSMC, Ltd TSMC Property 綜合損益表 綜合損益表項目 3Q26 3Q26 2Q26 3Q25 季變化 年變化(除另予註明者外，金額為新台幣十億元) 業績展望 營業收入淨額 (美金十億元) 46.72 44.6-45.8 40.20 33.10 +16.2% +41.2% 營業收入淨額 1,494.24 1,270.38 989.92 +17",
+            "page 10 --- Unleash Innovation © 92026 TSMC, Ltd TSMC Property 未來展望 基於目前對營運展望的假設，台積公司預期 : • 2026 年美元合併營收成長大約 44%。",
+            "[zh PDF] --- page 1 --- Unleash Innovation © 02026 TSMC, Ltd TSMC Property Unleash Innovation 2026年第三季法人說明會 2026年10月15日 --- page 2 --- Unleash Innovation © 12026 TSMC, Ltd TSMC Property 會議議程 • 致歡迎詞 蘇志凱 法人關係處處長 • 2026年第三季",
+            "此外，基於平均匯率 31.8 的假設，台積公司預期: • 營業毛利率約介於百分之 65 到百分之 67 之間。",
+            "Wei, Chairman & CEO • Q&A --- page 3 --- Unleash Innovation © 22026 TSMC, Ltd TSMC Property Safe Harbor Notice • TSMC’s statements of its current expectations are forward-looking statements subject to significant risks a"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-15.md",
+          "detailMarkdown": "## 2330 台積電 深度法說分析\n\n### 一頁結論\n- 展望評價：中性偏正面（58 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 2、保守訊號 1。\n- 判讀：方向偏正面，但管理層仍保留部分彈性，較適合追蹤接單、毛利率與下一季財測是否延續。 \n\n### 營運與財務重點\n- page 10 --- Unleash Innovation © 92026 TSMC, Ltd TSMC Property 未來展望 基於目前對營運展望的假設，台積公司預期 : • 2026 年美元合併營收成長大約 44%。\n- 此外，基於平均匯率 31.8 的假設，台積公司預期: • 營業毛利率約介於百分之 65 到百分之 67 之間。\n- Unleash Innovation © 32026 TSMC, Ltd TSMC Property 綜合損益表 綜合損益表項目 3Q26 3Q26 2Q26 3Q25 季變化 年變化(除另予註明者外，金額為新台幣十億元) 業績展望 營業收入淨額 (美金十億元) 46.72 44.6-45.8 40.20 33.10 +16.2% +41.2% 營業收入淨額 1,494.24 1,270.38 989.92 +17.6% +50.9% 營業毛利率 66.4% 65.0%-67.0% 67.7% 59.5% -1.3\n- Unleash Innovation © 92026 TSMC, Ltd TSMC Property 未來展望 基於目前對營運展望的假設，台積公司預期 : • 2026 年美元合併營收成長大約 44%。\n- Unleash Innovation © 62026 TSMC, Ltd TSMC Property 資產負債表及重要財務指標 資產負債表項目 3Q26 2Q26 3Q25 (新台幣十億元) 金額 % 金額 % 金額 % 現金及有價金融商品投資 4,016.98 39.9 % 3,518.01 37.5 % 2,751.06 37.4 % 應收帳款 483.56 4.8 % 440.92 4.7 % 307.81 4.2 % 存貨 427.75 4.3 % 385.53 4.1 % 288.69 3.9 % 長期投\n- Unleash Innovation © 72026 TSMC, Ltd TSMC Property 現金流量表 * 自由現金流量 = 營運活動之現金流入–資本支出 (新台幣十億元) 3Q26 2Q26 3Q25 期初現金 3,134.22 3,035.64 2,364.52 營運活動之現金流入 919.77 783.36 426.83 資本支出 (443.21) (496.00) (287.45) 現金股利 (155.59) (155.59) (116.70) 應付公司債 (0.85) (31.66) (9.06\n\n### 展望與成長利基\n- Unleash Innovation © 32026 TSMC, Ltd TSMC Property 綜合損益表 綜合損益表項目 3Q26 3Q26 2Q26 3Q25 季變化 年變化(除另予註明者外，金額為新台幣十億元) 業績展望 營業收入淨額 (美金十億元) 46.72 44.6-45.8 40.20 33.10 +16.2% +41.2% 營業收入淨額 1,494.24 1,270.38 989.92 +17.6% +50.9% 營業毛利率 66.4% 65.0%-67.0% 67.7% 59.5% -1.3\n- Unleash Innovation © 92026 TSMC, Ltd TSMC Property 未來展望 基於目前對營運展望的假設，台積公司預期 : • 2026 年美元合併營收成長大約 44%。\n- Unleash Innovation © 32026 TSMC, Ltd TSMC Property Statements of Comprehensive Income Selected Items from Statements of Comprehensive Income 3Q26 3Q26 2Q26 3Q25 3Q26 Over 2Q26 3Q26 Over 3Q25(In NT$ billions unless otherwise noted) Guidance Net Revenue (US$ bil\n- Unleash Innovation © 12026 TSMC, Ltd TSMC Property 會議議程 • 致歡迎詞 蘇志凱 法人關係處處長 • 2026年第三季營運成果及第四季業績展望 黃仁昭 財務長 • Key Messages 黃仁昭 財務長 魏哲家 董事長暨總裁 • 問與答\n- Unleash Innovation © 62026 TSMC, Ltd TSMC Property 資產負債表及重要財務指標 資產負債表項目 3Q26 2Q26 3Q25 (新台幣十億元) 金額 % 金額 % 金額 % 現金及有價金融商品投資 4,016.98 39.9 % 3,518.01 37.5 % 2,751.06 37.4 % 應收帳款 483.56 4.8 % 440.92 4.7 % 307.81 4.2 % 存貨 427.75 4.3 % 385.53 4.1 % 288.69 3.9 % 長期投\n- Unleash Innovation © 72026 TSMC, Ltd TSMC Property 現金流量表 * 自由現金流量 = 營運活動之現金流入–資本支出 (新台幣十億元) 3Q26 2Q26 3Q25 期初現金 3,134.22 3,035.64 2,364.52 營運活動之現金流入 919.77 783.36 426.83 資本支出 (443.21) (496.00) (287.45) 現金股利 (155.59) (155.59) (116.70) 應付公司債 (0.85) (31.66) (9.06\n- Unleash Innovation © 12026 TSMC, Ltd TSMC Property Agenda • Welcome Jeff Su, IR Director • 3Q26 Financial Results and 4Q26 Outlook Wendell Huang, CFO • Key Messages Wendell Huang, CFO C.C. Wei, Chairman & CEO • Q&A\n- Unleash Innovation © 62026 TSMC, Ltd TSMC Property Balance Sheets & Key Indices Selected Items from Balance Sheets 3Q26 2Q26 3Q25 (In NT$ billions) Amount % Amount % Amount % Cash & Marketable Securities 4,016.98 39.9 % 3,518.01 37.5 % 2,751.06 37.4 % Accounts\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- Wei, Chairman & CEO • Q&A --- page 3 --- Unleash Innovation © 22026 TSMC, Ltd TSMC Property Safe Harbor Notice • TSMC’s statements of its current expectations are forward-looking statements subject to significant risks a\n- Unleash Innovation © 12026 TSMC, Ltd TSMC Property Agenda • Welcome Jeff Su, IR Director • 3Q26 Financial Results and 4Q26 Outlook Wendell Huang, CFO • Key Messages Wendell Huang, CFO C.C. Wei, Chairman & CEO • Q&A\n\n### 風險與不確定性\n- Wei, Chairman & CEO • Q&A --- page 3 --- Unleash Innovation © 22026 TSMC, Ltd TSMC Property Safe Harbor Notice • TSMC’s statements of its current expectations are forward-looking statements subject to significant risks a\n\n### Q&A 與管理層口氣\n- 此外，基於平均匯率 31.8 的假設，台積公司預期: • 營業毛利率約介於百分之 65 到百分之 67 之間。\n- Wei, Chairman & CEO • Q&A --- page 3 --- Unleash Innovation © 22026 TSMC, Ltd TSMC Property Safe Harbor Notice • TSMC’s statements of its current expectations are forward-looking statements subject to significant risks a\n- Unleash Innovation © 32026 TSMC, Ltd TSMC Property 綜合損益表 綜合損益表項目 3Q26 3Q26 2Q26 3Q25 季變化 年變化(除另予註明者外，金額為新台幣十億元) 業績展望 營業收入淨額 (美金十億元) 46.72 44.6-45.8 40.20 33.10 +16.2% +41.2% 營業收入淨額 1,494.24 1,270.38 989.92 +17.6% +50.9% 營業毛利率 66.4% 65.0%-67.0% 67.7% 59.5% -1.3\n- Unleash Innovation © 12026 TSMC, Ltd TSMC Property Agenda • Welcome Jeff Su, IR Director • 3Q26 Financial Results and 4Q26 Outlook Wendell Huang, CFO • Key Messages Wendell Huang, CFO C.C. Wei, Chairman & CEO • Q&A\n\n### 評分利基點\n- 加分主因：page 10 --- Unleash Innovation © 92026 TSMC, Ltd TSMC Property 未來展望 基於目前對營運展望的假設，台積公司預期 : • 2026 年美元合併營收成長大約 44%。；Unleash Innovation © 92026 TSMC, Ltd TSMC Property 未來展望 基於目前對營運展望的假設，台積公司預期 : • 2026 年美元合併營收成長大約 44%。。\n- 扣分或保留：Wei, Chairman & CEO • Q&A --- page 3 --- Unleash Innovation © 22026 TSMC, Ltd TSMC Property Safe Harbor Notice • TSMC’s statements of its current expectations are forward-looking statements subject to significant risks a。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-10-15",
+          "code": "2402",
+          "name": "毅嘉",
+          "eventType": "法人說明會",
+          "time": "14:30",
+          "location": "兆豐證券大樓(台北市忠孝東路二段95號13樓1301會議室)",
+          "topic": "本公司受邀參加兆豐證券舉辦之法人說明會,說明本公司之財務、營運及業務相關資訊。",
+          "companyWebsite": "",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/240220261015M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/240220261015E001.pdf",
+          "mediaUrl": "https://video.ichiacloud.com/sv/1d42e812-1a13f3d0611/1d42e812-1a13f3d0611.mp4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "ichia EXECUTIVE SUMMARY 本次法說：四項關鍵訊息 03 01 財務表現｜Financial Performance 營收持續強勁成長 (前三季 94.98 億YoY+17% ；單季 34.17 億)，Q2、Q3 毛利率逐步回升；持續提 升營運效率與獲利品質。 02 營運展望｜Business Outlook 第四季成長動能加速，AI 光通訊新專案 (散熱型金屬外殼 Q3-26/FC-SMT Q4-26/Msap Q3-27) 陸 續進入量產 ，帶動 2027 年高度成長 。 03 價值提升 ｜",
+            "2026 營運法說報告 TMS 截至今年九月 (2026/Q3) 表現 前九月營收已大幅超越 2025 全年總額 利基市場產品毛利率 25% ~ 30% 預估 2026 單位虧轉盈 > 1.5 倍 超 過去年全 年 2026 全年營收預估 預估今年總營收將實現超過 2 倍 強勁成⻑ > 200% 年 度倍增 營收成⻑趨勢⽰意圖 (以2025為基準 100%) 實績進度 年度達成預估 未來展望目標 100% 2025 全年 150%+ 2026 Q3 累計 > 200% 2026 預 估 倍數成⻑ 2027 預估 營",
+            "終端品牌 客戶認證進展與量產時程規劃 現有主力持續深化 驗證最後階段 時間軸推進 ： 高階氣冷 2026/Q3 送樣美系品牌大廠 → 2027/Q1 小批量產 → 2027/Q1+光通訊模組散熱機構件量產出貨。 工控市場穩定出貨 基礎產品持續穩健供應全球工控領 域客戶，提供經營團隊穩固的營收 基本盤與現金流。 美系品牌廠後期認證中 某美系品牌大廠進行產品 後期驗證中 ， 預計 2027 年 Q1 導入小批量產 。 風冷產品 既有市場 高階氣冷模組 2027 Q1 邁 向 光 通 訊 生 態 系 送交美系大廠測試 整",
+            "議 程 時 間 程 序 14:00~14:30 報到 14:30~15:10 2026第三季營運狀況說明 策略佈局及重要事業發展 營運展望 15:10~15:30 Q&A 15:30 法說會結束",
+            "IMS 達成實績&核心能力升級計畫 核心能力升級路徑 Tier 1.5 → 系統整合 → Edge AI 產品 → 目標市場 年度目標：30~50％ 複合成長 現況 內飾模組 Tier 1.5 • 車載內飾模組 ODM • 儲能Busbar • Robotaxi 車門開關模組 已量產 能力升級 SI 系統整合能力 供應商 • 由模組製造走向系統整合 • 承接系統級規格與驗證 產品延伸 Edge AI 產品應用 • 電源管理 · AI 視覺 • 機電測試整合/ 終端產品 市場拓展 目標市場 以核心能力切入三大市場 機",
+            "i c h i a = ( M v i + E v i ) A M S 營運目標及展望 01 / 模組化與高附加價值產品 BUSINESS TRANSFORMATION 2028 年模組解決方案營收占比目標＞60% ，以AI 光通訊、車用電子及先進製造驅動產品組 合升級。 02 / 全球製造與客戶交付能力 GLOBAL MANUFACTURING 深化馬來西亞產能布局，評估北美製造據點；2028 年海外生產營收占比目標＞50% 。 03 / AI 與新技術商業化 NEW GROWTH DRIVERS AI 相關應用",
+            "毅嘉科技 ｜公司概覽 股票代號 ：2402 創立於 1983 年 總部：台灣林口 一站式整合解決方案 (機構 ＋電子＋散熱） 全球製造據點 台灣｜蘇州｜中山｜檳城及 居林 員工人數：3,431 人 （截至 2026 年 9 月） 2025 年營收 新台幣 108.5 億元 營收成長 ｜2021–2025 合併營收（新台幣億元） 2 02 1 6 4 . 8 2022 7 6. 5 202 3 8 5. 6 2024 9 5. 3 2025 10 8. 5 年複合成長率 ： 13.75% 截至 2026 年 9 月｜",
+            "2026年第三季QoQ合併損益 2026年Q3 2026年Q2 金額 % 金額 % 營業收入 3,416,727 100 3,271,270 100 營業成本 2,928,903 86 2,807,440 86 營業毛利 487,824 14 463,830 14 營業費用 322,576 9 279,301 8 營業淨利 165,248 5 184,529 6 營業外收支淨額 (24,801) (1) (22,311) (1) 稅前淨利 140,447 4 162,218 5 所得稅費用 39,059 1 41,"
+          ],
+          "outlookTone": {
+            "label": "正面看好",
+            "score": 100,
+            "basis": "正向訊號 9、保守訊號 2"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：本公司受邀參加兆豐證券舉辦之法人說明會,說明本公司之財務、營運及業務相關資訊。",
+            "page 6 --- 2026 年第三季營運績效 --- page 7 --- 2026年第三季QoQ合併損益 2026年Q3 2026年Q2 金額 % 金額 % 營業收入 3,416,727 100 3,271,270 100 營業成本 2,928,903 86 2,807,440 86 營業毛利 487,824 14 463,830 14 營業費用 322,576 9 279,301 8 營業淨利 165,248 5 184,529",
+            "04 長期展望｜Long-term Growth 深化全球製造布局，評估北美產能擴充，提升全球交付能力，追求營收與獲利同步成長。",
+            "光通訊散熱模組 2026 Q4 強強聯手：垂直整合-杰華精密 攜手 杰華精密 發揮技術與產能互補優勢，共同開發高難度壓鑄機 構件與散熱模組進行分階段擴廠以降低地緣風險 雙位倍數 成長 --- page 23 --- 營運展望 --- page 24 --- i c h i a = ( M v i + E v i ) A M S 營運目標及展望 01 / 模組化與高附加價值產品 BUSINESS TRANSFORMATION 2028 年",
+            "04 / 營收與獲利同步成長 PROFITABLE GROWTH 強化產能利用率、產品毛利結構及資本效率 ，推動營業利益與自由現金流持續改善。",
+            "5 年複合成長率 ： 13.75% 截至 2026 年 9 月｜營收 產品 結構 EMS IMS TMS ESG ｜溫室氣體排放 較 2021 基準年減少 53.62% 近五年平均股東權益報酬率 7.76% --- page 5 --- ichia EXECUTIVE SUMMARY 本次法說：四項關鍵訊息 03 01 財務表現｜Financial Performance 營收持續強勁成長 (前三季 94.98 億YoY+17% ；單季"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-15.md",
+          "detailMarkdown": "## 2402 毅嘉 深度法說分析\n\n### 一頁結論\n- 展望評價：正面看好（100 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 9、保守訊號 2。\n- 判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 \n\n### 營運與財務重點\n- page 6 --- 2026 年第三季營運績效 --- page 7 --- 2026年第三季QoQ合併損益 2026年Q3 2026年Q2 金額 % 金額 % 營業收入 3,416,727 100 3,271,270 100 營業成本 2,928,903 86 2,807,440 86 營業毛利 487,824 14 463,830 14 營業費用 322,576 9 279,301 8 營業淨利 165,248 5 184,529\n- 04 長期展望｜Long-term Growth 深化全球製造布局，評估北美產能擴充，提升全球交付能力，追求營收與獲利同步成長。\n- 光通訊散熱模組 2026 Q4 強強聯手：垂直整合-杰華精密 攜手 杰華精密 發揮技術與產能互補優勢，共同開發高難度壓鑄機 構件與散熱模組進行分階段擴廠以降低地緣風險 雙位倍數 成長 --- page 23 --- 營運展望 --- page 24 --- i c h i a = ( M v i + E v i ) A M S 營運目標及展望 01 / 模組化與高附加價值產品 BUSINESS TRANSFORMATION 2028 年\n- 04 / 營收與獲利同步成長 PROFITABLE GROWTH 強化產能利用率、產品毛利結構及資本效率 ，推動營業利益與自由現金流持續改善。\n- 5 年複合成長率 ： 13.75% 截至 2026 年 9 月｜營收 產品 結構 EMS IMS TMS ESG ｜溫室氣體排放 較 2021 基準年減少 53.62% 近五年平均股東權益報酬率 7.76% --- page 5 --- ichia EXECUTIVE SUMMARY 本次法說：四項關鍵訊息 03 01 財務表現｜Financial Performance 營收持續強勁成長 (前三季 94.98 億YoY+17% ；單季\n- ichia EXECUTIVE SUMMARY 本次法說：四項關鍵訊息 03 01 財務表現｜Financial Performance 營收持續強勁成長 (前三季 94.98 億YoY+17% ；單季 34.17 億)，Q2、Q3 毛利率逐步回升；持續提 升營運效率與獲利品質。 02 營運展望｜Business Outlook 第四季成長動能加速，AI 光通訊新專案 (散熱型金屬外殼 Q3-26/FC-SMT Q4-26/Msap Q3-27) 陸 續進入量產 ，帶動 2027 年高度成長 。 03 價值提升 ｜\n\n### 展望與成長利基\n- ichia EXECUTIVE SUMMARY 本次法說：四項關鍵訊息 03 01 財務表現｜Financial Performance 營收持續強勁成長 (前三季 94.98 億YoY+17% ；單季 34.17 億)，Q2、Q3 毛利率逐步回升；持續提 升營運效率與獲利品質。 02 營運展望｜Business Outlook 第四季成長動能加速，AI 光通訊新專案 (散熱型金屬外殼 Q3-26/FC-SMT Q4-26/Msap Q3-27) 陸 續進入量產 ，帶動 2027 年高度成長 。 03 價值提升 ｜\n- 2026 營運法說報告 TMS 截至今年九月 (2026/Q3) 表現 前九月營收已大幅超越 2025 全年總額 利基市場產品毛利率 25% ~ 30% 預估 2026 單位虧轉盈 > 1.5 倍 超 過去年全 年 2026 全年營收預估 預估今年總營收將實現超過 2 倍 強勁成⻑ > 200% 年 度倍增 營收成⻑趨勢⽰意圖 (以2025為基準 100%) 實績進度 年度達成預估 未來展望目標 100% 2025 全年 150%+ 2026 Q3 累計 > 200% 2026 預 估 倍數成⻑ 2027 預估 營\n- 終端品牌 客戶認證進展與量產時程規劃 現有主力持續深化 驗證最後階段 時間軸推進 ： 高階氣冷 2026/Q3 送樣美系品牌大廠 → 2027/Q1 小批量產 → 2027/Q1+光通訊模組散熱機構件量產出貨。 工控市場穩定出貨 基礎產品持續穩健供應全球工控領 域客戶，提供經營團隊穩固的營收 基本盤與現金流。 美系品牌廠後期認證中 某美系品牌大廠進行產品 後期驗證中 ， 預計 2027 年 Q1 導入小批量產 。 風冷產品 既有市場 高階氣冷模組 2027 Q1 邁 向 光 通 訊 生 態 系 送交美系大廠測試 整\n- 議 程 時 間 程 序 14:00~14:30 報到 14:30~15:10 2026第三季營運狀況說明 策略佈局及重要事業發展 營運展望 15:10~15:30 Q&A 15:30 法說會結束\n- IMS 達成實績&核心能力升級計畫 核心能力升級路徑 Tier 1.5 → 系統整合 → Edge AI 產品 → 目標市場 年度目標：30~50％ 複合成長 現況 內飾模組 Tier 1.5 • 車載內飾模組 ODM • 儲能Busbar • Robotaxi 車門開關模組 已量產 能力升級 SI 系統整合能力 供應商 • 由模組製造走向系統整合 • 承接系統級規格與驗證 產品延伸 Edge AI 產品應用 • 電源管理 · AI 視覺 • 機電測試整合/ 終端產品 市場拓展 目標市場 以核心能力切入三大市場 機\n- i c h i a = ( M v i + E v i ) A M S 營運目標及展望 01 / 模組化與高附加價值產品 BUSINESS TRANSFORMATION 2028 年模組解決方案營收占比目標＞60% ，以AI 光通訊、車用電子及先進製造驅動產品組 合升級。 02 / 全球製造與客戶交付能力 GLOBAL MANUFACTURING 深化馬來西亞產能布局，評估北美製造據點；2028 年海外生產營收占比目標＞50% 。 03 / AI 與新技術商業化 NEW GROWTH DRIVERS AI 相關應用\n- 毅嘉科技 ｜公司概覽 股票代號 ：2402 創立於 1983 年 總部：台灣林口 一站式整合解決方案 (機構 ＋電子＋散熱） 全球製造據點 台灣｜蘇州｜中山｜檳城及 居林 員工人數：3,431 人 （截至 2026 年 9 月） 2025 年營收 新台幣 108.5 億元 營收成長 ｜2021–2025 合併營收（新台幣億元） 2 02 1 6 4 . 8 2022 7 6. 5 202 3 8 5. 6 2024 9 5. 3 2025 10 8. 5 年複合成長率 ： 13.75% 截至 2026 年 9 月｜\n- 2026年第三季QoQ合併損益 2026年Q3 2026年Q2 金額 % 金額 % 營業收入 3,416,727 100 3,271,270 100 營業成本 2,928,903 86 2,807,440 86 營業毛利 487,824 14 463,830 14 營業費用 322,576 9 279,301 8 營業淨利 165,248 5 184,529 6 營業外收支淨額 (24,801) (1) (22,311) (1) 稅前淨利 140,447 4 162,218 5 所得稅費用 39,059 1 41,\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- 光通訊散熱模組 2026 Q4 強強聯手：垂直整合-杰華精密 攜手 杰華精密 發揮技術與產能互補優勢，共同開發高難度壓鑄機 構件與散熱模組進行分階段擴廠以降低地緣風險 雙位倍數 成長 --- page 23 --- 營運展望 --- page 24 --- i c h i a = ( M v i + E v i ) A M S 營運目標及展望 01 / 模組化與高附加價值產品 BUSINESS TRANSFORMATION 2028 年\n- 04 / 營收與獲利同步成長 PROFITABLE GROWTH 強化產能利用率、產品毛利結構及資本效率 ，推動營業利益與自由現金流持續改善。\n- 5 年複合成長率 ： 13.75% 截至 2026 年 9 月｜營收 產品 結構 EMS IMS TMS ESG ｜溫室氣體排放 較 2021 基準年減少 53.62% 近五年平均股東權益報酬率 7.76% --- page 5 --- ichia EXECUTIVE SUMMARY 本次法說：四項關鍵訊息 03 01 財務表現｜Financial Performance 營收持續強勁成長 (前三季 94.98 億YoY+17% ；單季\n- ichia EXECUTIVE SUMMARY 本次法說：四項關鍵訊息 03 01 財務表現｜Financial Performance 營收持續強勁成長 (前三季 94.98 億YoY+17% ；單季 34.17 億)，Q2、Q3 毛利率逐步回升；持續提 升營運效率與獲利品質。 02 營運展望｜Business Outlook 第四季成長動能加速，AI 光通訊新專案 (散熱型金屬外殼 Q3-26/FC-SMT Q4-26/Msap Q3-27) 陸 續進入量產 ，帶動 2027 年高度成長 。 03 價值提升 ｜\n- 2026 營運法說報告 TMS 截至今年九月 (2026/Q3) 表現 前九月營收已大幅超越 2025 全年總額 利基市場產品毛利率 25% ~ 30% 預估 2026 單位虧轉盈 > 1.5 倍 超 過去年全 年 2026 全年營收預估 預估今年總營收將實現超過 2 倍 強勁成⻑ > 200% 年 度倍增 營收成⻑趨勢⽰意圖 (以2025為基準 100%) 實績進度 年度達成預估 未來展望目標 100% 2025 全年 150%+ 2026 Q3 累計 > 200% 2026 預 估 倍數成⻑ 2027 預估 營\n\n### 風險與不確定性\n- page 6 --- 2026 年第三季營運績效 --- page 7 --- 2026年第三季QoQ合併損益 2026年Q3 2026年Q2 金額 % 金額 % 營業收入 3,416,727 100 3,271,270 100 營業成本 2,928,903 86 2,807,440 86 營業毛利 487,824 14 463,830 14 營業費用 322,576 9 279,301 8 營業淨利 165,248 5 184,529\n- 光通訊散熱模組 2026 Q4 強強聯手：垂直整合-杰華精密 攜手 杰華精密 發揮技術與產能互補優勢，共同開發高難度壓鑄機 構件與散熱模組進行分階段擴廠以降低地緣風險 雙位倍數 成長 --- page 23 --- 營運展望 --- page 24 --- i c h i a = ( M v i + E v i ) A M S 營運目標及展望 01 / 模組化與高附加價值產品 BUSINESS TRANSFORMATION 2028 年\n- 2026年第三季QoQ合併損益 2026年Q3 2026年Q2 金額 % 金額 % 營業收入 3,416,727 100 3,271,270 100 營業成本 2,928,903 86 2,807,440 86 營業毛利 487,824 14 463,830 14 營業費用 322,576 9 279,301 8 營業淨利 165,248 5 184,529 6 營業外收支淨額 (24,801) (1) (22,311) (1) 稅前淨利 140,447 4 162,218 5 所得稅費用 39,059 1 41,\n\n### Q&A 與管理層口氣\n- page 6 --- 2026 年第三季營運績效 --- page 7 --- 2026年第三季QoQ合併損益 2026年Q3 2026年Q2 金額 % 金額 % 營業收入 3,416,727 100 3,271,270 100 營業成本 2,928,903 86 2,807,440 86 營業毛利 487,824 14 463,830 14 營業費用 322,576 9 279,301 8 營業淨利 165,248 5 184,529\n- 04 長期展望｜Long-term Growth 深化全球製造布局，評估北美產能擴充，提升全球交付能力，追求營收與獲利同步成長。\n- 光通訊散熱模組 2026 Q4 強強聯手：垂直整合-杰華精密 攜手 杰華精密 發揮技術與產能互補優勢，共同開發高難度壓鑄機 構件與散熱模組進行分階段擴廠以降低地緣風險 雙位倍數 成長 --- page 23 --- 營運展望 --- page 24 --- i c h i a = ( M v i + E v i ) A M S 營運目標及展望 01 / 模組化與高附加價值產品 BUSINESS TRANSFORMATION 2028 年\n- 04 / 營收與獲利同步成長 PROFITABLE GROWTH 強化產能利用率、產品毛利結構及資本效率 ，推動營業利益與自由現金流持續改善。\n- ichia EXECUTIVE SUMMARY 本次法說：四項關鍵訊息 03 01 財務表現｜Financial Performance 營收持續強勁成長 (前三季 94.98 億YoY+17% ；單季 34.17 億)，Q2、Q3 毛利率逐步回升；持續提 升營運效率與獲利品質。 02 營運展望｜Business Outlook 第四季成長動能加速，AI 光通訊新專案 (散熱型金屬外殼 Q3-26/FC-SMT Q4-26/Msap Q3-27) 陸 續進入量產 ，帶動 2027 年高度成長 。 03 價值提升 ｜\n- 2026 營運法說報告 TMS 截至今年九月 (2026/Q3) 表現 前九月營收已大幅超越 2025 全年總額 利基市場產品毛利率 25% ~ 30% 預估 2026 單位虧轉盈 > 1.5 倍 超 過去年全 年 2026 全年營收預估 預估今年總營收將實現超過 2 倍 強勁成⻑ > 200% 年 度倍增 營收成⻑趨勢⽰意圖 (以2025為基準 100%) 實績進度 年度達成預估 未來展望目標 100% 2025 全年 150%+ 2026 Q3 累計 > 200% 2026 預 估 倍數成⻑ 2027 預估 營\n\n### 評分利基點\n- 加分主因：04 長期展望｜Long-term Growth 深化全球製造布局，評估北美產能擴充，提升全球交付能力，追求營收與獲利同步成長。；光通訊散熱模組 2026 Q4 強強聯手：垂直整合-杰華精密 攜手 杰華精密 發揮技術與產能互補優勢，共同開發高難度壓鑄機 構件與散熱模組進行分階段擴廠以降低地緣風險 雙位倍數 成長 --- page 23 --- 營運展望 --- page 24 --- i c h i a = ( M v i + E v i ) A M S 營運目標及展望 01 / 模組化與高附加價值產品 BUSINESS TRANSFORMATION 2028 年；04 / 營收與獲利同步成長 PROFITABLE GROWTH 強化產能利用率、產品毛利結構及資本效率 ，推動營業利益與自由現金流持續改善。。\n- 扣分或保留：page 6 --- 2026 年第三季營運績效 --- page 7 --- 2026年第三季QoQ合併損益 2026年Q3 2026年Q2 金額 % 金額 % 營業收入 3,416,727 100 3,271,270 100 營業成本 2,928,903 86 2,807,440 86 營業毛利 487,824 14 463,830 14 營業費用 322,576 9 279,301 8 營業淨利 165,248 5 184,529；光通訊散熱模組 2026 Q4 強強聯手：垂直整合-杰華精密 攜手 杰華精密 發揮技術與產能互補優勢，共同開發高難度壓鑄機 構件與散熱模組進行分階段擴廠以降低地緣風險 雙位倍數 成長 --- page 23 --- 營運展望 --- page 24 --- i c h i a = ( M v i + E v i ) A M S 營運目標及展望 01 / 模組化與高附加價值產品 BUSINESS TRANSFORMATION 2028 年；2026年第三季QoQ合併損益 2026年Q3 2026年Q2 金額 % 金額 % 營業收入 3,416,727 100 3,271,270 100 營業成本 2,928,903 86 2,807,440 86 營業毛利 487,824 14 463,830 14 營業費用 322,576 9 279,301 8 營業淨利 165,248 5 184,529 6 營業外收支淨額 (24,801) (1) (22,311) (1) 稅前淨利 140,447 4 162,218 5 所得稅費用 39,059 1 41,。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-10-14T13:14:01.012Z",
       "queryDate": "2026-10-14",
