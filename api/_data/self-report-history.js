@@ -1,6 +1,98 @@
 window.selfReportHistory = {
   "items": [
     {
+      "generatedAt": "2026-10-16T22:19:54+08:00",
+      "queryDate": "2026-10-16",
+      "displayDate": "115年10月16日",
+      "checkedAt": "2026-10-16T22:19:54+08:00",
+      "checkedQueryDate": "2026-10-16",
+      "checkedDisplayDate": "115年10月16日",
+      "checkedCount": 3,
+      "checkedSkipped": {
+        "bond_subject": 0,
+        "missing_financials": 0,
+        "duplicate": 0,
+        "detail_error": 0
+      },
+      "count": 3,
+      "skipped": {
+        "bond_subject": 0,
+        "missing_financials": 0,
+        "duplicate": 0,
+        "detail_error": 0
+      },
+      "rows": [
+        {
+          "code": "1815",
+          "name": "富喬",
+          "market": "上櫃",
+          "announcement_date": "115/10/16",
+          "subject": "本公司有價證券近期於櫃買市場達公布注意交易資訊 標準，故公布相關財務業務資訊，以利投資人區別瞭解。",
+          "month_label": "9月",
+          "monthly_revenue": 938.0,
+          "monthly_pre_tax_income": 433.0,
+          "monthly_parent_income": 331.0,
+          "monthly_eps": 0.56,
+          "quarter_eps": 1.45,
+          "tax_margin_pct": 46.16204690831556,
+          "operating_margin_pct": 35.287846481876336,
+          "previous_quarter_monthly_eps": 0.48333333333333334,
+          "reference_quarter": "2026Q2",
+          "reference_tax_margin_pct": 44.83,
+          "reference_operating_margin_pct": 25.69,
+          "tax_margin_delta_pct": 1.3320469083155615,
+          "operating_margin_delta_pct": 9.597846481876335,
+          "detail_key": "otc:1815:20261016:152011:1"
+        },
+        {
+          "code": "6217",
+          "name": "中探針",
+          "market": "上櫃",
+          "announcement_date": "115/10/16",
+          "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告 相關訊息，以利投資人區別暸解",
+          "month_label": "9月",
+          "monthly_revenue": 352.0,
+          "monthly_pre_tax_income": 33.0,
+          "monthly_parent_income": 34.0,
+          "monthly_eps": 0.3,
+          "quarter_eps": 0.3,
+          "tax_margin_pct": 9.375,
+          "operating_margin_pct": 9.659090909090908,
+          "previous_quarter_monthly_eps": 0.09999999999999999,
+          "reference_quarter": "2026Q2",
+          "reference_tax_margin_pct": -4.11,
+          "reference_operating_margin_pct": -3.27,
+          "tax_margin_delta_pct": 13.485,
+          "operating_margin_delta_pct": 12.929090909090908,
+          "detail_key": "otc:6217:20261016:150328:2"
+        },
+        {
+          "code": "6531",
+          "name": "愛普*",
+          "market": "上市",
+          "announcement_date": "115/10/16",
+          "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準， 故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+          "month_label": "單月",
+          "monthly_revenue": 1028.0,
+          "monthly_pre_tax_income": 327.0,
+          "monthly_parent_income": 261.0,
+          "monthly_eps": 1.6,
+          "quarter_eps": 4.18,
+          "tax_margin_pct": 31.809338521400775,
+          "operating_margin_pct": 25.389105058365757,
+          "previous_quarter_monthly_eps": 1.3933333333333333,
+          "reference_quarter": "2026Q2",
+          "reference_tax_margin_pct": 35.33,
+          "reference_operating_margin_pct": 30.71,
+          "tax_margin_delta_pct": -3.520661478599223,
+          "operating_margin_delta_pct": -5.3208949416342435,
+          "detail_key": "sii:6531:20261016:151834:1"
+        }
+      ],
+      "image": "./assets/self-report/self-report-2026-10-16.png",
+      "source": "公開資訊觀測站 / CMoney 財務比率"
+    },
+    {
       "generatedAt": "2026-10-15T21:16:07+08:00",
       "queryDate": "2026-10-15",
       "displayDate": "115年10月15日",
@@ -2340,54 +2432,6 @@ window.selfReportHistory = {
         }
       ],
       "image": "./assets/self-report/self-report-2026-09-16.png",
-      "source": "公開資訊觀測站 / CMoney 財務比率"
-    },
-    {
-      "generatedAt": "2026-09-15T20:29:34+08:00",
-      "queryDate": "2026-09-15",
-      "displayDate": "115年9月15日",
-      "checkedAt": "2026-09-15T20:29:34+08:00",
-      "checkedQueryDate": "2026-09-15",
-      "checkedDisplayDate": "115年9月15日",
-      "checkedCount": 1,
-      "checkedSkipped": {
-        "bond_subject": 0,
-        "missing_financials": 0,
-        "duplicate": 1,
-        "detail_error": 0
-      },
-      "count": 1,
-      "skipped": {
-        "bond_subject": 0,
-        "missing_financials": 0,
-        "duplicate": 1,
-        "detail_error": 0
-      },
-      "rows": [
-        {
-          "code": "8227",
-          "name": "巨有科技",
-          "market": "上櫃",
-          "announcement_date": "115/09/15",
-          "subject": "本公司有價證券近期多次達公布注意交易資訊標準， 故公告相關訊息，以利投資人區別暸解。",
-          "month_label": "單月",
-          "monthly_revenue": 149.75,
-          "monthly_pre_tax_income": 15.61,
-          "monthly_parent_income": null,
-          "monthly_eps": 0.36,
-          "quarter_eps": 2.59,
-          "tax_margin_pct": 10.424040066777964,
-          "operating_margin_pct": null,
-          "previous_quarter_monthly_eps": 0.8633333333333333,
-          "reference_quarter": "2026Q2",
-          "reference_tax_margin_pct": 18.46,
-          "reference_operating_margin_pct": 7.56,
-          "tax_margin_delta_pct": -8.035959933222037,
-          "operating_margin_delta_pct": null,
-          "detail_key": "otc:8227:20260915:135713:1"
-        }
-      ],
-      "image": "./assets/self-report/self-report-2026-09-15.png",
       "source": "公開資訊觀測站 / CMoney 財務比率"
     }
   ]
