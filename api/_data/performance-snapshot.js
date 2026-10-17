@@ -1,181 +1,181 @@
 window.marketPerformanceSnapshot = {
-  "generatedAt": "2026-10-16T00:06:32.104Z",
+  "generatedAt": "2026-10-17T00:10:42.672Z",
   "lookbackLabel": "Recent 21 trading days",
   "scope": "US tickers only",
   "items": {
-    "US:AAOI": {
-      "asOf": "2026-10-14",
-      "pct": -9.5183121079667,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:ADBE": {
-      "asOf": "2026-10-14",
-      "pct": -6.626325435576372,
-      "provider": "Yahoo daily snapshot"
-    },
     "US:ALAB": {
-      "asOf": "2026-10-14",
-      "pct": 18.90393868787099,
+      "asOf": "2026-10-15",
+      "pct": 12.185162048820416,
+      "provider": "Yahoo daily snapshot"
+    },
+    "US:AAOI": {
+      "asOf": "2026-10-15",
+      "pct": -13.448413059877026,
       "provider": "Yahoo daily snapshot"
     },
     "US:AEHR": {
-      "asOf": "2026-10-14",
-      "pct": -12.368232092199145,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:ANET": {
-      "asOf": "2026-10-14",
-      "pct": 1.3378976768564426,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:APH": {
-      "asOf": "2026-10-14",
-      "pct": 6.4906642839506326,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:AMZN": {
-      "asOf": "2026-10-14",
-      "pct": 2.278400975697666,
+      "asOf": "2026-10-15",
+      "pct": -17.851633134157087,
       "provider": "Yahoo daily snapshot"
     },
     "US:AMD": {
-      "asOf": "2026-10-14",
-      "pct": 13.213009421711883,
+      "asOf": "2026-10-15",
+      "pct": 9.703410823170731,
       "provider": "Yahoo daily snapshot"
     },
-    "US:AMKR": {
-      "asOf": "2026-10-14",
-      "pct": -3.3635216415798372,
+    "US:ADBE": {
+      "asOf": "2026-10-15",
+      "pct": 0.46706513730351795,
+      "provider": "Yahoo daily snapshot"
+    },
+    "US:AMZN": {
+      "asOf": "2026-10-15",
+      "pct": 3.577812470629034,
       "provider": "Yahoo daily snapshot"
     },
     "US:AMAT": {
-      "asOf": "2026-10-14",
-      "pct": 6.045062716566508,
+      "asOf": "2026-10-15",
+      "pct": 3.5220773053194834,
       "provider": "Yahoo daily snapshot"
     },
-    "US:ARM": {
-      "asOf": "2026-10-14",
-      "pct": -1.5796250652503623,
+    "US:AMKR": {
+      "asOf": "2026-10-15",
+      "pct": -4.818495248608146,
       "provider": "Yahoo daily snapshot"
     },
-    "US:ASML": {
-      "asOf": "2026-10-14",
-      "pct": 3.677081725779151,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:AVGO": {
-      "asOf": "2026-10-14",
-      "pct": 2.057361750923052,
+    "US:ANET": {
+      "asOf": "2026-10-15",
+      "pct": -6.054465860872189,
       "provider": "Yahoo daily snapshot"
     },
     "US:CARR": {
-      "asOf": "2026-10-14",
-      "pct": -2.340653971248145,
+      "asOf": "2026-10-15",
+      "pct": 1.2900862229876928,
       "provider": "Yahoo daily snapshot"
     },
     "US:CDNS": {
-      "asOf": "2026-10-14",
-      "pct": 20.258432519735447,
+      "asOf": "2026-10-15",
+      "pct": 15.891394053684117,
+      "provider": "Yahoo daily snapshot"
+    },
+    "US:ASML": {
+      "asOf": "2026-10-15",
+      "pct": 3.446466260116084,
+      "provider": "Yahoo daily snapshot"
+    },
+    "US:ARM": {
+      "asOf": "2026-10-15",
+      "pct": 0.33199343092796113,
+      "provider": "Yahoo daily snapshot"
+    },
+    "US:AVGO": {
+      "asOf": "2026-10-15",
+      "pct": 1.419686214838854,
+      "provider": "Yahoo daily snapshot"
+    },
+    "US:APH": {
+      "asOf": "2026-10-15",
+      "pct": 5.475013733601024,
       "provider": "Yahoo daily snapshot"
     },
     "US:CEG": {
-      "asOf": "2026-10-14",
-      "pct": 7.560888371592739,
+      "asOf": "2026-10-15",
+      "pct": 5.960775745950951,
       "provider": "Yahoo daily snapshot"
     },
     "US:CIEN": {
-      "asOf": "2026-10-14",
-      "pct": 7.558406528332112,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:COHR": {
-      "asOf": "2026-10-14",
-      "pct": -2.89486510853001,
+      "asOf": "2026-10-15",
+      "pct": 4.70484258844989,
       "provider": "Yahoo daily snapshot"
     },
     "US:CRDO": {
-      "asOf": "2026-10-14",
-      "pct": 19.17348682152594,
+      "asOf": "2026-10-15",
+      "pct": 10.533156188143158,
       "provider": "Yahoo daily snapshot"
     },
-    "US:CRM": {
-      "asOf": "2026-10-14",
-      "pct": -7.705846829090457,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:CSCO": {
-      "asOf": "2026-10-14",
-      "pct": 3.243390301373908,
+    "US:COHR": {
+      "asOf": "2026-10-15",
+      "pct": -13.565339070058544,
       "provider": "Yahoo daily snapshot"
     },
     "US:DDOG": {
-      "asOf": "2026-10-14",
-      "pct": 16.96268796416401,
+      "asOf": "2026-10-15",
+      "pct": 15.36462054050323,
+      "provider": "Yahoo daily snapshot"
+    },
+    "US:CRM": {
+      "asOf": "2026-10-15",
+      "pct": -1.5167190447829697,
       "provider": "Yahoo daily snapshot"
     },
     "US:DELL": {
-      "asOf": "2026-10-14",
-      "pct": -6.546340720603607,
+      "asOf": "2026-10-15",
+      "pct": -15.959801680430793,
       "provider": "Yahoo daily snapshot"
     },
-    "US:FLEX": {
-      "asOf": "2026-10-14",
-      "pct": -7.083334746184172,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:FIX": {
-      "asOf": "2026-10-14",
-      "pct": -2.2260540426548556,
+    "US:CSCO": {
+      "asOf": "2026-10-15",
+      "pct": 1.9584190200370395,
       "provider": "Yahoo daily snapshot"
     },
     "US:ETN": {
-      "asOf": "2026-10-14",
-      "pct": 4.1921540425331365,
+      "asOf": "2026-10-15",
+      "pct": 1.1764764547441486,
+      "provider": "Yahoo daily snapshot"
+    },
+    "US:FN": {
+      "asOf": "2026-10-15",
+      "pct": -1.9048539798985618,
       "provider": "Yahoo daily snapshot"
     },
     "US:GEV": {
-      "asOf": "2026-10-14",
-      "pct": 6.679810140501642,
+      "asOf": "2026-10-15",
+      "pct": 0.14592910384368604,
       "provider": "Yahoo daily snapshot"
     },
-    "US:GNRC": {
-      "asOf": "2026-10-14",
-      "pct": 13.157743781016892,
+    "US:FIX": {
+      "asOf": "2026-10-15",
+      "pct": -6.682833507811046,
       "provider": "Yahoo daily snapshot"
     },
     "US:GOOGL": {
-      "asOf": "2026-10-14",
-      "pct": 0.7710602288243285,
+      "asOf": "2026-10-15",
+      "pct": 1.8520156893125903,
       "provider": "Yahoo daily snapshot"
     },
-    "US:HPE": {
-      "asOf": "2026-10-14",
-      "pct": 12.938438446741046,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:INTU": {
-      "asOf": "2026-10-14",
-      "pct": -5.718707200941951,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:INTC": {
-      "asOf": "2026-10-14",
-      "pct": 1.0088566636721907,
+    "US:GNRC": {
+      "asOf": "2026-10-15",
+      "pct": 13.300207415313112,
       "provider": "Yahoo daily snapshot"
     },
     "US:GLW": {
-      "asOf": "2026-10-14",
-      "pct": -1.8666906720413763,
+      "asOf": "2026-10-15",
+      "pct": -3.9747577974251853,
+      "provider": "Yahoo daily snapshot"
+    },
+    "US:FLEX": {
+      "asOf": "2026-10-15",
+      "pct": -8.711771448515128,
+      "provider": "Yahoo daily snapshot"
+    },
+    "US:HPE": {
+      "asOf": "2026-10-15",
+      "pct": 3.440368300000498,
+      "provider": "Yahoo daily snapshot"
+    },
+    "US:INTU": {
+      "asOf": "2026-10-15",
+      "pct": 3.784618979702017,
       "provider": "Yahoo daily snapshot"
     },
     "US:JBL": {
-      "asOf": "2026-10-14",
-      "pct": -0.7228455392999007,
+      "asOf": "2026-10-15",
+      "pct": -3.397919498642705,
       "provider": "Yahoo daily snapshot"
     },
-    "US:JCI": {
-      "asOf": "2026-10-14",
-      "pct": 10.232128022449146,
+    "US:INTC": {
+      "asOf": "2026-10-15",
+      "pct": -5.62097984526184,
       "provider": "Yahoo daily snapshot"
     },
     "US:JNPR": {
@@ -183,149 +183,149 @@ window.marketPerformanceSnapshot = {
       "asOf": "",
       "provider": "Quote source unavailable"
     },
+    "US:JCI": {
+      "asOf": "2026-10-15",
+      "pct": 5.09717633650458,
+      "provider": "Yahoo daily snapshot"
+    },
     "US:KLAC": {
-      "asOf": "2026-10-14",
-      "pct": 6.421850381955579,
+      "asOf": "2026-10-15",
+      "pct": 4.242355447910099,
       "provider": "Yahoo daily snapshot"
     },
     "US:LITE": {
-      "asOf": "2026-10-14",
-      "pct": 6.8382275215322865,
+      "asOf": "2026-10-15",
+      "pct": -5.423106924376554,
       "provider": "Yahoo daily snapshot"
     },
     "US:LRCX": {
-      "asOf": "2026-10-14",
-      "pct": 5.925358511415447,
+      "asOf": "2026-10-15",
+      "pct": 3.0568584975350053,
       "provider": "Yahoo daily snapshot"
     },
     "US:MDB": {
-      "asOf": "2026-10-14",
-      "pct": -5.661027913963172,
+      "asOf": "2026-10-15",
+      "pct": -2.6173157781167538,
       "provider": "Yahoo daily snapshot"
     },
     "US:META": {
-      "asOf": "2026-10-14",
-      "pct": 10.041177604075033,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:MKSI": {
-      "asOf": "2026-10-14",
-      "pct": 1.2958963282937366,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:MOD": {
-      "asOf": "2026-10-14",
-      "pct": -11.807455522850905,
+      "asOf": "2026-10-15",
+      "pct": 9.417649132562167,
       "provider": "Yahoo daily snapshot"
     },
     "US:MRVL": {
-      "asOf": "2026-10-14",
-      "pct": 10.635995559602847,
+      "asOf": "2026-10-15",
+      "pct": 5.019371573855267,
+      "provider": "Yahoo daily snapshot"
+    },
+    "US:MOD": {
+      "asOf": "2026-10-15",
+      "pct": -14.996136034493388,
       "provider": "Yahoo daily snapshot"
     },
     "US:MSFT": {
-      "asOf": "2026-10-14",
-      "pct": 7.356374252377034,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:FN": {
-      "asOf": "2026-10-14",
-      "pct": 4.811823736018678,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:NOW": {
-      "asOf": "2026-10-14",
-      "pct": -1.3530643069272754,
+      "asOf": "2026-10-15",
+      "pct": 10.022438480905507,
       "provider": "Yahoo daily snapshot"
     },
     "US:MU": {
-      "asOf": "2026-10-14",
-      "pct": -1.4521314206176448,
+      "asOf": "2026-10-15",
+      "pct": 0.5061791056279414,
+      "provider": "Yahoo daily snapshot"
+    },
+    "US:MKSI": {
+      "asOf": "2026-10-15",
+      "pct": -2.873170070515477,
+      "provider": "Yahoo daily snapshot"
+    },
+    "US:NOW": {
+      "asOf": "2026-10-15",
+      "pct": 6.258045731402547,
       "provider": "Yahoo daily snapshot"
     },
     "US:NVDA": {
-      "asOf": "2026-10-14",
-      "pct": 4.303155470427313,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:ONTO": {
-      "asOf": "2026-10-14",
-      "pct": -1.1263105990961968,
+      "asOf": "2026-10-15",
+      "pct": 1.5568031444948156,
       "provider": "Yahoo daily snapshot"
     },
     "US:NXT": {
-      "asOf": "2026-10-14",
-      "pct": 3.4716087370383244,
+      "asOf": "2026-10-15",
+      "pct": 6.946044154473779,
       "provider": "Yahoo daily snapshot"
     },
-    "US:PLTR": {
-      "asOf": "2026-10-14",
-      "pct": 16.463841019969063,
+    "US:ONTO": {
+      "asOf": "2026-10-15",
+      "pct": -4.798063729556438,
       "provider": "Yahoo daily snapshot"
     },
     "US:ORCL": {
-      "asOf": "2026-10-14",
-      "pct": -6.982545511633101,
+      "asOf": "2026-10-15",
+      "pct": -6.0701328716899585,
       "provider": "Yahoo daily snapshot"
     },
     "US:PWR": {
-      "asOf": "2026-10-14",
-      "pct": 7.692191340819092,
+      "asOf": "2026-10-15",
+      "pct": 3.702685633479213,
+      "provider": "Yahoo daily snapshot"
+    },
+    "US:PLTR": {
+      "asOf": "2026-10-15",
+      "pct": 15.005164742236389,
       "provider": "Yahoo daily snapshot"
     },
     "US:QCOM": {
-      "asOf": "2026-10-14",
-      "pct": -8.083071186312331,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:SNOW": {
-      "asOf": "2026-10-14",
-      "pct": 3.746354317403778,
+      "asOf": "2026-10-15",
+      "pct": -3.4840957417212977,
       "provider": "Yahoo daily snapshot"
     },
     "US:SMCI": {
-      "asOf": "2026-10-14",
-      "pct": 0.39281535366439996,
+      "asOf": "2026-10-15",
+      "pct": -4.776115045891276,
+      "provider": "Yahoo daily snapshot"
+    },
+    "US:SNOW": {
+      "asOf": "2026-10-15",
+      "pct": 1.2234965998925218,
       "provider": "Yahoo daily snapshot"
     },
     "US:SNPS": {
-      "asOf": "2026-10-14",
-      "pct": 30.52215848324737,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:TEL": {
-      "asOf": "2026-10-14",
-      "pct": 4.383875440038647,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:TSM": {
-      "asOf": "2026-10-14",
-      "pct": 3.927492447129909,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:UBER": {
-      "asOf": "2026-10-14",
-      "pct": -2.9959392139235006,
-      "provider": "Yahoo daily snapshot"
-    },
-    "US:TT": {
-      "asOf": "2026-10-14",
-      "pct": 11.48723684067093,
+      "asOf": "2026-10-15",
+      "pct": 23.684832045271197,
       "provider": "Yahoo daily snapshot"
     },
     "US:TER": {
-      "asOf": "2026-10-14",
-      "pct": 7.988582199280836,
+      "asOf": "2026-10-15",
+      "pct": 0.6038392482629849,
+      "provider": "Yahoo daily snapshot"
+    },
+    "US:TSM": {
+      "asOf": "2026-10-15",
+      "pct": 1.0844581935408553,
+      "provider": "Yahoo daily snapshot"
+    },
+    "US:TEL": {
+      "asOf": "2026-10-15",
+      "pct": 5.336304998898605,
+      "provider": "Yahoo daily snapshot"
+    },
+    "US:TT": {
+      "asOf": "2026-10-15",
+      "pct": 8.461390935190673,
+      "provider": "Yahoo daily snapshot"
+    },
+    "US:UBER": {
+      "asOf": "2026-10-15",
+      "pct": 0.422707365370268,
       "provider": "Yahoo daily snapshot"
     },
     "US:VRT": {
-      "asOf": "2026-10-14",
-      "pct": -5.021098311517209,
+      "asOf": "2026-10-15",
+      "pct": -10.300322996073799,
       "provider": "Yahoo daily snapshot"
     },
     "US:VST": {
-      "asOf": "2026-10-14",
-      "pct": 7.249342609573158,
+      "asOf": "2026-10-15",
+      "pct": 9.815513098658032,
       "provider": "Yahoo daily snapshot"
     }
   }
