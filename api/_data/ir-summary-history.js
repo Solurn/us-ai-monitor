@@ -1,10 +1,60 @@
 window.irSummaryHistory = {
-  "generatedAt": "2026-10-19T12:55:39.798Z",
+  "generatedAt": "2026-10-20T14:11:38.617Z",
   "sourceRoot": "C:\\Users\\user\\Desktop\\Codex專案\\法說整理",
   "retentionDays": 30,
   "maxMeetingDate": "",
-  "latestDate": "2026-10-19",
+  "latestDate": "2026-10-20",
   "items": [
+    {
+      "generatedAt": "2026-10-20T14:11:38.617Z",
+      "queryDate": "2026-10-20",
+      "displayDate": "2026-10-20",
+      "count": 1,
+      "rows": [
+        {
+          "date": "2026-10-20",
+          "code": "3325",
+          "name": "旭品",
+          "eventType": "法人說明會",
+          "time": "14:30",
+          "location": "線上法說會",
+          "topic": "本公司受邀參加統一證券舉辦之線上法說會,說明本公司產業及營運狀況。",
+          "companyWebsite": "https://www.casing.com.tw/investors/meetings",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/332520261020M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/332520261020E001.pdf",
+          "mediaUrl": "http://irconference.twse.com.tw/3325_9_20261020_ch.mp4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "經營與產業發展上之見解，可能與未來實際結果存有 差異。此差異其造成之原因可能包括市場需求變化、價格波動、競爭行為、國際經 濟狀況、匯率波動、上下游供應鏈等其他各種本公司所不能掌握之風險因素。 The company has not released financial forecasts.The financial, business, and Q&A statementscontains in the presentation might differ from the actual future results",
+            "回顧2025:產業快速變化的一年 AI需求強勁 PC零組件上漲 l雲端運算，大數據， HPC等應用持續擴張 l推動高階機構件長期成長 客戶採購策略調整 l2025年零組件價格上漲 l記憶體，SSD，CPU供應吃緊 l庫存調整，拉貨節奏改變 4",
+            "7 傳統機殻 高階機構件 新世代高階應用 營收與獲利改善 公司定位與轉型路徑 PC | Gaming 標準化，大量生產 複雜與精準 精度提升，客製化 New generation Applications 產品組合優化 提升附加價值 逐步改善營運體質，布局未來成長動能 營收 à 毛利 à 獲利，逐步的回到健康的軌道",
+            "財務概況 FinancialInformation 10 獲利表現 項 目 2026 H1 2025 全年 營業收入 3.68 億 12.68 億 營業成本 4.08 億 12.02 億 營業毛利 (0.40 億) 0.65 億 營業淨損 (1.32 億) (1.34 億) 稅後淨損 (1.64億) (1.64億) 每股虧損(單位：元) (1.35) (2) 毛利率 (11%) 5.0% 營業淨利率 (36%) (11%) 稅後淨利率 (45%) (13%) 註：2025 全年採合併財報數字；2026 H1 採20"
+          ],
+          "outlookTone": {
+            "label": "正面看好",
+            "score": 80,
+            "basis": "正向訊號 6、保守訊號 2"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：本公司受邀參加統一證券舉辦之線上法說會,說明本公司產業及營運狀況。",
+            "2 --- page 3 --- 公司簡介 CompanyIntroduction 3 1996年成立時間 蕭奕彰董事長 11.01 億資本額 新北市三重總公司 800 人員工人數 --- page 4 --- 回顧2025:產業快速變化的一年 AI需求強勁 PC零組件上漲 l雲端運算，大數據， HPC等應用持續擴張 l推動高階機構件長期成長 客戶採購策略調整 l2025年零組件價格上漲 l記憶體，SSD，CPU供應吃緊 l庫存調整，拉",
+            "2 --- page 3 --- 公司簡介 CompanyIntroduction 3 1996年成立時間 蕭奕彰董事長 11.01 億資本額 新北市三重總公司 800 人員工人數 --- page 4 --- 回顧2025:產業快速變化的一年 AI需求強勁 PC零組件上漲 l雲端運算，大數據， HPC等應用持續擴張 l推動高階機構件長期成長 客戶採購策略調整 l2025年零組件價格上漲 l記憶體，SSD，CPU供應吃緊 l庫存調整，拉",
+            "[zh PDF] --- page 1 --- 旭品科技股份有限公司 2026法人說明會簡報 2026 Investor Conference | Stock Code:3325 從傳統機殻製造，邁向高階機構件 1 --- page 2 --- 經營與產業發展上之見解，可能與未來實際結果存有 差異。此差異其造成之原因可能包括市場需求變化、價格波動、競爭行為、國際經 濟狀況、匯率波動、上下游供應鏈等其他各種本公司所不能掌握之風險因素。",
+            "The company has not released financial forecasts.The financial, business, and Q&A statementscontains in the presentation might differ from the actual future results if they involve the company's views on future company o",
+            "The reasons of causing the difference may include changes in market demand, price fluctuations, competitive behavior, international economic conditions, exchange rate fluctuations, upstream and downstream supply chains,"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-20.md",
+          "detailMarkdown": "## 3325 旭品 深度法說分析\n\n### 一頁結論\n- 展望評價：正面看好（80 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 6、保守訊號 2。\n- 判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 \n\n### 營運與財務重點\n- 2 --- page 3 --- 公司簡介 CompanyIntroduction 3 1996年成立時間 蕭奕彰董事長 11.01 億資本額 新北市三重總公司 800 人員工人數 --- page 4 --- 回顧2025:產業快速變化的一年 AI需求強勁 PC零組件上漲 l雲端運算，大數據， HPC等應用持續擴張 l推動高階機構件長期成長 客戶採購策略調整 l2025年零組件價格上漲 l記憶體，SSD，CPU供應吃緊 l庫存調整，拉\n- 回顧2025:產業快速變化的一年 AI需求強勁 PC零組件上漲 l雲端運算，大數據， HPC等應用持續擴張 l推動高階機構件長期成長 客戶採購策略調整 l2025年零組件價格上漲 l記憶體，SSD，CPU供應吃緊 l庫存調整，拉貨節奏改變 4\n- 7 傳統機殻 高階機構件 新世代高階應用 營收與獲利改善 公司定位與轉型路徑 PC | Gaming 標準化，大量生產 複雜與精準 精度提升，客製化 New generation Applications 產品組合優化 提升附加價值 逐步改善營運體質，布局未來成長動能 營收 à 毛利 à 獲利，逐步的回到健康的軌道\n- 財務概況 FinancialInformation 10 獲利表現 項 目 2026 H1 2025 全年 營業收入 3.68 億 12.68 億 營業成本 4.08 億 12.02 億 營業毛利 (0.40 億) 0.65 億 營業淨損 (1.32 億) (1.34 億) 稅後淨損 (1.64億) (1.64億) 每股虧損(單位：元) (1.35) (2) 毛利率 (11%) 5.0% 營業淨利率 (36%) (11%) 稅後淨利率 (45%) (13%) 註：2025 全年採合併財報數字；2026 H1 採20\n\n### 展望與成長利基\n- 經營與產業發展上之見解，可能與未來實際結果存有 差異。此差異其造成之原因可能包括市場需求變化、價格波動、競爭行為、國際經 濟狀況、匯率波動、上下游供應鏈等其他各種本公司所不能掌握之風險因素。 The company has not released financial forecasts.The financial, business, and Q&A statementscontains in the presentation might differ from the actual future results\n- 回顧2025:產業快速變化的一年 AI需求強勁 PC零組件上漲 l雲端運算，大數據， HPC等應用持續擴張 l推動高階機構件長期成長 客戶採購策略調整 l2025年零組件價格上漲 l記憶體，SSD，CPU供應吃緊 l庫存調整，拉貨節奏改變 4\n- 7 傳統機殻 高階機構件 新世代高階應用 營收與獲利改善 公司定位與轉型路徑 PC | Gaming 標準化，大量生產 複雜與精準 精度提升，客製化 New generation Applications 產品組合優化 提升附加價值 逐步改善營運體質，布局未來成長動能 營收 à 毛利 à 獲利，逐步的回到健康的軌道\n- 財務概況 FinancialInformation 10 獲利表現 項 目 2026 H1 2025 全年 營業收入 3.68 億 12.68 億 營業成本 4.08 億 12.02 億 營業毛利 (0.40 億) 0.65 億 營業淨損 (1.32 億) (1.34 億) 稅後淨損 (1.64億) (1.64億) 每股虧損(單位：元) (1.35) (2) 毛利率 (11%) 5.0% 營業淨利率 (36%) (11%) 稅後淨利率 (45%) (13%) 註：2025 全年採合併財報數字；2026 H1 採20\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- 2 --- page 3 --- 公司簡介 CompanyIntroduction 3 1996年成立時間 蕭奕彰董事長 11.01 億資本額 新北市三重總公司 800 人員工人數 --- page 4 --- 回顧2025:產業快速變化的一年 AI需求強勁 PC零組件上漲 l雲端運算，大數據， HPC等應用持續擴張 l推動高階機構件長期成長 客戶採購策略調整 l2025年零組件價格上漲 l記憶體，SSD，CPU供應吃緊 l庫存調整，拉\n- [zh PDF] --- page 1 --- 旭品科技股份有限公司 2026法人說明會簡報 2026 Investor Conference | Stock Code:3325 從傳統機殻製造，邁向高階機構件 1 --- page 2 --- 經營與產業發展上之見解，可能與未來實際結果存有 差異。此差異其造成之原因可能包括市場需求變化、價格波動、競爭行為、國際經 濟狀況、匯率波動、上下游供應鏈等其他各種本公司所不能掌握之風險因素。\n- The company has not released financial forecasts.The financial, business, and Q&A statementscontains in the presentation might differ from the actual future results if they involve the company's views on future company o\n- The reasons of causing the difference may include changes in market demand, price fluctuations, competitive behavior, international economic conditions, exchange rate fluctuations, upstream and downstream supply chains,\n- 經營與產業發展上之見解，可能與未來實際結果存有 差異。此差異其造成之原因可能包括市場需求變化、價格波動、競爭行為、國際經 濟狀況、匯率波動、上下游供應鏈等其他各種本公司所不能掌握之風險因素。 The company has not released financial forecasts.The financial, business, and Q&A statementscontains in the presentation might differ from the actual future results\n\n### 風險與不確定性\n- 2 --- page 3 --- 公司簡介 CompanyIntroduction 3 1996年成立時間 蕭奕彰董事長 11.01 億資本額 新北市三重總公司 800 人員工人數 --- page 4 --- 回顧2025:產業快速變化的一年 AI需求強勁 PC零組件上漲 l雲端運算，大數據， HPC等應用持續擴張 l推動高階機構件長期成長 客戶採購策略調整 l2025年零組件價格上漲 l記憶體，SSD，CPU供應吃緊 l庫存調整，拉\n- [zh PDF] --- page 1 --- 旭品科技股份有限公司 2026法人說明會簡報 2026 Investor Conference | Stock Code:3325 從傳統機殻製造，邁向高階機構件 1 --- page 2 --- 經營與產業發展上之見解，可能與未來實際結果存有 差異。此差異其造成之原因可能包括市場需求變化、價格波動、競爭行為、國際經 濟狀況、匯率波動、上下游供應鏈等其他各種本公司所不能掌握之風險因素。\n- 經營與產業發展上之見解，可能與未來實際結果存有 差異。此差異其造成之原因可能包括市場需求變化、價格波動、競爭行為、國際經 濟狀況、匯率波動、上下游供應鏈等其他各種本公司所不能掌握之風險因素。 The company has not released financial forecasts.The financial, business, and Q&A statementscontains in the presentation might differ from the actual future results\n- 回顧2025:產業快速變化的一年 AI需求強勁 PC零組件上漲 l雲端運算，大數據， HPC等應用持續擴張 l推動高階機構件長期成長 客戶採購策略調整 l2025年零組件價格上漲 l記憶體，SSD，CPU供應吃緊 l庫存調整，拉貨節奏改變 4\n- 財務概況 FinancialInformation 10 獲利表現 項 目 2026 H1 2025 全年 營業收入 3.68 億 12.68 億 營業成本 4.08 億 12.02 億 營業毛利 (0.40 億) 0.65 億 營業淨損 (1.32 億) (1.34 億) 稅後淨損 (1.64億) (1.64億) 每股虧損(單位：元) (1.35) (2) 毛利率 (11%) 5.0% 營業淨利率 (36%) (11%) 稅後淨利率 (45%) (13%) 註：2025 全年採合併財報數字；2026 H1 採20\n\n### Q&A 與管理層口氣\n- [zh PDF] --- page 1 --- 旭品科技股份有限公司 2026法人說明會簡報 2026 Investor Conference | Stock Code:3325 從傳統機殻製造，邁向高階機構件 1 --- page 2 --- 經營與產業發展上之見解，可能與未來實際結果存有 差異。此差異其造成之原因可能包括市場需求變化、價格波動、競爭行為、國際經 濟狀況、匯率波動、上下游供應鏈等其他各種本公司所不能掌握之風險因素。\n- The company has not released financial forecasts.The financial, business, and Q&A statementscontains in the presentation might differ from the actual future results if they involve the company's views on future company o\n- 經營與產業發展上之見解，可能與未來實際結果存有 差異。此差異其造成之原因可能包括市場需求變化、價格波動、競爭行為、國際經 濟狀況、匯率波動、上下游供應鏈等其他各種本公司所不能掌握之風險因素。 The company has not released financial forecasts.The financial, business, and Q&A statementscontains in the presentation might differ from the actual future results\n- 回顧2025:產業快速變化的一年 AI需求強勁 PC零組件上漲 l雲端運算，大數據， HPC等應用持續擴張 l推動高階機構件長期成長 客戶採購策略調整 l2025年零組件價格上漲 l記憶體，SSD，CPU供應吃緊 l庫存調整，拉貨節奏改變 4\n- 財務概況 FinancialInformation 10 獲利表現 項 目 2026 H1 2025 全年 營業收入 3.68 億 12.68 億 營業成本 4.08 億 12.02 億 營業毛利 (0.40 億) 0.65 億 營業淨損 (1.32 億) (1.34 億) 稅後淨損 (1.64億) (1.64億) 每股虧損(單位：元) (1.35) (2) 毛利率 (11%) 5.0% 營業淨利率 (36%) (11%) 稅後淨利率 (45%) (13%) 註：2025 全年採合併財報數字；2026 H1 採20\n\n### 評分利基點\n- 加分主因：2 --- page 3 --- 公司簡介 CompanyIntroduction 3 1996年成立時間 蕭奕彰董事長 11.01 億資本額 新北市三重總公司 800 人員工人數 --- page 4 --- 回顧2025:產業快速變化的一年 AI需求強勁 PC零組件上漲 l雲端運算，大數據， HPC等應用持續擴張 l推動高階機構件長期成長 客戶採購策略調整 l2025年零組件價格上漲 l記憶體，SSD，CPU供應吃緊 l庫存調整，拉；[zh PDF] --- page 1 --- 旭品科技股份有限公司 2026法人說明會簡報 2026 Investor Conference | Stock Code:3325 從傳統機殻製造，邁向高階機構件 1 --- page 2 --- 經營與產業發展上之見解，可能與未來實際結果存有 差異。此差異其造成之原因可能包括市場需求變化、價格波動、競爭行為、國際經 濟狀況、匯率波動、上下游供應鏈等其他各種本公司所不能掌握之風險因素。；經營與產業發展上之見解，可能與未來實際結果存有 差異。此差異其造成之原因可能包括市場需求變化、價格波動、競爭行為、國際經 濟狀況、匯率波動、上下游供應鏈等其他各種本公司所不能掌握之風險因素。 The company has not released financial forecasts.The financial, business, and Q&A statementscontains in the presentation might differ from the actual future results。\n- 扣分或保留：2 --- page 3 --- 公司簡介 CompanyIntroduction 3 1996年成立時間 蕭奕彰董事長 11.01 億資本額 新北市三重總公司 800 人員工人數 --- page 4 --- 回顧2025:產業快速變化的一年 AI需求強勁 PC零組件上漲 l雲端運算，大數據， HPC等應用持續擴張 l推動高階機構件長期成長 客戶採購策略調整 l2025年零組件價格上漲 l記憶體，SSD，CPU供應吃緊 l庫存調整，拉；[zh PDF] --- page 1 --- 旭品科技股份有限公司 2026法人說明會簡報 2026 Investor Conference | Stock Code:3325 從傳統機殻製造，邁向高階機構件 1 --- page 2 --- 經營與產業發展上之見解，可能與未來實際結果存有 差異。此差異其造成之原因可能包括市場需求變化、價格波動、競爭行為、國際經 濟狀況、匯率波動、上下游供應鏈等其他各種本公司所不能掌握之風險因素。；經營與產業發展上之見解，可能與未來實際結果存有 差異。此差異其造成之原因可能包括市場需求變化、價格波動、競爭行為、國際經 濟狀況、匯率波動、上下游供應鏈等其他各種本公司所不能掌握之風險因素。 The company has not released financial forecasts.The financial, business, and Q&A statementscontains in the presentation might differ from the actual future results。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-10-19T12:55:39.798Z",
       "queryDate": "2026-10-19",
