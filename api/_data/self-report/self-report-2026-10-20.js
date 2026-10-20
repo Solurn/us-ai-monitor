@@ -1,0 +1,71 @@
+window.selfReportArchiveItems = window.selfReportArchiveItems || {};
+window.selfReportArchiveItems["2026-10-20"] = {
+  "generatedAt": "2026-10-20T22:10:29+08:00",
+  "queryDate": "2026-10-20",
+  "displayDate": "115年10月20日",
+  "checkedAt": "2026-10-20T22:10:29+08:00",
+  "checkedQueryDate": "2026-10-20",
+  "checkedDisplayDate": "115年10月20日",
+  "checkedCount": 2,
+  "checkedSkipped": {
+    "bond_subject": 0,
+    "missing_financials": 0,
+    "duplicate": 0,
+    "detail_error": 0
+  },
+  "count": 2,
+  "skipped": {
+    "bond_subject": 0,
+    "missing_financials": 0,
+    "duplicate": 0,
+    "detail_error": 0
+  },
+  "rows": [
+    {
+      "code": "4542",
+      "name": "科嶠",
+      "market": "上櫃",
+      "announcement_date": "115/10/20",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告 相關訊息，以利投資人區別暸解。",
+      "month_label": "單月",
+      "monthly_revenue": 72.0,
+      "monthly_pre_tax_income": -10.0,
+      "monthly_parent_income": -19.0,
+      "monthly_eps": -0.57,
+      "quarter_eps": 1.07,
+      "tax_margin_pct": -13.88888888888889,
+      "operating_margin_pct": -26.38888888888889,
+      "previous_quarter_monthly_eps": 0.3566666666666667,
+      "reference_quarter": "2026Q2",
+      "reference_tax_margin_pct": 14.23,
+      "reference_operating_margin_pct": 14.07,
+      "tax_margin_delta_pct": -28.11888888888889,
+      "operating_margin_delta_pct": -40.45888888888889,
+      "detail_key": "otc:4542:20261020:134720:1"
+    },
+    {
+      "code": "6716",
+      "name": "應廣",
+      "market": "上櫃",
+      "announcement_date": "115/10/20",
+      "subject": "本公司有價證券近期多次達公佈注意交易資訊標準，故公告 相關訊息，以利投資人區別暸解",
+      "month_label": "09月",
+      "monthly_revenue": 77.82,
+      "monthly_pre_tax_income": 12.54,
+      "monthly_parent_income": 11.72,
+      "monthly_eps": 0.4,
+      "quarter_eps": 3.06,
+      "tax_margin_pct": 16.114109483423285,
+      "operating_margin_pct": 15.060395785145209,
+      "previous_quarter_monthly_eps": 1.02,
+      "reference_quarter": "2026Q2",
+      "reference_tax_margin_pct": 22.83,
+      "reference_operating_margin_pct": 21.18,
+      "tax_margin_delta_pct": -6.715890516576714,
+      "operating_margin_delta_pct": -6.119604214854791,
+      "detail_key": "otc:6716:20261020:145001:1"
+    }
+  ],
+  "image": "./assets/self-report/self-report-2026-10-20.png",
+  "source": "公開資訊觀測站 / CMoney 財務比率"
+};
