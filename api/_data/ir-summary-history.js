@@ -1,10 +1,222 @@
 window.irSummaryHistory = {
-  "generatedAt": "2026-10-21T13:31:09.772Z",
+  "generatedAt": "2026-10-22T13:06:32.118Z",
   "sourceRoot": "C:\\Users\\user\\Desktop\\Codex專案\\法說整理",
   "retentionDays": 30,
   "maxMeetingDate": "",
-  "latestDate": "2026-10-21",
+  "latestDate": "2026-10-22",
   "items": [
+    {
+      "generatedAt": "2026-10-22T13:06:32.118Z",
+      "queryDate": "2026-10-22",
+      "displayDate": "2026-10-22",
+      "count": 5,
+      "rows": [
+        {
+          "date": "2026-10-22",
+          "code": "2514",
+          "name": "龍邦",
+          "eventType": "法人說明會",
+          "time": "14:00",
+          "location": "線上法說會",
+          "topic": "本公司受邀參加元大證券舉辦之線上法說會,報告本公司營運狀況。",
+          "companyWebsite": "http://www.longbon.com.tw",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/251420261022M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/251420261022E001.pdf",
+          "mediaUrl": "http://irconference.twse.com.tw/2514_12_20261022_ch.mp4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "2 經營階層不應負有任何責任 。提醒讀者不要過分依賴前瞻 性陳述。本公司不承擔任何更新前瞻性陳述的義務， 其中包含資料更新、 未來事件預告 或其他事件。 本簡報及其內容未經本公司書面許可，任何第三者不得任意取用。 This presentation may contain forward looking statements subject to significant risk, uncertainties and actual results may differ materially from those c"
+          ],
+          "outlookTone": {
+            "label": "中性觀望",
+            "score": 45,
+            "basis": "正向訊號 1、保守訊號 2"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：本公司受邀參加元大證券舉辦之線上法說會,報告本公司營運狀況。",
+            "營業淨利 Net operating income 321,912 570,009 -43.5% 營業外收入(支出) Non-operating income(Expenses) -699,065 -6,454 -10731.5% 所得稅費用 Income tax -177,269 91,872 -293.0% 本期淨利 Net income -$554,422 $471,683 -217.5% 基本每股盈餘(元) EPS(NTD) -",
+            "項目 2026年1~9月 2025年1~12月 案件數量 承攬總金額 案件數量 承攬總金額 總計 4 9,790,050 5 10,433,627 單位：新台幣仟元 2026.09.30 --- page 20 --- 20 全台累計承攬342案在建工程版圖 營運概況Operational Overview 北部 桃竹苗 中部 南部 台大新竹生醫 竹北聯辦 埔心安居B 埔心安居C 國安社宅二三台電雲端中心 彰工升壓站 鉅擘楓輕揚 中榮科",
+            "Net operating income 321,912 570,009 -43.5% Non-operating income(Expenses) -699,065 -6,454 -10731.5% Income tax expense -177,269 91,872 -293.0% Net income -$554,422 $471,683 -217.5% EPS(NTD) -$0.65 $0.80 -181.7% --- page",
+            "This presentation may contain forward looking statements subject to significant risk, uncertainties and actual results may differ materially from those contained in the forward-looking statement.",
+            "In 1992, it was the first IPO construction manufacturers in central Taiwan, in order to continue to enhance shareholder equity, and expand the business territory, to the steady pace of transformation, its has successivel"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-22.md",
+          "detailMarkdown": "## 2514 龍邦 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（45 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 1、保守訊號 2。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 營業淨利 Net operating income 321,912 570,009 -43.5% 營業外收入(支出) Non-operating income(Expenses) -699,065 -6,454 -10731.5% 所得稅費用 Income tax -177,269 91,872 -293.0% 本期淨利 Net income -$554,422 $471,683 -217.5% 基本每股盈餘(元) EPS(NTD) -\n- Net operating income 321,912 570,009 -43.5% Non-operating income(Expenses) -699,065 -6,454 -10731.5% Income tax expense -177,269 91,872 -293.0% Net income -$554,422 $471,683 -217.5% EPS(NTD) -$0.65 $0.80 -181.7% --- page\n\n### 展望與成長利基\n- 2 經營階層不應負有任何責任 。提醒讀者不要過分依賴前瞻 性陳述。本公司不承擔任何更新前瞻性陳述的義務， 其中包含資料更新、 未來事件預告 或其他事件。 本簡報及其內容未經本公司書面許可，任何第三者不得任意取用。 This presentation may contain forward looking statements subject to significant risk, uncertainties and actual results may differ materially from those c\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- This presentation may contain forward looking statements subject to significant risk, uncertainties and actual results may differ materially from those contained in the forward-looking statement.\n- In 1992, it was the first IPO construction manufacturers in central Taiwan, in order to continue to enhance shareholder equity, and expand the business territory, to the steady pace of transformation, its has successivel\n- 2 經營階層不應負有任何責任 。提醒讀者不要過分依賴前瞻 性陳述。本公司不承擔任何更新前瞻性陳述的義務， 其中包含資料更新、 未來事件預告 或其他事件。 本簡報及其內容未經本公司書面許可，任何第三者不得任意取用。 This presentation may contain forward looking statements subject to significant risk, uncertainties and actual results may differ materially from those c\n\n### 風險與不確定性\n- This presentation may contain forward looking statements subject to significant risk, uncertainties and actual results may differ materially from those contained in the forward-looking statement.\n- 2 經營階層不應負有任何責任 。提醒讀者不要過分依賴前瞻 性陳述。本公司不承擔任何更新前瞻性陳述的義務， 其中包含資料更新、 未來事件預告 或其他事件。 本簡報及其內容未經本公司書面許可，任何第三者不得任意取用。 This presentation may contain forward looking statements subject to significant risk, uncertainties and actual results may differ materially from those c\n\n### Q&A 與管理層口氣\n- 營業淨利 Net operating income 321,912 570,009 -43.5% 營業外收入(支出) Non-operating income(Expenses) -699,065 -6,454 -10731.5% 所得稅費用 Income tax -177,269 91,872 -293.0% 本期淨利 Net income -$554,422 $471,683 -217.5% 基本每股盈餘(元) EPS(NTD) -\n\n### 評分利基點\n- 扣分或保留：This presentation may contain forward looking statements subject to significant risk, uncertainties and actual results may differ materially from those contained in the forward-looking statement.；2 經營階層不應負有任何責任 。提醒讀者不要過分依賴前瞻 性陳述。本公司不承擔任何更新前瞻性陳述的義務， 其中包含資料更新、 未來事件預告 或其他事件。 本簡報及其內容未經本公司書面許可，任何第三者不得任意取用。 This presentation may contain forward looking statements subject to significant risk, uncertainties and actual results may differ materially from those c。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-10-22",
+          "code": "4541",
+          "name": "晟田",
+          "eventType": "法人說明會",
+          "time": "14:30",
+          "location": "集思北科大會議中心-奧米伽廳(台北市大安區忠孝東路三段1號3F)",
+          "topic": "本公司受邀參加凱基證券舉辦之法人說明會,說明營運成果及營運展望",
+          "companyWebsite": "",
+          "chinesePdf": "",
+          "englishPdf": "",
+          "mediaUrl": "",
+          "mediaStatus": "缺影音",
+          "transcriptStatus": "缺影音",
+          "outlookBullets": [
+            "未從簡報或轉錄稿擷取到明確展望段落。"
+          ],
+          "outlookTone": {
+            "label": "中性觀望",
+            "score": 50,
+            "basis": "正向訊號 0、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "MOPS 擇要訊息：本公司受邀參加凱基證券舉辦之法人說明會,說明營運成果及營運展望",
+            "缺少可摘要的簡報文字或轉錄稿。"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-22.md",
+          "detailMarkdown": "## 4541 晟田 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：本公司受邀參加凱基證券舉辦之法人說明會,說明營運成果及營運展望\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-10-22",
+          "code": "5521",
+          "name": "工信",
+          "eventType": "法人說明會",
+          "time": "14:00",
+          "location": "線上",
+          "topic": "本公司受邀參加台新證券舉辦之線上法說會,報告本公司營運狀況。",
+          "companyWebsite": "https://www.kseco.com.tw/tc/legal.aspx",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/552120261021M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/552120261021E001.pdf",
+          "mediaUrl": "http://irconference.twse.com.tw/5521_10_20261022_ch.mp4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "工程創信譽 信譽造工程 參、財務摘要 17 2026Q2同期成長率 2026 Q2 2025 Q2 單位：仟元 合併 =營業收入 =營業淨利 283,061 67,576 5,420,687 4,802,830"
+          ],
+          "outlookTone": {
+            "label": "中性偏正面",
+            "score": 64,
+            "basis": "正向訊號 2、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：本公司受邀參加台新證券舉辦之線上法說會,報告本公司營運狀況。",
+            "page 16 --- 工程創信譽 信譽造工程 參、財務摘要 16  近三年營業收入 設立日期 營業額 --- page 17 --- 工程創信譽 信譽造工程 參、財務摘要 17 2026Q2同期成長率 2026 Q2 2025 Q2 單位：仟元 合併 =營業收入 =營業淨利 283,061 67,576 5,420,687 4,802,830 --- page 18 --- 工程創信譽 信譽造工程18 2026Q2合併綜合損益表",
+            "page 21 --- 工程創信譽 信譽造工程 簡報結束 感謝聆聽 21 [en PDF] --- page 1 --- KUNG SING Engineering Corporation 2026 Institutional Investors Conference --- page 2 --- Company Profile Operational overview Financial summary Business de",
+            "tw/tc/index.aspx Company website Establishment registration 1947 Chairman of the Board Pan,ying -chuan 787 people (including foreign workers) Head office：8F,No 102, Civil Boulevard Sec 4, 106 Taipei, Taiwan MRT,tunnel,ro",
+            "1993 Stocks officially went public 1996 Passed the \"ISO 9001\" international quality management certification 1999 Passed the \"ISO 14001\" international environmental management certification 1999 Stocks listed on the OTC",
+            "2011 Obtained the project of building the Gufeng and Guanyin tunnels on Provincial Highway No."
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-22.md",
+          "detailMarkdown": "## 5521 工信 深度法說分析\n\n### 一頁結論\n- 展望評價：中性偏正面（64 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 2、保守訊號 0。\n- 判讀：方向偏正面，但管理層仍保留部分彈性，較適合追蹤接單、毛利率與下一季財測是否延續。 \n\n### 營運與財務重點\n- page 16 --- 工程創信譽 信譽造工程 參、財務摘要 16  近三年營業收入 設立日期 營業額 --- page 17 --- 工程創信譽 信譽造工程 參、財務摘要 17 2026Q2同期成長率 2026 Q2 2025 Q2 單位：仟元 合併 =營業收入 =營業淨利 283,061 67,576 5,420,687 4,802,830 --- page 18 --- 工程創信譽 信譽造工程18 2026Q2合併綜合損益表\n- 工程創信譽 信譽造工程 參、財務摘要 17 2026Q2同期成長率 2026 Q2 2025 Q2 單位：仟元 合併 =營業收入 =營業淨利 283,061 67,576 5,420,687 4,802,830\n\n### 展望與成長利基\n- 工程創信譽 信譽造工程 參、財務摘要 17 2026Q2同期成長率 2026 Q2 2025 Q2 單位：仟元 合併 =營業收入 =營業淨利 283,061 67,576 5,420,687 4,802,830\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- tw/tc/index.aspx Company website Establishment registration 1947 Chairman of the Board Pan,ying -chuan 787 people (including foreign workers) Head office：8F,No 102, Civil Boulevard Sec 4, 106 Taipei, Taiwan MRT,tunnel,ro\n- 2011 Obtained the project of building the Gufeng and Guanyin tunnels on Provincial Highway No.\n\n### 風險與不確定性\n- 本次摘要未擷取到明確風險或保守訊號。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 加分主因：page 16 --- 工程創信譽 信譽造工程 參、財務摘要 16  近三年營業收入 設立日期 營業額 --- page 17 --- 工程創信譽 信譽造工程 參、財務摘要 17 2026Q2同期成長率 2026 Q2 2025 Q2 單位：仟元 合併 =營業收入 =營業淨利 283,061 67,576 5,420,687 4,802,830 --- page 18 --- 工程創信譽 信譽造工程18 2026Q2合併綜合損益表；工程創信譽 信譽造工程 參、財務摘要 17 2026Q2同期成長率 2026 Q2 2025 Q2 單位：仟元 合併 =營業收入 =營業淨利 283,061 67,576 5,420,687 4,802,830。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-10-22",
+          "code": "5536",
+          "name": "聖暉*",
+          "eventType": "法人說明會",
+          "time": "09:00",
+          "location": "9/7~9/8:Island Shangri-La, Hong Kong 9/22~9/23:Hong Kong",
+          "topic": "9/7~9/8: 本公司受邀參加MACQUARIE舉辦之Macquarie NEXT INNOVATIONS Tech Conference 2026 9/22~9/23: 本公司受邀參加BofA Securities舉辦之2026 Asia Pacific Conference,於會議中說明本公司2026年第二季營運狀況",
+          "companyWebsite": "https://www.acter.com.tw/investors/conference",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/553620260817M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/553620260817E001.pdf",
+          "mediaUrl": "",
+          "mediaStatus": "缺影音",
+          "transcriptStatus": "缺影音",
+          "outlookBullets": [
+            "ACTer Action Creativity Technology 台灣 68% 大陸 21% 東南亞及其他 11% 未來展望 在建存量高，支撐未來營運 2026H1 31 300 310 380 460 600 100 200 300 400 500 600 700 2022 2023 2024 2025 2026Q2 新台幣億元 半導體 63% 民生 9% 電子組裝 11% 其他 17%",
+            "ACTer Action Creativity Technology 32 全球無塵室技術市場 邊緣Al 市場 亞太地區增長 市場持續成長 未來展望 市場規模預計從2022年39億美元 成長至2032年的69.6億美元 市場規模預計從2024年的29.7億美 元成長至2030年的113.1億美元 亞太地區是無塵室技術成長最快的 市場",
+            "ACTer Action Creativity Technology 33 專注核心技術,整合人才建立優勢 拓展區域商機,掌握供應鏈移轉利基 實踐綠色工程,實現企業永續發展 擴大產業視野,垂直整合滿足客戶需求 未來展望 運用核心技術與整合人才建立產業優勢 創造服務價值，提升股東權益",
+            "ACTer Active Creative Technological 3 目 錄 公司簡介 營運回顧 競爭優勢 未來展望 1 2 3 4",
+            "ACTer Action Creativity Technology 5 2,600+ 總部 Proven45+ 集團人數 (截至2026年上半年共2,625人) 立足亞洲；跨足全球 半導體生態系統優質合作夥伴專業統包工程服務年資 (成立於 1979年) 主要服務項目： • 機電空調無塵室整合 • 製程供應系統整合 • 節能回收再利用系統整合 公司簡介 致力於核心技能,由本業落實碳中和,追求美好未來",
+            "ACTer Action Creativity Technology 營運概況 18 單位：仟元/新台幣;% *本公司每股面額新台幣5元 項目/年度 2025年上半年 2026年上半年 2026年第一季 2026年第二季 金額 % 金額 % 金額 % 金額 % 營業收入 19,463,905 100 24,984,399 100 11,603,182 100 13,381,217 100 營業成本 15,826,671 81 19,277,955 77 8,658,350 75 10,619,605 79 營業毛利",
+            "ACTer Action Creativity Technology 5 2,600+ Headquarter Proven45+ Group Employee (2,625 as of 2026 H1) From Asia, reaching the world. Tier-1 Partner in the Semiconductor Ecosystem Years of Combined Industry Leadership (From 1979) Main Service： • Electromechani",
+            "ACTer Action Creativity Technology Future Prospect Backlog is high enough to support future operations 300 310 380 460 600 100 200 300 400 500 600 700 2022 2023 2024 2025 2026Q2 Taiwan, 68% China, 21% Southeast Asia and Others, 11% 2026H1 Semiconductor Industr"
+          ],
+          "outlookTone": {
+            "label": "正面看好",
+            "score": 78,
+            "basis": "正向訊號 4、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：9/7~9/8: 本公司受邀參加MACQUARIE舉辦之Macquarie NEXT INNOVATIONS Tech Conference 2026 9/22~9/23: 本公司受邀參加BofA Securities舉辦之2026 Asia Pacific Conference,於會議中說明本公司2026年第二季營運狀況",
+            "page 26 --- ACTer Action Creativity Technology 26 綠色規劃設計 綠色採購 綠色工法 綜合承包服務 智能管理 智能綠色工程 競爭優勢 • 提供綠色優化價值工程，擴增系統生 命週期節能效益 • 運用BIM與VR技術降低虛耗 •導入綠色節能建材設備 •強化綠色供應鏈管理 •PLM標準化管理，綠色管理 •導入預製工法 •提供維運策略，提升運轉效能 --- page 27 --- ACTer Ac",
+            "(資料來源：Bloomberg 2026/03/03) 天下永續公民獎 天下雜誌 天下人才永續獎 天下雜誌 台灣百大永續典範企業 TCSA --- page 13 --- ACTer Action Creativity Technology 28.42 20.00 0 5 10 15 20 25 30 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 EPS",
+            "2 --- page 3 --- ACTer Active Creative Technological 3 目 錄 公司簡介 營運回顧 競爭優勢 未來展望 1 2 3 4 --- page 4 --- 公司簡介 4 --- page 5 --- ACTer Action Creativity Technology 5 2,600+ 總部 Proven45+ 集團人數 (截至2026年上半年共2,625人) 立足亞洲；跨足全球 半導體生",
+            "(Source：Bloomberg 2026/03/03) Corporate Profile Corporate Governance - Implementing ESG and creating green value Excellence in CSR Award CommonWealth Magazine Talent Sustainability Award CommonWealth Magazine Taiwan Top",
+            "24, 2026 --- page 15 --- ACTer Action Creativity Technology Corporate Profile Superior ROE Performance 15 22.86% 27.62% 21.76% 24.07% 25.47% 0% 5% 10% 15% 20% 25% 30% 2021 2022 2023 2024 2025 ROE --- page 16 --- Business"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-22.md",
+          "detailMarkdown": "## 5536 聖暉* 深度法說分析\n\n### 一頁結論\n- 展望評價：正面看好（78 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 4、保守訊號 0。\n- 判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 \n\n### 營運與財務重點\n- (資料來源：Bloomberg 2026/03/03) 天下永續公民獎 天下雜誌 天下人才永續獎 天下雜誌 台灣百大永續典範企業 TCSA --- page 13 --- ACTer Action Creativity Technology 28.42 20.00 0 5 10 15 20 25 30 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 EPS\n- ACTer Action Creativity Technology 32 全球無塵室技術市場 邊緣Al 市場 亞太地區增長 市場持續成長 未來展望 市場規模預計從2022年39億美元 成長至2032年的69.6億美元 市場規模預計從2024年的29.7億美 元成長至2030年的113.1億美元 亞太地區是無塵室技術成長最快的 市場\n- ACTer Action Creativity Technology 營運概況 18 單位：仟元/新台幣;% *本公司每股面額新台幣5元 項目/年度 2025年上半年 2026年上半年 2026年第一季 2026年第二季 金額 % 金額 % 金額 % 金額 % 營業收入 19,463,905 100 24,984,399 100 11,603,182 100 13,381,217 100 營業成本 15,826,671 81 19,277,955 77 8,658,350 75 10,619,605 79 營業毛利\n\n### 展望與成長利基\n- ACTer Action Creativity Technology 台灣 68% 大陸 21% 東南亞及其他 11% 未來展望 在建存量高，支撐未來營運 2026H1 31 300 310 380 460 600 100 200 300 400 500 600 700 2022 2023 2024 2025 2026Q2 新台幣億元 半導體 63% 民生 9% 電子組裝 11% 其他 17%\n- ACTer Action Creativity Technology 32 全球無塵室技術市場 邊緣Al 市場 亞太地區增長 市場持續成長 未來展望 市場規模預計從2022年39億美元 成長至2032年的69.6億美元 市場規模預計從2024年的29.7億美 元成長至2030年的113.1億美元 亞太地區是無塵室技術成長最快的 市場\n- ACTer Action Creativity Technology 33 專注核心技術,整合人才建立優勢 拓展區域商機,掌握供應鏈移轉利基 實踐綠色工程,實現企業永續發展 擴大產業視野,垂直整合滿足客戶需求 未來展望 運用核心技術與整合人才建立產業優勢 創造服務價值，提升股東權益\n- ACTer Active Creative Technological 3 目 錄 公司簡介 營運回顧 競爭優勢 未來展望 1 2 3 4\n- ACTer Action Creativity Technology 5 2,600+ 總部 Proven45+ 集團人數 (截至2026年上半年共2,625人) 立足亞洲；跨足全球 半導體生態系統優質合作夥伴專業統包工程服務年資 (成立於 1979年) 主要服務項目： • 機電空調無塵室整合 • 製程供應系統整合 • 節能回收再利用系統整合 公司簡介 致力於核心技能,由本業落實碳中和,追求美好未來\n- ACTer Action Creativity Technology 營運概況 18 單位：仟元/新台幣;% *本公司每股面額新台幣5元 項目/年度 2025年上半年 2026年上半年 2026年第一季 2026年第二季 金額 % 金額 % 金額 % 金額 % 營業收入 19,463,905 100 24,984,399 100 11,603,182 100 13,381,217 100 營業成本 15,826,671 81 19,277,955 77 8,658,350 75 10,619,605 79 營業毛利\n- ACTer Action Creativity Technology 5 2,600+ Headquarter Proven45+ Group Employee (2,625 as of 2026 H1) From Asia, reaching the world. Tier-1 Partner in the Semiconductor Ecosystem Years of Combined Industry Leadership (From 1979) Main Service： • Electromechani\n- ACTer Action Creativity Technology Future Prospect Backlog is high enough to support future operations 300 310 380 460 600 100 200 300 400 500 600 700 2022 2023 2024 2025 2026Q2 Taiwan, 68% China, 21% Southeast Asia and Others, 11% 2026H1 Semiconductor Industr\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- 2 --- page 3 --- ACTer Active Creative Technological 3 目 錄 公司簡介 營運回顧 競爭優勢 未來展望 1 2 3 4 --- page 4 --- 公司簡介 4 --- page 5 --- ACTer Action Creativity Technology 5 2,600+ 總部 Proven45+ 集團人數 (截至2026年上半年共2,625人) 立足亞洲；跨足全球 半導體生\n- (Source：Bloomberg 2026/03/03) Corporate Profile Corporate Governance - Implementing ESG and creating green value Excellence in CSR Award CommonWealth Magazine Talent Sustainability Award CommonWealth Magazine Taiwan Top\n- ACTer Action Creativity Technology 台灣 68% 大陸 21% 東南亞及其他 11% 未來展望 在建存量高，支撐未來營運 2026H1 31 300 310 380 460 600 100 200 300 400 500 600 700 2022 2023 2024 2025 2026Q2 新台幣億元 半導體 63% 民生 9% 電子組裝 11% 其他 17%\n- ACTer Action Creativity Technology 32 全球無塵室技術市場 邊緣Al 市場 亞太地區增長 市場持續成長 未來展望 市場規模預計從2022年39億美元 成長至2032年的69.6億美元 市場規模預計從2024年的29.7億美 元成長至2030年的113.1億美元 亞太地區是無塵室技術成長最快的 市場\n- ACTer Action Creativity Technology 33 專注核心技術,整合人才建立優勢 拓展區域商機,掌握供應鏈移轉利基 實踐綠色工程,實現企業永續發展 擴大產業視野,垂直整合滿足客戶需求 未來展望 運用核心技術與整合人才建立產業優勢 創造服務價值，提升股東權益\n\n### 風險與不確定性\n- ACTer Action Creativity Technology 營運概況 18 單位：仟元/新台幣;% *本公司每股面額新台幣5元 項目/年度 2025年上半年 2026年上半年 2026年第一季 2026年第二季 金額 % 金額 % 金額 % 金額 % 營業收入 19,463,905 100 24,984,399 100 11,603,182 100 13,381,217 100 營業成本 15,826,671 81 19,277,955 77 8,658,350 75 10,619,605 79 營業毛利\n\n### Q&A 與管理層口氣\n- page 26 --- ACTer Action Creativity Technology 26 綠色規劃設計 綠色採購 綠色工法 綜合承包服務 智能管理 智能綠色工程 競爭優勢 • 提供綠色優化價值工程，擴增系統生 命週期節能效益 • 運用BIM與VR技術降低虛耗 •導入綠色節能建材設備 •強化綠色供應鏈管理 •PLM標準化管理，綠色管理 •導入預製工法 •提供維運策略，提升運轉效能 --- page 27 --- ACTer Ac\n- ACTer Action Creativity Technology 33 專注核心技術,整合人才建立優勢 拓展區域商機,掌握供應鏈移轉利基 實踐綠色工程,實現企業永續發展 擴大產業視野,垂直整合滿足客戶需求 未來展望 運用核心技術與整合人才建立產業優勢 創造服務價值，提升股東權益\n- ACTer Action Creativity Technology 營運概況 18 單位：仟元/新台幣;% *本公司每股面額新台幣5元 項目/年度 2025年上半年 2026年上半年 2026年第一季 2026年第二季 金額 % 金額 % 金額 % 金額 % 營業收入 19,463,905 100 24,984,399 100 11,603,182 100 13,381,217 100 營業成本 15,826,671 81 19,277,955 77 8,658,350 75 10,619,605 79 營業毛利\n\n### 評分利基點\n- 加分主因：page 26 --- ACTer Action Creativity Technology 26 綠色規劃設計 綠色採購 綠色工法 綜合承包服務 智能管理 智能綠色工程 競爭優勢 • 提供綠色優化價值工程，擴增系統生 命週期節能效益 • 運用BIM與VR技術降低虛耗 •導入綠色節能建材設備 •強化綠色供應鏈管理 •PLM標準化管理，綠色管理 •導入預製工法 •提供維運策略，提升運轉效能 --- page 27 --- ACTer Ac；ACTer Action Creativity Technology 台灣 68% 大陸 21% 東南亞及其他 11% 未來展望 在建存量高，支撐未來營運 2026H1 31 300 310 380 460 600 100 200 300 400 500 600 700 2022 2023 2024 2025 2026Q2 新台幣億元 半導體 63% 民生 9% 電子組裝 11% 其他 17%；ACTer Action Creativity Technology 32 全球無塵室技術市場 邊緣Al 市場 亞太地區增長 市場持續成長 未來展望 市場規模預計從2022年39億美元 成長至2032年的69.6億美元 市場規模預計從2024年的29.7億美 元成長至2030年的113.1億美元 亞太地區是無塵室技術成長最快的 市場。\n- 扣分或保留：ACTer Action Creativity Technology 營運概況 18 單位：仟元/新台幣;% *本公司每股面額新台幣5元 項目/年度 2025年上半年 2026年上半年 2026年第一季 2026年第二季 金額 % 金額 % 金額 % 金額 % 營業收入 19,463,905 100 24,984,399 100 11,603,182 100 13,381,217 100 營業成本 15,826,671 81 19,277,955 77 8,658,350 75 10,619,605 79 營業毛利。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-10-22",
+          "code": "6625",
+          "name": "必應",
+          "eventType": "法人說明會",
+          "time": "14:30",
+          "location": "台北市中山區建國北路一段96號13樓 (台証金融大樓)",
+          "topic": "本公司受邀參加台新證券舉辦之法人說明會,報告本公司營運狀況。",
+          "companyWebsite": "https://www.bin-live.com/",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/662520261022M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/662520261022E001.pdf",
+          "mediaUrl": "http://irconference.twse.com.tw/6625_10_20261022_ch.MP4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "20 整體產業樣貎 2026年前三季-中國演出市場 截至2026年9月，全國5000人以上的大型演唱會已累計舉辦超過1300場，預計全年將突破2600場，同比增長 約13.06%，市場規模有望突破千億元。 2026年演唱會市場呈現出二大顯著特點： 1.兩極分化加劇：頂流藝人場場售罄；二級以下藝人恐面臨取消或延期的狀況。約20%的頂流藝人貢獻了80% 的票房收入。演唱會的趨勢，頂流的藝人會獲得更多資源和更高票房，形成“強者恒強”的局面；二級以下藝 人面臨更嚴峻的市場競爭，部分專案可能被迫取消或轉型，價格分層也會更明顯",
+            "展望，反應本公司截至目前為止對於未來的看法， 對於這些看法，未來若有任何變更或調整時，本公司並不保證本簡報資 料之正確性，且不負有更新或修正本簡報資料內容之責任。本簡報內容 未經本公司書面許可，任何第三者不得任意取用。 2",
+            "台灣流行音樂展演活動概況 台灣流行音樂產業2020年總營業額為197.07億元。 資料來源：2024年台灣文化內容產業調查報告。 15 2024 年我國流行音樂活動共舉辦9,944 場(華語9,912場；非華語752場)，總場 次較2023年成長39.39%。 華語場次增加2,624場，較2023年成長 40%；非華語增加186場，增幅33%。 總場次成長幅度顯著，主要因 1. 疫後國內外音樂人啟動新一輪巡演 計畫。 2. 2024年有新場館相繼投入營運。 3. 各級政府單位積極辦理含音樂演出 的市集、音樂節等戶外",
+            "26 2026年專場硬體 ●2026MIXPOP CONCERT 演唱會@高流 ●EXID [EXID: EXtra ID] @TICC ●IRENE [ I-WILL ] 巡迴演唱會@台大 ●N.Flying FAN CONCERT@台大體育館 ●2026 K-WONDER 拼盤演唱會@林口 ●蔡健雅 除此之外Into The B-Sides演唱會」-高流 ●EPEX 4th CONCERT〈ECHO〉@WESTAR ●「喬山五十 · 動轉未來」慈善演唱會@台北大巨蛋 ● CHEN《Arcadia》演唱會@TIC",
+            "28 2026年活動硬體 ●2026台肥冬日感恩祭 ●第22屆憶師恩法會 ●花蓮原民演唱會@東大門廣場 ●第63屆金馬獎頒獎典禮@北流 ●台北時裝週@北流 ●第37屆傳藝金曲獎頒獎典禮 ●第61屆金鐘獎頒獎典禮 ●第37屆金曲獎頒獎典禮 ● NVIDIA Computex keynote 2026@北流 ● Hito流行音樂頒獎典禮 ●屏東三大日音樂節@屏東 ●北士科 成果發表會@北士科 T17-T18 ●紅白藝能大賞@台北小巨蛋 ● 「喬山五十 · 動轉未來」慈善演唱會@大巨蛋 ●第二屆蘋果愛美獎 ●葡眾表揚大會",
+            "29 2026年活動硬體 ● 「2026 捷運盃街舞大賽」 ●TPBL夢想家冠軍賽@台中洲際小蛋 ● TPBL夢想家季後賽@台中洲際小蛋 ● TPBL台新戰神例行賽 ● 高雄啤酒節@高雄夢時代 ● 115年全民運動會開幕典禮暨選手之夜 ●高雄櫻花季@高雄夢時代廣場 ●統一愛Sharing系列活動-台南聖誕樹 ● 「2026亞洲小動物獸醫師年會」 ●第二十八屆台北電影節頒獎典禮@台北中山堂 ●國立台灣科學實驗高中揭幕儀式 ●火星計畫演說@台北小巨蛋 ● 《東！帶我走》出發吧 來台東唱@台東 ● 2026 第十八屆聽咱",
+            "2026年前二季合併綜合損益表 單位:新台幣仟元 項 目 2026年 1月1日至6月30日 2025年 1月1日至6月30日 年成長 營業收入 2,158,509 1,791,454 20.49% 營業毛利 517,114 300,331 營業毛利率 23.96% 16.76% 營業費用 139,014 111,622 營業淨利 378,100 188,709 營業淨利率 17.52% 10.53% 稅後淨利 267,783 137,702 94.47% 基本每股盈餘(元) 4.63 3.34 38.62% 33",
+            "2026年每季獲利 單位:新台幣仟元 34 2025年 2026年 0.23 Q4 1.42 Q1 3.17 3.21 3.10 Q2 Q3 2.63 9.13 全年度 YX 4.63+X+Y"
+          ],
+          "outlookTone": {
+            "label": "正面看好",
+            "score": 78,
+            "basis": "正向訊號 4、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：本公司受邀參加台新證券舉辦之法人說明會,報告本公司營運狀況。",
+            "page 21 --- 三、經 營 實 績 21 --- page 22 --- 22 2026年專場作品 ●劉若英 「飛行日」 世界巡迴演唱會 ●周深「深深的」世界巡迴演唱会 ●李榮浩「黑馬」世界巡迴演唱會 ●張靚穎「追」世界巡迴演唱會 ●李宇春 皇后與夢想 巡迴演唱會 ●F✦FOREVER恆星之城巡迴演唱會 ●任賢齊「齊跡」世界巡迴演唱會 ●孫燕姿 《就在日落以後》世界巡迴演唱 ●李宗盛「有歌之年」世界巡迴演唱會 ●丁噹「夜遊」巡迴",
+            "本簡報資料中所提供之資訊並未明示或暗示的表達或保證其具有正 確性、完整性、或可靠性，亦不代表本公司、產業狀況或後續重大發展 的完整論述。對未來的展望，反應本公司截至目前為止對於未來的看法， 對於這些看法，未來若有任何變更或調整時，本公司並不保證本簡報資 料之正確性，且不負有更新或修正本簡報資料內容之責任。本簡報內容 未經本公司書面許可，任何第三者不得任意取用。",
+            "5 --- page 6 --- 必應創造 B’IN LIVE 是台灣少數能統包演唱會及頒獎典禮等活動製作的專業團 隊，擅長融合音樂性和娛樂性，勇於研發創新，有效整合創意、執行及軟硬體規 劃，為客戶創造獨特新穎的節目內容，為觀眾帶來震撼、動人的感官體驗。",
+            "15 2024 年我國流行音樂活動共舉辦9,944 場(華語9,912場；非華語752場)，總場 次較2023年成長39.39%。",
+            "華語場次增加2,624場，較2023年成長 40%；非華語增加186場，增幅33%。"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-22.md",
+          "detailMarkdown": "## 6625 必應 深度法說分析\n\n### 一頁結論\n- 展望評價：正面看好（78 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 4、保守訊號 0。\n- 判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 \n\n### 營運與財務重點\n- 15 2024 年我國流行音樂活動共舉辦9,944 場(華語9,912場；非華語752場)，總場 次較2023年成長39.39%。\n- 華語場次增加2,624場，較2023年成長 40%；非華語增加186場，增幅33%。\n- 台灣流行音樂展演活動概況 台灣流行音樂產業2020年總營業額為197.07億元。 資料來源：2024年台灣文化內容產業調查報告。 15 2024 年我國流行音樂活動共舉辦9,944 場(華語9,912場；非華語752場)，總場 次較2023年成長39.39%。 華語場次增加2,624場，較2023年成長 40%；非華語增加186場，增幅33%。 總場次成長幅度顯著，主要因 1. 疫後國內外音樂人啟動新一輪巡演 計畫。 2. 2024年有新場館相繼投入營運。 3. 各級政府單位積極辦理含音樂演出 的市集、音樂節等戶外\n- 2026年前二季合併綜合損益表 單位:新台幣仟元 項 目 2026年 1月1日至6月30日 2025年 1月1日至6月30日 年成長 營業收入 2,158,509 1,791,454 20.49% 營業毛利 517,114 300,331 營業毛利率 23.96% 16.76% 營業費用 139,014 111,622 營業淨利 378,100 188,709 營業淨利率 17.52% 10.53% 稅後淨利 267,783 137,702 94.47% 基本每股盈餘(元) 4.63 3.34 38.62% 33\n- 2026年每季獲利 單位:新台幣仟元 34 2025年 2026年 0.23 Q4 1.42 Q1 3.17 3.21 3.10 Q2 Q3 2.63 9.13 全年度 YX 4.63+X+Y\n\n### 展望與成長利基\n- 20 整體產業樣貎 2026年前三季-中國演出市場 截至2026年9月，全國5000人以上的大型演唱會已累計舉辦超過1300場，預計全年將突破2600場，同比增長 約13.06%，市場規模有望突破千億元。 2026年演唱會市場呈現出二大顯著特點： 1.兩極分化加劇：頂流藝人場場售罄；二級以下藝人恐面臨取消或延期的狀況。約20%的頂流藝人貢獻了80% 的票房收入。演唱會的趨勢，頂流的藝人會獲得更多資源和更高票房，形成“強者恒強”的局面；二級以下藝 人面臨更嚴峻的市場競爭，部分專案可能被迫取消或轉型，價格分層也會更明顯\n- 展望，反應本公司截至目前為止對於未來的看法， 對於這些看法，未來若有任何變更或調整時，本公司並不保證本簡報資 料之正確性，且不負有更新或修正本簡報資料內容之責任。本簡報內容 未經本公司書面許可，任何第三者不得任意取用。 2\n- 台灣流行音樂展演活動概況 台灣流行音樂產業2020年總營業額為197.07億元。 資料來源：2024年台灣文化內容產業調查報告。 15 2024 年我國流行音樂活動共舉辦9,944 場(華語9,912場；非華語752場)，總場 次較2023年成長39.39%。 華語場次增加2,624場，較2023年成長 40%；非華語增加186場，增幅33%。 總場次成長幅度顯著，主要因 1. 疫後國內外音樂人啟動新一輪巡演 計畫。 2. 2024年有新場館相繼投入營運。 3. 各級政府單位積極辦理含音樂演出 的市集、音樂節等戶外\n- 26 2026年專場硬體 ●2026MIXPOP CONCERT 演唱會@高流 ●EXID [EXID: EXtra ID] @TICC ●IRENE [ I-WILL ] 巡迴演唱會@台大 ●N.Flying FAN CONCERT@台大體育館 ●2026 K-WONDER 拼盤演唱會@林口 ●蔡健雅 除此之外Into The B-Sides演唱會」-高流 ●EPEX 4th CONCERT〈ECHO〉@WESTAR ●「喬山五十 · 動轉未來」慈善演唱會@台北大巨蛋 ● CHEN《Arcadia》演唱會@TIC\n- 28 2026年活動硬體 ●2026台肥冬日感恩祭 ●第22屆憶師恩法會 ●花蓮原民演唱會@東大門廣場 ●第63屆金馬獎頒獎典禮@北流 ●台北時裝週@北流 ●第37屆傳藝金曲獎頒獎典禮 ●第61屆金鐘獎頒獎典禮 ●第37屆金曲獎頒獎典禮 ● NVIDIA Computex keynote 2026@北流 ● Hito流行音樂頒獎典禮 ●屏東三大日音樂節@屏東 ●北士科 成果發表會@北士科 T17-T18 ●紅白藝能大賞@台北小巨蛋 ● 「喬山五十 · 動轉未來」慈善演唱會@大巨蛋 ●第二屆蘋果愛美獎 ●葡眾表揚大會\n- 29 2026年活動硬體 ● 「2026 捷運盃街舞大賽」 ●TPBL夢想家冠軍賽@台中洲際小蛋 ● TPBL夢想家季後賽@台中洲際小蛋 ● TPBL台新戰神例行賽 ● 高雄啤酒節@高雄夢時代 ● 115年全民運動會開幕典禮暨選手之夜 ●高雄櫻花季@高雄夢時代廣場 ●統一愛Sharing系列活動-台南聖誕樹 ● 「2026亞洲小動物獸醫師年會」 ●第二十八屆台北電影節頒獎典禮@台北中山堂 ●國立台灣科學實驗高中揭幕儀式 ●火星計畫演說@台北小巨蛋 ● 《東！帶我走》出發吧 來台東唱@台東 ● 2026 第十八屆聽咱\n- 2026年前二季合併綜合損益表 單位:新台幣仟元 項 目 2026年 1月1日至6月30日 2025年 1月1日至6月30日 年成長 營業收入 2,158,509 1,791,454 20.49% 營業毛利 517,114 300,331 營業毛利率 23.96% 16.76% 營業費用 139,014 111,622 營業淨利 378,100 188,709 營業淨利率 17.52% 10.53% 稅後淨利 267,783 137,702 94.47% 基本每股盈餘(元) 4.63 3.34 38.62% 33\n- 2026年每季獲利 單位:新台幣仟元 34 2025年 2026年 0.23 Q4 1.42 Q1 3.17 3.21 3.10 Q2 Q3 2.63 9.13 全年度 YX 4.63+X+Y\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- 5 --- page 6 --- 必應創造 B’IN LIVE 是台灣少數能統包演唱會及頒獎典禮等活動製作的專業團 隊，擅長融合音樂性和娛樂性，勇於研發創新，有效整合創意、執行及軟硬體規 劃，為客戶創造獨特新穎的節目內容，為觀眾帶來震撼、動人的感官體驗。\n- 20 整體產業樣貎 2026年前三季-中國演出市場 截至2026年9月，全國5000人以上的大型演唱會已累計舉辦超過1300場，預計全年將突破2600場，同比增長 約13.06%，市場規模有望突破千億元。 2026年演唱會市場呈現出二大顯著特點： 1.兩極分化加劇：頂流藝人場場售罄；二級以下藝人恐面臨取消或延期的狀況。約20%的頂流藝人貢獻了80% 的票房收入。演唱會的趨勢，頂流的藝人會獲得更多資源和更高票房，形成“強者恒強”的局面；二級以下藝 人面臨更嚴峻的市場競爭，部分專案可能被迫取消或轉型，價格分層也會更明顯\n\n### 風險與不確定性\n- 本簡報資料中所提供之資訊並未明示或暗示的表達或保證其具有正 確性、完整性、或可靠性，亦不代表本公司、產業狀況或後續重大發展 的完整論述。對未來的展望，反應本公司截至目前為止對於未來的看法， 對於這些看法，未來若有任何變更或調整時，本公司並不保證本簡報資 料之正確性，且不負有更新或修正本簡報資料內容之責任。本簡報內容 未經本公司書面許可，任何第三者不得任意取用。\n- 展望，反應本公司截至目前為止對於未來的看法， 對於這些看法，未來若有任何變更或調整時，本公司並不保證本簡報資 料之正確性，且不負有更新或修正本簡報資料內容之責任。本簡報內容 未經本公司書面許可，任何第三者不得任意取用。 2\n\n### Q&A 與管理層口氣\n- 2026年前二季合併綜合損益表 單位:新台幣仟元 項 目 2026年 1月1日至6月30日 2025年 1月1日至6月30日 年成長 營業收入 2,158,509 1,791,454 20.49% 營業毛利 517,114 300,331 營業毛利率 23.96% 16.76% 營業費用 139,014 111,622 營業淨利 378,100 188,709 營業淨利率 17.52% 10.53% 稅後淨利 267,783 137,702 94.47% 基本每股盈餘(元) 4.63 3.34 38.62% 33\n\n### 評分利基點\n- 加分主因：15 2024 年我國流行音樂活動共舉辦9,944 場(華語9,912場；非華語752場)，總場 次較2023年成長39.39%。；華語場次增加2,624場，較2023年成長 40%；非華語增加186場，增幅33%。；20 整體產業樣貎 2026年前三季-中國演出市場 截至2026年9月，全國5000人以上的大型演唱會已累計舉辦超過1300場，預計全年將突破2600場，同比增長 約13.06%，市場規模有望突破千億元。 2026年演唱會市場呈現出二大顯著特點： 1.兩極分化加劇：頂流藝人場場售罄；二級以下藝人恐面臨取消或延期的狀況。約20%的頂流藝人貢獻了80% 的票房收入。演唱會的趨勢，頂流的藝人會獲得更多資源和更高票房，形成“強者恒強”的局面；二級以下藝 人面臨更嚴峻的市場競爭，部分專案可能被迫取消或轉型，價格分層也會更明顯。\n- 扣分或保留：本簡報資料中所提供之資訊並未明示或暗示的表達或保證其具有正 確性、完整性、或可靠性，亦不代表本公司、產業狀況或後續重大發展 的完整論述。對未來的展望，反應本公司截至目前為止對於未來的看法， 對於這些看法，未來若有任何變更或調整時，本公司並不保證本簡報資 料之正確性，且不負有更新或修正本簡報資料內容之責任。本簡報內容 未經本公司書面許可，任何第三者不得任意取用。；展望，反應本公司截至目前為止對於未來的看法， 對於這些看法，未來若有任何變更或調整時，本公司並不保證本簡報資 料之正確性，且不負有更新或修正本簡報資料內容之責任。本簡報內容 未經本公司書面許可，任何第三者不得任意取用。 2。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-10-21T13:31:09.772Z",
       "queryDate": "2026-10-21",
