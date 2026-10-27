@@ -1,12 +1,305 @@
 window.irSummaryHistory = {
-  "generatedAt": "2026-10-22T13:06:32.118Z",
+  "generatedAt": "2026-10-27T13:50:00.589Z",
   "sourceRoot": "C:\\Users\\user\\Desktop\\Codex專案\\法說整理",
   "retentionDays": 30,
   "maxMeetingDate": "",
-  "latestDate": "2026-10-22",
+  "latestDate": "2026-10-27",
   "items": [
     {
-      "generatedAt": "2026-10-22T13:06:32.118Z",
+      "generatedAt": "2026-10-27T13:50:00.589Z",
+      "queryDate": "2026-10-27",
+      "displayDate": "2026-10-27",
+      "count": 7,
+      "rows": [
+        {
+          "date": "2026-10-27",
+          "code": "2008",
+          "name": "高興昌",
+          "eventType": "法人說明會",
+          "time": "14:00",
+          "location": "高雄市鼓山區中華一路318號(本公司二樓)",
+          "topic": "本公司115年1-6月業績說明",
+          "companyWebsite": "",
+          "chinesePdf": "",
+          "englishPdf": "",
+          "mediaUrl": "http://irconference.twse.com.tw/2008_12_20261023_ch.mp4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "未從簡報或轉錄稿擷取到明確展望段落。"
+          ],
+          "outlookTone": {
+            "label": "中性觀望",
+            "score": 50,
+            "basis": "正向訊號 0、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "MOPS 擇要訊息：本公司115年1-6月業績說明",
+            "缺少可摘要的簡報文字或轉錄稿。"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-27.md",
+          "detailMarkdown": "## 2008 高興昌 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：本公司115年1-6月業績說明\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-10-27",
+          "code": "2337",
+          "name": "旺宏",
+          "eventType": "法人說明會",
+          "time": "16:00",
+          "location": "線上法人說明會",
+          "topic": "旺宏電子2026年第三季營運成果報告",
+          "companyWebsite": "https://www.mxic.com.tw/zh-tw/about/investor-relations/Pages/quarterly-results.aspx",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/233720261027M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/233720261027E001.pdf",
+          "mediaUrl": "https://www.mxic.com.tw/zh-tw/about/investor-relations/Pages/quarterly-results.aspx",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "Copyright © Macronix International Co., Ltd. 14 Datacenter 成長強勁，帶動高容量NOR成長 100 100 106 129 158 235 306 240 302 346 456 544 592 617 600 0 250 500 750 1Q 2023 2Q 3Q 4Q 1Q 2024 2Q 3Q 4Q 1Q 2025 2Q 3Q 4Q 1Q 2026 2Q 3Q NOR Flash by Datacenter Density shipment Index",
+            "Copyright © Macronix International Co., Ltd. 13 營運現況 - NOR NOR Business Datacenter 帶動的高容量 NOR需求持續強勁 100 98 114 119 127 152 163 132 175 212 216 233 241 242 213 0 100 200 1Q 2023 2Q 3Q 4Q 1Q 2024 2Q 3Q 4Q 1Q 2025 2Q 3Q 4Q 1Q 2026 2Q 3Q Density shipment index:",
+            "Copyright © Macronix International Co., Ltd. 15 車用的最佳Flash Memory解決方案 100 94 109 96 120 101 109 96 127 133 127 129 121 116 109 0 50 100 150 200 250 1Q 2023 2Q 3Q 4Q 1Q 2024 2Q 3Q 4Q 1Q 2025 2Q 3Q 4Q 1Q 2026 2Q 3Q NOR Flash by Automotive Density shipment Index:",
+            "Copyright © Macronix International Co., Ltd. 1 本簡報與會議中之討論內容包含有關於旺宏電子 (股)公司營運、財務狀況與對未來 預期之前瞻性描述，此前瞻性描述將受到已知與未知不確定因素與風險的影響 ，而造成 實際結果與前瞻性描述中預期或暗示的結果可能存在重大差異。 前述之不確定性因素與風險包含但不限於競爭產品 /價格競爭的影響、客戶對公司 產品設計之接受度、公司即時的引進新技術、公司對新產品的即時量產能力、整體半導 體產業供需的轉變、產能過剩、產能供給、終端市場的財務狀況",
+            "Copyright © Macronix International Co., Ltd. 9,627 11,427 14,974 14,545 11,598 11,340 11,471 9,078 7,104 7,429 7,283 5,808 5,760 6,456 7,755 5,913 6,137 6,799 8,214 7,729 10,469 19,125 24,237 34% 39% 43% 47% 48% 48% 44% 34% 25% 28% 24% 19% 20% 30% 29% 13% 18%",
+            "Copyright © Macronix International Co., Ltd. 11 第三季銷售額分析-產品別 (母公司) 0 5,000 10,000 15,000 20,000 25,000 3Q25 2Q26 3Q26 16% 52% 4%8% 3% 6% 48% 43% 5% 46% 47% QoQ Change YoY Change NOR +21% +158% ROM +9% -39% FBG -10% -5% * FBG (Foundry Business Group) NAND +39%",
+            "Copyright © Macronix International Co., Ltd. 12 營運現況 - ROM 100 176 545 348 290 256 406 368 214 280 383 394 222 193 386 292 331 483 307 147 117 91 248 159 95 90 269 110 78 100114 0 200 400 600 1Q 2019 2Q 3Q 4Q 1Q 2020 2Q 3Q 4Q 1Q 2021 2Q 3Q 4Q 1Q 2022 2Q 3Q 4Q",
+            "Copyright © Macronix International Co., Ltd. 17 營收：佰萬元 NAND business  SLC及eMMC仍嚴重供不應求 Note：* NAND : 包含 SLC NAND、MLC NAND & TLC NAND 營運現況 – NAND (包含eMMC) QoQ Change YoY Change eMMC +27% +2,291% NAND +55% +403% 0 4,000 8,000 12,000 1Q 2024 2Q 3Q 4Q 1Q 2025 2Q"
+          ],
+          "outlookTone": {
+            "label": "中性偏正面",
+            "score": 66,
+            "basis": "正向訊號 4、保守訊號 2"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：旺宏電子2026年第三季營運成果報告",
+            "前述之不確定性因素與風險包含但不限於競爭產品 /價格競爭的影響、客戶對公司 產品設計之接受度、公司即時的引進新技術、公司對新產品的即時量產能力、整體半導 體產業供需的轉變、產能過剩、產能供給、終端市場的財務狀況及其他等等風險。",
+            "2 3Q26 營運概況 營收淨額 (NT$ 十億) 營業毛利率 營業淨利率 3Q26 NT$ 24.2 70.5% 53.4% 2Q26 NT$ 19.1 64.4% 46.9% 3Q25 NT$ 8.2 13.5% (13.9%) --- page 4 --- Copyright © Macronix International Co., Ltd.",
+            "3Q26 YTD NT$ 53.8 62.6% 44.3% 3Q25 YTD NT$ 21.2 15.4% (15.6%) 3Q26 YTD營運概況 營收淨額 (NT$ 十億) 營業毛利率 營業淨利率 3 --- page 5 --- Copyright © Macronix International Co., Ltd.",
+            "9,627 11,427 14,974 14,545 11,598 11,340 11,471 9,078 7,104 7,429 7,283 5,808 5,760 6,456 7,755 5,913 6,137 6,799 8,214 7,729 10,469 19,125 24,237 34% 39% 43% 47% 48% 48% 44% 34% 25% 28% 24% 19% 20% 30% 29% 13% 18% 16% 1",
+            "14 Datacenter 成長強勁，帶動高容量NOR成長 100 100 106 129 158 235 306 240 302 346 456 544 592 617 600 0 250 500 750 1Q 2023 2Q 3Q 4Q 1Q 2024 2Q 3Q 4Q 1Q 2025 2Q 3Q 4Q 1Q 2026 2Q 3Q NOR Flash by Datacenter Density shipment Index: 1Q2"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-27.md",
+          "detailMarkdown": "## 2337 旺宏 深度法說分析\n\n### 一頁結論\n- 展望評價：中性偏正面（66 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 4、保守訊號 2。\n- 判讀：方向偏正面，但管理層仍保留部分彈性，較適合追蹤接單、毛利率與下一季財測是否延續。 \n\n### 營運與財務重點\n- 2 3Q26 營運概況 營收淨額 (NT$ 十億) 營業毛利率 營業淨利率 3Q26 NT$ 24.2 70.5% 53.4% 2Q26 NT$ 19.1 64.4% 46.9% 3Q25 NT$ 8.2 13.5% (13.9%) --- page 4 --- Copyright © Macronix International Co., Ltd.\n- 3Q26 YTD NT$ 53.8 62.6% 44.3% 3Q25 YTD NT$ 21.2 15.4% (15.6%) 3Q26 YTD營運概況 營收淨額 (NT$ 十億) 營業毛利率 營業淨利率 3 --- page 5 --- Copyright © Macronix International Co., Ltd.\n- 14 Datacenter 成長強勁，帶動高容量NOR成長 100 100 106 129 158 235 306 240 302 346 456 544 592 617 600 0 250 500 750 1Q 2023 2Q 3Q 4Q 1Q 2024 2Q 3Q 4Q 1Q 2025 2Q 3Q 4Q 1Q 2026 2Q 3Q NOR Flash by Datacenter Density shipment Index: 1Q2\n- Copyright © Macronix International Co., Ltd. 14 Datacenter 成長強勁，帶動高容量NOR成長 100 100 106 129 158 235 306 240 302 346 456 544 592 617 600 0 250 500 750 1Q 2023 2Q 3Q 4Q 1Q 2024 2Q 3Q 4Q 1Q 2025 2Q 3Q 4Q 1Q 2026 2Q 3Q NOR Flash by Datacenter Density shipment Index\n- Copyright © Macronix International Co., Ltd. 17 營收：佰萬元 NAND business  SLC及eMMC仍嚴重供不應求 Note：* NAND : 包含 SLC NAND、MLC NAND & TLC NAND 營運現況 – NAND (包含eMMC) QoQ Change YoY Change eMMC +27% +2,291% NAND +55% +403% 0 4,000 8,000 12,000 1Q 2024 2Q 3Q 4Q 1Q 2025 2Q\n\n### 展望與成長利基\n- Copyright © Macronix International Co., Ltd. 14 Datacenter 成長強勁，帶動高容量NOR成長 100 100 106 129 158 235 306 240 302 346 456 544 592 617 600 0 250 500 750 1Q 2023 2Q 3Q 4Q 1Q 2024 2Q 3Q 4Q 1Q 2025 2Q 3Q 4Q 1Q 2026 2Q 3Q NOR Flash by Datacenter Density shipment Index\n- Copyright © Macronix International Co., Ltd. 13 營運現況 - NOR NOR Business Datacenter 帶動的高容量 NOR需求持續強勁 100 98 114 119 127 152 163 132 175 212 216 233 241 242 213 0 100 200 1Q 2023 2Q 3Q 4Q 1Q 2024 2Q 3Q 4Q 1Q 2025 2Q 3Q 4Q 1Q 2026 2Q 3Q Density shipment index:\n- Copyright © Macronix International Co., Ltd. 15 車用的最佳Flash Memory解決方案 100 94 109 96 120 101 109 96 127 133 127 129 121 116 109 0 50 100 150 200 250 1Q 2023 2Q 3Q 4Q 1Q 2024 2Q 3Q 4Q 1Q 2025 2Q 3Q 4Q 1Q 2026 2Q 3Q NOR Flash by Automotive Density shipment Index:\n- Copyright © Macronix International Co., Ltd. 1 本簡報與會議中之討論內容包含有關於旺宏電子 (股)公司營運、財務狀況與對未來 預期之前瞻性描述，此前瞻性描述將受到已知與未知不確定因素與風險的影響 ，而造成 實際結果與前瞻性描述中預期或暗示的結果可能存在重大差異。 前述之不確定性因素與風險包含但不限於競爭產品 /價格競爭的影響、客戶對公司 產品設計之接受度、公司即時的引進新技術、公司對新產品的即時量產能力、整體半導 體產業供需的轉變、產能過剩、產能供給、終端市場的財務狀況\n- Copyright © Macronix International Co., Ltd. 9,627 11,427 14,974 14,545 11,598 11,340 11,471 9,078 7,104 7,429 7,283 5,808 5,760 6,456 7,755 5,913 6,137 6,799 8,214 7,729 10,469 19,125 24,237 34% 39% 43% 47% 48% 48% 44% 34% 25% 28% 24% 19% 20% 30% 29% 13% 18%\n- Copyright © Macronix International Co., Ltd. 11 第三季銷售額分析-產品別 (母公司) 0 5,000 10,000 15,000 20,000 25,000 3Q25 2Q26 3Q26 16% 52% 4%8% 3% 6% 48% 43% 5% 46% 47% QoQ Change YoY Change NOR +21% +158% ROM +9% -39% FBG -10% -5% * FBG (Foundry Business Group) NAND +39%\n- Copyright © Macronix International Co., Ltd. 12 營運現況 - ROM 100 176 545 348 290 256 406 368 214 280 383 394 222 193 386 292 331 483 307 147 117 91 248 159 95 90 269 110 78 100114 0 200 400 600 1Q 2019 2Q 3Q 4Q 1Q 2020 2Q 3Q 4Q 1Q 2021 2Q 3Q 4Q 1Q 2022 2Q 3Q 4Q\n- Copyright © Macronix International Co., Ltd. 17 營收：佰萬元 NAND business  SLC及eMMC仍嚴重供不應求 Note：* NAND : 包含 SLC NAND、MLC NAND & TLC NAND 營運現況 – NAND (包含eMMC) QoQ Change YoY Change eMMC +27% +2,291% NAND +55% +403% 0 4,000 8,000 12,000 1Q 2024 2Q 3Q 4Q 1Q 2025 2Q\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- 前述之不確定性因素與風險包含但不限於競爭產品 /價格競爭的影響、客戶對公司 產品設計之接受度、公司即時的引進新技術、公司對新產品的即時量產能力、整體半導 體產業供需的轉變、產能過剩、產能供給、終端市場的財務狀況及其他等等風險。\n- Copyright © Macronix International Co., Ltd. 1 本簡報與會議中之討論內容包含有關於旺宏電子 (股)公司營運、財務狀況與對未來 預期之前瞻性描述，此前瞻性描述將受到已知與未知不確定因素與風險的影響 ，而造成 實際結果與前瞻性描述中預期或暗示的結果可能存在重大差異。 前述之不確定性因素與風險包含但不限於競爭產品 /價格競爭的影響、客戶對公司 產品設計之接受度、公司即時的引進新技術、公司對新產品的即時量產能力、整體半導 體產業供需的轉變、產能過剩、產能供給、終端市場的財務狀況\n- Copyright © Macronix International Co., Ltd. 11 第三季銷售額分析-產品別 (母公司) 0 5,000 10,000 15,000 20,000 25,000 3Q25 2Q26 3Q26 16% 52% 4%8% 3% 6% 48% 43% 5% 46% 47% QoQ Change YoY Change NOR +21% +158% ROM +9% -39% FBG -10% -5% * FBG (Foundry Business Group) NAND +39%\n\n### 風險與不確定性\n- 前述之不確定性因素與風險包含但不限於競爭產品 /價格競爭的影響、客戶對公司 產品設計之接受度、公司即時的引進新技術、公司對新產品的即時量產能力、整體半導 體產業供需的轉變、產能過剩、產能供給、終端市場的財務狀況及其他等等風險。\n- Copyright © Macronix International Co., Ltd. 1 本簡報與會議中之討論內容包含有關於旺宏電子 (股)公司營運、財務狀況與對未來 預期之前瞻性描述，此前瞻性描述將受到已知與未知不確定因素與風險的影響 ，而造成 實際結果與前瞻性描述中預期或暗示的結果可能存在重大差異。 前述之不確定性因素與風險包含但不限於競爭產品 /價格競爭的影響、客戶對公司 產品設計之接受度、公司即時的引進新技術、公司對新產品的即時量產能力、整體半導 體產業供需的轉變、產能過剩、產能供給、終端市場的財務狀況\n\n### Q&A 與管理層口氣\n- 前述之不確定性因素與風險包含但不限於競爭產品 /價格競爭的影響、客戶對公司 產品設計之接受度、公司即時的引進新技術、公司對新產品的即時量產能力、整體半導 體產業供需的轉變、產能過剩、產能供給、終端市場的財務狀況及其他等等風險。\n- 2 3Q26 營運概況 營收淨額 (NT$ 十億) 營業毛利率 營業淨利率 3Q26 NT$ 24.2 70.5% 53.4% 2Q26 NT$ 19.1 64.4% 46.9% 3Q25 NT$ 8.2 13.5% (13.9%) --- page 4 --- Copyright © Macronix International Co., Ltd.\n- 3Q26 YTD NT$ 53.8 62.6% 44.3% 3Q25 YTD NT$ 21.2 15.4% (15.6%) 3Q26 YTD營運概況 營收淨額 (NT$ 十億) 營業毛利率 營業淨利率 3 --- page 5 --- Copyright © Macronix International Co., Ltd.\n- Copyright © Macronix International Co., Ltd. 1 本簡報與會議中之討論內容包含有關於旺宏電子 (股)公司營運、財務狀況與對未來 預期之前瞻性描述，此前瞻性描述將受到已知與未知不確定因素與風險的影響 ，而造成 實際結果與前瞻性描述中預期或暗示的結果可能存在重大差異。 前述之不確定性因素與風險包含但不限於競爭產品 /價格競爭的影響、客戶對公司 產品設計之接受度、公司即時的引進新技術、公司對新產品的即時量產能力、整體半導 體產業供需的轉變、產能過剩、產能供給、終端市場的財務狀況\n\n### 評分利基點\n- 加分主因：前述之不確定性因素與風險包含但不限於競爭產品 /價格競爭的影響、客戶對公司 產品設計之接受度、公司即時的引進新技術、公司對新產品的即時量產能力、整體半導 體產業供需的轉變、產能過剩、產能供給、終端市場的財務狀況及其他等等風險。；14 Datacenter 成長強勁，帶動高容量NOR成長 100 100 106 129 158 235 306 240 302 346 456 544 592 617 600 0 250 500 750 1Q 2023 2Q 3Q 4Q 1Q 2024 2Q 3Q 4Q 1Q 2025 2Q 3Q 4Q 1Q 2026 2Q 3Q NOR Flash by Datacenter Density shipment Index: 1Q2；Copyright © Macronix International Co., Ltd. 14 Datacenter 成長強勁，帶動高容量NOR成長 100 100 106 129 158 235 306 240 302 346 456 544 592 617 600 0 250 500 750 1Q 2023 2Q 3Q 4Q 1Q 2024 2Q 3Q 4Q 1Q 2025 2Q 3Q 4Q 1Q 2026 2Q 3Q NOR Flash by Datacenter Density shipment Index。\n- 扣分或保留：前述之不確定性因素與風險包含但不限於競爭產品 /價格競爭的影響、客戶對公司 產品設計之接受度、公司即時的引進新技術、公司對新產品的即時量產能力、整體半導 體產業供需的轉變、產能過剩、產能供給、終端市場的財務狀況及其他等等風險。；Copyright © Macronix International Co., Ltd. 1 本簡報與會議中之討論內容包含有關於旺宏電子 (股)公司營運、財務狀況與對未來 預期之前瞻性描述，此前瞻性描述將受到已知與未知不確定因素與風險的影響 ，而造成 實際結果與前瞻性描述中預期或暗示的結果可能存在重大差異。 前述之不確定性因素與風險包含但不限於競爭產品 /價格競爭的影響、客戶對公司 產品設計之接受度、公司即時的引進新技術、公司對新產品的即時量產能力、整體半導 體產業供需的轉變、產能過剩、產能供給、終端市場的財務狀況。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-10-27",
+          "code": "3035",
+          "name": "智原",
+          "eventType": "法人說明會",
+          "time": "14:30",
+          "location": "線上法說會",
+          "topic": "115年第三季線上法人說明會",
+          "companyWebsite": "https://www.faraday-tech.com/tw/content/IR/InvestorConference",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/303520261027M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/303520261027E001.pdf",
+          "mediaUrl": "https://www.faraday-tech.com/tw/content/IR/InvestorConference",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "4Confidential 季度合併損益表 單位: 新台幣百萬元 3Q26 2Q26 3Q25 QoQ % YoY % 營業收入淨額 3,664 3,314 3,236 10.6% 13.2% 矽智財 448 433 413 3.5% 8.4% 委託設計服務 309 451 492 -31.3% -37.1% 量產 2,907 2,430 2,331 19.6% 24.7% 營業毛利 1,557 1,499 1,075 3.9% 44.9% 營業費用 (1,343) (1,228) (1,035) 9.4% 29.",
+            "8Confidential 委託設計服務/量產季度銷售分析 - 應用別比重 9% 13% 7% 21% 15% 14% 25% 27% 19% 18% 43% 3% 1% 6% 26% 45% 53% 49% 50% 8% 14% 12% 11% 11% 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 3Q25 4Q245 1Q26 2Q26 3Q26 MP Communication Industrial AI IoT MM / Con / PC 8% 25% 22% 17",
+            "9Confidential 委託設計服務/量產季度銷售分析 - 製程技術比重 50% 56% 36% 29% 14% 13% 34% 41% 36% 62% 32% 7% 19% 21% 14% 1% 1% 3% 8% 9% 3% 2% 1% 6% 1% 1% 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 3Q25 4Q25 1Q26 2Q26 3Q26 NRE <=14nm 28nm 40nm 55nm ~ 90nm 0.11um ~ 0.18um >=0.25um 43",
+            "Confidential 2026年10月27日 智原科技2026年第三季 法人說明會",
+            "7Confidential 季度銷售分析 - 產品別營收 0 500 1,000 1,500 2,000 2,500 3,000 3,500 4,000 3Q25 4Q25 1Q26 2Q26 3Q26 NT$ M 72% 52% 63% 73% 79% 15% 33% 21% 14% 9% 13% 15% 16% 13% 12% 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 3Q25 4Q25 1Q26 2Q26 3Q26 MP NRE IP 3Q25 4Q25 1Q26",
+            "Confidential October 27, 2026 2026 3Q Investor Conference",
+            "4Confidential Statements of Comprehensive Income Unit: NT$ Million 3Q26 2Q26 3Q25 QoQ % YoY % Revenues 3,664 3,314 3,236 10.6% 13.2% IP 448 433 413 3.5% 8.4% NRE 309 451 492 -31.3% -37.1% MP 2,907 2,430 2,331 19.6% 24.7% Gross Profit 1,557 1,499 1,075 3.9% 44.",
+            "7Confidential Sales Breakdown by Billing Method 0 500 1,000 1,500 2,000 2,500 3,000 3,500 4,000 3Q25 4Q25 1Q26 2Q26 3Q26 NT$ M 72% 52% 63% 73% 79% 15% 33% 21% 14% 9% 13% 15% 16% 13% 12% 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 3Q25 4Q25 1Q26 2Q26 3Q26 MP NR"
+          ],
+          "outlookTone": {
+            "label": "中性偏正面",
+            "score": 57,
+            "basis": "正向訊號 1、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：115年第三季線上法人說明會",
+            "[zh PDF] --- page 1 --- Confidential 2026年10月27日 智原科技2026年第三季 法人說明會 --- page 2 --- 2Confidential Agenda • 3Q26財務報告 • 營運報告 --- page 3 --- 3 3Q26財務報告 --- page 4 --- 4Confidential 季度合併損益表 單位: 新台幣百萬元 3Q26 2Q26 3Q25 QoQ % YoY",
+            "page 11 --- 11 www.faraday-tech.com ir@faraday-tech.com [en PDF] --- page 1 --- Confidential October 27, 2026 2026 3Q Investor Conference --- page 2 --- 2Confidential Agenda • 3Q26 Financial Results • Business Update ---",
+            "• Legal notice The information contained in this presentation is intended to provide a general guide as to which product is suited for a given requirement and shows suggested product applications.",
+            "All information is provided “as is”, with no guarantee of completeness, accuracy, timeliness or of the results obtained from the use of the information, and without warranty of any kind, express or implied, including but",
+            "• Legal notice The information contained in this presentation is intended to provide a general guide as to which product is suited for a given requirement and shows suggested product applications."
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-27.md",
+          "detailMarkdown": "## 3035 智原 深度法說分析\n\n### 一頁結論\n- 展望評價：中性偏正面（57 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 1、保守訊號 0。\n- 判讀：方向偏正面，但管理層仍保留部分彈性，較適合追蹤接單、毛利率與下一季財測是否延續。 \n\n### 營運與財務重點\n- 4Confidential 季度合併損益表 單位: 新台幣百萬元 3Q26 2Q26 3Q25 QoQ % YoY % 營業收入淨額 3,664 3,314 3,236 10.6% 13.2% 矽智財 448 433 413 3.5% 8.4% 委託設計服務 309 451 492 -31.3% -37.1% 量產 2,907 2,430 2,331 19.6% 24.7% 營業毛利 1,557 1,499 1,075 3.9% 44.9% 營業費用 (1,343) (1,228) (1,035) 9.4% 29.\n- 7Confidential 季度銷售分析 - 產品別營收 0 500 1,000 1,500 2,000 2,500 3,000 3,500 4,000 3Q25 4Q25 1Q26 2Q26 3Q26 NT$ M 72% 52% 63% 73% 79% 15% 33% 21% 14% 9% 13% 15% 16% 13% 12% 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 3Q25 4Q25 1Q26 2Q26 3Q26 MP NRE IP 3Q25 4Q25 1Q26\n\n### 展望與成長利基\n- 4Confidential 季度合併損益表 單位: 新台幣百萬元 3Q26 2Q26 3Q25 QoQ % YoY % 營業收入淨額 3,664 3,314 3,236 10.6% 13.2% 矽智財 448 433 413 3.5% 8.4% 委託設計服務 309 451 492 -31.3% -37.1% 量產 2,907 2,430 2,331 19.6% 24.7% 營業毛利 1,557 1,499 1,075 3.9% 44.9% 營業費用 (1,343) (1,228) (1,035) 9.4% 29.\n- 8Confidential 委託設計服務/量產季度銷售分析 - 應用別比重 9% 13% 7% 21% 15% 14% 25% 27% 19% 18% 43% 3% 1% 6% 26% 45% 53% 49% 50% 8% 14% 12% 11% 11% 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 3Q25 4Q245 1Q26 2Q26 3Q26 MP Communication Industrial AI IoT MM / Con / PC 8% 25% 22% 17\n- 9Confidential 委託設計服務/量產季度銷售分析 - 製程技術比重 50% 56% 36% 29% 14% 13% 34% 41% 36% 62% 32% 7% 19% 21% 14% 1% 1% 3% 8% 9% 3% 2% 1% 6% 1% 1% 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 3Q25 4Q25 1Q26 2Q26 3Q26 NRE <=14nm 28nm 40nm 55nm ~ 90nm 0.11um ~ 0.18um >=0.25um 43\n- Confidential 2026年10月27日 智原科技2026年第三季 法人說明會\n- 7Confidential 季度銷售分析 - 產品別營收 0 500 1,000 1,500 2,000 2,500 3,000 3,500 4,000 3Q25 4Q25 1Q26 2Q26 3Q26 NT$ M 72% 52% 63% 73% 79% 15% 33% 21% 14% 9% 13% 15% 16% 13% 12% 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 3Q25 4Q25 1Q26 2Q26 3Q26 MP NRE IP 3Q25 4Q25 1Q26\n- Confidential October 27, 2026 2026 3Q Investor Conference\n- 4Confidential Statements of Comprehensive Income Unit: NT$ Million 3Q26 2Q26 3Q25 QoQ % YoY % Revenues 3,664 3,314 3,236 10.6% 13.2% IP 448 433 413 3.5% 8.4% NRE 309 451 492 -31.3% -37.1% MP 2,907 2,430 2,331 19.6% 24.7% Gross Profit 1,557 1,499 1,075 3.9% 44.\n- 7Confidential Sales Breakdown by Billing Method 0 500 1,000 1,500 2,000 2,500 3,000 3,500 4,000 3Q25 4Q25 1Q26 2Q26 3Q26 NT$ M 72% 52% 63% 73% 79% 15% 33% 21% 14% 9% 13% 15% 16% 13% 12% 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 3Q25 4Q25 1Q26 2Q26 3Q26 MP NR\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- • Legal notice The information contained in this presentation is intended to provide a general guide as to which product is suited for a given requirement and shows suggested product applications.\n- All information is provided “as is”, with no guarantee of completeness, accuracy, timeliness or of the results obtained from the use of the information, and without warranty of any kind, express or implied, including but\n- 8Confidential 委託設計服務/量產季度銷售分析 - 應用別比重 9% 13% 7% 21% 15% 14% 25% 27% 19% 18% 43% 3% 1% 6% 26% 45% 53% 49% 50% 8% 14% 12% 11% 11% 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 3Q25 4Q245 1Q26 2Q26 3Q26 MP Communication Industrial AI IoT MM / Con / PC 8% 25% 22% 17\n- 7Confidential 季度銷售分析 - 產品別營收 0 500 1,000 1,500 2,000 2,500 3,000 3,500 4,000 3Q25 4Q25 1Q26 2Q26 3Q26 NT$ M 72% 52% 63% 73% 79% 15% 33% 21% 14% 9% 13% 15% 16% 13% 12% 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 3Q25 4Q25 1Q26 2Q26 3Q26 MP NRE IP 3Q25 4Q25 1Q26\n\n### 風險與不確定性\n- 本次摘要未擷取到明確風險或保守訊號。\n\n### Q&A 與管理層口氣\n- 4Confidential 季度合併損益表 單位: 新台幣百萬元 3Q26 2Q26 3Q25 QoQ % YoY % 營業收入淨額 3,664 3,314 3,236 10.6% 13.2% 矽智財 448 433 413 3.5% 8.4% 委託設計服務 309 451 492 -31.3% -37.1% 量產 2,907 2,430 2,331 19.6% 24.7% 營業毛利 1,557 1,499 1,075 3.9% 44.9% 營業費用 (1,343) (1,228) (1,035) 9.4% 29.\n\n### 評分利基點\n- 加分主因：4Confidential 季度合併損益表 單位: 新台幣百萬元 3Q26 2Q26 3Q25 QoQ % YoY % 營業收入淨額 3,664 3,314 3,236 10.6% 13.2% 矽智財 448 433 413 3.5% 8.4% 委託設計服務 309 451 492 -31.3% -37.1% 量產 2,907 2,430 2,331 19.6% 24.7% 營業毛利 1,557 1,499 1,075 3.9% 44.9% 營業費用 (1,343) (1,228) (1,035) 9.4% 29.；8Confidential 委託設計服務/量產季度銷售分析 - 應用別比重 9% 13% 7% 21% 15% 14% 25% 27% 19% 18% 43% 3% 1% 6% 26% 45% 53% 49% 50% 8% 14% 12% 11% 11% 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 3Q25 4Q245 1Q26 2Q26 3Q26 MP Communication Industrial AI IoT MM / Con / PC 8% 25% 22% 17；9Confidential 委託設計服務/量產季度銷售分析 - 製程技術比重 50% 56% 36% 29% 14% 13% 34% 41% 36% 62% 32% 7% 19% 21% 14% 1% 1% 3% 8% 9% 3% 2% 1% 6% 1% 1% 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 3Q25 4Q25 1Q26 2Q26 3Q26 NRE <=14nm 28nm 40nm 55nm ~ 90nm 0.11um ~ 0.18um >=0.25um 43。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-10-27",
+          "code": "4169",
+          "name": "泰宗",
+          "eventType": "法人說明會",
+          "time": "14:30",
+          "location": "凱基證券 (台北市明水路700號)",
+          "topic": "說明營運概況",
+          "companyWebsite": "https://www.tcmbio.com/tw/detail.php?id=241",
+          "chinesePdf": "",
+          "englishPdf": "",
+          "mediaUrl": "https://www.youtube.com/watch?v=Edm5c7mCzNo",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "未從簡報或轉錄稿擷取到明確展望段落。"
+          ],
+          "outlookTone": {
+            "label": "中性觀望",
+            "score": 50,
+            "basis": "正向訊號 0、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "MOPS 擇要訊息：說明營運概況",
+            "缺少可摘要的簡報文字或轉錄稿。"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-27.md",
+          "detailMarkdown": "## 4169 泰宗 深度法說分析\n\n### 一頁結論\n- 展望評價：中性觀望（50 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 0、保守訊號 0。\n- 判讀：目前資訊偏中性，正向題材與不確定因素並存，需等待更明確的量化指標。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- MOPS 擇要訊息：說明營運概況\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- 尚未擷取到足夠的產品或市場資訊。\n\n### 風險與不確定性\n- 缺少可摘要的簡報文字或轉錄稿。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 扣分或保留：缺少可摘要的簡報文字或轉錄稿。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-10-27",
+          "code": "6226",
+          "name": "光鼎",
+          "eventType": "法人說明會",
+          "time": "14:30",
+          "location": "線上法說會",
+          "topic": "本公司受邀參加富邦綜合證券舉辦之線上法說會,報告本公司營運狀況。",
+          "companyWebsite": "",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/622620261027M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/622620261027E001.pdf",
+          "mediaUrl": "http://irconference.twse.com.tw/6226_11_20261027_ch.mp4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "未從簡報或轉錄稿擷取到明確展望段落。"
+          ],
+          "outlookTone": {
+            "label": "中性偏正面",
+            "score": 57,
+            "basis": "正向訊號 1、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：本公司受邀參加富邦綜合證券舉辦之線上法說會,報告本公司營運狀況。",
+            "10 (TWSE:6226) • Headquarter：New Taipei City, Taiwan • Capital：NTD 1,155,347,890 • Main Product：LED components and module • Number of Employee：497 • Factories：Nanjing(China), Lianyungang(China), Yangon(Myanmar) 南京華鼎電子 連雲",
+            "IAT F 7 --- page 8 --- 營 運 成 果02 PART TWO  綜 合 損 益 表  資 產 負 債 表  現 金 流 量 表 8 --- page 9 --- 綜 合 損 益 表02 金額 (amounts) 比率 (%) 金額 (amounts) 比率 (%) 營業收入 (Operating revenue) 175,194 100 154,789 100 營業成本 (Operating costs) 1",
+            "照明解決方案  功 率 半 導 體 13 --- page 14 --- L E D元 器 件03 SMD & PLCC LEDSMD & PLCC LED 7 Segments LED Display 7 Segments LED Display Through Hole LampThrough Hole Lamp Holder (Circuit Board Indicator) Holder (Circuit Board Indi",
+            "• These documents may contain statements that pertain to projections of PARA, including but not limited to any future business activities and developments.",
+            "These predictions were made based on information available at the time the statements were made, the assumptions, suppositions, and judgments of PARA or of affiliated companies (hereinafter referred to as the “Company”)"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-27.md",
+          "detailMarkdown": "## 6226 光鼎 深度法說分析\n\n### 一頁結論\n- 展望評價：中性偏正面（57 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 1、保守訊號 0。\n- 判讀：方向偏正面，但管理層仍保留部分彈性，較適合追蹤接單、毛利率與下一季財測是否延續。 \n\n### 營運與財務重點\n- 未使用 LLM 摘要，以下為程式抽取的初步重點。\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- MOPS 擇要訊息：本公司受邀參加富邦綜合證券舉辦之線上法說會,報告本公司營運狀況。\n- 10 (TWSE:6226) • Headquarter：New Taipei City, Taiwan • Capital：NTD 1,155,347,890 • Main Product：LED components and module • Number of Employee：497 • Factories：Nanjing(China), Lianyungang(China), Yangon(Myanmar) 南京華鼎電子 連雲\n- IAT F 7 --- page 8 --- 營 運 成 果02 PART TWO  綜 合 損 益 表  資 產 負 債 表  現 金 流 量 表 8 --- page 9 --- 綜 合 損 益 表02 金額 (amounts) 比率 (%) 金額 (amounts) 比率 (%) 營業收入 (Operating revenue) 175,194 100 154,789 100 營業成本 (Operating costs) 1\n- 照明解決方案  功 率 半 導 體 13 --- page 14 --- L E D元 器 件03 SMD & PLCC LEDSMD & PLCC LED 7 Segments LED Display 7 Segments LED Display Through Hole LampThrough Hole Lamp Holder (Circuit Board Indicator) Holder (Circuit Board Indi\n\n### 展望與成長利基\n- 未從簡報或轉錄稿擷取到明確展望段落。\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- 10 (TWSE:6226) • Headquarter：New Taipei City, Taiwan • Capital：NTD 1,155,347,890 • Main Product：LED components and module • Number of Employee：497 • Factories：Nanjing(China), Lianyungang(China), Yangon(Myanmar) 南京華鼎電子 連雲\n- • These documents may contain statements that pertain to projections of PARA, including but not limited to any future business activities and developments.\n- These predictions were made based on information available at the time the statements were made, the assumptions, suppositions, and judgments of PARA or of affiliated companies (hereinafter referred to as the “Company”)\n\n### 風險與不確定性\n- IAT F 7 --- page 8 --- 營 運 成 果02 PART TWO  綜 合 損 益 表  資 產 負 債 表  現 金 流 量 表 8 --- page 9 --- 綜 合 損 益 表02 金額 (amounts) 比率 (%) 金額 (amounts) 比率 (%) 營業收入 (Operating revenue) 175,194 100 154,789 100 營業成本 (Operating costs) 1\n\n### Q&A 與管理層口氣\n- IAT F 7 --- page 8 --- 營 運 成 果02 PART TWO  綜 合 損 益 表  資 產 負 債 表  現 金 流 量 表 8 --- page 9 --- 綜 合 損 益 表02 金額 (amounts) 比率 (%) 金額 (amounts) 比率 (%) 營業收入 (Operating revenue) 175,194 100 154,789 100 營業成本 (Operating costs) 1\n\n### 評分利基點\n- 扣分或保留：IAT F 7 --- page 8 --- 營 運 成 果02 PART TWO  綜 合 損 益 表  資 產 負 債 表  現 金 流 量 表 8 --- page 9 --- 綜 合 損 益 表02 金額 (amounts) 比率 (%) 金額 (amounts) 比率 (%) 營業收入 (Operating revenue) 175,194 100 154,789 100 營業成本 (Operating costs) 1。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-10-27",
+          "code": "6239",
+          "name": "力成",
+          "eventType": "法人說明會",
+          "time": "14:30",
+          "location": "線上法說會",
+          "topic": "報告115年第三季營運成果及未來之營運展望",
+          "companyWebsite": "https://www.pti.com.tw",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/623920261027M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/623920261027E001.pdf",
+          "mediaUrl": "http://irconference.twse.com.tw/6239_223_20261027_ch.mp4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "｜24 力成除持續推進5倍reticle 以下的封裝應用外，更進一步投入超大尺寸封 裝技術的研發，以因應未來AI晶片對高效能、高整合度的大尺寸封裝需 求，持續強化先進封裝競爭力與市場布局。 In addition to continuing its advancement of packaging applications for reticle sizes up to 5x, PTI is further investing in the R&D of ultra-large-scale packaging te",
+            "｜19 02 03 Industry AI及雲端基礎建設投資維持強勁，持續支撐半導體及記憶體產業 需求。 Investment in AI and cloud infrastructure remains robust, continuing to support demand for the semiconductor and memory industries. 整體而言，第四季半導體產業展望維持樂觀，AI相關應用將持續 扮演主要成長引擎。 Overall, the outlook for the semico",
+            "｜20 01 PTI Group-PTI 因應人工智慧維持強勁需求, 致使整體記憶體仍然供不應求, 整體產能利用率可望維持相當水準, 並期待客戶未來新晶圓產 能陸續開出。 Driven by sustained strong demand for artificial intelligence, the memory market remains in a state of undersupply. Overall capacity utilization is expected to hold at a high",
+            "｜27 PTI Group-Greatek Copyright© 2026 Powertech Technology,Inc . Q26 and Onward Business Outlook 02 AI、HPC及 IoT需求成長，消費性電子、PC及NB拉貨轉趨 保守。 Demand for AI, HPC and IoT continues to grow, while customer pull-ins for consumer electronics, PCs and notebooks have turne",
+            "｜21 PTI Group-PTI(continued) Copyright© 2026 Powertech Technology,Inc . DRAM 03 隨著市場供需持續緊俏，客戶對原物料成本上漲帶動的價格調 整亦展現高接受度。展望第四季，在整體產能稼動率維持高檔 及價格效益逐步顯現的雙重帶動下，預期獲利將進一步攀升。 As market supply remains tight relative to demand, customers have shown a high degree of accepta",
+            "｜22 01 PTI Group-PTI(continued) NAND & SSD AI 應用需求持續成長，企業級 SSD 及 NAND 相關需求維持 強勁，預期第四季整體需求仍將維持高檔，營運表現穩健。 Driven by continued growth in AI-related applications, overall SSD and NAND backend demand is expected to remain strong in the fourth quarter, supporting so",
+            "｜23 隨著AI市場需求持續增溫，力成在高階FCBGA亦同步受惠，既有高 階產品需求亦持續擴大。預期第四季高階封裝業務將延續成長動 能，維持穩健向上的發展趨勢。 As demand in the AI market continues to heat up, PTI is benefiting from the growing need for high- end FCBGA solutions. Demand for existing high-end products is also continuing to",
+            "｜25 05 Logic PTI Group-PTI(continued) 在高階FCBGA領域, 繼第三季成功導入大晶片(1x reticle Size)封裝 (75x78)的量產後，第四季將進一步跨入更大尺寸封裝領域 ( 78x88)，整合SoC Die與 DRAM元件在單一基板上，此項技術突 破再次證明力成在大尺寸封裝的技術實力，更具體驗證公司在 warpage control 及 TIM coverage 等關鍵製程能力，再次獲得國 際級AI客戶的肯定。 In the high-end FCBGA sect"
+          ],
+          "outlookTone": {
+            "label": "正面看好",
+            "score": 100,
+            "basis": "正向訊號 10、保守訊號 1"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：報告115年第三季營運成果及未來之營運展望",
+            "Q26 Business Overview Memory-NAND AI 伺服器帶旺 eSSD 需求，推升營收持續成長。",
+            "Tera Probe / Terapower: CAPEX支應客戶需求，營收QoQ、 YoY持續高雙位數成長。",
+            "DRAM 03 隨著市場供需持續緊俏，客戶對原物料成本上漲帶動的價格調 整亦展現高接受度。展望第四季，在整體產能稼動率維持高檔 及價格效益逐步顯現的雙重帶動下，預期獲利將進一步攀升。",
+            "受惠於市場供需持續緊俏，多數客戶已逐步接受價格調整。隨著原 物料上升所帶動的價格逐步反映，預期第四季將進一步挹注營收及 獲利成長，並對整體獲利表現帶正面貢獻。",
+            "01 客戶因應AI/HPC和Edge應用平台，進而積極開發新產品， 為2027營收成長打基礎。"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-27.md",
+          "detailMarkdown": "## 6239 力成 深度法說分析\n\n### 一頁結論\n- 展望評價：正面看好（100 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 10、保守訊號 1。\n- 判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 \n\n### 營運與財務重點\n- Q26 Business Overview Memory-NAND AI 伺服器帶旺 eSSD 需求，推升營收持續成長。\n- Tera Probe / Terapower: CAPEX支應客戶需求，營收QoQ、 YoY持續高雙位數成長。\n- DRAM 03 隨著市場供需持續緊俏，客戶對原物料成本上漲帶動的價格調 整亦展現高接受度。展望第四季，在整體產能稼動率維持高檔 及價格效益逐步顯現的雙重帶動下，預期獲利將進一步攀升。\n- 受惠於市場供需持續緊俏，多數客戶已逐步接受價格調整。隨著原 物料上升所帶動的價格逐步反映，預期第四季將進一步挹注營收及 獲利成長，並對整體獲利表現帶正面貢獻。\n- 01 客戶因應AI/HPC和Edge應用平台，進而積極開發新產品， 為2027營收成長打基礎。\n- ｜19 02 03 Industry AI及雲端基礎建設投資維持強勁，持續支撐半導體及記憶體產業 需求。 Investment in AI and cloud infrastructure remains robust, continuing to support demand for the semiconductor and memory industries. 整體而言，第四季半導體產業展望維持樂觀，AI相關應用將持續 扮演主要成長引擎。 Overall, the outlook for the semico\n\n### 展望與成長利基\n- ｜24 力成除持續推進5倍reticle 以下的封裝應用外，更進一步投入超大尺寸封 裝技術的研發，以因應未來AI晶片對高效能、高整合度的大尺寸封裝需 求，持續強化先進封裝競爭力與市場布局。 In addition to continuing its advancement of packaging applications for reticle sizes up to 5x, PTI is further investing in the R&D of ultra-large-scale packaging te\n- ｜19 02 03 Industry AI及雲端基礎建設投資維持強勁，持續支撐半導體及記憶體產業 需求。 Investment in AI and cloud infrastructure remains robust, continuing to support demand for the semiconductor and memory industries. 整體而言，第四季半導體產業展望維持樂觀，AI相關應用將持續 扮演主要成長引擎。 Overall, the outlook for the semico\n- ｜20 01 PTI Group-PTI 因應人工智慧維持強勁需求, 致使整體記憶體仍然供不應求, 整體產能利用率可望維持相當水準, 並期待客戶未來新晶圓產 能陸續開出。 Driven by sustained strong demand for artificial intelligence, the memory market remains in a state of undersupply. Overall capacity utilization is expected to hold at a high\n- ｜27 PTI Group-Greatek Copyright© 2026 Powertech Technology,Inc . Q26 and Onward Business Outlook 02 AI、HPC及 IoT需求成長，消費性電子、PC及NB拉貨轉趨 保守。 Demand for AI, HPC and IoT continues to grow, while customer pull-ins for consumer electronics, PCs and notebooks have turne\n- ｜21 PTI Group-PTI(continued) Copyright© 2026 Powertech Technology,Inc . DRAM 03 隨著市場供需持續緊俏，客戶對原物料成本上漲帶動的價格調 整亦展現高接受度。展望第四季，在整體產能稼動率維持高檔 及價格效益逐步顯現的雙重帶動下，預期獲利將進一步攀升。 As market supply remains tight relative to demand, customers have shown a high degree of accepta\n- ｜22 01 PTI Group-PTI(continued) NAND & SSD AI 應用需求持續成長，企業級 SSD 及 NAND 相關需求維持 強勁，預期第四季整體需求仍將維持高檔，營運表現穩健。 Driven by continued growth in AI-related applications, overall SSD and NAND backend demand is expected to remain strong in the fourth quarter, supporting so\n- ｜23 隨著AI市場需求持續增溫，力成在高階FCBGA亦同步受惠，既有高 階產品需求亦持續擴大。預期第四季高階封裝業務將延續成長動 能，維持穩健向上的發展趨勢。 As demand in the AI market continues to heat up, PTI is benefiting from the growing need for high- end FCBGA solutions. Demand for existing high-end products is also continuing to\n- ｜25 05 Logic PTI Group-PTI(continued) 在高階FCBGA領域, 繼第三季成功導入大晶片(1x reticle Size)封裝 (75x78)的量產後，第四季將進一步跨入更大尺寸封裝領域 ( 78x88)，整合SoC Die與 DRAM元件在單一基板上，此項技術突 破再次證明力成在大尺寸封裝的技術實力，更具體驗證公司在 warpage control 及 TIM coverage 等關鍵製程能力，再次獲得國 際級AI客戶的肯定。 In the high-end FCBGA sect\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- Q26 Business Overview Memory-NAND AI 伺服器帶旺 eSSD 需求，推升營收持續成長。\n- Tera Probe / Terapower: CAPEX支應客戶需求，營收QoQ、 YoY持續高雙位數成長。\n- DRAM 03 隨著市場供需持續緊俏，客戶對原物料成本上漲帶動的價格調 整亦展現高接受度。展望第四季，在整體產能稼動率維持高檔 及價格效益逐步顯現的雙重帶動下，預期獲利將進一步攀升。\n- 受惠於市場供需持續緊俏，多數客戶已逐步接受價格調整。隨著原 物料上升所帶動的價格逐步反映，預期第四季將進一步挹注營收及 獲利成長，並對整體獲利表現帶正面貢獻。\n- 01 客戶因應AI/HPC和Edge應用平台，進而積極開發新產品， 為2027營收成長打基礎。\n\n### 風險與不確定性\n- DRAM 03 隨著市場供需持續緊俏，客戶對原物料成本上漲帶動的價格調 整亦展現高接受度。展望第四季，在整體產能稼動率維持高檔 及價格效益逐步顯現的雙重帶動下，預期獲利將進一步攀升。\n- 受惠於市場供需持續緊俏，多數客戶已逐步接受價格調整。隨著原 物料上升所帶動的價格逐步反映，預期第四季將進一步挹注營收及 獲利成長，並對整體獲利表現帶正面貢獻。\n- ｜27 PTI Group-Greatek Copyright© 2026 Powertech Technology,Inc . Q26 and Onward Business Outlook 02 AI、HPC及 IoT需求成長，消費性電子、PC及NB拉貨轉趨 保守。 Demand for AI, HPC and IoT continues to grow, while customer pull-ins for consumer electronics, PCs and notebooks have turne\n- ｜21 PTI Group-PTI(continued) Copyright© 2026 Powertech Technology,Inc . DRAM 03 隨著市場供需持續緊俏，客戶對原物料成本上漲帶動的價格調 整亦展現高接受度。展望第四季，在整體產能稼動率維持高檔 及價格效益逐步顯現的雙重帶動下，預期獲利將進一步攀升。 As market supply remains tight relative to demand, customers have shown a high degree of accepta\n\n### Q&A 與管理層口氣\n- DRAM 03 隨著市場供需持續緊俏，客戶對原物料成本上漲帶動的價格調 整亦展現高接受度。展望第四季，在整體產能稼動率維持高檔 及價格效益逐步顯現的雙重帶動下，預期獲利將進一步攀升。\n- ｜20 01 PTI Group-PTI 因應人工智慧維持強勁需求, 致使整體記憶體仍然供不應求, 整體產能利用率可望維持相當水準, 並期待客戶未來新晶圓產 能陸續開出。 Driven by sustained strong demand for artificial intelligence, the memory market remains in a state of undersupply. Overall capacity utilization is expected to hold at a high\n- ｜27 PTI Group-Greatek Copyright© 2026 Powertech Technology,Inc . Q26 and Onward Business Outlook 02 AI、HPC及 IoT需求成長，消費性電子、PC及NB拉貨轉趨 保守。 Demand for AI, HPC and IoT continues to grow, while customer pull-ins for consumer electronics, PCs and notebooks have turne\n- ｜21 PTI Group-PTI(continued) Copyright© 2026 Powertech Technology,Inc . DRAM 03 隨著市場供需持續緊俏，客戶對原物料成本上漲帶動的價格調 整亦展現高接受度。展望第四季，在整體產能稼動率維持高檔 及價格效益逐步顯現的雙重帶動下，預期獲利將進一步攀升。 As market supply remains tight relative to demand, customers have shown a high degree of accepta\n\n### 評分利基點\n- 加分主因：Q26 Business Overview Memory-NAND AI 伺服器帶旺 eSSD 需求，推升營收持續成長。；Tera Probe / Terapower: CAPEX支應客戶需求，營收QoQ、 YoY持續高雙位數成長。；DRAM 03 隨著市場供需持續緊俏，客戶對原物料成本上漲帶動的價格調 整亦展現高接受度。展望第四季，在整體產能稼動率維持高檔 及價格效益逐步顯現的雙重帶動下，預期獲利將進一步攀升。。\n- 扣分或保留：DRAM 03 隨著市場供需持續緊俏，客戶對原物料成本上漲帶動的價格調 整亦展現高接受度。展望第四季，在整體產能稼動率維持高檔 及價格效益逐步顯現的雙重帶動下，預期獲利將進一步攀升。；受惠於市場供需持續緊俏，多數客戶已逐步接受價格調整。隨著原 物料上升所帶動的價格逐步反映，預期第四季將進一步挹注營收及 獲利成長，並對整體獲利表現帶正面貢獻。；｜27 PTI Group-Greatek Copyright© 2026 Powertech Technology,Inc . Q26 and Onward Business Outlook 02 AI、HPC及 IoT需求成長，消費性電子、PC及NB拉貨轉趨 保守。 Demand for AI, HPC and IoT continues to grow, while customer pull-ins for consumer electronics, PCs and notebooks have turne。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-10-27",
+          "code": "6530",
+          "name": "創威",
+          "eventType": "法人說明會",
+          "time": "14:30",
+          "location": "台北市信義路四段236號7樓(宏遠證券會議室)",
+          "topic": "報告公司營運現況及未來展望",
+          "companyWebsite": "https://axcen.com.tw/tw/news/42?root=1",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/653020261027M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/653020261027E001.pdf",
+          "mediaUrl": "http://irconference.twse.com.tw/6530_5_20261027_ch.mp4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "Copyrigrt 2010 © Axcen Photonics Corp. All right reserved. 貳、產業概況-全球光收發模組市場規模 5 1. AI 基礎建設帶動新一輪成長週期：受惠於 AI 生成式模型與 GPU 集群對超高頻寬的需求， 全球光收發模組市場規模從 2025 年的 234 億美元成長至 2031 年的 1,123 億美元。 2. 高速率產品迅速換代：800G 為目前成長引擎，1.6T 已於 2026 年快速進入量產階段。 3. 封裝型態轉型：光模組型態逐步由可插拔（Pluggab",
+            "Copyrigrt 2010 © Axcen Photonics Corp. All right reserved. Aspiring for Advanced & Excellent Life 伍、未來展望 - 產品進程 13 產品進程 Pluggable (SFP/QSFP/ OSFP LPO (Linear Pluggable Optics) XPO (eXtended Packaged Optics) NPO (Near- Packaged Optics) CPO (Co-Packaged Optics)"
+          ],
+          "outlookTone": {
+            "label": "正面看好",
+            "score": 72,
+            "basis": "正向訊號 4、保守訊號 1"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：報告公司營運現況及未來展望",
+            "AI 基礎建設帶動新一輪成長週期：受惠於 AI 生成式模型與 GPU 集群對超高頻寬的需求， 全球光收發模組市場規模從 2025 年的 234 億美元成長至 2031 年的 1,123 億美元。",
+            "Aspiring for Advanced & Excellent Life 伍、未來展望 - 產品進程 13 產品進程 Pluggable (SFP/QSFP/ OSFP LPO (Linear Pluggable Optics) XPO (eXtended Packaged Optics) NPO (Near- Packaged Optics) CPO (Co-Packaged Optics) 頻寬瓶頸 800G/1.6T 800G",
+            "⚫ 因為包括但不限於市場需求、價格波動、競爭態勢、供應 鏈變動、全球經濟局勢、匯率波動及其他本公司無控制力 之風險等各種因素，實際的營運、財務狀況與企業發展情 形，可能會與本公司於預測中明示或默示敘述有差異。",
+            "Aspiring for Advanced & Excellent Life 簡報大綱 壹、公司簡介 貳、產業概況 叁、產品簡介 肆、經營績效 伍、未來展望 2 --- page 4 --- Copyrigrt 2010 © Axcen Photonics Corp.",
+            "高速率產品迅速換代：800G 為目前成長引擎，1.6T 已於 2026 年快速進入量產階段。"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-10-27.md",
+          "detailMarkdown": "## 6530 創威 深度法說分析\n\n### 一頁結論\n- 展望評價：正面看好（72 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 4、保守訊號 1。\n- 判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 \n\n### 營運與財務重點\n- AI 基礎建設帶動新一輪成長週期：受惠於 AI 生成式模型與 GPU 集群對超高頻寬的需求， 全球光收發模組市場規模從 2025 年的 234 億美元成長至 2031 年的 1,123 億美元。\n- 高速率產品迅速換代：800G 為目前成長引擎，1.6T 已於 2026 年快速進入量產階段。\n- Copyrigrt 2010 © Axcen Photonics Corp. All right reserved. 貳、產業概況-全球光收發模組市場規模 5 1. AI 基礎建設帶動新一輪成長週期：受惠於 AI 生成式模型與 GPU 集群對超高頻寬的需求， 全球光收發模組市場規模從 2025 年的 234 億美元成長至 2031 年的 1,123 億美元。 2. 高速率產品迅速換代：800G 為目前成長引擎，1.6T 已於 2026 年快速進入量產階段。 3. 封裝型態轉型：光模組型態逐步由可插拔（Pluggab\n\n### 展望與成長利基\n- Copyrigrt 2010 © Axcen Photonics Corp. All right reserved. 貳、產業概況-全球光收發模組市場規模 5 1. AI 基礎建設帶動新一輪成長週期：受惠於 AI 生成式模型與 GPU 集群對超高頻寬的需求， 全球光收發模組市場規模從 2025 年的 234 億美元成長至 2031 年的 1,123 億美元。 2. 高速率產品迅速換代：800G 為目前成長引擎，1.6T 已於 2026 年快速進入量產階段。 3. 封裝型態轉型：光模組型態逐步由可插拔（Pluggab\n- Copyrigrt 2010 © Axcen Photonics Corp. All right reserved. Aspiring for Advanced & Excellent Life 伍、未來展望 - 產品進程 13 產品進程 Pluggable (SFP/QSFP/ OSFP LPO (Linear Pluggable Optics) XPO (eXtended Packaged Optics) NPO (Near- Packaged Optics) CPO (Co-Packaged Optics)\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- AI 基礎建設帶動新一輪成長週期：受惠於 AI 生成式模型與 GPU 集群對超高頻寬的需求， 全球光收發模組市場規模從 2025 年的 234 億美元成長至 2031 年的 1,123 億美元。\n- Aspiring for Advanced & Excellent Life 伍、未來展望 - 產品進程 13 產品進程 Pluggable (SFP/QSFP/ OSFP LPO (Linear Pluggable Optics) XPO (eXtended Packaged Optics) NPO (Near- Packaged Optics) CPO (Co-Packaged Optics) 頻寬瓶頸 800G/1.6T 800G\n- ⚫ 因為包括但不限於市場需求、價格波動、競爭態勢、供應 鏈變動、全球經濟局勢、匯率波動及其他本公司無控制力 之風險等各種因素，實際的營運、財務狀況與企業發展情 形，可能會與本公司於預測中明示或默示敘述有差異。\n- Aspiring for Advanced & Excellent Life 簡報大綱 壹、公司簡介 貳、產業概況 叁、產品簡介 肆、經營績效 伍、未來展望 2 --- page 4 --- Copyrigrt 2010 © Axcen Photonics Corp.\n- 高速率產品迅速換代：800G 為目前成長引擎，1.6T 已於 2026 年快速進入量產階段。\n\n### 風險與不確定性\n- ⚫ 因為包括但不限於市場需求、價格波動、競爭態勢、供應 鏈變動、全球經濟局勢、匯率波動及其他本公司無控制力 之風險等各種因素，實際的營運、財務狀況與企業發展情 形，可能會與本公司於預測中明示或默示敘述有差異。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 加分主因：AI 基礎建設帶動新一輪成長週期：受惠於 AI 生成式模型與 GPU 集群對超高頻寬的需求， 全球光收發模組市場規模從 2025 年的 234 億美元成長至 2031 年的 1,123 億美元。；⚫ 因為包括但不限於市場需求、價格波動、競爭態勢、供應 鏈變動、全球經濟局勢、匯率波動及其他本公司無控制力 之風險等各種因素，實際的營運、財務狀況與企業發展情 形，可能會與本公司於預測中明示或默示敘述有差異。；高速率產品迅速換代：800G 為目前成長引擎，1.6T 已於 2026 年快速進入量產階段。。\n- 扣分或保留：⚫ 因為包括但不限於市場需求、價格波動、競爭態勢、供應 鏈變動、全球經濟局勢、匯率波動及其他本公司無控制力 之風險等各種因素，實際的營運、財務狀況與企業發展情 形，可能會與本公司於預測中明示或默示敘述有差異。。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        }
+      ]
+    },
+    {
+      "generatedAt": "2026-10-27T13:50:00.589Z",
       "queryDate": "2026-10-22",
       "displayDate": "2026-10-22",
       "count": 5,
@@ -61,9 +354,9 @@ window.irSummaryHistory = {
           "companyWebsite": "",
           "chinesePdf": "",
           "englishPdf": "",
-          "mediaUrl": "",
-          "mediaStatus": "缺影音",
-          "transcriptStatus": "缺影音",
+          "mediaUrl": "https://irconference.twse.com.tw/4541_49_20261022_ch.mp4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
           "outlookBullets": [
             "未從簡報或轉錄稿擷取到明確展望段落。"
           ],
