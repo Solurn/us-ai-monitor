@@ -1,10 +1,40 @@
 window.twRevenueHistory = {
-  "generatedAt": "2026-10-08T22:17:33+08:00",
-  "latestPeriod": "115/9",
+  "generatedAt": "2026-11-02T20:35:37+08:00",
+  "latestPeriod": "115/10",
   "source": "MOPS 月營收彙總表",
   "periods": [
     {
-      "generatedAt": "2026-10-08T22:17:33+08:00",
+      "generatedAt": "2026-11-02T20:35:37+08:00",
+      "period": "115/10",
+      "source": "MOPS 月營收彙總表",
+      "filters": {
+        "markets": [
+          "sii",
+          "otc"
+        ],
+        "momThresholdPct": 30.0,
+        "yoyThresholdPct": 30.0,
+        "requirePositiveYtdYoy": true,
+        "requireNonNegativeMomYoy": true,
+        "excludedIndustryKeywords": [
+          "生技",
+          "建材營造",
+          "營建",
+          "金融"
+        ],
+        "publicIssueDateCutoff": "89/01/01"
+      },
+      "stats": {
+        "selected": 0,
+        "stories": 0,
+        "highs": 0,
+        "storyHighs": 0
+      },
+      "selected": [],
+      "stories": []
+    },
+    {
+      "generatedAt": "2026-11-02T20:35:39+08:00",
       "period": "115/9",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -2939,7 +2969,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：695,372 千元",
-          "previousHighRevenue": 667469,
+          "previousHighRevenue": 673472,
           "publicIssueDate": "102/10/25",
           "businessDescription": "自動化設備及其相關產品"
         },
@@ -5300,7 +5330,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-10-08T22:17:37+08:00",
+      "generatedAt": "2026-11-02T20:35:41+08:00",
       "period": "115/8",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -10868,7 +10898,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-10-08T22:17:40+08:00",
+      "generatedAt": "2026-11-02T20:35:43+08:00",
       "period": "115/7",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -17636,7 +17666,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-10-08T22:17:43+08:00",
+      "generatedAt": "2026-11-02T20:35:45+08:00",
       "period": "115/6",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -24244,7 +24274,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-10-08T22:17:47+08:00",
+      "generatedAt": "2026-11-02T20:35:47+08:00",
       "period": "115/5",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -28820,7 +28850,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-10-08T22:17:50+08:00",
+      "generatedAt": "2026-11-02T20:35:49+08:00",
       "period": "115/4",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -32980,7 +33010,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-10-08T22:17:54+08:00",
+      "generatedAt": "2026-11-02T20:35:51+08:00",
       "period": "115/3",
       "source": "MOPS 月營收彙總表",
       "filters": {
