@@ -1,10 +1,142 @@
 window.irSummaryHistory = {
-  "generatedAt": "2026-10-30T13:47:08.337Z",
+  "generatedAt": "2026-11-02T12:35:57.519Z",
   "sourceRoot": "C:\\Users\\user\\Desktop\\Codex專案\\法說整理",
   "retentionDays": 30,
   "maxMeetingDate": "",
-  "latestDate": "2026-10-30",
+  "latestDate": "2026-11-02",
   "items": [
+    {
+      "generatedAt": "2026-11-02T12:35:57.519Z",
+      "queryDate": "2026-11-02",
+      "displayDate": "2026-11-02",
+      "count": 3,
+      "rows": [
+        {
+          "date": "2026-11-02",
+          "code": "1227",
+          "name": "佳格",
+          "eventType": "法人說明會",
+          "time": "14:00",
+          "location": "線上法說會",
+          "topic": "受邀參加元大證券舉辦法人說明會,會中就本公司已公開發布之營運及財務業務狀況做說明。",
+          "companyWebsite": "https://www.sfworldwide.com/dharma-conference-report",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/122720261102M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/122720261102E001.pdf",
+          "mediaUrl": "http://irconference.twse.com.tw/1227_10_20261102_ch.mp4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "SFG Proprietary & Confidential STANDARD FOODS GROUPSFG Proprietary & Confidential STANDARD FOODS GROUP 營運重點摘要 KEY HIGHLIGHTS 2026年1–9⽉累計營收 218.77億年增 7.57% 2026H1 營收 139.34億年增 6.73% 2026H1 淨利 7.38億 (淨利率5.3%) 年增 51.7% (+1.6 ppts) 台灣 獲利結構改善；開啟B端商⽤機會 H1營業利益年增31.6%"
+          ],
+          "outlookTone": {
+            "label": "中性偏正面",
+            "score": 64,
+            "basis": "正向訊號 2、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：受邀參加元大證券舉辦法人說明會,會中就本公司已公開發布之營運及財務業務狀況做說明。",
+            "資料來源：佳格中國內部統整，USDA報告；鄭州商品交易所葵花籽油期貨合約徵求意⾒稿，⾒中國證券報、央廣網 0 1600 3200 4800 6400 6,362 5,535 +15% 舊作 新作 & 2027預計 --- page 20 --- SFG Proprietary & Confidential STANDARD FOODS GROUPSFG Proprietary & Confidential STANDARD FOODS",
+            "品類營收占比 --- page 7 --- SFG Proprietary & Confidential STANDARD FOODS GROUPSFG Proprietary & Confidential STANDARD FOODS GROUP 02FINANCIAL HIGHLIGHT 2026H1 財務表現 --- page 8 --- SFG Proprietary & Confidential STANDARD FOODS",
+            "page 3 --- SFG Proprietary & Confidential STANDARD FOODS GROUP 簡報⼤綱 AGENDA 01 關於佳格 ABOUT SFG 02 財務表現 FINANCIAL HIGHLIGHT 03 台灣市場 TAIWAN MARKET 04 中國市場 CHINA MARKET 05 東南亞市場 SOUTHEAST ASIA MARKET 06 永續發展 SUSTAINABILITY --",
+            "page 14 --- SFG Proprietary & Confidential STANDARD FOODS GROUPSFG Proprietary & Confidential STANDARD FOODS GROUP [台灣] 三⼤產品主軸，核⼼品類市占持續領先 TAIWAN｜GROWTH PILLARS 乳品與穀物（營收占比 47%） 保健與特殊營養品（營收占比 32%） 2026 重點新品與核⼼產品陣容 天地合補 漢⽅⽔",
+            "This presentation contains forward-looking statements based on current information."
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-11-02.md",
+          "detailMarkdown": "## 1227 佳格 深度法說分析\n\n### 一頁結論\n- 展望評價：中性偏正面（64 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 2、保守訊號 0。\n- 判讀：方向偏正面，但管理層仍保留部分彈性，較適合追蹤接單、毛利率與下一季財測是否延續。 \n\n### 營運與財務重點\n- 品類營收占比 --- page 7 --- SFG Proprietary & Confidential STANDARD FOODS GROUPSFG Proprietary & Confidential STANDARD FOODS GROUP 02FINANCIAL HIGHLIGHT 2026H1 財務表現 --- page 8 --- SFG Proprietary & Confidential STANDARD FOODS\n- page 14 --- SFG Proprietary & Confidential STANDARD FOODS GROUPSFG Proprietary & Confidential STANDARD FOODS GROUP [台灣] 三⼤產品主軸，核⼼品類市占持續領先 TAIWAN｜GROWTH PILLARS 乳品與穀物（營收占比 47%） 保健與特殊營養品（營收占比 32%） 2026 重點新品與核⼼產品陣容 天地合補 漢⽅⽔\n- SFG Proprietary & Confidential STANDARD FOODS GROUPSFG Proprietary & Confidential STANDARD FOODS GROUP 營運重點摘要 KEY HIGHLIGHTS 2026年1–9⽉累計營收 218.77億年增 7.57% 2026H1 營收 139.34億年增 6.73% 2026H1 淨利 7.38億 (淨利率5.3%) 年增 51.7% (+1.6 ppts) 台灣 獲利結構改善；開啟B端商⽤機會 H1營業利益年增31.6%\n\n### 展望與成長利基\n- SFG Proprietary & Confidential STANDARD FOODS GROUPSFG Proprietary & Confidential STANDARD FOODS GROUP 營運重點摘要 KEY HIGHLIGHTS 2026年1–9⽉累計營收 218.77億年增 7.57% 2026H1 營收 139.34億年增 6.73% 2026H1 淨利 7.38億 (淨利率5.3%) 年增 51.7% (+1.6 ppts) 台灣 獲利結構改善；開啟B端商⽤機會 H1營業利益年增31.6%\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- 資料來源：佳格中國內部統整，USDA報告；鄭州商品交易所葵花籽油期貨合約徵求意⾒稿，⾒中國證券報、央廣網 0 1600 3200 4800 6400 6,362 5,535 +15% 舊作 新作 & 2027預計 --- page 20 --- SFG Proprietary & Confidential STANDARD FOODS GROUPSFG Proprietary & Confidential STANDARD FOODS\n- page 3 --- SFG Proprietary & Confidential STANDARD FOODS GROUP 簡報⼤綱 AGENDA 01 關於佳格 ABOUT SFG 02 財務表現 FINANCIAL HIGHLIGHT 03 台灣市場 TAIWAN MARKET 04 中國市場 CHINA MARKET 05 東南亞市場 SOUTHEAST ASIA MARKET 06 永續發展 SUSTAINABILITY --\n- page 14 --- SFG Proprietary & Confidential STANDARD FOODS GROUPSFG Proprietary & Confidential STANDARD FOODS GROUP [台灣] 三⼤產品主軸，核⼼品類市占持續領先 TAIWAN｜GROWTH PILLARS 乳品與穀物（營收占比 47%） 保健與特殊營養品（營收占比 32%） 2026 重點新品與核⼼產品陣容 天地合補 漢⽅⽔\n- This presentation contains forward-looking statements based on current information.\n\n### 風險與不確定性\n- 本次摘要未擷取到明確風險或保守訊號。\n\n### Q&A 與管理層口氣\n- 本次摘要未擷取到明確 Q&A 或管理層口氣補充。\n\n### 評分利基點\n- 加分主因：page 14 --- SFG Proprietary & Confidential STANDARD FOODS GROUPSFG Proprietary & Confidential STANDARD FOODS GROUP [台灣] 三⼤產品主軸，核⼼品類市占持續領先 TAIWAN｜GROWTH PILLARS 乳品與穀物（營收占比 47%） 保健與特殊營養品（營收占比 32%） 2026 重點新品與核⼼產品陣容 天地合補 漢⽅⽔；SFG Proprietary & Confidential STANDARD FOODS GROUPSFG Proprietary & Confidential STANDARD FOODS GROUP 營運重點摘要 KEY HIGHLIGHTS 2026年1–9⽉累計營收 218.77億年增 7.57% 2026H1 營收 139.34億年增 6.73% 2026H1 淨利 7.38億 (淨利率5.3%) 年增 51.7% (+1.6 ppts) 台灣 獲利結構改善；開啟B端商⽤機會 H1營業利益年增31.6%。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-11-02",
+          "code": "3006",
+          "name": "晶豪科",
+          "eventType": "法人說明會",
+          "time": "14:30",
+          "location": "台北市中山區明水路700號12樓(凱基證券會議室)",
+          "topic": "公司營運近況暨未來展望",
+          "companyWebsite": "http://www.esmt.com.tw",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/300620261102M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/300620261102E001.pdf",
+          "mediaUrl": "https://www.youtube.com/watch?v=4sMd7jERGG4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "P. 10 1. 傳統記憶體供應端產能出現缺口 >> AI 需求持續維持強勁(訓練>>推理與思考>>代理>> 實體AI ); 記憶體供需結構改變 >> 降低景氣循環特性 >> 傳統記憶體產能受限，缺貨狀況由DDR5/DDR4蔓延至 DDR3/DDR2/Flash…..>>市場價格持續調升 >>國內大廠停/減供DD3/DDR2 2. 傳統DRAM需求成⻑ >> PC/NB/手機 因應 AI Solution需求之記憶體容量搭載提昇。 >> AI應用的基礎架構及周邊需求成⻑ ，帶動非HBM記憶體的需求。 >> Edge",
+            "P. 11 3. 2026營運維持樂觀趨勢 >> 延續Q1~Q2’26 趨勢; Q3’26 營收、獲利均有大幅提升>>預期Q4可維持 >> 2027可維持樂觀 ; 產能供給仍為營運努力目標 (wafer & backend) 4. aiPIM 提供為 Edge AI Computing 解決方案 >> Tape out ,Q3 5. 有擔保轉換債(晶豪科二)完成競拍掛牌 >> 2026/10/02 回顧與展望Q3’26Q3’26Q3’26Q3’26",
+            "P. 11 3. Optimistic trend expected to continue in operations until 2027. >> Continuing the trend from Q1 to Q2, with significant increases in both revenue and profit in Q3, it is expected that Q4 will maintain this level.. >> Optimism can be maintained for 202",
+            "P. 10 1. Supply Gap in Conventional Memory Capacity. >> Demand for AI remains strong (training >> reasoning and thinking >> agents >> physical AI). Changes in memory supply and demand structure to reduced cyclical nature >> Limited production capacity of conve"
+          ],
+          "outlookTone": {
+            "label": "正面看好",
+            "score": 85,
+            "basis": "正向訊號 5、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：公司營運近況暨未來展望",
+            "傳統記憶體供應端產能出現缺口 >> AI 需求持續維持強勁(訓練>>推理與思考>>代理>> 實體AI ); 記憶體供需結構改變 >> 降低景氣循環特性 >> 傳統記憶體產能受限，缺貨狀況由DDR5/DDR4蔓延至 DDR3/DDR2/Flash…..>>市場價格持續調升 >>國內大廠停/減供DD3/DDR2 2.",
+            "2026營運維持樂觀趨勢 >> 延續Q1~Q2’26 趨勢; Q3’26 營收、獲利均有大幅提升>>預期Q4可維持 >> 2027可維持樂觀 ; 產能供給仍為營運努力目標 (wafer & backend) 4.",
+            "6 營運概況 2026Q3 綜合損益表 單位 新台幣仟元 項目 2026Q3 2026Q3 2026Q3 2026Q3 2026Q2 2026Q2 2026Q2 2026Q2 較上季較上季較上季較上季 比較比較比較比較 2025Q3 2025Q3 2025Q3 2025Q3 較去年同期 比較 營業收入 22,150,227 13,946,218 58.83% 3,577,106 519.22% 毛利率(%) 77.44% 68.70%",
+            "7 2026Q3 綜合損益表 本業 (QoQ) 單位 新台幣仟元業外收益(QoQ) ＋ 量→→→→ 價 ↑↑↑↑↑↑↑↑ >> 營收 ↑↑↑↑↑↑↑↑ , 毛利↑↑↑↑↑↑↑↑ ,營業利益↑↑↑↑↑↑↑↑ - --- page 8 --- P.",
+            "傳統DRAM需求成⻑ >> PC/NB/手機 因應 AI Solution需求之記憶體容量搭載提昇。"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-11-02.md",
+          "detailMarkdown": "## 3006 晶豪科 深度法說分析\n\n### 一頁結論\n- 展望評價：正面看好（85 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 5、保守訊號 0。\n- 判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 \n\n### 營運與財務重點\n- 2026營運維持樂觀趨勢 >> 延續Q1~Q2’26 趨勢; Q3’26 營收、獲利均有大幅提升>>預期Q4可維持 >> 2027可維持樂觀 ; 產能供給仍為營運努力目標 (wafer & backend) 4.\n- 6 營運概況 2026Q3 綜合損益表 單位 新台幣仟元 項目 2026Q3 2026Q3 2026Q3 2026Q3 2026Q2 2026Q2 2026Q2 2026Q2 較上季較上季較上季較上季 比較比較比較比較 2025Q3 2025Q3 2025Q3 2025Q3 較去年同期 比較 營業收入 22,150,227 13,946,218 58.83% 3,577,106 519.22% 毛利率(%) 77.44% 68.70%\n- 7 2026Q3 綜合損益表 本業 (QoQ) 單位 新台幣仟元業外收益(QoQ) ＋ 量→→→→ 價 ↑↑↑↑↑↑↑↑ >> 營收 ↑↑↑↑↑↑↑↑ , 毛利↑↑↑↑↑↑↑↑ ,營業利益↑↑↑↑↑↑↑↑ - --- page 8 --- P.\n- P. 11 3. 2026營運維持樂觀趨勢 >> 延續Q1~Q2’26 趨勢; Q3’26 營收、獲利均有大幅提升>>預期Q4可維持 >> 2027可維持樂觀 ; 產能供給仍為營運努力目標 (wafer & backend) 4. aiPIM 提供為 Edge AI Computing 解決方案 >> Tape out ,Q3 5. 有擔保轉換債(晶豪科二)完成競拍掛牌 >> 2026/10/02 回顧與展望Q3’26Q3’26Q3’26Q3’26\n\n### 展望與成長利基\n- P. 10 1. 傳統記憶體供應端產能出現缺口 >> AI 需求持續維持強勁(訓練>>推理與思考>>代理>> 實體AI ); 記憶體供需結構改變 >> 降低景氣循環特性 >> 傳統記憶體產能受限，缺貨狀況由DDR5/DDR4蔓延至 DDR3/DDR2/Flash…..>>市場價格持續調升 >>國內大廠停/減供DD3/DDR2 2. 傳統DRAM需求成⻑ >> PC/NB/手機 因應 AI Solution需求之記憶體容量搭載提昇。 >> AI應用的基礎架構及周邊需求成⻑ ，帶動非HBM記憶體的需求。 >> Edge\n- P. 11 3. 2026營運維持樂觀趨勢 >> 延續Q1~Q2’26 趨勢; Q3’26 營收、獲利均有大幅提升>>預期Q4可維持 >> 2027可維持樂觀 ; 產能供給仍為營運努力目標 (wafer & backend) 4. aiPIM 提供為 Edge AI Computing 解決方案 >> Tape out ,Q3 5. 有擔保轉換債(晶豪科二)完成競拍掛牌 >> 2026/10/02 回顧與展望Q3’26Q3’26Q3’26Q3’26\n- P. 11 3. Optimistic trend expected to continue in operations until 2027. >> Continuing the trend from Q1 to Q2, with significant increases in both revenue and profit in Q3, it is expected that Q4 will maintain this level.. >> Optimism can be maintained for 202\n- P. 10 1. Supply Gap in Conventional Memory Capacity. >> Demand for AI remains strong (training >> reasoning and thinking >> agents >> physical AI). Changes in memory supply and demand structure to reduced cyclical nature >> Limited production capacity of conve\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- 傳統記憶體供應端產能出現缺口 >> AI 需求持續維持強勁(訓練>>推理與思考>>代理>> 實體AI ); 記憶體供需結構改變 >> 降低景氣循環特性 >> 傳統記憶體產能受限，缺貨狀況由DDR5/DDR4蔓延至 DDR3/DDR2/Flash…..>>市場價格持續調升 >>國內大廠停/減供DD3/DDR2 2.\n- 傳統DRAM需求成⻑ >> PC/NB/手機 因應 AI Solution需求之記憶體容量搭載提昇。\n- P. 10 1. 傳統記憶體供應端產能出現缺口 >> AI 需求持續維持強勁(訓練>>推理與思考>>代理>> 實體AI ); 記憶體供需結構改變 >> 降低景氣循環特性 >> 傳統記憶體產能受限，缺貨狀況由DDR5/DDR4蔓延至 DDR3/DDR2/Flash…..>>市場價格持續調升 >>國內大廠停/減供DD3/DDR2 2. 傳統DRAM需求成⻑ >> PC/NB/手機 因應 AI Solution需求之記憶體容量搭載提昇。 >> AI應用的基礎架構及周邊需求成⻑ ，帶動非HBM記憶體的需求。 >> Edge\n- P. 11 3. 2026營運維持樂觀趨勢 >> 延續Q1~Q2’26 趨勢; Q3’26 營收、獲利均有大幅提升>>預期Q4可維持 >> 2027可維持樂觀 ; 產能供給仍為營運努力目標 (wafer & backend) 4. aiPIM 提供為 Edge AI Computing 解決方案 >> Tape out ,Q3 5. 有擔保轉換債(晶豪科二)完成競拍掛牌 >> 2026/10/02 回顧與展望Q3’26Q3’26Q3’26Q3’26\n- P. 11 3. Optimistic trend expected to continue in operations until 2027. >> Continuing the trend from Q1 to Q2, with significant increases in both revenue and profit in Q3, it is expected that Q4 will maintain this level.. >> Optimism can be maintained for 202\n\n### 風險與不確定性\n- 傳統記憶體供應端產能出現缺口 >> AI 需求持續維持強勁(訓練>>推理與思考>>代理>> 實體AI ); 記憶體供需結構改變 >> 降低景氣循環特性 >> 傳統記憶體產能受限，缺貨狀況由DDR5/DDR4蔓延至 DDR3/DDR2/Flash…..>>市場價格持續調升 >>國內大廠停/減供DD3/DDR2 2.\n- P. 10 1. 傳統記憶體供應端產能出現缺口 >> AI 需求持續維持強勁(訓練>>推理與思考>>代理>> 實體AI ); 記憶體供需結構改變 >> 降低景氣循環特性 >> 傳統記憶體產能受限，缺貨狀況由DDR5/DDR4蔓延至 DDR3/DDR2/Flash…..>>市場價格持續調升 >>國內大廠停/減供DD3/DDR2 2. 傳統DRAM需求成⻑ >> PC/NB/手機 因應 AI Solution需求之記憶體容量搭載提昇。 >> AI應用的基礎架構及周邊需求成⻑ ，帶動非HBM記憶體的需求。 >> Edge\n\n### Q&A 與管理層口氣\n- 傳統記憶體供應端產能出現缺口 >> AI 需求持續維持強勁(訓練>>推理與思考>>代理>> 實體AI ); 記憶體供需結構改變 >> 降低景氣循環特性 >> 傳統記憶體產能受限，缺貨狀況由DDR5/DDR4蔓延至 DDR3/DDR2/Flash…..>>市場價格持續調升 >>國內大廠停/減供DD3/DDR2 2.\n- 2026營運維持樂觀趨勢 >> 延續Q1~Q2’26 趨勢; Q3’26 營收、獲利均有大幅提升>>預期Q4可維持 >> 2027可維持樂觀 ; 產能供給仍為營運努力目標 (wafer & backend) 4.\n- 6 營運概況 2026Q3 綜合損益表 單位 新台幣仟元 項目 2026Q3 2026Q3 2026Q3 2026Q3 2026Q2 2026Q2 2026Q2 2026Q2 較上季較上季較上季較上季 比較比較比較比較 2025Q3 2025Q3 2025Q3 2025Q3 較去年同期 比較 營業收入 22,150,227 13,946,218 58.83% 3,577,106 519.22% 毛利率(%) 77.44% 68.70%\n- P. 10 1. 傳統記憶體供應端產能出現缺口 >> AI 需求持續維持強勁(訓練>>推理與思考>>代理>> 實體AI ); 記憶體供需結構改變 >> 降低景氣循環特性 >> 傳統記憶體產能受限，缺貨狀況由DDR5/DDR4蔓延至 DDR3/DDR2/Flash…..>>市場價格持續調升 >>國內大廠停/減供DD3/DDR2 2. 傳統DRAM需求成⻑ >> PC/NB/手機 因應 AI Solution需求之記憶體容量搭載提昇。 >> AI應用的基礎架構及周邊需求成⻑ ，帶動非HBM記憶體的需求。 >> Edge\n- P. 11 3. 2026營運維持樂觀趨勢 >> 延續Q1~Q2’26 趨勢; Q3’26 營收、獲利均有大幅提升>>預期Q4可維持 >> 2027可維持樂觀 ; 產能供給仍為營運努力目標 (wafer & backend) 4. aiPIM 提供為 Edge AI Computing 解決方案 >> Tape out ,Q3 5. 有擔保轉換債(晶豪科二)完成競拍掛牌 >> 2026/10/02 回顧與展望Q3’26Q3’26Q3’26Q3’26\n\n### 評分利基點\n- 加分主因：傳統記憶體供應端產能出現缺口 >> AI 需求持續維持強勁(訓練>>推理與思考>>代理>> 實體AI ); 記憶體供需結構改變 >> 降低景氣循環特性 >> 傳統記憶體產能受限，缺貨狀況由DDR5/DDR4蔓延至 DDR3/DDR2/Flash…..>>市場價格持續調升 >>國內大廠停/減供DD3/DDR2 2.；2026營運維持樂觀趨勢 >> 延續Q1~Q2’26 趨勢; Q3’26 營收、獲利均有大幅提升>>預期Q4可維持 >> 2027可維持樂觀 ; 產能供給仍為營運努力目標 (wafer & backend) 4.；傳統DRAM需求成⻑ >> PC/NB/手機 因應 AI Solution需求之記憶體容量搭載提昇。。\n- 扣分或保留：傳統記憶體供應端產能出現缺口 >> AI 需求持續維持強勁(訓練>>推理與思考>>代理>> 實體AI ); 記憶體供需結構改變 >> 降低景氣循環特性 >> 傳統記憶體產能受限，缺貨狀況由DDR5/DDR4蔓延至 DDR3/DDR2/Flash…..>>市場價格持續調升 >>國內大廠停/減供DD3/DDR2 2.；P. 10 1. 傳統記憶體供應端產能出現缺口 >> AI 需求持續維持強勁(訓練>>推理與思考>>代理>> 實體AI ); 記憶體供需結構改變 >> 降低景氣循環特性 >> 傳統記憶體產能受限，缺貨狀況由DDR5/DDR4蔓延至 DDR3/DDR2/Flash…..>>市場價格持續調升 >>國內大廠停/減供DD3/DDR2 2. 傳統DRAM需求成⻑ >> PC/NB/手機 因應 AI Solution需求之記憶體容量搭載提昇。 >> AI應用的基礎架構及周邊需求成⻑ ，帶動非HBM記憶體的需求。 >> Edge。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        },
+        {
+          "date": "2026-11-02",
+          "code": "4967",
+          "name": "十銓",
+          "eventType": "法人說明會",
+          "time": "14:30",
+          "location": "台北君悅酒店3樓 凱悅廳 (台北市信義區松壽路2號)",
+          "topic": "本公司召開法人說明會,說明營運成果及未來展望。",
+          "companyWebsite": "https://www.teamgroupinc.com/tw/investors/meeting/",
+          "chinesePdf": "https://mopsov.twse.com.tw/nas/STR/496720261102M001.pdf",
+          "englishPdf": "https://mopsov.twse.com.tw/nas/STR/496720261102E001.pdf",
+          "mediaUrl": "http://irconference.twse.com.tw/4967_13_20261102_ch.mp4",
+          "mediaStatus": "有影音",
+          "transcriptStatus": "未產生",
+          "outlookBullets": [
+            "www.teamgroupinc.com 8 2026 Q3 合併營收 101.39 億元 季增 +33.61% 前三季累計 267.72 億元 2026 Q3 營業毛利率 49.27 % 季增 +6.50 個百分點 前三季累計毛利 116.79 億元 2026 Q3 稅後淨利 36.18 億元 季增 +49.96% 前三季累計淨利 83.24 億元 2026 Q3 基本 EPS 37.19 元 季增 +40.50% 前三季累計 90.95 元 01｜業務與產品結構升級  B2B占前三季營收64.60% 去 年同",
+            "www.teamgroupinc.com 2026 Q4 暨 2027 記憶體市場格局與十銓應變策略 產業結構維度 市場趨勢 應變與競爭策略 原廠產能排擠效應  原廠產能優先支援 HBM 與高階 DDR5，加速縮減 DDR4 產出  工控與網通長週期客戶面臨 DDR4 缺料與漲價  配合客戶採購與供貨需求安排DDR4 備貨  持續追蹤庫存周轉與價格變化 終端市場需求分化  AI 資料中心、企業伺服器與邊 緣運算需求強勁  消費性 PC 換機需求受到零組件 成本影響，但電競超頻與 AI 創 作者需求仍有支",
+            "www.teamgroupinc.com 21 AI 帶動記憶體多元需求成長 十銓在企業級與工控領域的優勢 建立差異化服務價值 企業暨工控應用事業群：擴大邊緣 AI 應用布局，深化 IPC 與伺服器客戶合作  客製韌體、技術支援與可 靠度驗證能力  整合記憶體與儲存方案， 對應不同平台規格  串聯研發、供應鏈與製造 資源，提升專案服務效率  伺服器｜訓練與推論應用 促進高效能記憶體及高速 儲存需求  邊緣運算與IPC｜智慧應用 加速落地  網通｜資料流量成長帶動 設備升級  結合新廠規劃，強化客製 化",
+            "www.teamgroupinc.com 22 AI 驅動市場格局轉變  原廠產能轉向 AI 與伺服 器，重塑記憶體供需結構  記憶體整體應用需求擴 大，PC 仍為重要基礎市場  同業產品布局調整，帶來 市場承接新契機 十銓在品牌通路的優勢  逾 20 年全球通路經營經 驗  產品研發、資金、人力資 源，完善售後服務  B2B、B2C 專業分工，提 升市場應變與資源配置效 率 聚焦高階應用市場  拓展高階裝機、專業工作站 應用客戶  持續深耕電競與專業創作者 客群  深化重點市場經銷與電商通 路合",
+            "www.teamgroupinc.com 23 核心技術開發 高速存儲與散熱 高階 DDR5 與 AI 伺服器存儲 訊號完整性與散熱設計 CAMM2及CXL創新架構 特定平台與測試開發 驗證訊號及資料完整性 客戶應用導入 工控與企業級產品 工業用/企業級客製韌體開發 PLP斷電保護 TCG Opal資安防護 物理安全銷毀產品 依規格/客戶需求提供服務 生產製造準備 產品與平台測試 相容性及可靠度驗證 顆粒挑測與量產測試 新廠增加生產及測試資源 配合各產品及客戶專案 推進驗證與量產準備 研發體系：核心技術開發、應用與",
+            "www.teamgroupinc.com 2026 Q4–2027 Memory Market Outlook & TEAMGROUP Strategy Industry Dynamics Market Trends Strategic Response  Supplier Capacity Reallocation  Suppliers prioritize HBM and advanced DDR5, reducing DDR4 output  Long-cycle industrial and netw"
+          ],
+          "outlookTone": {
+            "label": "正面看好",
+            "score": 99,
+            "basis": "正向訊號 7、保守訊號 0"
+          },
+          "summaryBullets": [
+            "未使用 LLM 摘要，以下為程式抽取的初步重點。",
+            "OpenAI 摘要失敗：OpenAI summary HTTP 429: {",
+            "MOPS 擇要訊息：本公司召開法人說明會,說明營運成果及未來展望。",
+            "2 --- page 3 --- www.teamgroupinc.com 公司概要 財務績效 產業概況 大綱 01 02 03 04 05 Q&A 營運目標 --- page 4 --- 公司概要 --- page 5 --- www.teamgroupinc.com 十銓科技(4967.TW) 電腦及通訊設備使用之記憶體相關 產品製造與銷售 成立時間 西元1997年4月 資本額 9.86億 新台幣 員工人數 500人 總公司：臺灣",
+            "2025.11 2025.12 2026.01 2026.02 2026.03 2026.04 2026.05 2026.06 2026.07 2026.08 2026.09 TLC 512Gb Wafer Source: TrendForce NAND Flash 合約價趨勢 單位:美元 18 --- page 19 --- www.teamgroupinc.com 2026 Q4 暨 2027 記憶體市場格局與十銓應變策略 產業結構",
+            "2 --- page 3 --- www.teamgroupinc.com Company Profile Financial Performance Industry Overview Outline 01 02 03 04 05 Q&A Business Objectives --- page 4 --- Company Overview --- page 5 --- www.teamgroupinc.com TEAMGROUP (",
+            "2025.11 2025.12 2026.01 2026.02 2026.03 2026.04 2026.05 2026.06 2026.07 2026.08 2026.09 TLC 512Gb Wafer Source: TrendForce NAND Flash Contract Price Trend 18 Unit: USD --- page 19 --- www.teamgroupinc.com 2026 Q4–2027 Me"
+          ],
+          "financialBullets": [],
+          "riskBullets": [],
+          "qnaBullets": [],
+          "crossCheckBullets": [],
+          "sourceReport": "../法說整理/reports/ir_summary_2026-11-02.md",
+          "detailMarkdown": "## 4967 十銓 深度法說分析\n\n### 一頁結論\n- 展望評價：正面看好（99 分）。\n- 資料基礎：本次尚未取得可用語音轉錄，評估主要依簡報與 MOPS 擇要訊息；若後續補入影音，分數與判讀可再更新。\n- 評分依據：正向訊號 7、保守訊號 0。\n- 判讀：正向訊號較集中，通常代表公司對需求、訂單或產品組合的能見度較高。仍要確認這些動能是否能轉成營收與毛利。 \n\n### 營運與財務重點\n- www.teamgroupinc.com 8 2026 Q3 合併營收 101.39 億元 季增 +33.61% 前三季累計 267.72 億元 2026 Q3 營業毛利率 49.27 % 季增 +6.50 個百分點 前三季累計毛利 116.79 億元 2026 Q3 稅後淨利 36.18 億元 季增 +49.96% 前三季累計淨利 83.24 億元 2026 Q3 基本 EPS 37.19 元 季增 +40.50% 前三季累計 90.95 元 01｜業務與產品結構升級  B2B占前三季營收64.60% 去 年同\n- www.teamgroupinc.com 21 AI 帶動記憶體多元需求成長 十銓在企業級與工控領域的優勢 建立差異化服務價值 企業暨工控應用事業群：擴大邊緣 AI 應用布局，深化 IPC 與伺服器客戶合作  客製韌體、技術支援與可 靠度驗證能力  整合記憶體與儲存方案， 對應不同平台規格  串聯研發、供應鏈與製造 資源，提升專案服務效率  伺服器｜訓練與推論應用 促進高效能記憶體及高速 儲存需求  邊緣運算與IPC｜智慧應用 加速落地  網通｜資料流量成長帶動 設備升級  結合新廠規劃，強化客製 化\n\n### 展望與成長利基\n- www.teamgroupinc.com 8 2026 Q3 合併營收 101.39 億元 季增 +33.61% 前三季累計 267.72 億元 2026 Q3 營業毛利率 49.27 % 季增 +6.50 個百分點 前三季累計毛利 116.79 億元 2026 Q3 稅後淨利 36.18 億元 季增 +49.96% 前三季累計淨利 83.24 億元 2026 Q3 基本 EPS 37.19 元 季增 +40.50% 前三季累計 90.95 元 01｜業務與產品結構升級  B2B占前三季營收64.60% 去 年同\n- www.teamgroupinc.com 2026 Q4 暨 2027 記憶體市場格局與十銓應變策略 產業結構維度 市場趨勢 應變與競爭策略 原廠產能排擠效應  原廠產能優先支援 HBM 與高階 DDR5，加速縮減 DDR4 產出  工控與網通長週期客戶面臨 DDR4 缺料與漲價  配合客戶採購與供貨需求安排DDR4 備貨  持續追蹤庫存周轉與價格變化 終端市場需求分化  AI 資料中心、企業伺服器與邊 緣運算需求強勁  消費性 PC 換機需求受到零組件 成本影響，但電競超頻與 AI 創 作者需求仍有支\n- www.teamgroupinc.com 21 AI 帶動記憶體多元需求成長 十銓在企業級與工控領域的優勢 建立差異化服務價值 企業暨工控應用事業群：擴大邊緣 AI 應用布局，深化 IPC 與伺服器客戶合作  客製韌體、技術支援與可 靠度驗證能力  整合記憶體與儲存方案， 對應不同平台規格  串聯研發、供應鏈與製造 資源，提升專案服務效率  伺服器｜訓練與推論應用 促進高效能記憶體及高速 儲存需求  邊緣運算與IPC｜智慧應用 加速落地  網通｜資料流量成長帶動 設備升級  結合新廠規劃，強化客製 化\n- www.teamgroupinc.com 22 AI 驅動市場格局轉變  原廠產能轉向 AI 與伺服 器，重塑記憶體供需結構  記憶體整體應用需求擴 大，PC 仍為重要基礎市場  同業產品布局調整，帶來 市場承接新契機 十銓在品牌通路的優勢  逾 20 年全球通路經營經 驗  產品研發、資金、人力資 源，完善售後服務  B2B、B2C 專業分工，提 升市場應變與資源配置效 率 聚焦高階應用市場  拓展高階裝機、專業工作站 應用客戶  持續深耕電競與專業創作者 客群  深化重點市場經銷與電商通 路合\n- www.teamgroupinc.com 23 核心技術開發 高速存儲與散熱 高階 DDR5 與 AI 伺服器存儲 訊號完整性與散熱設計 CAMM2及CXL創新架構 特定平台與測試開發 驗證訊號及資料完整性 客戶應用導入 工控與企業級產品 工業用/企業級客製韌體開發 PLP斷電保護 TCG Opal資安防護 物理安全銷毀產品 依規格/客戶需求提供服務 生產製造準備 產品與平台測試 相容性及可靠度驗證 顆粒挑測與量產測試 新廠增加生產及測試資源 配合各產品及客戶專案 推進驗證與量產準備 研發體系：核心技術開發、應用與\n- www.teamgroupinc.com 2026 Q4–2027 Memory Market Outlook & TEAMGROUP Strategy Industry Dynamics Market Trends Strategic Response  Supplier Capacity Reallocation  Suppliers prioritize HBM and advanced DDR5, reducing DDR4 output  Long-cycle industrial and netw\n\n### 產品、客戶與市場位置\n- OpenAI 摘要失敗：OpenAI summary HTTP 429: {\n- 2 --- page 3 --- www.teamgroupinc.com 公司概要 財務績效 產業概況 大綱 01 02 03 04 05 Q&A 營運目標 --- page 4 --- 公司概要 --- page 5 --- www.teamgroupinc.com 十銓科技(4967.TW) 電腦及通訊設備使用之記憶體相關 產品製造與銷售 成立時間 西元1997年4月 資本額 9.86億 新台幣 員工人數 500人 總公司：臺灣\n- 2025.11 2025.12 2026.01 2026.02 2026.03 2026.04 2026.05 2026.06 2026.07 2026.08 2026.09 TLC 512Gb Wafer Source: TrendForce NAND Flash 合約價趨勢 單位:美元 18 --- page 19 --- www.teamgroupinc.com 2026 Q4 暨 2027 記憶體市場格局與十銓應變策略 產業結構\n- www.teamgroupinc.com 8 2026 Q3 合併營收 101.39 億元 季增 +33.61% 前三季累計 267.72 億元 2026 Q3 營業毛利率 49.27 % 季增 +6.50 個百分點 前三季累計毛利 116.79 億元 2026 Q3 稅後淨利 36.18 億元 季增 +49.96% 前三季累計淨利 83.24 億元 2026 Q3 基本 EPS 37.19 元 季增 +40.50% 前三季累計 90.95 元 01｜業務與產品結構升級  B2B占前三季營收64.60% 去 年同\n- www.teamgroupinc.com 2026 Q4 暨 2027 記憶體市場格局與十銓應變策略 產業結構維度 市場趨勢 應變與競爭策略 原廠產能排擠效應  原廠產能優先支援 HBM 與高階 DDR5，加速縮減 DDR4 產出  工控與網通長週期客戶面臨 DDR4 缺料與漲價  配合客戶採購與供貨需求安排DDR4 備貨  持續追蹤庫存周轉與價格變化 終端市場需求分化  AI 資料中心、企業伺服器與邊 緣運算需求強勁  消費性 PC 換機需求受到零組件 成本影響，但電競超頻與 AI 創 作者需求仍有支\n- www.teamgroupinc.com 21 AI 帶動記憶體多元需求成長 十銓在企業級與工控領域的優勢 建立差異化服務價值 企業暨工控應用事業群：擴大邊緣 AI 應用布局，深化 IPC 與伺服器客戶合作  客製韌體、技術支援與可 靠度驗證能力  整合記憶體與儲存方案， 對應不同平台規格  串聯研發、供應鏈與製造 資源，提升專案服務效率  伺服器｜訓練與推論應用 促進高效能記憶體及高速 儲存需求  邊緣運算與IPC｜智慧應用 加速落地  網通｜資料流量成長帶動 設備升級  結合新廠規劃，強化客製 化\n\n### 風險與不確定性\n- www.teamgroupinc.com 2026 Q4 暨 2027 記憶體市場格局與十銓應變策略 產業結構維度 市場趨勢 應變與競爭策略 原廠產能排擠效應  原廠產能優先支援 HBM 與高階 DDR5，加速縮減 DDR4 產出  工控與網通長週期客戶面臨 DDR4 缺料與漲價  配合客戶採購與供貨需求安排DDR4 備貨  持續追蹤庫存周轉與價格變化 終端市場需求分化  AI 資料中心、企業伺服器與邊 緣運算需求強勁  消費性 PC 換機需求受到零組件 成本影響，但電競超頻與 AI 創 作者需求仍有支\n- www.teamgroupinc.com 22 AI 驅動市場格局轉變  原廠產能轉向 AI 與伺服 器，重塑記憶體供需結構  記憶體整體應用需求擴 大，PC 仍為重要基礎市場  同業產品布局調整，帶來 市場承接新契機 十銓在品牌通路的優勢  逾 20 年全球通路經營經 驗  產品研發、資金、人力資 源，完善售後服務  B2B、B2C 專業分工，提 升市場應變與資源配置效 率 聚焦高階應用市場  拓展高階裝機、專業工作站 應用客戶  持續深耕電競與專業創作者 客群  深化重點市場經銷與電商通 路合\n\n### Q&A 與管理層口氣\n- 2 --- page 3 --- www.teamgroupinc.com 公司概要 財務績效 產業概況 大綱 01 02 03 04 05 Q&A 營運目標 --- page 4 --- 公司概要 --- page 5 --- www.teamgroupinc.com 十銓科技(4967.TW) 電腦及通訊設備使用之記憶體相關 產品製造與銷售 成立時間 西元1997年4月 資本額 9.86億 新台幣 員工人數 500人 總公司：臺灣\n- 2 --- page 3 --- www.teamgroupinc.com Company Profile Financial Performance Industry Overview Outline 01 02 03 04 05 Q&A Business Objectives --- page 4 --- Company Overview --- page 5 --- www.teamgroupinc.com TEAMGROUP (\n- www.teamgroupinc.com 8 2026 Q3 合併營收 101.39 億元 季增 +33.61% 前三季累計 267.72 億元 2026 Q3 營業毛利率 49.27 % 季增 +6.50 個百分點 前三季累計毛利 116.79 億元 2026 Q3 稅後淨利 36.18 億元 季增 +49.96% 前三季累計淨利 83.24 億元 2026 Q3 基本 EPS 37.19 元 季增 +40.50% 前三季累計 90.95 元 01｜業務與產品結構升級  B2B占前三季營收64.60% 去 年同\n- www.teamgroupinc.com 2026 Q4 暨 2027 記憶體市場格局與十銓應變策略 產業結構維度 市場趨勢 應變與競爭策略 原廠產能排擠效應  原廠產能優先支援 HBM 與高階 DDR5，加速縮減 DDR4 產出  工控與網通長週期客戶面臨 DDR4 缺料與漲價  配合客戶採購與供貨需求安排DDR4 備貨  持續追蹤庫存周轉與價格變化 終端市場需求分化  AI 資料中心、企業伺服器與邊 緣運算需求強勁  消費性 PC 換機需求受到零組件 成本影響，但電競超頻與 AI 創 作者需求仍有支\n- www.teamgroupinc.com 21 AI 帶動記憶體多元需求成長 十銓在企業級與工控領域的優勢 建立差異化服務價值 企業暨工控應用事業群：擴大邊緣 AI 應用布局，深化 IPC 與伺服器客戶合作  客製韌體、技術支援與可 靠度驗證能力  整合記憶體與儲存方案， 對應不同平台規格  串聯研發、供應鏈與製造 資源，提升專案服務效率  伺服器｜訓練與推論應用 促進高效能記憶體及高速 儲存需求  邊緣運算與IPC｜智慧應用 加速落地  網通｜資料流量成長帶動 設備升級  結合新廠規劃，強化客製 化\n- www.teamgroupinc.com 22 AI 驅動市場格局轉變  原廠產能轉向 AI 與伺服 器，重塑記憶體供需結構  記憶體整體應用需求擴 大，PC 仍為重要基礎市場  同業產品布局調整，帶來 市場承接新契機 十銓在品牌通路的優勢  逾 20 年全球通路經營經 驗  產品研發、資金、人力資 源，完善售後服務  B2B、B2C 專業分工，提 升市場應變與資源配置效 率 聚焦高階應用市場  拓展高階裝機、專業工作站 應用客戶  持續深耕電競與專業創作者 客群  深化重點市場經銷與電商通 路合\n\n### 評分利基點\n- 加分主因：www.teamgroupinc.com 2026 Q4 暨 2027 記憶體市場格局與十銓應變策略 產業結構維度 市場趨勢 應變與競爭策略 原廠產能排擠效應  原廠產能優先支援 HBM 與高階 DDR5，加速縮減 DDR4 產出  工控與網通長週期客戶面臨 DDR4 缺料與漲價  配合客戶採購與供貨需求安排DDR4 備貨  持續追蹤庫存周轉與價格變化 終端市場需求分化  AI 資料中心、企業伺服器與邊 緣運算需求強勁  消費性 PC 換機需求受到零組件 成本影響，但電競超頻與 AI 創 作者需求仍有支；www.teamgroupinc.com 21 AI 帶動記憶體多元需求成長 十銓在企業級與工控領域的優勢 建立差異化服務價值 企業暨工控應用事業群：擴大邊緣 AI 應用布局，深化 IPC 與伺服器客戶合作  客製韌體、技術支援與可 靠度驗證能力  整合記憶體與儲存方案， 對應不同平台規格  串聯研發、供應鏈與製造 資源，提升專案服務效率  伺服器｜訓練與推論應用 促進高效能記憶體及高速 儲存需求  邊緣運算與IPC｜智慧應用 加速落地  網通｜資料流量成長帶動 設備升級  結合新廠規劃，強化客製 化；www.teamgroupinc.com 22 AI 驅動市場格局轉變  原廠產能轉向 AI 與伺服 器，重塑記憶體供需結構  記憶體整體應用需求擴 大，PC 仍為重要基礎市場  同業產品布局調整，帶來 市場承接新契機 十銓在品牌通路的優勢  逾 20 年全球通路經營經 驗  產品研發、資金、人力資 源，完善售後服務  B2B、B2C 專業分工，提 升市場應變與資源配置效 率 聚焦高階應用市場  拓展高階裝機、專業工作站 應用客戶  持續深耕電競與專業創作者 客群  深化重點市場經銷與電商通 路合。\n- 扣分或保留：www.teamgroupinc.com 2026 Q4 暨 2027 記憶體市場格局與十銓應變策略 產業結構維度 市場趨勢 應變與競爭策略 原廠產能排擠效應  原廠產能優先支援 HBM 與高階 DDR5，加速縮減 DDR4 產出  工控與網通長週期客戶面臨 DDR4 缺料與漲價  配合客戶採購與供貨需求安排DDR4 備貨  持續追蹤庫存周轉與價格變化 終端市場需求分化  AI 資料中心、企業伺服器與邊 緣運算需求強勁  消費性 PC 換機需求受到零組件 成本影響，但電競超頻與 AI 創 作者需求仍有支；www.teamgroupinc.com 22 AI 驅動市場格局轉變  原廠產能轉向 AI 與伺服 器，重塑記憶體供需結構  記憶體整體應用需求擴 大，PC 仍為重要基礎市場  同業產品布局調整，帶來 市場承接新契機 十銓在品牌通路的優勢  逾 20 年全球通路經營經 驗  產品研發、資金、人力資 源，完善售後服務  B2B、B2C 專業分工，提 升市場應變與資源配置效 率 聚焦高階應用市場  拓展高階裝機、專業工作站 應用客戶  持續深耕電競與專業創作者 客群  深化重點市場經銷與電商通 路合。\n- 可信度：尚缺語音轉錄，較難判斷管理層口氣、Q&A 細節與未寫在簡報中的展望。\n\n### 後續追蹤清單\n- 下一次更新優先比對本次展望是否落實為營收、毛利率或接單成長。 \n- 追蹤財務數字是否只是單季改善，或能延續成全年趨勢。 \n- 留意保守訊號是否擴大，例如成本、需求遞延、區域調整或公司未量化的部分。 \n- 此評分是法說內容品質與展望強弱的閱讀輔助，不等同買賣建議。"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-10-30T13:47:08.337Z",
       "queryDate": "2026-10-30",
