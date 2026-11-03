@@ -1,10 +1,10 @@
 window.twRevenueHistory = {
-  "generatedAt": "2026-11-02T20:35:37+08:00",
+  "generatedAt": "2026-11-03T21:07:09+08:00",
   "latestPeriod": "115/10",
   "source": "MOPS 月營收彙總表",
   "periods": [
     {
-      "generatedAt": "2026-11-02T20:35:37+08:00",
+      "generatedAt": "2026-11-03T21:07:09+08:00",
       "period": "115/10",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -25,16 +25,226 @@ window.twRevenueHistory = {
         "publicIssueDateCutoff": "89/01/01"
       },
       "stats": {
-        "selected": 0,
-        "stories": 0,
-        "highs": 0,
-        "storyHighs": 0
+        "selected": 7,
+        "stories": 6,
+        "highs": 2,
+        "storyHighs": 2
       },
-      "selected": [],
-      "stories": []
+      "selected": [
+        {
+          "market": "上市",
+          "code": "3563",
+          "name": "牧德",
+          "industry": "光電業",
+          "currentRevenue": 403332,
+          "momPct": 8.187012150961616,
+          "yoyPct": 95.58715133646274,
+          "ytdYoyPct": 24.59024723903795,
+          "remark": "主係訂單量增加，致本期營收較去年同期成長。",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：403,332 千元",
+          "previousHighRevenue": 372810,
+          "publicIssueDate": "96/05/29",
+          "businessDescription": "非接觸式機械視覺檢測系統設備"
+        },
+        {
+          "market": "上櫃",
+          "code": "6486",
+          "name": "互動",
+          "industry": "通信網路業",
+          "currentRevenue": 180298,
+          "momPct": 6.166311401081106,
+          "yoyPct": 77.20575949678117,
+          "ytdYoyPct": 91.11063760450222,
+          "remark": "本月營收較去年同期增加50%以上，係因本月認列營收的專案較去年同期增加所致。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 1491945,
+          "publicIssueDate": "103/09/19",
+          "businessDescription": "電信暨寬頻網路系統服務、無線傳輸服務、數位媒體系統服務\n雲端資訊系統服務、地理資訊系統服務"
+        },
+        {
+          "market": "上櫃",
+          "code": "6510",
+          "name": "精測",
+          "industry": "半導體業",
+          "currentRevenue": 702057,
+          "momPct": 7.7171044556278385,
+          "yoyPct": 72.70817394384734,
+          "ytdYoyPct": 39.51250820959398,
+          "remark": "本月營收持續受惠於AI所帶動之高效能運算(HPC)訂單需求暢旺，帶動訂單增長，致營收變動達50%以上。",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：702,057 千元",
+          "previousHighRevenue": 651760,
+          "publicIssueDate": "103/10/30",
+          "businessDescription": "晶圓測試卡\nIC測試板\n技術服務與其他"
+        },
+        {
+          "market": "上櫃",
+          "code": "4974",
+          "name": "亞泰",
+          "industry": "電子零組件業",
+          "currentRevenue": 348985,
+          "momPct": 1.1650423519999071,
+          "yoyPct": 56.75137893242782,
+          "ytdYoyPct": 8.241310480110938,
+          "remark": "本月營收較去年同期增加，主係客戶需求較去年同期增加",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 485992,
+          "publicIssueDate": "99/09/14",
+          "businessDescription": "影像感測器之買賣"
+        },
+        {
+          "market": "上市",
+          "code": "3380",
+          "name": "明泰",
+          "industry": "通信網路業",
+          "currentRevenue": 2423519,
+          "momPct": 0.2647780270644515,
+          "yoyPct": 54.66966621992469,
+          "ytdYoyPct": 13.758726323627904,
+          "remark": "主係子公司大型專案於本月認列收入，致營收較去年同期增加",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 3846791,
+          "publicIssueDate": "93/03/09",
+          "businessDescription": "電信管制射頻器材製造業\n無線通信機械器材製造業"
+        },
+        {
+          "market": "上市",
+          "code": "3168",
+          "name": "眾福科",
+          "industry": "光電業",
+          "currentRevenue": 377710,
+          "momPct": 2.2260714237384467,
+          "yoyPct": 52.66314759876159,
+          "ytdYoyPct": 19.612154114436567,
+          "remark": "今年營收回&#31311;。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 501142,
+          "publicIssueDate": "91/04/23",
+          "businessDescription": "液晶顯示器模組"
+        },
+        {
+          "market": "上市",
+          "code": "3591",
+          "name": "艾笛森",
+          "industry": "光電業",
+          "currentRevenue": 264128,
+          "momPct": 10.43848755869428,
+          "yoyPct": 35.57818659658344,
+          "ytdYoyPct": 18.77516543605729,
+          "remark": "-",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 408232,
+          "publicIssueDate": "96/09/27",
+          "businessDescription": "LED照明產品、LED車用產品及傳感器元件之研發製造銷售"
+        }
+      ],
+      "stories": [
+        {
+          "market": "上市",
+          "code": "3563",
+          "name": "牧德",
+          "industry": "光電業",
+          "currentRevenue": 403332,
+          "momPct": 8.187012150961616,
+          "yoyPct": 95.58715133646274,
+          "ytdYoyPct": 24.59024723903795,
+          "remark": "主係訂單量增加，致本期營收較去年同期成長。",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：403,332 千元",
+          "previousHighRevenue": 372810,
+          "publicIssueDate": "96/05/29",
+          "businessDescription": "非接觸式機械視覺檢測系統設備"
+        },
+        {
+          "market": "上櫃",
+          "code": "6486",
+          "name": "互動",
+          "industry": "通信網路業",
+          "currentRevenue": 180298,
+          "momPct": 6.166311401081106,
+          "yoyPct": 77.20575949678117,
+          "ytdYoyPct": 91.11063760450222,
+          "remark": "本月營收較去年同期增加50%以上，係因本月認列營收的專案較去年同期增加所致。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 1491945,
+          "publicIssueDate": "103/09/19",
+          "businessDescription": "電信暨寬頻網路系統服務、無線傳輸服務、數位媒體系統服務\n雲端資訊系統服務、地理資訊系統服務"
+        },
+        {
+          "market": "上櫃",
+          "code": "6510",
+          "name": "精測",
+          "industry": "半導體業",
+          "currentRevenue": 702057,
+          "momPct": 7.7171044556278385,
+          "yoyPct": 72.70817394384734,
+          "ytdYoyPct": 39.51250820959398,
+          "remark": "本月營收持續受惠於AI所帶動之高效能運算(HPC)訂單需求暢旺，帶動訂單增長，致營收變動達50%以上。",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：702,057 千元",
+          "previousHighRevenue": 651760,
+          "publicIssueDate": "103/10/30",
+          "businessDescription": "晶圓測試卡\nIC測試板\n技術服務與其他"
+        },
+        {
+          "market": "上櫃",
+          "code": "4974",
+          "name": "亞泰",
+          "industry": "電子零組件業",
+          "currentRevenue": 348985,
+          "momPct": 1.1650423519999071,
+          "yoyPct": 56.75137893242782,
+          "ytdYoyPct": 8.241310480110938,
+          "remark": "本月營收較去年同期增加，主係客戶需求較去年同期增加",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 485992,
+          "publicIssueDate": "99/09/14",
+          "businessDescription": "影像感測器之買賣"
+        },
+        {
+          "market": "上市",
+          "code": "3380",
+          "name": "明泰",
+          "industry": "通信網路業",
+          "currentRevenue": 2423519,
+          "momPct": 0.2647780270644515,
+          "yoyPct": 54.66966621992469,
+          "ytdYoyPct": 13.758726323627904,
+          "remark": "主係子公司大型專案於本月認列收入，致營收較去年同期增加",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 3846791,
+          "publicIssueDate": "93/03/09",
+          "businessDescription": "電信管制射頻器材製造業\n無線通信機械器材製造業"
+        },
+        {
+          "market": "上市",
+          "code": "3168",
+          "name": "眾福科",
+          "industry": "光電業",
+          "currentRevenue": 377710,
+          "momPct": 2.2260714237384467,
+          "yoyPct": 52.66314759876159,
+          "ytdYoyPct": 19.612154114436567,
+          "remark": "今年營收回&#31311;。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 501142,
+          "publicIssueDate": "91/04/23",
+          "businessDescription": "液晶顯示器模組"
+        }
+      ]
     },
     {
-      "generatedAt": "2026-11-02T20:35:39+08:00",
+      "generatedAt": "2026-11-03T21:07:11+08:00",
       "period": "115/9",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -57,8 +267,8 @@ window.twRevenueHistory = {
       "stats": {
         "selected": 199,
         "stories": 130,
-        "highs": 80,
-        "storyHighs": 56
+        "highs": 78,
+        "storyHighs": 54
       },
       "selected": [
         {
@@ -1543,9 +1753,9 @@ window.twRevenueHistory = {
           "yoyPct": 63.2010716349437,
           "ytdYoyPct": 18.801472271547034,
           "remark": "主係產品組合改變，致本期營收較去年同期成長。",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：372,810 千元",
-          "previousHighRevenue": 361158,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 403332,
           "publicIssueDate": "96/05/29",
           "businessDescription": "非接觸式機械視覺檢測系統設備"
         },
@@ -1799,9 +2009,9 @@ window.twRevenueHistory = {
           "yoyPct": 55.851857519990816,
           "ytdYoyPct": 35.774704769312464,
           "remark": "本月持續受惠於高效能運算 (HPC) 相關高速測試載板訂單增長，致營收變動達50%以上。",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：651,760 千元",
-          "previousHighRevenue": 638311,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 702057,
           "publicIssueDate": "103/10/30",
           "businessDescription": "晶圓測試卡\nIC測試板\n技術服務與其他"
         },
@@ -4729,9 +4939,9 @@ window.twRevenueHistory = {
           "yoyPct": 63.2010716349437,
           "ytdYoyPct": 18.801472271547034,
           "remark": "主係產品組合改變，致本期營收較去年同期成長。",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：372,810 千元",
-          "previousHighRevenue": 361158,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 403332,
           "publicIssueDate": "96/05/29",
           "businessDescription": "非接觸式機械視覺檢測系統設備"
         },
@@ -4985,9 +5195,9 @@ window.twRevenueHistory = {
           "yoyPct": 55.851857519990816,
           "ytdYoyPct": 35.774704769312464,
           "remark": "本月持續受惠於高效能運算 (HPC) 相關高速測試載板訂單增長，致營收變動達50%以上。",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：651,760 千元",
-          "previousHighRevenue": 638311,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 702057,
           "publicIssueDate": "103/10/30",
           "businessDescription": "晶圓測試卡\nIC測試板\n技術服務與其他"
         },
@@ -5330,7 +5540,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-11-02T20:35:41+08:00",
+      "generatedAt": "2026-11-03T21:07:13+08:00",
       "period": "115/8",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -7289,7 +7499,7 @@ window.twRevenueHistory = {
           "remark": "本月營收受惠於AI所帶動之高效能運算(HPC)訂單需求暢旺，整體訂單增長，致營收變動達50%以上。",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 651760,
+          "previousHighRevenue": 702057,
           "publicIssueDate": "103/10/30",
           "businessDescription": "晶圓測試卡\nIC測試板\n技術服務與其他"
         },
@@ -8185,7 +8395,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 372810,
+          "previousHighRevenue": 403332,
           "publicIssueDate": "96/05/29",
           "businessDescription": "非接觸式機械視覺檢測系統設備"
         },
@@ -10571,7 +10781,7 @@ window.twRevenueHistory = {
           "remark": "本月營收受惠於AI所帶動之高效能運算(HPC)訂單需求暢旺，整體訂單增長，致營收變動達50%以上。",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 651760,
+          "previousHighRevenue": 702057,
           "publicIssueDate": "103/10/30",
           "businessDescription": "晶圓測試卡\nIC測試板\n技術服務與其他"
         },
@@ -10898,7 +11108,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-11-02T20:35:43+08:00",
+      "generatedAt": "2026-11-03T21:07:15+08:00",
       "period": "115/7",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -13337,7 +13547,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 651760,
+          "previousHighRevenue": 702057,
           "publicIssueDate": "103/10/30",
           "businessDescription": "晶圓測試卡\nIC測試板\n技術服務與其他"
         },
@@ -14729,7 +14939,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 372810,
+          "previousHighRevenue": 403332,
           "publicIssueDate": "96/05/29",
           "businessDescription": "非接觸式機械視覺檢測系統設備"
         },
@@ -17666,7 +17876,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-11-02T20:35:45+08:00",
+      "generatedAt": "2026-11-03T21:07:19+08:00",
       "period": "115/6",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -20569,7 +20779,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 651760,
+          "previousHighRevenue": 702057,
           "publicIssueDate": "103/10/30",
           "businessDescription": "晶圓測試卡\nIC測試板\n技術服務與其他"
         },
@@ -24274,7 +24484,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-11-02T20:35:47+08:00",
+      "generatedAt": "2026-11-03T21:07:22+08:00",
       "period": "115/5",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -26713,7 +26923,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 651760,
+          "previousHighRevenue": 702057,
           "publicIssueDate": "103/10/30",
           "businessDescription": "晶圓測試卡\nIC測試板\n技術服務與其他"
         },
@@ -28850,7 +29060,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-11-02T20:35:49+08:00",
+      "generatedAt": "2026-11-03T21:07:25+08:00",
       "period": "115/4",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -31289,7 +31499,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 651760,
+          "previousHighRevenue": 702057,
           "publicIssueDate": "103/10/30",
           "businessDescription": "晶圓測試卡\nIC測試板\n技術服務與其他"
         },
@@ -33010,7 +33220,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-11-02T20:35:51+08:00",
+      "generatedAt": "2026-11-03T21:07:28+08:00",
       "period": "115/3",
       "source": "MOPS 月營收彙總表",
       "filters": {
