@@ -1,10 +1,10 @@
 window.twRevenueHistory = {
-  "generatedAt": "2026-11-03T21:07:09+08:00",
+  "generatedAt": "2026-11-04T21:58:43+08:00",
   "latestPeriod": "115/10",
   "source": "MOPS 月營收彙總表",
   "periods": [
     {
-      "generatedAt": "2026-11-03T21:07:09+08:00",
+      "generatedAt": "2026-11-04T21:58:43+08:00",
       "period": "115/10",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -25,10 +25,10 @@ window.twRevenueHistory = {
         "publicIssueDateCutoff": "89/01/01"
       },
       "stats": {
-        "selected": 7,
-        "stories": 6,
-        "highs": 2,
-        "storyHighs": 2
+        "selected": 16,
+        "stories": 13,
+        "highs": 3,
+        "storyHighs": 3
       },
       "selected": [
         {
@@ -65,6 +65,38 @@ window.twRevenueHistory = {
         },
         {
           "market": "上櫃",
+          "code": "3597",
+          "name": "映興",
+          "industry": "電子零組件業",
+          "currentRevenue": 129762,
+          "momPct": 5.027073839952732,
+          "yoyPct": 76.69117647058823,
+          "ytdYoyPct": 29.21343354570077,
+          "remark": "客戶訂單增加",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：129,762 千元",
+          "previousHighRevenue": 123551,
+          "publicIssueDate": "96/10/09",
+          "businessDescription": "ODM防水及高功率連接器與線束設計加工製造之一體化服務\nPCBA客製化設計、電氣保護器與高溫壓電線及壓力感應器代理銷售\nAIoT空調、空氣、光環境等設備系統解決方案及創能與儲能系統整合"
+        },
+        {
+          "market": "上櫃",
+          "code": "3306",
+          "name": "鼎天",
+          "industry": "通信網路業",
+          "currentRevenue": 159636,
+          "momPct": 55.69535067443017,
+          "yoyPct": 74.76161804149105,
+          "ytdYoyPct": 13.611482207609695,
+          "remark": "美國感恩節客戶提早拉貨",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 171140,
+          "publicIssueDate": "92/07/25",
+          "businessDescription": "衛星定位系統(GPS)主機板\nGPS資訊應用產品(CF-GPS.G-MOUSE)"
+        },
+        {
+          "market": "上櫃",
           "code": "6510",
           "name": "精測",
           "industry": "半導體業",
@@ -78,6 +110,38 @@ window.twRevenueHistory = {
           "previousHighRevenue": 651760,
           "publicIssueDate": "103/10/30",
           "businessDescription": "晶圓測試卡\nIC測試板\n技術服務與其他"
+        },
+        {
+          "market": "上櫃",
+          "code": "4561",
+          "name": "健椿",
+          "industry": "電機機械",
+          "currentRevenue": 134757,
+          "momPct": 20.444571561363208,
+          "yoyPct": 67.96335535335909,
+          "ytdYoyPct": 32.07644320969381,
+          "remark": "本月營收較去年同期增加，係因提貨需求增加所致。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 154770,
+          "publicIssueDate": "104/08/24",
+          "businessDescription": "精密主軸設計、製造、銷售"
+        },
+        {
+          "market": "上櫃",
+          "code": "6913",
+          "name": "鴻呈",
+          "industry": "電子零組件業",
+          "currentRevenue": 327678,
+          "momPct": 4.942257066543687,
+          "yoyPct": 60.51867128448052,
+          "ytdYoyPct": 35.877868963768826,
+          "remark": "雲端客戶伺服器需求量增加",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 372741,
+          "publicIssueDate": "111/09/28",
+          "businessDescription": "雲端伺服器（包括通用型及AI伺服器）\n智能物聯/工業控制\n車載連接線組及光學材料"
         },
         {
           "market": "上櫃",
@@ -112,6 +176,38 @@ window.twRevenueHistory = {
           "businessDescription": "電信管制射頻器材製造業\n無線通信機械器材製造業"
         },
         {
+          "market": "上櫃",
+          "code": "2070",
+          "name": "精湛",
+          "industry": "電機機械",
+          "currentRevenue": 92236,
+          "momPct": 29.283471630410407,
+          "yoyPct": 54.01158810466029,
+          "ytdYoyPct": 27.276671318962908,
+          "remark": "本年度訂單增加，陸續出貨致營業收入增加。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 143899,
+          "publicIssueDate": "104/10/21",
+          "businessDescription": "機器設備製造業\n其他"
+        },
+        {
+          "market": "上櫃",
+          "code": "3141",
+          "name": "晶宏",
+          "industry": "半導體業",
+          "currentRevenue": 219955,
+          "momPct": 13.270266651560874,
+          "yoyPct": 53.96865396865397,
+          "ytdYoyPct": 28.068944053655546,
+          "remark": "單月及年度累計營收增加係訂單需求成長所致。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 289909,
+          "publicIssueDate": "90/11/13",
+          "businessDescription": "LCD驅動IC之設計與產銷"
+        },
+        {
           "market": "上市",
           "code": "3168",
           "name": "眾福科",
@@ -120,12 +216,28 @@ window.twRevenueHistory = {
           "momPct": 2.2260714237384467,
           "yoyPct": 52.66314759876159,
           "ytdYoyPct": 19.612154114436567,
-          "remark": "今年營收回&#31311;。",
+          "remark": "今年營收回穩。",
           "allTimeHigh": false,
           "allTimeHighNote": "",
           "previousHighRevenue": 501142,
           "publicIssueDate": "91/04/23",
           "businessDescription": "液晶顯示器模組"
+        },
+        {
+          "market": "上櫃",
+          "code": "6578",
+          "name": "達邦蛋白",
+          "industry": "農業科技",
+          "currentRevenue": 40077,
+          "momPct": 15.86966578003932,
+          "yoyPct": 45.401443964735336,
+          "ytdYoyPct": 31.236572160720005,
+          "remark": "1.自2022/10以來，單月營收重返4000萬門檻。2.本年度累計營收已達預算目標，並超越去年全年營收。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 88383,
+          "publicIssueDate": "105/04/19",
+          "businessDescription": "製造批發及銷售水解黃豆胜月太蛋白"
         },
         {
           "market": "上市",
@@ -142,6 +254,38 @@ window.twRevenueHistory = {
           "previousHighRevenue": 408232,
           "publicIssueDate": "96/09/27",
           "businessDescription": "LED照明產品、LED車用產品及傳感器元件之研發製造銷售"
+        },
+        {
+          "market": "上櫃",
+          "code": "3556",
+          "name": "禾瑞亞",
+          "industry": "半導體業",
+          "currentRevenue": 127725,
+          "momPct": 17.299426934097422,
+          "yoyPct": 35.167312210299066,
+          "ytdYoyPct": 32.022954994187444,
+          "remark": "-",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 205566,
+          "publicIssueDate": "96/03/09",
+          "businessDescription": "產品設計業\n電子材料批發業\n電子材料零售業"
+        },
+        {
+          "market": "上市",
+          "code": "2637",
+          "name": "慧洋-KY",
+          "industry": "航運業",
+          "currentRevenue": 2254891,
+          "momPct": 12.071003270345225,
+          "yoyPct": 31.249785362758765,
+          "ytdYoyPct": 33.33781938150182,
+          "remark": "-",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 2641291,
+          "publicIssueDate": "99/08/17",
+          "businessDescription": "國際海上運輸業務\n船舶相關管理、維護及服務業務\n船舶租賃業務、船務代理業務"
         }
       ],
       "stories": [
@@ -179,6 +323,38 @@ window.twRevenueHistory = {
         },
         {
           "market": "上櫃",
+          "code": "3597",
+          "name": "映興",
+          "industry": "電子零組件業",
+          "currentRevenue": 129762,
+          "momPct": 5.027073839952732,
+          "yoyPct": 76.69117647058823,
+          "ytdYoyPct": 29.21343354570077,
+          "remark": "客戶訂單增加",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：129,762 千元",
+          "previousHighRevenue": 123551,
+          "publicIssueDate": "96/10/09",
+          "businessDescription": "ODM防水及高功率連接器與線束設計加工製造之一體化服務\nPCBA客製化設計、電氣保護器與高溫壓電線及壓力感應器代理銷售\nAIoT空調、空氣、光環境等設備系統解決方案及創能與儲能系統整合"
+        },
+        {
+          "market": "上櫃",
+          "code": "3306",
+          "name": "鼎天",
+          "industry": "通信網路業",
+          "currentRevenue": 159636,
+          "momPct": 55.69535067443017,
+          "yoyPct": 74.76161804149105,
+          "ytdYoyPct": 13.611482207609695,
+          "remark": "美國感恩節客戶提早拉貨",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 171140,
+          "publicIssueDate": "92/07/25",
+          "businessDescription": "衛星定位系統(GPS)主機板\nGPS資訊應用產品(CF-GPS.G-MOUSE)"
+        },
+        {
+          "market": "上櫃",
           "code": "6510",
           "name": "精測",
           "industry": "半導體業",
@@ -192,6 +368,38 @@ window.twRevenueHistory = {
           "previousHighRevenue": 651760,
           "publicIssueDate": "103/10/30",
           "businessDescription": "晶圓測試卡\nIC測試板\n技術服務與其他"
+        },
+        {
+          "market": "上櫃",
+          "code": "4561",
+          "name": "健椿",
+          "industry": "電機機械",
+          "currentRevenue": 134757,
+          "momPct": 20.444571561363208,
+          "yoyPct": 67.96335535335909,
+          "ytdYoyPct": 32.07644320969381,
+          "remark": "本月營收較去年同期增加，係因提貨需求增加所致。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 154770,
+          "publicIssueDate": "104/08/24",
+          "businessDescription": "精密主軸設計、製造、銷售"
+        },
+        {
+          "market": "上櫃",
+          "code": "6913",
+          "name": "鴻呈",
+          "industry": "電子零組件業",
+          "currentRevenue": 327678,
+          "momPct": 4.942257066543687,
+          "yoyPct": 60.51867128448052,
+          "ytdYoyPct": 35.877868963768826,
+          "remark": "雲端客戶伺服器需求量增加",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 372741,
+          "publicIssueDate": "111/09/28",
+          "businessDescription": "雲端伺服器（包括通用型及AI伺服器）\n智能物聯/工業控制\n車載連接線組及光學材料"
         },
         {
           "market": "上櫃",
@@ -226,6 +434,38 @@ window.twRevenueHistory = {
           "businessDescription": "電信管制射頻器材製造業\n無線通信機械器材製造業"
         },
         {
+          "market": "上櫃",
+          "code": "2070",
+          "name": "精湛",
+          "industry": "電機機械",
+          "currentRevenue": 92236,
+          "momPct": 29.283471630410407,
+          "yoyPct": 54.01158810466029,
+          "ytdYoyPct": 27.276671318962908,
+          "remark": "本年度訂單增加，陸續出貨致營業收入增加。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 143899,
+          "publicIssueDate": "104/10/21",
+          "businessDescription": "機器設備製造業\n其他"
+        },
+        {
+          "market": "上櫃",
+          "code": "3141",
+          "name": "晶宏",
+          "industry": "半導體業",
+          "currentRevenue": 219955,
+          "momPct": 13.270266651560874,
+          "yoyPct": 53.96865396865397,
+          "ytdYoyPct": 28.068944053655546,
+          "remark": "單月及年度累計營收增加係訂單需求成長所致。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 289909,
+          "publicIssueDate": "90/11/13",
+          "businessDescription": "LCD驅動IC之設計與產銷"
+        },
+        {
           "market": "上市",
           "code": "3168",
           "name": "眾福科",
@@ -234,17 +474,33 @@ window.twRevenueHistory = {
           "momPct": 2.2260714237384467,
           "yoyPct": 52.66314759876159,
           "ytdYoyPct": 19.612154114436567,
-          "remark": "今年營收回&#31311;。",
+          "remark": "今年營收回穩。",
           "allTimeHigh": false,
           "allTimeHighNote": "",
           "previousHighRevenue": 501142,
           "publicIssueDate": "91/04/23",
           "businessDescription": "液晶顯示器模組"
+        },
+        {
+          "market": "上櫃",
+          "code": "6578",
+          "name": "達邦蛋白",
+          "industry": "農業科技",
+          "currentRevenue": 40077,
+          "momPct": 15.86966578003932,
+          "yoyPct": 45.401443964735336,
+          "ytdYoyPct": 31.236572160720005,
+          "remark": "1.自2022/10以來，單月營收重返4000萬門檻。2.本年度累計營收已達預算目標，並超越去年全年營收。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 88383,
+          "publicIssueDate": "105/04/19",
+          "businessDescription": "製造批發及銷售水解黃豆胜月太蛋白"
         }
       ]
     },
     {
-      "generatedAt": "2026-11-03T21:07:11+08:00",
+      "generatedAt": "2026-11-04T21:58:46+08:00",
       "period": "115/9",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -267,8 +523,8 @@ window.twRevenueHistory = {
       "stats": {
         "selected": 199,
         "stories": 130,
-        "highs": 78,
-        "storyHighs": 54
+        "highs": 77,
+        "storyHighs": 53
       },
       "selected": [
         {
@@ -1051,7 +1307,7 @@ window.twRevenueHistory = {
           "remark": "本月營收及本年累計營收較去年同期增加，主係電腦週邊產品挹注成長所致。",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：675,179 千元",
-          "previousHighRevenue": 489165,
+          "previousHighRevenue": 516997,
           "publicIssueDate": "111/09/30",
           "businessDescription": "電信加值網路業務、電腦軟硬體應用系統之設計、銷售、出租\n電腦創新週邊商品與生活智慧產品之銷售"
         },
@@ -2153,9 +2409,9 @@ window.twRevenueHistory = {
           "yoyPct": 50.09901230668303,
           "ytdYoyPct": 23.668340749552325,
           "remark": "客戶訂單增加",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：123,551 千元",
-          "previousHighRevenue": 109855,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 129762,
           "publicIssueDate": "96/10/09",
           "businessDescription": "ODM防水及高功率連接器與線束設計加工製造之一體化服務\nPCBA客製化設計、電氣保護器與高溫壓電線及壓力感應器代理銷售\nAIoT空調、空氣、光環境等設備系統解決方案及創能與儲能系統整合"
         },
@@ -4237,7 +4493,7 @@ window.twRevenueHistory = {
           "remark": "本月營收及本年累計營收較去年同期增加，主係電腦週邊產品挹注成長所致。",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：675,179 千元",
-          "previousHighRevenue": 489165,
+          "previousHighRevenue": 516997,
           "publicIssueDate": "111/09/30",
           "businessDescription": "電信加值網路業務、電腦軟硬體應用系統之設計、銷售、出租\n電腦創新週邊商品與生活智慧產品之銷售"
         },
@@ -5339,9 +5595,9 @@ window.twRevenueHistory = {
           "yoyPct": 50.09901230668303,
           "ytdYoyPct": 23.668340749552325,
           "remark": "客戶訂單增加",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：123,551 千元",
-          "previousHighRevenue": 109855,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 129762,
           "publicIssueDate": "96/10/09",
           "businessDescription": "ODM防水及高功率連接器與線束設計加工製造之一體化服務\nPCBA客製化設計、電氣保護器與高溫壓電線及壓力感應器代理銷售\nAIoT空調、空氣、光環境等設備系統解決方案及創能與儲能系統整合"
         },
@@ -5540,7 +5796,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-11-03T21:07:13+08:00",
+      "generatedAt": "2026-11-04T21:58:50+08:00",
       "period": "115/8",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -8619,7 +8875,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 123551,
+          "previousHighRevenue": 129762,
           "publicIssueDate": "96/10/09",
           "businessDescription": "ODM防水及高功率連接器與線束設計加工製造之一體化服務\nPCBA客製化設計、電氣保護器與高溫壓電線及壓力感應器代理銷售\nAIoT空調、空氣、光環境等設備系統解決方案及創能與儲能系統整合"
         },
@@ -11108,7 +11364,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-11-03T21:07:15+08:00",
+      "generatedAt": "2026-11-04T21:58:53+08:00",
       "period": "115/7",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -12827,7 +13083,7 @@ window.twRevenueHistory = {
           "remark": "雲端客戶伺服器需求量增加",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：372,741 千元",
-          "previousHighRevenue": 312246,
+          "previousHighRevenue": 327678,
           "publicIssueDate": "111/09/28",
           "businessDescription": "雲端伺服器（包括通用型及AI伺服器）\n智能物聯/工業控制\n車載連接線組及光學材料"
         },
@@ -14603,7 +14859,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 123551,
+          "previousHighRevenue": 129762,
           "publicIssueDate": "96/10/09",
           "businessDescription": "ODM防水及高功率連接器與線束設計加工製造之一體化服務\nPCBA客製化設計、電氣保護器與高溫壓電線及壓力感應器代理銷售\nAIoT空調、空氣、光環境等設備系統解決方案及創能與儲能系統整合"
         },
@@ -17037,7 +17293,7 @@ window.twRevenueHistory = {
           "remark": "雲端客戶伺服器需求量增加",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：372,741 千元",
-          "previousHighRevenue": 312246,
+          "previousHighRevenue": 327678,
           "publicIssueDate": "111/09/28",
           "businessDescription": "雲端伺服器（包括通用型及AI伺服器）\n智能物聯/工業控制\n車載連接線組及光學材料"
         },
@@ -17876,7 +18132,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-11-03T21:07:19+08:00",
+      "generatedAt": "2026-11-04T21:58:57+08:00",
       "period": "115/6",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -20699,7 +20955,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 123551,
+          "previousHighRevenue": 129762,
           "publicIssueDate": "96/10/09",
           "businessDescription": "ODM防水及高功率連接器與線束設計加工製造之一體化服務\nPCBA客製化設計、電氣保護器與高溫壓電線及壓力感應器代理銷售\nAIoT空調、空氣、光環境等設備系統解決方案及創能與儲能系統整合"
         },
@@ -24484,7 +24740,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-11-03T21:07:22+08:00",
+      "generatedAt": "2026-11-04T21:59:00+08:00",
       "period": "115/5",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -29060,7 +29316,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-11-03T21:07:25+08:00",
+      "generatedAt": "2026-11-04T21:59:03+08:00",
       "period": "115/4",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -33220,7 +33476,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-11-03T21:07:28+08:00",
+      "generatedAt": "2026-11-04T21:59:06+08:00",
       "period": "115/3",
       "source": "MOPS 月營收彙總表",
       "filters": {
