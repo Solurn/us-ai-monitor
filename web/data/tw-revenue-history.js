@@ -1,10 +1,10 @@
 window.twRevenueHistory = {
-  "generatedAt": "2026-11-05T21:45:47+08:00",
+  "generatedAt": "2026-11-06T22:12:34+08:00",
   "latestPeriod": "115/10",
   "source": "MOPS 月營收彙總表",
   "periods": [
     {
-      "generatedAt": "2026-11-05T21:45:47+08:00",
+      "generatedAt": "2026-11-06T22:12:34+08:00",
       "period": "115/10",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -25,12 +25,28 @@ window.twRevenueHistory = {
         "publicIssueDateCutoff": "89/01/01"
       },
       "stats": {
-        "selected": 46,
-        "stories": 32,
-        "highs": 23,
-        "storyHighs": 17
+        "selected": 87,
+        "stories": 62,
+        "highs": 36,
+        "storyHighs": 26
       },
       "selected": [
+        {
+          "market": "上櫃",
+          "code": "3629",
+          "name": "地心引力",
+          "industry": "文化創意業",
+          "currentRevenue": 3204,
+          "momPct": 241.94236926360725,
+          "yoyPct": 1502.0,
+          "ytdYoyPct": 1459.6135265700484,
+          "remark": "115/07入主後商業模式與交易標的改為公關活動標案。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 159378,
+          "publicIssueDate": "97/05/26",
+          "businessDescription": "行銷公關/媒體企劃"
+        },
         {
           "market": "上市",
           "code": "2258",
@@ -65,6 +81,102 @@ window.twRevenueHistory = {
         },
         {
           "market": "上市",
+          "code": "4588",
+          "name": "玖鼎電力",
+          "industry": "其他電子業",
+          "currentRevenue": 104821,
+          "momPct": 3.6210680321872712,
+          "yoyPct": 369.96502869440457,
+          "ytdYoyPct": 38.23538108392017,
+          "remark": "因按照合約規範，每月出貨數量依客戶通知出貨。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 166336,
+          "publicIssueDate": "111/07/26",
+          "businessDescription": "智慧電網\n電力監控設備\n電能管理系統"
+        },
+        {
+          "market": "上櫃",
+          "code": "8299",
+          "name": "群聯",
+          "industry": "半導體業",
+          "currentRevenue": 31530384,
+          "momPct": 2.909365401933693,
+          "yoyPct": 346.26934411802085,
+          "ytdYoyPct": 297.7848336783987,
+          "remark": "係總出貨量及均價增加",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：31,530,384 千元",
+          "previousHighRevenue": 30638984,
+          "publicIssueDate": "92/05/16",
+          "businessDescription": "IC設計業\n半導體業\n電腦及週邊設備業"
+        },
+        {
+          "market": "上櫃",
+          "code": "6234",
+          "name": "高僑",
+          "industry": "光電業",
+          "currentRevenue": 110832,
+          "momPct": 5.422758273011766,
+          "yoyPct": 335.831694848604,
+          "ytdYoyPct": 65.8593554339946,
+          "remark": "本月專案驗收入帳金額較高",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 624416,
+          "publicIssueDate": "90/07/16",
+          "businessDescription": "自動化輸送及倉儲設備\n產業專業自動化機器及各類腔體組裝\n精密微型鑽頭"
+        },
+        {
+          "market": "上櫃",
+          "code": "3260",
+          "name": "威剛",
+          "industry": "半導體業",
+          "currentRevenue": 17063103,
+          "momPct": 8.476362906075854,
+          "yoyPct": 282.34177827851113,
+          "ytdYoyPct": 222.72744467462002,
+          "remark": "記憶體售價上漲",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 18925261,
+          "publicIssueDate": "92/03/26",
+          "businessDescription": "電子零組件製造業\n電子材料批發業\n製造輸出業"
+        },
+        {
+          "market": "上櫃",
+          "code": "3693",
+          "name": "營邦",
+          "industry": "電腦及週邊設備業",
+          "currentRevenue": 1973133,
+          "momPct": 28.367333528939906,
+          "yoyPct": 231.86998570347322,
+          "ytdYoyPct": 55.43319104476279,
+          "remark": "主要係受惠於伺服器相關應用需求持續成長，帶動市場需求增加，客戶訂單量隨之增加。",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：1,973,133 千元",
+          "previousHighRevenue": 1537099,
+          "publicIssueDate": "98/09/28",
+          "businessDescription": "產業用電腦及伺服器用機箱類\n存儲平台類\n系統平台類"
+        },
+        {
+          "market": "上櫃",
+          "code": "7828",
+          "name": "創新服務",
+          "industry": "半導體業",
+          "currentRevenue": 285684,
+          "momPct": 82.93493503749191,
+          "yoyPct": 224.6261533566656,
+          "ytdYoyPct": 202.53033301046437,
+          "remark": "本月及累計營收成長顯著,主係終端需求強勁帶動設備出貨量提升。目前訂單能見度良好,後續將依時程持續交付,營運動能維持成長趨勢",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：285,684 千元",
+          "previousHighRevenue": 183348,
+          "publicIssueDate": "114/04/10",
+          "businessDescription": "半導體自動化設備開發、製造及銷售業務"
+        },
+        {
+          "market": "上市",
           "code": "6672",
           "name": "騰輝電子-KY",
           "industry": "電子零組件業",
@@ -78,6 +190,22 @@ window.twRevenueHistory = {
           "previousHighRevenue": 1020897,
           "publicIssueDate": "106/12/27",
           "businessDescription": "生產與銷售印刷電路板所需使用之黏合片、銅箔基板和鋁基板"
+        },
+        {
+          "market": "上市",
+          "code": "2059",
+          "name": "川湖",
+          "industry": "電子零組件業",
+          "currentRevenue": 4561731,
+          "momPct": 2.1803188025785363,
+          "yoyPct": 191.0633435081773,
+          "ytdYoyPct": 170.4137539237435,
+          "remark": "新產品開始出貨，導致年對年營收增幅較大。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 6466169,
+          "publicIssueDate": "89/07/18",
+          "businessDescription": "研發、設計、製造和銷售伺服器等用導軌及其週邊零組件生產及買賣\n鉸鏈(筆記型電腦鉸鏈)及其零組件之製造生產及買賣\n滑軌之製造生產及買賣"
         },
         {
           "market": "上櫃",
@@ -110,6 +238,22 @@ window.twRevenueHistory = {
           "previousHighRevenue": 540492,
           "publicIssueDate": "103/03/20",
           "businessDescription": "有線通信機械器材製造業、電子零組件製造業、國際貿易業\n研發、設計、生產及銷售下列產品:\n1.雷射磊晶片 2.檢光器磊晶片 3.兼營前述產品相關之國際貿易業"
+        },
+        {
+          "market": "上市",
+          "code": "6834",
+          "name": "天二科技",
+          "industry": "電子零組件業",
+          "currentRevenue": 287016,
+          "momPct": 5.355196070874032,
+          "yoyPct": 179.6009819584616,
+          "ytdYoyPct": 71.34645999858674,
+          "remark": "主係市場終端需求增加",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：287,016 千元",
+          "previousHighRevenue": 272427,
+          "publicIssueDate": "110/04/01",
+          "businessDescription": "專業晶片電阻之製造與銷售業務"
         },
         {
           "market": "上櫃",
@@ -192,6 +336,86 @@ window.twRevenueHistory = {
           "businessDescription": "一、研究、開發、生產、製造及銷售：各種應用積體電路1.嵌入式記\n憶體及邏輯元件。2.設計用元件資料庫。3.設計用自動化工具\n二、提供前述產品相關及客戶委託之技術服務。"
         },
         {
+          "market": "上市",
+          "code": "3715",
+          "name": "定穎投控",
+          "industry": "電子零組件業",
+          "currentRevenue": 3787055,
+          "momPct": 17.37434278141229,
+          "yoyPct": 121.47129190100547,
+          "ytdYoyPct": 58.89467218155531,
+          "remark": "客戶需求增加和產品組合優化",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：3,787,055 千元",
+          "previousHighRevenue": 3226476,
+          "publicIssueDate": "111/08/25",
+          "businessDescription": "一般投資業"
+        },
+        {
+          "market": "上市",
+          "code": "3231",
+          "name": "緯創",
+          "industry": "電腦及週邊設備業",
+          "currentRevenue": 402614772,
+          "momPct": 5.726956607488564,
+          "yoyPct": 117.5572069759596,
+          "ytdYoyPct": 99.52528249578863,
+          "remark": "主係客戶需求增加，較去年同期成長。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 460065063,
+          "publicIssueDate": "91/12/03",
+          "businessDescription": "3C電子產品\n其他"
+        },
+        {
+          "market": "上市",
+          "code": "6924",
+          "name": "榮惠-KY創",
+          "industry": "電子零組件業",
+          "currentRevenue": 304352,
+          "momPct": 4.1366992629900565,
+          "yoyPct": 116.36039212619696,
+          "ytdYoyPct": 42.9195289917889,
+          "remark": "因AI營收增加所致",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：304,352 千元",
+          "previousHighRevenue": 292262,
+          "publicIssueDate": "113/10/16",
+          "businessDescription": "印刷電路板\n工業電腦及工控領域相關電子產品"
+        },
+        {
+          "market": "上櫃",
+          "code": "8227",
+          "name": "巨有科技",
+          "industry": "半導體業",
+          "currentRevenue": 181464,
+          "momPct": 16.317111942977284,
+          "yoyPct": 111.76800093359785,
+          "ytdYoyPct": 56.938413007122705,
+          "remark": "主要係本期量產收入增加所致。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 272523,
+          "publicIssueDate": "89/04/15",
+          "businessDescription": "特殊應用積體電路設計 ( ASIC )\n系統單晶片設計服務 ( SoC Design Service )\n系統單晶片設計用矽智財及自動化軟體工具 ( IP & EDA Tools)"
+        },
+        {
+          "market": "上櫃",
+          "code": "4558",
+          "name": "寶緯",
+          "industry": "電機機械",
+          "currentRevenue": 201562,
+          "momPct": 45.27095690779753,
+          "yoyPct": 109.77904520050373,
+          "ytdYoyPct": 20.674027531526985,
+          "remark": "本月較去年同期增加109.78%，係市場需求增加所致。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 252973,
+          "publicIssueDate": "103/08/27",
+          "businessDescription": "工業鋁擠型\n鋁門窗及建材\n其他"
+        },
+        {
           "market": "上櫃",
           "code": "4931",
           "name": "新盛力",
@@ -241,6 +465,22 @@ window.twRevenueHistory = {
         },
         {
           "market": "上市",
+          "code": "6658",
+          "name": "聯策",
+          "industry": "其他電子業",
+          "currentRevenue": 267078,
+          "momPct": 35.83184148425421,
+          "yoyPct": 91.10033057141631,
+          "ytdYoyPct": 27.530622030425874,
+          "remark": "配合客戶訂單時程交貨，故本月營收較去年本月上升。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 306923,
+          "publicIssueDate": "106/08/21",
+          "businessDescription": "視覺與自動化設備\n特用材料及其他"
+        },
+        {
+          "market": "上市",
           "code": "4927",
           "name": "泰鼎-KY",
           "industry": "電子零組件業",
@@ -273,6 +513,22 @@ window.twRevenueHistory = {
         },
         {
           "market": "上市",
+          "code": "3653",
+          "name": "健策",
+          "industry": "電子零組件業",
+          "currentRevenue": 3073255,
+          "momPct": 0.6249821964548763,
+          "yoyPct": 80.6841558493479,
+          "ytdYoyPct": 50.53909493401264,
+          "remark": "因客戶端需求成長，致本月及本年較去年增加百分比達50%以上。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 3225888,
+          "publicIssueDate": "97/10/21",
+          "businessDescription": "各種機械及零件、精密模具之製造加工買賣\n各種精密沖件產品及精密塑膠崁入射出之製造與販賣\n金屬零件表面處理加工及機械加工自動車床及CNC車床加工"
+        },
+        {
+          "market": "上市",
           "code": "3665",
           "name": "貿聯-KY",
           "industry": "其他電子業",
@@ -286,6 +542,22 @@ window.twRevenueHistory = {
           "previousHighRevenue": 9630165,
           "publicIssueDate": "100/01/17",
           "businessDescription": "電腦週邊零組件之研發、生產及銷售\n汽車、醫療、通訊及太陽能設備相關接線組之研發、生產及銷售\n連接器、線材、光電子元件等產品之研發、生產及銷售"
+        },
+        {
+          "market": "上市",
+          "code": "6285",
+          "name": "啟碁",
+          "industry": "通信網路業",
+          "currentRevenue": 16858476,
+          "momPct": 4.8451873107943895,
+          "yoyPct": 77.78424111325353,
+          "ytdYoyPct": 44.685202151236595,
+          "remark": "客戶需求增加",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 16912812,
+          "publicIssueDate": "91/04/24",
+          "businessDescription": "網路通訊系列產品與相關之進出口貿易業務"
         },
         {
           "market": "上櫃",
@@ -302,6 +574,22 @@ window.twRevenueHistory = {
           "previousHighRevenue": 1491945,
           "publicIssueDate": "103/09/19",
           "businessDescription": "電信暨寬頻網路系統服務、無線傳輸服務、數位媒體系統服務\n雲端資訊系統服務、地理資訊系統服務"
+        },
+        {
+          "market": "上市",
+          "code": "6196",
+          "name": "帆宣",
+          "industry": "其他電子業",
+          "currentRevenue": 7333912,
+          "momPct": 2.224290087414386,
+          "yoyPct": 77.14314008944217,
+          "ytdYoyPct": 57.69144571870487,
+          "remark": "115年10月單月及累計合併營收較去年同期增加，主要係銷貨收入及工程收入增加所致。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 7595991,
+          "publicIssueDate": "89/12/11",
+          "businessDescription": "高科技設備材料銷售與服務業務\n客製化設備研發製造業務\n廠務自動化暨整合系統業務"
         },
         {
           "market": "上櫃",
@@ -337,6 +625,22 @@ window.twRevenueHistory = {
         },
         {
           "market": "上櫃",
+          "code": "8069",
+          "name": "元太",
+          "industry": "光電業",
+          "currentRevenue": 3747462,
+          "momPct": 3.7131195451465917,
+          "yoyPct": 74.41875726946121,
+          "ytdYoyPct": 4.109995590842187,
+          "remark": "受惠於 IoT 應用需求增加，帶動相關產品出貨量提升及大尺寸產品出貨亦較去年同期增加，推升本月營收成長",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 4066430,
+          "publicIssueDate": "89/10/27",
+          "businessDescription": "電子紙顯示器"
+        },
+        {
+          "market": "上櫃",
           "code": "6510",
           "name": "精測",
           "industry": "半導體業",
@@ -369,6 +673,38 @@ window.twRevenueHistory = {
         },
         {
           "market": "上櫃",
+          "code": "6175",
+          "name": "立敦",
+          "industry": "電子零組件業",
+          "currentRevenue": 507262,
+          "momPct": 6.066726886468945,
+          "yoyPct": 71.02735361450048,
+          "ytdYoyPct": 30.028374831112565,
+          "remark": "因整體產業趨勢向上，銷售單價及數量大幅成長所致",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：507,262 千元",
+          "previousHighRevenue": 485614,
+          "publicIssueDate": "89/04/25",
+          "businessDescription": "生產及銷售化成鋁箔\n生產及銷售電蝕鋁箔"
+        },
+        {
+          "market": "上櫃",
+          "code": "3363",
+          "name": "上詮",
+          "industry": "通信網路業",
+          "currentRevenue": 228769,
+          "momPct": 2.0119773295816854,
+          "yoyPct": 70.35191969737586,
+          "ytdYoyPct": 0.24432715871237876,
+          "remark": "客戶需求較去年同期增加",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 247012,
+          "publicIssueDate": "92/10/31",
+          "businessDescription": "光纖被動元件之設計、生產與銷售服務\n光纖模組及整合系統之設計、生產與銷售服務\n光纖相關之生產測試儀器設備之設計、生產與銷售服務"
+        },
+        {
+          "market": "上櫃",
           "code": "4561",
           "name": "健椿",
           "industry": "電機機械",
@@ -385,6 +721,70 @@ window.twRevenueHistory = {
         },
         {
           "market": "上櫃",
+          "code": "6708",
+          "name": "天擎",
+          "industry": "半導體業",
+          "currentRevenue": 34075,
+          "momPct": 8.879729038854805,
+          "yoyPct": 67.80754456810794,
+          "ytdYoyPct": 8.732732032781563,
+          "remark": "因之前記憶體缺貨造成部分訂單延後至本月交貨,故業績增加。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 42764,
+          "publicIssueDate": "107/08/29",
+          "businessDescription": "各種積體電路及模組之設計、製造、測試及銷售\n各種積體電路應用軟體之研究、開發及銷售\n各類標案的無線系統整合及雲端服務業務"
+        },
+        {
+          "market": "上櫃",
+          "code": "6423",
+          "name": "億而得",
+          "industry": "半導體業",
+          "currentRevenue": 55163,
+          "momPct": 1073.1816248404934,
+          "yoyPct": 63.155871044069805,
+          "ytdYoyPct": 26.229827039292413,
+          "remark": "本公司115年10月營業收入較去年同期增加，主要係因115年10月權利金收入增加所致。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 77086,
+          "publicIssueDate": "102/04/22",
+          "businessDescription": "單次及可複寫嵌入式非揮發記憶體IP授權及技術服務"
+        },
+        {
+          "market": "上櫃",
+          "code": "6922",
+          "name": "宸曜",
+          "industry": "電腦及週邊設備業",
+          "currentRevenue": 262206,
+          "momPct": 6.312947015034301,
+          "yoyPct": 62.33655274888559,
+          "ytdYoyPct": 50.928272103264725,
+          "remark": "本月較去年同期增加，主要係因出貨量增加所致。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 283197,
+          "publicIssueDate": "111/10/12",
+          "businessDescription": "工業電腦及其週邊設備"
+        },
+        {
+          "market": "上市",
+          "code": "4566",
+          "name": "時碩工業",
+          "industry": "電機機械",
+          "currentRevenue": 675149,
+          "momPct": 1.1924585539716395,
+          "yoyPct": 61.70032883785875,
+          "ytdYoyPct": 27.24080387252237,
+          "remark": "本月營收較去年同期增加，主係多元產品布局有成，尤以散熱系統產品銷售開始發酵所致。",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：675,149 千元",
+          "previousHighRevenue": 667193,
+          "publicIssueDate": "105/12/05",
+          "businessDescription": "工業產品精密金屬零件製造販售\n汽車產品精密金屬零件製造販售\n航太產品精密金屬零件製造販售"
+        },
+        {
+          "market": "上櫃",
           "code": "6913",
           "name": "鴻呈",
           "industry": "電子零組件業",
@@ -398,6 +798,22 @@ window.twRevenueHistory = {
           "previousHighRevenue": 372741,
           "publicIssueDate": "111/09/28",
           "businessDescription": "雲端伺服器（包括通用型及AI伺服器）\n智能物聯/工業控制\n車載連接線組及光學材料"
+        },
+        {
+          "market": "上櫃",
+          "code": "8446",
+          "name": "華研",
+          "industry": "文化創意業",
+          "currentRevenue": 183362,
+          "momPct": 61.83474254646873,
+          "yoyPct": 57.82307069941987,
+          "ytdYoyPct": 29.64896322644293,
+          "remark": "主要係本月演藝經紀收入較去年同期增加所致",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 266781,
+          "publicIssueDate": "101/09/27",
+          "businessDescription": "流行音樂之製作及發行\n著作權授權\n藝人演藝經紀"
         },
         {
           "market": "上櫃",
@@ -496,6 +912,22 @@ window.twRevenueHistory = {
           "businessDescription": "自動化設備及系統零組件之製造加工及買賣業務"
         },
         {
+          "market": "上市",
+          "code": "3617",
+          "name": "碩天",
+          "industry": "其他電子業",
+          "currentRevenue": 1329275,
+          "momPct": 2.3940144631473212,
+          "yoyPct": 51.71081614718269,
+          "ytdYoyPct": 14.155545179739978,
+          "remark": "因2026.10美洲市場較去年度同月份需求增加",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：1,329,275 千元",
+          "previousHighRevenue": 1327602,
+          "publicIssueDate": "97/01/15",
+          "businessDescription": "不斷電電源供應系統之設計製造及銷售業務\n電源保護與電源管理系統之設計製造及銷售業務\n電力電子相關設備之設計製造及銷售業務"
+        },
+        {
           "market": "上櫃",
           "code": "6548",
           "name": "長科*",
@@ -510,6 +942,22 @@ window.twRevenueHistory = {
           "previousHighRevenue": 1713294,
           "publicIssueDate": "104/06/15",
           "businessDescription": "導線架製造"
+        },
+        {
+          "market": "上市",
+          "code": "3189",
+          "name": "景碩",
+          "industry": "半導體業",
+          "currentRevenue": 5367564,
+          "momPct": 3.5954077721395272,
+          "yoyPct": 49.04840634651238,
+          "ytdYoyPct": 35.36817909154945,
+          "remark": "-",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：5,367,564 千元",
+          "previousHighRevenue": 5181276,
+          "publicIssueDate": "91/06/10",
+          "businessDescription": "電子零組件製造業\n電子材料批發業\n電子材料零售業"
         },
         {
           "market": "上市",
@@ -529,6 +977,38 @@ window.twRevenueHistory = {
         },
         {
           "market": "上櫃",
+          "code": "3558",
+          "name": "神準",
+          "industry": "通信網路業",
+          "currentRevenue": 1755994,
+          "momPct": 2.3999337547139996,
+          "yoyPct": 48.11440274096929,
+          "ytdYoyPct": 1.9270538763760354,
+          "remark": "-",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 1891504,
+          "publicIssueDate": "96/04/10",
+          "businessDescription": "無線網路系統產品與服務(Wi-Fi)之設計開發、製造及買賣\n有線網路系統產品與服務(Switch)之設計開發、製造及買賣\n企業無線通訊系統產品之設計開發、製造及買賣"
+        },
+        {
+          "market": "上櫃",
+          "code": "3264",
+          "name": "欣銓",
+          "industry": "半導體業",
+          "currentRevenue": 1857240,
+          "momPct": 4.587810027306449,
+          "yoyPct": 47.867896271774256,
+          "ytdYoyPct": 36.79259665507601,
+          "remark": "-",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：1,857,240 千元",
+          "previousHighRevenue": 1794449,
+          "publicIssueDate": "92/04/14",
+          "businessDescription": "記憶體IC之晶圓測試\n數位訊號IC及混合訊號IC之晶圓及成品測試\n晶圓型式之Burn in 之測試"
+        },
+        {
+          "market": "上櫃",
           "code": "6578",
           "name": "達邦蛋白",
           "industry": "農業科技",
@@ -545,6 +1025,70 @@ window.twRevenueHistory = {
         },
         {
           "market": "上櫃",
+          "code": "3324",
+          "name": "雙鴻",
+          "industry": "其他電子業",
+          "currentRevenue": 3372007,
+          "momPct": 16.91871288436687,
+          "yoyPct": 44.74959702431161,
+          "ytdYoyPct": 68.81643921026671,
+          "remark": "成長動能來自 AI 伺服器液冷散熱系統市佔率持續攀升。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 3765466,
+          "publicIssueDate": "92/08/26",
+          "businessDescription": "散熱模組"
+        },
+        {
+          "market": "上櫃",
+          "code": "8415",
+          "name": "大國鋼",
+          "industry": "鋼鐵工業",
+          "currentRevenue": 3049008,
+          "momPct": 10.065934700640575,
+          "yoyPct": 43.826288112215344,
+          "ytdYoyPct": 27.57572025452002,
+          "remark": "-",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：3,049,008 千元",
+          "previousHighRevenue": 2770165,
+          "publicIssueDate": "99/05/11",
+          "businessDescription": "扣件買賣"
+        },
+        {
+          "market": "上市",
+          "code": "8438",
+          "name": "昶昕",
+          "industry": "綠能環保",
+          "currentRevenue": 469590,
+          "momPct": 1.6204214653907578,
+          "yoyPct": 43.676683861729664,
+          "ytdYoyPct": 40.26677475456108,
+          "remark": "-",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 482910,
+          "publicIssueDate": "100/12/23",
+          "businessDescription": "資源回收再生產品研發產製與銷售\n特用化學品研發產製與銷售\n其他綠色產品與設備之研發與銷售"
+        },
+        {
+          "market": "上櫃",
+          "code": "4939",
+          "name": "亞電",
+          "industry": "電子零組件業",
+          "currentRevenue": 160030,
+          "momPct": 2.6346506586626646,
+          "yoyPct": 42.32099819464084,
+          "ytdYoyPct": 19.527141863386536,
+          "remark": "-",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 228141,
+          "publicIssueDate": "99/03/30",
+          "businessDescription": "覆蓋膜\n軟性銅箔基層板\n補強板"
+        },
+        {
+          "market": "上櫃",
           "code": "3152",
           "name": "璟德",
           "industry": "通信網路業",
@@ -558,6 +1102,22 @@ window.twRevenueHistory = {
           "previousHighRevenue": 286106,
           "publicIssueDate": "89/03/22",
           "businessDescription": "高頻整合元件及模組(研究、開發、生產、製造及銷售)\n高頻晶片陶瓷元件(研究、開發、生產、製造及銷售)\n電子材料及電信器材之零售之批發"
+        },
+        {
+          "market": "上市",
+          "code": "6579",
+          "name": "研揚",
+          "industry": "電腦及週邊設備業",
+          "currentRevenue": 987407,
+          "momPct": 1.3350807370294273,
+          "yoyPct": 41.230241994888054,
+          "ytdYoyPct": 28.639131480983455,
+          "remark": "自115年5月起新增合併子公司AAEON Technology 株式&#20250;社。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 1089075,
+          "publicIssueDate": "105/04/29",
+          "businessDescription": "工業系統產品\n單板電腦及週邊裝置"
         },
         {
           "market": "上市",
@@ -640,6 +1200,22 @@ window.twRevenueHistory = {
           "businessDescription": "晶圓再生及晶圓薄化代工服務"
         },
         {
+          "market": "上櫃",
+          "code": "2065",
+          "name": "世豐",
+          "industry": "鋼鐵工業",
+          "currentRevenue": 204633,
+          "momPct": 5.8399106246961345,
+          "yoyPct": 34.324743012432556,
+          "ytdYoyPct": 13.987370508848477,
+          "remark": "-",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 299067,
+          "publicIssueDate": "100/09/14",
+          "businessDescription": "自攻螺絲、木螺絲與烤漆螺絲等建築產品及五金製品製造。\n各種有關螺絲機械之製造及加工買賣。\n表面處理、熱處理及伸線製造及買賣業務。"
+        },
+        {
           "market": "上市",
           "code": "7822",
           "name": "倍利科",
@@ -654,6 +1230,22 @@ window.twRevenueHistory = {
           "previousHighRevenue": 311736,
           "publicIssueDate": "114/03/19",
           "businessDescription": "高階自動光學檢量測設備產品之研發、製造及銷售"
+        },
+        {
+          "market": "上櫃",
+          "code": "8032",
+          "name": "光菱",
+          "industry": "電子通路業",
+          "currentRevenue": 380209,
+          "momPct": 5.057390593137445,
+          "yoyPct": 32.212118577762325,
+          "ytdYoyPct": 43.52683062825004,
+          "remark": "註：本月(年)新台幣(累計)營業收入淨額=本月(年)功能性貨幣(累計)營業收入淨額x本月(年累計)換算匯率",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 489834,
+          "publicIssueDate": "89/06/29",
+          "businessDescription": "電腦及電腦週邊設備之製造及進出口\n電子零件、組件之製造及進出口\n電視機、錄影機、收錄音機等電器用品及其零組件之進出口"
         },
         {
           "market": "上櫃",
@@ -737,6 +1329,38 @@ window.twRevenueHistory = {
         },
         {
           "market": "上櫃",
+          "code": "6263",
+          "name": "普萊德",
+          "industry": "通信網路業",
+          "currentRevenue": 207510,
+          "momPct": 44.373865067382816,
+          "yoyPct": 23.24202974295624,
+          "ytdYoyPct": 7.735430408403397,
+          "remark": "-",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：207,510 千元",
+          "previousHighRevenue": 201059,
+          "publicIssueDate": "90/07/13",
+          "businessDescription": "自有品牌網路通訊設備製造商，主要銷售有交換器、寬頻網路、\n光纖網路、監控、語音、無線網路、路由器及工業網路等。"
+        },
+        {
+          "market": "上櫃",
+          "code": "1595",
+          "name": "川寶",
+          "industry": "半導體業",
+          "currentRevenue": 110905,
+          "momPct": 30.3047748848576,
+          "yoyPct": 23.081447612283174,
+          "ytdYoyPct": 35.782423961970466,
+          "remark": "-",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 253639,
+          "publicIssueDate": "99/09/21",
+          "businessDescription": "電子零組件製造業\n設計、研發、生產CCD自動對位曝光機"
+        },
+        {
+          "market": "上櫃",
           "code": "7709",
           "name": "榮田",
           "industry": "電機機械",
@@ -753,6 +1377,22 @@ window.twRevenueHistory = {
         },
         {
           "market": "上櫃",
+          "code": "4754",
+          "name": "國碳科",
+          "industry": "化學工業",
+          "currentRevenue": 59804,
+          "momPct": 31.593539585442063,
+          "yoyPct": 21.068081057554103,
+          "ytdYoyPct": 6.0076720316894665,
+          "remark": "-",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 107253,
+          "publicIssueDate": "101/08/28",
+          "businessDescription": "其他化學材料製造業,工業助劑製造業,\n其他化學製品製造業,耐火材料製造業\n消防安全設備安裝工程業,塗料,油漆,染料及顏料製造業,"
+        },
+        {
+          "market": "上櫃",
           "code": "3529",
           "name": "力旺",
           "industry": "半導體業",
@@ -766,9 +1406,41 @@ window.twRevenueHistory = {
           "previousHighRevenue": 675856,
           "publicIssueDate": "95/09/05",
           "businessDescription": "嵌入式非揮發記憶體IP授權及技術服務"
+        },
+        {
+          "market": "上櫃",
+          "code": "6735",
+          "name": "美達科技",
+          "industry": "其他電子業",
+          "currentRevenue": 44788,
+          "momPct": 47.37742678512669,
+          "yoyPct": 8.230631675607752,
+          "ytdYoyPct": 18.59115143437036,
+          "remark": "-",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 60627,
+          "publicIssueDate": "108/04/24",
+          "businessDescription": "半導體之類比暨混合訊號積體電路測試儀器"
         }
       ],
       "stories": [
+        {
+          "market": "上櫃",
+          "code": "3629",
+          "name": "地心引力",
+          "industry": "文化創意業",
+          "currentRevenue": 3204,
+          "momPct": 241.94236926360725,
+          "yoyPct": 1502.0,
+          "ytdYoyPct": 1459.6135265700484,
+          "remark": "115/07入主後商業模式與交易標的改為公關活動標案。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 159378,
+          "publicIssueDate": "97/05/26",
+          "businessDescription": "行銷公關/媒體企劃"
+        },
         {
           "market": "上市",
           "code": "2258",
@@ -803,6 +1475,102 @@ window.twRevenueHistory = {
         },
         {
           "market": "上市",
+          "code": "4588",
+          "name": "玖鼎電力",
+          "industry": "其他電子業",
+          "currentRevenue": 104821,
+          "momPct": 3.6210680321872712,
+          "yoyPct": 369.96502869440457,
+          "ytdYoyPct": 38.23538108392017,
+          "remark": "因按照合約規範，每月出貨數量依客戶通知出貨。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 166336,
+          "publicIssueDate": "111/07/26",
+          "businessDescription": "智慧電網\n電力監控設備\n電能管理系統"
+        },
+        {
+          "market": "上櫃",
+          "code": "8299",
+          "name": "群聯",
+          "industry": "半導體業",
+          "currentRevenue": 31530384,
+          "momPct": 2.909365401933693,
+          "yoyPct": 346.26934411802085,
+          "ytdYoyPct": 297.7848336783987,
+          "remark": "係總出貨量及均價增加",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：31,530,384 千元",
+          "previousHighRevenue": 30638984,
+          "publicIssueDate": "92/05/16",
+          "businessDescription": "IC設計業\n半導體業\n電腦及週邊設備業"
+        },
+        {
+          "market": "上櫃",
+          "code": "6234",
+          "name": "高僑",
+          "industry": "光電業",
+          "currentRevenue": 110832,
+          "momPct": 5.422758273011766,
+          "yoyPct": 335.831694848604,
+          "ytdYoyPct": 65.8593554339946,
+          "remark": "本月專案驗收入帳金額較高",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 624416,
+          "publicIssueDate": "90/07/16",
+          "businessDescription": "自動化輸送及倉儲設備\n產業專業自動化機器及各類腔體組裝\n精密微型鑽頭"
+        },
+        {
+          "market": "上櫃",
+          "code": "3260",
+          "name": "威剛",
+          "industry": "半導體業",
+          "currentRevenue": 17063103,
+          "momPct": 8.476362906075854,
+          "yoyPct": 282.34177827851113,
+          "ytdYoyPct": 222.72744467462002,
+          "remark": "記憶體售價上漲",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 18925261,
+          "publicIssueDate": "92/03/26",
+          "businessDescription": "電子零組件製造業\n電子材料批發業\n製造輸出業"
+        },
+        {
+          "market": "上櫃",
+          "code": "3693",
+          "name": "營邦",
+          "industry": "電腦及週邊設備業",
+          "currentRevenue": 1973133,
+          "momPct": 28.367333528939906,
+          "yoyPct": 231.86998570347322,
+          "ytdYoyPct": 55.43319104476279,
+          "remark": "主要係受惠於伺服器相關應用需求持續成長，帶動市場需求增加，客戶訂單量隨之增加。",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：1,973,133 千元",
+          "previousHighRevenue": 1537099,
+          "publicIssueDate": "98/09/28",
+          "businessDescription": "產業用電腦及伺服器用機箱類\n存儲平台類\n系統平台類"
+        },
+        {
+          "market": "上櫃",
+          "code": "7828",
+          "name": "創新服務",
+          "industry": "半導體業",
+          "currentRevenue": 285684,
+          "momPct": 82.93493503749191,
+          "yoyPct": 224.6261533566656,
+          "ytdYoyPct": 202.53033301046437,
+          "remark": "本月及累計營收成長顯著,主係終端需求強勁帶動設備出貨量提升。目前訂單能見度良好,後續將依時程持續交付,營運動能維持成長趨勢",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：285,684 千元",
+          "previousHighRevenue": 183348,
+          "publicIssueDate": "114/04/10",
+          "businessDescription": "半導體自動化設備開發、製造及銷售業務"
+        },
+        {
+          "market": "上市",
           "code": "6672",
           "name": "騰輝電子-KY",
           "industry": "電子零組件業",
@@ -816,6 +1584,22 @@ window.twRevenueHistory = {
           "previousHighRevenue": 1020897,
           "publicIssueDate": "106/12/27",
           "businessDescription": "生產與銷售印刷電路板所需使用之黏合片、銅箔基板和鋁基板"
+        },
+        {
+          "market": "上市",
+          "code": "2059",
+          "name": "川湖",
+          "industry": "電子零組件業",
+          "currentRevenue": 4561731,
+          "momPct": 2.1803188025785363,
+          "yoyPct": 191.0633435081773,
+          "ytdYoyPct": 170.4137539237435,
+          "remark": "新產品開始出貨，導致年對年營收增幅較大。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 6466169,
+          "publicIssueDate": "89/07/18",
+          "businessDescription": "研發、設計、製造和銷售伺服器等用導軌及其週邊零組件生產及買賣\n鉸鏈(筆記型電腦鉸鏈)及其零組件之製造生產及買賣\n滑軌之製造生產及買賣"
         },
         {
           "market": "上櫃",
@@ -848,6 +1632,22 @@ window.twRevenueHistory = {
           "previousHighRevenue": 540492,
           "publicIssueDate": "103/03/20",
           "businessDescription": "有線通信機械器材製造業、電子零組件製造業、國際貿易業\n研發、設計、生產及銷售下列產品:\n1.雷射磊晶片 2.檢光器磊晶片 3.兼營前述產品相關之國際貿易業"
+        },
+        {
+          "market": "上市",
+          "code": "6834",
+          "name": "天二科技",
+          "industry": "電子零組件業",
+          "currentRevenue": 287016,
+          "momPct": 5.355196070874032,
+          "yoyPct": 179.6009819584616,
+          "ytdYoyPct": 71.34645999858674,
+          "remark": "主係市場終端需求增加",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：287,016 千元",
+          "previousHighRevenue": 272427,
+          "publicIssueDate": "110/04/01",
+          "businessDescription": "專業晶片電阻之製造與銷售業務"
         },
         {
           "market": "上櫃",
@@ -930,6 +1730,86 @@ window.twRevenueHistory = {
           "businessDescription": "一、研究、開發、生產、製造及銷售：各種應用積體電路1.嵌入式記\n憶體及邏輯元件。2.設計用元件資料庫。3.設計用自動化工具\n二、提供前述產品相關及客戶委託之技術服務。"
         },
         {
+          "market": "上市",
+          "code": "3715",
+          "name": "定穎投控",
+          "industry": "電子零組件業",
+          "currentRevenue": 3787055,
+          "momPct": 17.37434278141229,
+          "yoyPct": 121.47129190100547,
+          "ytdYoyPct": 58.89467218155531,
+          "remark": "客戶需求增加和產品組合優化",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：3,787,055 千元",
+          "previousHighRevenue": 3226476,
+          "publicIssueDate": "111/08/25",
+          "businessDescription": "一般投資業"
+        },
+        {
+          "market": "上市",
+          "code": "3231",
+          "name": "緯創",
+          "industry": "電腦及週邊設備業",
+          "currentRevenue": 402614772,
+          "momPct": 5.726956607488564,
+          "yoyPct": 117.5572069759596,
+          "ytdYoyPct": 99.52528249578863,
+          "remark": "主係客戶需求增加，較去年同期成長。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 460065063,
+          "publicIssueDate": "91/12/03",
+          "businessDescription": "3C電子產品\n其他"
+        },
+        {
+          "market": "上市",
+          "code": "6924",
+          "name": "榮惠-KY創",
+          "industry": "電子零組件業",
+          "currentRevenue": 304352,
+          "momPct": 4.1366992629900565,
+          "yoyPct": 116.36039212619696,
+          "ytdYoyPct": 42.9195289917889,
+          "remark": "因AI營收增加所致",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：304,352 千元",
+          "previousHighRevenue": 292262,
+          "publicIssueDate": "113/10/16",
+          "businessDescription": "印刷電路板\n工業電腦及工控領域相關電子產品"
+        },
+        {
+          "market": "上櫃",
+          "code": "8227",
+          "name": "巨有科技",
+          "industry": "半導體業",
+          "currentRevenue": 181464,
+          "momPct": 16.317111942977284,
+          "yoyPct": 111.76800093359785,
+          "ytdYoyPct": 56.938413007122705,
+          "remark": "主要係本期量產收入增加所致。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 272523,
+          "publicIssueDate": "89/04/15",
+          "businessDescription": "特殊應用積體電路設計 ( ASIC )\n系統單晶片設計服務 ( SoC Design Service )\n系統單晶片設計用矽智財及自動化軟體工具 ( IP & EDA Tools)"
+        },
+        {
+          "market": "上櫃",
+          "code": "4558",
+          "name": "寶緯",
+          "industry": "電機機械",
+          "currentRevenue": 201562,
+          "momPct": 45.27095690779753,
+          "yoyPct": 109.77904520050373,
+          "ytdYoyPct": 20.674027531526985,
+          "remark": "本月較去年同期增加109.78%，係市場需求增加所致。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 252973,
+          "publicIssueDate": "103/08/27",
+          "businessDescription": "工業鋁擠型\n鋁門窗及建材\n其他"
+        },
+        {
           "market": "上櫃",
           "code": "4931",
           "name": "新盛力",
@@ -979,6 +1859,22 @@ window.twRevenueHistory = {
         },
         {
           "market": "上市",
+          "code": "6658",
+          "name": "聯策",
+          "industry": "其他電子業",
+          "currentRevenue": 267078,
+          "momPct": 35.83184148425421,
+          "yoyPct": 91.10033057141631,
+          "ytdYoyPct": 27.530622030425874,
+          "remark": "配合客戶訂單時程交貨，故本月營收較去年本月上升。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 306923,
+          "publicIssueDate": "106/08/21",
+          "businessDescription": "視覺與自動化設備\n特用材料及其他"
+        },
+        {
+          "market": "上市",
           "code": "4927",
           "name": "泰鼎-KY",
           "industry": "電子零組件業",
@@ -1011,6 +1907,22 @@ window.twRevenueHistory = {
         },
         {
           "market": "上市",
+          "code": "3653",
+          "name": "健策",
+          "industry": "電子零組件業",
+          "currentRevenue": 3073255,
+          "momPct": 0.6249821964548763,
+          "yoyPct": 80.6841558493479,
+          "ytdYoyPct": 50.53909493401264,
+          "remark": "因客戶端需求成長，致本月及本年較去年增加百分比達50%以上。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 3225888,
+          "publicIssueDate": "97/10/21",
+          "businessDescription": "各種機械及零件、精密模具之製造加工買賣\n各種精密沖件產品及精密塑膠崁入射出之製造與販賣\n金屬零件表面處理加工及機械加工自動車床及CNC車床加工"
+        },
+        {
+          "market": "上市",
           "code": "3665",
           "name": "貿聯-KY",
           "industry": "其他電子業",
@@ -1024,6 +1936,22 @@ window.twRevenueHistory = {
           "previousHighRevenue": 9630165,
           "publicIssueDate": "100/01/17",
           "businessDescription": "電腦週邊零組件之研發、生產及銷售\n汽車、醫療、通訊及太陽能設備相關接線組之研發、生產及銷售\n連接器、線材、光電子元件等產品之研發、生產及銷售"
+        },
+        {
+          "market": "上市",
+          "code": "6285",
+          "name": "啟碁",
+          "industry": "通信網路業",
+          "currentRevenue": 16858476,
+          "momPct": 4.8451873107943895,
+          "yoyPct": 77.78424111325353,
+          "ytdYoyPct": 44.685202151236595,
+          "remark": "客戶需求增加",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 16912812,
+          "publicIssueDate": "91/04/24",
+          "businessDescription": "網路通訊系列產品與相關之進出口貿易業務"
         },
         {
           "market": "上櫃",
@@ -1040,6 +1968,22 @@ window.twRevenueHistory = {
           "previousHighRevenue": 1491945,
           "publicIssueDate": "103/09/19",
           "businessDescription": "電信暨寬頻網路系統服務、無線傳輸服務、數位媒體系統服務\n雲端資訊系統服務、地理資訊系統服務"
+        },
+        {
+          "market": "上市",
+          "code": "6196",
+          "name": "帆宣",
+          "industry": "其他電子業",
+          "currentRevenue": 7333912,
+          "momPct": 2.224290087414386,
+          "yoyPct": 77.14314008944217,
+          "ytdYoyPct": 57.69144571870487,
+          "remark": "115年10月單月及累計合併營收較去年同期增加，主要係銷貨收入及工程收入增加所致。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 7595991,
+          "publicIssueDate": "89/12/11",
+          "businessDescription": "高科技設備材料銷售與服務業務\n客製化設備研發製造業務\n廠務自動化暨整合系統業務"
         },
         {
           "market": "上櫃",
@@ -1075,6 +2019,22 @@ window.twRevenueHistory = {
         },
         {
           "market": "上櫃",
+          "code": "8069",
+          "name": "元太",
+          "industry": "光電業",
+          "currentRevenue": 3747462,
+          "momPct": 3.7131195451465917,
+          "yoyPct": 74.41875726946121,
+          "ytdYoyPct": 4.109995590842187,
+          "remark": "受惠於 IoT 應用需求增加，帶動相關產品出貨量提升及大尺寸產品出貨亦較去年同期增加，推升本月營收成長",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 4066430,
+          "publicIssueDate": "89/10/27",
+          "businessDescription": "電子紙顯示器"
+        },
+        {
+          "market": "上櫃",
           "code": "6510",
           "name": "精測",
           "industry": "半導體業",
@@ -1107,6 +2067,38 @@ window.twRevenueHistory = {
         },
         {
           "market": "上櫃",
+          "code": "6175",
+          "name": "立敦",
+          "industry": "電子零組件業",
+          "currentRevenue": 507262,
+          "momPct": 6.066726886468945,
+          "yoyPct": 71.02735361450048,
+          "ytdYoyPct": 30.028374831112565,
+          "remark": "因整體產業趨勢向上，銷售單價及數量大幅成長所致",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：507,262 千元",
+          "previousHighRevenue": 485614,
+          "publicIssueDate": "89/04/25",
+          "businessDescription": "生產及銷售化成鋁箔\n生產及銷售電蝕鋁箔"
+        },
+        {
+          "market": "上櫃",
+          "code": "3363",
+          "name": "上詮",
+          "industry": "通信網路業",
+          "currentRevenue": 228769,
+          "momPct": 2.0119773295816854,
+          "yoyPct": 70.35191969737586,
+          "ytdYoyPct": 0.24432715871237876,
+          "remark": "客戶需求較去年同期增加",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 247012,
+          "publicIssueDate": "92/10/31",
+          "businessDescription": "光纖被動元件之設計、生產與銷售服務\n光纖模組及整合系統之設計、生產與銷售服務\n光纖相關之生產測試儀器設備之設計、生產與銷售服務"
+        },
+        {
+          "market": "上櫃",
           "code": "4561",
           "name": "健椿",
           "industry": "電機機械",
@@ -1123,6 +2115,70 @@ window.twRevenueHistory = {
         },
         {
           "market": "上櫃",
+          "code": "6708",
+          "name": "天擎",
+          "industry": "半導體業",
+          "currentRevenue": 34075,
+          "momPct": 8.879729038854805,
+          "yoyPct": 67.80754456810794,
+          "ytdYoyPct": 8.732732032781563,
+          "remark": "因之前記憶體缺貨造成部分訂單延後至本月交貨,故業績增加。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 42764,
+          "publicIssueDate": "107/08/29",
+          "businessDescription": "各種積體電路及模組之設計、製造、測試及銷售\n各種積體電路應用軟體之研究、開發及銷售\n各類標案的無線系統整合及雲端服務業務"
+        },
+        {
+          "market": "上櫃",
+          "code": "6423",
+          "name": "億而得",
+          "industry": "半導體業",
+          "currentRevenue": 55163,
+          "momPct": 1073.1816248404934,
+          "yoyPct": 63.155871044069805,
+          "ytdYoyPct": 26.229827039292413,
+          "remark": "本公司115年10月營業收入較去年同期增加，主要係因115年10月權利金收入增加所致。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 77086,
+          "publicIssueDate": "102/04/22",
+          "businessDescription": "單次及可複寫嵌入式非揮發記憶體IP授權及技術服務"
+        },
+        {
+          "market": "上櫃",
+          "code": "6922",
+          "name": "宸曜",
+          "industry": "電腦及週邊設備業",
+          "currentRevenue": 262206,
+          "momPct": 6.312947015034301,
+          "yoyPct": 62.33655274888559,
+          "ytdYoyPct": 50.928272103264725,
+          "remark": "本月較去年同期增加，主要係因出貨量增加所致。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 283197,
+          "publicIssueDate": "111/10/12",
+          "businessDescription": "工業電腦及其週邊設備"
+        },
+        {
+          "market": "上市",
+          "code": "4566",
+          "name": "時碩工業",
+          "industry": "電機機械",
+          "currentRevenue": 675149,
+          "momPct": 1.1924585539716395,
+          "yoyPct": 61.70032883785875,
+          "ytdYoyPct": 27.24080387252237,
+          "remark": "本月營收較去年同期增加，主係多元產品布局有成，尤以散熱系統產品銷售開始發酵所致。",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：675,149 千元",
+          "previousHighRevenue": 667193,
+          "publicIssueDate": "105/12/05",
+          "businessDescription": "工業產品精密金屬零件製造販售\n汽車產品精密金屬零件製造販售\n航太產品精密金屬零件製造販售"
+        },
+        {
+          "market": "上櫃",
           "code": "6913",
           "name": "鴻呈",
           "industry": "電子零組件業",
@@ -1136,6 +2192,22 @@ window.twRevenueHistory = {
           "previousHighRevenue": 372741,
           "publicIssueDate": "111/09/28",
           "businessDescription": "雲端伺服器（包括通用型及AI伺服器）\n智能物聯/工業控制\n車載連接線組及光學材料"
+        },
+        {
+          "market": "上櫃",
+          "code": "8446",
+          "name": "華研",
+          "industry": "文化創意業",
+          "currentRevenue": 183362,
+          "momPct": 61.83474254646873,
+          "yoyPct": 57.82307069941987,
+          "ytdYoyPct": 29.64896322644293,
+          "remark": "主要係本月演藝經紀收入較去年同期增加所致",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 266781,
+          "publicIssueDate": "101/09/27",
+          "businessDescription": "流行音樂之製作及發行\n著作權授權\n藝人演藝經紀"
         },
         {
           "market": "上櫃",
@@ -1234,6 +2306,22 @@ window.twRevenueHistory = {
           "businessDescription": "自動化設備及系統零組件之製造加工及買賣業務"
         },
         {
+          "market": "上市",
+          "code": "3617",
+          "name": "碩天",
+          "industry": "其他電子業",
+          "currentRevenue": 1329275,
+          "momPct": 2.3940144631473212,
+          "yoyPct": 51.71081614718269,
+          "ytdYoyPct": 14.155545179739978,
+          "remark": "因2026.10美洲市場較去年度同月份需求增加",
+          "allTimeHigh": true,
+          "allTimeHighNote": "創歷史新高：1,329,275 千元",
+          "previousHighRevenue": 1327602,
+          "publicIssueDate": "97/01/15",
+          "businessDescription": "不斷電電源供應系統之設計製造及銷售業務\n電源保護與電源管理系統之設計製造及銷售業務\n電力電子相關設備之設計製造及銷售業務"
+        },
+        {
           "market": "上櫃",
           "code": "6548",
           "name": "長科*",
@@ -1266,6 +2354,38 @@ window.twRevenueHistory = {
           "businessDescription": "製造批發及銷售水解黃豆胜月太蛋白"
         },
         {
+          "market": "上櫃",
+          "code": "3324",
+          "name": "雙鴻",
+          "industry": "其他電子業",
+          "currentRevenue": 3372007,
+          "momPct": 16.91871288436687,
+          "yoyPct": 44.74959702431161,
+          "ytdYoyPct": 68.81643921026671,
+          "remark": "成長動能來自 AI 伺服器液冷散熱系統市佔率持續攀升。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 3765466,
+          "publicIssueDate": "92/08/26",
+          "businessDescription": "散熱模組"
+        },
+        {
+          "market": "上市",
+          "code": "6579",
+          "name": "研揚",
+          "industry": "電腦及週邊設備業",
+          "currentRevenue": 987407,
+          "momPct": 1.3350807370294273,
+          "yoyPct": 41.230241994888054,
+          "ytdYoyPct": 28.639131480983455,
+          "remark": "自115年5月起新增合併子公司AAEON Technology 株式&#20250;社。",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 1089075,
+          "publicIssueDate": "105/04/29",
+          "businessDescription": "工業系統產品\n單板電腦及週邊裝置"
+        },
+        {
           "market": "上市",
           "code": "7822",
           "name": "倍利科",
@@ -1280,11 +2400,27 @@ window.twRevenueHistory = {
           "previousHighRevenue": 311736,
           "publicIssueDate": "114/03/19",
           "businessDescription": "高階自動光學檢量測設備產品之研發、製造及銷售"
+        },
+        {
+          "market": "上櫃",
+          "code": "8032",
+          "name": "光菱",
+          "industry": "電子通路業",
+          "currentRevenue": 380209,
+          "momPct": 5.057390593137445,
+          "yoyPct": 32.212118577762325,
+          "ytdYoyPct": 43.52683062825004,
+          "remark": "註：本月(年)新台幣(累計)營業收入淨額=本月(年)功能性貨幣(累計)營業收入淨額x本月(年累計)換算匯率",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 489834,
+          "publicIssueDate": "89/06/29",
+          "businessDescription": "電腦及電腦週邊設備之製造及進出口\n電子零件、組件之製造及進出口\n電視機、錄影機、收錄音機等電器用品及其零組件之進出口"
         }
       ]
     },
     {
-      "generatedAt": "2026-11-05T21:45:51+08:00",
+      "generatedAt": "2026-11-06T22:12:39+08:00",
       "period": "115/9",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -1307,8 +2443,8 @@ window.twRevenueHistory = {
       "stats": {
         "selected": 199,
         "stories": 130,
-        "highs": 65,
-        "storyHighs": 45
+        "highs": 56,
+        "storyHighs": 39
       },
       "selected": [
         {
@@ -1385,9 +2521,9 @@ window.twRevenueHistory = {
           "yoyPct": 370.2636479978291,
           "ytdYoyPct": 290.9151676272419,
           "remark": "係總出貨量及均價增加",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：30,638,984 千元",
-          "previousHighRevenue": 28275661,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 31530384,
           "publicIssueDate": "92/05/16",
           "businessDescription": "IC設計業\n半導體業\n電腦及週邊設備業"
         },
@@ -1483,7 +2619,7 @@ window.twRevenueHistory = {
           "remark": "本月營收較去年同期增加係因市場價格上漲所致",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：1,306,151 千元",
-          "previousHighRevenue": 1008161,
+          "previousHighRevenue": 1018343,
           "publicIssueDate": "99/09/10",
           "businessDescription": "快閃記憶體相關產品之製造及買賣\n記憶體模組之製造及買賣"
         },
@@ -1705,9 +2841,9 @@ window.twRevenueHistory = {
           "yoyPct": 141.52087861233463,
           "ytdYoyPct": 34.7637750208219,
           "remark": "客戶需求增加，故營收上升",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：292,262 千元",
-          "previousHighRevenue": 242632,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 304352,
           "publicIssueDate": "113/10/16",
           "businessDescription": "印刷電路板\n工業電腦及工控領域相關電子產品"
         },
@@ -1737,9 +2873,9 @@ window.twRevenueHistory = {
           "yoyPct": 138.93225766337127,
           "ytdYoyPct": 37.66049775843178,
           "remark": "主要係受惠於伺服器相關應用需求持續成長，帶動市場需求增加，客戶訂單量隨之提升。",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：1,537,099 千元",
-          "previousHighRevenue": 1266730,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 1973133,
           "publicIssueDate": "98/09/28",
           "businessDescription": "產業用電腦及伺服器用機箱類\n存儲平台類\n系統平台類"
         },
@@ -1785,9 +2921,9 @@ window.twRevenueHistory = {
           "yoyPct": 132.39865556541324,
           "ytdYoyPct": 61.246616653427154,
           "remark": "主係市場終端需求增加",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：272,427 千元",
-          "previousHighRevenue": 255202,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 287016,
           "publicIssueDate": "110/04/01",
           "businessDescription": "專業晶片電阻之製造與銷售業務"
         },
@@ -2043,7 +3179,7 @@ window.twRevenueHistory = {
           "remark": "主要係客戶需求強勁",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：172,620,352 千元",
-          "previousHighRevenue": 144311808,
+          "previousHighRevenue": 165131828,
           "publicIssueDate": "106/10/12",
           "businessDescription": "資料中心產品"
         },
@@ -2361,9 +3497,9 @@ window.twRevenueHistory = {
           "yoyPct": 84.69522628124143,
           "ytdYoyPct": 51.25937713911443,
           "remark": "係產品組合優化及受惠於漲價效應",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：3,226,476 千元",
-          "previousHighRevenue": 2932061,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 3787055,
           "publicIssueDate": "111/08/25",
           "businessDescription": "一般投資業"
         },
@@ -2667,7 +3803,7 @@ window.twRevenueHistory = {
           "remark": "主係市場需求增加",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：380,218 千元",
-          "previousHighRevenue": 367119,
+          "previousHighRevenue": 370645,
           "publicIssueDate": "97/03/28",
           "businessDescription": "電子零組件製造業\n表面處理業\n電子材料批發業"
         },
@@ -2859,7 +3995,7 @@ window.twRevenueHistory = {
           "remark": "受惠客戶需求持續上升及新產品訂單挹注下，致營收較去年同期增加61.99%。",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：86,004 千元",
-          "previousHighRevenue": 77981,
+          "previousHighRevenue": 82285,
           "publicIssueDate": "108/08/01",
           "businessDescription": "半導體製程設備之精密零組件與材料、製程次系統之維修"
         },
@@ -3513,9 +4649,9 @@ window.twRevenueHistory = {
           "yoyPct": 44.558001473328424,
           "ytdYoyPct": 23.41402383851473,
           "remark": "-",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：667,193 千元",
-          "previousHighRevenue": 595992,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 675149,
           "publicIssueDate": "105/12/05",
           "businessDescription": "工業產品精密金屬零件製造販售\n汽車產品精密金屬零件製造販售\n航太產品精密金屬零件製造販售"
         },
@@ -3529,9 +4665,9 @@ window.twRevenueHistory = {
           "yoyPct": 44.468538291045796,
           "ytdYoyPct": 33.64196585677376,
           "remark": "-",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：5,181,276 千元",
-          "previousHighRevenue": 4809631,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 5367564,
           "publicIssueDate": "91/06/10",
           "businessDescription": "電子零組件製造業\n電子材料批發業\n電子材料零售業"
         },
@@ -3545,9 +4681,9 @@ window.twRevenueHistory = {
           "yoyPct": 43.673528873288014,
           "ytdYoyPct": 25.618599762816096,
           "remark": "-",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：2,770,165 千元",
-          "previousHighRevenue": 2666400,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 3049008,
           "publicIssueDate": "99/05/11",
           "businessDescription": "扣件買賣"
         },
@@ -3659,7 +4795,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：15,089,037 千元",
-          "previousHighRevenue": 13850848,
+          "previousHighRevenue": 13924909,
           "publicIssueDate": "89/10/02",
           "businessDescription": "代理銷售半導體零組件及相關研發業務"
         },
@@ -4249,9 +5385,9 @@ window.twRevenueHistory = {
           "yoyPct": 30.322636084685257,
           "ytdYoyPct": 146.194745797913,
           "remark": "合併弘潔科技營業收入",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：363,982 千元",
-          "previousHighRevenue": 324218,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 364951,
           "publicIssueDate": "111/03/18",
           "businessDescription": "半導體特氣及精密化學材料之製造與買賣"
         },
@@ -4571,9 +5707,9 @@ window.twRevenueHistory = {
           "yoyPct": 370.2636479978291,
           "ytdYoyPct": 290.9151676272419,
           "remark": "係總出貨量及均價增加",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：30,638,984 千元",
-          "previousHighRevenue": 28275661,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 31530384,
           "publicIssueDate": "92/05/16",
           "businessDescription": "IC設計業\n半導體業\n電腦及週邊設備業"
         },
@@ -4669,7 +5805,7 @@ window.twRevenueHistory = {
           "remark": "本月營收較去年同期增加係因市場價格上漲所致",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：1,306,151 千元",
-          "previousHighRevenue": 1008161,
+          "previousHighRevenue": 1018343,
           "publicIssueDate": "99/09/10",
           "businessDescription": "快閃記憶體相關產品之製造及買賣\n記憶體模組之製造及買賣"
         },
@@ -4891,9 +6027,9 @@ window.twRevenueHistory = {
           "yoyPct": 141.52087861233463,
           "ytdYoyPct": 34.7637750208219,
           "remark": "客戶需求增加，故營收上升",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：292,262 千元",
-          "previousHighRevenue": 242632,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 304352,
           "publicIssueDate": "113/10/16",
           "businessDescription": "印刷電路板\n工業電腦及工控領域相關電子產品"
         },
@@ -4923,9 +6059,9 @@ window.twRevenueHistory = {
           "yoyPct": 138.93225766337127,
           "ytdYoyPct": 37.66049775843178,
           "remark": "主要係受惠於伺服器相關應用需求持續成長，帶動市場需求增加，客戶訂單量隨之提升。",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：1,537,099 千元",
-          "previousHighRevenue": 1266730,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 1973133,
           "publicIssueDate": "98/09/28",
           "businessDescription": "產業用電腦及伺服器用機箱類\n存儲平台類\n系統平台類"
         },
@@ -4971,9 +6107,9 @@ window.twRevenueHistory = {
           "yoyPct": 132.39865556541324,
           "ytdYoyPct": 61.246616653427154,
           "remark": "主係市場終端需求增加",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：272,427 千元",
-          "previousHighRevenue": 255202,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 287016,
           "publicIssueDate": "110/04/01",
           "businessDescription": "專業晶片電阻之製造與銷售業務"
         },
@@ -5229,7 +6365,7 @@ window.twRevenueHistory = {
           "remark": "主要係客戶需求強勁",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：172,620,352 千元",
-          "previousHighRevenue": 144311808,
+          "previousHighRevenue": 165131828,
           "publicIssueDate": "106/10/12",
           "businessDescription": "資料中心產品"
         },
@@ -5547,9 +6683,9 @@ window.twRevenueHistory = {
           "yoyPct": 84.69522628124143,
           "ytdYoyPct": 51.25937713911443,
           "remark": "係產品組合優化及受惠於漲價效應",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：3,226,476 千元",
-          "previousHighRevenue": 2932061,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 3787055,
           "publicIssueDate": "111/08/25",
           "businessDescription": "一般投資業"
         },
@@ -5853,7 +6989,7 @@ window.twRevenueHistory = {
           "remark": "主係市場需求增加",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：380,218 千元",
-          "previousHighRevenue": 367119,
+          "previousHighRevenue": 370645,
           "publicIssueDate": "97/03/28",
           "businessDescription": "電子零組件製造業\n表面處理業\n電子材料批發業"
         },
@@ -6045,7 +7181,7 @@ window.twRevenueHistory = {
           "remark": "受惠客戶需求持續上升及新產品訂單挹注下，致營收較去年同期增加61.99%。",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：86,004 千元",
-          "previousHighRevenue": 77981,
+          "previousHighRevenue": 82285,
           "publicIssueDate": "108/08/01",
           "businessDescription": "半導體製程設備之精密零組件與材料、製程次系統之維修"
         },
@@ -6523,9 +7659,9 @@ window.twRevenueHistory = {
           "yoyPct": 30.322636084685257,
           "ytdYoyPct": 146.194745797913,
           "remark": "合併弘潔科技營業收入",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：363,982 千元",
-          "previousHighRevenue": 324218,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 364951,
           "publicIssueDate": "111/03/18",
           "businessDescription": "半導體特氣及精密化學材料之製造與買賣"
         },
@@ -6580,7 +7716,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-11-05T21:45:54+08:00",
+      "generatedAt": "2026-11-06T22:12:42+08:00",
       "period": "115/8",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -6603,7 +7739,7 @@ window.twRevenueHistory = {
       "stats": {
         "selected": 205,
         "stories": 141,
-        "highs": 31,
+        "highs": 30,
         "storyHighs": 23
       },
       "selected": [
@@ -6747,7 +7883,7 @@ window.twRevenueHistory = {
           "remark": "係總出貨量及均價增加",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 30638984,
+          "previousHighRevenue": 31530384,
           "publicIssueDate": "92/05/16",
           "businessDescription": "IC設計業\n半導體業\n電腦及週邊設備業"
         },
@@ -6923,7 +8059,7 @@ window.twRevenueHistory = {
           "remark": "本月及累計營收成長顯著,主係終端需求強勁帶動設備出貨量提升。目前訂單能見度良好,後續將依時程持續交付,營運動能維持成長趨勢",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 183348,
+          "previousHighRevenue": 285684,
           "publicIssueDate": "114/04/10",
           "businessDescription": "半導體自動化設備開發、製造及銷售業務"
         },
@@ -7003,7 +8139,7 @@ window.twRevenueHistory = {
           "remark": "營收成長",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 1537099,
+          "previousHighRevenue": 1973133,
           "publicIssueDate": "98/09/28",
           "businessDescription": "產業用電腦及伺服器用機箱類\n存儲平台類\n系統平台類"
         },
@@ -7035,7 +8171,7 @@ window.twRevenueHistory = {
           "remark": "主係客戶需求增加，較去年同期成長。",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：460,065,063 千元",
-          "previousHighRevenue": 380806168,
+          "previousHighRevenue": 402614772,
           "publicIssueDate": "91/12/03",
           "businessDescription": "3C電子產品\n其他"
         },
@@ -7291,7 +8427,7 @@ window.twRevenueHistory = {
           "remark": "主係市場終端需求增加",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 272427,
+          "previousHighRevenue": 287016,
           "publicIssueDate": "110/04/01",
           "businessDescription": "專業晶片電阻之製造與銷售業務"
         },
@@ -7899,7 +9035,7 @@ window.twRevenueHistory = {
           "remark": "客戶需求增加，故營收上升",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 292262,
+          "previousHighRevenue": 304352,
           "publicIssueDate": "113/10/16",
           "businessDescription": "印刷電路板\n工業電腦及工控領域相關電子產品"
         },
@@ -7915,7 +9051,7 @@ window.twRevenueHistory = {
           "remark": "係產品組合優化及受惠於漲價效應",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 3226476,
+          "previousHighRevenue": 3787055,
           "publicIssueDate": "111/08/25",
           "businessDescription": "一般投資業"
         },
@@ -8203,7 +9339,7 @@ window.twRevenueHistory = {
           "remark": "因整體產業趨勢向上，銷售單價及數量大幅成長所致",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 485614,
+          "previousHighRevenue": 507262,
           "publicIssueDate": "89/04/25",
           "businessDescription": "生產及銷售化成鋁箔\n生產及銷售電蝕鋁箔"
         },
@@ -8603,7 +9739,7 @@ window.twRevenueHistory = {
           "remark": "本月營收較去年同期增加，主係多元產品布局有成，尤以散熱系統產品銷售開始發酵所致。",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 667193,
+          "previousHighRevenue": 675149,
           "publicIssueDate": "105/12/05",
           "businessDescription": "工業產品精密金屬零件製造販售\n汽車產品精密金屬零件製造販售\n航太產品精密金屬零件製造販售"
         },
@@ -8921,9 +10057,9 @@ window.twRevenueHistory = {
           "yoyPct": 46.57297818291717,
           "ytdYoyPct": 33.89207749845497,
           "remark": "-",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：1,794,449 千元",
-          "previousHighRevenue": 1775771,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 1857240,
           "publicIssueDate": "92/04/14",
           "businessDescription": "記憶體IC之晶圓測試\n數位訊號IC及混合訊號IC之晶圓及成品測試\n晶圓型式之Burn in 之測試"
         },
@@ -9163,7 +10299,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 5181276,
+          "previousHighRevenue": 5367564,
           "publicIssueDate": "91/06/10",
           "businessDescription": "電子零組件製造業\n電子材料批發業\n電子材料零售業"
         },
@@ -9595,7 +10731,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 111469,
+          "previousHighRevenue": 124023,
           "publicIssueDate": "102/05/30",
           "businessDescription": "砷化鎵假型高電子遷移率電晶體磊晶片 (GaAs pHEMT epi wafers)\n磷化銦異質接面雙極電晶體磊晶片 (InP HBT epi wafers)\n銻化鎵紅外線磊晶片 (GaSb infrared epi wafers)"
         },
@@ -10029,7 +11165,7 @@ window.twRevenueHistory = {
           "remark": "係總出貨量及均價增加",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 30638984,
+          "previousHighRevenue": 31530384,
           "publicIssueDate": "92/05/16",
           "businessDescription": "IC設計業\n半導體業\n電腦及週邊設備業"
         },
@@ -10205,7 +11341,7 @@ window.twRevenueHistory = {
           "remark": "本月及累計營收成長顯著,主係終端需求強勁帶動設備出貨量提升。目前訂單能見度良好,後續將依時程持續交付,營運動能維持成長趨勢",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 183348,
+          "previousHighRevenue": 285684,
           "publicIssueDate": "114/04/10",
           "businessDescription": "半導體自動化設備開發、製造及銷售業務"
         },
@@ -10285,7 +11421,7 @@ window.twRevenueHistory = {
           "remark": "營收成長",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 1537099,
+          "previousHighRevenue": 1973133,
           "publicIssueDate": "98/09/28",
           "businessDescription": "產業用電腦及伺服器用機箱類\n存儲平台類\n系統平台類"
         },
@@ -10317,7 +11453,7 @@ window.twRevenueHistory = {
           "remark": "主係客戶需求增加，較去年同期成長。",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：460,065,063 千元",
-          "previousHighRevenue": 380806168,
+          "previousHighRevenue": 402614772,
           "publicIssueDate": "91/12/03",
           "businessDescription": "3C電子產品\n其他"
         },
@@ -10573,7 +11709,7 @@ window.twRevenueHistory = {
           "remark": "主係市場終端需求增加",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 272427,
+          "previousHighRevenue": 287016,
           "publicIssueDate": "110/04/01",
           "businessDescription": "專業晶片電阻之製造與銷售業務"
         },
@@ -11181,7 +12317,7 @@ window.twRevenueHistory = {
           "remark": "客戶需求增加，故營收上升",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 292262,
+          "previousHighRevenue": 304352,
           "publicIssueDate": "113/10/16",
           "businessDescription": "印刷電路板\n工業電腦及工控領域相關電子產品"
         },
@@ -11197,7 +12333,7 @@ window.twRevenueHistory = {
           "remark": "係產品組合優化及受惠於漲價效應",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 3226476,
+          "previousHighRevenue": 3787055,
           "publicIssueDate": "111/08/25",
           "businessDescription": "一般投資業"
         },
@@ -11485,7 +12621,7 @@ window.twRevenueHistory = {
           "remark": "因整體產業趨勢向上，銷售單價及數量大幅成長所致",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 485614,
+          "previousHighRevenue": 507262,
           "publicIssueDate": "89/04/25",
           "businessDescription": "生產及銷售化成鋁箔\n生產及銷售電蝕鋁箔"
         },
@@ -11885,7 +13021,7 @@ window.twRevenueHistory = {
           "remark": "本月營收較去年同期增加，主係多元產品布局有成，尤以散熱系統產品銷售開始發酵所致。",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 667193,
+          "previousHighRevenue": 675149,
           "publicIssueDate": "105/12/05",
           "businessDescription": "工業產品精密金屬零件製造販售\n汽車產品精密金屬零件製造販售\n航太產品精密金屬零件製造販售"
         },
@@ -12148,7 +13284,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-11-05T21:45:57+08:00",
+      "generatedAt": "2026-11-06T22:12:46+08:00",
       "period": "115/7",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -12171,7 +13307,7 @@ window.twRevenueHistory = {
       "stats": {
         "selected": 263,
         "stories": 158,
-        "highs": 40,
+        "highs": 39,
         "storyHighs": 25
       },
       "selected": [
@@ -12363,7 +13499,7 @@ window.twRevenueHistory = {
           "remark": "本月及累計營收成長顯著,主係終端需求強勁帶動設備出貨量提升。目前訂單能見度良好,後續將依時程持續交付,營運動能維持成長趨勢",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 183348,
+          "previousHighRevenue": 285684,
           "publicIssueDate": "114/04/10",
           "businessDescription": "半導體自動化設備開發、製造及銷售業務"
         },
@@ -12379,7 +13515,7 @@ window.twRevenueHistory = {
           "remark": "係總出貨量及均價增加",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 30638984,
+          "previousHighRevenue": 31530384,
           "publicIssueDate": "92/05/16",
           "businessDescription": "IC設計業\n半導體業\n電腦及週邊設備業"
         },
@@ -12507,7 +13643,7 @@ window.twRevenueHistory = {
           "remark": "合併弘潔科技營業收入",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 363982,
+          "previousHighRevenue": 364951,
           "publicIssueDate": "111/03/18",
           "businessDescription": "半導體特氣及精密化學材料之製造與買賣"
         },
@@ -12827,7 +13963,7 @@ window.twRevenueHistory = {
           "remark": "營收成長",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 1537099,
+          "previousHighRevenue": 1973133,
           "publicIssueDate": "98/09/28",
           "businessDescription": "產業用電腦及伺服器用機箱類\n存儲平台類\n系統平台類"
         },
@@ -13003,7 +14139,7 @@ window.twRevenueHistory = {
           "remark": "成長動能來自AI伺服器液冷散熱系統市佔率持續攀升。",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：3,765,466 千元",
-          "previousHighRevenue": 3329237,
+          "previousHighRevenue": 3372007,
           "publicIssueDate": "92/08/26",
           "businessDescription": "散熱模組"
         },
@@ -13419,7 +14555,7 @@ window.twRevenueHistory = {
           "remark": "客戶需求增加",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：16,912,812 千元",
-          "previousHighRevenue": 16079399,
+          "previousHighRevenue": 16858476,
           "publicIssueDate": "91/04/24",
           "businessDescription": "網路通訊系列產品與相關之進出口貿易業務"
         },
@@ -13451,7 +14587,7 @@ window.twRevenueHistory = {
           "remark": "主係市場終端需求增加",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 272427,
+          "previousHighRevenue": 287016,
           "publicIssueDate": "110/04/01",
           "businessDescription": "專業晶片電阻之製造與銷售業務"
         },
@@ -13835,7 +14971,7 @@ window.twRevenueHistory = {
           "remark": "係產品組合優化及受惠於漲價效應",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 3226476,
+          "previousHighRevenue": 3787055,
           "publicIssueDate": "111/08/25",
           "businessDescription": "一般投資業"
         },
@@ -14443,7 +15579,7 @@ window.twRevenueHistory = {
           "remark": "受市場需求增加及新廠開始量產影響",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 1794449,
+          "previousHighRevenue": 1857240,
           "publicIssueDate": "92/04/14",
           "businessDescription": "記憶體IC之晶圓測試\n數位訊號IC及混合訊號IC之晶圓及成品測試\n晶圓型式之Burn in 之測試"
         },
@@ -15355,7 +16491,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 111469,
+          "previousHighRevenue": 124023,
           "publicIssueDate": "102/05/30",
           "businessDescription": "砷化鎵假型高電子遷移率電晶體磊晶片 (GaAs pHEMT epi wafers)\n磷化銦異質接面雙極電晶體磊晶片 (InP HBT epi wafers)\n銻化鎵紅外線磊晶片 (GaSb infrared epi wafers)"
         },
@@ -15497,9 +16633,9 @@ window.twRevenueHistory = {
           "yoyPct": 37.84476789227953,
           "ytdYoyPct": 7.732142198620791,
           "remark": "-",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：201,059 千元",
-          "previousHighRevenue": 191281,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 207510,
           "publicIssueDate": "90/07/13",
           "businessDescription": "自有品牌網路通訊設備製造商，主要銷售有交換器、寬頻網路、\n光纖網路、監控、語音、無線網路、路由器及工業網路等。"
         },
@@ -15547,7 +16683,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 2770165,
+          "previousHighRevenue": 3049008,
           "publicIssueDate": "99/05/11",
           "businessDescription": "扣件買賣"
         },
@@ -15611,7 +16747,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 5181276,
+          "previousHighRevenue": 5367564,
           "publicIssueDate": "91/06/10",
           "businessDescription": "電子零組件製造業\n電子材料批發業\n電子材料零售業"
         },
@@ -15963,7 +17099,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 667193,
+          "previousHighRevenue": 675149,
           "publicIssueDate": "105/12/05",
           "businessDescription": "工業產品精密金屬零件製造販售\n汽車產品精密金屬零件製造販售\n航太產品精密金屬零件製造販售"
         },
@@ -16299,7 +17435,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 88240,
+          "previousHighRevenue": 104431,
           "publicIssueDate": "92/06/10",
           "businessDescription": "類胡蘿蔔素系列產品之研發.製造與銷售\n其他預防醫學相關產品(Nutraceuticals)之研發.製造與銷售\n精密化學材料製造.化妝品製造及銷售.環境用藥批發"
         },
@@ -16573,7 +17709,7 @@ window.twRevenueHistory = {
           "remark": "本月及累計營收成長顯著,主係終端需求強勁帶動設備出貨量提升。目前訂單能見度良好,後續將依時程持續交付,營運動能維持成長趨勢",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 183348,
+          "previousHighRevenue": 285684,
           "publicIssueDate": "114/04/10",
           "businessDescription": "半導體自動化設備開發、製造及銷售業務"
         },
@@ -16589,7 +17725,7 @@ window.twRevenueHistory = {
           "remark": "係總出貨量及均價增加",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 30638984,
+          "previousHighRevenue": 31530384,
           "publicIssueDate": "92/05/16",
           "businessDescription": "IC設計業\n半導體業\n電腦及週邊設備業"
         },
@@ -16717,7 +17853,7 @@ window.twRevenueHistory = {
           "remark": "合併弘潔科技營業收入",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 363982,
+          "previousHighRevenue": 364951,
           "publicIssueDate": "111/03/18",
           "businessDescription": "半導體特氣及精密化學材料之製造與買賣"
         },
@@ -17037,7 +18173,7 @@ window.twRevenueHistory = {
           "remark": "營收成長",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 1537099,
+          "previousHighRevenue": 1973133,
           "publicIssueDate": "98/09/28",
           "businessDescription": "產業用電腦及伺服器用機箱類\n存儲平台類\n系統平台類"
         },
@@ -17213,7 +18349,7 @@ window.twRevenueHistory = {
           "remark": "成長動能來自AI伺服器液冷散熱系統市佔率持續攀升。",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：3,765,466 千元",
-          "previousHighRevenue": 3329237,
+          "previousHighRevenue": 3372007,
           "publicIssueDate": "92/08/26",
           "businessDescription": "散熱模組"
         },
@@ -17629,7 +18765,7 @@ window.twRevenueHistory = {
           "remark": "客戶需求增加",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：16,912,812 千元",
-          "previousHighRevenue": 16079399,
+          "previousHighRevenue": 16858476,
           "publicIssueDate": "91/04/24",
           "businessDescription": "網路通訊系列產品與相關之進出口貿易業務"
         },
@@ -17661,7 +18797,7 @@ window.twRevenueHistory = {
           "remark": "主係市場終端需求增加",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 272427,
+          "previousHighRevenue": 287016,
           "publicIssueDate": "110/04/01",
           "businessDescription": "專業晶片電阻之製造與銷售業務"
         },
@@ -18045,7 +19181,7 @@ window.twRevenueHistory = {
           "remark": "係產品組合優化及受惠於漲價效應",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 3226476,
+          "previousHighRevenue": 3787055,
           "publicIssueDate": "111/08/25",
           "businessDescription": "一般投資業"
         },
@@ -18653,7 +19789,7 @@ window.twRevenueHistory = {
           "remark": "受市場需求增加及新廠開始量產影響",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 1794449,
+          "previousHighRevenue": 1857240,
           "publicIssueDate": "92/04/14",
           "businessDescription": "記憶體IC之晶圓測試\n數位訊號IC及混合訊號IC之晶圓及成品測試\n晶圓型式之Burn in 之測試"
         },
@@ -18916,7 +20052,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-11-05T21:46:00+08:00",
+      "generatedAt": "2026-11-06T22:12:49+08:00",
       "period": "115/6",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -18939,7 +20075,7 @@ window.twRevenueHistory = {
       "stats": {
         "selected": 254,
         "stories": 157,
-        "highs": 29,
+        "highs": 28,
         "storyHighs": 22
       },
       "selected": [
@@ -19099,7 +20235,7 @@ window.twRevenueHistory = {
           "remark": "係總出貨量及均價增加",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 30638984,
+          "previousHighRevenue": 31530384,
           "publicIssueDate": "92/05/16",
           "businessDescription": "IC設計業\n半導體業\n電腦及週邊設備業"
         },
@@ -19163,7 +20299,7 @@ window.twRevenueHistory = {
           "remark": "本月及累計營收成長顯著,主係終端需求強勁帶動設備出貨量提升。目前訂單能見度良好,後續將依時程持續交付,營運動能維持成長趨勢",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 183348,
+          "previousHighRevenue": 285684,
           "publicIssueDate": "114/04/10",
           "businessDescription": "半導體自動化設備開發、製造及銷售業務"
         },
@@ -20491,7 +21627,7 @@ window.twRevenueHistory = {
           "remark": "主係市場終端需求增加",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 272427,
+          "previousHighRevenue": 287016,
           "publicIssueDate": "110/04/01",
           "businessDescription": "專業晶片電阻之製造與銷售業務"
         },
@@ -21339,7 +22475,7 @@ window.twRevenueHistory = {
           "remark": "自115年5月起新增合併子公司AAEON Technology 株式&#20250;社。",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：1,089,075 千元",
-          "previousHighRevenue": 984940,
+          "previousHighRevenue": 987407,
           "publicIssueDate": "105/04/29",
           "businessDescription": "工業系統產品\n單板電腦及週邊裝置"
         },
@@ -21467,7 +22603,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 667193,
+          "previousHighRevenue": 675149,
           "publicIssueDate": "105/12/05",
           "businessDescription": "工業產品精密金屬零件製造販售\n汽車產品精密金屬零件製造販售\n航太產品精密金屬零件製造販售"
         },
@@ -21513,9 +22649,9 @@ window.twRevenueHistory = {
           "yoyPct": 43.96411673327088,
           "ytdYoyPct": 16.11349789220687,
           "remark": "-",
-          "allTimeHigh": true,
-          "allTimeHighNote": "創歷史新高：485,614 千元",
-          "previousHighRevenue": 484052,
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 507262,
           "publicIssueDate": "89/04/25",
           "businessDescription": "生產及銷售化成鋁箔\n生產及銷售電蝕鋁箔"
         },
@@ -22011,7 +23147,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 2770165,
+          "previousHighRevenue": 3049008,
           "publicIssueDate": "99/05/11",
           "businessDescription": "扣件買賣"
         },
@@ -22027,7 +23163,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 1794449,
+          "previousHighRevenue": 1857240,
           "publicIssueDate": "92/04/14",
           "businessDescription": "記憶體IC之晶圓測試\n數位訊號IC及混合訊號IC之晶圓及成品測試\n晶圓型式之Burn in 之測試"
         },
@@ -22427,7 +23563,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 5181276,
+          "previousHighRevenue": 5367564,
           "publicIssueDate": "91/06/10",
           "businessDescription": "電子零組件製造業\n電子材料批發業\n電子材料零售業"
         },
@@ -23165,7 +24301,7 @@ window.twRevenueHistory = {
           "remark": "係總出貨量及均價增加",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 30638984,
+          "previousHighRevenue": 31530384,
           "publicIssueDate": "92/05/16",
           "businessDescription": "IC設計業\n半導體業\n電腦及週邊設備業"
         },
@@ -23229,7 +24365,7 @@ window.twRevenueHistory = {
           "remark": "本月及累計營收成長顯著,主係終端需求強勁帶動設備出貨量提升。目前訂單能見度良好,後續將依時程持續交付,營運動能維持成長趨勢",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 183348,
+          "previousHighRevenue": 285684,
           "publicIssueDate": "114/04/10",
           "businessDescription": "半導體自動化設備開發、製造及銷售業務"
         },
@@ -24557,7 +25693,7 @@ window.twRevenueHistory = {
           "remark": "主係市場終端需求增加",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 272427,
+          "previousHighRevenue": 287016,
           "publicIssueDate": "110/04/01",
           "businessDescription": "專業晶片電阻之製造與銷售業務"
         },
@@ -25325,7 +26461,7 @@ window.twRevenueHistory = {
           "remark": "自115年5月起新增合併子公司AAEON Technology 株式&#20250;社。",
           "allTimeHigh": true,
           "allTimeHighNote": "創歷史新高：1,089,075 千元",
-          "previousHighRevenue": 984940,
+          "previousHighRevenue": 987407,
           "publicIssueDate": "105/04/29",
           "businessDescription": "工業系統產品\n單板電腦及週邊裝置"
         },
@@ -25524,7 +26660,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-11-05T21:46:03+08:00",
+      "generatedAt": "2026-11-06T22:12:52+08:00",
       "period": "115/5",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -25739,7 +26875,7 @@ window.twRevenueHistory = {
           "remark": "係總出貨量及均價增加",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 30638984,
+          "previousHighRevenue": 31530384,
           "publicIssueDate": "92/05/16",
           "businessDescription": "IC設計業\n半導體業\n電腦及週邊設備業"
         },
@@ -25787,7 +26923,7 @@ window.twRevenueHistory = {
           "remark": "合併弘潔科技營業收入",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 363982,
+          "previousHighRevenue": 364951,
           "publicIssueDate": "111/03/18",
           "businessDescription": "半導體特氣及精密化學材料之製造與買賣"
         },
@@ -26635,7 +27771,7 @@ window.twRevenueHistory = {
           "remark": "主係客戶需求增加所致",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 3226476,
+          "previousHighRevenue": 3787055,
           "publicIssueDate": "111/08/25",
           "businessDescription": "一般投資業"
         },
@@ -26907,7 +28043,7 @@ window.twRevenueHistory = {
           "remark": "主係市場終端需求增加",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 272427,
+          "previousHighRevenue": 287016,
           "publicIssueDate": "110/04/01",
           "businessDescription": "專業晶片電阻之製造與銷售業務"
         },
@@ -28043,7 +29179,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 5181276,
+          "previousHighRevenue": 5367564,
           "publicIssueDate": "91/06/10",
           "businessDescription": "電子零組件製造業\n電子材料批發業\n電子材料零售業"
         },
@@ -28059,7 +29195,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 1794449,
+          "previousHighRevenue": 1857240,
           "publicIssueDate": "92/04/14",
           "businessDescription": "記憶體IC之晶圓測試\n數位訊號IC及混合訊號IC之晶圓及成品測試\n晶圓型式之Burn in 之測試"
         },
@@ -28573,7 +29709,7 @@ window.twRevenueHistory = {
           "remark": "係總出貨量及均價增加",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 30638984,
+          "previousHighRevenue": 31530384,
           "publicIssueDate": "92/05/16",
           "businessDescription": "IC設計業\n半導體業\n電腦及週邊設備業"
         },
@@ -28621,7 +29757,7 @@ window.twRevenueHistory = {
           "remark": "合併弘潔科技營業收入",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 363982,
+          "previousHighRevenue": 364951,
           "publicIssueDate": "111/03/18",
           "businessDescription": "半導體特氣及精密化學材料之製造與買賣"
         },
@@ -29469,7 +30605,7 @@ window.twRevenueHistory = {
           "remark": "主係客戶需求增加所致",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 3226476,
+          "previousHighRevenue": 3787055,
           "publicIssueDate": "111/08/25",
           "businessDescription": "一般投資業"
         },
@@ -29741,7 +30877,7 @@ window.twRevenueHistory = {
           "remark": "主係市場終端需求增加",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 272427,
+          "previousHighRevenue": 287016,
           "publicIssueDate": "110/04/01",
           "businessDescription": "專業晶片電阻之製造與銷售業務"
         },
@@ -30100,7 +31236,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-11-05T21:46:06+08:00",
+      "generatedAt": "2026-11-06T22:12:55+08:00",
       "period": "115/4",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -30155,7 +31291,7 @@ window.twRevenueHistory = {
           "remark": "本月及累計營收成長顯著,主係終端需求強勁帶動設備出貨量提升。目前訂單能見度良好,後續將依時程持續交付,營運動能維持成長趨勢",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 183348,
+          "previousHighRevenue": 285684,
           "publicIssueDate": "114/04/10",
           "businessDescription": "半導體自動化設備開發、製造及銷售業務"
         },
@@ -30427,7 +31563,7 @@ window.twRevenueHistory = {
           "remark": "係總出貨量及均價增加",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 30638984,
+          "previousHighRevenue": 31530384,
           "publicIssueDate": "92/05/16",
           "businessDescription": "IC設計業\n半導體業\n電腦及週邊設備業"
         },
@@ -30443,7 +31579,7 @@ window.twRevenueHistory = {
           "remark": "合併弘潔科技營業收入",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 363982,
+          "previousHighRevenue": 364951,
           "publicIssueDate": "111/03/18",
           "businessDescription": "半導體特氣及精密化學材料之製造與買賣"
         },
@@ -31435,7 +32571,7 @@ window.twRevenueHistory = {
           "remark": "客戶需求增加，故營收上升",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 292262,
+          "previousHighRevenue": 304352,
           "publicIssueDate": "113/10/16",
           "businessDescription": "印刷電路板\n工業電腦及工控領域相關電子產品"
         },
@@ -32411,7 +33547,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 272427,
+          "previousHighRevenue": 287016,
           "publicIssueDate": "110/04/01",
           "businessDescription": "專業晶片電阻之製造與銷售業務"
         },
@@ -32733,7 +33869,7 @@ window.twRevenueHistory = {
           "remark": "本月及累計營收成長顯著,主係終端需求強勁帶動設備出貨量提升。目前訂單能見度良好,後續將依時程持續交付,營運動能維持成長趨勢",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 183348,
+          "previousHighRevenue": 285684,
           "publicIssueDate": "114/04/10",
           "businessDescription": "半導體自動化設備開發、製造及銷售業務"
         },
@@ -33005,7 +34141,7 @@ window.twRevenueHistory = {
           "remark": "係總出貨量及均價增加",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 30638984,
+          "previousHighRevenue": 31530384,
           "publicIssueDate": "92/05/16",
           "businessDescription": "IC設計業\n半導體業\n電腦及週邊設備業"
         },
@@ -33021,7 +34157,7 @@ window.twRevenueHistory = {
           "remark": "合併弘潔科技營業收入",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 363982,
+          "previousHighRevenue": 364951,
           "publicIssueDate": "111/03/18",
           "businessDescription": "半導體特氣及精密化學材料之製造與買賣"
         },
@@ -34013,7 +35149,7 @@ window.twRevenueHistory = {
           "remark": "客戶需求增加，故營收上升",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 292262,
+          "previousHighRevenue": 304352,
           "publicIssueDate": "113/10/16",
           "businessDescription": "印刷電路板\n工業電腦及工控領域相關電子產品"
         },
@@ -34260,7 +35396,7 @@ window.twRevenueHistory = {
       ]
     },
     {
-      "generatedAt": "2026-11-05T21:46:09+08:00",
+      "generatedAt": "2026-11-06T22:12:58+08:00",
       "period": "115/3",
       "source": "MOPS 月營收彙總表",
       "filters": {
@@ -34281,7 +35417,7 @@ window.twRevenueHistory = {
         "publicIssueDateCutoff": "89/01/01"
       },
       "stats": {
-        "selected": 290,
+        "selected": 291,
         "stories": 138,
         "highs": 14,
         "storyHighs": 13
@@ -34555,7 +35691,7 @@ window.twRevenueHistory = {
           "remark": "係總出貨量增加",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 30638984,
+          "previousHighRevenue": 31530384,
           "publicIssueDate": "92/05/16",
           "businessDescription": "IC設計業\n半導體業\n電腦及週邊設備業"
         },
@@ -36587,7 +37723,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 3226476,
+          "previousHighRevenue": 3787055,
           "publicIssueDate": "111/08/25",
           "businessDescription": "一般投資業"
         },
@@ -37163,7 +38299,7 @@ window.twRevenueHistory = {
           "remark": "-",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 272427,
+          "previousHighRevenue": 287016,
           "publicIssueDate": "110/04/01",
           "businessDescription": "專業晶片電阻之製造與銷售業務"
         },
@@ -38603,7 +39739,7 @@ window.twRevenueHistory = {
           "remark": "本年累計營收成長逾50%，主係終端市場需求增溫帶動業務擴增；目前訂單能見度良好，後續將依排程持續交付，營運動能維持成長趨勢",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 183348,
+          "previousHighRevenue": 285684,
           "publicIssueDate": "114/04/10",
           "businessDescription": "半導體自動化設備開發、製造及銷售業務"
         },
@@ -38766,6 +39902,22 @@ window.twRevenueHistory = {
           "previousHighRevenue": 597273,
           "publicIssueDate": "112/01/30",
           "businessDescription": "RFID電子標籤"
+        },
+        {
+          "market": "上市",
+          "code": "3617",
+          "name": "碩天",
+          "industry": "其他電子業",
+          "currentRevenue": 1142156,
+          "momPct": 38.88556517002038,
+          "yoyPct": 6.942444359135214,
+          "ytdYoyPct": 1.964190607911974,
+          "remark": "-",
+          "allTimeHigh": false,
+          "allTimeHighNote": "",
+          "previousHighRevenue": 1329275,
+          "publicIssueDate": "97/01/15",
+          "businessDescription": "不斷電電源供應系統之設計製造及銷售業務\n電源保護與電源管理系統之設計製造及銷售業務\n電力電子相關設備之設計製造及銷售業務"
         },
         {
           "market": "上櫃",
@@ -39197,7 +40349,7 @@ window.twRevenueHistory = {
           "remark": "係總出貨量增加",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 30638984,
+          "previousHighRevenue": 31530384,
           "publicIssueDate": "92/05/16",
           "businessDescription": "IC設計業\n半導體業\n電腦及週邊設備業"
         },
@@ -41133,7 +42285,7 @@ window.twRevenueHistory = {
           "remark": "本年累計營收成長逾50%，主係終端市場需求增溫帶動業務擴增；目前訂單能見度良好，後續將依排程持續交付，營運動能維持成長趨勢",
           "allTimeHigh": false,
           "allTimeHighNote": "",
-          "previousHighRevenue": 183348,
+          "previousHighRevenue": 285684,
           "publicIssueDate": "114/04/10",
           "businessDescription": "半導體自動化設備開發、製造及銷售業務"
         }
