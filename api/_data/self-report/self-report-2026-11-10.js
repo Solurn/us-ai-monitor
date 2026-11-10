@@ -1,0 +1,71 @@
+window.selfReportArchiveItems = window.selfReportArchiveItems || {};
+window.selfReportArchiveItems["2026-11-10"] = {
+  "generatedAt": "2026-11-10T22:08:01+08:00",
+  "queryDate": "2026-11-10",
+  "displayDate": "115年11月10日",
+  "checkedAt": "2026-11-10T22:08:01+08:00",
+  "checkedQueryDate": "2026-11-10",
+  "checkedDisplayDate": "115年11月10日",
+  "checkedCount": 2,
+  "checkedSkipped": {
+    "bond_subject": 5,
+    "missing_financials": 0,
+    "duplicate": 0,
+    "detail_error": 0
+  },
+  "count": 2,
+  "skipped": {
+    "bond_subject": 5,
+    "missing_financials": 0,
+    "duplicate": 0,
+    "detail_error": 0
+  },
+  "rows": [
+    {
+      "code": "1416",
+      "name": "廣豐",
+      "market": "上市",
+      "announcement_date": "115/11/10",
+      "subject": "本公司有價證券於集中交易市場達公布注意交易資訊標準 故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "month_label": "單月",
+      "monthly_revenue": 50.72,
+      "monthly_pre_tax_income": 46.74,
+      "monthly_parent_income": 17.6,
+      "monthly_eps": 0.1,
+      "quarter_eps": 0.45,
+      "tax_margin_pct": 92.15299684542587,
+      "operating_margin_pct": 34.700315457413254,
+      "previous_quarter_monthly_eps": 0.15,
+      "reference_quarter": "2026Q2",
+      "reference_tax_margin_pct": 72.75,
+      "reference_operating_margin_pct": 8.39,
+      "tax_margin_delta_pct": 19.402996845425875,
+      "operating_margin_delta_pct": 26.310315457413253,
+      "detail_key": "sii:1416:20261110:160039:4"
+    },
+    {
+      "code": "2467",
+      "name": "志聖",
+      "market": "上市",
+      "announcement_date": "115/11/10",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準， 故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "month_label": "單月",
+      "monthly_revenue": 1013.0,
+      "monthly_pre_tax_income": 240.0,
+      "monthly_parent_income": 167.0,
+      "monthly_eps": 1.05,
+      "quarter_eps": 3.51,
+      "tax_margin_pct": 23.692003948667324,
+      "operating_margin_pct": 16.48568608094768,
+      "previous_quarter_monthly_eps": 1.17,
+      "reference_quarter": "2026Q3",
+      "reference_tax_margin_pct": 24.73,
+      "reference_operating_margin_pct": 20.09,
+      "tax_margin_delta_pct": -1.0379960513326765,
+      "operating_margin_delta_pct": -3.60431391905232,
+      "detail_key": "sii:2467:20261110:154939:1"
+    }
+  ],
+  "image": "./assets/self-report/self-report-2026-11-10.png",
+  "source": "公開資訊觀測站 / CMoney 財務比率"
+};
