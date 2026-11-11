@@ -2,12 +2,12 @@ window.selfReportLatest = {
   "generatedAt": "2026-11-10T22:08:01+08:00",
   "queryDate": "2026-11-10",
   "displayDate": "115年11月10日",
-  "checkedAt": "2026-11-10T22:08:01+08:00",
-  "checkedQueryDate": "2026-11-10",
-  "checkedDisplayDate": "115年11月10日",
-  "checkedCount": 2,
+  "checkedAt": "2026-11-11T21:23:47+08:00",
+  "checkedQueryDate": "2026-11-11",
+  "checkedDisplayDate": "115年11月11日",
+  "checkedCount": 0,
   "checkedSkipped": {
-    "bond_subject": 5,
+    "bond_subject": 0,
     "missing_financials": 0,
     "duplicate": 0,
     "detail_error": 0
