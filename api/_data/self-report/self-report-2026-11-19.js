@@ -1,0 +1,71 @@
+window.selfReportArchiveItems = window.selfReportArchiveItems || {};
+window.selfReportArchiveItems["2026-11-19"] = {
+  "generatedAt": "2026-11-19T22:15:13+08:00",
+  "queryDate": "2026-11-19",
+  "displayDate": "115年11月19日",
+  "checkedAt": "2026-11-19T22:15:13+08:00",
+  "checkedQueryDate": "2026-11-19",
+  "checkedDisplayDate": "115年11月19日",
+  "checkedCount": 2,
+  "checkedSkipped": {
+    "bond_subject": 1,
+    "missing_financials": 0,
+    "duplicate": 1,
+    "detail_error": 0
+  },
+  "count": 2,
+  "skipped": {
+    "bond_subject": 1,
+    "missing_financials": 0,
+    "duplicate": 1,
+    "detail_error": 0
+  },
+  "rows": [
+    {
+      "code": "2305",
+      "name": "全友",
+      "market": "上市",
+      "announcement_date": "115/11/19",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準 故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "month_label": "10月",
+      "monthly_revenue": 173.81,
+      "monthly_pre_tax_income": 57.72,
+      "monthly_parent_income": 30.11,
+      "monthly_eps": 0.15,
+      "quarter_eps": 0.34,
+      "tax_margin_pct": 33.20867614061331,
+      "operating_margin_pct": 17.323514182152923,
+      "previous_quarter_monthly_eps": 0.11333333333333334,
+      "reference_quarter": "2026Q3",
+      "reference_tax_margin_pct": 31.36,
+      "reference_operating_margin_pct": 26.28,
+      "tax_margin_delta_pct": 1.848676140613314,
+      "operating_margin_delta_pct": -8.956485817847078,
+      "detail_key": "sii:2305:20261119:152726:1"
+    },
+    {
+      "code": "8227",
+      "name": "巨有科技",
+      "market": "上櫃",
+      "announcement_date": "115/11/19",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準， 故公告相關訊息，以利投資人區別暸解。",
+      "month_label": "單月",
+      "monthly_revenue": 181.46,
+      "monthly_pre_tax_income": 18.39,
+      "monthly_parent_income": null,
+      "monthly_eps": 0.33,
+      "quarter_eps": 0.58,
+      "tax_margin_pct": 10.134464895844813,
+      "operating_margin_pct": null,
+      "previous_quarter_monthly_eps": 0.19333333333333333,
+      "reference_quarter": "2026Q3",
+      "reference_tax_margin_pct": 6.76,
+      "reference_operating_margin_pct": 8.14,
+      "tax_margin_delta_pct": 3.374464895844813,
+      "operating_margin_delta_pct": null,
+      "detail_key": "otc:8227:20261119:142459:1"
+    }
+  ],
+  "image": "./assets/self-report/self-report-2026-11-19.png",
+  "source": "公開資訊觀測站 / CMoney 財務比率"
+};
